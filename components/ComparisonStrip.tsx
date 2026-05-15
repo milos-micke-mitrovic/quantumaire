@@ -50,7 +50,7 @@ export function ComparisonStrip({
       </div>
       {sizeMeters !== null && (
         <span className="mt-1 font-mono text-xs text-cosmos-plasma">
-          {formatMeters(sizeMeters)}
+          {formatMeters(sizeMeters, t)}
         </span>
       )}
     </div>

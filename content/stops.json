@@ -219,6 +219,8 @@
       "id": "milky_way",
       "i18nKey": "stops.milky_way",
       "sizeMeters": 1e21,
+      "distanceFromEarthMeters": 5e20,
+      "distanceNameKey": "stops.milky_way.distanceName",
       "order": 11,
       "badge": "FACT",
       "category": "COSMOS",
@@ -282,6 +284,8 @@
       "id": "observable_universe",
       "i18nKey": "stops.observable_universe",
       "sizeMeters": 8.8e26,
+      "distanceFromEarthMeters": 4.4e26,
+      "distanceNameKey": "stops.observable_universe.distanceName",
       "order": 14,
       "badge": "ESTABLISHED_THEORY",
       "category": "COSMOS",
@@ -475,6 +479,8 @@
       "id": "solar_system",
       "i18nKey": "stops.solar_system",
       "sizeMeters": 1.5e13,
+      "distanceFromEarthMeters": 1.5e16,
+      "distanceNameKey": "stops.solar_system.distanceName",
       "order": 10.5,
       "badge": "FACT",
       "category": "COSMOS",
@@ -496,6 +502,7 @@
       "id": "voyager1",
       "i18nKey": "stops.voyager1",
       "sizeMeters": 2.5e13,
+      "distanceFromEarthMeters": 2.5e13,
       "order": 10.55,
       "badge": "FACT",
       "category": "COSMOS",
@@ -563,6 +570,8 @@
       "id": "laniakea_supercluster",
       "i18nKey": "stops.laniakea_supercluster",
       "sizeMeters": 5e24,
+      "distanceFromEarthMeters": 3e24,
+      "distanceNameKey": "stops.laniakea_supercluster.distanceName",
       "order": 11.7,
       "badge": "ESTABLISHED_THEORY",
       "category": "COSMOS",
@@ -578,6 +587,72 @@
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Laniakea_Supercluster" },
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Great_Attractor" }
+      ]
+    },
+    {
+      "id": "moon",
+      "i18nKey": "stops.moon",
+      "sizeMeters": 3.4748e6,
+      "distanceFromEarthMeters": 3.844e8,
+      "order": 7.5,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-star",
+      "accentGlow": "shadow-[0_0_60px_rgba(224,242,254,0.4)]",
+      "image": {
+        "src": "/images/moon.webp",
+        "aspect": "square",
+        "altKey": "stops.moon.image.alt",
+        "geminiPrompt": "The Moon as seen from Earth orbit — full disc, cratered surface lit by direct sunlight, maria rendered in soft #1a1245 grey-blue, highlands in pale #e0f2fe, deep #03030a void background with a sparse field of #f0abfc stars. Photographic scientific render, ultra-detailed, NASA-grade clarity."
+      },
+      "glossary": ["tidal_lock", "light_year"],
+      "sources": [
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Moon" },
+        { "label": "NASA", "url": "https://moon.nasa.gov/about/in-depth/" }
+      ]
+    },
+    {
+      "id": "jupiter",
+      "i18nKey": "stops.jupiter",
+      "sizeMeters": 1.3982e8,
+      "distanceFromEarthMeters": 7.785e11,
+      "order": 8.7,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-plasma",
+      "accentGlow": "shadow-[0_0_90px_rgba(240,171,252,0.4)]",
+      "image": {
+        "src": "/images/jupiter.webp",
+        "aspect": "square",
+        "altKey": "stops.jupiter.image.alt",
+        "geminiPrompt": "Jupiter as a gas giant — banded cloud belts in #c084fc, #f0abfc, and warm cream, the Great Red Spot a clear vortex, four Galilean moons visible as small specks beside it. Deep #03030a space background scattered with #e0f2fe stars. Photographic scientific render, ultra-detailed."
+      },
+      "glossary": ["light_year"],
+      "sources": [
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jupiter" },
+        { "label": "NASA", "url": "https://science.nasa.gov/jupiter/" }
+      ]
+    },
+    {
+      "id": "proxima_centauri",
+      "i18nKey": "stops.proxima_centauri",
+      "sizeMeters": 2.14e8,
+      "distanceFromEarthMeters": 4.014e16,
+      "order": 9.5,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-nova",
+      "accentGlow": "shadow-[0_0_100px_rgba(240,171,252,0.45)]",
+      "image": {
+        "src": "/images/proxima-centauri.webp",
+        "aspect": "square",
+        "altKey": "stops.proxima_centauri.image.alt",
+        "geminiPrompt": "Proxima Centauri — a small red dwarf star glowing in deep #f0abfc and warm crimson tones, surface mottled with magnetic activity. A small terrestrial exoplanet (Proxima b) silhouetted against the disc. Background: deep #03030a void with #e0f2fe field stars and a faint Alpha Centauri pair in the distance. Photographic scientific render, ultra-detailed."
+      },
+      "glossary": ["light_year", "habitable_zone"],
+      "sources": [
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proxima_Centauri" },
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b" }
       ]
     }
   ]

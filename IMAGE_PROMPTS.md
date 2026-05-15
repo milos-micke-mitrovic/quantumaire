@@ -81,6 +81,34 @@ crop, ultra-detailed.
 *(If you keep the existing `galaxy-cluster.webp` image you're already happy
 with, skip this one — the filename is shared.)*
 
+## 6 · Moon → `public/images/moon.webp` (1:1 square)
+
+The Moon as seen from low Earth orbit — full disc, sharply lit from one
+side by direct sunlight. Maria rendered in soft `#1a1245` grey-blue,
+highlands in pale `#e0f2fe`. Crisp rim of craters along the terminator
+line. Background: deep `#03030a` void with a sparse field of `#f0abfc`
+stars. Photographic scientific render, ultra-detailed, NASA-grade
+clarity.
+
+## 7 · Jupiter → `public/images/jupiter.webp` (1:1 square)
+
+Jupiter as a gas giant — banded cloud belts in `#c084fc`, `#f0abfc`, and
+warm cream, the Great Red Spot a clear anticyclonic vortex below the
+equator. Four Galilean moons (Io, Europa, Ganymede, Callisto) visible as
+small specks beside the planet in correct rough relative size. Deep
+`#03030a` space background scattered with `#e0f2fe` stars. Photographic
+scientific render, ultra-detailed.
+
+## 8 · Proxima Centauri → `public/images/proxima-centauri.webp` (1:1 square)
+
+Proxima Centauri — a small, dim red-dwarf star glowing in deep `#f0abfc`
+and warm crimson tones, surface mottled with magnetic activity and a
+small stellar flare arc. The silhouette of a terrestrial exoplanet
+(Proxima b) crossing the disc. In the far background, the brighter Alpha
+Centauri A/B pair as a tight `#e0f2fe` binary. Deep `#03030a` void with
+a sparse `#7c5cff` star field. Photographic scientific render,
+ultra-detailed.
+
 ---
 
 ## After generation

@@ -15,11 +15,12 @@
     "openStop": "Open stop",
     "returnHome": "Return to the journey",
     "moreSoon": "More to explore",
-    "scaleLegend": "Hover or tap any dot to open that stop. Position represents size on a logarithmic scale — from a quark on the far left to the observable universe on the far right.",
+    "here": "Here",
+    "scaleLegend": "Tap a dot to preview it. Use the Open stop link to read its full page. Stops are arranged from smallest on the left to largest on the right.",
     "awayFromEarth": "{value} from Earth",
     "distance": "Distance",
     "distanceFromEarth": "From Earth",
-    "distanceLegend": "Hover or tap any dot to open that stop. Position represents distance from Earth on a logarithmic scale — from the Moon (~10⁸ m) to the edge of the observable universe (~10²⁷ m).",
+    "distanceLegend": "Tap a dot to preview it. Use the Open stop link to read its full page. Stops are arranged from Earth on the left, outward toward the edge of the observable universe.",
     "viewBySize": "By size",
     "viewByDistance": "By distance",
     "abstract": "abstract",
@@ -70,6 +71,7 @@
     "numberMillion": "million",
     "numberBillion": "billion",
     "numberTrillion": "trillion",
+    "unitLightYear": "ly",
     "share": "Share",
     "shareCopy": "Copy link",
     "shareCopied": "Copied!",
@@ -344,6 +346,7 @@
     },
     "milky_way": {
       "name": "Milky Way",
+      "distanceName": "Across the Milky Way",
       "tagline": "A spiral of roughly 200 billion stars — including ours.",
       "body": "The Milky Way is a barred spiral galaxy about 100,000 light-years across. Our Sun is one of hundreds of billions of stars in it, riding a quiet arm called Orion. At the very centre is Sagittarius A* — a supermassive black hole four million times the mass of the Sun.",
       "narrative": "If the Milky Way were shrunk to the size of France, the entire Solar System would fit inside a coin.",
@@ -391,6 +394,7 @@
     },
     "observable_universe": {
       "name": "Observable Universe",
+      "distanceName": "Edge of the observable universe",
       "tagline": "The 93-billion-light-year sphere we can, in principle, see.",
       "body": "The observable universe is everything close enough that light has had time to reach us since the Big Bang. It is a sphere about 93 billion light-years across — and almost certainly a tiny slice of something larger. Past its edge, the rest is forever beyond our horizon.",
       "narrative": "Light from the edge of the observable universe has been travelling for the entire 13.8 billion years of cosmic history to reach us — and at the same time, more space keeps appearing in between.",
@@ -590,6 +594,7 @@
     },
     "laniakea_supercluster": {
       "name": "Laniakea Supercluster",
+      "distanceName": "Edge of our supercluster",
       "tagline": "The supercluster of galaxy clusters our Milky Way lives inside.",
       "body": "Laniakea is the vast supercluster of which our Milky Way is a tiny outer participant. It spans roughly 500 million light-years and contains about 100,000 galaxies organised along filaments that all stream toward a common gravitational basin — the Great Attractor. Astronomers only formally identified Laniakea in 2014. Even larger structures exist out there, such as the contentious Hercules-Corona Borealis Great Wall, but no supercluster is truly bound by gravity — cosmic expansion is gradually pulling them apart.",
       "narrative": "If the Milky Way were a grain of rice, Laniakea would still be the size of a small city — a city in which every grain is a galaxy, and every street curves toward the same hidden pull.",
@@ -607,6 +612,7 @@
     },
     "solar_system": {
       "name": "The Solar System",
+      "distanceName": "Edge of the Solar System",
       "tagline": "One star and everything held in its gravity.",
       "body": "Eight planets, five dwarf planets, more than 200 moons, and millions of asteroids and comets — all bound to one yellow star. The planetary part is roughly 12 billion km wide. The Sun's gravity, though, reaches out a hundred thousand times further, into a faint shell of icy bodies called the Oort cloud. Voyager 1, our farthest probe, has been travelling for 48 years and still isn't past it.",
       "narrative": "Shrink the Solar System to fit on a basketball court, and Earth would be smaller than a grain of sand near the centre — completely invisible to the naked eye.",
@@ -619,6 +625,54 @@
         "fact2": "8 planets, 5 dwarf planets, more than 200 known moons.",
         "fact3": "Voyager 1 has been travelling for 48 years and is about 24 billion km out.",
         "fact4": "The Oort cloud may extend up to 100,000 AU from the Sun."
+      }
+    },
+    "moon": {
+      "name": "The Moon",
+      "tagline": "Earth's only natural satellite — locked to us forever.",
+      "body": "The Moon is the fifth-largest moon in the Solar System and the only place beyond Earth that humans have walked on. It is tidally locked, which is why the same side always faces us; the far side was first photographed by a Soviet probe in 1959. Its surface is a fossil record of the violent early Solar System — every crater is a story that Earth itself has long since erased through weather and tectonics.",
+      "narrative": "The Moon is drifting away from Earth at about 3.8 cm a year — roughly the rate your fingernails grow. Hundreds of millions of years ago, total solar eclipses lasted much longer; in another billion years, they'll stop happening at all.",
+      "funFact": "The Apollo astronauts left mirrors on the Moon. Laser pulses fired from observatories on Earth still bounce off them today, letting us measure the Earth–Moon distance to within millimetres.",
+      "image": {
+        "alt": "The Moon as a full disc, cratered surface lit by direct sunlight."
+      },
+      "facts": {
+        "fact1": "Diameter about 3,475 km — roughly a quarter of Earth's.",
+        "fact2": "Average distance from Earth: 384,400 km.",
+        "fact3": "Tidally locked — the same hemisphere always faces Earth.",
+        "fact4": "Twelve humans have walked on its surface, all between 1969 and 1972."
+      }
+    },
+    "jupiter": {
+      "name": "Jupiter",
+      "tagline": "The Solar System's largest planet — a failed star, almost.",
+      "body": "Jupiter is a gas giant more massive than all the other planets combined. Its atmosphere is a turbulent ocean of hydrogen and helium, marked by storm belts and the Great Red Spot — an anticyclone large enough to swallow Earth and still have room left over. It also has 95 confirmed moons; four of them, the Galilean satellites, were the first objects ever shown to orbit something other than Earth.",
+      "narrative": "Jupiter is so massive that it doesn't orbit the Sun directly — the two share a common centre of mass, called the barycentre, that sits just outside the Sun's surface. It's the only planet in our system where this is true.",
+      "funFact": "If Jupiter had grown about 80 times more massive, hydrogen fusion would have ignited in its core and it would have become a small star. We would live in a binary system instead of a planetary one.",
+      "image": {
+        "alt": "Jupiter with banded cloud belts and the Great Red Spot, four Galilean moons visible beside it."
+      },
+      "facts": {
+        "fact1": "Diameter about 139,820 km — roughly 11 times Earth's.",
+        "fact2": "Average distance from the Sun: 778 million km (about 5.2 AU).",
+        "fact3": "A day on Jupiter is under 10 hours — the fastest spin of any planet.",
+        "fact4": "Has 95 confirmed moons, including the four large Galilean satellites."
+      }
+    },
+    "proxima_centauri": {
+      "name": "Proxima Centauri",
+      "tagline": "The closest known star to the Sun — and still impossibly far.",
+      "body": "Proxima Centauri is a small, dim red dwarf about 4.24 light-years from Earth. It is the nearest known star to the Sun, part of the triple Alpha Centauri system. At least two planets are confirmed to orbit it, one — Proxima b — sitting in the habitable zone where liquid water could exist on its surface. The catch is that red dwarfs are violently active; Proxima regularly fires off flares that would strip away an Earth-like atmosphere.",
+      "narrative": "Even at the speed of light it takes 4.24 years to get to Proxima Centauri. The fastest human spacecraft ever launched (Parker Solar Probe) would take more than 6,000 years to make the trip.",
+      "funFact": "Despite being our nearest stellar neighbour, Proxima is too dim to see with the naked eye. You need a telescope — even though, in cosmic terms, it's basically next door.",
+      "image": {
+        "alt": "Proxima Centauri — a small red dwarf star with the silhouette of Proxima b crossing its disc."
+      },
+      "facts": {
+        "fact1": "About 4.24 light-years away — roughly 40 trillion km.",
+        "fact2": "Diameter about 214,000 km — about 15% of the Sun's.",
+        "fact3": "A red dwarf, with a surface temperature of around 3,000 K.",
+        "fact4": "Has at least two known planets, including Proxima b in the habitable zone."
       }
     }
   },
@@ -868,6 +922,14 @@
     "main_sequence": {
       "term": "Main sequence",
       "definition": "The long-lived hydrogen-fusing stage where most stars, including the Sun, spend their lives."
+    },
+    "tidal_lock": {
+      "term": "Tidal lock",
+      "definition": "When a moon or planet's rotation period matches its orbit, so the same face always points toward its companion."
+    },
+    "habitable_zone": {
+      "term": "Habitable zone",
+      "definition": "The orbital range around a star where temperatures permit liquid water on a rocky planet's surface."
     },
     "hypergiant": {
       "term": "Hypergiant",

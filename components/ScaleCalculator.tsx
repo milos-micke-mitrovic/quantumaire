@@ -158,7 +158,7 @@ export function ScaleCalculator() {
             {t("common.scaleTool.yourValue")}
           </p>
           <p className="mt-2 font-mono text-2xl text-cosmos-star">
-            {formatMeters(meters)}
+            {formatMeters(meters, t)}
           </p>
         </div>
         <div className="rounded-2xl border border-white/10 bg-white/[0.025] p-5">
@@ -207,7 +207,7 @@ export function ScaleCalculator() {
               </div>
               <span className="font-mono text-sm text-cosmos-plasma">
                 {near.sizeMeters !== null
-                  ? formatMeters(near.sizeMeters)
+                  ? formatMeters(near.sizeMeters, t)
                   : t("common.abstract")}
               </span>
             </motion.div>

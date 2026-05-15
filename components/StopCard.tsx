@@ -68,14 +68,14 @@ export function StopCard({ stop, index }: StopCardProps) {
           <span className="text-right">
             <span className="block">
               {stop.sizeMeters !== null
-                ? formatMeters(stop.sizeMeters)
+                ? formatMeters(stop.sizeMeters, t)
                 : t("common.abstract")}
             </span>
             {stop.distanceFromEarthMeters !== undefined &&
               stop.distanceFromEarthMeters > 0 && (
                 <span className="mt-0.5 block text-cosmos-star/40">
                   {t("common.awayFromEarth", {
-                    value: formatMeters(stop.distanceFromEarthMeters),
+                    value: formatMeters(stop.distanceFromEarthMeters, t),
                   })}
                 </span>
               )}

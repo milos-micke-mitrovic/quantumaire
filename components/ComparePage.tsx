@@ -45,7 +45,7 @@ function StopPicker({ label, selectedId, onChange }: PickerProps) {
           {COMPARABLE_STOPS.map((s) => (
             <option key={s.id} value={s.id}>
               {t(`${s.i18nKey}.name`)}
-              {s.sizeMeters !== null ? ` · ${formatMeters(s.sizeMeters)}` : ""}
+              {s.sizeMeters !== null ? ` · ${formatMeters(s.sizeMeters, t)}` : ""}
             </option>
           ))}
         </select>
@@ -88,7 +88,7 @@ function CompareCard({ stop, label }: CompareCardProps) {
         <span>{label}</span>
         <span>
           {stop.sizeMeters !== null
-            ? formatMeters(stop.sizeMeters)
+            ? formatMeters(stop.sizeMeters, t)
             : t("common.abstract")}
         </span>
       </div>

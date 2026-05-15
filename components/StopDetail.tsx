@@ -99,7 +99,7 @@ export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
               </span>
               <span className="rounded-full bg-white/[0.04] px-3 py-1 text-[10px] font-medium uppercase tracking-[0.18em] text-cosmos-star/70">
                 {stop.sizeMeters !== null
-                  ? formatMeters(stop.sizeMeters)
+                  ? formatMeters(stop.sizeMeters, t)
                   : t("common.abstract")}
               </span>
               <span className="rounded-full bg-white/[0.04] px-3 py-1 text-[10px] font-medium uppercase tracking-[0.18em] text-cosmos-star/55">

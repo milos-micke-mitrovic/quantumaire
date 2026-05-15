@@ -122,7 +122,7 @@ export function StopScaleVsReference({ stop }: StopScaleVsReferenceProps) {
                 {stopIsBigger ? stopName : refName}
               </span>
               <span className="block font-mono text-[11px] text-cosmos-plasma">
-                {formatMeters(stopIsBigger ? stopSize : refSize)}
+                {formatMeters(stopIsBigger ? stopSize : refSize, t)}
               </span>
             </span>
           </li>
@@ -136,7 +136,7 @@ export function StopScaleVsReference({ stop }: StopScaleVsReferenceProps) {
                 {stopIsBigger ? refName : stopName}
               </span>
               <span className="block font-mono text-[11px] text-cosmos-plasma">
-                {formatMeters(stopIsBigger ? refSize : stopSize)}
+                {formatMeters(stopIsBigger ? refSize : stopSize, t)}
               </span>
             </span>
           </li>

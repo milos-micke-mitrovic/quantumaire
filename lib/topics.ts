@@ -29,7 +29,7 @@ export const TOPICS: Topic[] = [
     slug: "stars",
     i18nKey: "topics.stars",
     sectionCount: 5,
-    relatedStopIds: ["sun", "uy_scuti", "neutron_star", "supermassive_black_hole"],
+    relatedStopIds: ["sun", "proxima_centauri", "uy_scuti", "neutron_star", "supermassive_black_hole"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Star" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Stellar_classification" },
@@ -41,7 +41,7 @@ export const TOPICS: Topic[] = [
     slug: "planets",
     i18nKey: "topics.planets",
     sectionCount: 4,
-    relatedStopIds: ["earth", "solar_system"],
+    relatedStopIds: ["earth", "jupiter", "solar_system"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Planet" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Exoplanet" },
@@ -77,7 +77,7 @@ export const TOPICS: Topic[] = [
     slug: "moons",
     i18nKey: "topics.moons",
     sectionCount: 4,
-    relatedStopIds: ["earth", "solar_system"],
+    relatedStopIds: ["moon", "earth", "jupiter", "solar_system"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Natural_satellite" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Ganymede_(moon)" },
@@ -125,7 +125,7 @@ export const TOPICS: Topic[] = [
     slug: "distances",
     i18nKey: "topics.distances",
     sectionCount: 4,
-    relatedStopIds: ["voyager1", "andromeda", "observable_universe"],
+    relatedStopIds: ["moon", "sun", "voyager1", "proxima_centauri", "milky_way", "andromeda", "laniakea_supercluster", "observable_universe"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Cosmic_distance_ladder" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Proxima_Centauri" },

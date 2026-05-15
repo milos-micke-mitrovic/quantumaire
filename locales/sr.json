@@ -15,11 +15,12 @@
     "openStop": "Otvori stanicu",
     "returnHome": "Nazad na putovanje",
     "moreSoon": "Još za istražiti",
-    "scaleLegend": "Pređite mišem ili dodirnite tačku da otvorite tu stanicu. Položaj predstavlja veličinu na logaritamskoj skali — od kvarka skroz levo do vidljivog svemira skroz desno.",
+    "here": "Ovde",
+    "scaleLegend": "Dodirni tačku da je pregledaš. Klikni na link Otvori stanicu za celu stranicu. Stanice su poređane od najmanjih levo ka najvećim desno.",
     "awayFromEarth": "{value} od Zemlje",
     "distance": "Udaljenost",
     "distanceFromEarth": "Od Zemlje",
-    "distanceLegend": "Pređite mišem ili dodirnite tačku da otvorite tu stanicu. Položaj predstavlja udaljenost od Zemlje na logaritamskoj skali — od Meseca (~10⁸ m) do ivice vidljivog svemira (~10²⁷ m).",
+    "distanceLegend": "Dodirni tačku da je pregledaš. Klikni na link Otvori stanicu za celu stranicu. Stanice su poređane od Zemlje levo, ka ivici vidljivog svemira desno.",
     "viewBySize": "Po veličini",
     "viewByDistance": "Po udaljenosti",
     "abstract": "apstraktno",
@@ -70,6 +71,7 @@
     "numberMillion": "miliona",
     "numberBillion": "milijardi",
     "numberTrillion": "biliona",
+    "unitLightYear": "sg",
     "share": "Podeli",
     "shareCopy": "Kopiraj link",
     "shareCopied": "Kopirano!",
@@ -344,6 +346,7 @@
     },
     "milky_way": {
       "name": "Mlečni put",
+      "distanceName": "Preko Mlečnog puta",
       "tagline": "Spirala od oko 200 milijardi zvezda — uključujući našu.",
       "body": "Mlečni put je spiralna galaksija sa prečnikom od oko 100.000 svetlosnih godina. Naše Sunce je jedna od stotina milijardi zvezda u njoj, jaše tihim krakom zvanim Orion. U samom centru je Sagittarius A* — supermasivna crna rupa četiri miliona puta masivnija od Sunca.",
       "narrative": "Kada bi Mlečni put bio sveden na veličinu Francuske, čitav naš Sunčev sistem stao bi u jedan novčić.",
@@ -391,6 +394,7 @@
     },
     "observable_universe": {
       "name": "Vidljivi svemir",
+      "distanceName": "Ivica vidljivog svemira",
       "tagline": "Sfera od 93 milijarde svetlosnih godina koju, u principu, možemo videti.",
       "body": "Vidljivi svemir je sve dovoljno blizu da je svetlost imala vremena da dođe do nas od Velikog praska. To je sfera prečnika oko 93 milijarde svetlosnih godina — i gotovo sigurno sićušan deo nečeg većeg. Iza njegove ivice ostatak je zauvek izvan našeg horizonta.",
       "narrative": "Svetlost sa ivice vidljivog svemira putovala je čitavih 13,8 milijardi godina kosmičke istorije da bi stigla do nas — a u međuvremenu se između nas i nje stvara još više prostora.",
@@ -589,6 +593,7 @@
     },
     "laniakea_supercluster": {
       "name": "Laniakea superjato",
+      "distanceName": "Ivica našeg superjata",
       "tagline": "Superjato galaktičkih jata u kome se nalazi naš Mlečni put.",
       "body": "Laniakea je ogromno superjato čiji je naš Mlečni put samo mali periferni član. Prostire se oko 500 miliona svetlosnih godina i sadrži oko 100.000 galaksija organizovanih duž filamenata koji svi teku ka zajedničkom gravitacionom basenu — Velikom atraktoru. Astronomi su Laniakea formalno definisali tek 2014. Postoje i veće strukture, poput sporne Herkul-Borealova kruna velikog zida, ali nijedno superjato nije zaista gravitaciono vezano — kosmičko širenje ih postepeno razdvaja.",
       "narrative": "Da je Mlečni put zrno pirinča, Laniakea bi i dalje bila veličine manjeg grada — grada u kome je svako zrno galaksija, a svaka ulica se savija ka istom skrivenom privlaku.",
@@ -606,6 +611,7 @@
     },
     "solar_system": {
       "name": "Sunčev sistem",
+      "distanceName": "Ivica Sunčevog sistema",
       "tagline": "Jedna zvezda i sve što drži u svojoj gravitaciji.",
       "body": "Osam planeta, pet patuljastih planeta, više od 200 meseca i milioni asteroida i kometa — sve vezano za jednu žutu zvezdu. Planetarni deo je širok oko 12 milijardi km. Sunčeva gravitacija, međutim, doseže sto hiljada puta dalje, do slabe ljuske ledenih tela zvane Oortov oblak. Voyager 1, naša najudaljenija sonda, putuje 48 godina i još uvek nije prošla pored njega.",
       "narrative": "Smanjite Sunčev sistem da stane na košarkaški teren, i Zemlja bi bila manja od zrna peska u centru — potpuno nevidljiva golim okom.",
@@ -618,6 +624,54 @@
         "fact2": "8 planeta, 5 patuljastih planeta, više od 200 poznatih meseca.",
         "fact3": "Voyager 1 putuje 48 godina i nalazi se oko 24 milijarde km dalje.",
         "fact4": "Oortov oblak može se protezati do 100.000 AJ od Sunca."
+      }
+    },
+    "moon": {
+      "name": "Mesec",
+      "tagline": "Jedini Zemljin prirodni satelit — zaključan za nas zauvek.",
+      "body": "Mesec je peti po veličini satelit u Sunčevom sistemu i jedino mesto van Zemlje na kome su ljudi hodali. Plimski je zaključan, pa nam je uvek okrenuta ista strana; daleku stranu prvi je fotografisala sovjetska sonda 1959. godine. Njegova površina je fosilni zapis surovog ranog Sunčevog sistema — svaki krater je priča koju je Zemlja odavno izbrisala kroz vremenske prilike i tektoniku.",
+      "narrative": "Mesec se udaljava od Zemlje oko 3,8 cm godišnje — otprilike brzinom kojom rastu nokti. Pre nekoliko stotina miliona godina, potpuna pomračenja Sunca trajala su mnogo duže; za milijardu godina prestaće sasvim.",
+      "funFact": "Apolo astronauti su na Mesecu ostavili ogledala. Laserski impulsi sa zemaljskih opservatorija i danas se odbijaju od njih i omogućavaju merenje rastojanja Zemlja–Mesec sa preciznošću od nekoliko milimetara.",
+      "image": {
+        "alt": "Mesec kao pun disk, kraterska površina obasjana direktnom sunčevom svetlošću."
+      },
+      "facts": {
+        "fact1": "Prečnik oko 3.475 km — otprilike četvrtina Zemljinog.",
+        "fact2": "Prosečna udaljenost od Zemlje: 384.400 km.",
+        "fact3": "Plimski zaključan — ista hemisfera uvek gleda ka Zemlji.",
+        "fact4": "Dvanaest ljudi je hodalo po njegovoj površini, svi između 1969. i 1972."
+      }
+    },
+    "jupiter": {
+      "name": "Jupiter",
+      "tagline": "Najveća planeta Sunčevog sistema — skoro promašena zvezda.",
+      "body": "Jupiter je gasoviti gigant masivniji od svih ostalih planeta zajedno. Njegova atmosfera je burna okean vodonika i helijuma, obeležena pojasevima oluja i Velikom crvenom mrljom — anticiklonom dovoljno velikim da proguta Zemlju i da još ostane prostora. Ima i 95 potvrđenih meseca; četiri od njih, Galilejevi sateliti, bili su prvi objekti za koje je dokazano da kruže oko nečeg drugog osim Zemlje.",
+      "narrative": "Jupiter je toliko masivan da ne kruži direktno oko Sunca — njih dvoje dele zajedničko težište, zvano baricentar, koje leži taman izvan površine Sunca. To je jedina planeta u našem sistemu kod koje je to slučaj.",
+      "funFact": "Da je Jupiter narastao oko 80 puta masivnije, fuzija vodonika bi se upalila u njegovom jezgru i postao bi mala zvezda. Živeli bismo u binarnom sistemu umesto u planetarnom.",
+      "image": {
+        "alt": "Jupiter sa pojasevima oblaka i Velikom crvenom mrljom, četiri Galilejeva meseca vidljiva pored njega."
+      },
+      "facts": {
+        "fact1": "Prečnik oko 139.820 km — otprilike 11 puta veći od Zemljinog.",
+        "fact2": "Prosečna udaljenost od Sunca: 778 miliona km (oko 5,2 AJ).",
+        "fact3": "Dan na Jupiteru traje manje od 10 sati — najbrža rotacija svih planeta.",
+        "fact4": "Ima 95 potvrđenih meseca, uključujući četiri velika Galilejeva satelita."
+      }
+    },
+    "proxima_centauri": {
+      "name": "Proksima Kentaur",
+      "tagline": "Najbliža poznata zvezda Suncu — i dalje nemoguće daleka.",
+      "body": "Proksima Kentaur je mala, prigušena crvena patuljasta zvezda na oko 4,24 svetlosne godine od Zemlje. To je najbliža poznata zvezda Suncu, deo trostrukog sistema Alfa Kentaur. Bar dve planete potvrđeno kruže oko nje, jedna od njih — Proksima b — leži u habitabilnoj zoni gde bi tečna voda mogla postojati na površini. Kvaka je u tome što su crvene patuljke izuzetno aktivne; Proksima redovno izbacuje baklje koje bi sa Zemljolike planete zderale atmosferu.",
+      "narrative": "Čak i brzinom svetlosti potrebno je 4,24 godine do Proksime Kentaura. Najbrža svemirska letelica koju su ljudi lansirali (Parker Solar Probe) putovala bi tamo više od 6.000 godina.",
+      "funFact": "Iako je naš najbliži zvezdani sused, Proksima je previše prigušena da bi se videla golim okom. Potreban je teleskop — iako je, kosmički gledano, praktično u komšiluku.",
+      "image": {
+        "alt": "Proksima Kentaur — mala crvena patuljasta zvezda sa siluetom Proksime b koja prelazi preko njenog diska."
+      },
+      "facts": {
+        "fact1": "Oko 4,24 svetlosne godine daleko — otprilike 40 biliona km.",
+        "fact2": "Prečnik oko 214.000 km — oko 15% Sunčevog.",
+        "fact3": "Crvena patuljasta zvezda, sa površinskom temperaturom oko 3.000 K.",
+        "fact4": "Ima bar dve poznate planete, uključujući Proksimu b u habitabilnoj zoni."
       }
     }
   },
@@ -867,6 +921,14 @@
     "main_sequence": {
       "term": "Glavni niz",
       "definition": "Dugovečna faza fuzije vodonika u kojoj većina zvezda, uključujući Sunce, provede život."
+    },
+    "tidal_lock": {
+      "term": "Plimsko zaključavanje",
+      "definition": "Stanje u kome se period rotacije Meseca ili planete poklapa sa orbitom, pa isto lice uvek gleda ka pratiocu."
+    },
+    "habitable_zone": {
+      "term": "Habitabilna zona",
+      "definition": "Orbitalni opseg oko zvezde u kome temperatura dozvoljava tečnu vodu na površini stenovite planete."
     },
     "hypergiant": {
       "term": "Hipergigant",

@@ -122,7 +122,7 @@ export async function GET(
               }}
             >
               {a.sizeMeters !== null
-                ? formatMeters(a.sizeMeters)
+                ? formatMeters(a.sizeMeters, (k) => tServer(typed, k))
                 : tServer(typed, "common.abstract")}
             </div>
           </div>
@@ -199,7 +199,7 @@ export async function GET(
               }}
             >
               {b.sizeMeters !== null
-                ? formatMeters(b.sizeMeters)
+                ? formatMeters(b.sizeMeters, (k) => tServer(typed, k))
                 : tServer(typed, "common.abstract")}
             </div>
           </div>

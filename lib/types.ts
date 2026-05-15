@@ -60,6 +60,13 @@ export interface Stop {
    */
   distanceFromEarthMeters?: number;
   /**
+   * Override the dot label on the distance slider. Useful when the canonical
+   * stop name ("Solar System") is less meaningful in a distance context than
+   * a positional phrase ("Edge of the Solar System"). The dot still links to
+   * the canonical stop page. Translation key, e.g. "stops.solar_system.distanceName".
+   */
+  distanceNameKey?: string;
+  /**
    * Override the auto-picked reference for the "real scale" visual on the
    * stop detail page. `pickReference` chooses by nearest log-size, which is
    * sometimes wrong conceptually (e.g. UY Scuti is best compared to the

@@ -62,22 +62,24 @@ export function formatMeters(
   // Light-year regime — keep growing into million / billion / trillion ly
   // rather than letting toPrecision switch to scientific notation.
   const ly = meters / 9.4607304725808e15;
-  if (Math.abs(ly) < 1e3) return `${ly.toPrecision(3)} ly`;
+  if (Math.abs(ly) < 1e3) return `${ly.toPrecision(3)} ${tr("common.unitLightYear")}`;
   if (Math.abs(ly) < 1e6) {
-    return `${Math.round(ly).toLocaleString("en-US")} ly`;
+    return `${Math.round(ly).toLocaleString("en-US")} ${tr("common.unitLightYear")}`;
   }
   if (Math.abs(ly) < 1e9) {
-    return `${(ly / 1e6).toPrecision(3)} ${tr("common.numberMillion")} ly`;
+    return `${(ly / 1e6).toPrecision(3)} ${tr("common.numberMillion")} ${tr("common.unitLightYear")}`;
   }
   if (Math.abs(ly) < 1e12) {
-    return `${(ly / 1e9).toPrecision(3)} ${tr("common.numberBillion")} ly`;
+    return `${(ly / 1e9).toPrecision(3)} ${tr("common.numberBillion")} ${tr("common.unitLightYear")}`;
   }
-  return `${(ly / 1e12).toPrecision(3)} ${tr("common.numberTrillion")} ly`;
+  return `${(ly / 1e12).toPrecision(3)} ${tr("common.numberTrillion")} ${tr("common.unitLightYear")}`;
 }
 
 const DEFAULT_METERS_LABELS: Record<string, string> = {
   "common.numberMillion": "million",
   "common.numberBillion": "billion",
+  "common.numberTrillion": "trillion",
+  "common.unitLightYear": "ly",
 };
 
 function defaultMetersTranslator(key: string): string {

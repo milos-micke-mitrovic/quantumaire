@@ -4,7 +4,7 @@ import clsx from "clsx";
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { useI18n } from "@/lib/i18n";
-import { formatMeters, logPosition } from "@/lib/scale";
+import { formatMeters } from "@/lib/scale";
 import type { Stop } from "@/lib/types";
 
 interface InteractiveScaleProps {
@@ -12,35 +12,34 @@ interface InteractiveScaleProps {
 }
 
 /**
- * Horizontal log-scale slider. Only stops with a concrete size are plotted
- * (abstract stops — MPD, dark matter, dark energy — would lie about their
- * place on a size axis, so they are excluded here and surfaced only in the
- * card grid below the slider).
+ * Horizontal stop selector. Only stops with a concrete size are plotted —
+ * abstract stops (MPD, dark matter, dark energy) live in the card grid
+ * below.
  *
- * Hovering or focusing a dot previews the stop; clicking navigates to the
- * dedicated stop page.
+ * Dots are evenly spaced regardless of magnitude; their visual position
+ * encodes ordinal rank (smallest → largest), not real ratios. Tapping or
+ * focusing a dot previews the stop; the explicit `Open stop` link in the
+ * header is the navigation affordance.
  */
 export function InteractiveScale({ stops }: InteractiveScaleProps) {
   const { t, locale } = useI18n();
 
   const sizedStops = useMemo(
     () =>
-      stops.filter(
-        (s): s is Stop & { sizeMeters: number } =>
-          s.sizeMeters !== null && s.sizeMeters > 0
-      ),
+      stops
+        .filter(
+          (s): s is Stop & { sizeMeters: number } =>
+            s.sizeMeters !== null && s.sizeMeters > 0
+        )
+        .sort((a, b) => a.sizeMeters - b.sizeMeters),
     [stops]
   );
 
-  const [hoveredIdx, setHoveredIdx] = useState(0);
-
-  const positions = useMemo(
-    () => sizedStops.map((s) => logPosition(s.sizeMeters, -18, 27)),
-    [sizedStops]
-  );
+  const [activeIdx, setActiveIdx] = useState(0);
 
   if (sizedStops.length === 0) return null;
-  const active = sizedStops[Math.min(hoveredIdx, sizedStops.length - 1)];
+  const active = sizedStops[Math.min(activeIdx, sizedStops.length - 1)];
+  const lastIdx = sizedStops.length - 1;
 
   return (
     <section
@@ -59,44 +58,41 @@ export function InteractiveScale({ stops }: InteractiveScaleProps) {
             {t(`${active.i18nKey}.tagline`)}
           </p>
         </div>
-        <div className="shrink-0 text-right">
-          <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
-            {t("common.size")}
-          </p>
-          <p className="mt-1 font-mono text-sm text-cosmos-plasma">
-            {formatMeters(active.sizeMeters)}
-          </p>
+        <div className="flex shrink-0 flex-col items-end gap-2 text-right">
+          <div>
+            <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
+              {t("common.size")}
+            </p>
+            <p className="mt-1 font-mono text-sm text-cosmos-plasma">
+              {formatMeters(active.sizeMeters, t)}
+            </p>
+          </div>
+          <Link
+            href={`/${locale}/stop/${active.id}`}
+            className="inline-flex items-center gap-1 rounded-full border border-cosmos-aurora/40 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.16em] text-cosmos-aurora transition-colors hover:border-cosmos-plasma hover:text-cosmos-plasma focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cosmos-plasma/60"
+          >
+            {t("common.openStop")}
+            <span aria-hidden>→</span>
+          </Link>
         </div>
       </header>
 
-      <div className="relative h-16">
+      <div className="relative h-12">
         <div className="absolute left-0 right-0 top-1/2 h-[2px] -translate-y-1/2 rounded-full bg-gradient-to-r from-cosmos-aurora/30 via-cosmos-plasma/60 to-cosmos-nova/30" />
 
-        {/* Major-magnitude ticks only — half as many DOM nodes. */}
-        {Array.from({ length: 16 }, (_, i) => i * 3 - 18).map((exp) => {
-          const pct = ((exp + 18) / 45) * 100;
-          return (
-            <span
-              key={exp}
-              aria-hidden
-              style={{ left: `${pct}%` }}
-              className="absolute top-1/2 h-3 w-px -translate-x-1/2 -translate-y-1/2 bg-white/15"
-            />
-          );
-        })}
-
         {sizedStops.map((stop, idx) => {
-          const pct = positions[idx] * 100;
-          const isActive = idx === hoveredIdx;
+          const pct = lastIdx === 0 ? 50 : (idx / lastIdx) * 100;
+          const isActive = idx === activeIdx;
           return (
-            <Link
+            <button
               key={stop.id}
-              href={`/${locale}/stop/${stop.id}`}
-              onMouseEnter={() => setHoveredIdx(idx)}
-              onFocus={() => setHoveredIdx(idx)}
-              aria-label={`${t(`${stop.i18nKey}.name`)} — ${formatMeters(stop.sizeMeters)}`}
+              type="button"
+              onFocus={() => setActiveIdx(idx)}
+              onClick={() => setActiveIdx(idx)}
+              aria-label={`${t(`${stop.i18nKey}.name`)} — ${formatMeters(stop.sizeMeters, t)}`}
+              aria-pressed={isActive}
               style={{ left: `${pct}%` }}
-              className="group/dot absolute top-1/2 -translate-x-1/2 -translate-y-1/2 focus:outline-none"
+              className="group/dot absolute top-1/2 -translate-x-1/2 -translate-y-1/2 p-1.5 focus:outline-none"
             >
               <span
                 className={clsx(
@@ -106,25 +102,7 @@ export function InteractiveScale({ stops }: InteractiveScaleProps) {
                     : "h-2.5 w-2.5 bg-cosmos-star/70 group-hover/dot:scale-125 group-hover/dot:bg-cosmos-plasma"
                 )}
               />
-            </Link>
-          );
-        })}
-      </div>
-
-      {/* Order-of-magnitude axis labels — every six tick units (10⁶ apart),
-          so the log nature of the scale is visible at a glance. */}
-      <div className="relative mt-2 h-4">
-        {[-18, -12, -6, 0, 6, 12, 18, 24].map((exp) => {
-          const pct = ((exp + 18) / 45) * 100;
-          return (
-            <span
-              key={exp}
-              aria-hidden
-              style={{ left: `${pct}%` }}
-              className="absolute -translate-x-1/2 font-mono text-[10px] uppercase tracking-[0.18em] text-cosmos-star/40"
-            >
-              10{toSuperscript(exp)} m
-            </span>
+            </button>
           );
         })}
       </div>
@@ -134,25 +112,4 @@ export function InteractiveScale({ stops }: InteractiveScaleProps) {
       </p>
     </section>
   );
-}
-
-const SUPERSCRIPTS: Record<string, string> = {
-  "-": "⁻",
-  "0": "⁰",
-  "1": "¹",
-  "2": "²",
-  "3": "³",
-  "4": "⁴",
-  "5": "⁵",
-  "6": "⁶",
-  "7": "⁷",
-  "8": "⁸",
-  "9": "⁹",
-};
-
-function toSuperscript(n: number): string {
-  return String(n)
-    .split("")
-    .map((ch) => SUPERSCRIPTS[ch] ?? ch)
-    .join("");
 }

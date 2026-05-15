@@ -216,7 +216,7 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
                         </Link>
                         <span className="font-mono">
                           {item.stop.sizeMeters !== null
-                            ? formatMeters(item.stop.sizeMeters)
+                            ? formatMeters(item.stop.sizeMeters, t)
                             : t("common.abstract")}
                         </span>
                       </span>

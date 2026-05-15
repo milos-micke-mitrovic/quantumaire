@@ -160,7 +160,7 @@ export function ScaleVisual({ a, b }: ScaleVisualProps) {
               {biggerName}
             </span>
             <span className="mt-0.5 block font-mono text-xs text-cosmos-plasma">
-              {formatMeters(bigger.sizeMeters)}
+              {formatMeters(bigger.sizeMeters, t)}
             </span>
           </span>
         </li>
@@ -177,7 +177,7 @@ export function ScaleVisual({ a, b }: ScaleVisualProps) {
               {smallerName}
             </span>
             <span className="mt-0.5 block font-mono text-xs text-cosmos-plasma">
-              {formatMeters(smaller.sizeMeters)}
+              {formatMeters(smaller.sizeMeters, t)}
             </span>
           </span>
         </li>

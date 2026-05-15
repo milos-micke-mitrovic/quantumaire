@@ -148,7 +148,7 @@ export default async function Image({
         >
           <span>
             {stop.sizeMeters !== null
-              ? formatMeters(stop.sizeMeters)
+              ? formatMeters(stop.sizeMeters, (k) => tServer(locale, k))
               : tServer(locale, "common.abstract")}
           </span>
           <span>quantumaire · {locale.toUpperCase()}</span>
