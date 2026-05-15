@@ -26,19 +26,38 @@ function pickLocale(req: NextRequest): Locale {
   return DEFAULT_LOCALE;
 }
 
+/**
+ * Two jobs:
+ *
+ * 1. On bare `/`, redirect to the visitor's preferred `/${locale}` based on
+ *    the cookie or Accept-Language header.
+ *
+ * 2. On every other page, forward the request pathname to the server-rendered
+ *    root layout via an `x-pathname` header so it can emit the correct
+ *    `<html lang>` server-side (Next.js doesn't expose the URL to the root
+ *    layout otherwise).
+ */
 export function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
-  if (LOCALES.some((l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`))) {
-    return NextResponse.next();
-  }
-  if (pathname !== "/") return NextResponse.next();
 
-  const locale = pickLocale(req);
-  const url = req.nextUrl.clone();
-  url.pathname = `/${locale}`;
-  return NextResponse.redirect(url);
+  // Redirect bare root to a locale.
+  if (pathname === "/") {
+    const locale = pickLocale(req);
+    const url = req.nextUrl.clone();
+    url.pathname = `/${locale}`;
+    return NextResponse.redirect(url);
+  }
+
+  // For everything else, set x-pathname and forward.
+  const response = NextResponse.next();
+  response.headers.set("x-pathname", pathname);
+  return response;
 }
 
 export const config = {
-  matcher: ["/"],
+  matcher: [
+    // Run on every page request; exclude static assets, Next.js internals,
+    // and any path with a file extension we don't render through Next.
+    "/((?!_next/|api/|.*\\.(?:ico|svg|png|jpg|jpeg|webp|gif|avif|woff2?|ttf|eot|css|js|json|map|txt|xml)$).*)",
+  ],
 };

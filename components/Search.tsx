@@ -204,16 +204,20 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
                         </span>
                       </span>
                       <span className="flex shrink-0 flex-col items-end gap-1 text-[10px] uppercase tracking-[0.18em] text-cosmos-star/55">
-                        <Link
-                          href={`/${locale}/category/${categorySlug(item.stop.category)}`}
+                        <button
+                          type="button"
                           onClick={(e) => {
+                            e.preventDefault();
                             e.stopPropagation();
                             onClose();
+                            router.push(
+                              `/${locale}/category/${categorySlug(item.stop.category)}`
+                            );
                           }}
-                          className="rounded-full px-2 py-0.5 hover:bg-white/[0.06]"
+                          className="rounded-full px-2 py-0.5 hover:bg-white/[0.06] focus:outline-none focus-visible:ring-2 focus-visible:ring-cosmos-aurora/60"
                         >
                           {item.category}
-                        </Link>
+                        </button>
                         <span className="font-mono">
                           {item.stop.sizeMeters !== null
                             ? formatMeters(item.stop.sizeMeters, t)
