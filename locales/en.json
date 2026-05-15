@@ -1,0 +1,977 @@
+{
+  "common": {
+    "title": "Quantumaire",
+    "tagline": "From the smallest spark to the edge of everything.",
+    "subtagline": "A guided journey across 44 orders of magnitude — from quarks to the observable universe — with the truth-status of every stop labelled honestly.",
+    "begin": "Begin the journey",
+    "back": "Back",
+    "next": "Next stop",
+    "prev": "Previous stop",
+    "scale": "Scale",
+    "category": "Category",
+    "badge": "Confidence",
+    "size": "Size",
+    "language": "Language",
+    "openStop": "Open stop",
+    "returnHome": "Return to the journey",
+    "moreSoon": "More to explore",
+    "scaleLegend": "Hover or tap any dot to open that stop. Position represents size on a logarithmic scale — from a quark on the far left to the observable universe on the far right.",
+    "awayFromEarth": "{value} from Earth",
+    "distance": "Distance",
+    "distanceFromEarth": "From Earth",
+    "distanceLegend": "Hover or tap any dot to open that stop. Position represents distance from Earth on a logarithmic scale — from the Moon (~10⁸ m) to the edge of the observable universe (~10²⁷ m).",
+    "viewBySize": "By size",
+    "viewByDistance": "By distance",
+    "abstract": "abstract",
+    "footer": "Crafted with curiosity. Truth-badged for honesty.",
+    "glossary": "Glossary",
+    "about": "About",
+    "relatedStops": "Related stops",
+    "exploreCategory": "Explore {category}",
+    "stopsInCategory": "{count} stops",
+    "quickFacts": "Quick facts",
+    "sources": "Sources",
+    "openExternal": "Open in a new tab",
+    "search": "Search",
+    "searchHint": "Search by topic — quark, DNA, pyramid…",
+    "searchEmpty": "No matches. Try a different word.",
+    "searchOpen": "Open search",
+    "searchClose": "Close search",
+    "notFound": {
+      "label": "404",
+      "title": "Lost in the void",
+      "body": "The page you were looking for is somewhere past our cosmic horizon. Try the journey home.",
+      "home": "Return to the journey"
+    },
+    "glossaryPage": {
+      "title": "Glossary",
+      "tagline": "{count} terms used across the journey, defined in one place.",
+      "filterPlaceholder": "Filter terms…"
+    },
+    "tools": "Tools",
+    "scaleTool": {
+      "title": "Scale calculator",
+      "tagline": "Type any length. See it shrunk down to our grain-of-sand reference, with the nearest Quantumaire stop alongside.",
+      "inputLabel": "Length",
+      "unitLabel": "Unit",
+      "yourValue": "Your value",
+      "asGrainScale": "Shrunk to grain-scale",
+      "nearestStop": "Nearest stop",
+      "noNearest": "No nearby stop — try a different size."
+    },
+    "loading": "Loading…",
+    "error": {
+      "title": "Something slipped past the horizon",
+      "body": "An unexpected error stopped this page from rendering. You can try again, or head back to the journey.",
+      "retry": "Try again"
+    },
+    "filter": "Filter",
+    "filterAll": "All",
+    "numberMillion": "million",
+    "numberBillion": "billion",
+    "numberTrillion": "trillion",
+    "share": "Share",
+    "shareCopy": "Copy link",
+    "shareCopied": "Copied!",
+    "shareX": "Share on X",
+    "minRead": "{minutes} min read",
+    "more": "More",
+    "random": "Random stop",
+    "skipToContent": "Skip to main content",
+    "progress": {
+      "title": "Your journey",
+      "tagline": "{count} of {total} stops visited.",
+      "complete": "Journey complete — every stop opened. Welcome to the club.",
+      "empty": "You haven't opened any stops yet. Pick one and the journey begins.",
+      "categoryBreakdown": "By category",
+      "remaining": "Still to visit",
+      "openRandom": "Open a random unvisited stop"
+    },
+    "visited": {
+      "marker": "Visited",
+      "count": "{count} / {total} visited",
+      "reset": "Reset progress",
+      "confirmReset": "Forget which stops you've visited? This only affects this device."
+    },
+    "compare": "Compare",
+    "shortcuts": {
+      "title": "Keyboard shortcuts",
+      "tagline": "Move around faster.",
+      "searchOpen": "Open search",
+      "searchNav": "Move up / down in results",
+      "searchSelect": "Open the selected result",
+      "stopNav": "Previous / next stop",
+      "randomStop": "Random stop",
+      "closeOverlay": "Close any overlay",
+      "showHelp": "Show this help"
+    },
+    "comparePage": {
+      "title": "Compare two stops",
+      "tagline": "Pick any two and see the ratio between them.",
+      "swap": "Swap",
+      "ratio": "Ratio",
+      "timesAsBig": "{b} is {factor}× bigger than {a}",
+      "timesSmaller": "{b} is {factor}× smaller than {a}",
+      "same": "{a} and {b} are the same size.",
+      "oneAbstract": "One side is an idea, not a thing — no ratio possible.",
+      "bothAbstract": "Both sides are abstract — no ratio possible.",
+      "chooseA": "Pick a stop",
+      "chooseB": "Pick a stop",
+      "openStopA": "Open stop A",
+      "openStopB": "Open stop B",
+      "visualHeading": "Size comparison",
+      "drawnToScale": "Drawn to true scale.",
+      "tooExtreme": "The size difference is too extreme to render honestly. The numbers below tell the full story.",
+      "needsBothSized": "Need two concrete sizes for a visual comparison."
+    }
+  },
+  "badges": {
+    "FACT": "Fact",
+    "ESTABLISHED_THEORY": "Established theory",
+    "PROBABLE_THEORY": "Probable theory",
+    "SPECULATIVE": "Speculative",
+    "FACT.tooltip": "Directly measured or observed.",
+    "ESTABLISHED_THEORY.tooltip": "A well-tested framework that fits the evidence.",
+    "PROBABLE_THEORY.tooltip": "Best current explanation — still being refined.",
+    "SPECULATIVE.tooltip": "An idea worth taking seriously, but not yet proven."
+  },
+  "categories": {
+    "COSMOS": "Cosmos",
+    "MICRO_WORLD": "Micro-World",
+    "HUMAN_MIND": "Human Mind",
+    "ANCIENT_HISTORY": "Ancient History",
+    "COSMOS.description": "Galaxies, stars, neutron-dense corpses, and the dark side of the universe — the largest scales we can observe.",
+    "MICRO_WORLD.description": "Quarks, atoms, and molecules — the building blocks underneath everything you can see or touch.",
+    "HUMAN_MIND.description": "Documented oddities of how a single brain — and a single body — can house more than one self.",
+    "ANCIENT_HISTORY.description": "Monuments and mysteries whose construction still resists complete explanation."
+  },
+  "comparison": {
+    "title": "From quark to the observable universe",
+    "subtitle": "Twenty-six stops spanning 44 orders of magnitude. Hover any dot below to preview a stop, or click to open it.",
+    "equal": "About the size of a grain of sand.",
+    "times": "{factor}× a grain of sand",
+    "fraction": "1 / {factor} of a grain of sand",
+    "abstract": "An idea, not a thing — it has no measurable size.",
+    "comparedTo": "Compared to",
+    "pictureThis": "Picture this",
+    "byWeight": "By weight",
+    "realScale": "Real scale",
+    "didYouKnow": "Did you know?",
+    "aboutThe": "About the size of {reference}.",
+    "biggerThan": "{factor}× bigger than {reference}",
+    "smallerThan": "{factor}× smaller than {reference}",
+    "qualitativeBetween": "Sits between {lower} and {upper}.",
+    "qualitativeSmallerThanAll": "Smaller than any everyday object — much smaller than {reference}.",
+    "qualitativeBiggerThanAll": "Bigger than any everyday object — far larger than {reference}."
+  },
+  "references": {
+    "hair": "a human hair",
+    "grainOfSand": "a grain of sand",
+    "coin": "a coin",
+    "person": "an adult human",
+    "footballPitch": "a football pitch",
+    "eiffelTower": "the Eiffel Tower",
+    "everest": "Mount Everest",
+    "earthDiameter": "the Earth",
+    "moonDistance": "the distance to the Moon",
+    "sun": "the Sun",
+    "au": "Earth's orbit",
+    "lightYear": "a light-year"
+  },
+  "stops": {
+    "quark": {
+      "name": "Quark",
+      "tagline": "The smallest known building block of matter.",
+      "body": "Quarks are point-like particles bound together by the strong force. They build up protons and neutrons — and through them, every atom in your body. Quarks have never been seen alone; they always travel in tight groups, held together by gluons whose grip grows stronger the further they're pulled apart.",
+      "narrative": "A quark is so small that even if a single atom were blown up to the size of Earth, a quark inside it would still be no bigger than a marble in your hand.",
+      "funFact": "Quarks come in six flavours — up, down, charm, strange, top, bottom — and three colour charges that have nothing to do with light. Physicists named them with deliberate humour.",
+      "image": {
+        "alt": "A glowing quark suspended inside a gluon field."
+      },
+      "facts": {
+        "fact1": "Six flavours: up, down, charm, strange, top, bottom.",
+        "fact2": "Carry a fractional electric charge — either ±1/3 or ±2/3.",
+        "fact3": "Always confined inside hadrons — never observed alone.",
+        "fact4": "Proposed independently by Gell-Mann and Zweig in 1964."
+      }
+    },
+    "proton": {
+      "name": "Proton",
+      "tagline": "Three quarks bound into one of nature's most stable forms.",
+      "body": "A proton is a tiny ball of three quarks — two up and one down — held together by a roaring sea of gluons. Stack enough of them together with neutrons and electrons and you build every element from hydrogen to uranium. Protons appear so stable that we have never measured one decay.",
+      "narrative": "If a proton were the size of a basketball, the atom it lives inside would be wider than a small city.",
+      "funFact": "A free proton has never been observed to decay. The current lower limit on its half-life is more than 10³⁴ years — many trillion times the age of the universe.",
+      "image": {
+        "alt": "A proton rendered as three glowing quarks bound by gluons."
+      },
+      "facts": {
+        "fact1": "Made of two up quarks and one down quark.",
+        "fact2": "About 1,836 times the mass of an electron.",
+        "fact3": "No proton decay has ever been measured.",
+        "fact4": "Discovered by Ernest Rutherford in 1917."
+      }
+    },
+    "atom": {
+      "name": "Atom",
+      "tagline": "The smallest piece of any chemical element.",
+      "body": "An atom is almost entirely empty space — a dense nucleus surrounded by a cloud of electrons that doesn't really orbit so much as exist as a probability. The character of every material around you, from oxygen to gold, comes from how many protons sit in that nucleus and how the electron cloud is shaped.",
+      "narrative": "If an atom were a marble in your palm, a single strand of human hair beside it would stretch across an entire city.",
+      "funFact": "Strip away an atom's empty space and pack the nuclei together — and the entire human race would fit inside a sugar cube. The rest of you is mostly nothing.",
+      "image": {
+        "alt": "A hydrogen atom: a glowing nucleus inside a probabilistic electron cloud."
+      },
+      "facts": {
+        "fact1": "More than 99.99% empty space.",
+        "fact2": "Number of protons defines the chemical element.",
+        "fact3": "Smallest unit that retains an element's chemical identity.",
+        "fact4": "Greek átomos — \"uncuttable\" — first directly imaged in 2009."
+      }
+    },
+    "dna": {
+      "name": "DNA",
+      "tagline": "A 2-nanometre instruction book for life.",
+      "body": "DNA is a twisted ladder whose rungs spell out the recipe for an entire organism. Roughly two metres of it are coiled inside almost every cell in your body. Reading those instructions is so robust that DNA from a hair can identify a person decades later.",
+      "narrative": "If a single strand of DNA were as thick as a human hair, a flu virus alongside it would be the size of a small button in your palm.",
+      "funFact": "If you unspooled all the DNA in a single human body, it would stretch from Earth to the Sun and back hundreds of times.",
+      "image": {
+        "alt": "A glowing double-helix DNA strand drifting through cellular space."
+      },
+      "facts": {
+        "fact1": "About 2 metres of DNA coiled into each cell.",
+        "fact2": "Four bases: adenine, thymine, cytosine, guanine.",
+        "fact3": "Human genome — roughly 3.1 billion base pairs.",
+        "fact4": "Double helix resolved by Watson, Crick, Franklin and Wilkins in 1953."
+      }
+    },
+    "mpd": {
+      "name": "Dissociative Identity Disorder",
+      "tagline": "When the same brain hosts more than one self.",
+      "body": "DID — once called Multiple Personality Disorder — is a documented psychological condition where distinct identities take turns in control of one body. The strangeness goes deeper than personality: clinicians have recorded cases where one alter has measurable allergies, requires glasses, or shows different blood pressure — while another, in the same body, does not. The mind, somehow, is voting on the body.",
+      "narrative": "DID is a phenomenon of the mind, not a measurable object — its scale is psychological, not physical.",
+      "image": {
+        "alt": "A human silhouette splitting into multiple translucent overlapping personas."
+      },
+      "facts": {
+        "fact1": "Recognised by the DSM since 1980.",
+        "fact2": "Often follows severe childhood trauma.",
+        "fact3": "Alters can show different allergies, eyesight, even handedness.",
+        "fact4": "Average time to a correct diagnosis: 5 to 12 years."
+      }
+    },
+    "pyramid": {
+      "name": "The Great Pyramid",
+      "tagline": "139 metres of limestone we still can't fully explain.",
+      "body": "The Great Pyramid of Giza is mainstream-dated to roughly 2560 BCE as a tomb for the pharaoh Khufu. The engineering — 2.3 million blocks, near-perfect cardinal alignment, internal galleries cut to millimetre tolerances — keeps inviting alternative theories about its purpose. Most are speculative; the construction itself, though, is undeniably real.",
+      "narrative": "Roughly the height of a 45-storey building — the Great Pyramid stood as the tallest human structure for nearly four thousand years.",
+      "funFact": "The Great Pyramid is the only one of the Seven Wonders of the Ancient World still standing. Every other has fallen, burned, or been lost.",
+      "image": {
+        "alt": "The Great Pyramid of Giza at twilight, starlight aligning with its apex."
+      },
+      "facts": {
+        "fact1": "Built around 2560 BCE — over 4,500 years old.",
+        "fact2": "139 m tall today; originally 146.6 m before its casing eroded.",
+        "fact3": "Roughly 2.3 million stone blocks, 2.5 to 80 tonnes each.",
+        "fact4": "The tallest human-made structure for nearly 3,800 years."
+      }
+    },
+    "earth": {
+      "name": "Earth",
+      "tagline": "Our reference grain of sand.",
+      "body": "If we shrink Earth down to a single 0.5 mm grain of sand, every other size in this journey changes by the same factor. The Sun becomes a basketball about 11 metres away. The Milky Way becomes wider than the orbit of Mars. The trick is letting your sense of scale stretch.",
+      "narrative": "Quantumaire's anchor: if Earth were a single grain of sand, the Moon would be a smaller speck about 1.5 cm away, and the Sun would be an apple roughly 6 metres off.",
+      "massNarrative": "Earth weighs about a 6 followed by 21 zeros — in tonnes. Compress that into a peanut and you'd have a black hole.",
+      "funFact": "Earth's day is slowly getting longer. When the first dinosaurs walked the planet, a day was less than 23 hours long; in a billion years it'll be over 25 hours.",
+      "image": {
+        "alt": "Earth seen from deep space, oceans and clouds glowing."
+      },
+      "facts": {
+        "fact1": "Equatorial diameter: 12,742 km.",
+        "fact2": "Age: about 4.54 billion years.",
+        "fact3": "70.8% of the surface is water.",
+        "fact4": "Magnetic field reverses, on average, every 200 to 300 thousand years."
+      }
+    },
+    "neutron_star": {
+      "name": "Neutron Star",
+      "tagline": "A city-sized star with the mass of a sun.",
+      "body": "When a massive star collapses, its core can be crushed until protons and electrons fuse into pure neutrons. The result is roughly 20 km across but weighs more than the Sun. A spinning, magnetised neutron star is called a pulsar — its lighthouse beams sweep past Earth with the regularity of an atomic clock.",
+      "narrative": "A neutron star is roughly the diameter of a city — yet packs more mass than the entire Sun into that space.",
+      "massNarrative": "A single sugar cube of neutron-star matter would outweigh every human on Earth combined.",
+      "funFact": "A newly formed neutron star has a surface temperature near 600,000 K — more than 100 times hotter than the surface of the Sun. Most of that heat radiates as X-rays our eyes can't see.",
+      "image": {
+        "alt": "A pulsar — a spinning neutron star with twin jets of radiation."
+      },
+      "facts": {
+        "fact1": "Around 20 km across — yet heavier than the Sun.",
+        "fact2": "Surface gravity is roughly 10¹¹ × Earth's.",
+        "fact3": "The fastest known pulsar spins 716 times every second.",
+        "fact4": "Forms when a 10 to 25 solar-mass star collapses in a supernova."
+      }
+    },
+    "sun": {
+      "name": "The Sun",
+      "tagline": "A self-sustaining fusion engine at the heart of our system.",
+      "body": "The Sun fuses 600 million tonnes of hydrogen into helium every second. The light reaching you right now took 8 minutes to cross the gap — but it took roughly 100,000 years to fight its way out from the Sun's dense core. Every atom in your body heavier than helium was forged inside a star like this one.",
+      "narrative": "If the Sun were a basketball, Earth would be a peppercorn 26 metres away — and Pluto would be a dust mote a kilometre off.",
+      "massNarrative": "The Sun holds 99.86% of all the mass in our Solar System. Every planet, moon, asteroid and comet combined is dust by comparison.",
+      "funFact": "Our Sun is a perfectly average yellow-dwarf star. The largest red hypergiants like UY Scuti are over a thousand times wider, and the brightest blue supergiants pump out the light of a million Suns.",
+      "image": {
+        "alt": "The Sun in ultraviolet — roiling plasma and arcing prominences."
+      },
+      "facts": {
+        "fact1": "Fuses 600 million tonnes of hydrogen into helium each second.",
+        "fact2": "Sunlight takes 8 minutes 20 seconds to reach Earth.",
+        "fact3": "Surface temperature 5,772 K; core about 15.7 million K.",
+        "fact4": "Has been a main-sequence star for about 4.6 billion years."
+      }
+    },
+    "uy_scuti": {
+      "name": "UY Scuti",
+      "tagline": "If it replaced the Sun, it would swallow Jupiter.",
+      "body": "UY Scuti is a red hypergiant whose radius is so vast it would extend past the orbit of Jupiter. Despite the size, it's puffy and cool — its convection cells are bigger than entire planetary systems. Stars this massive don't last; UY Scuti will eventually collapse into a brilliant supernova.",
+      "narrative": "If UY Scuti replaced our Sun, its surface would reach out past Jupiter — engulfing Mercury, Venus, Earth, Mars and the asteroid belt along the way.",
+      "massNarrative": "Despite being hundreds of times wider than the Sun, UY Scuti weighs only about ten Suns. Most of its volume is near-vacuum — a giant balloon held up by pressure, not density.",
+      "funFact": "When UY Scuti eventually collapses into a supernova, it will briefly outshine the entire Milky Way put together.",
+      "image": {
+        "alt": "UY Scuti — a swollen red hypergiant, with the Sun shown for scale."
+      },
+      "facts": {
+        "fact1": "Radius roughly 1,700 × the Sun's — among the largest known.",
+        "fact2": "If placed at the Sun's position, its surface would pass Jupiter's orbit.",
+        "fact3": "Brightness varies by about 1.4 magnitudes over hundreds of days.",
+        "fact4": "Lies about 9,500 light-years away in the constellation Scutum."
+      }
+    },
+    "milky_way": {
+      "name": "Milky Way",
+      "tagline": "A spiral of roughly 200 billion stars — including ours.",
+      "body": "The Milky Way is a barred spiral galaxy about 100,000 light-years across. Our Sun is one of hundreds of billions of stars in it, riding a quiet arm called Orion. At the very centre is Sagittarius A* — a supermassive black hole four million times the mass of the Sun.",
+      "narrative": "If the Milky Way were shrunk to the size of France, the entire Solar System would fit inside a coin.",
+      "massNarrative": "The visible stars are just a few percent of the Milky Way's total mass. The rest — around 90% — is invisible dark matter.",
+      "funFact": "We cannot see the Milky Way's centre with visible light — interstellar dust blocks the view. Infrared and radio telescopes are what proved Sagittarius A* is there.",
+      "image": {
+        "alt": "The Milky Way galaxy seen face-on, spiral arms glowing."
+      },
+      "facts": {
+        "fact1": "More than 100,000 light-years across.",
+        "fact2": "Contains an estimated 200 to 400 billion stars.",
+        "fact3": "Sagittarius A* at the centre is a 4-million-solar-mass black hole.",
+        "fact4": "Our Sun orbits the galactic centre roughly every 230 million years."
+      }
+    },
+    "dark_matter": {
+      "name": "Dark Matter",
+      "tagline": "An invisible wind that holds galaxies together.",
+      "body": "Galaxies spin too fast for the matter we can see to hold them together — they should be flying apart. Something invisible is providing the extra gravity. We can map it through gravitational lensing, and it appears to outweigh ordinary matter five to one. We just don't know what it is.",
+      "narrative": "Dark matter has no shape and no edges that we can see — only its gravity is visible, shaping the rotation of every galaxy ever measured.",
+      "image": {
+        "alt": "Dark matter visualised as a violet cosmic web bending light around galaxies."
+      },
+      "facts": {
+        "fact1": "About 27% of the universe's total mass-energy.",
+        "fact2": "Roughly five times the mass of all ordinary matter combined.",
+        "fact3": "Detected indirectly via galaxy rotation curves and lensing.",
+        "fact4": "No particle of dark matter has ever been directly detected."
+      }
+    },
+    "dark_energy": {
+      "name": "Dark Energy",
+      "tagline": "Whatever is pulling the universe apart, faster and faster.",
+      "body": "The expansion of the universe isn't just continuing — it's accelerating. A mysterious form of energy, present in every cubic metre of empty space, seems to be pushing it outward. It accounts for roughly 68% of everything there is, and we have almost no idea what it is made of.",
+      "narrative": "Dark energy fills every cubic metre of empty space — including the metres around you right now. It has no size of its own, only a direction: outward.",
+      "image": {
+        "alt": "Galaxies stretching apart, pulled by an invisible accelerating force."
+      },
+      "facts": {
+        "fact1": "About 68% of the universe's total mass-energy.",
+        "fact2": "Discovered in 1998 via supernova measurements of cosmic expansion.",
+        "fact3": "Simplest description is Einstein's cosmological constant Λ.",
+        "fact4": "Drives the universe's accelerating expansion."
+      }
+    },
+    "observable_universe": {
+      "name": "Observable Universe",
+      "tagline": "The 93-billion-light-year sphere we can, in principle, see.",
+      "body": "The observable universe is everything close enough that light has had time to reach us since the Big Bang. It is a sphere about 93 billion light-years across — and almost certainly a tiny slice of something larger. Past its edge, the rest is forever beyond our horizon.",
+      "narrative": "Light from the edge of the observable universe has been travelling for the entire 13.8 billion years of cosmic history to reach us — and at the same time, more space keeps appearing in between.",
+      "massNarrative": "Most of the universe's mass-energy isn't ordinary matter at all — roughly 68% is dark energy, 27% is dark matter, and only 5% is everything you can see.",
+      "funFact": "By most measures, the Milky Way is a fairly large galaxy. Most of the 2 trillion galaxies in the observable universe are smaller than ours.",
+      "image": {
+        "alt": "The observable universe as a luminous sphere of galaxies and cosmic web."
+      },
+      "facts": {
+        "fact1": "Roughly 93 billion light-years in diameter.",
+        "fact2": "Contains an estimated 2 trillion galaxies.",
+        "fact3": "Light from its edge has travelled for about 13.8 billion years.",
+        "fact4": "Space itself can — and does — expand faster than light."
+      }
+    },
+    "virus": {
+      "name": "Virus",
+      "tagline": "Strands of code wrapped in protein.",
+      "body": "A virus is not strictly alive. It has no metabolism, can't reproduce on its own, and shows no behaviour outside a host. What it carries is a packet of genetic instructions — DNA or RNA — inside a protein shell. Once inside a cell, those instructions hijack the host's machinery and turn it into a copy factory.",
+      "narrative": "Magnify a virus to the size of a marble in your palm — at that scale, a single human cell would be a beach ball next to it.",
+      "funFact": "There are an estimated 10³¹ virus particles on Earth — about ten million times more than there are stars in the entire observable universe.",
+      "image": {
+        "alt": "An icosahedral virus capsid glowing in cyan and violet, RNA visible inside."
+      },
+      "facts": {
+        "fact1": "Smaller than a wavelength of visible light.",
+        "fact2": "Cannot reproduce outside a host cell.",
+        "fact3": "Genetic material can be DNA or RNA, single- or double-stranded.",
+        "fact4": "First identified as a \"filterable agent\" by Ivanovsky in 1892."
+      }
+    },
+    "supermassive_black_hole": {
+      "name": "Sagittarius A*",
+      "tagline": "The supermassive black hole at the heart of our galaxy — and its more extreme cousins.",
+      "body": "Sagittarius A* (Sgr A*) is the supermassive black hole at the centre of the Milky Way, about 4.15 million solar masses packed into a region 24 million km across — comfortably inside Mercury's orbit. It's modest by black-hole standards: TON 618 and Phoenix-A weigh tens of billions of solar masses each. Our nearest known black hole of any kind, Gaia BH1, is a much smaller stellar-mass one only 1,560 light-years away. The first direct images of supermassive black holes came in 2019 (M87*) and 2022 (Sgr A* itself).",
+      "narrative": "Sagittarius A*'s event horizon is wide enough to swallow 17 Suns lined up edge to edge — yet it would still fit comfortably inside Mercury's orbit around our own Sun.",
+      "massNarrative": "Sagittarius A* packs the mass of 4.15 million Suns into that region — and it's a modest example; the largest known supermassive black holes weigh tens of billions of Suns.",
+      "funFact": "The largest known supermassive black holes — like TON 618 and Phoenix-A — weigh tens of billions of Suns each, making our own Sagittarius A* look modest by comparison. The nearest known black hole of any kind, Gaia BH1, is a much smaller stellar-mass one only 1,560 light-years away — practically next door, cosmically speaking.",
+      "image": {
+        "alt": "A supermassive black hole — a black sphere ringed by a glowing accretion disk."
+      },
+      "facts": {
+        "fact1": "Sagittarius A* — about 4.15 million solar masses.",
+        "fact2": "Event horizon roughly 24 million km across.",
+        "fact3": "First direct image: M87* in 2019; Sagittarius A* in 2022.",
+        "fact4": "Nothing — not even light — can escape from inside the event horizon."
+      }
+    },
+    "bacterium": {
+      "name": "Bacterium",
+      "tagline": "Single-celled life, no nucleus required.",
+      "body": "Bacteria are the workhorse cells of the planet. They have no nucleus — their DNA floats free in the cytoplasm — and they replicate by splitting in half, sometimes every twenty minutes. The human body holds roughly as many bacterial cells as human ones, and they outnumber every kind of multicellular life put together.",
+      "narrative": "Magnify a bacterium until it sits in your palm like a marble — and a single grain of sand at that same scale would tower beside it like an adult human.",
+      "funFact": "By count, roughly half of all the cells in your body are bacteria. By mass, they only add up to a couple of hundred grams — but without them you couldn't digest a meal.",
+      "image": {
+        "alt": "A single rod-shaped bacterium with flagella trailing through aqueous medium."
+      },
+      "facts": {
+        "fact1": "About 1–10 micrometres long, depending on the species.",
+        "fact2": "No nucleus — they are prokaryotes.",
+        "fact3": "Reproduce by binary fission, sometimes every 20 minutes.",
+        "fact4": "Your gut holds roughly 38 trillion bacterial cells."
+      }
+    },
+    "galaxy_cluster": {
+      "name": "Virgo Cluster",
+      "tagline": "Our local galaxy cluster — one of thousands in the universe.",
+      "body": "The Virgo Cluster is the dense centre of our local galactic neighbourhood — around 1,300 galaxies bound together by gravity, spread across a region 15 million light-years wide and about 54 million light-years from us. The Milky Way and Andromeda sit on its outskirts. Larger clusters exist: the Coma Cluster holds over 1,000 galaxies in a denser concentration, and the Phoenix Cluster is one of the most massive ever measured. Past the cluster scale, structures stop being gravitationally bound and stretch into superclusters.",
+      "narrative": "A galaxy cluster is so wide that light needs tens of millions of years just to cross it — longer than mammals have existed on Earth.",
+      "massNarrative": "A typical galaxy cluster weighs as much as a few thousand trillion Suns — and most of that mass, again, is dark matter rather than stars.",
+      "funFact": "Galaxy clusters in our neighbourhood are all being pulled toward an unseen mass concentration — the so-called Great Attractor — sitting at the heart of the Laniakea Supercluster.",
+      "image": {
+        "alt": "A galaxy cluster — dozens of galaxies around a bright central giant elliptical."
+      },
+      "facts": {
+        "fact1": "Hundreds to thousands of galaxies bound by gravity.",
+        "fact2": "Tens of millions of light-years across.",
+        "fact3": "Holds far more mass in hot gas than in stars — and even more in dark matter.",
+        "fact4": "Virgo, our nearest cluster, lies about 54 million light-years away."
+      }
+    },
+    "andromeda": {
+      "name": "Andromeda",
+      "tagline": "Our nearest large galactic neighbour — and our future collision partner.",
+      "body": "Andromeda is a spiral galaxy about 2.5 million light-years away — close enough to see with the naked eye on a dark night, as a faint smudge in the constellation of the same name. It holds something like a trillion stars, more than the Milky Way. The two galaxies are drifting toward each other at 110 km/s, and will eventually merge into a single elliptical galaxy that astronomers have nicknamed Milkomeda.",
+      "narrative": "Andromeda already covers about six full moons in our night sky — yet its light has travelled 2.5 million years to reach us. You're seeing it as it was before our ancestors walked upright.",
+      "massNarrative": "Andromeda likely outweighs the Milky Way, with a dark-matter halo holding several trillion solar masses of unseen mass.",
+      "funFact": "Andromeda is one of the few galaxies actually moving toward us. Cosmic expansion is normally winning, but our gravitational bond with Andromeda is winning here.",
+      "image": {
+        "alt": "The Andromeda galaxy seen at an angle, full spiral arms and bright core visible."
+      },
+      "facts": {
+        "fact1": "About 2.5 million light-years away — naked-eye visible.",
+        "fact2": "Contains roughly 1 trillion stars (more than the Milky Way).",
+        "fact3": "Approaching us at about 110 km/s.",
+        "fact4": "Will merge with the Milky Way in ~4.5 billion years."
+      }
+    },
+    "cell": {
+      "name": "Cell",
+      "tagline": "The smallest unit of life.",
+      "body": "A cell is where chemistry becomes biology — a membrane-bound bag of molecules that can copy itself. Your body holds about 30 trillion of them. The smallest bacterial cells are 1–2 µm wide; a human red blood cell is about 8 µm; some single cells, like an ostrich egg yolk, are large enough to hold in your hand.",
+      "narrative": "Scale a cell up to the size of a basketball — at that same scale, a strand of human hair would stand as tall as you do.",
+      "funFact": "Your body replaces about 330 billion cells every day. Most of the matter you call \"you\" is, materially, only a few years old.",
+      "image": {
+        "alt": "A cross-section of a eukaryotic cell — membrane, nucleus, and organelles glowing."
+      },
+      "facts": {
+        "fact1": "The human body contains about 30 trillion cells.",
+        "fact2": "Smallest bacterium is about 200 nanometres across.",
+        "fact3": "Largest known single cell — an ostrich egg yolk, around 75 mm.",
+        "fact4": "First described by Robert Hooke in 1665, observing thin slices of cork."
+      }
+    },
+    "human": {
+      "name": "Human",
+      "tagline": "Roughly the geometric mean of the universe.",
+      "body": "A 1.7-metre human sits, strikingly close, to the geometric average of the smallest and largest things we know. On a logarithmic scale, you are about as far above a proton as the observable universe is above you. Earth's scale puts us at the middle of everything we can measure — and the middle is a remarkably comfortable place to think from.",
+      "narrative": "On a logarithmic ruler of the universe, an adult human sits almost exactly in the middle — about as far above a proton as the observable universe is above us.",
+      "funFact": "Almost every hydrogen atom in your body has existed since the first few minutes after the Big Bang. Everything heavier was forged inside stars that lived and died before our Sun was born.",
+      "image": {
+        "alt": "A human silhouette against a vertical cosmic gradient suggesting scale."
+      },
+      "facts": {
+        "fact1": "Average adult height is about 1.7 metres.",
+        "fact2": "Logarithmic mid-point between a proton (10⁻¹⁵ m) and the observable universe (10²⁷ m).",
+        "fact3": "Your body holds roughly 7 × 10²⁷ atoms — more than the number of stars in the universe.",
+        "fact4": "Human bone is, by weight, about four times stronger than concrete."
+      }
+    },
+    "light_year": {
+      "name": "Light-Year",
+      "tagline": "The distance a single beam of light covers in one year.",
+      "body": "A light-year is a unit of distance, not time. At roughly 300,000 km per second, light covers about 9.46 trillion kilometres in a year — about 63,241 astronomical units. Proxima Centauri, the nearest star to the Sun, lies 4.24 light-years away. Even at the Voyager probes' speed, reaching it would take more than 70,000 years.",
+      "narrative": "The distance light travels in a year. Even Voyager — the farthest space probe humans have ever flown — would need over 17,000 years to cover it.",
+      "funFact": "Galaxies hold hundreds of billions of stars, yet typical pairs of stars are several light-years apart. By volume, a galaxy is almost entirely empty space.",
+      "image": {
+        "alt": "A beam of light stretching toward a distant binary star system."
+      },
+      "facts": {
+        "fact1": "Equal to about 9.46 trillion kilometres.",
+        "fact2": "About 63,241 astronomical units.",
+        "fact3": "Proxima Centauri — the nearest star — is 4.24 light-years away.",
+        "fact4": "Professional astronomy more often uses parsecs (1 pc ≈ 3.26 ly)."
+      }
+    },
+    "ton_618": {
+      "name": "TON 618",
+      "tagline": "An ultramassive quasar — one of the largest black holes ever measured.",
+      "body": "TON 618 is a quasar — an actively feeding supermassive black hole — at the heart of a distant galaxy roughly 10.4 billion light-years from Earth. Its mass is estimated at around 40 billion solar masses, with an event horizon roughly 1,300 astronomical units across. The light we see from it left when our Sun did not yet exist; what TON 618 looks like now, no one will ever know.",
+      "narrative": "If our Sun were a marble, TON 618's event horizon at the same scale would be wider than the entire planet Earth.",
+      "massNarrative": "TON 618 weighs around 40 billion Suns — ten thousand times the mass of Sagittarius A* at the centre of our galaxy. How black holes this large grew so early in cosmic history is one of the open puzzles of cosmology.",
+      "image": {
+        "alt": "TON 618 — a colossal black hole ringed by a vast accretion disk, polar jets shooting out into space."
+      },
+      "facts": {
+        "fact1": "Estimated mass: ~40 billion solar masses.",
+        "fact2": "Event horizon roughly 1,300 AU across — wider than Pluto's orbit.",
+        "fact3": "About 10.4 billion light-years from Earth.",
+        "fact4": "First catalogued in 1957 as a faint star-like point; identified as a quasar in the 1970s."
+      },
+      "funFact": "TON 618 is a hyperluminous quasar — its accretion disk shines with the brightness of 140 trillion Suns, which is how we can see it across most of the visible universe.",
+      "preferredReferenceLabel": "the Sun"
+    },
+    "phoenix_a": {
+      "name": "Phoenix-A",
+      "tagline": "At the heart of the Phoenix Cluster — among the most massive known black holes.",
+      "body": "Phoenix-A is the supermassive black hole at the centre of the Phoenix Cluster, around 5.7 billion light-years away. Its mass is among the largest ever estimated — roughly 100 billion solar masses, though the figure is still under active research. The host cluster is famous for its extraordinarily luminous central galaxy and one of the highest star-formation rates ever observed in a brightest-cluster galaxy.",
+      "narrative": "If our Sun were a marble, Phoenix-A's event horizon at the same scale would dwarf a small house — its surface stretches across more than 100,000 Suns laid edge to edge.",
+      "massNarrative": "Around 100 billion solar masses — about 24,000 times the mass of Sagittarius A*, and at the upper edge of what we currently know how to measure. Mass estimates for objects this distant carry wide error bars.",
+      "image": {
+        "alt": "Phoenix-A — an enormous black hole inside a luminous galaxy cluster, intracluster gas glowing around it."
+      },
+      "facts": {
+        "fact1": "Estimated mass: ~100 billion solar masses (under active revision).",
+        "fact2": "Host: the Phoenix Cluster, ~5.7 billion light-years from Earth.",
+        "fact3": "Surrounded by one of the hottest, brightest intracluster gas concentrations ever measured.",
+        "fact4": "The Phoenix Cluster's central galaxy forms ~500 new stars every year — orders of magnitude more than the Milky Way."
+      },
+      "funFact": "Despite being one of the most massive known objects, Phoenix-A is also one of the *quietest* in its own way — the black hole's growth has stopped quenching star formation in its host galaxy, an unusual situation that astronomers are still trying to explain."
+    },
+    "voyager1": {
+      "name": "Voyager 1",
+      "tagline": "The farthest human-made object — and still calling home.",
+      "body": "Voyager 1 launched from Cape Canaveral in September 1977 on a mission to fly past Jupiter and Saturn. Forty-eight years later it's still operating — now in interstellar space, about 165 astronomical units from Earth, sending back a faint trickle of data on the particles and magnetic fields around it. Every signal takes more than 22 hours to reach Earth at the speed of light.",
+      "narrative": "Voyager 1 is so far away that a radio command from Earth takes almost a full day to reach it. If our Solar System were the size of a basketball court, Voyager would be a speck of dust at the very edge.",
+      "image": {
+        "alt": "Voyager 1 spacecraft against the cosmic void, dish antenna pointing back toward a distant Earth."
+      },
+      "facts": {
+        "fact1": "Launched 5 September 1977 — over 48 years ago.",
+        "fact2": "About 25 billion km from Earth, more than 165 astronomical units.",
+        "fact3": "Radio signals take more than 22 hours each way at the speed of light.",
+        "fact4": "Carries the Golden Record — sounds and images of Earth, for any future finder."
+      },
+      "funFact": "Voyager 1 isn't aimed at any particular star. In about 40,000 years it will pass within 1.6 light-years of Gliese 445 — but by then the constellations we know will have rearranged themselves."
+    },
+    "laniakea_supercluster": {
+      "name": "Laniakea Supercluster",
+      "tagline": "The supercluster of galaxy clusters our Milky Way lives inside.",
+      "body": "Laniakea is the vast supercluster of which our Milky Way is a tiny outer participant. It spans roughly 500 million light-years and contains about 100,000 galaxies organised along filaments that all stream toward a common gravitational basin — the Great Attractor. Astronomers only formally identified Laniakea in 2014. Even larger structures exist out there, such as the contentious Hercules-Corona Borealis Great Wall, but no supercluster is truly bound by gravity — cosmic expansion is gradually pulling them apart.",
+      "narrative": "If the Milky Way were a grain of rice, Laniakea would still be the size of a small city — a city in which every grain is a galaxy, and every street curves toward the same hidden pull.",
+      "image": {
+        "alt": "Laniakea Supercluster — a sprawling web of galaxies flowing toward a central gravitational basin."
+      },
+      "facts": {
+        "fact1": "Around 500 million light-years across.",
+        "fact2": "Contains roughly 100,000 galaxies.",
+        "fact3": "All flow toward the Great Attractor at its centre.",
+        "fact4": "Formally defined only in 2014."
+      },
+      "massNarrative": "Laniakea is so massive it would take Earth-sized bodies a trillion-trillion of them to weigh as much — and yet, cosmologically, it's still being pulled apart by dark energy.",
+      "funFact": "The name \"Laniakea\" was chosen in honour of the Polynesian navigators who crossed the Pacific by reading the stars; in Hawaiian it means \"immeasurable heaven.\""
+    },
+    "solar_system": {
+      "name": "The Solar System",
+      "tagline": "One star and everything held in its gravity.",
+      "body": "Eight planets, five dwarf planets, more than 200 moons, and millions of asteroids and comets — all bound to one yellow star. The planetary part is roughly 12 billion km wide. The Sun's gravity, though, reaches out a hundred thousand times further, into a faint shell of icy bodies called the Oort cloud. Voyager 1, our farthest probe, has been travelling for 48 years and still isn't past it.",
+      "narrative": "Shrink the Solar System to fit on a basketball court, and Earth would be smaller than a grain of sand near the centre — completely invisible to the naked eye.",
+      "funFact": "Jupiter is often called the Solar System's guardian — its enormous gravity captures or deflects many incoming comets and asteroids. If Jupiter had grown about 80 times more massive, hydrogen fusion would have ignited at its core, and we would live in a binary-star system.",
+      "image": {
+        "alt": "Top-down view of the Solar System — Sun centred, planets along orbital ellipses."
+      },
+      "facts": {
+        "fact1": "Pluto orbits about 5.9 billion km from the Sun.",
+        "fact2": "8 planets, 5 dwarf planets, more than 200 known moons.",
+        "fact3": "Voyager 1 has been travelling for 48 years and is about 24 billion km out.",
+        "fact4": "The Oort cloud may extend up to 100,000 AU from the Sun."
+      }
+    }
+  },
+  "about": {
+    "title": "About Quantumaire",
+    "tagline": "A small, careful map of everything.",
+    "intro": "Quantumaire is an interactive educational journey from the smallest known particles to the largest structures in the observable universe. The premise is simple: most explanations of scale either over-simplify (planets compared to fruit) or over-complicate (raw scientific notation with no anchor). We try for a third way — one reference object, one clear gradient of confidence, and an honest label on every claim.",
+    "scaleHeading": "Earth as a grain of sand",
+    "scaleBody": "Every length on the journey is rescaled to a single 0.5 mm grain of sand standing in for Earth. The Sun becomes a basketball about 11 metres away. The Milky Way becomes wider than the orbit of Mars. UY Scuti — one of the largest known stars — becomes a ball the size of a small house. This is the only mental conversion you need to do; we handle the rest.",
+    "badgesHeading": "How we label confidence",
+    "badgesIntro": "Not every claim in science carries the same weight. A measurement is not a theory; a theory is not a hunch. Every stop on Quantumaire wears one of four badges so you always know what you are reading.",
+    "badgeFactBody": "Directly measured or directly observed. Atoms exist. The Sun fuses hydrogen. Earth is round. We may refine the precision, but the existence of the thing is not in question.",
+    "badgeEstablishedBody": "A well-tested theoretical framework that fits the evidence we have. Special relativity. The Big Bang. The size of the observable universe. Open to refinement, but supported by enormous, convergent observational data.",
+    "badgeProbableBody": "Our current best explanation for something real that we have not yet fully pinned down. Dark matter is a clear example: we can map it through gravitational lensing, but we don't know what particle it is made of.",
+    "badgeSpeculativeBody": "Ideas worth taking seriously, but not proven. We label them clearly. We will never dress up a speculation as a fact.",
+    "editorialHeading": "Our editorial stance",
+    "editorialBody": "We would rather be slightly behind the literature than dramatically ahead of the evidence. When we discover a mistake we correct it visibly. Where reasonable people disagree, we say so. We use sources we can defend — peer-reviewed papers, established textbooks, working scientists — over flashy press releases.",
+    "languagesHeading": "Languages",
+    "languagesBody": "Every page exists in English and in Serbian (Latin script). The two language versions have their own canonical URLs so they can be discovered, cited, and translated independently — by people and by AI search engines alike.",
+    "imageAlt": "Stylised cosmic diagram showing the spectrum of confidence from fact to speculation."
+  },
+  "topicsIndex": {
+    "title": "Topics",
+    "tagline": "Concept pages that contextualise the specific stops on the journey."
+  },
+  "topics": {
+    "stars": {
+      "title": "Stars",
+      "tagline": "The nuclear furnaces of the universe.",
+      "intro": "A star is a ball of plasma held together by its own gravity, hot and dense enough in its core to fuse light atomic nuclei into heavier ones — and to release the energy that keeps the rest of it from collapsing. Stars come in a huge range of colours, sizes, and temperatures, but every one is doing the same fundamental thing: burning.",
+      "section1Heading": "Colours, temperatures, and the OBAFGKM scale",
+      "section1Body": "Astronomers classify stars by surface temperature, from O (the hottest, brightest blue stars) through B, A, F, G, K, to M (the coolest red dwarfs). The mnemonic \"Oh Be A Fine Girl/Guy, Kiss Me\" is older than radio. O-class stars exceed 30,000 K and are rare and brilliant. B-class are 10,000–30,000 K and blue. A-class (7,500–10,000 K, white) includes Sirius. F-class are yellow-white. G-class (5,200–6,000 K, yellow) includes our Sun. K-class are orange. M-class (under 3,700 K, red) are the most common type in the galaxy.",
+      "section2Heading": "Size matters, too",
+      "section2Body": "A second classification ladder runs from dwarfs to hypergiants. White dwarfs are stellar corpses smaller than Earth. Brown dwarfs straddle the line between large planets and small stars. Main-sequence stars like the Sun sit in the middle. Red giants and supergiants swell as they age. Hypergiants like UY Scuti and Stephenson 2-18 are so puffy that their surface, placed where the Sun is, would extend past Jupiter — but they are also among the most short-lived stars in the galaxy.",
+      "section3Heading": "How a star is born",
+      "section3Body": "Every star starts as a knot of cold gas inside a molecular cloud, collapsing under its own gravity. As the centre densifies and heats, hydrogen begins fusing into helium and the new star joins the \"main sequence\" — the steady-burning phase where it spends most of its life. The Sun has been in main-sequence phase for about 4.6 billion years and has roughly another five to go.",
+      "section4Heading": "How a star dies",
+      "section4Body": "What a star becomes when it dies depends on how massive it was. Sun-sized stars puff into red giants, shed their outer layers, and leave behind a slow-cooling white dwarf. Larger stars — 8 to 25 solar masses — end in supernova explosions, collapsing their cores into neutron stars. Truly massive stars (above ~25 solar masses) skip even that — their cores collapse straight into stellar-mass black holes. Black holes are, in this sense, the graveyards of the most massive stars.",
+      "section5Heading": "Numbers and extremes",
+      "section5Body": "There are an estimated 200 billion stars in the Milky Way alone, and roughly 2 trillion galaxies in the observable universe. The smallest known stars are barely larger than Jupiter. The largest, like UY Scuti, would extend past the orbit of Jupiter if placed at the Sun's position. The hottest stars exceed 200,000 K at their surfaces; the coolest red dwarfs are around 2,300 K — cooler than the inside of a forge."
+    },
+    "planets": {
+      "title": "Planets",
+      "tagline": "Worlds bound to a star.",
+      "intro": "A planet is a body massive enough to be rounded by its own gravity, orbiting a star, and clearing the neighbourhood around its orbit. The third clause — added by the International Astronomical Union in 2006 — is what reclassified Pluto. By that definition our Solar System has eight planets; by older definitions it had more.",
+      "section1Heading": "Two flavours, with variations",
+      "section1Body": "Our Solar System has four small rocky \"terrestrial\" planets close to the Sun — Mercury, Venus, Earth, Mars — and four large gaseous outer ones: Jupiter and Saturn (gas giants), Uranus and Neptune (ice giants, with proportionally more water, ammonia and methane). Beyond Neptune lies the Kuiper Belt and a population of icy bodies, including five recognised dwarf planets.",
+      "section2Heading": "Exoplanets — worlds around other stars",
+      "section2Body": "Since the first confirmed exoplanet around a Sun-like star in 1995, more than 5,800 have been catalogued. Many do not resemble anything in our system: \"hot Jupiters\" that orbit closer than Mercury, \"super-Earths\" between Earth and Neptune in size with no equivalent here, \"rogue planets\" wandering free without a star at all. Most stars in the galaxy probably have planets.",
+      "section3Heading": "Where planet ends and star begins",
+      "section3Body": "The line between large planet and small star is blurry. Brown dwarfs — failed stars massive enough to fuse deuterium but not hydrogen — occupy that grey zone. Jupiter would need to grow about 80 times more massive to ignite hydrogen fusion and become a true star. Our Solar System came close to being a binary system.",
+      "section4Heading": "Conditions for life",
+      "section4Body": "A planet capable of liquid water at its surface needs a stable orbit in the \"habitable zone\" around its star, a substantial atmosphere, a magnetic field to deflect stellar radiation, and probably plate tectonics to recycle nutrients. Earth has all four. We have so far found no other world that demonstrably does — though several look intriguing."
+    },
+    "blackHoles": {
+      "title": "Black holes",
+      "tagline": "Regions of spacetime nothing can escape.",
+      "intro": "A black hole is a region where matter has collapsed into a gravitational well so deep that not even light moving at the cosmic speed limit can climb back out. Once you cross its event horizon, you're committed. We can't see inside one directly — we infer their existence from how they bend light, swallow gas, and tug on the stars around them.",
+      "section1Heading": "Three families by mass",
+      "section1Body": "Black holes come in three rough size classes. Stellar-mass black holes weigh 3 to a few tens of solar masses and form when massive stars die. Intermediate-mass black holes — hundreds to hundreds of thousands of solar masses — were long theorised and only recently confirmed in a handful of specific systems. Supermassive black holes, millions to tens of billions of solar masses, sit at the centres of almost every large galaxy. How the supermassive ones grew so fast in the early universe is still an open question.",
+      "section2Heading": "Not every star becomes a black hole",
+      "section2Body": "What a dying star leaves behind depends on its mass. Sun-sized stars end as cooling white dwarfs. Stars 8 to 25 times the Sun's mass collapse into neutron stars after their supernova. Only the heaviest stars — those above roughly 25 solar masses — collapse straight into stellar-mass black holes. Black holes are, in this sense, the graveyards of the most massive stars.",
+      "section3Heading": "Named black holes worth knowing",
+      "section3Body": "Sagittarius A* weighs about 4.15 million solar masses and sits at the centre of the Milky Way; we got its first direct image in 2022. M87* in the galaxy M87 is much heavier — around 6.5 billion solar masses — and was the very first black hole ever imaged, in 2019. TON 618 and Phoenix-A are contenders for the most massive known, each tens of billions of solar masses. Gaia BH1 is the nearest known black hole of any kind — a much smaller stellar-mass one only 1,560 light-years away.",
+      "section4Heading": "Strange physics inside",
+      "section4Body": "Past the event horizon, our current theories run out. General relativity predicts a \"singularity\" — a point of infinite density — at the centre of every black hole. But infinities in physics are usually a sign that the theory is incomplete, not a real prediction. A future theory of quantum gravity, when we have one, will probably replace the singularity with something less infinite.",
+      "section5Heading": "Hawking radiation and slow evaporation",
+      "section5Body": "Stephen Hawking showed in 1974 that black holes are not actually perfectly black — they radiate a tiny amount of thermal energy from just outside their event horizon. Over inconceivably long timescales (around 10⁶⁷ years for a stellar-mass black hole, far longer for supermassive ones) they should slowly evaporate. We have never observed this happen — it's far too faint."
+    },
+    "nebulae": {
+      "title": "Nebulae",
+      "tagline": "Where stars are born and where they go to die.",
+      "intro": "A nebula is a vast cloud of gas and dust drifting through interstellar space. Some are nurseries where new stars are condensing under gravity. Others are graveyards — the puffed-out remains of stars that finished burning. They are the loudest, prettiest objects in deep-sky astrophotography, and the slowest-moving cosmic events humans can directly observe.",
+      "section1Heading": "Four flavours of nebula",
+      "section1Body": "Astronomers usually sort nebulae into four kinds. Emission nebulae glow because hot young stars ionise their gas — the Orion Nebula is the classic example. Reflection nebulae merely scatter light from nearby stars, with no light of their own. Planetary nebulae are the shed outer layers of dying Sun-like stars — the Ring Nebula and the Cat's Eye are famous examples (the misleading name comes from their round, planet-like appearance through small 18th-century telescopes). Supernova remnants are the violent debris of dying massive stars — the Crab Nebula was created by a supernova observed from Earth in 1054 CE.",
+      "section2Heading": "Star nurseries",
+      "section2Body": "Most stars form inside cold, dense molecular clouds. Gravity collapses pockets of gas into protostars; nearby young stars then heat and ionise the leftover gas, lighting up the region. The Pillars of Creation in the Eagle Nebula — that Hubble image you've seen — are a stellar nursery in progress. Our Sun was almost certainly born in a similar nursery; its siblings have long since drifted apart across the galaxy.",
+      "section3Heading": "Sun-sized deaths leave planetary nebulae",
+      "section3Body": "When a Sun-like star runs out of hydrogen fuel, it expands into a red giant, then sheds its outer atmosphere into space. The exposed core — a hot white dwarf — illuminates that shed gas from the inside, producing a planetary nebula. In about five billion years, this is what will happen to the Sun. The phase lasts only tens of thousands of years before the gas dissipates.",
+      "section4Heading": "Massive deaths leave supernova remnants",
+      "section4Body": "When a star above eight solar masses dies, its outer layers explode at thousands of kilometres per second, leaving a shock wave of hot gas that lights up for tens of thousands of years. The Crab Nebula still expands at about 1,500 km/s, and a rapidly spinning neutron star — the Crab Pulsar — sits at its centre, the collapsed core of the original star."
+    },
+    "bigBang": {
+      "title": "The Big Bang",
+      "tagline": "The hot, dense origin of the universe we can see.",
+      "intro": "Our best current picture of cosmic history says that around 13.8 billion years ago, everything in the observable universe was packed into a state so hot and dense that ordinary matter, light and space behaved in ways our theories can no longer fully describe. From that state — call it the Big Bang — space expanded, cooled, and produced the matter, stars and galaxies we observe today. The Big Bang is not an explosion *inside* space; it is the expansion *of* space itself.",
+      "section1Heading": "Expansion: galaxies moving apart",
+      "section1Body": "In the 1920s Edwin Hubble showed that distant galaxies are receding from us, and the further away they are, the faster they recede. This is the strongest direct evidence for cosmic expansion. We are not at any special centre — every galaxy sees this same outward flow from every other galaxy. Run the expansion backwards in time and everything collapses to a single hot dense state.",
+      "section2Heading": "Cosmic microwave background — the universe's baby photo",
+      "section2Body": "About 380,000 years after the Big Bang, space cooled enough for atoms to form and light to travel freely for the first time. That ancient light, redshifted into microwaves by 13.8 billion years of expansion, now bathes the entire sky in a faint, almost-uniform glow. Tiny temperature variations across this Cosmic Microwave Background map the seeds of every galaxy that exists today. We have measured it with extraordinary precision — it is among the best-tested predictions in all of physics.",
+      "section3Heading": "Accelerating expansion and dark energy",
+      "section3Body": "In 1998, two independent teams measuring distant supernovae found that the universe's expansion isn't slowing down (as gravity would suggest) — it's speeding up. A mysterious form of energy embedded in space itself, called *dark energy*, appears to be pushing space apart faster and faster. Over the next hundred billion years, this acceleration will eventually carry every galaxy outside our local group beyond the cosmic horizon. The acceleration is **established theory**; what dark energy actually *is* remains a deep open question.",
+      "section4Heading": "Before the Big Bang? Speculation only",
+      "section4Body": "Asking \"what happened before the Big Bang?\" sits at the very edge of physics. Several ideas exist — eternal inflation, where our universe is one of many bubbles in a much larger inflating multiverse; cyclic models, where Big Bangs and Big Crunches repeat; bouncing models from loop quantum gravity. None has been observationally confirmed; some may even be unconfirmable in principle. **This entire area is speculative** — fascinating, but not yet science the way the rest of this page is."
+    },
+    "supernova": {
+      "title": "Supernovae",
+      "tagline": "How massive stars die — and what they leave behind.",
+      "intro": "A supernova is the explosive death of a star, briefly outshining an entire galaxy. The explosion seeds the universe with heavy elements — every atom in your body heavier than helium was forged inside a star and scattered by an event like this. We observe a few supernovae per year across the visible universe, but in our own Milky Way one occurs only every century or two.",
+      "section1Heading": "Two completely different mechanisms",
+      "section1Body": "Astronomers see two main flavours. **Core-collapse supernovae** (Types II, Ib, Ic) happen when a star above about 8 solar masses runs out of nuclear fuel — its core collapses in a fraction of a second, then rebounds, blowing the outer layers off. **Thermonuclear supernovae** (Type Ia) happen when a white dwarf in a binary system accretes enough matter to ignite runaway carbon fusion, vaporising the entire star. The latter are so consistent in brightness they're used as standard candles to measure cosmic distances.",
+      "section2Heading": "What's left behind",
+      "section2Body": "If the dying star was 8–25 solar masses, its collapsed core remains as a neutron star — a city-sized object as heavy as the Sun. If above ~25 solar masses, the collapse goes further and a stellar-mass black hole is left in the centre. The outer layers expand as a glowing supernova remnant — the Crab Nebula is the most famous, the visible debris of a supernova humans on Earth recorded in 1054 CE.",
+      "section3Heading": "Famous supernovae",
+      "section3Body": "**SN 1054** — recorded by Chinese, Japanese and Arab astronomers in July 1054 CE — produced the Crab Nebula and its central pulsar. **SN 1572** was observed by Tycho Brahe and broke the medieval belief in an unchanging cosmos. **SN 1987A**, in the Large Magellanic Cloud, was the closest naked-eye supernova in nearly 400 years and the first whose pre-explosion star was identified.",
+      "section4Heading": "The universe's element factory",
+      "section4Body": "Hydrogen and helium come from the Big Bang. Almost everything else — carbon, oxygen, calcium, iron, gold, uranium — is forged either inside stars or in supernovae and neutron-star mergers. Carl Sagan's line that \"we are made of star-stuff\" is literally true: every atom in your body heavier than helium was forged inside an ancient star and scattered across space when it died. You are, structurally, recycled supernova."
+    },
+    "time": {
+      "title": "Time",
+      "tagline": "Not as universal as it feels.",
+      "intro": "Newton thought time flowed at the same rate everywhere. Einstein showed otherwise. Time runs slower when you move fast, and slower deep inside a gravitational well. The effects are tiny in everyday life but real, measurable, and built into the satellites in your phone's GPS chip. This page sticks to the parts that are **established theory** — well-tested for over a century.",
+      "section1Heading": "Moving fast slows your clock (special relativity)",
+      "section1Body": "Einstein's 1905 special theory of relativity says that two observers moving relative to each other will disagree about how much time has passed between two events. Specifically: a clock moving past you ticks slower than your own. The effect is real but tiny at everyday speeds. At 1% of the speed of light a clock runs about 0.005% slow. At 99% it runs **seven times** slower. This isn't an illusion — it's been measured directly with atomic clocks on fast aircraft. **Status: established theory, verified repeatedly.**",
+      "section2Heading": "Gravity slows time too (general relativity)",
+      "section2Body": "Einstein's 1915 general theory of relativity says gravity also slows time. A clock at sea level ticks slightly slower than a clock at the top of Mount Everest. A clock just outside a black hole's event horizon would tick arbitrarily slowly compared to ours. The effect is tiny on Earth but huge near a black hole — and significant enough that GPS satellites have to correct their clocks by 38 microseconds per day, or your phone's location would drift by kilometres every hour. **Status: established theory, again verified directly.**",
+      "section3Heading": "The twin paradox",
+      "section3Body": "If one twin stays on Earth and the other accelerates to near light-speed, travels to a distant star, and returns — the travelling twin will be younger. This isn't a paradox; the asymmetry comes from acceleration, which only the travelling twin experiences. The effect has been measured with atomic clocks flown around the world. **Status: real consequence of relativity, observationally confirmed.**",
+      "section4Heading": "The arrow of time",
+      "section4Body": "Why does time only move forwards? Physically, almost every law of physics works the same backwards as forwards — except the second law of thermodynamics, which says total entropy (disorder) always increases. That asymmetry is what gives time its direction. Why the universe started in such a low-entropy state, though, is a much harder question — and an open one. **Status: the arrow itself is established; its ultimate origin is speculative.**"
+    },
+    "distances": {
+      "title": "Distances",
+      "tagline": "From light-seconds to the cosmic horizon.",
+      "intro": "Once you leave Earth, conventional units stop being useful. Astronomers measure distance in light-time (how long it took the light to reach us), in astronomical units (the Earth-Sun distance), or in parsecs and light-years. Below is a rough distance ladder, from the closest places we can reach to the edge of what we can ever see.",
+      "section1Heading": "Within reach — Solar System distances",
+      "section1Body": "Light takes about 1.3 seconds to reach Earth from the Moon, 8 minutes from the Sun, and 5 hours from Pluto. Voyager 1 — the farthest human-made object — is now about 22 light-hours out: nearly a full day of signal delay each way. Beyond that lies the Oort Cloud, a faint shell of icy bodies whose outer edge may sit at one full *light-year*.",
+      "section2Heading": "Stellar neighbourhood",
+      "section2Body": "Proxima Centauri, the nearest star beyond the Sun, is 4.24 light-years away. Alpha Centauri A and B sit just behind it. Sirius — the brightest star in our night sky — is 8.6 light-years away. The light from Vega left when many of today's high-school graduates were starting kindergarten. Travel at the fastest human-made speed and you'd reach Proxima in about 73,000 years.",
+      "section3Heading": "Galactic and extragalactic",
+      "section3Body": "Sagittarius A*, the supermassive black hole at our galactic centre, is 26,000 light-years from Earth. The far side of the Milky Way is around 80,000 light-years. Andromeda — our nearest large galactic neighbour — is 2.5 million light-years away; its light started travelling before our ancestors walked upright. The Virgo Cluster, the dense centre of our local cosmic neighbourhood, sits 54 million light-years off.",
+      "section4Heading": "The cosmic horizon",
+      "section4Body": "We can only see light that's had time to reach us since the Big Bang, but space has also been expanding the whole time the light was travelling. The most distant light we can see comes from objects that are *now* about 46 billion light-years away — even though their light has been travelling \"only\" 13.8 billion years. That is our observable horizon. Beyond it almost certainly lies more universe; the limit is on what we can know, not on what exists."
+    },
+    "moons": {
+      "title": "Moons",
+      "tagline": "The natural satellites of the planets.",
+      "intro": "A moon — also called a natural satellite — is any body that orbits a planet, dwarf planet, or other small Solar System body. Our Solar System has hundreds of confirmed moons, ranging from boulder-sized objects to worlds larger than Mercury. Some have atmospheres, subsurface oceans, or active volcanism. A few are among the most likely places to find life beyond Earth.",
+      "section1Heading": "Earth's Moon",
+      "section1Body": "Our Moon is large for a moon orbiting a small planet — about a quarter of Earth's diameter. It formed about 4.5 billion years ago, almost certainly when a Mars-sized body collided with the young Earth, and the debris from that impact coalesced. The Moon stabilises Earth's axial tilt and drives our tides; it's slowly drifting away from us at about 3.8 cm per year.",
+      "section2Heading": "The giants — Ganymede, Titan, Callisto, Io, Europa",
+      "section2Body": "The four largest moons in the Solar System — Ganymede, Titan, Callisto and Io — are all bigger than Earth's Moon, and Ganymede is even larger than the planet Mercury. Ganymede (a moon of Jupiter) is the biggest moon in the Solar System. Titan (a moon of Saturn) has a thick nitrogen atmosphere and rivers of liquid methane. Europa (Jupiter) hides a vast salty ocean beneath an icy shell — one of the most promising places to search for life elsewhere in the Solar System.",
+      "section3Heading": "Counting them: Jupiter and Saturn",
+      "section3Body": "Jupiter has 95 confirmed moons, Saturn has 146 confirmed, and the numbers keep climbing as small telescopes find tiny captured asteroids. Most of these are rocky bodies a few kilometres across in irregular orbits — almost certainly debris from earlier collisions, not moons that formed alongside the planet.",
+      "section4Heading": "Exomoons",
+      "section4Body": "Moons around planets in other star systems — exomoons — are theoretically expected almost everywhere, but none has yet been definitively confirmed. They are far harder to detect than exoplanets: a moon shows up only as a tiny periodic wobble inside another tiny periodic wobble. A handful of candidates exist, including a possible Neptune-sized exomoon around the gas giant Kepler-1625b."
+    }
+  },
+  "topicView": {
+    "intro": "Overview",
+    "relatedStops": "Related stops",
+    "sourcesHeading": "Sources"
+  },
+  "glossary": {
+    "quantum": {
+      "term": "Quantum",
+      "definition": "The smallest discrete amount of a physical property — energy, charge, spin — that something can have."
+    },
+    "gluon": {
+      "term": "Gluon",
+      "definition": "The carrier of the strong force, the glue that holds quarks together inside protons and neutrons."
+    },
+    "strong_force": {
+      "term": "Strong force",
+      "definition": "The most powerful of the four fundamental forces, dominant at the scale of an atomic nucleus."
+    },
+    "quark": {
+      "term": "Quark",
+      "definition": "A fundamental particle of matter. Quarks combine in twos and threes to form hadrons such as protons and neutrons."
+    },
+    "nucleus": {
+      "term": "Nucleus",
+      "definition": "The dense core of an atom, made of protons and neutrons."
+    },
+    "electron": {
+      "term": "Electron",
+      "definition": "A negatively-charged elementary particle that surrounds the atomic nucleus in a cloud-like probability distribution."
+    },
+    "orbital": {
+      "term": "Orbital",
+      "definition": "Not really an orbit — a mathematical region around a nucleus where an electron is likely to be found."
+    },
+    "base_pair": {
+      "term": "Base pair",
+      "definition": "A rung of the DNA ladder: two complementary bases (A–T or C–G) joined across the helix."
+    },
+    "helix": {
+      "term": "Helix",
+      "definition": "A spiral structure — DNA forms two intertwined helices."
+    },
+    "genome": {
+      "term": "Genome",
+      "definition": "The complete set of genetic instructions for an organism."
+    },
+    "dissociation": {
+      "term": "Dissociation",
+      "definition": "A disconnection between thoughts, identity, consciousness, and memory."
+    },
+    "alter": {
+      "term": "Alter",
+      "definition": "A distinct identity state within a person with dissociative identity disorder."
+    },
+    "psychogenic": {
+      "term": "Psychogenic",
+      "definition": "A physical change driven by the mind rather than by external biology."
+    },
+    "orion_correlation": {
+      "term": "Orion correlation",
+      "definition": "A speculative claim that the three Giza pyramids mirror the belt stars of Orion."
+    },
+    "limestone_casing": {
+      "term": "Limestone casing",
+      "definition": "The polished outer layer that once made the Great Pyramid a smooth, gleaming surface."
+    },
+    "khufu": {
+      "term": "Khufu",
+      "definition": "The Fourth-Dynasty pharaoh traditionally credited as the pyramid's builder, c. 2560 BCE."
+    },
+    "grain_of_sand": {
+      "term": "Grain of sand",
+      "definition": "Quantumaire's reference unit: 0.5 mm — what Earth would be if we shrank the universe to fit on a table."
+    },
+    "reference_scale": {
+      "term": "Reference scale",
+      "definition": "A fixed object you compare everything else to so that wildly different sizes become intuitive."
+    },
+    "pulsar": {
+      "term": "Pulsar",
+      "definition": "A rapidly rotating neutron star that emits beams of radiation along its magnetic poles."
+    },
+    "supernova": {
+      "term": "Supernova",
+      "definition": "The explosive death of a massive star — bright enough, briefly, to outshine a galaxy."
+    },
+    "degenerate_matter": {
+      "term": "Degenerate matter",
+      "definition": "Matter so dense that quantum pressure, not heat, holds it up against gravity."
+    },
+    "fusion": {
+      "term": "Fusion",
+      "definition": "The merging of lighter atomic nuclei into heavier ones, releasing energy — what powers stars."
+    },
+    "corona": {
+      "term": "Corona",
+      "definition": "The Sun's outer atmosphere of superheated plasma, visible during a total eclipse."
+    },
+    "main_sequence": {
+      "term": "Main sequence",
+      "definition": "The long-lived hydrogen-fusing stage where most stars, including the Sun, spend their lives."
+    },
+    "hypergiant": {
+      "term": "Hypergiant",
+      "definition": "An exceptionally massive, luminous star nearing the end of its life."
+    },
+    "stellar_radius": {
+      "term": "Stellar radius",
+      "definition": "The distance from the centre of a star to its visible surface."
+    },
+    "spiral_arm": {
+      "term": "Spiral arm",
+      "definition": "A bright lane of stars, gas, and star formation winding through a spiral galaxy."
+    },
+    "galactic_core": {
+      "term": "Galactic core",
+      "definition": "The dense central region of a galaxy, often hosting a supermassive black hole."
+    },
+    "light_year": {
+      "term": "Light-year",
+      "definition": "The distance light travels in one year — about 9.46 trillion kilometres."
+    },
+    "gravitational_lensing": {
+      "term": "Gravitational lensing",
+      "definition": "The bending of light by gravity — used to detect mass we cannot see directly."
+    },
+    "wimp": {
+      "term": "WIMP",
+      "definition": "Weakly Interacting Massive Particle — a leading dark matter candidate that has yet to be detected."
+    },
+    "halo": {
+      "term": "Dark matter halo",
+      "definition": "The roughly spherical envelope of dark matter that surrounds and shapes every galaxy."
+    },
+    "cosmological_constant": {
+      "term": "Cosmological constant",
+      "definition": "A uniform energy density of empty space, the simplest possible form of dark energy."
+    },
+    "expansion": {
+      "term": "Expansion",
+      "definition": "The stretching of space itself, carrying distant galaxies away from each other."
+    },
+    "horizon": {
+      "term": "Horizon",
+      "definition": "The boundary beyond which information cannot reach us — for example, the edge of the observable universe."
+    },
+    "cosmic_horizon": {
+      "term": "Cosmic horizon",
+      "definition": "The edge of the volume of space from which light has had time to reach us."
+    },
+    "big_bang": {
+      "term": "Big Bang",
+      "definition": "The hot, dense, expanding state from which the observable universe emerged some 13.8 billion years ago."
+    },
+    "capsid": {
+      "term": "Capsid",
+      "definition": "The protein shell of a virus, often built from many copies of one or two protein subunits arranged with symmetry."
+    },
+    "rna": {
+      "term": "RNA",
+      "definition": "Ribonucleic acid — a single-stranded molecule that carries genetic and regulatory information; many viruses use it as their genome."
+    },
+    "event_horizon": {
+      "term": "Event horizon",
+      "definition": "The one-way boundary around a black hole — once inside, nothing can return to the outside universe."
+    },
+    "accretion_disk": {
+      "term": "Accretion disk",
+      "definition": "Hot, swirling matter spiralling into a compact object, heated to extreme temperatures and glowing brightly."
+    },
+    "singularity": {
+      "term": "Singularity",
+      "definition": "The point at the centre of a black hole where the known laws of physics break down — where our current theories run out."
+    },
+    "ecliptic": {
+      "term": "Ecliptic",
+      "definition": "The roughly flat plane in which the planets orbit the Sun."
+    },
+    "oort_cloud": {
+      "term": "Oort cloud",
+      "definition": "A vast, faint, spherical shell of icy bodies surrounding the Solar System out to roughly 100,000 AU."
+    },
+    "kuiper_belt": {
+      "term": "Kuiper belt",
+      "definition": "A doughnut-shaped region of icy bodies beyond Neptune's orbit, home of Pluto and many dwarf planets."
+    },
+    "organelle": {
+      "term": "Organelle",
+      "definition": "A specialised structure within a cell, like a tiny organ — nuclei, mitochondria, and chloroplasts are organelles."
+    },
+    "parsec": {
+      "term": "Parsec",
+      "definition": "An astronomical unit of distance — about 3.26 light-years, defined by stellar parallax."
+    },
+    "heliosphere": {
+      "term": "Heliosphere",
+      "definition": "The vast bubble of charged particles streaming out from the Sun — the region of space dominated by the solar wind, ending at the heliopause far past Pluto."
+    },
+    "supercluster": {
+      "term": "Supercluster",
+      "definition": "A loose, gravitationally bound assembly of galaxy clusters — among the largest organised structures in the universe."
+    },
+    "exomoon": {
+      "term": "Exomoon",
+      "definition": "A moon orbiting an exoplanet rather than a planet in our Solar System. No exomoon has been definitively confirmed."
+    }
+  }
+}

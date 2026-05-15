@@ -1,0 +1,18 @@
+/* TEAM */
+
+  Project: Quantumaire
+  Site: https://quantumaire.com
+  Contact: hello [at] quantumaire.com
+
+/* SITE */
+
+  Built with: Next.js, TypeScript, Tailwind CSS, Framer Motion
+  Languages: English, Serbian (Latin)
+  Standards: HTML5, schema.org, llms.txt, hreflang
+  Components: hand-rolled, no UI framework
+  Code: https://github.com/milos-micke-mitrovic/quantumaire
+
+/* THANKS */
+
+  To every scientist, teacher, and Wikipedia editor whose work made it
+  possible to label so many of these stops with confidence.

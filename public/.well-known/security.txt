@@ -1,0 +1,7 @@
+# Quantumaire security contact (RFC 9116).
+# Update the dates and email once the production domain is live.
+
+Contact: mailto:security@quantumaire.com
+Expires: 2027-01-01T00:00:00.000Z
+Preferred-Languages: en, sr
+Canonical: https://quantumaire.com/.well-known/security.txt
