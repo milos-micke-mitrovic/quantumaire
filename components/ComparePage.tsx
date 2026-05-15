@@ -191,6 +191,9 @@ export function ComparePage() {
         <p className="mt-3 max-w-2xl text-base text-cosmos-star/80 sm:text-lg">
           {t("common.comparePage.tagline")}
         </p>
+        <p className="mt-5 max-w-2xl text-base leading-relaxed text-cosmos-star/70">
+          {t("common.comparePage.intro")}
+        </p>
       </motion.header>
 
       <section className="mt-10 grid gap-4 sm:grid-cols-[1fr_auto_1fr]">

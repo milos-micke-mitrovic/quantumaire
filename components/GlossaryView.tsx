@@ -48,6 +48,9 @@ export function GlossaryView() {
         <p className="mt-3 text-base text-cosmos-star/80 sm:text-lg">
           {t("common.glossaryPage.tagline", { count: entries.length })}
         </p>
+        <p className="mt-5 max-w-2xl text-base leading-relaxed text-cosmos-star/70">
+          {t("common.glossaryPage.intro")}
+        </p>
       </motion.header>
 
       <div className="mt-8">

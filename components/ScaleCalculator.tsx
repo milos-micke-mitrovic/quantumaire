@@ -95,6 +95,9 @@ export function ScaleCalculator() {
         <p className="mt-3 max-w-2xl text-base text-cosmos-star/80 sm:text-lg">
           {t("common.scaleTool.tagline")}
         </p>
+        <p className="mt-5 max-w-2xl text-base leading-relaxed text-cosmos-star/70">
+          {t("common.scaleTool.intro")}
+        </p>
       </motion.header>
 
       <section className="mt-10 rounded-3xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-sm sm:p-8">

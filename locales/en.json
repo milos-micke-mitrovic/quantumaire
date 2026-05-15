@@ -47,12 +47,14 @@
     "glossaryPage": {
       "title": "Glossary",
       "tagline": "{count} terms used across the journey, defined in one place.",
+      "intro": "Every technical word we use across the journey lives here, alphabetised and searchable. Each stop's page links the handful of glossary terms most relevant to it — but if you ran into something unfamiliar reading any stop, this is the page to land on. Definitions are deliberately short; we'd rather you read three of them than skim one long one.",
       "filterPlaceholder": "Filter terms…"
     },
     "tools": "Tools",
     "scaleTool": {
       "title": "Scale calculator",
       "tagline": "Type any length. See it shrunk down to our grain-of-sand reference, with the nearest Quantumaire stop alongside.",
+      "intro": "Quantumaire's whole journey rests on one trick: shrink Earth to a single 0.5 mm grain of sand, then shrink everything else by the same factor. This page does that math for any length you type — a bacterium, a city, the distance to Jupiter, anything. The result tells you both the grain-scale equivalent and which stop on the journey it sits closest to.",
       "inputLabel": "Length",
       "unitLabel": "Unit",
       "yourValue": "Your value",
@@ -87,6 +89,7 @@
     "progress": {
       "title": "Your journey",
       "tagline": "{count} of {total} stops visited.",
+      "intro": "Quantumaire's journey has thirty stops. This page tracks which ones you've opened, stored locally on this device — no account, no server, no cross-site tracking. It's here so you can see what's still ahead, jump straight to a random stop you haven't visited yet, and (if you ever want to) start over with a clean slate.",
       "complete": "Journey complete — every stop opened. Welcome to the club.",
       "empty": "You haven't opened any stops yet. Pick one and the journey begins.",
       "categoryBreakdown": "By category",
@@ -114,6 +117,7 @@
     "comparePage": {
       "title": "Compare two stops",
       "tagline": "Pick any two and see the ratio between them.",
+      "intro": "The journey sliders give you the full sweep at once; this page is for pinning two specific things side by side. Pick any two stops with concrete sizes and you get the exact ratio between them — including the kind of number that makes the difference feel real (a Sun is roughly a hundred Jupiters across; a Jupiter is roughly eleven Earths; an Earth is roughly four Moons). Sharing the URL of any pairing gives the other person the same view.",
       "swap": "Swap",
       "ratio": "Ratio",
       "timesAsBig": "{b} is {factor}× bigger than {a}",
@@ -133,6 +137,8 @@
   },
   "home": {
     "faq": {
+      "heading": "Frequently asked",
+      "tagline": "Short answers to the questions Quantumaire gets most often.",
       "q1": "What is Quantumaire?",
       "a1": "An interactive educational journey from the smallest known particles to the observable universe, with the trustworthiness of every claim transparently labelled as Fact, Established Theory, Probable Theory, or Speculative.",
       "q2": "How big is Earth compared to a quark?",
@@ -308,7 +314,7 @@
     "earth": {
       "name": "Earth",
       "tagline": "Our reference grain of sand.",
-      "body": "If we shrink Earth down to a single 0.5 mm grain of sand, every other size in this journey changes by the same factor. The Sun becomes a basketball about 11 metres away. The Milky Way becomes wider than the orbit of Mars. The trick is letting your sense of scale stretch.",
+      "body": "If we shrink Earth down to a single 0.5 mm grain of sand, every other size in this journey changes by the same factor. At that scale the Sun is a billiard ball about six metres away, the Moon is a smaller speck just 1.5 cm from Earth, and the Milky Way spans about a hundred Earth-Moon distances. The trick is letting your sense of scale stretch.",
       "narrative": "Quantumaire's anchor: if Earth were a single grain of sand, the Moon would be a smaller speck about 1.5 cm away, and the Sun would be an apple roughly 6 metres off.",
       "massNarrative": "Earth weighs about a 6 followed by 21 zeros — in tonnes. Compress that into a peanut and you'd have a black hole.",
       "funFact": "Earth's day is slowly getting longer. When the first dinosaurs walked the planet, a day was less than 23 hours long; in a billion years it'll be over 25 hours.",
@@ -494,7 +500,7 @@
       "name": "Virgo Cluster",
       "tagline": "Our local galaxy cluster — one of thousands in the universe.",
       "body": "The Virgo Cluster is the dense centre of our local galactic neighbourhood — around 1,300 galaxies bound together by gravity, spread across a region 15 million light-years wide and about 54 million light-years from us. The Milky Way and Andromeda sit on its outskirts. Larger clusters exist: the Coma Cluster holds over 1,000 galaxies in a denser concentration, and the Phoenix Cluster is one of the most massive ever measured. Past the cluster scale, structures stop being gravitationally bound and stretch into superclusters.",
-      "narrative": "A galaxy cluster is so wide that light needs tens of millions of years just to cross it — longer than mammals have existed on Earth.",
+      "narrative": "A galaxy cluster is so wide that light needs around fifteen million years just to cross it — longer than the entire time the human genus has existed on Earth.",
       "massNarrative": "A typical galaxy cluster weighs as much as a few thousand trillion Suns — and most of that mass, again, is dark matter rather than stars.",
       "funFact": "Galaxy clusters in our neighbourhood are all being pulled toward an unseen mass concentration — the so-called Great Attractor — sitting at the heart of the Laniakea Supercluster.",
       "image": {
@@ -587,20 +593,19 @@
         "fact3": "About 10.4 billion light-years from Earth.",
         "fact4": "First catalogued in 1957 as a faint star-like point; identified as a quasar in the 1970s."
       },
-      "funFact": "TON 618 is a hyperluminous quasar — its accretion disk shines with the brightness of 140 trillion Suns, which is how we can see it across most of the visible universe.",
-      "preferredReferenceLabel": "the Sun"
+      "funFact": "TON 618 is a hyperluminous quasar — its accretion disk shines with the brightness of 140 trillion Suns, which is how we can see it across most of the visible universe."
     },
     "phoenix_a": {
       "name": "Phoenix-A",
       "tagline": "At the heart of the Phoenix Cluster — among the most massive known black holes.",
-      "body": "Phoenix-A is the supermassive black hole at the centre of the Phoenix Cluster, around 5.7 billion light-years away. Its mass is among the largest ever estimated — roughly 100 billion solar masses, though the figure is still under active research. The host cluster is famous for its extraordinarily luminous central galaxy and one of the highest star-formation rates ever observed in a brightest-cluster galaxy.",
+      "body": "Phoenix-A is the supermassive black hole at the centre of the Phoenix Cluster, around 5.7 billion light-years away. Its mass is among the largest ever estimated — published values range from about 10 to 100 billion solar masses, with our current best estimate sitting around 25 billion. The host cluster is famous for its extraordinarily luminous central galaxy and one of the highest star-formation rates ever observed in a brightest-cluster galaxy.",
       "narrative": "If our Sun were a marble, Phoenix-A's event horizon at the same scale would dwarf a small house — its surface stretches across more than 100,000 Suns laid edge to edge.",
-      "massNarrative": "Around 100 billion solar masses — about 24,000 times the mass of Sagittarius A*, and at the upper edge of what we currently know how to measure. Mass estimates for objects this distant carry wide error bars.",
+      "massNarrative": "Around 25 billion solar masses — roughly 6,000 times the mass of Sagittarius A* at the centre of our galaxy. Mass estimates for objects this distant carry wide error bars; published values reach as high as 100 billion solar masses.",
       "image": {
         "alt": "Phoenix-A — an enormous black hole inside a luminous galaxy cluster, intracluster gas glowing around it."
       },
       "facts": {
-        "fact1": "Estimated mass: ~100 billion solar masses (under active revision).",
+        "fact1": "Estimated mass: ~25 billion solar masses; published range 10–100 billion (under active research).",
         "fact2": "Host: the Phoenix Cluster, ~5.7 billion light-years from Earth.",
         "fact3": "Surrounded by one of the hottest, brightest intracluster gas concentrations ever measured.",
         "fact4": "The Phoenix Cluster's central galaxy forms ~500 new stars every year — orders of magnitude more than the Milky Way."
@@ -717,7 +722,7 @@
     "tagline": "A small, careful map of everything.",
     "intro": "Quantumaire is an interactive educational journey from the smallest known particles to the largest structures in the observable universe. The premise is simple: most explanations of scale either over-simplify (planets compared to fruit) or over-complicate (raw scientific notation with no anchor). We try for a third way — one reference object, one clear gradient of confidence, and an honest label on every claim.",
     "scaleHeading": "Earth as a grain of sand",
-    "scaleBody": "Every length on the journey is rescaled to a single 0.5 mm grain of sand standing in for Earth. The Sun becomes a basketball about 11 metres away. The Milky Way becomes wider than the orbit of Mars. UY Scuti — one of the largest known stars — becomes a ball the size of a small house. This is the only mental conversion you need to do; we handle the rest.",
+    "scaleBody": "Every length on the journey is rescaled to a single 0.5 mm grain of sand standing in for Earth. At that scale the Sun is a billiard ball about six metres away. The Moon is a smaller speck about 1.5 cm from Earth. UY Scuti — one of the largest known stars — becomes a ball roughly the height of a thirty-storey building. The Milky Way at the same scale spans about a hundred Earth-Moon distances. This is the only mental conversion you need to do; we handle the rest.",
     "badgesHeading": "How we label confidence",
     "badgesIntro": "Not every claim in science carries the same weight. A measurement is not a theory; a theory is not a hunch. Every stop on Quantumaire wears one of four badges so you always know what you are reading.",
     "badgeFactBody": "Directly measured or directly observed. Atoms exist. The Sun fuses hydrogen. Earth is round. We may refine the precision, but the existence of the thing is not in question.",

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { FaqSection } from "@/components/FaqSection";
 import { JourneyHero } from "@/components/JourneyHero";
 import { Journey } from "@/components/Journey";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -51,6 +52,7 @@ export default async function LocaleHome({ params }: PageProps) {
       />
       <JourneyHero />
       <Journey />
+      <FaqSection locale={typed} />
       <SiteFooter />
     </main>
   );

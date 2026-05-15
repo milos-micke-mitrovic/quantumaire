@@ -12,6 +12,7 @@ import { Badge } from "./Badge";
 import { ComparisonStrip } from "./ComparisonStrip";
 import { GlossaryTerm } from "./GlossaryTerm";
 import { LightboxImage } from "./LightboxImage";
+import { LinkedBody } from "./LinkedBody";
 import { FunFactPanel } from "./FunFactPanel";
 import { KeyboardNav } from "./KeyboardNav";
 import { MassStrip } from "./MassStrip";
@@ -169,9 +170,11 @@ export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
         transition={{ duration: 0.5, delay: 0.05 }}
         className="mt-8 rounded-3xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-sm sm:p-10"
       >
-        <p className="text-base leading-relaxed text-cosmos-star/85 sm:text-[17px]">
-          {t(`${stop.i18nKey}.body`)}
-        </p>
+        <LinkedBody
+          body={t(`${stop.i18nKey}.body`)}
+          glossaryKeys={stop.glossary}
+          className="text-base leading-relaxed text-cosmos-star/85 sm:text-[17px]"
+        />
 
         {stop.glossary.length > 0 && (
           <div className="mt-6 border-t border-white/10 pt-6">

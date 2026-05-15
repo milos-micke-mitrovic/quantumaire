@@ -45,7 +45,7 @@
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proton" },
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Atomic_nucleus" },
-        { "label": "Britannica", "url": "https://www.britannica.com/science/proton" }
+        { "label": "Britannica", "url": "https://www.britannica.com/science/proton-subatomic-particle" }
       ]
     },
     {
@@ -109,7 +109,8 @@
       },
       "glossary": ["dissociation", "alter", "psychogenic"],
       "sources": [
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Dissociative_identity_disorder" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Dissociative_identity_disorder" },
+        { "label": "Britannica", "url": "https://www.britannica.com/science/dissociative-identity-disorder" }
       ]
     },
     {
@@ -160,7 +161,7 @@
       "id": "neutron_star",
       "i18nKey": "stops.neutron_star",
       "sizeMeters": 20000,
-      "order": 8,
+      "order": 10.2,
       "badge": "FACT",
       "category": "COSMOS",
       "accent": "text-cosmos-plasma",
@@ -343,7 +344,7 @@
       "i18nKey": "stops.supermassive_black_hole",
       "sizeMeters": 2.4e10,
       "distanceFromEarthMeters": 2.46e20,
-      "order": 8.5,
+      "order": 10.3,
       "badge": "FACT",
       "category": "COSMOS",
       "accent": "text-cosmos-ember",
@@ -387,7 +388,7 @@
     {
       "id": "galaxy_cluster",
       "i18nKey": "stops.galaxy_cluster",
-      "sizeMeters": 6e22,
+      "sizeMeters": 1.42e23,
       "distanceFromEarthMeters": 5.1e23,
       "order": 11.6,
       "badge": "FACT",
@@ -447,7 +448,8 @@
       "glossary": ["organelle", "genome"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Cell_(biology)" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Eukaryote" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Eukaryote" },
+        { "label": "Britannica", "url": "https://www.britannica.com/science/cell-biology" }
       ]
     },
     {
@@ -468,7 +470,8 @@
       "glossary": ["reference_scale"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Human" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)" },
+        { "label": "Britannica", "url": "https://www.britannica.com/topic/Homo-sapiens" }
       ]
     },
     {
@@ -489,7 +492,8 @@
       "glossary": ["parsec", "light_year"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Light-year" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proxima_Centauri" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proxima_Centauri" },
+        { "label": "Britannica", "url": "https://www.britannica.com/science/light-year" }
       ]
     },
     {
@@ -512,7 +516,8 @@
       "glossary": ["ecliptic", "oort_cloud", "kuiper_belt"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Solar_System" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Voyager_program" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Voyager_program" },
+        { "label": "Britannica", "url": "https://www.britannica.com/place/Solar-System" }
       ]
     },
     {
@@ -540,9 +545,9 @@
     {
       "id": "ton_618",
       "i18nKey": "stops.ton_618",
-      "sizeMeters": 5.8e13,
+      "sizeMeters": 1.945e14,
       "distanceFromEarthMeters": 9.81e25,
-      "order": 10.6,
+      "order": 10.4,
       "badge": "PROBABLE_THEORY",
       "category": "COSMOS",
       "accent": "text-cosmos-ember",
@@ -565,7 +570,7 @@
       "i18nKey": "stops.phoenix_a",
       "sizeMeters": 1.5e14,
       "distanceFromEarthMeters": 5.39e25,
-      "order": 10.62,
+      "order": 10.42,
       "badge": "PROBABLE_THEORY",
       "category": "COSMOS",
       "accent": "text-cosmos-ember",
@@ -633,7 +638,7 @@
       "i18nKey": "stops.jupiter",
       "sizeMeters": 1.3982e8,
       "distanceFromEarthMeters": 7.785e11,
-      "order": 8.7,
+      "order": 7.7,
       "badge": "FACT",
       "category": "COSMOS",
       "accent": "text-cosmos-plasma",
@@ -669,7 +674,8 @@
       "glossary": ["light_year", "habitable_zone"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proxima_Centauri" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b" },
+        { "label": "Britannica", "url": "https://www.britannica.com/place/Proxima-Centauri" }
       ]
     }
   ]

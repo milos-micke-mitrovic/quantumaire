@@ -1,12 +1,21 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
+import { headers } from "next/headers";
 import "./globals.css";
 import {
   Analytics,
   SearchConsoleVerification,
 } from "@/components/Analytics";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
-import { SITE_NAME, SITE_URL } from "@/lib/seo";
+import { HREFLANG_MAP, LOCALES, SITE_NAME, SITE_URL } from "@/lib/seo";
+import type { Locale } from "@/lib/types";
+
+function detectLocale(pathname: string): Locale {
+  const seg = pathname.split("/").find(Boolean);
+  return (LOCALES as readonly string[]).includes(seg ?? "")
+    ? (seg as Locale)
+    : "en";
+}
 
 const display = Space_Grotesk({
   subsets: ["latin", "latin-ext"],
@@ -64,14 +73,18 @@ export const viewport: Viewport = {
   colorScheme: "dark",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const h = await headers();
+  const pathname = h.get("x-pathname") ?? "/";
+  const locale = detectLocale(pathname);
+  const lang = HREFLANG_MAP[locale];
   return (
     <html
-      lang="en"
+      lang={lang}
       className={`${display.variable} ${body.variable}`}
       suppressHydrationWarning
     >

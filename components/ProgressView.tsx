@@ -66,6 +66,9 @@ export function ProgressView() {
         <p className="mt-3 text-base text-cosmos-star/80 sm:text-lg">
           {t("common.progress.tagline", { count, total })}
         </p>
+        <p className="mt-5 max-w-2xl text-base leading-relaxed text-cosmos-star/70">
+          {t("common.progress.intro")}
+        </p>
       </motion.header>
 
       <section

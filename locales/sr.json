@@ -47,12 +47,14 @@
     "glossaryPage": {
       "title": "Rečnik pojmova",
       "tagline": "{count} pojmova korišćenih kroz putovanje, definisanih na jednom mestu.",
+      "intro": "Svaka stručna reč koju koristimo kroz putovanje živi ovde, poređana po abecedi i pretraživa. Svaka stranica stanice povezuje šačicu pojmova najvažnijih baš za nju — ali ako ste naišli na nešto nepoznato čitajući bilo koju stanicu, ovo je strana za sletanje. Definicije su namerno kratke; radije biste pročitali tri kraće nego prelistali jednu dugu.",
       "filterPlaceholder": "Filtriraj pojmove…"
     },
     "tools": "Alati",
     "scaleTool": {
       "title": "Kalkulator razmere",
       "tagline": "Unesi bilo koju dužinu. Vidi je smanjenu na našu referencu — zrno peska — uz najbližu Quantumaire stanicu.",
+      "intro": "Celo Quantumaire putovanje počiva na jednom triku: smanji Zemlju na jedno zrno peska od 0,5 mm, pa sve ostalo smanji istim faktorom. Ova strana radi taj račun za bilo koju dužinu koju ukucate — bakteriju, grad, udaljenost do Jupitera, bilo šta. Rezultat vam govori i ekvivalent u razmeri zrna peska i koja je stanica na putovanju njoj najbliža.",
       "inputLabel": "Dužina",
       "unitLabel": "Jedinica",
       "yourValue": "Tvoja vrednost",
@@ -87,6 +89,7 @@
     "progress": {
       "title": "Vaše putovanje",
       "tagline": "Posećeno {count} od {total} stanica.",
+      "intro": "Quantumaire-ovo putovanje ima trideset stanica. Ova strana prati koje ste otvorili, čuvajući to lokalno na ovom uređaju — bez naloga, bez servera, bez praćenja između sajtova. Tu je da vidite šta vam je još pred sobom, skočite pravo na nasumičnu stanicu koju još niste posetili i (ako poželite) krenete iznova sa čistim brojem.",
       "complete": "Putovanje završeno — svaka stanica otvorena. Dobrodošli u klub.",
       "empty": "Još niste otvorili nijednu stanicu. Izaberite jednu i putovanje počinje.",
       "categoryBreakdown": "Po kategoriji",
@@ -114,6 +117,7 @@
     "comparePage": {
       "title": "Uporedi dve stanice",
       "tagline": "Izaberi bilo koje dve i vidi odnos između njih.",
+      "intro": "Slajderi putovanja vam daju ceo raspon odjednom; ova strana je za to da dve konkretne stvari postavite jednu uz drugu. Izaberite bilo koje dve stanice sa konkretnim veličinama i dobićete tačan odnos između njih — uključujući brojeve koji razliku čine stvarnom (Sunce je otprilike sto Jupitera u prečniku; Jupiter otprilike jedanaest Zemalja; Zemlja otprilike četiri Meseca). Deljenjem URL-a bilo kog para, ista poređenja vidi i sagovornik.",
       "swap": "Zameni",
       "ratio": "Odnos",
       "timesAsBig": "{b} je {factor}× veće od {a}",
@@ -133,6 +137,8 @@
   },
   "home": {
     "faq": {
+      "heading": "Često postavljana pitanja",
+      "tagline": "Kratki odgovori na pitanja koja Quantumaire najčešće dobija.",
       "q1": "Šta je Quantumaire?",
       "a1": "Interaktivno obrazovno putovanje od najmanjih poznatih čestica do vidljivog svemira, u kome je pouzdanost svake tvrdnje transparentno označena kao Činjenica, Utvrđena teorija, Verovatna teorija ili Spekulativno.",
       "q2": "Koliko je Zemlja velika u poređenju sa kvarkom?",
@@ -308,7 +314,7 @@
     "earth": {
       "name": "Zemlja",
       "tagline": "Naše referentno zrno peska.",
-      "body": "Ako Zemlju smanjimo na jedno zrno peska od 0,5 mm, svaka druga veličina na ovom putovanju menja se istim faktorom. Sunce postaje košarkaška lopta na oko 11 metara udaljenosti. Mlečni put postaje širi od putanje Marsa. Trik je u tome da pustite svoj osećaj za razmeru da se rastegne.",
+      "body": "Ako Zemlju smanjimo na jedno zrno peska od 0,5 mm, svaka druga veličina na ovom putovanju menja se istim faktorom. U toj razmeri Sunce je bilijarska kugla na oko šest metara udaljenosti, Mesec je manja tačka samo 1,5 cm od Zemlje, a Mlečni put se prostire na oko sto rastojanja Zemlja–Mesec. Trik je u tome da pustite svoj osećaj za razmeru da se rastegne.",
       "narrative": "Quantumaire-ovo polazište: da je Zemlja zrno peska, Mesec bi bio manja tačka oko 1,5 cm dalje, a Sunce jabuka udaljena oko 6 metara.",
       "massNarrative": "Zemlja teži oko 6 sa 21 nulom — u tonama. Sabijte to u kikiriki i dobili biste crnu rupu.",
       "funFact": "Zemljin dan se polako produžava. Kada su prvi dinosaurusi hodali planetom, dan je trajao manje od 23 sata; za milijardu godina trajaće preko 25 sati.",
@@ -494,7 +500,7 @@
       "name": "Virgo jato",
       "tagline": "Naše lokalno galaktičko jato — jedno od hiljada u svemiru.",
       "body": "Virgo jato je gusto središte našeg lokalnog galaktičkog komšiluka — oko 1.300 galaksija povezanih gravitacijom, prostranih na 15 miliona svetlosnih godina i udaljenih oko 54 miliona svetlosnih godina od nas. Mlečni put i Andromeda nalaze se na njegovoj periferiji. Postoje veća jata: Koma jato sadrži preko 1.000 galaksija u još gušćoj koncentraciji, a Phoenix jato je jedno od najmasivnijih ikad izmerenih. Iza skale jata, strukture prestaju da budu gravitaciono vezane i pretvaraju se u superjata.",
-      "narrative": "Galaktičko jato je tako široko da svetlosti treba desetine miliona godina samo da ga pređe — duže nego što sisari postoje na Zemlji.",
+      "narrative": "Galaktičko jato je tako široko da svetlosti treba oko petnaest miliona godina samo da ga pređe — duže nego što ljudski rod (genus Homo) uopšte postoji na Zemlji.",
       "massNarrative": "Tipično galaktičko jato teži koliko nekoliko hiljada biliona Sunaca — a većina te mase je opet tamna materija, ne zvezde.",
       "funFact": "Galaktička jata u našem komšiluku sva su povučena ka nevidljivoj koncentraciji mase — takozvanom Velikom atraktoru — koji se nalazi u srcu Laniakea superjata.",
       "image": {
@@ -592,14 +598,14 @@
     "phoenix_a": {
       "name": "Phoenix-A",
       "tagline": "U srcu Phoenix jata — među najmasivnijim poznatim crnim rupama.",
-      "body": "Phoenix-A je supermasivna crna rupa u centru Phoenix jata, udaljenog oko 5,7 milijardi svetlosnih godina. Njena masa je među najvećim ikada procenjenim — oko 100 milijardi solarnih masa, mada je ta brojka još uvek pod aktivnim istraživanjem. Domaće jato je čuveno po neobično sjajnoj centralnoj galaksiji i jednoj od najviših stopa formiranja zvezda ikada zabeleženih u najsjajnijoj galaksiji jata.",
+      "body": "Phoenix-A je supermasivna crna rupa u centru Phoenix jata, udaljenog oko 5,7 milijardi svetlosnih godina. Njena masa je među najvećim ikada procenjenim — objavljene vrednosti se kreću od oko 10 do 100 milijardi solarnih masa, a trenutno najbolja procena je oko 25 milijardi. Domaće jato je čuveno po neobično sjajnoj centralnoj galaksiji i jednoj od najviših stopa formiranja zvezda ikada zabeleženih u najsjajnijoj galaksiji jata.",
       "narrative": "Da je naše Sunce kliker, horizont događaja Phoenix-A u istoj razmeri bio bi veći od male kuće — njegova površina prostire se preko više od 100.000 Sunaca poređanih u red.",
-      "massNarrative": "Oko 100 milijardi solarnih masa — oko 24.000 puta više od Sagittariusa A*, i na gornjoj ivici onoga što trenutno znamo da izmerimo. Procene mase za objekte na ovolikoj udaljenosti nose široke granice greške.",
+      "massNarrative": "Oko 25 milijardi solarnih masa — otprilike 6.000 puta više od Sagittariusa A* u centru naše galaksije. Procene mase za objekte na ovolikoj udaljenosti nose široke granice greške; objavljene vrednosti idu do 100 milijardi solarnih masa.",
       "image": {
         "alt": "Phoenix-A — ogromna crna rupa unutar svetlećeg galaktičkog jata, sa međugalaktičkim gasom koji sija oko nje."
       },
       "facts": {
-        "fact1": "Procenjena masa: ~100 milijardi solarnih masa (pod aktivnom revizijom).",
+        "fact1": "Procenjena masa: ~25 milijardi solarnih masa; objavljeni opseg 10–100 milijardi (pod aktivnim istraživanjem).",
         "fact2": "Domaćin: Phoenix jato, ~5,7 milijardi svetlosnih godina od Zemlje.",
         "fact3": "Okružena jednim od najvrelijih, najsjajnijih međugalaktičkih oblaka gasa ikada izmerenih.",
         "fact4": "Centralna galaksija Phoenix jata stvara ~500 novih zvezda godišnje — redovi veličine više od Mlečnog puta."
@@ -716,7 +722,7 @@
     "tagline": "Mala, pažljiva mapa svega.",
     "intro": "Quantumaire je interaktivno obrazovno putovanje od najmanjih poznatih čestica do najvećih struktura u vidljivom svemiru. Premisa je jednostavna: većina objašnjenja razmere ili pojednostavljuje preterano (planete poređene sa voćem) ili komplikuje preterano (sirova naučna notacija bez sidra). Mi pokušavamo treći put — jedan referentni objekat, jedan jasan gradijent pouzdanosti, i iskrena oznaka na svakoj tvrdnji.",
     "scaleHeading": "Zemlja kao zrno peska",
-    "scaleBody": "Svaka dužina na putovanju je preskalirana na jedno zrno peska od 0,5 mm koje predstavlja Zemlju. Sunce postaje košarkaška lopta na oko 11 metara udaljenosti. Mlečni put postaje širi od orbite Marsa. UY Scuti — jedna od najvećih poznatih zvezda — postaje lopta veličine male kuće. Ovo je jedina mentalna konverzija koju treba da uradite; o ostalom brinemo mi.",
+    "scaleBody": "Svaka dužina na putovanju je preskalirana na jedno zrno peska od 0,5 mm koje predstavlja Zemlju. U toj razmeri Sunce je bilijarska kugla na oko šest metara udaljenosti. Mesec je manja tačka oko 1,5 cm od Zemlje. UY Scuti — jedna od najvećih poznatih zvezda — postaje lopta otprilike visine zgrade od tridesetak spratova. Mlečni put u istoj razmeri prostire se oko sto rastojanja Zemlja–Mesec. Ovo je jedina mentalna konverzija koju treba da uradite; o ostalom brinemo mi.",
     "badgesHeading": "Kako označavamo pouzdanost",
     "badgesIntro": "Nemaju sve tvrdnje u nauci istu težinu. Merenje nije teorija; teorija nije nagađanje. Svaka stanica na Quantumaire nosi jednu od četiri oznake, tako da uvek znate šta čitate.",
     "badgeFactBody": "Direktno izmereno ili direktno posmatrano. Atomi postoje. Sunce vrši fuziju vodonika. Zemlja je okrugla. Možemo poboljšati preciznost, ali postojanje stvari nije pod znakom pitanja.",
