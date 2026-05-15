@@ -2,7 +2,7 @@
   "common": {
     "title": "Quantumaire",
     "tagline": "Od najmanje iskre do ivice svega.",
-    "subtagline": "Vođeno putovanje kroz 44 reda veličine — od kvarkova do vidljivog svemira — gde svaka stanica nosi iskreno označen status istine.",
+    "subtagline": "Vođeno putovanje kroz 45 redova veličine — od kvarkova do vidljivog svemira — gde svaka stanica nosi iskreno označen status istine.",
     "begin": "Započni putovanje",
     "back": "Nazad",
     "next": "Sledeća stanica",
@@ -80,6 +80,10 @@
     "more": "Još",
     "random": "Slučajna stanica",
     "skipToContent": "Preskoči na glavni sadržaj",
+    "backToTop": "Nazad na vrh",
+    "breadcrumb": "Putanja navigacije",
+    "stopNavigation": "Navigacija stanica",
+    "ratio": "odnos",
     "progress": {
       "title": "Vaše putovanje",
       "tagline": "Posećeno {count} od {total} stanica.",
@@ -127,6 +131,26 @@
       "needsBothSized": "Za vizuelno poređenje su potrebne dve konkretne veličine."
     }
   },
+  "home": {
+    "faq": {
+      "q1": "Šta je Quantumaire?",
+      "a1": "Interaktivno obrazovno putovanje od najmanjih poznatih čestica do vidljivog svemira, u kome je pouzdanost svake tvrdnje transparentno označena kao Činjenica, Utvrđena teorija, Verovatna teorija ili Spekulativno.",
+      "q2": "Koliko je Zemlja velika u poređenju sa kvarkom?",
+      "a2": "Otprilike 25 redova veličine. Prečnik Zemlje je oko 1,27 × 10⁷ metara, dok kvark nije veći od 10⁻¹⁸ metara. Quantumaire koristi zrno peska od 0,5 mm kao predstavnika Zemlje, kako bi ostatak svemira postao intuitivan.",
+      "q3": "Šta je tamna materija?",
+      "a3": "Nevidljivi oblik materije čija gravitacija drži galaksije na okupu. Nadmašuje običnu materiju otprilike pet prema jedan. Mapiramo je kroz gravitaciono sočivovanje, ali nam je njena čestična priroda i dalje nepoznata.",
+      "q4": "Šta je tamna energija?",
+      "a4": "Još uvek neobjašnjen oblik energije za koji se čini da ubrzava širenje svemira. Čini oko 68% ukupne mase-energije kosmosa.",
+      "q5": "Koja je najveća poznata zvezda?",
+      "a5": "Hipergiganti poput UY Scuti i Stephenson 2-18 nalaze se među najvećim poznatim zvezdama po poluprečniku — kada bi bile na mestu Sunca, površina bi im se protezala iza Jupiterove orbite. Takođe su među zvezdama najkraćeg veka u galaksiji.",
+      "q6": "Koja je najveća poznata crna rupa?",
+      "a6": "TON 618 i Phoenix-A su vodeći kandidati za najmasivnije poznate crne rupe, sa masama od po desetina milijardi solarnih masa — otprilike deset hiljada puta više od supermasivne crne rupe u centru našeg Mlečnog puta (Sagittarius A*).",
+      "q7": "Koliko je daleko vidljivi svemir?",
+      "a7": "Kosmički horizont je oko 46 milijardi svetlosnih godina od Zemlje u svim pravcima, što čitav vidljivi svemir čini sferom prečnika oko 93 milijarde svetlosnih godina. Iza nje gotovo sigurno leži još prostora koji nikada nećemo videti.",
+      "q8": "Koje jezike Quantumaire podržava?",
+      "a8": "Engleski i srpski (latinica). Svaka stanica ima svoje kanonske URL-ove na oba jezika, tako da svaku verziju mogu otkriti, citirati i prevesti nezavisno i ljudi i AI pretraživači."
+    }
+  },
   "badges": {
     "FACT": "Činjenica",
     "ESTABLISHED_THEORY": "Utvrđena teorija",
@@ -145,11 +169,15 @@
     "COSMOS.description": "Galaksije, zvezde, neutronski gusti leševi i tamna strana svemira — najveće razmere koje možemo posmatrati.",
     "MICRO_WORLD.description": "Kvarkovi, atomi i molekuli — gradivni blokovi ispod svega što možete videti ili dotaći.",
     "HUMAN_MIND.description": "Dokumentovane neobičnosti kako jedan mozak — i jedno telo — može ugostiti više od jednog ja.",
-    "ANCIENT_HISTORY.description": "Spomenici i misterije čija gradnja se i dalje opire potpunom objašnjenju."
+    "ANCIENT_HISTORY.description": "Spomenici i misterije čija gradnja se i dalje opire potpunom objašnjenju.",
+    "COSMOS.intro": "Svemir na svim razmerama van tla pod vašim nogama — planete, zvezde, galaksije i najveće gravitaciono vezane strukture koje umemo da pronađemo. Otprilike dve trećine svih stanica na Quantumaire-u nalazi se ovde, jer kosmos je tamo gde redovi veličine počinju zaista da nešto znače. Kategorija Kosmos takođe okuplja apstrakcije koje sve to drže na okupu: tamnu materiju, tamnu energiju, kosmički horizont.",
+    "MICRO_WORLD.intro": "Sve manje od ćelije. Kvarkovi i gluoni unutar protona; proton unutar atoma; atom unutar DNK heliksa; heliks unutar virusa; virus, sa svoje strane, patuljast u poređenju sa bakterijom. Svaki korak naniže po ovoj lestvici je otprilike hiljadu puta manji od prethodnog, pa intuicija ljudske razmere da se 'male stvari razlikuju za poneki deo' potpuno puca. Mikrosvet je mesto na kome posmatrate kako se ta intuicija lomi.",
+    "HUMAN_MIND.intro": "Fenomeni koji uopšte ne staju na osu veličine, jer su osobine mozga, a ne mereljivi objekti. Quantumaire uključuje jednu takvu stanicu — disocijativni poremećaj identiteta — da prizna da nije sve što značajno postoji moguće izmeriti metrom. Um pripada putovanju kroz razmeru čak i kada sedi van lenjira.",
+    "ANCIENT_HISTORY.intro": "Građevine i artefakti čija inženjerija i dalje poziva na pažljivo objašnjenje, a ne na olako odbacivanje. Velika piramida je za sada jedina stanica ovde — ali sa 139 metara visine, 2,3 miliona blokova poređanih u skladu sa stranama sveta, ona stoji baš na onoj razmeri koja premošćuje ljudsko i planetarno."
   },
   "comparison": {
     "title": "Od kvarka do vidljivog svemira",
-    "subtitle": "Dvadeset šest stanica preko 44 reda veličine. Pređite mišem preko bilo koje tačke da je pogledate, ili kliknite da je otvorite.",
+    "subtitle": "Trideset stanica preko 45 redova veličine. Dodirni tačku ispod da pregledaš stanicu, pa otvori njenu stranicu linkom Otvori stanicu.",
     "equal": "Otprilike veličine zrna peska.",
     "times": "{factor}× zrno peska",
     "fraction": "1 / {factor} zrna peska",
@@ -185,7 +213,7 @@
       "name": "Kvark",
       "tagline": "Najmanji poznati gradivni blok materije.",
       "body": "Kvarkovi su tačkaste čestice povezane jakom silom. Oni grade protone i neutrone — a kroz njih i svaki atom u vašem telu. Kvarkovi nikada nisu viđeni sami; uvek putuju u uskim grupama, povezani gluonima čiji stisak postaje sve jači što ih više pokušavate razdvojiti.",
-      "narrative": "Kvark je toliko mali da bi, kada bi se atom uvećao do veličine Zemlje, kvark unutar njega i dalje bio ne veći od klikera u vašoj ruci.",
+      "narrative": "Kvark je toliko mali da bi, kada bi se atom uvećao do veličine Zemlje, kvark unutar njega i dalje bio manji od klikera u vašoj ruci.",
       "funFact": "Kvarkovi dolaze u šest aroma — gornji, donji, šarmantni, čudni, vrh, dno — i tri \"boje\" koje nemaju nikakve veze sa svetlošću. Fizičari su ih namerno duhovito imenovali.",
       "image": {
         "alt": "Sjajni kvark suspendovan unutar gluonskog polja."
@@ -194,14 +222,14 @@
         "fact1": "Šest aroma: gornji, donji, šarmantni, čudni, vrh, dno.",
         "fact2": "Nose razlomljeno električno naelektrisanje — ±1/3 ili ±2/3.",
         "fact3": "Uvek zatvoreni unutar hadrona — nikada nisu posmatrani sami.",
-        "fact4": "Predložili nezavisno Gell-Mann i Zweig 1964. godine."
+        "fact4": "Nezavisno su ih predložili Gell-Mann i Zweig 1964. godine."
       }
     },
     "proton": {
       "name": "Proton",
       "tagline": "Tri kvarka spojena u jedan od najstabilnijih oblika u prirodi.",
       "body": "Proton je sićušna lopta od tri kvarka — dva gornja i jednog donjeg — povezanih burnim morem gluona. Naslažite ih dovoljno sa neutronima i elektronima i gradite svaki element od vodonika do uranijuma. Protoni izgledaju toliko stabilno da nikada nismo izmerili raspad nijednog.",
-      "narrative": "Da je proton veličine košarkaške lopte, atom oko njega bio bi širi od manjeg grada.",
+      "narrative": "Da je proton veličine košarkaške lopte, atom oko njega bio bi širi od malog grada.",
       "funFact": "Slobodan proton nikada nije zabeležen da se raspao. Trenutna donja granica njegovog poluvremena raspada je preko 10³⁴ godina — mnogo biliona puta više od starosti svemira.",
       "image": {
         "alt": "Proton prikazan kao tri sjajna kvarka spojena gluonima."
@@ -242,7 +270,7 @@
         "fact1": "Oko 2 metra DNK uvijena u svaku ćeliju.",
         "fact2": "Četiri baze: adenin, timin, citozin, guanin.",
         "fact3": "Ljudski genom — oko 3,1 milijarde baznih parova.",
-        "fact4": "Dvostruku spiralu rešili Vatson, Krik, Frenklin i Vilkins 1953. godine."
+        "fact4": "Dvostruku spiralu su odgonetnuli Vatson, Krik, Frenklin i Vilkins 1953. godine."
       }
     },
     "mpd": {
@@ -250,6 +278,7 @@
       "tagline": "Kada isti mozak ugošćuje više od jednog ja.",
       "body": "DID — nekada zvan poremećaj višestruke ličnosti — je dokumentovano psihološko stanje u kome se različiti identiteti smenjuju u kontroli nad jednim telom. Čudnovatost ide dublje od ličnosti: lekari su zabeležili slučajeve gde jedan alter ima mereljive alergije, treba mu naočare ili pokazuje drugačiji krvni pritisak — dok drugi, u istom telu, ne pokazuje ništa od toga. Um, na neki način, glasa o telu.",
       "narrative": "DID je fenomen uma, ne objekat sa mereljivim dimenzijama — njegova razmera je psihološka, ne fizička.",
+      "funFact": "DID često nastaje kao zaštitni odgovor uma na teške traume iz detinjstva. 'Alteri' se ne pojavljuju ni iz čega — to su delovi jednog istog sebe koji su veoma rano naučili da je bezbednije podeliti se nego ostati celovit.",
       "image": {
         "alt": "Ljudski siluet koji se deli na nekoliko providnih, preklapajućih ličnosti."
       },
@@ -264,7 +293,7 @@
       "name": "Velika piramida",
       "tagline": "139 metara krečnjaka koje još uvek ne možemo u potpunosti objasniti.",
       "body": "Velika piramida u Gizi je zvanično datovana na oko 2560. p.n.e. kao grobnica faraona Keopsa. Inženjerstvo — 2,3 miliona blokova, gotovo savršeno usmerenje prema stranama sveta, unutrašnje galerije isečene sa milimetarskom preciznošću — stalno poziva na alternativne teorije o njenoj svrsi. Većina je spekulativna; sama gradnja je, međutim, nesumnjivo stvarna.",
-      "narrative": "Otprilike visoka kao 45-spratna zgrada — Velika piramida je bila najviša ljudska građevina skoro četiri hiljade godina.",
+      "narrative": "Visoka otprilike kao zgrada od 45 spratova — Velika piramida je bila najviša ljudska građevina gotovo četiri hiljade godina.",
       "funFact": "Velika piramida je jedino od Sedam svetskih čuda starog veka koje još uvek stoji. Sva ostala su pala, izgorela ili nestala.",
       "image": {
         "alt": "Velika piramida u Gizi u sumrak, svetlost zvezde se poravnava sa vrhom."
@@ -273,7 +302,7 @@
         "fact1": "Sagrađena oko 2560. p.n.e. — stara više od 4.500 godina.",
         "fact2": "Danas visoka 139 m; nekada 146,6 m, pre nego što je obloga erodirala.",
         "fact3": "Oko 2,3 miliona kamenih blokova, težine 2,5 do 80 tona.",
-        "fact4": "Najviša građevina koju je čovek napravio gotovo 3.800 godina."
+        "fact4": "Bila je najviša ljudska građevina gotovo 3.800 godina."
       }
     },
     "earth": {
@@ -367,6 +396,7 @@
       "tagline": "Nevidljivi vetar koji drži galaksije na okupu.",
       "body": "Galaksije rotiraju prebrzo da bi ih materija koju vidimo držala na okupu — trebalo bi da se razlete. Nešto nevidljivo pruža dodatnu gravitaciju. Možemo je mapirati kroz gravitaciono sočivovanje, i izgleda da nadmašuje običnu materiju u odnosu pet prema jedan. Samo ne znamo šta je.",
       "narrative": "Tamna materija nema oblik ni ivice koje možemo videti — samo njena gravitacija je vidljiva, oblikujući rotaciju svake galaksije koju smo izmerili.",
+      "funFact": "Upravo sada, čestice tamne materije prolaze kroz vaše telo u milijardama svake sekunde. Ne reaguju sa atomima u vama — osećaju samo gravitaciju — pa ih nikad ne primetite.",
       "image": {
         "alt": "Tamna materija prikazana kao ljubičasta kosmička mreža koja savija svetlost oko galaksija."
       },
@@ -382,6 +412,7 @@
       "tagline": "Šta god to bilo što razvlači svemir — sve brže i brže.",
       "body": "Širenje svemira ne samo da se nastavlja — ono se ubrzava. Tajanstveni oblik energije, prisutan u svakom kubnom metru praznog prostora, izgleda da ga gura ka spolja. Čini oko 68% svega što postoji, a gotovo nemamo predstavu od čega je sazdano.",
       "narrative": "Tamna energija ispunjava svaki kubni metar praznog prostora — uključujući i one oko vas upravo sada. Nema sopstvenu veličinu, samo pravac: ka spolja.",
+      "funFact": "Termin 'tamna energija' osmislio je 1998. godine kosmolog Majkl Tarner — izabran je upravo zato što niko nije znao šta je to. Skoro 30 godina kasnije, taj rezervni naziv je opstao, jer i dalje ne znamo.",
       "image": {
         "alt": "Galaksije se razvlače, povučene nevidljivom ubrzavajućom silom."
       },
@@ -431,7 +462,7 @@
       "tagline": "Supermasivna crna rupa u srcu naše galaksije — i njene ekstremnije rođake.",
       "body": "Sagittarius A* (Sgr A*) je supermasivna crna rupa u centru Mlečnog puta, oko 4,15 miliona solarnih masa sabijenih u prostor širok 24 miliona km — udobno unutar Merkurove orbite. Po standardima crnih rupa, ona je skromna: TON 618 i Phoenix-A teže po nekoliko desetina milijardi solarnih masa. Naša najbliža poznata crna rupa bilo koje vrste, Gaia BH1, mnogo je manja zvezdane mase i udaljena svega 1.560 svetlosnih godina. Prvi direktni snimci supermasivnih crnih rupa pojavili su se 2019. (M87*) i 2022. (sam Sgr A*).",
       "narrative": "Horizont događaja Sagittariusa A* dovoljno je širok da proguta 17 Sunaca poređanih u red — a ipak bi stao unutar Merkurove orbite oko našeg Sunca.",
-      "massNarrative": "Sagittarius A* sadrži masu 4,15 miliona Sunaca u tom prostoru — a to je skromna primer; najveće poznate supermasivne crne rupe teže desetinama milijardi Sunaca.",
+      "massNarrative": "Sagittarius A* sabija masu od 4,15 miliona Sunaca u taj prostor — a to je skroman primer; najveće poznate supermasivne crne rupe teže desetinama milijardi Sunaca.",
       "funFact": "Najveće poznate supermasivne crne rupe — poput TON 618 i Phoenix-A — teže po nekoliko desetina milijardi Sunaca, zbog čega naš Sagittarius A* izgleda skromno. Najbliža poznata crna rupa bilo koje vrste, Gaia BH1, mnogo je manja zvezdane mase i udaljena svega 1.560 svetlosnih godina — kosmički gledano, praktično u komšiluku.",
       "image": {
         "alt": "Supermasivna crna rupa — crna sfera okružena užarenim akrecionim diskom."
@@ -529,7 +560,7 @@
       "name": "Svetlosna godina",
       "tagline": "Rastojanje koje svetlost pređe za jednu godinu.",
       "body": "Svetlosna godina je jedinica rastojanja, ne vremena. Na oko 300.000 km u sekundi, svetlost pređe oko 9,46 biliona kilometara za godinu — oko 63.241 astronomske jedinice. Proxima Centauri, najbliža zvezda Suncu, udaljena je 4,24 svetlosne godine. Čak i brzinom Voyager sondi, putovanje do nje trajalo bi više od 70.000 godina.",
-      "narrative": "Rastojanje koje svetlost pređe za godinu dana. Čak i Voyager — najudaljenija sonda koju je čovek poslao — trebao bi više od 17.000 godina da ga pređe.",
+      "narrative": "Rastojanje koje svetlost pređe za godinu dana. Čak ni Voyageru — najudaljenijoj sondi koju je čovek poslao — ne bi bilo dovoljno ni 17.000 godina da prevali toliko.",
       "funFact": "Galaksije sadrže stotine milijardi zvezda, a ipak su tipični parovi zvezda udaljeni nekoliko svetlosnih godina jedni od drugih. Po zapremini, galaksija je gotovo isključivo prazan prostor.",
       "image": {
         "alt": "Snop svetlosti se proteže ka udaljenom binarnom zvezdanom sistemu."
@@ -589,6 +620,7 @@
         "fact3": "Radio signali putuju više od 22 sata u jednom pravcu brzinom svetlosti.",
         "fact4": "Nosi Zlatnu ploču — zvuke i slike Zemlje, za bilo koga ko bi je jednog dana mogao naći."
       },
+      "massNarrative": "Voyager 1 teži oko 720 kg — otprilike koliko koncertni klavir. Taj jedan klavir veličine jedino je delo ljudskih ruku koje je ikada prešlo u međuzvezdani prostor.",
       "funFact": "Voyager 1 nije usmeren ka nijednoj posebnoj zvezdi. Za oko 40.000 godina proći će na 1,6 svetlosnih godina od Gliese 445 — ali će se do tada sazvežđa koja poznajemo već preurediti."
     },
     "laniakea_supercluster": {
@@ -615,7 +647,8 @@
       "tagline": "Jedna zvezda i sve što drži u svojoj gravitaciji.",
       "body": "Osam planeta, pet patuljastih planeta, više od 200 meseca i milioni asteroida i kometa — sve vezano za jednu žutu zvezdu. Planetarni deo je širok oko 12 milijardi km. Sunčeva gravitacija, međutim, doseže sto hiljada puta dalje, do slabe ljuske ledenih tela zvane Oortov oblak. Voyager 1, naša najudaljenija sonda, putuje 48 godina i još uvek nije prošla pored njega.",
       "narrative": "Smanjite Sunčev sistem da stane na košarkaški teren, i Zemlja bi bila manja od zrna peska u centru — potpuno nevidljiva golim okom.",
-      "funFact": "Jupiter se često naziva čuvarem Sunčevog sistema — njegova ogromna gravitacija hvata ili odbija mnoge nadolazeće komete i asteroide. Da je Jupiter narastao oko 80 puta masivnije, došlo bi do fuzije vodonika u njegovom jezgru i živeli bismo u binarnom zvezdanom sistemu.",
+      "massNarrative": "Sunce drži 99,86% mase celog Sunčevog sistema. Saberite sve planete, mesece, asteroide i komete zajedno — to je samo 0,14%, a najveći deo toga čini Jupiter.",
+      "funFact": "Pluton nije poslednja granica: iza Kojperovog pojasa nalazi se Oortov oblak, otprilike sferna ljuska ledenih tela koja se možda proteže do pola puta do najbliže zvezde. Voyager 1, naša najdalja sonda, doseći će njegov unutrašnji rub tek za oko 300 godina, a izaći iz spoljašnjeg ruba tek za desetine hiljada.",
       "image": {
         "alt": "Pogled na Sunčev sistem odozgo — Sunce u centru, planete duž orbitalnih elipsi."
       },
@@ -629,8 +662,9 @@
     "moon": {
       "name": "Mesec",
       "tagline": "Jedini Zemljin prirodni satelit — zaključan za nas zauvek.",
-      "body": "Mesec je peti po veličini satelit u Sunčevom sistemu i jedino mesto van Zemlje na kome su ljudi hodali. Plimski je zaključan, pa nam je uvek okrenuta ista strana; daleku stranu prvi je fotografisala sovjetska sonda 1959. godine. Njegova površina je fosilni zapis surovog ranog Sunčevog sistema — svaki krater je priča koju je Zemlja odavno izbrisala kroz vremenske prilike i tektoniku.",
+      "body": "Mesec je peti po veličini satelit u Sunčevom sistemu i jedino mesto van Zemlje na kome su ljudi hodali. Plimski je vezan za Zemlju, pa nam je uvek okrenuta ista strana; daleku stranu prvi je fotografisala sovjetska sonda 1959. godine. Njegova površina je fosilni zapis surovog ranog Sunčevog sistema — svaki krater je priča koju je Zemlja odavno izbrisala erozijom i tektonikom.",
       "narrative": "Mesec se udaljava od Zemlje oko 3,8 cm godišnje — otprilike brzinom kojom rastu nokti. Pre nekoliko stotina miliona godina, potpuna pomračenja Sunca trajala su mnogo duže; za milijardu godina prestaće sasvim.",
+      "massNarrative": "Mesec teži oko 1/81 Zemlje — otprilike isti odnos kao teniska loptica prema odraslom čoveku. Po veličini u odnosu na matičnu planetu, on je najveći mesec u Sunčevom sistemu.",
       "funFact": "Apolo astronauti su na Mesecu ostavili ogledala. Laserski impulsi sa zemaljskih opservatorija i danas se odbijaju od njih i omogućavaju merenje rastojanja Zemlja–Mesec sa preciznošću od nekoliko milimetara.",
       "image": {
         "alt": "Mesec kao pun disk, kraterska površina obasjana direktnom sunčevom svetlošću."
@@ -647,7 +681,8 @@
       "tagline": "Najveća planeta Sunčevog sistema — skoro promašena zvezda.",
       "body": "Jupiter je gasoviti gigant masivniji od svih ostalih planeta zajedno. Njegova atmosfera je burna okean vodonika i helijuma, obeležena pojasevima oluja i Velikom crvenom mrljom — anticiklonom dovoljno velikim da proguta Zemlju i da još ostane prostora. Ima i 95 potvrđenih meseca; četiri od njih, Galilejevi sateliti, bili su prvi objekti za koje je dokazano da kruže oko nečeg drugog osim Zemlje.",
       "narrative": "Jupiter je toliko masivan da ne kruži direktno oko Sunca — njih dvoje dele zajedničko težište, zvano baricentar, koje leži taman izvan površine Sunca. To je jedina planeta u našem sistemu kod koje je to slučaj.",
-      "funFact": "Da je Jupiter narastao oko 80 puta masivnije, fuzija vodonika bi se upalila u njegovom jezgru i postao bi mala zvezda. Živeli bismo u binarnom sistemu umesto u planetarnom.",
+      "massNarrative": "Jupiter sadrži 2,5 puta više mase od svih ostalih planeta Sunčevog sistema zajedno. Drhtaj koji izaziva u Suncu najjači je pojedinačni planetarni signal u našem sistemu — i jedan je od standardnih načina na koji astronomi pronalaze planete veličine Jupitera oko drugih zvezda.",
+      "funFact": "Da je Jupiter bio oko 80 puta masivniji, fuzija vodonika bi se upalila u njegovom jezgru i postao bi mala zvezda. Živeli bismo u binarnom zvezdanom sistemu umesto u planetarnom.",
       "image": {
         "alt": "Jupiter sa pojasevima oblaka i Velikom crvenom mrljom, četiri Galilejeva meseca vidljiva pored njega."
       },
@@ -661,8 +696,9 @@
     "proxima_centauri": {
       "name": "Proksima Kentaur",
       "tagline": "Najbliža poznata zvezda Suncu — i dalje nemoguće daleka.",
-      "body": "Proksima Kentaur je mala, prigušena crvena patuljasta zvezda na oko 4,24 svetlosne godine od Zemlje. To je najbliža poznata zvezda Suncu, deo trostrukog sistema Alfa Kentaur. Bar dve planete potvrđeno kruže oko nje, jedna od njih — Proksima b — leži u habitabilnoj zoni gde bi tečna voda mogla postojati na površini. Kvaka je u tome što su crvene patuljke izuzetno aktivne; Proksima redovno izbacuje baklje koje bi sa Zemljolike planete zderale atmosferu.",
+      "body": "Proksima Kentaur je mala, prigušena crvena patuljasta zvezda na oko 4,24 svetlosne godine od Zemlje. To je najbliža poznata zvezda Suncu, deo trostrukog sistema Alfa Kentaur. Bar dve planete potvrđeno kruže oko nje; jedna od njih — Proksima b — leži u habitabilnoj zoni gde bi tečna voda mogla postojati na površini. Caka je u tome što su crvene patuljaste zvezde izuzetno aktivne; Proksima redovno izbacuje baklje koje bi sa planete slične Zemlji zderale atmosferu.",
       "narrative": "Čak i brzinom svetlosti potrebno je 4,24 godine do Proksime Kentaura. Najbrža svemirska letelica koju su ljudi lansirali (Parker Solar Probe) putovala bi tamo više od 6.000 godina.",
+      "massNarrative": "Proksima Kentaur teži samo oko osminu Sunca. Crvene patuljaste zvezde te veličine vrše fuziju vodonika toliko sporo da će Proksima, u teoriji, sijati i za četiri biliona godina — dugo nakon što su sve zvezde slične Suncu izgorele.",
       "funFact": "Iako je naš najbliži zvezdani sused, Proksima je previše prigušena da bi se videla golim okom. Potreban je teleskop — iako je, kosmički gledano, praktično u komšiluku.",
       "image": {
         "alt": "Proksima Kentaur — mala crvena patuljasta zvezda sa siluetom Proksime b koja prelazi preko njenog diska."
@@ -682,20 +718,21 @@
     "scaleHeading": "Zemlja kao zrno peska",
     "scaleBody": "Svaka dužina na putovanju je preskalirana na jedno zrno peska od 0,5 mm koje predstavlja Zemlju. Sunce postaje košarkaška lopta na oko 11 metara udaljenosti. Mlečni put postaje širi od orbite Marsa. UY Scuti — jedna od najvećih poznatih zvezda — postaje lopta veličine male kuće. Ovo je jedina mentalna konverzija koju treba da uradite; o ostalom brinemo mi.",
     "badgesHeading": "Kako označavamo pouzdanost",
-    "badgesIntro": "Ne nose sve tvrdnje u nauci istu težinu. Merenje nije teorija; teorija nije nagađanje. Svaka stanica na Quantumaire nosi jednu od četiri oznake, tako da uvek znate šta čitate.",
+    "badgesIntro": "Nemaju sve tvrdnje u nauci istu težinu. Merenje nije teorija; teorija nije nagađanje. Svaka stanica na Quantumaire nosi jednu od četiri oznake, tako da uvek znate šta čitate.",
     "badgeFactBody": "Direktno izmereno ili direktno posmatrano. Atomi postoje. Sunce vrši fuziju vodonika. Zemlja je okrugla. Možemo poboljšati preciznost, ali postojanje stvari nije pod znakom pitanja.",
-    "badgeEstablishedBody": "Dobro provereni teorijski okvir koji se uklapa u dokaze koje imamo. Specijalna relativnost. Veliki prasak. Veličina vidljivog svemira. Otvorena za poboljšanje, ali podržana ogromnom, konvergentnom posmatračkom evidencijom.",
+    "badgeEstablishedBody": "Dobro provereni teorijski okvir koji se uklapa u dokaze koje imamo. Specijalna relativnost. Veliki prasak. Veličina vidljivog svemira. Otvorena za poboljšanje, ali podržana ogromnom količinom podudarnih posmatračkih dokaza.",
     "badgeProbableBody": "Naše trenutno najbolje objašnjenje za nešto stvarno što još nismo u potpunosti utvrdili. Tamna materija je jasan primer: možemo je mapirati kroz gravitaciono sočivovanje, ali ne znamo od koje je čestice sačinjena.",
     "badgeSpeculativeBody": "Ideje koje vredi razmotriti, ali nisu dokazane. Označavamo ih jasno. Nikada nećemo prikazati spekulaciju kao činjenicu.",
     "editorialHeading": "Naš urednički stav",
-    "editorialBody": "Radije ćemo biti malo iza literature nego dramatično ispred dokaza. Kada otkrijemo grešku, ispravljamo je vidljivo. Tamo gde se razumni ljudi ne slažu, kažemo to. Koristimo izvore koje možemo odbraniti — recenzirane radove, ustanovljene udžbenike, naučnike koji se time bave — pre nego pompezne saopštenja za štampu.",
+    "editorialBody": "Radije ćemo biti malo iza literature nego dramatično ispred dokaza. Kada otkrijemo grešku, ispravljamo je vidljivo. Tamo gde se razumni ljudi ne slažu, kažemo to. Koristimo izvore koje možemo odbraniti — recenzirane radove, ustanovljene udžbenike, naučnike koji se time bave — radije nego pompezna saopštenja za štampu.",
     "languagesHeading": "Jezici",
-    "languagesBody": "Svaka stranica postoji na engleskom i srpskom (latinica). Dve jezičke verzije imaju svoje kanonske URL-ove tako da mogu biti otkrivene, citirane i prevedene nezavisno — kako od strane ljudi, tako i od strane AI pretraživača.",
+    "languagesBody": "Svaka stranica postoji na engleskom i srpskom (latinica). Dve jezičke verzije imaju svoje kanonske URL-ove kako bi mogle biti otkrivene, citirane i prevedene nezavisno — i od strane ljudi i od strane AI pretraživača.",
     "imageAlt": "Stilizovani kosmički dijagram koji prikazuje spektar pouzdanosti od činjenice do spekulacije."
   },
   "topicsIndex": {
     "title": "Teme",
-    "tagline": "Pregledne strane koje stavljaju konkretne stanice putovanja u širi kontekst."
+    "tagline": "Pregledne strane koje stavljaju konkretne stanice putovanja u širi kontekst.",
+    "intro": "Tamo gde stanica govori o jednom konkretnom objektu — UY Scuti, Mesec, supermasivna crna rupa u centru naše galaksije — tema govori o klasi. Šta su zvezde. Kako planete nastaju. Zašto crne rupe imaju horizont događaja. Pročitajte temu kada želite kontekst za više stanica odjednom, ili kada želite širu sliku pre nego što se približite jednoj konkretnoj."
   },
   "topics": {
     "stars": {
@@ -705,7 +742,7 @@
       "section1Heading": "Boje, temperature i OBAFGKM skala",
       "section1Body": "Astronomi klasifikuju zvezde po površinskoj temperaturi, od O (najtoplije, najsjajnije plave zvezde) preko B, A, F, G, K, do M (najhladniji crveni patuljci). Mnemonika \"Oh Be A Fine Girl/Guy, Kiss Me\" starija je od radija. O-zvezde prelaze 30.000 K i retke su i blistave. B-zvezde su 10.000–30.000 K, plave. A-zvezde (7.500–10.000 K, bele) obuhvataju Sirijus. F-zvezde su žuto-bele. G-zvezde (5.200–6.000 K, žute) uključuju naše Sunce. K-zvezde su narandžaste. M-zvezde (ispod 3.700 K, crvene) najčešći su tip u galaksiji.",
       "section2Heading": "I veličina je bitna",
-      "section2Body": "Druga klasifikacija ide od patuljaka do hipergiganta. Beli patuljci su zvezdani leševi manji od Zemlje. Smeđi patuljci su između velikih planeta i malih zvezda. Zvezde glavnog niza poput Sunca su u sredini. Crveni dživovi i supergiganti se naduvavaju starenjem. Hipergiganti poput UY Scuti i Stephenson 2-18 toliko su naduveni da bi se njihova površina, postavljena na mestu Sunca, protezala iza Jupitera — ali su i među najkraće-živim zvezdama u galaksiji.",
+      "section2Body": "Druga klasifikacija ide od patuljaka do hipergiganta. Beli patuljci su zvezdani leševi manji od Zemlje. Smeđi patuljci su između velikih planeta i malih zvezda. Zvezde glavnog niza poput Sunca su u sredini. Crveni džinovi i supergiganti se naduvavaju starenjem. Hipergiganti poput UY Scuti i Stephenson 2-18 toliko su naduveni da bi se njihova površina, postavljena na mestu Sunca, protezala iza Jupitera — ali su i među zvezdama najkraćeg veka u galaksiji.",
       "section3Heading": "Kako se zvezda rađa",
       "section3Body": "Svaka zvezda počinje kao čvorić hladnog gasa unutar molekularnog oblaka koji kolapsira pod sopstvenom gravitacijom. Kako se centar zgušnjava i greje, vodonik počinje da se spaja u helijum i nova zvezda se priključuje \"glavnom nizu\" — fazi stabilnog gorenja gde provede većinu svog života. Sunce je u glavnom nizu oko 4,6 milijardi godina i ostalo mu je još otprilike pet.",
       "section4Heading": "Kako zvezda umire",
@@ -733,7 +770,7 @@
       "section1Heading": "Tri porodice po masi",
       "section1Body": "Crne rupe dolaze u tri grube klase veličine. Crne rupe zvezdane mase teže 3 do nekoliko desetina solarnih masa i nastaju kada masivne zvezde umru. Crne rupe srednje mase — stotine do stotina hiljada solarnih masa — dugo su bile teorijske i tek su nedavno potvrđene u nekoliko specifičnih sistema. Supermasivne crne rupe, miliona do desetina milijardi solarnih masa, sede u centrima skoro svake velike galaksije. Kako su supermasivne tako brzo narasle u ranom svemiru, još uvek je otvoreno pitanje.",
       "section2Heading": "Ne postaje svaka zvezda crna rupa",
-      "section2Body": "Šta umiruća zvezda ostavlja za sobom zavisi od njene mase. Zvezde veličine Sunca završe kao belci-patuljci koji se hlade. Zvezde 8 do 25 puta masivnije od Sunca kolapsiraju u neutronske zvezde nakon svoje supernove. Samo najteže zvezde — one iznad otprilike 25 solarnih masa — kolapsiraju direktno u crne rupe zvezdane mase. Crne rupe su, u tom smislu, grobnice najmasivnijih zvezda.",
+      "section2Body": "Šta umiruća zvezda ostavlja za sobom zavisi od njene mase. Zvezde veličine Sunca završe kao beli patuljci koji se hlade. Zvezde 8 do 25 puta masivnije od Sunca kolapsiraju u neutronske zvezde nakon svoje supernove. Samo najteže zvezde — one iznad otprilike 25 solarnih masa — kolapsiraju direktno u crne rupe zvezdane mase. Crne rupe su, u tom smislu, grobnice najmasivnijih zvezda.",
       "section3Heading": "Imenovane crne rupe koje vredi znati",
       "section3Body": "Sagittarius A* teži oko 4,15 miliona solarnih masa i sedi u centru Mlečnog puta; prvi direktni snimak dobili smo 2022. M87* u galaksiji M87 mnogo je teža — oko 6,5 milijardi solarnih masa — i bila je prva crna rupa ikada snimljena, 2019. TON 618 i Phoenix-A su kandidati za najmasivnije poznate, svaka po nekoliko desetina milijardi solarnih masa. Gaia BH1 je najbliža poznata crna rupa bilo koje vrste — mnogo manja zvezdane mase, samo 1.560 svetlosnih godina daleko.",
       "section4Heading": "Čudnovata fizika unutra",
@@ -742,7 +779,7 @@
       "section5Body": "Stephen Hawking je 1974. pokazao da crne rupe zapravo nisu savršeno crne — zrače malu količinu toplotne energije sa same ivice horizonta događaja. Tokom nezamislivo dugih vremenskih razmera (oko 10⁶⁷ godina za crnu rupu zvezdane mase, daleko duže za supermasivne) trebale bi polako da ispare. Nikada to nismo posmatrali — preslabo je."
     },
     "nebulae": {
-      "title": "Maglina",
+      "title": "Magline",
       "tagline": "Tamo gde se zvezde rađaju i gde idu da umru.",
       "intro": "Maglina je ogroman oblak gasa i prašine koji lebdi kroz međuzvezdani prostor. Neke su rasadnici u kojima se nove zvezde sažimaju pod gravitacijom. Druge su grobnice — naduvani ostaci zvezda koje su završile sa gorenjem. To su najglasniji, najlepši objekti u astrofotografiji dubokog neba, i najsporiji kosmički događaji koje ljudi mogu direktno posmatrati.",
       "section1Heading": "Četiri vrste maglina",
@@ -752,7 +789,7 @@
       "section3Heading": "Smrti veličine Sunca ostavljaju planetarne magline",
       "section3Body": "Kada zvezdi nalik Suncu nestane goriva vodonika, ona se širi u crvenog džina, a zatim odbacuje spoljnu atmosferu u prostor. Izloženo jezgro — vreli beli patuljak — osvetljava taj zbačeni gas iznutra, stvarajući planetarnu maglinu. Za oko pet milijardi godina, to će se dogoditi i Suncu. Faza traje samo desetine hiljada godina pre nego što se gas raziđe.",
       "section4Heading": "Masivne smrti ostavljaju ostatke supernova",
-      "section4Body": "Kada zvezda iznad osam solarnih masa umre, njeni spoljni slojevi eksplodiraju brzinom od hiljada kilometara u sekundi, ostavljajući udarni talas vrelog gasa koji svetli desetine hiljada godina. Rakovica se još uvek širi brzinom oko 1.500 km/s, a brzo rotirajuća neutronska zvezda — Krabov pulsar — sedi u njenom središtu, kolapsirano jezgro originalne zvezde."
+      "section4Body": "Kada zvezda iznad osam solarnih masa umre, njeni spoljni slojevi eksplodiraju brzinom od hiljada kilometara u sekundi, ostavljajući udarni talas vrelog gasa koji svetli desetine hiljada godina. Rakovica se još uvek širi brzinom oko 1.500 km/s, a u njenom središtu se nalazi brzo rotirajuća neutronska zvezda — pulsar u Rakovici — kolapsirano jezgro originalne zvezde."
     },
     "bigBang": {
       "title": "Veliki prasak",
@@ -760,7 +797,7 @@
       "intro": "Naša najbolja trenutna slika kosmičke istorije kaže da je pre oko 13,8 milijardi godina sve u vidljivom svemiru bilo sabijeno u stanje toliko vrelo i gusto da se obična materija, svetlost i sam prostor ponašaju na načine koje naše teorije više ne mogu u potpunosti opisati. Iz tog stanja — to zovemo Veliki prasak — prostor se širi, hladi i proizvodi materiju, zvezde i galaksije koje danas posmatramo. Veliki prasak nije eksplozija *u* prostoru; to je širenje *samog* prostora.",
       "section1Heading": "Širenje: galaksije se razdvajaju",
       "section1Body": "Edwin Hubble je 1920-ih pokazao da se udaljene galaksije udaljavaju od nas, i što su dalje, brže se udaljavaju. To je najsnažniji direktni dokaz kosmičkog širenja. Nismo u nekom posebnom centru — svaka galaksija vidi isti odlazni tok od svake druge. Vratite širenje unazad u vremenu i sve se sažima u jedno vrelo gusto stanje.",
-      "section2Heading": "Kosmičko mikrotalasno pozadinsko zračenje — beba slika svemira",
+      "section2Heading": "Kosmičko mikrotalasno pozadinsko zračenje — najranija slika svemira",
       "section2Body": "Oko 380.000 godina posle Velikog praska, prostor se ohladio dovoljno da se formiraju atomi i da svetlost putuje slobodno prvi put. Ta drevna svetlost, pomerena u mikrotalase 13,8 milijardi godina širenja, sada kupa celo nebo u slabom, gotovo uniformnom sjaju. Sitne temperaturne varijacije ovog Kosmičkog mikrotalasnog pozadinskog zračenja mapiraju seme svake galaksije koja danas postoji. Izmerili smo ga sa izuzetnom preciznošću — to je jedna od najbolje testiranih predviđanja u celoj fizici.",
       "section3Heading": "Ubrzavajuće širenje i tamna energija",
       "section3Body": "Godine 1998, dva nezavisna tima koja su merila udaljene supernove otkrila su da se širenje svemira ne usporava (kao što bi gravitacija sugerisala) — već ubrzava. Tajanstveni oblik energije ugrađen u sam prostor, nazvan *tamna energija*, izgleda da gura prostor sve brže i brže. Tokom narednih sto milijardi godina, ovo ubrzanje će na kraju odneti svaku galaksiju van naše lokalne grupe iza kosmičkog horizonta. Ubrzanje je **utvrđena teorija**; šta tamna energija zapravo *jeste* ostaje duboko otvoreno pitanje.",
@@ -772,13 +809,13 @@
       "tagline": "Kako masivne zvezde umiru — i šta ostavljaju za sobom.",
       "intro": "Supernova je eksplozivna smrt zvezde, koja kratko vreme zasenjuje celu galaksiju. Eksplozija seje svemir teškim elementima — svaki atom u vašem telu teži od helijuma kovan je unutar zvezde i raspršen događajem poput ovog. Posmatramo nekoliko supernova godišnje u vidljivom svemiru, ali u našem Mlečnom putu jedna se dogodi tek svakih sto ili dvesta godina.",
       "section1Heading": "Dva potpuno različita mehanizma",
-      "section1Body": "Astronomi vide dva glavna tipa. **Kolaps jezgra** (Tipovi II, Ib, Ic) događa se kada zvezdi iznad oko 8 solarnih masa nestane nuklearno gorivo — njeno jezgro se urušava u deliću sekunde, potom odbija, raznoseći spoljne slojeve. **Termonuklearne supernove** (Tip Ia) događaju se kada beli patuljak u binarnom sistemu akumulira dovoljno materije da pokrene neograničenu fuziju ugljenika, isparavajući čitavu zvezdu. Ove druge su toliko dosledne po sjaju da se koriste kao standardne sveće za merenje kosmičkih udaljenosti.",
+      "section1Body": "Astronomi vide dva glavna tipa. **Supernove kolapsom jezgra** (Tipovi II, Ib, Ic) događaju se kada zvezdi iznad oko 8 solarnih masa nestane nuklearno gorivo — njeno jezgro se urušava u deliću sekunde, potom odbija, raznoseći spoljne slojeve. **Termonuklearne supernove** (Tip Ia) događaju se kada beli patuljak u binarnom sistemu akumulira dovoljno materije da pokrene lančanu fuziju ugljenika, razarajući čitavu zvezdu. Ove druge su toliko dosledne po sjaju da se koriste kao standardne sveće za merenje kosmičkih udaljenosti.",
       "section2Heading": "Šta ostaje",
       "section2Body": "Ako je umiruća zvezda bila 8–25 solarnih masa, njeno urušeno jezgro ostaje kao neutronska zvezda — objekat veličine grada težak koliko Sunce. Ako je iznad ~25 solarnih masa, kolaps ide dalje i u centru ostaje crna rupa zvezdane mase. Spoljni slojevi se šire kao svetleći ostatak supernove — Rakovica je najpoznatija, vidljivi krš supernove koju su ljudi na Zemlji zabeležili 1054. godine.",
       "section3Heading": "Poznate supernove",
-      "section3Body": "**SN 1054** — koju su kineski, japanski i arapski astronomi zabeležili u julu 1054. godine — proizvela je Rakovicu i njen centralni pulsar. **SN 1572** posmatrao je Tycho Brahe i prelomila je srednjovekovno verovanje u nepromenljiv kosmos. **SN 1987A**, u Velikom Magelanovom oblaku, bila je najbliža supernova vidljiva golim okom za skoro 400 godina i prva čija je pre-eksplozijska zvezda identifikovana.",
+      "section3Body": "**SN 1054** — koju su kineski, japanski i arapski astronomi zabeležili u julu 1054. godine — proizvela je Rakovicu i njen centralni pulsar. **SN 1572** posmatrao je Tycho Brahe i ona je prelomila srednjovekovno verovanje u nepromenljiv kosmos. **SN 1987A**, u Velikom Magelanovom oblaku, bila je najbliža supernova vidljiva golim okom za skoro 400 godina i prva čija je zvezda pre eksplozije identifikovana.",
       "section4Heading": "Fabrika elemenata svemira",
-      "section4Body": "Vodonik i helijum dolaze iz Velikog praska. Skoro sve ostalo — ugljenik, kiseonik, kalcijum, gvožđe, zlato, uranijum — kuje se ili unutar zvezda ili u supernovama i spajanjima neutronskih zvezda. Sagan-ova rečenica da smo \"napravljeni od zvezdane materije\" doslovno je tačna: svaki atom u vašem telu teži od helijuma kovan je unutar drevne zvezde i raspršen po prostoru kada je ona umrla. Vi ste, strukturno, reciklirana supernova."
+      "section4Body": "Vodonik i helijum dolaze iz Velikog praska. Skoro sve ostalo — ugljenik, kiseonik, kalcijum, gvožđe, zlato, uranijum — kuje se ili unutar zvezda ili u supernovama i spajanjima neutronskih zvezda. Saganova rečenica da smo \"napravljeni od zvezdane materije\" doslovno je tačna: svaki atom u vašem telu teži od helijuma iskovan je unutar drevne zvezde i raspršen po prostoru kada je ona umrla. Vi ste, strukturno, reciklirana supernova."
     },
     "time": {
       "title": "Vreme",
@@ -800,11 +837,11 @@
       "section1Heading": "Na dohvatu — udaljenosti u Sunčevom sistemu",
       "section1Body": "Svetlosti je potrebno oko 1,3 sekunde da stigne do Zemlje od Meseca, 8 minuta od Sunca i 5 sati od Plutona. Voyager 1 — najdalji objekat koji je čovek napravio — sada je oko 22 svetlosna sata odatle: gotovo ceo dan kašnjenja signala u svakom pravcu. Iza toga leži Oortov oblak, slaba ljuska ledenih tela čija spoljna ivica može biti udaljena čak celu *svetlosnu godinu*.",
       "section2Heading": "Zvezdani komšiluk",
-      "section2Body": "Proxima Centauri, najbliža zvezda iza Sunca, udaljena je 4,24 svetlosne godine. Alfa Centauri A i B se nalaze tik iza nje. Sirijus — najsvetlija zvezda na našem noćnom nebu — udaljen je 8,6 svetlosnih godina. Svetlost Vege krenula je kada su mnogi današnji srednjoškolci tek započinjali predškolsko. Putujte najvećom brzinom koju je čovek napravio i Proximu biste dostigli za oko 73.000 godina.",
+      "section2Body": "Proxima Centauri, najbliža zvezda iza Sunca, udaljena je 4,24 svetlosne godine. Alfa Centauri A i B se nalaze tik iza nje. Sirijus — najsvetlija zvezda na našem noćnom nebu — udaljen je 8,6 svetlosnih godina. Svetlost Vege krenula je ka nama kada su mnogi današnji srednjoškolci tek krenuli u vrtić. Putujte najvećom brzinom koju je čovek ikada postigao i Proximu biste dostigli za oko 73.000 godina.",
       "section3Heading": "Galaktičko i van-galaktičko",
       "section3Body": "Sagittarius A*, supermasivna crna rupa u centru naše galaksije, udaljena je 26.000 svetlosnih godina od Zemlje. Druga strana Mlečnog puta nalazi se oko 80.000 svetlosnih godina. Andromeda — naš najbliži veliki galaktički sused — udaljena je 2,5 miliona svetlosnih godina; njena svetlost je krenula pre nego što su naši preci hodali uspravno. Virgo jato, gusto središte našeg lokalnog kosmičkog komšiluka, nalazi se 54 miliona svetlosnih godina dalje.",
       "section4Heading": "Kosmički horizont",
-      "section4Body": "Možemo videti samo svetlost koja je imala vremena da nas dostigne od Velikog praska, ali se prostor takođe širio cele dok je svetlost putovala. Najdaljа svetlost koju vidimo dolazi od objekata koji su *sada* udaljeni oko 46 milijardi svetlosnih godina — iako je njihova svetlost putovala \"samo\" 13,8 milijardi godina. To je naš posmatrački horizont. Iza njega gotovo sigurno leži još svemira; ograničenje je na ono što možemo znati, ne na ono što postoji."
+      "section4Body": "Možemo videti samo svetlost koja je imala vremena da nas dostigne od Velikog praska, ali se prostor takođe širio sve to vreme dok je svetlost putovala. Najdalja svetlost koju vidimo dolazi od objekata koji su *sada* udaljeni oko 46 milijardi svetlosnih godina — iako je njihova svetlost putovala \"samo\" 13,8 milijardi godina. To je naš posmatrački horizont. Iza njega gotovo sigurno leži još svemira; ograničenje je na ono što možemo znati, ne na ono što postoji."
     },
     "moons": {
       "title": "Meseci",
@@ -1033,6 +1070,54 @@
     "exomoon": {
       "term": "Egzomesec",
       "definition": "Mesec koji kruži oko egzoplanete umesto oko planete u našem Sunčevom sistemu. Nijedan egzomesec još nije definitivno potvrđen."
+    },
+    "astronomical_unit": {
+      "term": "Astronomska jedinica (AJ)",
+      "definition": "Prosečno rastojanje Zemlja–Sunce — oko 149,6 miliona km — koristi se kao merilo za udaljenosti unutar Sunčevog sistema."
+    },
+    "brown_dwarf": {
+      "term": "Smeđi patuljak",
+      "definition": "'Neuspela zvezda' dovoljno masivna da kratko vrši fuziju deuterijuma, ali ne i vodonika — leži u sivoj zoni između džinovske planete i male zvezde."
+    },
+    "cmb": {
+      "term": "Kosmičko mikrotalasno pozadinsko zračenje",
+      "definition": "Slab, gotovo uniforman mikrotalasni sjaj koji ispunjava nebo — najstarija svetlost koju vidimo, oslobođena oko 380.000 godina posle Velikog praska kada su se prvi put formirali atomi."
+    },
+    "inflation": {
+      "term": "Kosmička inflacija",
+      "definition": "Hipotetisani kratak period eksponencijalnog širenja u prvom deliću sekunde posle Velikog praska. Objašnjava krupnozrnu glatkoću i ravnoću svemira, ali se osnovni mehanizam i dalje raspravlja."
+    },
+    "molecular_cloud": {
+      "term": "Molekularni oblak",
+      "definition": "Hladna, gusta oblast međuzvezdanog gasa — uglavnom molekularnog vodonika — gde se nove zvezde sažimaju iz džepova koji se urušavaju."
+    },
+    "multiverse": {
+      "term": "Multiverzum",
+      "definition": "Spekulativna kolekcija mnogih svemira van našeg, koju predviđaju neki modeli (večita inflacija, pejzaž teorije struna, mnogosvetska interpretacija). Trenutno nije moguće potvrditi posmatranjem."
+    },
+    "plate_tectonics": {
+      "term": "Tektonika ploča",
+      "definition": "Zemljina spoljna kora razlomljena je na pokretne ploče čije sporo grebanje pokreće zemljotrese, izdizanje planina i vulkanizam — reciklira koru i pomaže da se klima stabilizuje na geološkoj vremenskoj skali."
+    },
+    "quasar": {
+      "term": "Kvazar",
+      "definition": "Izuzetno svetlo jezgro galaksije čija supermasivna crna rupa brzo akrecuje materiju. Kvazari mogu zaseniti čitavu matičnu galaksiju i vidljivi su kroz veći deo posmatranog svemira."
+    },
+    "redshift": {
+      "term": "Crveni pomak",
+      "definition": "Razvlačenje talasnih dužina svetlosti ka crvenijim bojama kako se sam prostor širi između izvora i nas. Što je galaksija dalja, to je njena svetlost više crveno pomerena."
+    },
+    "schwarzschild_radius": {
+      "term": "Švarcšildov poluprečnik",
+      "definition": "Poluprečnik na kome bi masa nekog objekta formirala horizont događaja ako bi bila sabijena u sferu. Za Zemlju je oko 9 mm; za Sunce oko 3 km."
+    },
+    "standard_candle": {
+      "term": "Standardna sveća",
+      "definition": "Astronomski objekat čija je unutrašnja sjajnost poznata, pa njegova prividna sjajnost otkriva udaljenost. Supernove Tipa Ia su radni primer."
+    },
+    "type_ia": {
+      "term": "Supernova Tipa Ia",
+      "definition": "Termonuklearna supernova koja nastaje kada beli patuljak u binarnom sistemu prikupi dovoljno materije da pokrene lančanu fuziju ugljenika. Njihova dosledna vršna sjajnost čini ih kosmičkim merilima udaljenosti."
     }
   }
 }

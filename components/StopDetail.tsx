@@ -40,7 +40,7 @@ export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
         nextHref={next ? `/${locale}/stop/${next.id}` : undefined}
       />
       <nav
-        aria-label="Breadcrumb"
+        aria-label={t("common.breadcrumb")}
         className="mb-4 flex flex-wrap items-center gap-2 text-[11px] uppercase tracking-[0.18em] text-cosmos-star/55"
       >
         <Link
@@ -215,7 +215,7 @@ export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
         </section>
       )}
 
-      <nav className="mt-10 grid gap-3 sm:grid-cols-2" aria-label="Stop navigation">
+      <nav className="mt-10 grid gap-3 sm:grid-cols-2" aria-label={t("common.stopNavigation")}>
         {prev ? (
           <Link
             href={`/${locale}/stop/${prev.id}`}

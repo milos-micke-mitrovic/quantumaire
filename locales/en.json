@@ -2,7 +2,7 @@
   "common": {
     "title": "Quantumaire",
     "tagline": "From the smallest spark to the edge of everything.",
-    "subtagline": "A guided journey across 44 orders of magnitude — from quarks to the observable universe — with the truth-status of every stop labelled honestly.",
+    "subtagline": "A guided journey across 45 orders of magnitude — from quarks to the observable universe — with the truth-status of every stop labelled honestly.",
     "begin": "Begin the journey",
     "back": "Back",
     "next": "Next stop",
@@ -80,6 +80,10 @@
     "more": "More",
     "random": "Random stop",
     "skipToContent": "Skip to main content",
+    "backToTop": "Back to top",
+    "breadcrumb": "Breadcrumb",
+    "stopNavigation": "Stop navigation",
+    "ratio": "ratio",
     "progress": {
       "title": "Your journey",
       "tagline": "{count} of {total} stops visited.",
@@ -127,6 +131,26 @@
       "needsBothSized": "Need two concrete sizes for a visual comparison."
     }
   },
+  "home": {
+    "faq": {
+      "q1": "What is Quantumaire?",
+      "a1": "An interactive educational journey from the smallest known particles to the observable universe, with the trustworthiness of every claim transparently labelled as Fact, Established Theory, Probable Theory, or Speculative.",
+      "q2": "How big is Earth compared to a quark?",
+      "a2": "Roughly 25 orders of magnitude. Earth's diameter is about 1.27 × 10⁷ metres, a quark is no larger than 10⁻¹⁸ metres. Quantumaire uses a 0.5 mm grain of sand as a stand-in for Earth so the rest of the universe becomes intuitive.",
+      "q3": "What is dark matter?",
+      "a3": "An invisible form of matter whose gravity holds galaxies together. It outweighs ordinary matter about five to one. We map it through gravitational lensing, but its particle nature is still unknown.",
+      "q4": "What is dark energy?",
+      "a4": "A still-unexplained energy that appears to be accelerating the expansion of the universe. It accounts for roughly 68% of the total mass-energy of the cosmos.",
+      "q5": "What is the largest known star?",
+      "a5": "Hypergiants such as UY Scuti and Stephenson 2-18 are among the largest stars known by radius — placed where the Sun is, their surface would extend past the orbit of Jupiter. They are also among the shortest-lived stars in the galaxy.",
+      "q6": "What is the largest known black hole?",
+      "a6": "TON 618 and Phoenix-A are leading candidates for the most massive known black holes, each weighing tens of billions of solar masses — roughly ten thousand times more than the supermassive black hole at the centre of our Milky Way (Sagittarius A*).",
+      "q7": "How far is the observable universe?",
+      "a7": "The cosmic horizon is roughly 46 billion light-years from Earth in every direction, making the full observable universe a sphere about 93 billion light-years across. Beyond it almost certainly lies more space we can never see.",
+      "q8": "What languages does Quantumaire support?",
+      "a8": "English and Serbian (Latin script). Every stop has equivalent canonical URLs in both languages, so each version can be discovered, cited, and translated independently by both humans and AI search engines."
+    }
+  },
   "badges": {
     "FACT": "Fact",
     "ESTABLISHED_THEORY": "Established theory",
@@ -145,11 +169,15 @@
     "COSMOS.description": "Galaxies, stars, neutron-dense corpses, and the dark side of the universe — the largest scales we can observe.",
     "MICRO_WORLD.description": "Quarks, atoms, and molecules — the building blocks underneath everything you can see or touch.",
     "HUMAN_MIND.description": "Documented oddities of how a single brain — and a single body — can house more than one self.",
-    "ANCIENT_HISTORY.description": "Monuments and mysteries whose construction still resists complete explanation."
+    "ANCIENT_HISTORY.description": "Monuments and mysteries whose construction still resists complete explanation.",
+    "COSMOS.intro": "The universe at every scale beyond the ground beneath your feet — planets, stars, galaxies, and the largest gravitationally bound structures we know how to find. About two-thirds of every stop on Quantumaire lives here, because the cosmos is where orders of magnitude start to do real work. The Cosmos category also collects the abstractions that hold it all together: dark matter, dark energy, the cosmic horizon.",
+    "MICRO_WORLD.intro": "Everything smaller than the cell. Quarks and gluons inside the proton; the proton inside the atom; the atom inside the DNA helix; the helix inside the virus; the virus, in turn, dwarfed by a bacterium. Each step down this ladder is roughly a thousand times smaller than the last, so the human-scale intuition that 'small things differ by a bit' breaks completely. The micro-world is where you watch that intuition snap.",
+    "HUMAN_MIND.intro": "Phenomena that don't fit on the size axis at all because they're properties of the brain rather than measurable objects. Quantumaire includes one such stop — dissociative identity disorder — to acknowledge that not everything which meaningfully exists has a metre attached to it. The mind belongs on a journey through scale even when it sits outside the ruler.",
+    "ANCIENT_HISTORY.intro": "Structures and artifacts whose engineering still invites careful explanation rather than easy dismissal. The Great Pyramid is the only stop here so far — but at 139 metres, with 2.3 million blocks aligned to the cardinal directions, it sits at exactly the right scale to bridge the human and the planetary."
   },
   "comparison": {
     "title": "From quark to the observable universe",
-    "subtitle": "Twenty-six stops spanning 44 orders of magnitude. Hover any dot below to preview a stop, or click to open it.",
+    "subtitle": "Thirty stops spanning 45 orders of magnitude. Tap a dot below to preview a stop, then use the Open stop link to read its page.",
     "equal": "About the size of a grain of sand.",
     "times": "{factor}× a grain of sand",
     "fraction": "1 / {factor} of a grain of sand",
@@ -250,6 +278,7 @@
       "tagline": "When the same brain hosts more than one self.",
       "body": "DID — once called Multiple Personality Disorder — is a documented psychological condition where distinct identities take turns in control of one body. The strangeness goes deeper than personality: clinicians have recorded cases where one alter has measurable allergies, requires glasses, or shows different blood pressure — while another, in the same body, does not. The mind, somehow, is voting on the body.",
       "narrative": "DID is a phenomenon of the mind, not a measurable object — its scale is psychological, not physical.",
+      "funFact": "DID often emerges as the mind's protective response to severe childhood trauma. The 'alters' don't appear out of nowhere — they are parts of one self that learned, very early, that it was safer to compartmentalise than to be whole.",
       "image": {
         "alt": "A human silhouette splitting into multiple translucent overlapping personas."
       },
@@ -367,6 +396,7 @@
       "tagline": "An invisible wind that holds galaxies together.",
       "body": "Galaxies spin too fast for the matter we can see to hold them together — they should be flying apart. Something invisible is providing the extra gravity. We can map it through gravitational lensing, and it appears to outweigh ordinary matter five to one. We just don't know what it is.",
       "narrative": "Dark matter has no shape and no edges that we can see — only its gravity is visible, shaping the rotation of every galaxy ever measured.",
+      "funFact": "Right now, dark matter particles are streaming through your body by the billions every second. They don't interact with the atoms in you — they only feel gravity — so you never notice.",
       "image": {
         "alt": "Dark matter visualised as a violet cosmic web bending light around galaxies."
       },
@@ -382,6 +412,7 @@
       "tagline": "Whatever is pulling the universe apart, faster and faster.",
       "body": "The expansion of the universe isn't just continuing — it's accelerating. A mysterious form of energy, present in every cubic metre of empty space, seems to be pushing it outward. It accounts for roughly 68% of everything there is, and we have almost no idea what it is made of.",
       "narrative": "Dark energy fills every cubic metre of empty space — including the metres around you right now. It has no size of its own, only a direction: outward.",
+      "funFact": "The term 'dark energy' was coined in 1998 by cosmologist Michael Turner — chosen specifically because nobody knew what it was. Almost 30 years later, the placeholder name has held up because we still don't.",
       "image": {
         "alt": "Galaxies stretching apart, pulled by an invisible accelerating force."
       },
@@ -590,6 +621,7 @@
         "fact3": "Radio signals take more than 22 hours each way at the speed of light.",
         "fact4": "Carries the Golden Record — sounds and images of Earth, for any future finder."
       },
+      "massNarrative": "Voyager 1 weighs about 720 kg — roughly the same as a grand piano. That single piano-sized object is the only piece of human work that has ever crossed into interstellar space.",
       "funFact": "Voyager 1 isn't aimed at any particular star. In about 40,000 years it will pass within 1.6 light-years of Gliese 445 — but by then the constellations we know will have rearranged themselves."
     },
     "laniakea_supercluster": {
@@ -616,7 +648,8 @@
       "tagline": "One star and everything held in its gravity.",
       "body": "Eight planets, five dwarf planets, more than 200 moons, and millions of asteroids and comets — all bound to one yellow star. The planetary part is roughly 12 billion km wide. The Sun's gravity, though, reaches out a hundred thousand times further, into a faint shell of icy bodies called the Oort cloud. Voyager 1, our farthest probe, has been travelling for 48 years and still isn't past it.",
       "narrative": "Shrink the Solar System to fit on a basketball court, and Earth would be smaller than a grain of sand near the centre — completely invisible to the naked eye.",
-      "funFact": "Jupiter is often called the Solar System's guardian — its enormous gravity captures or deflects many incoming comets and asteroids. If Jupiter had grown about 80 times more massive, hydrogen fusion would have ignited at its core, and we would live in a binary-star system.",
+      "massNarrative": "The Sun holds 99.86% of the Solar System's entire mass. Pile every planet, moon, asteroid, and comet together and you get just 0.14% — and most of that is Jupiter.",
+      "funFact": "Pluto isn't the last word: beyond the Kuiper Belt sits the Oort Cloud, a roughly spherical shell of icy bodies that may extend halfway to the nearest star. Voyager 1, our farthest probe, won't reach its inner edge for another 300 years and won't clear its outer edge for tens of thousands more.",
       "image": {
         "alt": "Top-down view of the Solar System — Sun centred, planets along orbital ellipses."
       },
@@ -632,6 +665,7 @@
       "tagline": "Earth's only natural satellite — locked to us forever.",
       "body": "The Moon is the fifth-largest moon in the Solar System and the only place beyond Earth that humans have walked on. It is tidally locked, which is why the same side always faces us; the far side was first photographed by a Soviet probe in 1959. Its surface is a fossil record of the violent early Solar System — every crater is a story that Earth itself has long since erased through weather and tectonics.",
       "narrative": "The Moon is drifting away from Earth at about 3.8 cm a year — roughly the rate your fingernails grow. Hundreds of millions of years ago, total solar eclipses lasted much longer; in another billion years, they'll stop happening at all.",
+      "massNarrative": "The Moon weighs about 1/81 of Earth — roughly the same ratio as a tennis ball to an adult human. It's the largest moon in the Solar System relative to its host planet.",
       "funFact": "The Apollo astronauts left mirrors on the Moon. Laser pulses fired from observatories on Earth still bounce off them today, letting us measure the Earth–Moon distance to within millimetres.",
       "image": {
         "alt": "The Moon as a full disc, cratered surface lit by direct sunlight."
@@ -648,6 +682,7 @@
       "tagline": "The Solar System's largest planet — a failed star, almost.",
       "body": "Jupiter is a gas giant more massive than all the other planets combined. Its atmosphere is a turbulent ocean of hydrogen and helium, marked by storm belts and the Great Red Spot — an anticyclone large enough to swallow Earth and still have room left over. It also has 95 confirmed moons; four of them, the Galilean satellites, were the first objects ever shown to orbit something other than Earth.",
       "narrative": "Jupiter is so massive that it doesn't orbit the Sun directly — the two share a common centre of mass, called the barycentre, that sits just outside the Sun's surface. It's the only planet in our system where this is true.",
+      "massNarrative": "Jupiter contains 2.5 times more mass than every other planet in the Solar System combined. The wobble it induces in the Sun is the strongest single planetary signal in our system — and is one of the standard ways astronomers find Jupiter-sized planets around other stars.",
       "funFact": "If Jupiter had grown about 80 times more massive, hydrogen fusion would have ignited in its core and it would have become a small star. We would live in a binary system instead of a planetary one.",
       "image": {
         "alt": "Jupiter with banded cloud belts and the Great Red Spot, four Galilean moons visible beside it."
@@ -664,6 +699,7 @@
       "tagline": "The closest known star to the Sun — and still impossibly far.",
       "body": "Proxima Centauri is a small, dim red dwarf about 4.24 light-years from Earth. It is the nearest known star to the Sun, part of the triple Alpha Centauri system. At least two planets are confirmed to orbit it, one — Proxima b — sitting in the habitable zone where liquid water could exist on its surface. The catch is that red dwarfs are violently active; Proxima regularly fires off flares that would strip away an Earth-like atmosphere.",
       "narrative": "Even at the speed of light it takes 4.24 years to get to Proxima Centauri. The fastest human spacecraft ever launched (Parker Solar Probe) would take more than 6,000 years to make the trip.",
+      "massNarrative": "Proxima Centauri weighs only about an eighth of the Sun. Red dwarfs that small fuse hydrogen so slowly that, in theory, Proxima will still be shining four trillion years from now — long after every Sun-like star has burned out.",
       "funFact": "Despite being our nearest stellar neighbour, Proxima is too dim to see with the naked eye. You need a telescope — even though, in cosmic terms, it's basically next door.",
       "image": {
         "alt": "Proxima Centauri — a small red dwarf star with the silhouette of Proxima b crossing its disc."
@@ -696,7 +732,8 @@
   },
   "topicsIndex": {
     "title": "Topics",
-    "tagline": "Concept pages that contextualise the specific stops on the journey."
+    "tagline": "Concept pages that contextualise the specific stops on the journey.",
+    "intro": "Where a stop tells you about a specific object — UY Scuti, the Moon, the supermassive black hole at our galactic centre — a topic tells you about the class. What stars are. How planets form. Why black holes have an event horizon. Read a topic when you want context for several stops at once, or when you want the broader picture before zooming in to a single one."
   },
   "topics": {
     "stars": {
@@ -1034,6 +1071,54 @@
     "exomoon": {
       "term": "Exomoon",
       "definition": "A moon orbiting an exoplanet rather than a planet in our Solar System. No exomoon has been definitively confirmed."
+    },
+    "astronomical_unit": {
+      "term": "Astronomical unit (AU)",
+      "definition": "The average Earth–Sun distance — about 149.6 million km — used as a yardstick for distances inside the Solar System."
+    },
+    "brown_dwarf": {
+      "term": "Brown dwarf",
+      "definition": "A 'failed star' massive enough to fuse deuterium briefly but not hydrogen — sitting in the grey zone between a giant planet and a small star."
+    },
+    "cmb": {
+      "term": "Cosmic microwave background",
+      "definition": "The faint, almost-uniform microwave glow filling the sky — the oldest light we can see, released about 380,000 years after the Big Bang when atoms first formed."
+    },
+    "inflation": {
+      "term": "Cosmic inflation",
+      "definition": "A hypothesised brief period of exponential expansion in the first fraction of a second after the Big Bang. Explains the universe's large-scale smoothness and flatness, but the underlying mechanism is still debated."
+    },
+    "molecular_cloud": {
+      "term": "Molecular cloud",
+      "definition": "A cold, dense region of interstellar gas — mostly molecular hydrogen — where new stars condense out of collapsing pockets."
+    },
+    "multiverse": {
+      "term": "Multiverse",
+      "definition": "A speculative collection of many universes beyond our own, predicted by some models (eternal inflation, the string-theory landscape, many-worlds). None currently confirmable by observation."
+    },
+    "plate_tectonics": {
+      "term": "Plate tectonics",
+      "definition": "Earth's outer shell is broken into moving plates whose slow grinding drives earthquakes, mountain-building, and volcanism — recycling crust and helping stabilise the climate over geological time."
+    },
+    "quasar": {
+      "term": "Quasar",
+      "definition": "The brilliantly luminous core of a galaxy whose supermassive black hole is rapidly accreting matter. Quasars can outshine their entire host galaxy and are seen across most of the observable universe."
+    },
+    "redshift": {
+      "term": "Redshift",
+      "definition": "The stretching of light's wavelengths to redder colours as space itself expands between the source and us. The more distant a galaxy, the more redshifted its light."
+    },
+    "schwarzschild_radius": {
+      "term": "Schwarzschild radius",
+      "definition": "The radius at which an object's mass would form an event horizon if it were compressed into a sphere. For Earth, about 9 mm; for the Sun, about 3 km."
+    },
+    "standard_candle": {
+      "term": "Standard candle",
+      "definition": "An astronomical object whose intrinsic brightness is known, so its apparent brightness reveals its distance. Type Ia supernovae are the workhorse example."
+    },
+    "type_ia": {
+      "term": "Type Ia supernova",
+      "definition": "A thermonuclear supernova produced when a white dwarf in a binary system gathers enough matter to ignite runaway carbon fusion. Their consistent peak brightness makes them cosmic distance rulers."
     }
   }
 }

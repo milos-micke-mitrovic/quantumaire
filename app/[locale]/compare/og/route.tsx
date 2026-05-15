@@ -142,7 +142,7 @@ export async function GET(
                 color: "rgba(224,242,254,0.55)",
               }}
             >
-              ratio
+              {tServer(typed, "common.ratio")}
             </div>
             <div
               style={{

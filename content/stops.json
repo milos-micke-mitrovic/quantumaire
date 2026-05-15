@@ -22,7 +22,8 @@
       "glossary": ["quantum", "gluon", "strong_force"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Quark" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Standard_Model" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Standard_Model" },
+        { "label": "Britannica", "url": "https://www.britannica.com/science/quark" }
       ]
     },
     {
@@ -43,7 +44,8 @@
       "glossary": ["quark", "strong_force", "nucleus"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proton" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Atomic_nucleus" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Atomic_nucleus" },
+        { "label": "Britannica", "url": "https://www.britannica.com/science/proton" }
       ]
     },
     {
@@ -64,7 +66,8 @@
       "glossary": ["electron", "orbital", "quantum"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Atom" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Atomic_orbital" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Atomic_orbital" },
+        { "label": "Britannica", "url": "https://www.britannica.com/science/atom" }
       ]
     },
     {
@@ -85,7 +88,8 @@
       "glossary": ["base_pair", "helix", "genome"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/DNA" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Human_genome" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Human_genome" },
+        { "label": "Britannica", "url": "https://www.britannica.com/science/DNA" }
       ]
     },
     {
@@ -126,7 +130,8 @@
       "glossary": ["orion_correlation", "limestone_casing", "khufu"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Khufu" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Khufu" },
+        { "label": "Britannica", "url": "https://www.britannica.com/topic/Great-Pyramid-of-Giza" }
       ]
     },
     {
@@ -144,9 +149,11 @@
         "altKey": "stops.earth.image.alt",
         "geminiPrompt": "Earth seen from deep space — soft blue oceans, swirling white clouds, faint atmosphere glow, half-lit by a distant sun, ultra-detailed photographic realism, our reference grain of sand."
       },
-      "glossary": ["grain_of_sand", "reference_scale"],
+      "glossary": ["grain_of_sand", "reference_scale", "plate_tectonics"],
       "sources": [
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Earth" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Earth" },
+        { "label": "NASA", "url": "https://science.nasa.gov/earth/" },
+        { "label": "Britannica", "url": "https://www.britannica.com/place/Earth" }
       ]
     },
     {
@@ -167,7 +174,8 @@
       "glossary": ["pulsar", "supernova", "degenerate_matter"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Neutron_star" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Pulsar" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Pulsar" },
+        { "label": "Britannica", "url": "https://www.britannica.com/science/neutron-star" }
       ]
     },
     {
@@ -189,7 +197,8 @@
       "glossary": ["fusion", "corona", "main_sequence"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Sun" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Nuclear_fusion" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Nuclear_fusion" },
+        { "label": "NASA", "url": "https://science.nasa.gov/sun/" }
       ]
     },
     {
@@ -235,7 +244,8 @@
       "glossary": ["spiral_arm", "galactic_core", "light_year"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Milky_Way" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Galactic_Center" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Galactic_Center" },
+        { "label": "Britannica", "url": "https://www.britannica.com/place/Milky-Way-Galaxy" }
       ]
     },
     {
@@ -256,7 +266,8 @@
       "glossary": ["gravitational_lensing", "wimp", "halo"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Dark_matter" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Gravitational_lens" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Gravitational_lens" },
+        { "label": "Britannica", "url": "https://www.britannica.com/science/dark-matter" }
       ]
     },
     {
@@ -274,10 +285,11 @@
         "altKey": "stops.dark_energy.image.alt",
         "geminiPrompt": "Dark energy as the accelerating expansion of space — galaxies stretched apart by an unseen force, faint magenta tension lines pulling outward, cosmological horizon receding, abstract and awe-inducing."
       },
-      "glossary": ["cosmological_constant", "expansion", "horizon"],
+      "glossary": ["cosmological_constant", "expansion", "horizon", "inflation"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Dark_energy" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Cosmological_constant" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Cosmological_constant" },
+        { "label": "Britannica", "url": "https://www.britannica.com/science/dark-energy" }
       ]
     },
     {
@@ -297,10 +309,11 @@
         "altKey": "stops.observable_universe.image.alt",
         "geminiPrompt": "The observable universe as a luminous sphere — billions of galaxies arranged along the cosmic web, deep violet voids and golden filaments, edge of the horizon glowing faintly, scientific cosmological art."
       },
-      "glossary": ["cosmic_horizon", "big_bang", "light_year"],
+      "glossary": ["cosmic_horizon", "big_bang", "cmb", "redshift", "inflation"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Observable_universe" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Big_Bang" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Big_Bang" },
+        { "label": "Britannica", "url": "https://www.britannica.com/science/universe" }
       ]
     },
     {
@@ -321,7 +334,8 @@
       "glossary": ["capsid", "rna", "genome"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Virus" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Capsid" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Capsid" },
+        { "label": "Britannica", "url": "https://www.britannica.com/science/virus" }
       ]
     },
     {
@@ -341,10 +355,11 @@
         "altKey": "stops.supermassive_black_hole.image.alt",
         "geminiPrompt": "A supermassive black hole imaged from close range — a pure black sphere ringed by an incandescent accretion disk in #fb7185 and #f0abfc, gravitational lensing curving stars and a photon ring above and below the horizon. Distant background: nebular #1a1245 with pinpricks of #e0f2fe starlight. Inspired by Event Horizon Telescope imagery, ultra-detailed scientific render, cinematic."
       },
-      "glossary": ["event_horizon", "accretion_disk", "singularity"],
+      "glossary": ["event_horizon", "accretion_disk", "singularity", "quasar", "schwarzschild_radius"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Supermassive_black_hole" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Black_hole" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Black_hole" },
+        { "label": "Britannica", "url": "https://www.britannica.com/science/black-hole" }
       ]
     },
     {
@@ -365,7 +380,8 @@
       "glossary": ["organelle", "genome"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Bacteria" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Prokaryote" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Prokaryote" },
+        { "label": "Britannica", "url": "https://www.britannica.com/science/bacteria" }
       ]
     },
     {
@@ -409,7 +425,8 @@
       "glossary": ["spiral_arm", "galactic_core", "light_year"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy" },
-        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Local_Group" }
+        { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Local_Group" },
+        { "label": "Britannica", "url": "https://www.britannica.com/place/Andromeda-Galaxy" }
       ]
     },
     {
@@ -514,7 +531,7 @@
         "altKey": "stops.voyager1.image.alt",
         "geminiPrompt": "Voyager 1 spacecraft viewed from behind, its large white dish antenna pointed back toward a distant pale-blue Earth far below, the band of the Milky Way arcing across deep #03030a void above. Aurora-violet #7c5cff and pink-violet #f0abfc highlights on the spacecraft's metallic skin and gold foil. Cinematic, awe-inspiring scientific render, wide crop, ultra-detailed."
       },
-      "glossary": ["heliosphere", "oort_cloud"],
+      "glossary": ["heliosphere", "oort_cloud", "astronomical_unit"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Voyager_1" },
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Voyager_program" }
@@ -537,7 +554,7 @@
         "altKey": "stops.ton_618.image.alt",
         "geminiPrompt": "TON 618 — an ultramassive quasar black hole at the centre of a distant galaxy — black sphere ringed by a vast luminous accretion disk in #fb7185 and #f0abfc, polar relativistic jets shooting out in bright #c084fc, gravitational lensing distorting the surrounding stars and galaxies in deep #03030a void with #1a1245 nebular haze. Awe-inspiring cinematic scientific render, wide crop, ultra-detailed."
       },
-      "glossary": ["event_horizon", "accretion_disk", "singularity"],
+      "glossary": ["event_horizon", "accretion_disk", "singularity", "quasar"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/TON_618" },
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Quasar" }
@@ -560,7 +577,7 @@
         "altKey": "stops.phoenix_a.image.alt",
         "geminiPrompt": "Phoenix-A — among the most massive black holes ever measured — a giant black sphere at the heart of the Phoenix Cluster, ringed by an enormous swirling accretion disk in #fb7185 and #f0abfc, surrounded by streamers of #7c5cff intracluster gas, hot X-ray plasma haze in #c084fc, the host galaxy a faint glow behind it. Deep #03030a void. Cinematic astrophysical render, wide crop, ultra-detailed."
       },
-      "glossary": ["event_horizon", "accretion_disk", "supercluster"],
+      "glossary": ["event_horizon", "accretion_disk", "supercluster", "quasar"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Phoenix_Cluster" },
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_most_massive_black_holes" }
@@ -627,7 +644,7 @@
         "altKey": "stops.jupiter.image.alt",
         "geminiPrompt": "Jupiter as a gas giant — banded cloud belts in #c084fc, #f0abfc, and warm cream, the Great Red Spot a clear vortex, four Galilean moons visible as small specks beside it. Deep #03030a space background scattered with #e0f2fe stars. Photographic scientific render, ultra-detailed."
       },
-      "glossary": ["light_year"],
+      "glossary": ["light_year", "brown_dwarf"],
       "sources": [
         { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jupiter" },
         { "label": "NASA", "url": "https://science.nasa.gov/jupiter/" }

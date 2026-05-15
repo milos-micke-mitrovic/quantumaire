@@ -27,6 +27,9 @@ export function TopicsIndex() {
         <p className="mt-3 max-w-2xl text-base text-cosmos-star/80 sm:text-lg">
           {t("topicsIndex.tagline")}
         </p>
+        <p className="mt-5 max-w-2xl text-base leading-relaxed text-cosmos-star/70">
+          {t("topicsIndex.intro")}
+        </p>
       </motion.header>
 
       <section className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

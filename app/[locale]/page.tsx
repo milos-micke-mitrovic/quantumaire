@@ -32,38 +32,22 @@ export async function generateMetadata({
   });
 }
 
-const FAQ_KEYS = [
-  {
-    q: "What is Quantumaire?",
-    a: "An interactive educational journey from the smallest known particles to the observable universe, with the trustworthiness of every claim transparently labelled as Fact, Established Theory, Probable Theory, or Speculative.",
-  },
-  {
-    q: "How big is Earth compared to a quark?",
-    a: "Roughly 25 orders of magnitude — Earth's diameter is about 1.27 × 10⁷ m, a quark is no larger than 10⁻¹⁸ m. Quantumaire uses a 0.5 mm grain of sand as a stand-in for Earth so the rest of the universe becomes intuitive.",
-  },
-  {
-    q: "What is dark matter?",
-    a: "An invisible form of matter whose gravity holds galaxies together. We map it through gravitational lensing, but its particle nature is unknown.",
-  },
-  {
-    q: "What is dark energy?",
-    a: "A still-unexplained energy that appears to be accelerating the expansion of the universe. It accounts for roughly 68% of the total energy of the cosmos.",
-  },
-  {
-    q: "What languages does Quantumaire support?",
-    a: "English and Serbian. Every stop has equivalent canonical URLs in both languages.",
-  },
-];
+const FAQ_INDICES = [1, 2, 3, 4, 5, 6, 7, 8] as const;
 
 export default async function LocaleHome({ params }: PageProps) {
   const { locale } = await params;
   if (!LOCALES.includes(locale as Locale)) notFound();
   const typed = locale as Locale;
 
+  const faqItems = FAQ_INDICES.map((i) => ({
+    q: tServer(typed, `home.faq.q${i}`),
+    a: tServer(typed, `home.faq.a${i}`),
+  }));
+
   return (
     <main className="relative">
       <JsonLd
-        data={[itemListJsonLd(typed), faqJsonLd(FAQ_KEYS)]}
+        data={[itemListJsonLd(typed), faqJsonLd(faqItems)]}
       />
       <JourneyHero />
       <Journey />

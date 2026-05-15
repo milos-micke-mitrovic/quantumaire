@@ -1,13 +1,12 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
-import { JsonLd } from "@/components/JsonLd";
 import {
   Analytics,
   SearchConsoleVerification,
 } from "@/components/Analytics";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
-import { organizationJsonLd, SITE_NAME, SITE_URL } from "@/lib/seo";
+import { SITE_NAME, SITE_URL } from "@/lib/seo";
 
 const display = Space_Grotesk({
   subsets: ["latin", "latin-ext"],
@@ -81,7 +80,6 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/sitemap.xml" />
       </head>
       <body className="relative min-h-screen font-body antialiased">
-        <JsonLd data={organizationJsonLd()} />
         {children}
         <Analytics />
         <ServiceWorkerRegister />

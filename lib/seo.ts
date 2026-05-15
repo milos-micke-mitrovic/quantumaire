@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { Locale, Stop } from "./types";
 import { STOPS } from "./content";
+import { tServer } from "./i18n-server";
 
 /**
  * Central SEO config. Update SITE_URL via the NEXT_PUBLIC_SITE_URL env var
@@ -18,7 +19,7 @@ export const TWITTER_HANDLE = "@quantumaire";
 export const LOCALES: Locale[] = ["en", "sr"];
 export const DEFAULT_LOCALE: Locale = "en";
 
-const HREFLANG_MAP: Record<Locale, string> = {
+export const HREFLANG_MAP: Record<Locale, string> = {
   en: "en",
   sr: "sr-Latn-RS",
 };
@@ -123,7 +124,7 @@ export function buildPageMetadata(input: PageSeoInput): Metadata {
 /* JSON-LD builders                                                    */
 /* ------------------------------------------------------------------ */
 
-export function organizationJsonLd() {
+export function organizationJsonLd(locale: Locale = DEFAULT_LOCALE) {
   return {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
@@ -131,8 +132,8 @@ export function organizationJsonLd() {
     url: SITE_URL,
     logo: `${SITE_URL}/icon.svg`,
     sameAs: [],
-    description:
-      "Quantumaire is an interactive educational journey from quarks to the observable universe, with the truth-status of every claim labelled honestly.",
+    description: tServer(locale, "common.subtagline"),
+    inLanguage: HREFLANG_MAP[locale],
   };
 }
 
@@ -152,17 +153,8 @@ export function websiteJsonLd(locale: Locale) {
   };
 }
 
-function badgeToCreditText(badge: Stop["badge"]): string {
-  switch (badge) {
-    case "FACT":
-      return "Directly measured or observed.";
-    case "ESTABLISHED_THEORY":
-      return "Well-tested framework that fits the evidence.";
-    case "PROBABLE_THEORY":
-      return "Best current explanation; still being refined.";
-    case "SPECULATIVE":
-      return "Idea worth taking seriously, but not yet proven.";
-  }
+function badgeToCreditText(badge: Stop["badge"], locale: Locale): string {
+  return tServer(locale, `badges.${badge}.tooltip`);
 }
 
 export function stopJsonLd(
@@ -200,7 +192,7 @@ export function stopJsonLd(
     },
     educationalLevel: "general",
     learningResourceType: "Article",
-    creditText: badgeToCreditText(stop.badge),
+    creditText: badgeToCreditText(stop.badge, locale),
     publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
     image: `${SITE_URL}${stop.image.src}`,
     about: payload.name,
@@ -255,7 +247,7 @@ export function itemListJsonLd(locale: Locale) {
       "@type": "ListItem",
       position: i + 1,
       url: absoluteUrl(locale, `stop/${s.id}`),
-      name: s.id,
+      name: tServer(locale, `${s.i18nKey}.name`),
     })),
   };
 }

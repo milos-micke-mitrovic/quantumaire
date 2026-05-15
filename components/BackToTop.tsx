@@ -2,8 +2,10 @@
 
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { useI18n } from "@/lib/i18n";
 
 export function BackToTop() {
+  const { t } = useI18n();
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -35,7 +37,7 @@ export function BackToTop() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 16 }}
           transition={{ duration: 0.2 }}
-          aria-label="Back to top"
+          aria-label={t("common.backToTop")}
           className="fixed bottom-4 left-4 z-40 grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-cosmos-deep/85 text-cosmos-star/85 shadow-glow backdrop-blur-md transition-colors hover:bg-cosmos-deep hover:text-cosmos-star"
         >
           <svg

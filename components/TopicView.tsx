@@ -33,7 +33,7 @@ export function TopicView({ topic }: TopicViewProps) {
   return (
     <main className="relative mx-auto w-full max-w-3xl px-5 pb-24 pt-10 sm:px-8 sm:pt-14">
       <nav
-        aria-label="Breadcrumb"
+        aria-label={t("common.breadcrumb")}
         className="mb-4 flex flex-wrap items-center gap-2 text-[11px] uppercase tracking-[0.18em] text-cosmos-star/55"
       >
         <Link href={`/${locale}`} className="transition-colors hover:text-cosmos-star">
