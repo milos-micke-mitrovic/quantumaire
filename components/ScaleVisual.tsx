@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { formatMeters } from "@/lib/scale";
+import { useUnits } from "@/lib/units";
 import type { Stop } from "@/lib/types";
 
 interface ScaleVisualProps {
@@ -28,6 +29,7 @@ const MIN_SMALLER_R = 3.5; // never disappear
  */
 export function ScaleVisual({ a, b }: ScaleVisualProps) {
   const { t } = useI18n();
+  const { units } = useUnits();
 
   if (a.sizeMeters === null || b.sizeMeters === null) {
     return (
@@ -160,7 +162,7 @@ export function ScaleVisual({ a, b }: ScaleVisualProps) {
               {biggerName}
             </span>
             <span className="mt-0.5 block font-mono text-xs text-cosmos-plasma">
-              {formatMeters(bigger.sizeMeters, t)}
+              {formatMeters(bigger.sizeMeters, t, units)}
             </span>
           </span>
         </li>
@@ -177,7 +179,7 @@ export function ScaleVisual({ a, b }: ScaleVisualProps) {
               {smallerName}
             </span>
             <span className="mt-0.5 block font-mono text-xs text-cosmos-plasma">
-              {formatMeters(smaller.sizeMeters, t)}
+              {formatMeters(smaller.sizeMeters, t, units)}
             </span>
           </span>
         </li>

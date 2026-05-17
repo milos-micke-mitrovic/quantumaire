@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { formatMeters } from "@/lib/scale";
+import { useUnits } from "@/lib/units";
 import type { Stop } from "@/lib/types";
 
 interface InteractiveScaleProps {
@@ -23,6 +24,7 @@ interface InteractiveScaleProps {
  */
 export function InteractiveScale({ stops }: InteractiveScaleProps) {
   const { t, locale } = useI18n();
+  const { units } = useUnits();
 
   const sizedStops = useMemo(
     () =>
@@ -64,7 +66,7 @@ export function InteractiveScale({ stops }: InteractiveScaleProps) {
               {t("common.size")}
             </p>
             <p className="mt-1 font-mono text-sm text-cosmos-plasma">
-              {formatMeters(active.sizeMeters, t)}
+              {formatMeters(active.sizeMeters, t, units)}
             </p>
           </div>
           <Link
@@ -89,7 +91,7 @@ export function InteractiveScale({ stops }: InteractiveScaleProps) {
               type="button"
               onFocus={() => setActiveIdx(idx)}
               onClick={() => setActiveIdx(idx)}
-              aria-label={`${t(`${stop.i18nKey}.name`)} — ${formatMeters(stop.sizeMeters, t)}`}
+              aria-label={`${t(`${stop.i18nKey}.name`)} — ${formatMeters(stop.sizeMeters, t, units)}`}
               aria-pressed={isActive}
               style={{ left: `${pct}%` }}
               className="group/dot absolute top-1/2 -translate-x-1/2 -translate-y-1/2 p-1.5 focus:outline-none"

@@ -12,6 +12,11 @@
     "badge": "Pouzdanost",
     "size": "Veličina",
     "language": "Jezik",
+    "units": "Jedinice",
+    "unitMetric": "Metričke (km)",
+    "unitImperial": "Imperijalne (mi)",
+    "unitMetricShort": "km",
+    "unitImperialShort": "mi",
     "openStop": "Otvori stanicu",
     "returnHome": "Nazad na putovanje",
     "moreSoon": "Još za istražiti",
@@ -265,18 +270,21 @@
     },
     "dna": {
       "name": "DNK",
-      "tagline": "Knjiga uputstava za život duga 2 nanometra.",
-      "body": "DNK je uvijene merdevine čije prečke ispisuju recept za čitav organizam. Oko dva metra DNK su uvijena u skoro svaku ćeliju vašeg tela. Čitanje tih uputstava je toliko pouzdano da DNK iz jedne dlake može identifikovati osobu decenijama kasnije.",
+      "tagline": "Knjiga uputstava koja vas pravi — i većinu svega živog.",
+      "body": "DNK je knjiga uputstava koju vaše telo koristi da napravi vas. Svaka ćelija nosi istu kompletnu kopiju — boju očiju, visinu, šansu da naslediš očeve alergije — sve ispisano u nekih dva metra DNK uvijenih u toj jednoj ćeliji. Čitanje tih uputstava je toliko pouzdano da jedna dlaka, marka olizana pre decenija ili pikavac ostavljen na mestu zločina mogu tačno identifikovati osobu od koje potiču — zbog čega je DNK rešila slučajeve koje je policija digla ruke od njih i četrdeset godina ranije.",
       "narrative": "Da je jedan DNK lanac debljine ljudske vlasi, virus pored njega bio bi veličine malog dugmeta u vašem dlanu.",
-      "funFact": "Da odmotate svu DNK iz jednog ljudskog tela, protezala bi se od Zemlje do Sunca i nazad nekoliko stotina puta.",
+      "massNarrative": "DNK jedne ćelije teži oko šest biliontih delova grama, a ipak kodira čitavu osobu. Ukupna DNK iz vaših približno trideset biliona ćelija zajedno teži manje od pola kilograma.",
+      "funFact": "Vi i šimpanza delite oko 98,8% DNK. Vi i banana delite oko 60%. A bilo koja dva nesrodna čoveka na planeti — stranci, komšije, bilo ko — su 99,9% genetski identični. Sve ono što zovete 'razlike među ljudima' ispisano je u manje od desetine jednog procenta vašeg genoma.",
       "image": {
         "alt": "Sjajna dvostruka spirala DNK koja klizi kroz ćelijski prostor."
       },
       "facts": {
-        "fact1": "Oko 2 metra DNK uvijena u svaku ćeliju.",
-        "fact2": "Četiri baze: adenin, timin, citozin, guanin.",
-        "fact3": "Ljudski genom — oko 3,1 milijarde baznih parova.",
-        "fact4": "Dvostruku spiralu su odgonetnuli Vatson, Krik, Frenklin i Vilkins 1953. godine."
+        "fact1": "Jednojajčani blizanci imaju praktično identičnu DNK — ali ne i otiske prstiju, koji se slučajno formiraju još u materici.",
+        "fact2": "Većina Evropljana i Azijata nosi oko 1–2% neandertalske DNK, nasleđene od ukrštanja pre oko 50.000 godina.",
+        "fact3": "Vaše telo svakog dana popravlja hiljade grešaka u DNK svake ćelije. Većina karcinoma počinje kada jedna nepopravljena greška prođe nezapaženo.",
+        "fact4": "Mitohondrijalna DNK prelazi isključivo sa majke na dete — direktnu majčinsku liniju možete pratiti oko 150.000 godina unazad do jedne žene u Africi, prozvane 'Mitohondrijalna Eva'.",
+        "fact5": "Oko dva metra DNK uvijeno je u skoro svaku ćeliju vašeg tela — spakovano toliko gusto da je lanac iz jedne ćelije, kada se složi, kraći od virusa.",
+        "fact6": "Dvostruka spirala razrešena je 1953. godine. Fotografija X-zraka koju je snimila Rozalind Frenklin (Photo 51) bila je ključan dokaz — ali ona je umrla pre nego što je 1962. dodeljena Nobelova nagrada za to otkriće."
       }
     },
     "mpd": {
@@ -334,7 +342,7 @@
       "body": "Kada se masivna zvezda urušava, njeno jezgro može biti zgnječeno tako da se protoni i elektroni stope u čiste neutrone. Rezultat je oko 20 km u prečniku ali teži više od Sunca. Rotirajuća namagnetisana neutronska zvezda zove se pulsar — njeni svetioničarski snopovi prelaze preko Zemlje sa preciznošću atomskog časovnika.",
       "narrative": "Neutronska zvezda je otprilike prečnika jednog grada — a ipak sadrži više mase od čitavog Sunca u tom prostoru.",
       "massNarrative": "Jedna kocka šećera od neutronske materije težila bi više od svih ljudi na Zemlji zajedno.",
-      "funFact": "Nedavno formirana neutronska zvezda ima površinsku temperaturu blizu 600.000 K — više od 100 puta toplije od površine Sunca. Većina te toplote zrači kao rendgenski zraci koje naše oči ne mogu da vide.",
+      "funFact": "Nedavno formirana neutronska zvezda ima površinsku temperaturu blizu 600.000 K (oko 600.000 °C — na zvezdanim temperaturama dve skale daju praktično isti broj), više od 100 puta toplije od površine Sunca. Većina te toplote zrači kao rendgenski zraci koje naše oči ne mogu da vide.",
       "image": {
         "alt": "Pulsar — rotirajuća neutronska zvezda sa dva mlaza zračenja."
       },
@@ -358,7 +366,7 @@
       "facts": {
         "fact1": "Svake sekunde pretvara 600 miliona tona vodonika u helijum.",
         "fact2": "Sunčevoj svetlosti treba 8 minuta 20 sekundi da dođe do Zemlje.",
-        "fact3": "Površinska temperatura 5.772 K; jezgro oko 15,7 miliona K.",
+        "fact3": "Površinska temperatura 5.772 K (≈ 5.500 °C); jezgro oko 15,7 miliona K (≈ 15,7 miliona °C — iznad nekoliko hiljada stepeni dve skale su praktično identične).",
         "fact4": "Zvezda glavnog niza je oko 4,6 milijardi godina."
       }
     },
@@ -712,7 +720,7 @@
       "facts": {
         "fact1": "Oko 4,24 svetlosne godine daleko — otprilike 40 biliona km.",
         "fact2": "Prečnik oko 214.000 km — oko 15% Sunčevog.",
-        "fact3": "Crvena patuljasta zvezda, sa površinskom temperaturom oko 3.000 K.",
+        "fact3": "Crvena patuljasta zvezda, sa površinskom temperaturom oko 3.000 K (≈ 2.700 °C).",
         "fact4": "Ima bar dve poznate planete, uključujući Proksimu b u habitabilnoj zoni."
       }
     }
@@ -746,7 +754,7 @@
       "tagline": "Nuklearne peći svemira.",
       "intro": "Zvezda je lopta plazme koju drži na okupu sopstvena gravitacija, dovoljno vrela i gusta u jezgru da spaja lakša atomska jezgra u teža — i da oslobađa energiju koja sprečava ostatak da kolapsira. Zvezde dolaze u ogromnom rasponu boja, veličina i temperatura, ali sve rade istu suštinsku stvar: gore.",
       "section1Heading": "Boje, temperature i OBAFGKM skala",
-      "section1Body": "Astronomi klasifikuju zvezde po površinskoj temperaturi, od O (najtoplije, najsjajnije plave zvezde) preko B, A, F, G, K, do M (najhladniji crveni patuljci). Mnemonika \"Oh Be A Fine Girl/Guy, Kiss Me\" starija je od radija. O-zvezde prelaze 30.000 K i retke su i blistave. B-zvezde su 10.000–30.000 K, plave. A-zvezde (7.500–10.000 K, bele) obuhvataju Sirijus. F-zvezde su žuto-bele. G-zvezde (5.200–6.000 K, žute) uključuju naše Sunce. K-zvezde su narandžaste. M-zvezde (ispod 3.700 K, crvene) najčešći su tip u galaksiji.",
+      "section1Body": "Astronomi klasifikuju zvezde po površinskoj temperaturi, od O (najtoplije, najsjajnije plave zvezde) preko B, A, F, G, K, do M (najhladniji crveni patuljci). Mnemonika \"Oh Be A Fine Girl/Guy, Kiss Me\" starija je od radija. (Temperature ispod su u kelvinima. Za konverziju u Celzijuse, oduzmite 273 — na zvezdanim razmerama razlika je zanemarljiva.) O-zvezde prelaze 30.000 K (≈ 30.000 °C) i retke su i blistave. B-zvezde su 10.000–30.000 K, plave. A-zvezde (7.500–10.000 K, bele) obuhvataju Sirijus. F-zvezde su žuto-bele. G-zvezde (5.200–6.000 K, ≈ 5.000–5.700 °C, žute) uključuju naše Sunce. K-zvezde su narandžaste. M-zvezde (ispod 3.700 K, ≈ ispod 3.400 °C, crvene) najčešći su tip u galaksiji.",
       "section2Heading": "I veličina je bitna",
       "section2Body": "Druga klasifikacija ide od patuljaka do hipergiganta. Beli patuljci su zvezdani leševi manji od Zemlje. Smeđi patuljci su između velikih planeta i malih zvezda. Zvezde glavnog niza poput Sunca su u sredini. Crveni džinovi i supergiganti se naduvavaju starenjem. Hipergiganti poput UY Scuti i Stephenson 2-18 toliko su naduveni da bi se njihova površina, postavljena na mestu Sunca, protezala iza Jupitera — ali su i među zvezdama najkraćeg veka u galaksiji.",
       "section3Heading": "Kako se zvezda rađa",
@@ -754,7 +762,7 @@
       "section4Heading": "Kako zvezda umire",
       "section4Body": "Šta zvezda postaje kada umre zavisi od toga koliko je bila masivna. Zvezde veličine Sunca naduvaju se u crvene džinove, zbace spoljne slojeve i ostave belog patuljka koji se polako hladi. Veće zvezde — 8 do 25 solarnih masa — eksplodiraju kao supernove, dok im jezgra kolapsiraju u neutronske zvezde. Zaista masivne zvezde (iznad oko 25 solarnih masa) preskaču čak i to — njihova jezgra kolapsiraju direktno u crne rupe zvezdane mase. Crne rupe su, u tom smislu, grobnice najmasivnijih zvezda.",
       "section5Heading": "Brojke i ekstremi",
-      "section5Body": "Procenjuje se da samo u Mlečnom putu ima 200 milijardi zvezda, a u vidljivom svemiru oko 2 biliona galaksija. Najmanje poznate zvezde tek su nešto veće od Jupitera. Najveće, poput UY Scuti, protezale bi se iza Jupiterove orbite kada bi bile na mestu Sunca. Najtoplije zvezde prelaze 200.000 K na površini; najhladniji crveni patuljci su oko 2.300 K — hladniji od unutrašnjosti kovačnice."
+      "section5Body": "Procenjuje se da samo u Mlečnom putu ima 200 milijardi zvezda, a u vidljivom svemiru oko 2 biliona galaksija. Najmanje poznate zvezde tek su nešto veće od Jupitera. Najveće, poput UY Scuti, protezale bi se iza Jupiterove orbite kada bi bile na mestu Sunca. Najtoplije zvezde prelaze 200.000 K (≈ 200.000 °C) na površini; najhladniji crveni patuljci su oko 2.300 K (≈ 2.000 °C) — hladniji od unutrašnjosti kovačnice."
     },
     "planets": {
       "title": "Planete",

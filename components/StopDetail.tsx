@@ -7,6 +7,7 @@ import type { Stop } from "@/lib/types";
 import { useI18n } from "@/lib/i18n";
 import { categorySlug } from "@/lib/content";
 import { formatMeters } from "@/lib/scale";
+import { useUnits } from "@/lib/units";
 import { useMarkVisited } from "@/lib/visited";
 import { Badge } from "./Badge";
 import { ComparisonStrip } from "./ComparisonStrip";
@@ -32,6 +33,7 @@ interface StopDetailProps {
 
 export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
   const { t, locale } = useI18n();
+  const { units } = useUnits();
   useMarkVisited(stop.id);
 
   return (
@@ -100,7 +102,7 @@ export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
               </span>
               <span className="rounded-full bg-white/[0.04] px-3 py-1 text-[10px] font-medium uppercase tracking-[0.18em] text-cosmos-star/70">
                 {stop.sizeMeters !== null
-                  ? formatMeters(stop.sizeMeters, t)
+                  ? formatMeters(stop.sizeMeters, t, units)
                   : t("common.abstract")}
               </span>
               <span className="rounded-full bg-white/[0.04] px-3 py-1 text-[10px] font-medium uppercase tracking-[0.18em] text-cosmos-star/55">
@@ -222,26 +224,24 @@ export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
         {prev ? (
           <Link
             href={`/${locale}/stop/${prev.id}`}
-            className="group flex items-center justify-between gap-4 rounded-2xl border border-white/10 bg-white/[0.03] p-4 transition-colors hover:border-white/20"
+            className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-left transition-colors hover:border-white/20"
           >
-            <span className="flex items-center gap-3 text-left">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                className="h-4 w-4 text-cosmos-star/60 transition-transform group-hover:-translate-x-0.5"
-                aria-hidden
-              >
-                <path d="M15 6l-6 6 6 6" strokeLinecap="round" />
-              </svg>
-              <span>
-                <span className="block text-[10px] uppercase tracking-[0.22em] text-cosmos-star/55">
-                  {t("common.prev")}
-                </span>
-                <span className="mt-1 block font-display text-sm text-cosmos-star">
-                  {t(`${prev.i18nKey}.name`)}
-                </span>
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              className="h-4 w-4 shrink-0 text-cosmos-star/60 transition-transform group-hover:-translate-x-0.5"
+              aria-hidden
+            >
+              <path d="M15 6l-6 6 6 6" strokeLinecap="round" />
+            </svg>
+            <span className="min-w-0 flex-1">
+              <span className="block text-[10px] uppercase tracking-[0.22em] text-cosmos-star/55">
+                {t("common.prev")}
+              </span>
+              <span className="mt-1 block truncate font-display text-sm text-cosmos-star">
+                {t(`${prev.i18nKey}.name`)}
               </span>
             </span>
           </Link>
@@ -252,13 +252,13 @@ export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
         {next ? (
           <Link
             href={`/${locale}/stop/${next.id}`}
-            className="group flex items-center justify-between gap-4 rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-right transition-colors hover:border-white/20"
+            className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-right transition-colors hover:border-white/20"
           >
-            <span className="block">
+            <span className="min-w-0 flex-1">
               <span className="block text-[10px] uppercase tracking-[0.22em] text-cosmos-star/55">
                 {t("common.next")}
               </span>
-              <span className="mt-1 block font-display text-sm text-cosmos-star">
+              <span className="mt-1 block truncate font-display text-sm text-cosmos-star">
                 {t(`${next.i18nKey}.name`)}
               </span>
             </span>
@@ -267,7 +267,7 @@ export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
               fill="none"
               stroke="currentColor"
               strokeWidth="2"
-              className="h-4 w-4 text-cosmos-star/60 transition-transform group-hover:translate-x-0.5"
+              className="h-4 w-4 shrink-0 text-cosmos-star/60 transition-transform group-hover:translate-x-0.5"
               aria-hidden
             >
               <path d="M9 6l6 6-6 6" strokeLinecap="round" />

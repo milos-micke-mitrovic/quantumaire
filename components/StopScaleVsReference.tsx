@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { getReference, pickReference } from "@/lib/references";
 import { formatMeters } from "@/lib/scale";
+import { useUnits } from "@/lib/units";
 import type { Stop } from "@/lib/types";
 
 interface StopScaleVsReferenceProps {
@@ -27,6 +28,7 @@ const MIN_DOT_R = 3;
  */
 export function StopScaleVsReference({ stop }: StopScaleVsReferenceProps) {
   const { t } = useI18n();
+  const { units } = useUnits();
   if (stop.sizeMeters === null || stop.sizeMeters <= 0) return null;
 
   // Honour the stop's explicit reference choice when set, otherwise
@@ -50,6 +52,12 @@ export function StopScaleVsReference({ stop }: StopScaleVsReferenceProps) {
   // If we can't draw this honestly, don't draw it at all — the narrative
   // beneath already conveys the scale. Skip the whole panel.
   if (!isToScale) return null;
+
+  // If the auto-picked reference is essentially the same size as the stop
+  // itself (e.g. the Sun stop vs the "sun" reference, or the Earth stop vs
+  // the "earthDiameter" reference) the panel would show the same name and
+  // number twice. Skip it — the data is true, but the comparison is empty.
+  if (sameSize) return null;
 
   const dotR = Math.max(MIN_DOT_R, trueDotR);
 
@@ -122,7 +130,7 @@ export function StopScaleVsReference({ stop }: StopScaleVsReferenceProps) {
                 {stopIsBigger ? stopName : refName}
               </span>
               <span className="block font-mono text-[11px] text-cosmos-plasma">
-                {formatMeters(stopIsBigger ? stopSize : refSize, t)}
+                {formatMeters(stopIsBigger ? stopSize : refSize, t, units)}
               </span>
             </span>
           </li>
@@ -136,7 +144,7 @@ export function StopScaleVsReference({ stop }: StopScaleVsReferenceProps) {
                 {stopIsBigger ? refName : stopName}
               </span>
               <span className="block font-mono text-[11px] text-cosmos-plasma">
-                {formatMeters(stopIsBigger ? refSize : stopSize, t)}
+                {formatMeters(stopIsBigger ? refSize : stopSize, t, units)}
               </span>
             </span>
           </li>

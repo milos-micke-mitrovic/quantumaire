@@ -15,6 +15,7 @@ import { useI18n } from "@/lib/i18n";
 import { STOPS, categorySlug } from "@/lib/content";
 import type { Stop } from "@/lib/types";
 import { formatMeters } from "@/lib/scale";
+import { useUnits } from "@/lib/units";
 
 function normalize(s: string): string {
   return s.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
@@ -41,6 +42,7 @@ function scoreStop(item: IndexedStop, q: string): number {
 function SearchDialog({ onClose }: { onClose: () => void }) {
   const router = useRouter();
   const { t, locale } = useI18n();
+  const { units } = useUnits();
   const [query, setQuery] = useState("");
   const [activeIndex, setActiveIndex] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -220,7 +222,7 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
                         </button>
                         <span className="font-mono">
                           {item.stop.sizeMeters !== null
-                            ? formatMeters(item.stop.sizeMeters, t)
+                            ? formatMeters(item.stop.sizeMeters, t, units)
                             : t("common.abstract")}
                         </span>
                       </span>

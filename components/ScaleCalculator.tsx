@@ -6,6 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { STOPS } from "@/lib/content";
 import { formatMeters } from "@/lib/scale";
+import { useUnits } from "@/lib/units";
 import { describePosition } from "@/lib/references";
 
 interface Unit {
@@ -43,6 +44,7 @@ function nearestStop(meters: number) {
 
 export function ScaleCalculator() {
   const { t, locale } = useI18n();
+  const { units } = useUnits();
   const [raw, setRaw] = useState("1.7");
   const [unitIdx, setUnitIdx] = useState(6); // "m"
 
@@ -161,7 +163,7 @@ export function ScaleCalculator() {
             {t("common.scaleTool.yourValue")}
           </p>
           <p className="mt-2 font-mono text-2xl text-cosmos-star">
-            {formatMeters(meters, t)}
+            {formatMeters(meters, t, units)}
           </p>
         </div>
         <div className="rounded-2xl border border-white/10 bg-white/[0.025] p-5">
@@ -210,7 +212,7 @@ export function ScaleCalculator() {
               </div>
               <span className="font-mono text-sm text-cosmos-plasma">
                 {near.sizeMeters !== null
-                  ? formatMeters(near.sizeMeters, t)
+                  ? formatMeters(near.sizeMeters, t, units)
                   : t("common.abstract")}
               </span>
             </motion.div>

@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { STOPS, getStop } from "@/lib/content";
 import { formatMeters } from "@/lib/scale";
+import { useUnits } from "@/lib/units";
 import { formatFactor } from "@/lib/references";
 import type { Stop } from "@/lib/types";
 import { Badge } from "./Badge";
@@ -31,6 +32,7 @@ const COMPARABLE_STOPS = STOPS.filter(
 
 function StopPicker({ label, selectedId, onChange }: PickerProps) {
   const { t } = useI18n();
+  const { units } = useUnits();
   return (
     <label className="block">
       <span className="block text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
@@ -45,7 +47,7 @@ function StopPicker({ label, selectedId, onChange }: PickerProps) {
           {COMPARABLE_STOPS.map((s) => (
             <option key={s.id} value={s.id}>
               {t(`${s.i18nKey}.name`)}
-              {s.sizeMeters !== null ? ` · ${formatMeters(s.sizeMeters, t)}` : ""}
+              {s.sizeMeters !== null ? ` · ${formatMeters(s.sizeMeters, t, units)}` : ""}
             </option>
           ))}
         </select>
@@ -73,6 +75,7 @@ interface CompareCardProps {
 
 function CompareCard({ stop, label }: CompareCardProps) {
   const { t, locale } = useI18n();
+  const { units } = useUnits();
   return (
     <Link
       href={`/${locale}/stop/${stop.id}`}
@@ -88,7 +91,7 @@ function CompareCard({ stop, label }: CompareCardProps) {
         <span>{label}</span>
         <span>
           {stop.sizeMeters !== null
-            ? formatMeters(stop.sizeMeters, t)
+            ? formatMeters(stop.sizeMeters, t, units)
             : t("common.abstract")}
         </span>
       </div>

@@ -6,6 +6,7 @@ import { useMemo, useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { STOPS } from "@/lib/content";
 import { formatMeters } from "@/lib/scale";
+import { useUnits } from "@/lib/units";
 import type { Stop } from "@/lib/types";
 
 /**
@@ -25,6 +26,7 @@ type DistanceItem = {
 
 export function DistanceScale() {
   const { t, locale } = useI18n();
+  const { units } = useUnits();
 
   const items = useMemo<DistanceItem[]>(() => {
     const distant = STOPS.filter(
@@ -46,7 +48,7 @@ export function DistanceScale() {
   const lastIdx = items.length - 1;
   const activeDistanceLabel = active.isOrigin
     ? t("common.here")
-    : formatMeters(active.stop.distanceFromEarthMeters as number, t);
+    : formatMeters(active.stop.distanceFromEarthMeters as number, t, units);
   const activeName = t(
     active.stop.distanceNameKey ?? `${active.stop.i18nKey}.name`
   );
@@ -95,7 +97,7 @@ export function DistanceScale() {
           const isActive = idx === activeIdx;
           const distanceForLabel = item.isOrigin
             ? t("common.here")
-            : formatMeters(item.stop.distanceFromEarthMeters as number, t);
+            : formatMeters(item.stop.distanceFromEarthMeters as number, t, units);
           const itemName = t(
             item.stop.distanceNameKey ?? `${item.stop.i18nKey}.name`
           );

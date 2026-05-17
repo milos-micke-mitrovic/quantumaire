@@ -7,6 +7,7 @@ import type { Stop } from "@/lib/types";
 import { useI18n } from "@/lib/i18n";
 import { categorySlug } from "@/lib/content";
 import { formatMeters } from "@/lib/scale";
+import { useUnits } from "@/lib/units";
 import { useVisited } from "@/lib/visited";
 import { Badge } from "./Badge";
 import { ImagePlaceholder } from "./ImagePlaceholder";
@@ -18,6 +19,7 @@ interface StopCardProps {
 
 export function StopCard({ stop, index }: StopCardProps) {
   const { t, locale } = useI18n();
+  const { units } = useUnits();
   const { visited } = useVisited();
   const isVisited = visited.has(stop.id);
 
@@ -68,14 +70,14 @@ export function StopCard({ stop, index }: StopCardProps) {
           <span className="text-right">
             <span className="block">
               {stop.sizeMeters !== null
-                ? formatMeters(stop.sizeMeters, t)
+                ? formatMeters(stop.sizeMeters, t, units)
                 : t("common.abstract")}
             </span>
             {stop.distanceFromEarthMeters !== undefined &&
               stop.distanceFromEarthMeters > 0 && (
                 <span className="mt-0.5 block text-cosmos-star/40">
                   {t("common.awayFromEarth", {
-                    value: formatMeters(stop.distanceFromEarthMeters, t),
+                    value: formatMeters(stop.distanceFromEarthMeters, t, units),
                   })}
                 </span>
               )}

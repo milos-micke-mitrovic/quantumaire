@@ -5,6 +5,7 @@ import { useI18n } from "@/lib/i18n";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { NavMenu } from "./NavMenu";
 import { Search } from "./Search";
+import { UnitSwitcher } from "./UnitSwitcher";
 
 export function SiteHeader() {
   const { t, locale } = useI18n();
@@ -33,6 +34,7 @@ export function SiteHeader() {
         <div className="flex items-center gap-2 sm:gap-3">
           <Search />
           <NavMenu />
+          <UnitSwitcher />
           <LanguageSwitcher />
         </div>
       </div>

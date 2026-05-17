@@ -2,6 +2,7 @@
 
 import { useI18n } from "@/lib/i18n";
 import { formatMeters } from "@/lib/scale";
+import { useUnits } from "@/lib/units";
 
 interface ComparisonStripProps {
   /** Real-world meters of the stop, or null if abstract. */
@@ -23,6 +24,7 @@ export function ComparisonStrip({
   i18nKey,
 }: ComparisonStripProps) {
   const { t } = useI18n();
+  const { units } = useUnits();
   const narrativeKey = `${i18nKey}.narrative`;
   const narrative = t(narrativeKey);
   const hasNarrative = narrative !== narrativeKey;
@@ -50,7 +52,7 @@ export function ComparisonStrip({
       </div>
       {sizeMeters !== null && (
         <span className="mt-1 font-mono text-xs text-cosmos-plasma">
-          {formatMeters(sizeMeters, t)}
+          {formatMeters(sizeMeters, t, units)}
         </span>
       )}
     </div>
