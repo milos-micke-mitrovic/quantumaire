@@ -96,7 +96,7 @@ export function MobileNav() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.14 }}
             onClick={close}
-            className="fixed inset-0 z-50 bg-cosmos-void/85 backdrop-blur-sm"
+            className="fixed inset-0 z-50 bg-cosmos-void/90 backdrop-blur-md"
           >
             <motion.div
               initial={{ x: "100%" }}
@@ -104,7 +104,7 @@ export function MobileNav() {
               exit={{ x: "100%" }}
               transition={{ type: "tween", duration: 0.22, ease: "easeOut" }}
               onClick={(e) => e.stopPropagation()}
-              className="absolute right-0 top-0 flex h-full w-[min(86vw,340px)] flex-col border-l border-white/10 bg-cosmos-deep/95 shadow-glow"
+              className="absolute right-0 top-0 flex h-full w-[min(86vw,340px)] flex-col border-l border-white/10 bg-cosmos-void shadow-glow"
             >
               <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">
                 <span className="font-display text-sm font-semibold uppercase tracking-[0.22em] text-cosmos-star/70">
