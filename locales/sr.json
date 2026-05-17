@@ -24,10 +24,25 @@
     "scaleLegend": "Dodirni tačku da je pregledaš. Klikni na link Otvori stanicu za celu stranicu. Stanice su poređane od najmanjih levo ka najvećim desno.",
     "awayFromEarth": "{value} od Zemlje",
     "distance": "Udaljenost",
-    "distanceFromEarth": "Od Zemlje",
+    "distanceFromEarth": "Udaljenost od Zemlje",
+    "temperature": "Temperatura",
+    "temperatureShort": "Temp",
+    "distanceShort": "Udalj.",
+    "distanceCompare": {
+      "farther": "{stop} je otprilike {factor}× dalje od Zemlje nego {reference}.",
+      "closer": "{stop} je otprilike {factor}× bliže Zemlji nego {reference}.",
+      "fartherLabel": "dalje od Zemlje",
+      "closerLabel": "bliže Zemlji"
+    },
     "distanceLegend": "Dodirni tačku da je pregledaš. Klikni na link Otvori stanicu za celu stranicu. Stanice su poređane od Zemlje levo, ka ivici vidljivog svemira desno.",
     "viewBySize": "Po veličini",
     "viewByDistance": "Po udaljenosti",
+    "viewByTemperature": "Po temperaturi",
+    "temperatureLegend": "Dodirni tačku da je pregledaš. Klikni na link Otvori stanicu za celu stranicu. Stanice su poređane od najhladnijih levo ka najtoplijim desno.",
+    "journeyMinimap": {
+      "heading": "Gde se ova stanica nalazi na svakom putovanju",
+      "youAreHere": "Vi ste ovde"
+    },
     "abstract": "apstraktno",
     "footer": "Stvoreno sa radoznalošću. Označeno radi iskrenosti.",
     "glossary": "Rečnik pojmova",
@@ -137,7 +152,19 @@
       "visualHeading": "Vizuelno poređenje",
       "drawnToScale": "Prikazano u pravoj razmeri.",
       "tooExtreme": "Razlika u veličini je previše ekstremna da bi se iskreno prikazala. Brojevi ispod govore celu priču.",
-      "needsBothSized": "Za vizuelno poređenje su potrebne dve konkretne veličine."
+      "needsBothSized": "Za vizuelno poređenje su potrebne dve konkretne veličine.",
+      "modeLabel": "Uporedi po",
+      "modeSize": "Veličini",
+      "modeDistance": "Udaljenosti od Zemlje",
+      "modeTemperature": "Temperaturi",
+      "timesAsFar": "{b} je {factor}× dalje od Zemlje od {a}",
+      "timesCloser": "{b} je {factor}× bliže Zemlji od {a}",
+      "sameDistance": "{a} i {b} su na istoj udaljenosti od Zemlje.",
+      "timesHotter": "{b} je {factor}× toplije od {a}",
+      "timesColder": "{b} je {factor}× hladnije od {a}",
+      "sameTemperature": "{a} i {b} su na istoj temperaturi.",
+      "noData": "Jedna strana nema podatke za ovo poređenje.",
+      "notEnoughStops": "Premalo stanica ima ovaj podatak — probaj drugi režim poređenja."
     }
   },
   "home": {
@@ -195,6 +222,7 @@
     "abstract": "Ideja, ne stvar — nema mereljivu veličinu.",
     "comparedTo": "U poređenju sa",
     "pictureThis": "Zamislite ovo",
+    "ifDistance": "Ako uskladiš razmeru udaljenosti",
     "byWeight": "Po težini",
     "realScale": "Prava razmera",
     "didYouKnow": "Da li ste znali?",
@@ -218,6 +246,46 @@
     "sun": "Sunca",
     "au": "Zemljine orbite",
     "lightYear": "svetlosne godine"
+  },
+  "referenceLabels": {
+    "hair": "Ljudska vlas",
+    "grainOfSand": "Zrno peska",
+    "coin": "Novčić",
+    "person": "Odrastao čovek",
+    "footballPitch": "Fudbalsko igralište",
+    "eiffelTower": "Ajfelov toranj",
+    "everest": "Mont Everest",
+    "earthDiameter": "Zemlja",
+    "moonDistance": "Mesec",
+    "sun": "Sunce",
+    "au": "Sunce",
+    "lightYear": "Svetlosna godina"
+  },
+  "tags": {
+    "particle": "Čestica",
+    "matter": "Materija",
+    "biology": "Biologija",
+    "microbe": "Mikrob",
+    "pathogen": "Patogen",
+    "psychology": "Psihologija",
+    "ancient": "Drevno",
+    "planet": "Planeta",
+    "gas-giant": "Gasoviti džin",
+    "satellite": "Satelit",
+    "star": "Zvezda",
+    "red-dwarf": "Crveni patuljak",
+    "hypergiant": "Hipergigant",
+    "stellar-remnant": "Zvezdani ostatak",
+    "black-hole": "Crna rupa",
+    "quasar": "Kvazar",
+    "star-system": "Zvezdani sistem",
+    "galaxy": "Galaksija",
+    "galaxy-cluster": "Galaktičko jato",
+    "supercluster": "Superjato",
+    "spacecraft": "Svemirska letelica",
+    "unit": "Jedinica rastojanja",
+    "phenomenon": "Fenomen",
+    "cosmos": "Kosmos"
   },
   "stops": {
     "quark": {
@@ -358,6 +426,7 @@
       "tagline": "Samoodrživi fuzioni motor u srcu našeg sistema.",
       "body": "Sunce svake sekunde pretvara 600 miliona tona vodonika u helijum. Svetlost koja vas sada dostiže putovala je 8 minuta kroz prazninu — ali joj je trebalo oko 100.000 godina da se probije iz gustog jezgra Sunca. Svaki atom u vašem telu teži od helijuma kovan je u zvezdi poput ove.",
       "narrative": "Da je Sunce košarkaška lopta, Zemlja bi bila zrno bibera 26 metara dalje — a Pluton bi bio čestica prašine udaljena oko kilometar.",
+      "ifDistance": "Sunčevoj svetlosti treba 8 minuta i 20 sekundi da stigne do Zemlje. Brzinom putničkog aviona, put bi trajao 19 godina. Ako tih 150 miliona kilometara svedeš na jedan metar, sama Zemlja bi se svela na manje od desetinke milimetra — nevidljivu golim okom.",
       "massNarrative": "Sunce sadrži 99,86% sve mase u našem Sunčevom sistemu. Sve planete, meseci, asteroidi i komete zajedno su prah u poređenju.",
       "funFact": "Naše Sunce je savršeno prosečna žuta patuljasta zvezda. Najveći crveni hipergiganti poput UY Scuti su preko hiljadu puta širi, a najsjajniji plavi supergiganti zrače svetlošću miliona Sunaca.",
       "image": {
@@ -373,8 +442,9 @@
     "uy_scuti": {
       "name": "UY Scuti",
       "tagline": "Kada bi zamenila Sunce, progutala bi Jupiter.",
-      "body": "UY Scuti je crveni hipergigant čiji bi se poluprečnik protezao iza orbite Jupitera. Uprkos veličini, mekana je i hladna — njene konvektivne ćelije veće su od čitavih planetarnih sistema. Zvezde ovako masivne ne traju dugo; UY Scuti će se na kraju srušiti u blistavu supernovu.",
-      "narrative": "Da je UY Scuti na mestu našeg Sunca, njena površina bi se protezala iza Jupitera — gutajući Merkur, Veneru, Zemlju, Mars i asteroidni pojas.",
+      "body": "UY Scuti je crveni hipergigant toliko naduven da su njegove konvektivne ćelije — pojedinačni mehurovi vrelog gasa koji izbijaju na površini — šire od čitavih planetarnih sistema. Spoljni slojevi su mu rjeđi od Zemljine atmosfere; mogli biste proleteti kroz njih u termo-otpornom brodu i jedva osetiti otpor. Zvezde ove mase ne traju dugo; UY Scuti će na kraju kolapsirati u blistavu supernovu.",
+      "narrative": "Hipergiganti poput UY Scuti žive trenutak po kosmičkim merilima — manje od deset miliona godina od rođenja do supernove. Naše Sunce, deset puta manje masivno, već je staro pet milijardi godina i tek je na pola puta.",
+      "ifDistance": "Svetlost koju večeras vidimo sa UY Scuti krenula je sa nje pre oko 9.500 godina — otprilike u vreme kada su ljudi prvi put počeli da gaje žito u Plodnom polumesecu. Svetlost koja danas kreće sa UY Scuti stići će do Zemlje tek kada generacije naših potomaka odu i dođu na svet.",
       "massNarrative": "Iako je stotinama puta šira od Sunca, UY Scuti teži tek oko deset Sunaca. Većina njene zapremine je skoro vakuum — ogroman balon koji drži pritisak, ne gustina.",
       "funFact": "Kada UY Scuti konačno bude eksplodirao kao supernova, na kratko će zasijati jače od čitavog Mlečnog puta zajedno.",
       "image": {
@@ -382,7 +452,7 @@
       },
       "facts": {
         "fact1": "Poluprečnik oko 1.700 × Sunčev — među najvećim poznatim.",
-        "fact2": "Da je na mestu Sunca, površina bi prošla Jupiterovu orbitu.",
+        "fact2": "Svetlosti treba oko dva sata da pređe UY Scuti od jedne strane do druge — duže nego da stigne od Sunca do orbite Saturna.",
         "fact3": "Sjaj varira za oko 1,4 magnitude tokom stotina dana.",
         "fact4": "Udaljena je oko 9.500 svetlosnih godina u sazvežđu Štit."
       }
@@ -526,6 +596,7 @@
       "tagline": "Naš najbliži veliki galaktički sused — i naš budući partner u sudaru.",
       "body": "Andromeda je spiralna galaksija udaljena oko 2,5 miliona svetlosnih godina — dovoljno blizu da se vidi golim okom u tamnoj noći, kao slaba mrlja u istoimenom sazvežđu. Sadrži oko bilion zvezda, više nego Mlečni put. Dve galaksije se kreću jedna ka drugoj brzinom od 110 km/s i na kraju će se spojiti u jednu eliptičnu galaksiju koju su astronomi nadimkom prozvali Milkomeda.",
       "narrative": "Andromeda već zauzima oko šest punih meseca na našem noćnom nebu — a njena svetlost je putovala 2,5 miliona godina do nas. Vidite je onakvu kakva je bila pre nego što su naši preci hodali uspravno.",
+      "ifDistance": "Da možeš da letiš do Andromede brzinom svetlosti, povratni put bi trajao pet miliona godina — duže nego što uopšte postoji ljudski rod. Spusti li se na brzinu najbrže letelice koju smo ikada napravili, putovanje se rasteže na oko dvadeset milijardi godina, duže od trenutne starosti svemira.",
       "massNarrative": "Andromeda verovatno teži više od Mlečnog puta, sa halo tamne materije koji sadrži nekoliko biliona solarnih masa nevidljive mase.",
       "funFact": "Andromeda je jedna od retkih galaksija koje se zaista kreću ka nama. Kosmičko širenje obično pobeđuje, ali ovde naša gravitaciona veza sa Andromedom je jača.",
       "image": {
@@ -625,6 +696,7 @@
       "tagline": "Najdalji objekat koji je čovek napravio — i još uvek se javlja.",
       "body": "Voyager 1 je lansiran sa Kejp Kanaverala u septembru 1977. u misiji da proleti pored Jupitera i Saturna. Četrdeset osam godina kasnije, još uvek radi — sada u međuzvezdanom prostoru, oko 165 astronomskih jedinica od Zemlje, šaljući slabu liniju podataka o česticama i magnetnim poljima oko sebe. Svakom signalu treba više od 22 sata da stigne do Zemlje brzinom svetlosti.",
       "narrative": "Voyager 1 je toliko daleko da radio komanda sa Zemlje treba skoro čitav dan da stigne do njega. Da je naš Sunčev sistem veličine košarkaškog terena, Voyager bi bio čestica prašine na samoj ivici.",
+      "ifDistance": "Radio signal sa Zemlje stiže do Voyager 1 za više od 22 sata — gotovo čitav dan pri brzini svetlosti. Da to rastojanje svedeš na dužinu fudbalskog terena (105 m), rastojanje Zemlja–Sunce u istoj razmeri bilo bi manje od jednog milimetra.",
       "image": {
         "alt": "Sonda Voyager 1 u kosmičkom vakuumu, sa antenom okrenutom ka udaljenoj Zemlji."
       },
@@ -670,7 +742,8 @@
         "fact1": "Pluton kruži oko 5,9 milijardi km od Sunca.",
         "fact2": "8 planeta, 5 patuljastih planeta, više od 200 poznatih meseca.",
         "fact3": "Voyager 1 putuje 48 godina i nalazi se oko 24 milijarde km dalje.",
-        "fact4": "Oortov oblak može se protezati do 100.000 AJ od Sunca."
+        "fact4": "Oortov oblak može se protezati do 100.000 AJ od Sunca.",
+        "fact5": "Sunce je uvek najbliže veliko telo Zemlji — čak i kada je Jupiter u najbližoj tački svoje orbite (oposiciji), on je više od četiri puta dalji od nas nego što je Sunce."
       }
     },
     "moon": {
@@ -678,6 +751,7 @@
       "tagline": "Jedini Zemljin prirodni satelit — zaključan za nas zauvek.",
       "body": "Mesec je peti po veličini satelit u Sunčevom sistemu i jedino mesto van Zemlje na kome su ljudi hodali. Plimski je vezan za Zemlju, pa nam je uvek okrenuta ista strana; daleku stranu prvi je fotografisala sovjetska sonda 1959. godine. Njegova površina je fosilni zapis surovog ranog Sunčevog sistema — svaki krater je priča koju je Zemlja odavno izbrisala erozijom i tektonikom.",
       "narrative": "Mesec se udaljava od Zemlje oko 3,8 cm godišnje — otprilike brzinom kojom rastu nokti. Pre nekoliko stotina miliona godina, potpuna pomračenja Sunca trajala su mnogo duže; za milijardu godina prestaće sasvim.",
+      "ifDistance": "Da možeš da voziš auto bez prekida na 100 km/h, do Meseca bi stizao oko 160 dana. Hodajući prosečnim ljudskim tempom, stigao bi za otprilike devet godina. Apolo astronauti su put prelazili za tri dana u svakom pravcu — i to je već više od pedeset godina ljudski rekord po udaljenosti.",
       "massNarrative": "Mesec teži oko 1/81 Zemlje — otprilike isti odnos kao teniska loptica prema odraslom čoveku. Po veličini u odnosu na matičnu planetu, on je najveći mesec u Sunčevom sistemu.",
       "funFact": "Apolo astronauti su na Mesecu ostavili ogledala. Laserski impulsi sa zemaljskih opservatorija i danas se odbijaju od njih i omogućavaju merenje rastojanja Zemlja–Mesec sa preciznošću od nekoliko milimetara.",
       "image": {
@@ -695,6 +769,7 @@
       "tagline": "Najveća planeta Sunčevog sistema — skoro promašena zvezda.",
       "body": "Jupiter je gasoviti gigant masivniji od svih ostalih planeta zajedno. Njegova atmosfera je burna okean vodonika i helijuma, obeležena pojasevima oluja i Velikom crvenom mrljom — anticiklonom dovoljno velikim da proguta Zemlju i da još ostane prostora. Ima i 95 potvrđenih meseca; četiri od njih, Galilejevi sateliti, bili su prvi objekti za koje je dokazano da kruže oko nečeg drugog osim Zemlje.",
       "narrative": "Jupiter je toliko masivan da ne kruži direktno oko Sunca — njih dvoje dele zajedničko težište, zvano baricentar, koje leži taman izvan površine Sunca. To je jedina planeta u našem sistemu kod koje je to slučaj.",
+      "ifDistance": "Jupiter je u proseku oko 5,2 puta dalji od Zemlje od Sunca. Da naš Sunčev sistem do Jupitera stane na košarkaški teren, Zemlja bi bila samo 5 metara od Sunca-košarkaške-lopte u centru — a Jupiter bi bio na suprotnoj ofsajd-liniji, 26 metara dalje.",
       "massNarrative": "Jupiter sadrži 2,5 puta više mase od svih ostalih planeta Sunčevog sistema zajedno. Drhtaj koji izaziva u Suncu najjači je pojedinačni planetarni signal u našem sistemu — i jedan je od standardnih načina na koji astronomi pronalaze planete veličine Jupitera oko drugih zvezda.",
       "funFact": "Da je Jupiter bio oko 80 puta masivniji, fuzija vodonika bi se upalila u njegovom jezgru i postao bi mala zvezda. Živeli bismo u binarnom zvezdanom sistemu umesto u planetarnom.",
       "image": {
@@ -712,6 +787,7 @@
       "tagline": "Najbliža poznata zvezda Suncu — i dalje nemoguće daleka.",
       "body": "Proksima Kentaur je mala, prigušena crvena patuljasta zvezda na oko 4,24 svetlosne godine od Zemlje. To je najbliža poznata zvezda Suncu, deo trostrukog sistema Alfa Kentaur. Bar dve planete potvrđeno kruže oko nje; jedna od njih — Proksima b — leži u habitabilnoj zoni gde bi tečna voda mogla postojati na površini. Caka je u tome što su crvene patuljaste zvezde izuzetno aktivne; Proksima redovno izbacuje baklje koje bi sa planete slične Zemlji zderale atmosferu.",
       "narrative": "Čak i brzinom svetlosti potrebno je 4,24 godine do Proksime Kentaura. Najbrža svemirska letelica koju su ljudi lansirali (Parker Solar Probe) putovala bi tamo više od 6.000 godina.",
+      "ifDistance": "Vožnjom bez prekida na sto kilometara na sat, put do Proksime Kentaur bi trajao oko 45 miliona godina — duže nego što uopšte postoji ljudski rod. Svetlost prelazi taj put za 4,24 godine, ali najbrža sonda koju smo ikada izgradili još bi joj trebalo šest hiljada.",
       "massNarrative": "Proksima Kentaur teži samo oko osminu Sunca. Crvene patuljaste zvezde te veličine vrše fuziju vodonika toliko sporo da će Proksima, u teoriji, sijati i za četiri biliona godina — dugo nakon što su sve zvezde slične Suncu izgorele.",
       "funFact": "Iako je naš najbliži zvezdani sused, Proksima je previše prigušena da bi se videla golim okom. Potreban je teleskop — iako je, kosmički gledano, praktično u komšiluku.",
       "image": {

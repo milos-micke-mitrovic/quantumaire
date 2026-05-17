@@ -6,11 +6,11 @@ import { motion } from "framer-motion";
 import type { Stop } from "@/lib/types";
 import { useI18n } from "@/lib/i18n";
 import { categorySlug } from "@/lib/content";
-import { formatMeters } from "@/lib/scale";
+import { formatMeters, formatTemperature } from "@/lib/scale";
 import { useUnits } from "@/lib/units";
 import { useVisited } from "@/lib/visited";
-import { Badge } from "./Badge";
 import { ImagePlaceholder } from "./ImagePlaceholder";
+import { StopTags } from "./StopTags";
 
 interface StopCardProps {
   stop: Stop;
@@ -67,20 +67,38 @@ export function StopCard({ stop, index }: StopCardProps) {
 
         <div className="flex items-start justify-between text-[10px] font-mono uppercase tracking-[0.18em] text-cosmos-star/55">
           <span>{String(index + 1).padStart(2, "0")}</span>
-          <span className="text-right">
-            <span className="block">
-              {stop.sizeMeters !== null
-                ? formatMeters(stop.sizeMeters, t, units)
-                : t("common.abstract")}
-            </span>
+          <span className="flex flex-col items-end gap-1 text-right">
+            {stop.sizeMeters !== null ? (
+              <span className="inline-flex items-baseline gap-2">
+                <span className="text-cosmos-star/45">{t("common.size")}</span>
+                <span className="text-cosmos-star/85">
+                  {formatMeters(stop.sizeMeters, t, units)}
+                </span>
+              </span>
+            ) : (
+              <span className="text-cosmos-star/55">{t("common.abstract")}</span>
+            )}
             {stop.distanceFromEarthMeters !== undefined &&
               stop.distanceFromEarthMeters > 0 && (
-                <span className="mt-0.5 block text-cosmos-star/40">
-                  {t("common.awayFromEarth", {
-                    value: formatMeters(stop.distanceFromEarthMeters, t, units),
-                  })}
+                <span className="inline-flex items-baseline gap-2">
+                  <span className="text-cosmos-star/45">
+                    {t("common.distanceShort")}
+                  </span>
+                  <span className="text-cosmos-star/85">
+                    {formatMeters(stop.distanceFromEarthMeters, t, units)}
+                  </span>
                 </span>
               )}
+            {stop.temperatureKelvin !== undefined && (
+              <span className="inline-flex items-baseline gap-2">
+                <span className="text-cosmos-star/45">
+                  {t("common.temperatureShort")}
+                </span>
+                <span className="text-cosmos-star/85">
+                  {formatTemperature(stop.temperatureKelvin)}
+                </span>
+              </span>
+            )}
           </span>
         </div>
 
@@ -97,8 +115,8 @@ export function StopCard({ stop, index }: StopCardProps) {
         </p>
       </Link>
 
-      <div className="relative mt-auto flex items-center justify-between pt-4">
-        <Badge type={stop.badge} withTooltip={false} />
+      <div className="relative mt-auto flex flex-wrap items-center justify-between gap-2 pt-4">
+        <StopTags tags={stop.tags} size="sm" />
         <Link
           href={`/${locale}/category/${categorySlug(stop.category)}`}
           className="rounded-full px-2 py-1 text-[11px] uppercase tracking-[0.18em] text-cosmos-star/55 transition-colors hover:bg-white/[0.06] hover:text-cosmos-star focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cosmos-aurora/60"

@@ -73,6 +73,11 @@ export function LightboxImage({
           </svg>
         </span>
       </button>
+      {image.credit && (
+        <p className="mt-1.5 text-[10px] leading-snug text-cosmos-star/45">
+          {image.credit}
+        </p>
+      )}
 
       <AnimatePresence>
         {open && (
@@ -118,6 +123,11 @@ export function LightboxImage({
               <p className="mt-3 text-center text-[11px] uppercase tracking-[0.22em] text-cosmos-star/55">
                 {alt}
               </p>
+              {image.credit && (
+                <p className="mt-1 text-center text-[10px] text-cosmos-star/45">
+                  {image.credit}
+                </p>
+              )}
             </motion.div>
           </motion.div>
         )}

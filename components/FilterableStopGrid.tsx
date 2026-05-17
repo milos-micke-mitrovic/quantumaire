@@ -3,7 +3,7 @@
 import clsx from "clsx";
 import { useMemo, useState } from "react";
 import { useI18n } from "@/lib/i18n";
-import type { Stop, TrustBadge } from "@/lib/types";
+import type { Stop } from "@/lib/types";
 import { StopCard } from "./StopCard";
 
 interface FilterableStopGridProps {
@@ -11,49 +11,35 @@ interface FilterableStopGridProps {
 }
 
 const ALL = "ALL" as const;
-type Filter = typeof ALL | TrustBadge;
+type Filter = typeof ALL | string;
 
-const FILTERS: Filter[] = [
-  ALL,
-  "FACT",
-  "ESTABLISHED_THEORY",
-  "PROBABLE_THEORY",
-  "SPECULATIVE",
-];
-
-const PILL_STYLES: Record<Filter, { active: string; idle: string }> = {
-  ALL: {
-    active: "bg-aurora-gradient text-cosmos-void shadow-glow",
-    idle: "text-cosmos-star/70 hover:text-cosmos-star",
-  },
-  FACT: {
-    active: "bg-badge-fact/20 text-badge-fact ring-1 ring-badge-fact/40",
-    idle: "text-cosmos-star/70 hover:text-cosmos-star",
-  },
-  ESTABLISHED_THEORY: {
-    active:
-      "bg-badge-established/20 text-badge-established ring-1 ring-badge-established/40",
-    idle: "text-cosmos-star/70 hover:text-cosmos-star",
-  },
-  PROBABLE_THEORY: {
-    active:
-      "bg-badge-probable/20 text-badge-probable ring-1 ring-badge-probable/40",
-    idle: "text-cosmos-star/70 hover:text-cosmos-star",
-  },
-  SPECULATIVE: {
-    active:
-      "bg-badge-speculative/20 text-badge-speculative ring-1 ring-badge-speculative/40",
-    idle: "text-cosmos-star/70 hover:text-cosmos-star",
-  },
-};
-
+/**
+ * Card grid with a chip row that filters by object-type tag (planet, star,
+ * black-hole, biology, …). The tag list is built from whatever tags
+ * actually appear on the visible stops, so the filter never shows a chip
+ * that would match zero results.
+ */
 export function FilterableStopGrid({ stops }: FilterableStopGridProps) {
   const { t } = useI18n();
   const [filter, setFilter] = useState<Filter>(ALL);
 
+  // Build the chip list from the stops in play, sorted by frequency so
+  // the most common tags surface first.
+  const availableTags = useMemo<string[]>(() => {
+    const counts = new Map<string, number>();
+    for (const s of stops) {
+      for (const tag of s.tags ?? []) {
+        counts.set(tag, (counts.get(tag) ?? 0) + 1);
+      }
+    }
+    return [...counts.entries()]
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .map(([id]) => id);
+  }, [stops]);
+
   const visible = useMemo(() => {
     if (filter === ALL) return stops;
-    return stops.filter((s) => s.badge === filter);
+    return stops.filter((s) => (s.tags ?? []).includes(filter));
   }, [stops, filter]);
 
   return (
@@ -61,24 +47,37 @@ export function FilterableStopGrid({ stops }: FilterableStopGridProps) {
       <div
         role="group"
         aria-label={t("common.filter")}
-        className="mb-6 flex flex-wrap items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] p-1.5"
+        className="mb-6 flex flex-wrap items-center gap-2 rounded-3xl border border-white/10 bg-white/[0.03] p-1.5"
       >
-        {FILTERS.map((f) => {
-          const isActive = filter === f;
-          const label =
-            f === ALL ? t("common.filterAll") : t(`badges.${f}`);
+        <button
+          type="button"
+          onClick={() => setFilter(ALL)}
+          aria-pressed={filter === ALL}
+          className={clsx(
+            "rounded-full px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.18em] transition-colors",
+            filter === ALL
+              ? "bg-aurora-gradient text-cosmos-void shadow-glow"
+              : "text-cosmos-star/70 hover:text-cosmos-star"
+          )}
+        >
+          {t("common.filterAll")}
+        </button>
+        {availableTags.map((tagId) => {
+          const isActive = filter === tagId;
           return (
             <button
-              key={f}
+              key={tagId}
               type="button"
-              onClick={() => setFilter(f)}
+              onClick={() => setFilter(tagId)}
               aria-pressed={isActive}
               className={clsx(
                 "rounded-full px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.18em] transition-colors",
-                isActive ? PILL_STYLES[f].active : PILL_STYLES[f].idle
+                isActive
+                  ? "bg-cosmos-aurora/20 text-cosmos-aurora ring-1 ring-cosmos-aurora/40"
+                  : "text-cosmos-star/70 hover:text-cosmos-star"
               )}
             >
-              {label}
+              {t(`tags.${tagId}`)}
             </button>
           );
         })}

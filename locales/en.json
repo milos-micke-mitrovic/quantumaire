@@ -24,10 +24,25 @@
     "scaleLegend": "Tap a dot to preview it. Use the Open stop link to read its full page. Stops are arranged from smallest on the left to largest on the right.",
     "awayFromEarth": "{value} from Earth",
     "distance": "Distance",
-    "distanceFromEarth": "From Earth",
+    "distanceFromEarth": "Distance from Earth",
+    "temperature": "Temperature",
+    "temperatureShort": "Temp",
+    "distanceShort": "Dist",
+    "distanceCompare": {
+      "farther": "{stop} is roughly {factor}× farther from Earth than {reference}.",
+      "closer": "{stop} is roughly {factor}× closer to Earth than {reference}.",
+      "fartherLabel": "farther from Earth",
+      "closerLabel": "closer to Earth"
+    },
     "distanceLegend": "Tap a dot to preview it. Use the Open stop link to read its full page. Stops are arranged from Earth on the left, outward toward the edge of the observable universe.",
     "viewBySize": "By size",
     "viewByDistance": "By distance",
+    "viewByTemperature": "By temperature",
+    "temperatureLegend": "Tap a dot to preview it. Use the Open stop link to read its full page. Stops are arranged from coldest on the left to hottest on the right.",
+    "journeyMinimap": {
+      "heading": "Where this stop sits in each journey",
+      "youAreHere": "You are here"
+    },
     "abstract": "abstract",
     "footer": "Crafted with curiosity. Truth-badged for honesty.",
     "glossary": "Glossary",
@@ -137,7 +152,19 @@
       "visualHeading": "Size comparison",
       "drawnToScale": "Drawn to true scale.",
       "tooExtreme": "The size difference is too extreme to render honestly. The numbers below tell the full story.",
-      "needsBothSized": "Need two concrete sizes for a visual comparison."
+      "needsBothSized": "Need two concrete sizes for a visual comparison.",
+      "modeLabel": "Compare by",
+      "modeSize": "Size",
+      "modeDistance": "Distance from Earth",
+      "modeTemperature": "Temperature",
+      "timesAsFar": "{b} is {factor}× farther from Earth than {a}",
+      "timesCloser": "{b} is {factor}× closer to Earth than {a}",
+      "sameDistance": "{a} and {b} are at the same distance from Earth.",
+      "timesHotter": "{b} is {factor}× hotter than {a}",
+      "timesColder": "{b} is {factor}× cooler than {a}",
+      "sameTemperature": "{a} and {b} are at the same temperature.",
+      "noData": "One side has no data for this comparison.",
+      "notEnoughStops": "Not enough stops have this data yet — try a different mode."
     }
   },
   "home": {
@@ -195,6 +222,7 @@
     "abstract": "An idea, not a thing — it has no measurable size.",
     "comparedTo": "Compared to",
     "pictureThis": "Picture this",
+    "ifDistance": "If you scale the distance",
     "byWeight": "By weight",
     "realScale": "Real scale",
     "didYouKnow": "Did you know?",
@@ -218,6 +246,46 @@
     "sun": "the Sun",
     "au": "Earth's orbit",
     "lightYear": "a light-year"
+  },
+  "referenceLabels": {
+    "hair": "Human hair",
+    "grainOfSand": "Grain of sand",
+    "coin": "Coin",
+    "person": "Adult human",
+    "footballPitch": "Football pitch",
+    "eiffelTower": "Eiffel Tower",
+    "everest": "Mount Everest",
+    "earthDiameter": "Earth",
+    "moonDistance": "Moon",
+    "sun": "Sun",
+    "au": "Sun",
+    "lightYear": "Light-year"
+  },
+  "tags": {
+    "particle": "Particle",
+    "matter": "Matter",
+    "biology": "Biology",
+    "microbe": "Microbe",
+    "pathogen": "Pathogen",
+    "psychology": "Psychology",
+    "ancient": "Ancient",
+    "planet": "Planet",
+    "gas-giant": "Gas giant",
+    "satellite": "Satellite",
+    "star": "Star",
+    "red-dwarf": "Red dwarf",
+    "hypergiant": "Hypergiant",
+    "stellar-remnant": "Stellar remnant",
+    "black-hole": "Black hole",
+    "quasar": "Quasar",
+    "star-system": "Star system",
+    "galaxy": "Galaxy",
+    "galaxy-cluster": "Galaxy cluster",
+    "supercluster": "Supercluster",
+    "spacecraft": "Spacecraft",
+    "unit": "Unit of distance",
+    "phenomenon": "Phenomenon",
+    "cosmos": "Cosmos"
   },
   "stops": {
     "quark": {
@@ -358,6 +426,7 @@
       "tagline": "A self-sustaining fusion engine at the heart of our system.",
       "body": "The Sun fuses 600 million tonnes of hydrogen into helium every second. The light reaching you right now took 8 minutes to cross the gap — but it took roughly 100,000 years to fight its way out from the Sun's dense core. Every atom in your body heavier than helium was forged inside a star like this one.",
       "narrative": "If the Sun were a basketball, Earth would be a peppercorn 26 metres away — and Pluto would be a dust mote a kilometre off.",
+      "ifDistance": "Light from the Sun reaches Earth in 8 minutes 20 seconds. At airline speeds, the journey would take 19 years. If you scale that 150-million-kilometre gap down to a single metre, Earth itself shrinks to less than a tenth of a millimetre — invisible to the naked eye.",
       "massNarrative": "The Sun holds 99.86% of all the mass in our Solar System. Every planet, moon, asteroid and comet combined is dust by comparison.",
       "funFact": "Our Sun is a perfectly average yellow-dwarf star. The largest red hypergiants like UY Scuti are over a thousand times wider, and the brightest blue supergiants pump out the light of a million Suns.",
       "image": {
@@ -373,8 +442,9 @@
     "uy_scuti": {
       "name": "UY Scuti",
       "tagline": "If it replaced the Sun, it would swallow Jupiter.",
-      "body": "UY Scuti is a red hypergiant whose radius is so vast it would extend past the orbit of Jupiter. Despite the size, it's puffy and cool — its convection cells are bigger than entire planetary systems. Stars this massive don't last; UY Scuti will eventually collapse into a brilliant supernova.",
-      "narrative": "If UY Scuti replaced our Sun, its surface would reach out past Jupiter — engulfing Mercury, Venus, Earth, Mars and the asteroid belt along the way.",
+      "body": "UY Scuti is a red hypergiant so puffed up that its convection cells — single rising bubbles of hot gas on its surface — are wider than entire planetary systems. Its outer layers are thinner than Earth's atmosphere; you could fly through them in a heat-proof ship and barely notice resistance. Stars this massive don't last long; UY Scuti will end by collapsing into a brilliant supernova.",
+      "narrative": "Hypergiants like UY Scuti live only a moment by cosmic standards — under ten million years from birth to supernova. Our Sun, ten times less massive, is already five billion years old and only halfway done.",
+      "ifDistance": "The light we see from UY Scuti tonight left it about 9,500 years ago — around the time humans were inventing agriculture in the Fertile Crescent. Light leaving UY Scuti now won't reach Earth until generations of our descendants have come and gone.",
       "massNarrative": "Despite being hundreds of times wider than the Sun, UY Scuti weighs only about ten Suns. Most of its volume is near-vacuum — a giant balloon held up by pressure, not density.",
       "funFact": "When UY Scuti eventually collapses into a supernova, it will briefly outshine the entire Milky Way put together.",
       "image": {
@@ -382,7 +452,7 @@
       },
       "facts": {
         "fact1": "Radius roughly 1,700 × the Sun's — among the largest known.",
-        "fact2": "If placed at the Sun's position, its surface would pass Jupiter's orbit.",
+        "fact2": "Light takes about two hours to cross UY Scuti from one side to the other — longer than it takes to travel from the Sun out to Saturn.",
         "fact3": "Brightness varies by about 1.4 magnitudes over hundreds of days.",
         "fact4": "Lies about 9,500 light-years away in the constellation Scutum."
       }
@@ -526,6 +596,7 @@
       "tagline": "Our nearest large galactic neighbour — and our future collision partner.",
       "body": "Andromeda is a spiral galaxy about 2.5 million light-years away — close enough to see with the naked eye on a dark night, as a faint smudge in the constellation of the same name. It holds something like a trillion stars, more than the Milky Way. The two galaxies are drifting toward each other at 110 km/s, and will eventually merge into a single elliptical galaxy that astronomers have nicknamed Milkomeda.",
       "narrative": "Andromeda already covers about six full moons in our night sky — yet its light has travelled 2.5 million years to reach us. You're seeing it as it was before our ancestors walked upright.",
+      "ifDistance": "If you could fly to Andromeda at the speed of light, the trip out and back would take five million years — longer than the entire age of the human genus on Earth. Slow it down to the fastest spacecraft we have ever built and the journey balloons to roughly twenty billion years, longer than the current age of the universe.",
       "massNarrative": "Andromeda likely outweighs the Milky Way, with a dark-matter halo holding several trillion solar masses of unseen mass.",
       "funFact": "Andromeda is one of the few galaxies actually moving toward us. Cosmic expansion is normally winning, but our gravitational bond with Andromeda is winning here.",
       "image": {
@@ -625,6 +696,7 @@
       "tagline": "The farthest human-made object — and still calling home.",
       "body": "Voyager 1 launched from Cape Canaveral in September 1977 on a mission to fly past Jupiter and Saturn. Forty-eight years later it's still operating — now in interstellar space, about 165 astronomical units from Earth, sending back a faint trickle of data on the particles and magnetic fields around it. Every signal takes more than 22 hours to reach Earth at the speed of light.",
       "narrative": "Voyager 1 is so far away that a radio command from Earth takes almost a full day to reach it. If our Solar System were the size of a basketball court, Voyager would be a speck of dust at the very edge.",
+      "ifDistance": "A radio signal from Earth takes more than 22 hours to reach Voyager 1 — almost a full day at the speed of light. If you shrank that gap to the length of a football pitch (105 m), Earth's distance from the Sun at the same scale would be less than one millimetre.",
       "image": {
         "alt": "Voyager 1 spacecraft against the cosmic void, dish antenna pointing back toward a distant Earth."
       },
@@ -670,7 +742,8 @@
         "fact1": "Pluto orbits about 5.9 billion km from the Sun.",
         "fact2": "8 planets, 5 dwarf planets, more than 200 known moons.",
         "fact3": "Voyager 1 has been travelling for 48 years and is about 24 billion km out.",
-        "fact4": "The Oort cloud may extend up to 100,000 AU from the Sun."
+        "fact4": "The Oort cloud may extend up to 100,000 AU from the Sun.",
+        "fact5": "The Sun is always the closest large body to Earth — even at Jupiter's closest approach (opposition), Jupiter is still more than four times farther from us than the Sun is."
       }
     },
     "moon": {
@@ -678,6 +751,7 @@
       "tagline": "Earth's only natural satellite — locked to us forever.",
       "body": "The Moon is the fifth-largest moon in the Solar System and the only place beyond Earth that humans have walked on. It is tidally locked, which is why the same side always faces us; the far side was first photographed by a Soviet probe in 1959. Its surface is a fossil record of the violent early Solar System — every crater is a story that Earth itself has long since erased through weather and tectonics.",
       "narrative": "The Moon is drifting away from Earth at about 3.8 cm a year — roughly the rate your fingernails grow. Hundreds of millions of years ago, total solar eclipses lasted much longer; in another billion years, they'll stop happening at all.",
+      "ifDistance": "If you could drive a car non-stop at 100 km/h, reaching the Moon would take about 160 days. Walking at average human pace, you'd arrive in roughly nine years. The Apollo astronauts made the trip in three days each way — and that has been the human distance record for over fifty years.",
       "massNarrative": "The Moon weighs about 1/81 of Earth — roughly the same ratio as a tennis ball to an adult human. It's the largest moon in the Solar System relative to its host planet.",
       "funFact": "The Apollo astronauts left mirrors on the Moon. Laser pulses fired from observatories on Earth still bounce off them today, letting us measure the Earth–Moon distance to within millimetres.",
       "image": {
@@ -695,6 +769,7 @@
       "tagline": "The Solar System's largest planet — a failed star, almost.",
       "body": "Jupiter is a gas giant more massive than all the other planets combined. Its atmosphere is a turbulent ocean of hydrogen and helium, marked by storm belts and the Great Red Spot — an anticyclone large enough to swallow Earth and still have room left over. It also has 95 confirmed moons; four of them, the Galilean satellites, were the first objects ever shown to orbit something other than Earth.",
       "narrative": "Jupiter is so massive that it doesn't orbit the Sun directly — the two share a common centre of mass, called the barycentre, that sits just outside the Sun's surface. It's the only planet in our system where this is true.",
+      "ifDistance": "Jupiter is on average about 5.2 times farther from Earth than the Sun is. If our Solar System out to Jupiter fit on a basketball court, Earth would sit just 5 metres from the Sun-basketball at centre court — and Jupiter would be at the far end-line, 26 metres out.",
       "massNarrative": "Jupiter contains 2.5 times more mass than every other planet in the Solar System combined. The wobble it induces in the Sun is the strongest single planetary signal in our system — and is one of the standard ways astronomers find Jupiter-sized planets around other stars.",
       "funFact": "If Jupiter had grown about 80 times more massive, hydrogen fusion would have ignited in its core and it would have become a small star. We would live in a binary system instead of a planetary one.",
       "image": {
@@ -712,6 +787,7 @@
       "tagline": "The closest known star to the Sun — and still impossibly far.",
       "body": "Proxima Centauri is a small, dim red dwarf about 4.24 light-years from Earth. It is the nearest known star to the Sun, part of the triple Alpha Centauri system. At least two planets are confirmed to orbit it, one — Proxima b — sitting in the habitable zone where liquid water could exist on its surface. The catch is that red dwarfs are violently active; Proxima regularly fires off flares that would strip away an Earth-like atmosphere.",
       "narrative": "Even at the speed of light it takes 4.24 years to get to Proxima Centauri. The fastest human spacecraft ever launched (Parker Solar Probe) would take more than 6,000 years to make the trip.",
+      "ifDistance": "Driving non-stop at highway speeds (100 km/h), the trip to Proxima Centauri would take roughly 45 million years — older than the entire age of the human genus. Light makes the journey in 4.24 years, but the fastest probe humans have ever built would still need six thousand.",
       "massNarrative": "Proxima Centauri weighs only about an eighth of the Sun. Red dwarfs that small fuse hydrogen so slowly that, in theory, Proxima will still be shining four trillion years from now — long after every Sun-like star has burned out.",
       "funFact": "Despite being our nearest stellar neighbour, Proxima is too dim to see with the naked eye. You need a telescope — even though, in cosmic terms, it's basically next door.",
       "image": {

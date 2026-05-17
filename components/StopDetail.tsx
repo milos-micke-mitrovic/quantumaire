@@ -6,12 +6,12 @@ import clsx from "clsx";
 import type { Stop } from "@/lib/types";
 import { useI18n } from "@/lib/i18n";
 import { categorySlug } from "@/lib/content";
-import { formatMeters } from "@/lib/scale";
-import { useUnits } from "@/lib/units";
 import { useMarkVisited } from "@/lib/visited";
 import { Badge } from "./Badge";
 import { ComparisonStrip } from "./ComparisonStrip";
+import { IfDistancePanel } from "./IfDistancePanel";
 import { GlossaryTerm } from "./GlossaryTerm";
+import { JourneyMinimap } from "./JourneyMinimap";
 import { LightboxImage } from "./LightboxImage";
 import { LinkedBody } from "./LinkedBody";
 import { FunFactPanel } from "./FunFactPanel";
@@ -21,7 +21,10 @@ import { ShareBar } from "./ShareBar";
 import { QuickFacts } from "./QuickFacts";
 import { Sources } from "./Sources";
 import { StopCard } from "./StopCard";
-import { StopScaleVsReference } from "./StopScaleVsReference";
+import { StopComparisonCard } from "./StopComparisonCard";
+import { StopDistanceCard } from "./StopDistanceCard";
+import { StopTags } from "./StopTags";
+import { StopValuesCard } from "./StopValuesCard";
 import { Fragment } from "react";
 
 interface StopDetailProps {
@@ -33,7 +36,6 @@ interface StopDetailProps {
 
 export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
   const { t, locale } = useI18n();
-  const { units } = useUnits();
   useMarkVisited(stop.id);
 
   return (
@@ -96,15 +98,10 @@ export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
         <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
           <div>
             <div className="flex flex-wrap items-center gap-2">
-              <Badge type={stop.badge} />
               <span className="rounded-full border border-white/10 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.18em] text-cosmos-star/70">
                 {t(`categories.${stop.category}`)}
               </span>
-              <span className="rounded-full bg-white/[0.04] px-3 py-1 text-[10px] font-medium uppercase tracking-[0.18em] text-cosmos-star/70">
-                {stop.sizeMeters !== null
-                  ? formatMeters(stop.sizeMeters, t, units)
-                  : t("common.abstract")}
-              </span>
+              <StopTags tags={stop.tags} size="md" />
               <span className="rounded-full bg-white/[0.04] px-3 py-1 text-[10px] font-medium uppercase tracking-[0.18em] text-cosmos-star/55">
                 {t("common.minRead", {
                   minutes: Math.max(
@@ -128,12 +125,6 @@ export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
             <p className="mt-3 text-base text-cosmos-star/80 sm:text-lg">
               {t(`${stop.i18nKey}.tagline`)}
             </p>
-            <StopScaleVsReference stop={stop} />
-            <ComparisonStrip
-              sizeMeters={stop.sizeMeters}
-              i18nKey={stop.i18nKey}
-            />
-            <MassStrip i18nKey={stop.i18nKey} />
             <div className="mt-5 flex flex-wrap items-center gap-2 print:hidden">
               <ShareBar title={t(`${stop.i18nKey}.name`)} />
               {stop.id !== "earth" && (
@@ -166,12 +157,28 @@ export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
         </div>
       </motion.header>
 
+      <StopValuesCard stop={stop} />
+      <StopComparisonCard stop={stop} />
+      <StopDistanceCard stop={stop} />
+
+      <div className="mt-6 space-y-3">
+        <ComparisonStrip
+          sizeMeters={stop.sizeMeters}
+          i18nKey={stop.i18nKey}
+        />
+        <IfDistancePanel i18nKey={stop.i18nKey} />
+        <MassStrip i18nKey={stop.i18nKey} />
+      </div>
+
       <motion.section
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.05 }}
         className="mt-8 rounded-3xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-sm sm:p-10"
       >
+        <div className="mb-4">
+          <Badge type={stop.badge} />
+        </div>
         <LinkedBody
           body={t(`${stop.i18nKey}.body`)}
           glossaryKeys={stop.glossary}
@@ -206,6 +213,8 @@ export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
       {stop.sources && stop.sources.length > 0 && (
         <Sources sources={stop.sources} />
       )}
+
+      <JourneyMinimap stopId={stop.id} />
 
       {related.length > 0 && (
         <section className="mt-12 print:hidden">

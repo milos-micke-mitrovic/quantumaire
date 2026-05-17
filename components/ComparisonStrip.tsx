@@ -1,30 +1,29 @@
 "use client";
 
 import { useI18n } from "@/lib/i18n";
-import { formatMeters } from "@/lib/scale";
-import { useUnits } from "@/lib/units";
 
 interface ComparisonStripProps {
-  /** Real-world meters of the stop, or null if abstract. */
+  /** Kept for callers; whether the stop has a measurable size is used to
+   *  decide whether to fall back to an "abstract" placeholder. */
   sizeMeters: number | null;
   /** Stop's i18n prefix — used to look up `<prefix>.narrative`. */
   i18nKey: string;
 }
 
 /**
- * Inline scale comparison shown inside the stop header.
+ * Inline scale narrative shown inside the stop header.
  *
  * Every stop owns a hand-written `narrative` translation that paints a
  * vivid scale-up metaphor ("If an atom were a marble, a hair would be
- * wider than a city"). This component just displays that line — the heavy
- * lifting is in the translation files, where the imagery is curated.
+ * wider than a city"). This component just displays that line — the
+ * stop's measurable values live in StopValuesCard / StopComparisonCard,
+ * so we don't repeat the size number alongside the narrative any more.
  */
 export function ComparisonStrip({
   sizeMeters,
   i18nKey,
 }: ComparisonStripProps) {
   const { t } = useI18n();
-  const { units } = useUnits();
   const narrativeKey = `${i18nKey}.narrative`;
   const narrative = t(narrativeKey);
   const hasNarrative = narrative !== narrativeKey;
@@ -33,6 +32,7 @@ export function ComparisonStrip({
     : sizeMeters === null
       ? t("comparison.abstract")
       : "";
+  if (!line) return null;
 
   return (
     <div className="mt-5 flex flex-wrap items-start gap-3 rounded-2xl border border-white/10 bg-white/[0.025] px-4 py-3">
@@ -50,11 +50,6 @@ export function ComparisonStrip({
           {line}
         </p>
       </div>
-      {sizeMeters !== null && (
-        <span className="mt-1 font-mono text-xs text-cosmos-plasma">
-          {formatMeters(sizeMeters, t, units)}
-        </span>
-      )}
     </div>
   );
 }

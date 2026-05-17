@@ -7,7 +7,7 @@ import { useCallback, useMemo } from "react";
 import { motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { STOPS, getStop } from "@/lib/content";
-import { formatMeters } from "@/lib/scale";
+import { formatMeters, formatTemperature } from "@/lib/scale";
 import { useUnits } from "@/lib/units";
 import { formatFactor } from "@/lib/references";
 import type { Stop } from "@/lib/types";
@@ -15,24 +15,43 @@ import { Badge } from "./Badge";
 import { ImagePlaceholder } from "./ImagePlaceholder";
 import { ScaleVisual } from "./ScaleVisual";
 
-const DEFAULT_A = "quark";
-const DEFAULT_B = "earth";
+type Mode = "size" | "distance" | "temperature";
+const MODES: readonly Mode[] = ["size", "distance", "temperature"] as const;
+
+function isMode(value: string | null): value is Mode {
+  return value === "size" || value === "distance" || value === "temperature";
+}
+
+function valueOf(stop: Stop, mode: Mode): number | null {
+  if (mode === "size") return stop.sizeMeters;
+  if (mode === "distance") return stop.distanceFromEarthMeters ?? null;
+  return stop.temperatureKelvin ?? null;
+}
+
+function eligibleStops(mode: Mode): Stop[] {
+  return STOPS.filter((s) => {
+    const v = valueOf(s, mode);
+    return v !== null && v !== undefined && Number.isFinite(v) && v > 0;
+  });
+}
+
+const DEFAULTS: Record<Mode, [string, string]> = {
+  size: ["quark", "earth"],
+  distance: ["moon", "sun"],
+  temperature: ["earth", "sun"],
+};
 
 interface PickerProps {
   label: string;
   selectedId: string;
+  mode: Mode;
   onChange: (id: string) => void;
 }
 
-// Only stops with a concrete size can be visually compared. Abstract stops
-// (DID, dark matter, dark energy) are excluded from the pickers.
-const COMPARABLE_STOPS = STOPS.filter(
-  (s) => s.sizeMeters !== null && s.sizeMeters > 0
-);
-
-function StopPicker({ label, selectedId, onChange }: PickerProps) {
+function StopPicker({ label, selectedId, mode, onChange }: PickerProps) {
   const { t } = useI18n();
   const { units } = useUnits();
+  const stops = useMemo(() => eligibleStops(mode), [mode]);
   return (
     <label className="block">
       <span className="block text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
@@ -44,12 +63,18 @@ function StopPicker({ label, selectedId, onChange }: PickerProps) {
           onChange={(e) => onChange(e.target.value)}
           className="w-full appearance-none rounded-2xl border border-white/10 bg-cosmos-night/40 py-3 pl-4 pr-10 text-base text-cosmos-star focus:border-cosmos-aurora/60 focus:outline-none"
         >
-          {COMPARABLE_STOPS.map((s) => (
-            <option key={s.id} value={s.id}>
-              {t(`${s.i18nKey}.name`)}
-              {s.sizeMeters !== null ? ` · ${formatMeters(s.sizeMeters, t, units)}` : ""}
-            </option>
-          ))}
+          {stops.map((s) => {
+            const v = valueOf(s, mode)!;
+            const valueText =
+              mode === "temperature"
+                ? formatTemperature(v)
+                : formatMeters(v, t, units);
+            return (
+              <option key={s.id} value={s.id}>
+                {t(`${s.i18nKey}.name`)} · {valueText}
+              </option>
+            );
+          })}
         </select>
         <svg
           aria-hidden
@@ -71,11 +96,19 @@ function StopPicker({ label, selectedId, onChange }: PickerProps) {
 interface CompareCardProps {
   stop: Stop;
   label: string;
+  mode: Mode;
 }
 
-function CompareCard({ stop, label }: CompareCardProps) {
+function CompareCard({ stop, label, mode }: CompareCardProps) {
   const { t, locale } = useI18n();
   const { units } = useUnits();
+  const v = valueOf(stop, mode);
+  const valueText =
+    v === null
+      ? t("common.abstract")
+      : mode === "temperature"
+        ? formatTemperature(v)
+        : formatMeters(v, t, units);
   return (
     <Link
       href={`/${locale}/stop/${stop.id}`}
@@ -89,11 +122,7 @@ function CompareCard({ stop, label }: CompareCardProps) {
       <ImagePlaceholder image={stop.image} className="mb-4" />
       <div className="flex items-center justify-between text-[10px] font-mono uppercase tracking-[0.18em] text-cosmos-star/55">
         <span>{label}</span>
-        <span>
-          {stop.sizeMeters !== null
-            ? formatMeters(stop.sizeMeters, t, units)
-            : t("common.abstract")}
-        </span>
+        <span>{valueText}</span>
       </div>
       <h3
         className={clsx(
@@ -116,64 +145,110 @@ function CompareCard({ stop, label }: CompareCardProps) {
   );
 }
 
+const RATIO_LINE_KEYS: Record<
+  Mode,
+  { bigger: string; smaller: string; same: string }
+> = {
+  size: {
+    bigger: "common.comparePage.timesAsBig",
+    smaller: "common.comparePage.timesSmaller",
+    same: "common.comparePage.same",
+  },
+  distance: {
+    bigger: "common.comparePage.timesAsFar",
+    smaller: "common.comparePage.timesCloser",
+    same: "common.comparePage.sameDistance",
+  },
+  temperature: {
+    bigger: "common.comparePage.timesHotter",
+    smaller: "common.comparePage.timesColder",
+    same: "common.comparePage.sameTemperature",
+  },
+};
+
 export function ComparePage() {
   const router = useRouter();
   const params = useSearchParams();
   const { t } = useI18n();
 
-  const aId = params.get("a") ?? DEFAULT_A;
-  const bId = params.get("b") ?? DEFAULT_B;
+  const modeParam = params.get("mode");
+  const mode: Mode = isMode(modeParam) ? modeParam : "size";
+  const [defaultA, defaultB] = DEFAULTS[mode];
 
-  const a = useMemo(() => getStop(aId) ?? getStop(DEFAULT_A)!, [aId]);
-  const b = useMemo(() => getStop(bId) ?? getStop(DEFAULT_B)!, [bId]);
+  // If the stop chosen for the current mode lacks the relevant data, fall
+  // back to the mode's default rather than render a broken comparison.
+  const requestedA = params.get("a") ?? defaultA;
+  const requestedB = params.get("b") ?? defaultB;
+  const a = useMemo(() => {
+    const s = getStop(requestedA);
+    if (s && valueOf(s, mode) !== null) return s;
+    return getStop(defaultA)!;
+  }, [requestedA, mode, defaultA]);
+  const b = useMemo(() => {
+    const s = getStop(requestedB);
+    if (s && valueOf(s, mode) !== null) return s;
+    return getStop(defaultB)!;
+  }, [requestedB, mode, defaultB]);
 
   const setPair = useCallback(
-    (nextA: string, nextB: string) => {
+    (nextA: string, nextB: string, nextMode: Mode = mode) => {
       const sp = new URLSearchParams();
       sp.set("a", nextA);
       sp.set("b", nextB);
+      sp.set("mode", nextMode);
       router.replace(`?${sp.toString()}`, { scroll: false });
     },
-    [router]
+    [router, mode]
   );
 
   const swap = useCallback(() => setPair(b.id, a.id), [a.id, b.id, setPair]);
 
-  // Compute ratio b/a — null if either side is abstract or zero.
-  const ratio = (() => {
-    if (a.sizeMeters === null || b.sizeMeters === null) return null;
-    if (a.sizeMeters === 0 || b.sizeMeters === 0) return null;
-    return b.sizeMeters / a.sizeMeters;
-  })();
+  const onModeChange = useCallback(
+    (nextMode: Mode) => {
+      // Try to keep the current pair if both still have data; otherwise
+      // fall back to that mode's defaults.
+      const aOK =
+        valueOf(a, nextMode) !== null && valueOf(a, nextMode) !== undefined;
+      const bOK =
+        valueOf(b, nextMode) !== null && valueOf(b, nextMode) !== undefined;
+      const [da, db] = DEFAULTS[nextMode];
+      setPair(aOK ? a.id : da, bOK ? b.id : db, nextMode);
+    },
+    [a, b, setPair]
+  );
+
+  const aValue = valueOf(a, mode);
+  const bValue = valueOf(b, mode);
 
   const aName = t(`${a.i18nKey}.name`);
   const bName = t(`${b.i18nKey}.name`);
 
+  const ratioKeys = RATIO_LINE_KEYS[mode];
   let ratioLine: string;
   let ratioBig: string;
-  if (a.sizeMeters === null && b.sizeMeters === null) {
-    ratioLine = t("common.comparePage.bothAbstract");
+  if (aValue === null || bValue === null) {
+    ratioLine = t("common.comparePage.noData");
     ratioBig = "—";
-  } else if (a.sizeMeters === null || b.sizeMeters === null) {
-    ratioLine = t("common.comparePage.oneAbstract");
-    ratioBig = "—";
-  } else if (ratio === null || Math.abs(ratio - 1) < 0.001) {
-    ratioLine = t("common.comparePage.same", { a: aName, b: bName });
-    ratioBig = "1×";
-  } else if (ratio >= 1) {
-    ratioBig = `${formatFactor(ratio, t)}×`;
-    ratioLine = t("common.comparePage.timesAsBig", {
-      a: aName,
-      b: bName,
-      factor: formatFactor(ratio, t),
-    });
   } else {
-    ratioBig = `${formatFactor(1 / ratio, t)}×`;
-    ratioLine = t("common.comparePage.timesSmaller", {
-      a: aName,
-      b: bName,
-      factor: formatFactor(1 / ratio, t),
-    });
+    const ratio = bValue / aValue;
+    if (Math.abs(ratio - 1) < 0.001) {
+      ratioLine = t(ratioKeys.same, { a: aName, b: bName });
+      ratioBig = "1×";
+    } else if (ratio >= 1) {
+      ratioBig = `${formatFactor(ratio, t)}×`;
+      ratioLine = t(ratioKeys.bigger, {
+        a: aName,
+        b: bName,
+        factor: formatFactor(ratio, t),
+      });
+    } else {
+      ratioBig = `${formatFactor(1 / ratio, t)}×`;
+      ratioLine = t(ratioKeys.smaller, {
+        a: aName,
+        b: bName,
+        factor: formatFactor(1 / ratio, t),
+      });
+    }
   }
 
   return (
@@ -199,10 +274,49 @@ export function ComparePage() {
         </p>
       </motion.header>
 
-      <section className="mt-10 grid gap-4 sm:grid-cols-[1fr_auto_1fr]">
+      {/* Mode selector — Size / Distance / Temperature. */}
+      <section className="mt-8">
+        <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
+          {t("common.comparePage.modeLabel")}
+        </p>
+        <div
+          role="group"
+          aria-label={t("common.comparePage.modeLabel")}
+          className="mt-2 inline-flex items-center gap-1 rounded-full border border-white/10 bg-white/[0.04] p-1"
+        >
+          {MODES.map((m) => {
+            const active = m === mode;
+            const labelKey =
+              m === "size"
+                ? "common.comparePage.modeSize"
+                : m === "distance"
+                  ? "common.comparePage.modeDistance"
+                  : "common.comparePage.modeTemperature";
+            return (
+              <button
+                key={m}
+                type="button"
+                aria-pressed={active}
+                onClick={() => onModeChange(m)}
+                className={clsx(
+                  "rounded-full px-3 py-1 text-xs font-medium tracking-wider transition-colors",
+                  active
+                    ? "bg-aurora-gradient text-cosmos-void shadow-glow"
+                    : "text-cosmos-star/70 hover:text-cosmos-star"
+                )}
+              >
+                {t(labelKey)}
+              </button>
+            );
+          })}
+        </div>
+      </section>
+
+      <section className="mt-6 grid gap-4 sm:grid-cols-[1fr_auto_1fr]">
         <StopPicker
           label={t("common.comparePage.chooseA")}
           selectedId={a.id}
+          mode={mode}
           onChange={(id) => setPair(id, b.id)}
         />
         <div className="flex items-end justify-center sm:items-center">
@@ -230,11 +344,13 @@ export function ComparePage() {
         <StopPicker
           label={t("common.comparePage.chooseB")}
           selectedId={b.id}
+          mode={mode}
           onChange={(id) => setPair(a.id, id)}
         />
       </section>
 
-      <ScaleVisual a={a} b={b} />
+      {/* Visual only makes sense when both sides have a size — i.e. in size mode. */}
+      {mode === "size" && <ScaleVisual a={a} b={b} />}
 
       {/* Narrative (imaginary visualisation) — speaks plainly, no big number. */}
       <p className="mx-auto mt-6 max-w-2xl text-center text-base leading-relaxed text-cosmos-star/85 sm:text-lg">
@@ -248,10 +364,10 @@ export function ComparePage() {
         </p>
       )}
 
-      {/* Stop cards — supporting context, no centre column. */}
+      {/* Stop cards — supporting context. */}
       <section className="mt-10 grid gap-4 sm:grid-cols-2">
-        <CompareCard stop={a} label={t("common.comparePage.openStopA")} />
-        <CompareCard stop={b} label={t("common.comparePage.openStopB")} />
+        <CompareCard stop={a} label={t("common.comparePage.openStopA")} mode={mode} />
+        <CompareCard stop={b} label={t("common.comparePage.openStopB")} mode={mode} />
       </section>
     </main>
   );

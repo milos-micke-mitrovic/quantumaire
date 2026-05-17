@@ -18,7 +18,7 @@ export function FaqSection({ locale }: FaqSectionProps) {
     <section
       id="faq"
       aria-labelledby="faq-heading"
-      className="mx-auto w-full max-w-3xl px-5 pb-16 sm:px-8 sm:pb-20"
+      className="mx-auto w-full max-w-6xl px-5 pb-16 sm:px-8 sm:pb-20"
     >
       <header className="mb-8 max-w-2xl">
         <p className="text-[10px] font-medium uppercase tracking-[0.28em] text-cosmos-star/55">
@@ -35,7 +35,7 @@ export function FaqSection({ locale }: FaqSectionProps) {
         </p>
       </header>
 
-      <dl className="space-y-3">
+      <dl className="grid gap-3 lg:grid-cols-2 lg:gap-4">
         {FAQ_INDICES.map((i) => {
           const q = tServer(locale, `home.faq.q${i}`);
           const a = tServer(locale, `home.faq.a${i}`);

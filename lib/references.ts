@@ -13,25 +13,36 @@
  * Reference identifiers map to `references.<id>` in the translation files.
  */
 
+/**
+ * Whether a reference is the *size* of an object (a diameter, width, or
+ * length) or the *distance* between objects (Earth–Moon, 1 AU, etc.).
+ *
+ * Different stop comparisons need different kinds. The "Real scale" panel
+ * comparing Jupiter's diameter to something should pick a *size* reference,
+ * not the Earth–Moon distance.
+ */
+export type ReferenceKind = "size" | "distance";
+
 export interface Reference {
   id: string;
-  /** True real-world size of the reference object, in metres. */
+  /** True real-world value in metres (a diameter or a distance). */
   meters: number;
+  kind: ReferenceKind;
 }
 
 export const REFERENCES: Reference[] = [
-  { id: "hair", meters: 8e-5 }, // 80 µm — width of human hair
-  { id: "grainOfSand", meters: 5e-4 }, // 0.5 mm — Quantumaire's anchor
-  { id: "coin", meters: 2.5e-2 }, // 2.5 cm — a coin
-  { id: "person", meters: 1.7 }, // average adult height
-  { id: "footballPitch", meters: 105 }, // length
-  { id: "eiffelTower", meters: 330 }, // height
-  { id: "everest", meters: 8848 }, // height
-  { id: "earthDiameter", meters: 1.2742e7 }, // Earth — diameter
-  { id: "moonDistance", meters: 3.844e8 }, // Earth–Moon distance
-  { id: "sun", meters: 1.39e9 }, // Sun — diameter
-  { id: "au", meters: 1.496e11 }, // 1 AU — Earth–Sun distance
-  { id: "lightYear", meters: 9.4607304725808e15 }, // 1 light-year
+  { id: "hair", meters: 8e-5, kind: "size" }, // 80 µm — width of human hair
+  { id: "grainOfSand", meters: 5e-4, kind: "size" }, // 0.5 mm — Quantumaire's anchor
+  { id: "coin", meters: 2.5e-2, kind: "size" }, // 2.5 cm — a coin
+  { id: "person", meters: 1.7, kind: "size" }, // average adult height
+  { id: "footballPitch", meters: 105, kind: "size" }, // length
+  { id: "eiffelTower", meters: 330, kind: "size" }, // height
+  { id: "everest", meters: 8848, kind: "size" }, // height
+  { id: "earthDiameter", meters: 1.2742e7, kind: "size" }, // Earth — diameter
+  { id: "moonDistance", meters: 3.844e8, kind: "distance" }, // Earth–Moon distance
+  { id: "sun", meters: 1.39e9, kind: "size" }, // Sun — diameter
+  { id: "au", meters: 1.496e11, kind: "distance" }, // 1 AU — Earth–Sun distance
+  { id: "lightYear", meters: 9.4607304725808e15, kind: "distance" }, // 1 light-year
 ];
 
 /** Look up a single reference by id. */
@@ -103,18 +114,40 @@ export function describePosition(meters: number): QualitativePosition | null {
   return { mode: "aboutThe", reference: closest };
 }
 
-/** Pick the reference whose log size is closest to `meters`. */
-export function pickReference(meters: number): Reference {
-  let best = REFERENCES[0];
-  let bestDiff = Math.abs(Math.log10(meters) - Math.log10(best.meters));
-  for (const r of REFERENCES) {
-    const diff = Math.abs(Math.log10(meters) - Math.log10(r.meters));
+/**
+ * Pick the reference whose log size is closest to `meters`. Optionally
+ * restrict to a specific kind ("size" or "distance"); when the kind
+ * filter rejects all references, falls back to the full set so the panel
+ * still has *something* to compare against.
+ *
+ * Pass `opts.excludeNearSelf: true` to skip any reference that's
+ * essentially the same value as the input. Useful for the visual-
+ * comparison panel: the Sun stop matches the "sun" reference exactly,
+ * which would show the same number twice — with this flag the picker
+ * falls through to the next-closest reference (Earth, 109× smaller),
+ * giving a comparison that actually tells the viewer something.
+ */
+const SELF_MATCH_LOG_THRESHOLD = 0.05;
+
+export function pickReference(
+  meters: number,
+  kind?: ReferenceKind,
+  opts?: { excludeNearSelf?: boolean }
+): Reference {
+  const pool = kind ? REFERENCES.filter((r) => r.kind === kind) : REFERENCES;
+  const candidates = pool.length > 0 ? pool : REFERENCES;
+  let best: Reference | null = null;
+  let bestDiff = Infinity;
+  const inputLog = Math.log10(meters);
+  for (const r of candidates) {
+    const diff = Math.abs(inputLog - Math.log10(r.meters));
+    if (opts?.excludeNearSelf && diff < SELF_MATCH_LOG_THRESHOLD) continue;
     if (diff < bestDiff) {
       bestDiff = diff;
       best = r;
     }
   }
-  return best;
+  return best ?? candidates[0];
 }
 
 /**

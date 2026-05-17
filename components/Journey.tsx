@@ -7,8 +7,9 @@ import { STOPS } from "@/lib/content";
 import { DistanceScale } from "./DistanceScale";
 import { FilterableStopGrid } from "./FilterableStopGrid";
 import { InteractiveScale } from "./InteractiveScale";
+import { TemperatureScale } from "./TemperatureScale";
 
-type ScaleView = "size" | "distance";
+type ScaleView = "size" | "distance" | "temperature";
 
 /**
  * Lean journey:
@@ -43,8 +44,14 @@ export function Journey() {
         aria-label={t("common.scale")}
         className="mb-4 inline-flex items-center gap-1 rounded-full border border-white/10 bg-white/[0.04] p-1"
       >
-        {(["size", "distance"] as const).map((v) => {
+        {(["size", "distance", "temperature"] as const).map((v) => {
           const isActive = view === v;
+          const labelKey =
+            v === "size"
+              ? "common.viewBySize"
+              : v === "distance"
+                ? "common.viewByDistance"
+                : "common.viewByTemperature";
           return (
             <button
               key={v}
@@ -58,9 +65,7 @@ export function Journey() {
                   : "text-cosmos-star/70 hover:text-cosmos-star"
               )}
             >
-              {v === "size"
-                ? t("common.viewBySize")
-                : t("common.viewByDistance")}
+              {t(labelKey)}
             </button>
           );
         })}
@@ -69,8 +74,10 @@ export function Journey() {
       <div className="mb-12">
         {view === "size" ? (
           <InteractiveScale stops={STOPS} />
-        ) : (
+        ) : view === "distance" ? (
           <DistanceScale />
+        ) : (
+          <TemperatureScale />
         )}
       </div>
 

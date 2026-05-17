@@ -10,6 +10,11 @@ import type { Stop } from "@/lib/types";
 
 interface InteractiveScaleProps {
   stops: Stop[];
+  /**
+   * Optional stop id to highlight as "you are here". When set, that dot
+   * gets a distinct treatment and the slider starts with it pre-selected.
+   */
+  highlightStopId?: string;
 }
 
 /**
@@ -22,7 +27,10 @@ interface InteractiveScaleProps {
  * focusing a dot previews the stop; the explicit `Open stop` link in the
  * header is the navigation affordance.
  */
-export function InteractiveScale({ stops }: InteractiveScaleProps) {
+export function InteractiveScale({
+  stops,
+  highlightStopId,
+}: InteractiveScaleProps) {
   const { t, locale } = useI18n();
   const { units } = useUnits();
 
@@ -37,7 +45,17 @@ export function InteractiveScale({ stops }: InteractiveScaleProps) {
     [stops]
   );
 
-  const [activeIdx, setActiveIdx] = useState(0);
+  const highlightIdx = useMemo(
+    () =>
+      highlightStopId
+        ? sizedStops.findIndex((s) => s.id === highlightStopId)
+        : -1,
+    [highlightStopId, sizedStops]
+  );
+
+  const [activeIdx, setActiveIdx] = useState(
+    highlightIdx >= 0 ? highlightIdx : 0
+  );
 
   if (sizedStops.length === 0) return null;
   const active = sizedStops[Math.min(activeIdx, sizedStops.length - 1)];
@@ -85,6 +103,7 @@ export function InteractiveScale({ stops }: InteractiveScaleProps) {
         {sizedStops.map((stop, idx) => {
           const pct = lastIdx === 0 ? 50 : (idx / lastIdx) * 100;
           const isActive = idx === activeIdx;
+          const isHighlighted = idx === highlightIdx;
           return (
             <button
               key={stop.id}
@@ -93,15 +112,18 @@ export function InteractiveScale({ stops }: InteractiveScaleProps) {
               onClick={() => setActiveIdx(idx)}
               aria-label={`${t(`${stop.i18nKey}.name`)} — ${formatMeters(stop.sizeMeters, t, units)}`}
               aria-pressed={isActive}
+              aria-current={isHighlighted ? "location" : undefined}
               style={{ left: `${pct}%` }}
               className="group/dot absolute top-1/2 -translate-x-1/2 -translate-y-1/2 p-1.5 focus:outline-none"
             >
               <span
                 className={clsx(
-                  "block rounded-full ring-1 ring-white/20 transition-all duration-150",
-                  isActive
-                    ? "h-4 w-4 bg-cosmos-nova"
-                    : "h-2.5 w-2.5 bg-cosmos-star/70 group-hover/dot:scale-125 group-hover/dot:bg-cosmos-plasma"
+                  "block rounded-full transition-all duration-150",
+                  isHighlighted
+                    ? "h-5 w-5 bg-cosmos-aurora ring-2 ring-cosmos-aurora/60 ring-offset-2 ring-offset-cosmos-deep"
+                    : isActive
+                      ? "h-4 w-4 bg-cosmos-nova ring-1 ring-white/20"
+                      : "h-2.5 w-2.5 bg-cosmos-star/70 ring-1 ring-white/20 group-hover/dot:scale-125 group-hover/dot:bg-cosmos-plasma"
                 )}
               />
             </button>

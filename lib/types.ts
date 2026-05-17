@@ -26,6 +26,12 @@ export interface ImagePlaceholder {
   altKey: string;
   /** Short Gemini-friendly prompt — surfaced in IMAGE_PROMPTS.md */
   geminiPrompt: string;
+  /**
+   * Photographer / agency credit, rendered as a small grey caption under
+   * the image. Required for CC-licensed material (NASA images are public
+   * domain and don't need it, but it doesn't hurt to credit them).
+   */
+  credit?: string;
 }
 
 export interface Source {
@@ -52,6 +58,13 @@ export interface Stop {
   image: ImagePlaceholder;
   /** Glossary keys revealed in TruthSection tooltips. */
   glossary: string[];
+  /**
+   * Object-type tags shown alongside the stop on cards and pages. Tag ids
+   * resolve to `tags.<id>` translations. Different from `category` — these
+   * are the secondary "what *kind* of object is this?" labels (planet,
+   * star, black-hole, galaxy, biology, spacecraft, …).
+   */
+  tags?: string[];
   /** External references shown at the bottom of the stop page. */
   sources?: Source[];
   /**
@@ -59,6 +72,13 @@ export interface Stop {
    * stops where the distance is part of what makes the object interesting.
    */
   distanceFromEarthMeters?: number;
+  /**
+   * Representative temperature in kelvin. Optional — populated for stops
+   * where a single canonical value is meaningful (surface of the Sun,
+   * surface of Jupiter, etc.). Skipped for stops whose "temperature" is
+   * either undefined (a quark, an idea) or wildly non-uniform (a galaxy).
+   */
+  temperatureKelvin?: number;
   /**
    * Override the dot label on the distance slider. Useful when the canonical
    * stop name ("Solar System") is less meaningful in a distance context than

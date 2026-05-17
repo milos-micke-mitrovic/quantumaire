@@ -99,6 +99,51 @@ export function formatMeters(
   return `${(ly / 1e12).toPrecision(3)} ${tr("common.numberTrillion")} ${tr("common.unitLightYear")}`;
 }
 
+/**
+ * Format a temperature given in kelvin. Returns a string in the form
+ * `5,772 K (≈ 5,500 °C)`. Below 1,000 K, both numbers are shown with the
+ * 273.15 offset honestly; above 1,000 K, °C is rounded to the same level
+ * of precision as K (the two scales are essentially identical at scale).
+ *
+ * Returns "—" for null / non-finite / negative inputs.
+ */
+export function formatTemperature(kelvin: number | null | undefined): string {
+  if (
+    kelvin === null ||
+    kelvin === undefined ||
+    !Number.isFinite(kelvin) ||
+    kelvin < 0
+  ) {
+    return "—";
+  }
+  const celsius = kelvin - 273.15;
+  const k = kelvin;
+
+  // Below 1,000 K — show precise values; the K/°C difference matters here.
+  if (k < 1000) {
+    const kRounded = Math.round(k);
+    const cRounded = Math.round(celsius);
+    return `${kRounded.toLocaleString("en-US")} K (${cRounded >= 0 ? "" : ""}${cRounded} °C)`;
+  }
+
+  // Above 1,000 K — show both with rough rounding; at this scale K ≈ °C.
+  if (k < 1e6) {
+    const kRounded = Math.round(k / 100) * 100;
+    const cRounded = Math.round(celsius / 100) * 100;
+    return `${kRounded.toLocaleString("en-US")} K (≈ ${cRounded.toLocaleString("en-US")} °C)`;
+  }
+
+  // Millions of K — express in "million K", °C identical at this scale.
+  if (k < 1e9) {
+    const mK = k / 1e6;
+    return `${mK.toPrecision(3)} million K (≈ same in °C)`;
+  }
+
+  // Billions and beyond.
+  const bK = k / 1e9;
+  return `${bK.toPrecision(3)} billion K (≈ same in °C)`;
+}
+
 const DEFAULT_METERS_LABELS: Record<string, string> = {
   "common.numberMillion": "million",
   "common.numberBillion": "billion",
