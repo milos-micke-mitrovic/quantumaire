@@ -42,7 +42,12 @@ export const REFERENCES: Reference[] = [
   { id: "moonDistance", meters: 3.844e8, kind: "distance" }, // Earth–Moon distance
   { id: "sun", meters: 1.39e9, kind: "size" }, // Sun — diameter
   { id: "au", meters: 1.496e11, kind: "distance" }, // 1 AU — Earth–Sun distance
-  { id: "lightYear", meters: 9.4607304725808e15, kind: "distance" }, // 1 light-year
+  // Real cosmic destinations instead of "1 light-year" (a unit isn't a
+  // useful comparison target — "53 million× farther than 1 light-year"
+  // just restates the number).
+  { id: "proximaCentauri", meters: 4.014e16, kind: "distance" }, // 4.24 ly — nearest star
+  { id: "galacticCenter", meters: 2.46e20, kind: "distance" }, // ~26,000 ly — Milky Way centre
+  { id: "andromedaDistance", meters: 2.4e22, kind: "distance" }, // ~2.5M ly — Andromeda galaxy
 ];
 
 /** Look up a single reference by id. */

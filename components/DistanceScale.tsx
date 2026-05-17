@@ -103,46 +103,53 @@ export function DistanceScale({ highlightStopId }: DistanceScaleProps = {}) {
         </div>
       </header>
 
-      <div className="relative h-12">
-        <div className="absolute left-0 right-0 top-1/2 h-[2px] -translate-y-1/2 rounded-full bg-gradient-to-r from-cosmos-aurora/30 via-cosmos-plasma/60 to-cosmos-nova/30" />
+      <div className="-mx-4 overflow-x-auto pb-3 sm:mx-0 sm:overflow-visible sm:pb-0 [scrollbar-width:thin]">
+        <div
+          className="relative h-12 mx-4 sm:mx-0 min-w-[var(--scale-min)] sm:min-w-0"
+          style={
+            { "--scale-min": `${items.length * 44}px` } as React.CSSProperties
+          }
+        >
+          <div className="absolute inset-x-0 top-1/2 h-[2px] -translate-y-1/2 rounded-full bg-gradient-to-r from-cosmos-aurora/30 via-cosmos-plasma/60 to-cosmos-nova/30" />
 
-        {items.map((item, idx) => {
-          const pct = lastIdx === 0 ? 50 : (idx / lastIdx) * 100;
-          const isActive = idx === activeIdx;
-          const isHighlighted = idx === highlightIdx;
-          const distanceForLabel = item.isOrigin
-            ? t("common.here")
-            : formatMeters(item.stop.distanceFromEarthMeters as number, t, units);
-          const itemName = t(
-            item.stop.distanceNameKey ?? `${item.stop.i18nKey}.name`
-          );
-          return (
-            <button
-              key={item.stop.id}
-              type="button"
-              onFocus={() => setActiveIdx(idx)}
-              onClick={() => setActiveIdx(idx)}
-              aria-label={`${itemName} — ${distanceForLabel}`}
-              aria-pressed={isActive}
-              aria-current={isHighlighted ? "location" : undefined}
-              style={{ left: `${pct}%` }}
-              className="group/dot absolute top-1/2 -translate-x-1/2 -translate-y-1/2 p-1.5 focus:outline-none"
-            >
-              <span
-                className={clsx(
-                  "block rounded-full transition-all duration-150",
-                  isHighlighted
-                    ? "h-5 w-5 bg-cosmos-aurora ring-2 ring-cosmos-aurora/60 ring-offset-2 ring-offset-cosmos-deep"
-                    : isActive
-                      ? "h-4 w-4 bg-cosmos-nova ring-1 ring-white/20"
-                      : item.isOrigin
-                        ? "h-3 w-3 bg-cosmos-aurora/80 ring-1 ring-cosmos-aurora/60 group-hover/dot:scale-125"
-                        : "h-2.5 w-2.5 bg-cosmos-star/70 ring-1 ring-white/20 group-hover/dot:scale-125 group-hover/dot:bg-cosmos-plasma"
-                )}
-              />
-            </button>
-          );
-        })}
+          {items.map((item, idx) => {
+            const pct = lastIdx === 0 ? 50 : (idx / lastIdx) * 100;
+            const isActive = idx === activeIdx;
+            const isHighlighted = idx === highlightIdx;
+            const distanceForLabel = item.isOrigin
+              ? t("common.here")
+              : formatMeters(item.stop.distanceFromEarthMeters as number, t, units);
+            const itemName = t(
+              item.stop.distanceNameKey ?? `${item.stop.i18nKey}.name`
+            );
+            return (
+              <button
+                key={item.stop.id}
+                type="button"
+                onFocus={() => setActiveIdx(idx)}
+                onClick={() => setActiveIdx(idx)}
+                aria-label={`${itemName} — ${distanceForLabel}`}
+                aria-pressed={isActive}
+                aria-current={isHighlighted ? "location" : undefined}
+                style={{ left: `${pct}%` }}
+                className="group/dot absolute top-1/2 -translate-x-1/2 -translate-y-1/2 p-2 focus:outline-none sm:p-1.5"
+              >
+                <span
+                  className={clsx(
+                    "block rounded-full transition-all duration-150",
+                    isHighlighted
+                      ? "h-5 w-5 bg-cosmos-aurora ring-2 ring-cosmos-aurora/60 ring-offset-2 ring-offset-cosmos-deep"
+                      : isActive
+                        ? "h-4 w-4 bg-cosmos-nova ring-1 ring-white/20"
+                        : item.isOrigin
+                          ? "h-3 w-3 bg-cosmos-aurora/80 ring-1 ring-cosmos-aurora/60 group-hover/dot:scale-125"
+                          : "h-3 w-3 bg-cosmos-star/70 ring-1 ring-white/20 group-hover/dot:scale-125 group-hover/dot:bg-cosmos-plasma"
+                  )}
+                />
+              </button>
+            );
+          })}
+        </div>
       </div>
 
       <p className="mt-4 text-[11px] leading-relaxed text-cosmos-star/55">

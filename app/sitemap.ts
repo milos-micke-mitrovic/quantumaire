@@ -52,6 +52,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
 
     entries.push({
+      url: `${SITE_URL}/${locale}/tools/between`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7,
+      alternates: alternates("tools/between"),
+    });
+
+    entries.push({
       url: `${SITE_URL}/${locale}/compare`,
       lastModified: now,
       changeFrequency: "monthly",

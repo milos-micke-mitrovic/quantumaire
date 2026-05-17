@@ -57,7 +57,9 @@ export function MobileNav() {
     { href: `/${locale}/topics`, label: t("topicsIndex.title") },
     { href: `/${locale}/glossary`, label: t("common.glossary") },
     { href: `/${locale}/tools/scale`, label: t("common.scaleTool.title") },
+    { href: `/${locale}/tools/between`, label: t("common.betweenTool.title") },
     { href: `/${locale}/compare`, label: t("common.compare") },
+    { href: `/${locale}/favorites`, label: t("common.bookmarksTitle") },
     { href: `/${locale}/progress`, label: t("common.progress.title") },
     { href: `/${locale}/random`, label: t("common.random") },
   ];

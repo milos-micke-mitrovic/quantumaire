@@ -99,8 +99,13 @@ export function buildPageMetadata(input: PageSeoInput): Metadata {
           width: 1200,
           height: 630,
           alt: imageAlt,
+          type: "image/png",
         },
       ],
+    },
+    other: {
+      rating: "general",
+      "content-language": HREFLANG_MAP[locale],
     },
     twitter: {
       card: "summary_large_image",
@@ -242,6 +247,10 @@ export function stopJsonLd(
     accessMode: ["textual", "visual"],
     accessModeSufficient: ["textual"],
     isAccessibleForFree: true,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", ".stop-tagline", ".stop-body"],
+    },
   };
 
   if (keywords.length > 0) base.keywords = keywords.join(", ");
@@ -299,6 +308,59 @@ export function categoryFaqJsonLd(
   }
 
   return faqJsonLd(faqs);
+}
+
+/** Article schema for editorial topic pages — pairs well with breadcrumbs. */
+export function articleJsonLd(
+  locale: Locale,
+  path: string,
+  payload: {
+    headline: string;
+    description: string;
+    body?: string;
+    image?: string;
+    section?: string;
+  }
+) {
+  const url = absoluteUrl(locale, path);
+  const article: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": url,
+    headline: payload.headline,
+    description: payload.description,
+    url,
+    inLanguage: HREFLANG_MAP[locale],
+    datePublished: SITE_PUBLISHED,
+    dateModified: SITE_MODIFIED,
+    author: {
+      "@type": "EducationalOrganization",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+    publisher: {
+      "@type": "EducationalOrganization",
+      name: SITE_NAME,
+      url: SITE_URL,
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.svg` },
+    },
+    isPartOf: { "@type": "WebSite", name: SITE_NAME, url: SITE_URL },
+    isAccessibleForFree: true,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "p"],
+    },
+  };
+  if (payload.body) article.articleBody = payload.body;
+  if (payload.image) {
+    article.image = {
+      "@type": "ImageObject",
+      url: payload.image,
+      representativeOfPage: true,
+    };
+  }
+  if (payload.section) article.articleSection = payload.section;
+  return article;
 }
 
 export function breadcrumbJsonLd(

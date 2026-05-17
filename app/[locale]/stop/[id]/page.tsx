@@ -15,6 +15,7 @@ import {
   breadcrumbJsonLd,
   buildPageMetadata,
   LOCALES,
+  SITE_MODIFIED,
   stopJsonLd,
 } from "@/lib/seo";
 import type { Locale } from "@/lib/types";
@@ -98,7 +99,13 @@ export default async function StopPage({ params }: PageProps) {
           ]),
         ]}
       />
-      <StopDetail stop={stop} prev={prev} next={next} related={related} />
+      <StopDetail
+        stop={stop}
+        prev={prev}
+        next={next}
+        related={related}
+        lastUpdated={SITE_MODIFIED}
+      />
       <SiteFooter />
     </>
   );

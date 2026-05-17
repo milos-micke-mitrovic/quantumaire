@@ -41,6 +41,9 @@ export function GET() {
       `- [Scale calculator](${SITE_URL}/${locale}/tools/scale) — type any length and see it shrunk to grain-scale`
     );
     lines.push(
+      `- [What's in between?](${SITE_URL}/${locale}/tools/between) — list every stop between two sizes`
+    );
+    lines.push(
       `- [Compare two stops](${SITE_URL}/${locale}/compare) — pick any two stops and see their scale ratio`
     );
     lines.push(

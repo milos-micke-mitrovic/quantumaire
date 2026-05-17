@@ -8,6 +8,7 @@ import { useI18n } from "@/lib/i18n";
 import { categorySlug } from "@/lib/content";
 import { useMarkVisited } from "@/lib/visited";
 import { Badge } from "./Badge";
+import { BookmarkButton } from "./BookmarkButton";
 import { ComparisonStrip } from "./ComparisonStrip";
 import { IfDistancePanel } from "./IfDistancePanel";
 import { GlossaryTerm } from "./GlossaryTerm";
@@ -32,9 +33,17 @@ interface StopDetailProps {
   prev: Stop | null;
   next: Stop | null;
   related: Stop[];
+  /** Build-time ISO date (YYYY-MM-DD) for the "last updated" footer line. */
+  lastUpdated: string;
 }
 
-export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
+export function StopDetail({
+  stop,
+  prev,
+  next,
+  related,
+  lastUpdated,
+}: StopDetailProps) {
   const { t, locale } = useI18n();
   useMarkVisited(stop.id);
 
@@ -126,6 +135,7 @@ export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
               {t(`${stop.i18nKey}.tagline`)}
             </p>
             <div className="mt-5 flex flex-wrap items-center gap-2 print:hidden">
+              <BookmarkButton stopId={stop.id} size="md" />
               <ShareBar title={t(`${stop.i18nKey}.name`)} />
               {stop.id !== "earth" && (
                 <Link
@@ -213,6 +223,10 @@ export function StopDetail({ stop, prev, next, related }: StopDetailProps) {
       {stop.sources && stop.sources.length > 0 && (
         <Sources sources={stop.sources} />
       )}
+
+      <p className="mt-5 text-[10px] uppercase tracking-[0.22em] text-cosmos-star/40">
+        {t("common.lastUpdated", { date: lastUpdated })}
+      </p>
 
       <JourneyMinimap stopId={stop.id} />
 

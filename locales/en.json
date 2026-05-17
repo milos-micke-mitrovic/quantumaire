@@ -103,6 +103,19 @@
     "menuOpen": "Open menu",
     "menuClose": "Close menu",
     "menuLabel": "Menu",
+    "lastUpdated": "Last updated {date}",
+    "bookmarkAdd": "Save to favorites",
+    "bookmarkRemove": "Remove from favorites",
+    "bookmarksTitle": "Favorites",
+    "bookmarksTagline": "The stops you've saved for later.",
+    "bookmarksEmpty": "You haven't saved any stops yet. Open a stop and tap the heart to add it here.",
+    "betweenTool": {
+      "title": "What's in between?",
+      "tagline": "Pick any two stops and see every object that fits between them by size.",
+      "from": "From",
+      "to": "To",
+      "foundCount": "{count} stops fall in this range"
+    },
     "random": "Random stop",
     "skipToContent": "Skip to main content",
     "backToTop": "Back to top",
@@ -248,7 +261,9 @@
     "moonDistance": "the distance to the Moon",
     "sun": "the Sun",
     "au": "Earth's orbit",
-    "lightYear": "a light-year"
+    "proximaCentauri": "the distance to Proxima Centauri",
+    "galacticCenter": "the distance to the galactic centre",
+    "andromedaDistance": "the distance to Andromeda"
   },
   "referenceLabels": {
     "hair": "Human hair",
@@ -262,7 +277,9 @@
     "moonDistance": "Moon",
     "sun": "Sun",
     "au": "Sun",
-    "lightYear": "Light-year"
+    "proximaCentauri": "Proxima Centauri",
+    "galacticCenter": "Galactic centre",
+    "andromedaDistance": "Andromeda"
   },
   "tags": {
     "particle": "Particle",

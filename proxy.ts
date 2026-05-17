@@ -26,11 +26,21 @@ function pickLocale(req: NextRequest): Locale {
   return DEFAULT_LOCALE;
 }
 
+function startsWithLocale(pathname: string): boolean {
+  for (const l of LOCALES) {
+    if (pathname === `/${l}` || pathname.startsWith(`/${l}/`)) return true;
+  }
+  return false;
+}
+
 /**
  * Two jobs:
  *
- * 1. On bare `/`, redirect to the visitor's preferred `/${locale}` based on
- *    the cookie or Accept-Language header.
+ * 1. Any path missing a locale prefix (`/`, `/foo`, `/typo`, …) is redirected
+ *    to `/${locale}${pathname}` based on the visitor's cookie or
+ *    Accept-Language. That way unknown URLs 404 in the visitor's language via
+ *    `[locale]/not-found.tsx` instead of falling through to the bilingual
+ *    root `not-found.tsx`.
  *
  * 2. On every other page, forward the request pathname to the server-rendered
  *    root layout via an `x-pathname` header so it can emit the correct
@@ -40,11 +50,10 @@ function pickLocale(req: NextRequest): Locale {
 export function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
-  // Redirect bare root to a locale.
-  if (pathname === "/") {
+  if (!startsWithLocale(pathname)) {
     const locale = pickLocale(req);
     const url = req.nextUrl.clone();
-    url.pathname = `/${locale}`;
+    url.pathname = pathname === "/" ? `/${locale}` : `/${locale}${pathname}`;
     return NextResponse.redirect(url);
   }
 

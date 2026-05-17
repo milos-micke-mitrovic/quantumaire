@@ -19,6 +19,8 @@ interface StopDistanceCardProps {
 const REFERENCE_TO_STOP_ID: Record<string, string> = {
   moonDistance: "moon",
   au: "sun",
+  proximaCentauri: "proxima_centauri",
+  andromedaDistance: "andromeda",
 };
 
 interface DistanceVisual {

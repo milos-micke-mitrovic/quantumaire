@@ -103,6 +103,19 @@
     "menuOpen": "Otvori meni",
     "menuClose": "Zatvori meni",
     "menuLabel": "Meni",
+    "lastUpdated": "Poslednje ažuriranje {date}",
+    "bookmarkAdd": "Sačuvaj u omiljene",
+    "bookmarkRemove": "Ukloni iz omiljenih",
+    "bookmarksTitle": "Omiljene",
+    "bookmarksTagline": "Stanice koje si sačuvao za kasnije.",
+    "bookmarksEmpty": "Još nisi sačuvao nijednu stanicu. Otvori stanicu i dodirni srce da je dodaš ovde.",
+    "betweenTool": {
+      "title": "Šta je između?",
+      "tagline": "Izaberi dve stanice i vidi sve objekte koji po veličini staju između njih.",
+      "from": "Od",
+      "to": "Do",
+      "foundCount": "{count} stanica je u ovom opsegu"
+    },
     "random": "Slučajna stanica",
     "skipToContent": "Preskoči na glavni sadržaj",
     "backToTop": "Nazad na vrh",
@@ -248,7 +261,9 @@
     "moonDistance": "rastojanja do Meseca",
     "sun": "Sunca",
     "au": "Zemljine orbite",
-    "lightYear": "svetlosne godine"
+    "proximaCentauri": "rastojanja do Proksime Kentaur",
+    "galacticCenter": "rastojanja do centra galaksije",
+    "andromedaDistance": "rastojanja do Andromede"
   },
   "referenceLabels": {
     "hair": "Ljudska vlas",
@@ -262,7 +277,9 @@
     "moonDistance": "Mesec",
     "sun": "Sunce",
     "au": "Sunce",
-    "lightYear": "Svetlosna godina"
+    "proximaCentauri": "Proksima Kentaur",
+    "galacticCenter": "Centar galaksije",
+    "andromedaDistance": "Andromeda"
   },
   "tags": {
     "particle": "Čestica",

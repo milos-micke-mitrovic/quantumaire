@@ -54,6 +54,8 @@ export function ImagePlaceholder({
           priority={priority}
           sizes="(min-width: 1024px) 50vw, 100vw"
           className="object-cover"
+          placeholder="blur"
+          blurDataURL="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxIDEiPjxyZWN0IGZpbGw9IiMwYTA4MTUiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48L3N2Zz4="
           onError={() => setMissing(true)}
         />
       )}

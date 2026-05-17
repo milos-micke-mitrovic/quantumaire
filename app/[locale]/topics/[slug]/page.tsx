@@ -6,11 +6,10 @@ import { TopicView } from "@/components/TopicView";
 import { TOPICS, getTopic } from "@/lib/topics";
 import { tServer } from "@/lib/i18n-server";
 import {
-  absoluteUrl,
+  articleJsonLd,
   breadcrumbJsonLd,
   buildPageMetadata,
   LOCALES,
-  SITE_NAME,
 } from "@/lib/seo";
 import type { Locale } from "@/lib/types";
 
@@ -56,16 +55,12 @@ export default async function TopicPage({ params }: PageProps) {
   const intro = tServer(typed, `${topic.i18nKey}.intro`);
 
   const articleLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "@id": absoluteUrl(typed, `topics/${slug}`),
-    name: title,
-    headline: title,
-    description: tagline,
-    abstract: intro,
-    inLanguage: typed === "sr" ? "sr-Latn-RS" : "en",
-    isPartOf: { "@type": "WebSite", name: SITE_NAME, url: absoluteUrl(typed, "") },
-    publisher: { "@type": "Organization", name: SITE_NAME, url: absoluteUrl(typed, "") },
+    ...articleJsonLd(typed, `topics/${slug}`, {
+      headline: title,
+      description: tagline,
+      body: intro,
+      section: tServer(typed, "topicsIndex.title"),
+    }),
     citation: topic.sources.map((s) => ({
       "@type": "CreativeWork",
       name: s.label,

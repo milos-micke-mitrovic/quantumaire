@@ -38,7 +38,7 @@ export function BackToTop() {
           exit={{ opacity: 0, y: 16 }}
           transition={{ duration: 0.2 }}
           aria-label={t("common.backToTop")}
-          className="fixed bottom-4 left-4 z-40 grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-cosmos-deep/85 text-cosmos-star/85 shadow-glow backdrop-blur-md transition-colors hover:bg-cosmos-deep hover:text-cosmos-star"
+          className="fixed bottom-5 right-5 z-40 grid h-12 w-12 place-items-center rounded-full border border-white/15 bg-cosmos-deep/95 text-cosmos-star shadow-glow backdrop-blur-md transition-colors hover:bg-cosmos-deep sm:bottom-6 sm:right-6 sm:h-11 sm:w-11"
         >
           <svg
             viewBox="0 0 24 24"

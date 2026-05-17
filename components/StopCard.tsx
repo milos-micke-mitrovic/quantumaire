@@ -9,6 +9,7 @@ import { categorySlug } from "@/lib/content";
 import { formatMeters, formatTemperature } from "@/lib/scale";
 import { useUnits } from "@/lib/units";
 import { useVisited } from "@/lib/visited";
+import { BookmarkButton } from "./BookmarkButton";
 import { ImagePlaceholder } from "./ImagePlaceholder";
 import { StopTags } from "./StopTags";
 
@@ -51,7 +52,7 @@ export function StopCard({ stop, index }: StopCardProps) {
             <span
               aria-label={t("common.visited.marker")}
               title={t("common.visited.marker")}
-              className="absolute right-2 top-2 inline-flex h-7 w-7 items-center justify-center rounded-full bg-cosmos-deep/85 text-cosmos-nova shadow-glow backdrop-blur-sm"
+              className="absolute left-2 top-2 inline-flex h-7 w-7 items-center justify-center rounded-full bg-cosmos-deep/85 text-cosmos-nova shadow-glow backdrop-blur-sm"
             >
               <svg
                 viewBox="0 0 24 24"
@@ -63,6 +64,9 @@ export function StopCard({ stop, index }: StopCardProps) {
               </svg>
             </span>
           )}
+          <div className="absolute right-2 top-2">
+            <BookmarkButton stopId={stop.id} size="sm" />
+          </div>
         </div>
 
         <div className="flex items-start justify-between text-[10px] font-mono uppercase tracking-[0.18em] text-cosmos-star/55">

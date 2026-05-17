@@ -3,10 +3,14 @@
 import {
   cloneElement,
   isValidElement,
+  type MouseEvent,
   type ReactElement,
   type ReactNode,
+  useEffect,
   useId,
+  useRef,
   useState,
+  useSyncExternalStore,
 } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -17,22 +21,60 @@ interface TooltipProps {
   side?: "top" | "bottom";
 }
 
+const NO_SUBSCRIBE = () => () => {};
+
 export function Tooltip({ content, children, side = "top" }: TooltipProps) {
   const [open, setOpen] = useState(false);
   const id = useId();
+  const wrapperRef = useRef<HTMLSpanElement>(null);
+
+  // SSR-safe pointer detection: false on server, real value on client.
+  const isTouch = useSyncExternalStore(
+    NO_SUBSCRIBE,
+    () =>
+      typeof window !== "undefined" &&
+      window.matchMedia("(hover: none)").matches,
+    () => false
+  );
+
+  // On touch devices, dismiss the tooltip when the user taps elsewhere.
+  useEffect(() => {
+    if (!open || !isTouch) return;
+    function onOutside(e: TouchEvent | MouseEvent) {
+      if (!wrapperRef.current?.contains(e.target as Node)) setOpen(false);
+    }
+    document.addEventListener("touchstart", onOutside as EventListener);
+    document.addEventListener("mousedown", onOutside as EventListener);
+    return () => {
+      document.removeEventListener("touchstart", onOutside as EventListener);
+      document.removeEventListener("mousedown", onOutside as EventListener);
+    };
+  }, [open, isTouch]);
 
   if (!isValidElement(children)) return <>{children}</>;
 
+  // Touch flow: first tap opens the tooltip and cancels navigation; second
+  // tap (now that it's open) lets the underlying Link navigate as normal.
+  function onClickCapture(e: MouseEvent) {
+    if (!isTouch) return;
+    if (!open) {
+      e.preventDefault();
+      e.stopPropagation();
+      setOpen(true);
+    }
+  }
+
   const triggerProps = {
-    onMouseEnter: () => setOpen(true),
-    onMouseLeave: () => setOpen(false),
+    onMouseEnter: () => !isTouch && setOpen(true),
+    onMouseLeave: () => !isTouch && setOpen(false),
     onFocus: () => setOpen(true),
-    onBlur: () => setOpen(false),
+    onBlur: () => !isTouch && setOpen(false),
+    onClickCapture,
     "aria-describedby": open ? id : undefined,
   };
 
   return (
-    <span className="relative inline-flex">
+    <span ref={wrapperRef} className="relative inline-flex">
       {cloneElement(
         children as ReactElement<Record<string, unknown>>,
         triggerProps
