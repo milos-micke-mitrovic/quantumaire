@@ -11,6 +11,7 @@ import {
 } from "@/lib/content";
 import { tServer } from "@/lib/i18n-server";
 import {
+  absoluteUrl,
   breadcrumbJsonLd,
   buildPageMetadata,
   LOCALES,
@@ -87,6 +88,9 @@ export default async function StopPage({ params }: PageProps) {
             body,
             altText,
             facts,
+            relatedStopUrls: related.map((r) =>
+              absoluteUrl(typed, `stop/${r.id}`)
+            ),
           }),
           breadcrumbJsonLd(typed, [
             { name: tServer(typed, "common.title"), path: "" },

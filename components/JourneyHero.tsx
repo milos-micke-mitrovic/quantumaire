@@ -36,16 +36,11 @@ export function JourneyHero() {
           {t("common.title")}
         </motion.p>
 
-        <motion.h1
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.05 }}
-          className="mt-6 font-display text-4xl font-semibold leading-[1.05] tracking-tight text-cosmos-star sm:text-6xl"
-        >
+        <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.05] tracking-tight text-cosmos-star sm:text-6xl">
           <span className="bg-aurora-gradient bg-clip-text text-transparent">
             {t("common.tagline")}
           </span>
-        </motion.h1>
+        </h1>
 
         <motion.p
           initial={{ opacity: 0, y: 24 }}

@@ -1209,5 +1209,12 @@
       "term": "Supernova Tipa Ia",
       "definition": "Termonuklearna supernova koja nastaje kada beli patuljak u binarnom sistemu prikupi dovoljno materije da pokrene lančanu fuziju ugljenika. Njihova dosledna vršna sjajnost čini ih kosmičkim merilima udaljenosti."
     }
+  },
+  "faq": {
+    "category": {
+      "included": "Koje stanice spadaju u kategoriju {category}?",
+      "smallest": "Koji je najmanji objekat u kategoriji {category}?",
+      "largest": "Koji je najveći objekat u kategoriji {category}?"
+    }
   }
 }

@@ -32,8 +32,7 @@ interface I18nContextValue {
 
 const I18nContext = createContext<I18nContextValue | null>(null);
 
-function resolveKey(dict: Dictionary, key: string): string | undefined {
-  const parts = key.split(".");
+function walkPath(dict: Dictionary, parts: string[]): unknown {
   let cur: unknown = dict;
   for (const part of parts) {
     if (cur && typeof cur === "object" && part in (cur as Dictionary)) {
@@ -42,7 +41,25 @@ function resolveKey(dict: Dictionary, key: string): string | undefined {
       return undefined;
     }
   }
-  return typeof cur === "string" ? cur : undefined;
+  return cur;
+}
+
+function resolveKey(dict: Dictionary, key: string): string | undefined {
+  const parts = key.split(".");
+  const deep = walkPath(dict, parts);
+  if (typeof deep === "string") return deep;
+
+  // Fallback: some keys are stored flat with literal dots (e.g.
+  // `categories.MICRO_WORLD.description` is one flat key under `categories`).
+  for (let i = parts.length - 1; i > 0; i--) {
+    const head = walkPath(dict, parts.slice(0, i));
+    const tail = parts.slice(i).join(".");
+    if (head && typeof head === "object" && tail in (head as Dictionary)) {
+      const val = (head as Dictionary)[tail];
+      if (typeof val === "string") return val;
+    }
+  }
+  return undefined;
 }
 
 function interpolate(

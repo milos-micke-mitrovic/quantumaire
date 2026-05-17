@@ -14,6 +14,7 @@ import {
   absoluteUrl,
   breadcrumbJsonLd,
   buildPageMetadata,
+  categoryFaqJsonLd,
   LOCALES,
   SITE_NAME,
 } from "@/lib/seo";
@@ -83,17 +84,19 @@ export default async function CategoryPage({ params }: PageProps) {
     },
   };
 
+  const faqLd = categoryFaqJsonLd(typed, name, stops);
+  const jsonLdData: Array<Record<string, unknown>> = [
+    collectionLd,
+    breadcrumbJsonLd(typed, [
+      { name: tServer(typed, "common.title"), path: "" },
+      { name, path: `category/${slug}` },
+    ]),
+  ];
+  if (faqLd) jsonLdData.push(faqLd);
+
   return (
     <>
-      <JsonLd
-        data={[
-          collectionLd,
-          breadcrumbJsonLd(typed, [
-            { name: tServer(typed, "common.title"), path: "" },
-            { name, path: `category/${slug}` },
-          ]),
-        ]}
-      />
+      <JsonLd data={jsonLdData} />
       <CategoryView category={category} stops={stops} />
       <SiteFooter />
     </>

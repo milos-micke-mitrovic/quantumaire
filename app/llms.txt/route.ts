@@ -1,6 +1,7 @@
 import { CATEGORIES, STOPS, categorySlug } from "@/lib/content";
 import { TOPICS } from "@/lib/topics";
 import { tServer } from "@/lib/i18n-server";
+import { formatMeters, formatTemperature } from "@/lib/scale";
 import { LOCALES, SITE_URL } from "@/lib/seo";
 
 export const dynamic = "force-static";
@@ -72,8 +73,22 @@ export function GET() {
     for (const stop of STOPS) {
       const name = tServer(locale, `${stop.i18nKey}.name`);
       const tag = tServer(locale, `${stop.i18nKey}.tagline`);
+      const url = `${SITE_URL}/${locale}/stop/${stop.id}`;
+      const facts: string[] = [];
+      if (typeof stop.sizeMeters === "number") {
+        facts.push(`size ${formatMeters(stop.sizeMeters)}`);
+      }
+      if (typeof stop.distanceFromEarthMeters === "number") {
+        facts.push(
+          `distance from Earth ${formatMeters(stop.distanceFromEarthMeters)}`
+        );
+      }
+      if (typeof stop.temperatureKelvin === "number") {
+        facts.push(`temperature ${formatTemperature(stop.temperatureKelvin)}`);
+      }
+      const factSuffix = facts.length > 0 ? ` (${facts.join("; ")})` : "";
       lines.push(
-        `- [${name}](${SITE_URL}/${locale}/stop/${stop.id}) — ${tag}`
+        `- [${name}](${url}) — ${tag}${factSuffix} [${stop.badge}]`
       );
     }
     lines.push("");
@@ -94,6 +109,9 @@ export function GET() {
   lines.push("");
   lines.push("## Optional");
   lines.push("");
+  lines.push(
+    `- [Full text](${SITE_URL}/llms-full.txt) — every stop's complete body, narrative, key facts, and sources in both locales`
+  );
   lines.push(`- [Sitemap](${SITE_URL}/sitemap.xml)`);
   lines.push(`- [Robots](${SITE_URL}/robots.txt)`);
 

@@ -1209,5 +1209,12 @@
       "term": "Type Ia supernova",
       "definition": "A thermonuclear supernova produced when a white dwarf in a binary system gathers enough matter to ignite runaway carbon fusion. Their consistent peak brightness makes them cosmic distance rulers."
     }
+  },
+  "faq": {
+    "category": {
+      "included": "What stops are in the {category} category?",
+      "smallest": "What is the smallest object in {category}?",
+      "largest": "What is the largest object in {category}?"
+    }
   }
 }

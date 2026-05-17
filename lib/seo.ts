@@ -8,13 +8,18 @@ import { tServer } from "./i18n-server";
  * once a production domain is chosen.
  */
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://quantumaire.com"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://quantumaire.space"
 ).replace(/\/$/, "");
 
 export const SITE_NAME = "Quantumaire";
 
 export const DEFAULT_OG_IMAGE = `${SITE_URL}/og/quantumaire-cover.png`;
 export const TWITTER_HANDLE = "@quantumaire";
+
+/** First public release of the journey. Used for schema.org datePublished. */
+export const SITE_PUBLISHED = "2025-09-01";
+/** Build-time modification stamp baked into JSON-LD. */
+export const SITE_MODIFIED = new Date().toISOString().slice(0, 10);
 
 export const LOCALES: Locale[] = ["en", "sr"];
 export const DEFAULT_LOCALE: Locale = "en";
@@ -166,6 +171,7 @@ export function stopJsonLd(
     body: string;
     altText: string;
     facts?: string[];
+    relatedStopUrls?: string[];
   }
 ) {
   const url = absoluteUrl(locale, `stop/${stop.id}`);
@@ -174,6 +180,18 @@ export function stopJsonLd(
     name: s.label,
     url: s.url,
   }));
+
+  const imageObject: Record<string, unknown> = {
+    "@type": "ImageObject",
+    url: `${SITE_URL}${stop.image.src}`,
+    caption: payload.altText,
+    representativeOfPage: true,
+  };
+  if (stop.image.credit) imageObject.creditText = stop.image.credit;
+
+  const keywords: string[] = [];
+  if (stop.tags) keywords.push(...stop.tags);
+  if (payload.facts) keywords.push(...payload.facts);
 
   const base: Record<string, unknown> = {
     "@context": "https://schema.org",
@@ -192,17 +210,95 @@ export function stopJsonLd(
     },
     educationalLevel: "general",
     learningResourceType: "Article",
+    educationalUse: ["selfStudy", "popularScience"],
     creditText: badgeToCreditText(stop.badge, locale),
-    publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
-    image: `${SITE_URL}${stop.image.src}`,
+    author: {
+      "@type": "EducationalOrganization",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+    publisher: {
+      "@type": "EducationalOrganization",
+      name: SITE_NAME,
+      url: SITE_URL,
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.svg` },
+    },
+    image: imageObject,
+    primaryImageOfPage: imageObject,
     about: payload.name,
+    datePublished: SITE_PUBLISHED,
+    dateModified: SITE_MODIFIED,
+    audience: {
+      "@type": "EducationalAudience",
+      educationalRole: "general public",
+    },
+    accessibilityFeature: [
+      "alternativeText",
+      "readingOrder",
+      "tableOfContents",
+      "highContrastDisplay",
+    ],
+    accessibilityHazard: "none",
+    accessMode: ["textual", "visual"],
+    accessModeSufficient: ["textual"],
+    isAccessibleForFree: true,
   };
 
+  if (keywords.length > 0) base.keywords = keywords.join(", ");
   if (citations.length > 0) base.citation = citations;
-  if (payload.facts && payload.facts.length > 0) {
-    base.keywords = payload.facts.join("; ");
+  if (payload.relatedStopUrls && payload.relatedStopUrls.length > 0) {
+    base.mentions = payload.relatedStopUrls.map((u) => ({
+      "@type": "Thing",
+      url: u,
+    }));
   }
   return base;
+}
+
+/** FAQPage schema generated from per-category stop list — boosts AI answer engines. */
+export function categoryFaqJsonLd(
+  locale: Locale,
+  categoryName: string,
+  stops: Stop[]
+) {
+  if (stops.length === 0) return null;
+
+  const sized = stops.filter((s) => typeof s.sizeMeters === "number");
+  const sortedBySize = [...sized].sort(
+    (a, b) => (a.sizeMeters as number) - (b.sizeMeters as number)
+  );
+  const smallest = sortedBySize[0];
+  const largest = sortedBySize[sortedBySize.length - 1];
+
+  const stopNames = stops
+    .map((s) => tServer(locale, `${s.i18nKey}.name`))
+    .join(", ");
+
+  const faqs: Array<{ q: string; a: string }> = [];
+
+  faqs.push({
+    q: tServer(locale, "faq.category.included", { category: categoryName }),
+    a: stopNames,
+  });
+
+  if (smallest) {
+    const name = tServer(locale, `${smallest.i18nKey}.name`);
+    const tagline = tServer(locale, `${smallest.i18nKey}.tagline`);
+    faqs.push({
+      q: tServer(locale, "faq.category.smallest", { category: categoryName }),
+      a: `${name} — ${tagline}`,
+    });
+  }
+  if (largest && largest.id !== smallest?.id) {
+    const name = tServer(locale, `${largest.i18nKey}.name`);
+    const tagline = tServer(locale, `${largest.i18nKey}.tagline`);
+    faqs.push({
+      q: tServer(locale, "faq.category.largest", { category: categoryName }),
+      a: `${name} — ${tagline}`,
+    });
+  }
+
+  return faqJsonLd(faqs);
 }
 
 export function breadcrumbJsonLd(
