@@ -186,13 +186,25 @@ export function stopJsonLd(
     url: s.url,
   }));
 
+  // Most stop images come from Wikimedia Commons or NASA public-domain
+  // releases. We attribute per image via `creditText` and point both the
+  // license URL and the license-acquire page at Wikimedia's generic reuse
+  // policy — accurate for any image whose original credit string mentions
+  // a CC-licensed Commons source or a public-domain NASA release.
+  const WIKIMEDIA_LICENSE =
+    "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia";
+  const creditText = stop.image.credit ?? SITE_NAME;
   const imageObject: Record<string, unknown> = {
     "@type": "ImageObject",
     url: `${SITE_URL}${stop.image.src}`,
     caption: payload.altText,
     representativeOfPage: true,
+    creditText,
+    creator: { "@type": "Organization", name: creditText },
+    copyrightNotice: creditText,
+    license: WIKIMEDIA_LICENSE,
+    acquireLicensePage: WIKIMEDIA_LICENSE,
   };
-  if (stop.image.credit) imageObject.creditText = stop.image.credit;
 
   const keywords: string[] = [];
   if (stop.tags) keywords.push(...stop.tags);
