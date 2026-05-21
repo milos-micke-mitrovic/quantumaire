@@ -1169,6 +1169,124 @@
         "star",
         "red-dwarf"
       ]
+    },
+    {
+      "id": "halley",
+      "i18nKey": "stops.halley",
+      "sizeMeters": 11000,
+      "order": 6.5,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/halley.webp",
+        "aspect": "wide",
+        "altKey": "stops.halley.image.alt",
+        "geminiPrompt": "Halley's Comet — a dark peanut-shaped nucleus 15 km across glowing with two long tails: a yellow-white dust tail and a blue ionised gas tail stretching across deep #03030a space, distant Sun a tiny bright point, scattered #f0abfc stars. Cinematic astrophotography, ultra-detailed.",
+        "credit": "ESA / Giotto / Halley Multicolour Camera Team"
+      },
+      "glossary": [
+        "orbit"
+      ],
+      "tags": [
+        "comet"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Halleys_Comet"
+        },
+        {
+          "label": "NASA",
+          "url": "https://science.nasa.gov/solar-system/comets/1p-halley/"
+        },
+        {
+          "label": "Britannica",
+          "url": "https://www.britannica.com/place/Halleys-Comet"
+        }
+      ],
+      "distanceFromEarthMeters": 5300000000000,
+      "temperatureKelvin": 100
+    },
+    {
+      "id": "mars",
+      "i18nKey": "stops.mars",
+      "sizeMeters": 6779000,
+      "order": 7.3,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/mars.webp",
+        "aspect": "square",
+        "altKey": "stops.mars.image.alt",
+        "geminiPrompt": "Mars as a full disc seen from orbit — rust-coloured #fb7185 and #f97316 surface, polar ice cap visible at the north pole in pale #e0f2fe, dark volcanic plains, thin atmosphere haze at the limb, deep #03030a void background. Photographic scientific render, NASA-grade clarity.",
+        "credit": "ESA / Rosetta / OSIRIS"
+      },
+      "glossary": [
+        "orbit"
+      ],
+      "tags": [
+        "planet"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mars"
+        },
+        {
+          "label": "NASA",
+          "url": "https://science.nasa.gov/mars/"
+        },
+        {
+          "label": "Britannica",
+          "url": "https://www.britannica.com/place/Mars-planet"
+        }
+      ],
+      "distanceFromEarthMeters": 225000000000,
+      "temperatureKelvin": 210,
+      "preferredReferenceId": "earthDiameter"
+    },
+    {
+      "id": "pluto",
+      "i18nKey": "stops.pluto",
+      "sizeMeters": 2377000,
+      "order": 7.6,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/pluto.webp",
+        "aspect": "square",
+        "altKey": "stops.pluto.image.alt",
+        "geminiPrompt": "Pluto in true colour as imaged by New Horizons — pale #e0f2fe ice plains in the Tombaugh heart-shaped region, mottled red-brown #fb7185 tholin terrain, dark cratered uplands, deep #03030a void with scattered #c084fc stars. Photographic scientific render, ultra-detailed.",
+        "credit": "NASA / Johns Hopkins APL / SwRI"
+      },
+      "glossary": [
+        "orbit"
+      ],
+      "tags": [
+        "dwarf-planet"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pluto"
+        },
+        {
+          "label": "NASA",
+          "url": "https://science.nasa.gov/dwarf-planets/pluto/"
+        },
+        {
+          "label": "Britannica",
+          "url": "https://www.britannica.com/place/Pluto-dwarf-planet"
+        }
+      ],
+      "distanceFromEarthMeters": 5910000000000,
+      "temperatureKelvin": 44
     }
   ]
 }

@@ -290,7 +290,9 @@
     "psychology": "Psihologija",
     "ancient": "Drevno",
     "planet": "Planeta",
+    "dwarf-planet": "Patuljasta planeta",
     "gas-giant": "Gasoviti džin",
+    "comet": "Kometa",
     "satellite": "Satelit",
     "star": "Zvezda",
     "red-dwarf": "Crveni patuljak",
@@ -321,7 +323,8 @@
         "fact1": "Šest aroma: gornji, donji, šarmantni, čudni, vrh, dno.",
         "fact2": "Nose razlomljeno električno naelektrisanje — ±1/3 ili ±2/3.",
         "fact3": "Uvek zatvoreni unutar hadrona — nikada nisu posmatrani sami.",
-        "fact4": "Nezavisno su ih predložili Gell-Mann i Zweig 1964. godine."
+        "fact4": "Nezavisno su ih predložili Gell-Mann i Zweig 1964. godine.",
+        "fact5": "Neočekivano — penjući se po razmeri u skokovima od po deset puta, do ivice vidljivog svemira stigneš za otprilike 27 skokova od čoveka, a do kvarka u samo 18 skoka nadole. Bliži smo po razmeri kvarku nego ivici kosmosa."
       }
     },
     "proton": {
@@ -542,7 +545,8 @@
         "fact1": "Prečnik oko 93 milijarde svetlosnih godina.",
         "fact2": "Sadrži oko 2 biliona galaksija.",
         "fact3": "Svetlost sa ivice putovala je oko 13,8 milijardi godina.",
-        "fact4": "Sam prostor može — i zaista to čini — širiti se brže od svetlosti."
+        "fact4": "Sam prostor može — i zaista to čini — širiti se brže od svetlosti.",
+        "fact5": "Uzmi najmanju smislenu dužinu u fizici — Plankovu dužinu, oko 10⁻³⁵ m — i prečnik vidljivog svemira. Čovek stoji otprilike na sredini te razmere, malo bliže kosmičkoj strani. Nismo ni veliki ni mali. Razmerom smo podešeni da primetimo oboje."
       }
     },
     "virus": {
@@ -818,6 +822,59 @@
         "fact2": "Prečnik oko 214.000 km — oko 15% Sunčevog.",
         "fact3": "Crvena patuljasta zvezda, sa površinskom temperaturom oko 3.000 K (≈ 2.700 °C).",
         "fact4": "Ima bar dve poznate planete, uključujući Proksimu b u habitabilnoj zoni."
+      }
+    },
+    "mars": {
+      "name": "Mars",
+      "tagline": "Crveni komšija Zemlje — i naša najbolja prilika za drugi dom.",
+      "body": "Mars je hladan, prašnjav svet, prečnika otprilike upola manjeg od Zemljinog, obavijen tako tankom atmosferom da je gotovo i nema. Ali geologija ispod je iznenađujuće poznata: suva korita reka, smrznute polarne kape, vulkani veći od bilo kog na Zemlji, i kanjon — Valles Marineris — toliko širok da bi se protezao od Njujorka do Los Anđelesa. Roveri ga prelaze upravo sada, a ljudi planiraju da krenu za njima.",
+      "narrative": "Stojiš na Marsu vedrog dana — nebo je bledo ružičasto, zalazak sunca plav, a Sunce izgleda dve trećine svoje uobičajene veličine. Zemlju, kada je ugledaš, vidiš kao sjajnu plavu zvezdu.",
+      "ifDistance": "Kada je Mars najbliži Zemlji — jednom u dve godine — i dalje je otprilike 100 miliona puta dalje od Meseca. Radio-signal putuje 3 minuta jednosmerno u trenutku najvećeg približavanja, a 22 minuta kada je Mars sa druge strane Sunca. Roveri moraju da razmišljaju sami uvek kada ne mogu toliko da čekaju.",
+      "funFact": "Olimp (Olympus Mons), najveći poznati vulkan u Sunčevom sistemu, visok je oko 22 km — skoro trostruko više od Mont Everesta iznad njegovog podnožja. Slabija Marsova gravitacija i odsustvo tektonike ploča dozvolili su pojedinačnim vulkanima da narastu toliko.",
+      "image": {
+        "alt": "Mars viđen kao pun disk iz orbite — rđasto obojena površina sa svetlom polarnom ledenom kapom."
+      },
+      "facts": {
+        "fact1": "Prečnik 6.779 km — otprilike upola manji od Zemljinog.",
+        "fact2": "Prosečna udaljenost od Zemlje ~225 miliona km — najbliži prolaz ~54 miliona km.",
+        "fact3": "Prosečna površinska temperatura 210 K (≈ -63 °C); kreće se od 130 K na polovima do 308 K na ekvatoru u podne.",
+        "fact4": "Atmosfera je 95% CO₂ ali manje od 1% Zemljinog pritiska vazduha.",
+        "fact5": "Dom Olimpa (22 km visine) i Valles Marineris-a (4.000 km dužine) — oba rekorderi u Sunčevom sistemu."
+      }
+    },
+    "pluto": {
+      "name": "Pluton",
+      "tagline": "Patuljasta planeta koja je naučila Sunčev sistem da postoji sloj koji smo prevideli.",
+      "body": "Pluton je manji od našeg Meseca, kruži oko Sunca jednom u 248 godina, a 2006. degradiran je sa planete na patuljastu planetu — jer smo neprestano nalazili slične objekte tamo napolju. Onda je 2015. NASA-ina letelica New Horizons proletela pored njega i pokazala svet sa ravnicama azotnog leda, planinama vodenog leda i basenom u obliku srca — Tombaugh Regio — koji niko nije očekivao da vidi na nečemu toliko dalekom od Sunca.",
+      "narrative": "Plutonova ravnica u obliku srca geološki je aktivna — njena površina se obnavlja i danas, milijardama kilometara od bilo kakve topline koju zvezda može pružiti. Šta god je greje, to nije sunčeva svetlost.",
+      "ifDistance": "Sunčevoj svetlosti treba 5,5 sati da stigne do Plutona. Stoj na njegovoj površini u podne i Sunce izgleda kao naročito sjajna zvezda — dovoljno svetla da pri njoj čitaš, ali toliko mala da je možeš pokriti glavom čiode pruženom u ruci.",
+      "funFact": "Pluton i njegov najveći mesec, Haron, plimno su zaključani jedan ka drugom — uvek pokazuju jedan drugom isto lice. Sa Plutona, Haron se nikad ne pomera na nebu. To je usporen partner u valceru koji jednostavno tu visi.",
+      "image": {
+        "alt": "Pluton u stvarnoj boji — blede ledene ravnice, Tombaugh Regio u obliku srca i crvenkast tholinski teren."
+      },
+      "facts": {
+        "fact1": "Prečnik 2.377 km — manji od Zemljinog Meseca.",
+        "fact2": "Prosečna udaljenost od Zemlje ~5,9 milijardi km; jedna Plutonova godina = 248 Zemljinih godina.",
+        "fact3": "Površinska temperatura oko 44 K (≈ -229 °C) — dovoljno hladno da azot smrzne.",
+        "fact4": "Degradiran sa planete na patuljastu planetu 2006. kada su pronađeni slični susedi.",
+        "fact5": "Površina je geološki mlada — tečni azotni led je obnavlja čak i sada."
+      }
+    },
+    "halley": {
+      "name": "Halejeva kometa",
+      "tagline": "Ledeni posetilac koji se vraća jednom u životu čoveka.",
+      "body": "Halejeva kometa je komad leda i prašine u obliku kikirikija, oko 15 km dugačak, na orbiti od 76 godina koja je vodi od iza Neptuna do unutar Venerine orbite. Kada se približi Suncu, led ispari i izrastu joj dva repa — jedan od prašine, drugi od jonizovanog gasa — koji se protežu desetinama miliona kilometara preko neba. Edmond Halej je prvi shvatio da su komete viđene 1531, 1607. i 1682. isti objekat koji se vraća. Predvideo je njen povratak 1758. Nije doživeo da je vidi, ali je došla.",
+      "narrative": "Većina ljudi vidi Halejevu kometu najviše dvaput u životu. Poslednji put je posetila 1986. Sledeći prolaz se očekuje 2061. Isti komad leda to radi pre nego što su sazidane piramide.",
+      "funFact": "ESA-ina letelica Giotto je 1986. proletela na 600 km od Halejevog jezgra — dovoljno blizu da joj je zrno prašine probilo kameru. Većina onoga što znamo o površini dolazi iz tog jedinog prolaza.",
+      "image": {
+        "alt": "Krupni plan jezgra Halejeve komete — tamno telo u obliku kikirikija sa svetlim mlazovima gasa koji erumpiraju ka Suncu."
+      },
+      "facts": {
+        "fact1": "Jezgro je oko 15 × 8 km — nepravilno, u obliku kikirikija.",
+        "fact2": "Orbitalni period: oko 76 godina. Poslednji put viđena 1986; sledeći očekivani prolaz ~2061.",
+        "fact3": "Površina je tamnija od uglja — jedan od najtamnijih objekata u Sunčevom sistemu.",
+        "fact4": "Gubi oko metar površinskog leda po svakom prolazu; vremenom će se ugasiti.",
+        "fact5": "Prvi zabeleženi opažaj je iz 240. p.n.e. u kineskim hronikama — 22 potvrđena pojavljivanja."
       }
     }
   },

@@ -290,7 +290,9 @@
     "psychology": "Psychology",
     "ancient": "Ancient",
     "planet": "Planet",
+    "dwarf-planet": "Dwarf planet",
     "gas-giant": "Gas giant",
+    "comet": "Comet",
     "satellite": "Satellite",
     "star": "Star",
     "red-dwarf": "Red dwarf",
@@ -321,7 +323,8 @@
         "fact1": "Six flavours: up, down, charm, strange, top, bottom.",
         "fact2": "Carry a fractional electric charge — either ±1/3 or ±2/3.",
         "fact3": "Always confined inside hadrons — never observed alone.",
-        "fact4": "Proposed independently by Gell-Mann and Zweig in 1964."
+        "fact4": "Proposed independently by Gell-Mann and Zweig in 1964.",
+        "fact5": "Counterintuitive — climbing scale by powers of ten, you reach the edge of the observable universe in about 27 jumps from a human, but only 18 jumps down to a quark. We are closer in scale to a quark than to the cosmic horizon."
       }
     },
     "proton": {
@@ -542,7 +545,8 @@
         "fact1": "Roughly 93 billion light-years in diameter.",
         "fact2": "Contains an estimated 2 trillion galaxies.",
         "fact3": "Light from its edge has travelled for about 13.8 billion years.",
-        "fact4": "Space itself can — and does — expand faster than light."
+        "fact4": "Space itself can — and does — expand faster than light.",
+        "fact5": "Take the smallest meaningful length in physics — the Planck length, around 10⁻³⁵ m — and the diameter of the observable universe. A human sits roughly in the middle of that scale, slightly closer to the cosmic side. We are not big or small. We are scaled to notice both."
       }
     },
     "virus": {
@@ -818,6 +822,59 @@
         "fact2": "Diameter about 214,000 km — about 15% of the Sun's.",
         "fact3": "A red dwarf, with a surface temperature of around 3,000 K (≈ 2,700 °C).",
         "fact4": "Has at least two known planets, including Proxima b in the habitable zone."
+      }
+    },
+    "mars": {
+      "name": "Mars",
+      "tagline": "Earth's red neighbour — and our best shot at a second home.",
+      "body": "Mars is a cold, dusty world about half Earth's diameter, wrapped in an atmosphere so thin it's barely there. But the geology underneath is shockingly familiar: dry riverbeds, frozen polar caps, volcanoes bigger than any on Earth, and a canyon — Valles Marineris — so wide it would stretch from New York to Los Angeles. We have rovers driving across it right now, and people planning to follow.",
+      "narrative": "Stand on Mars on a clear day and the sky is butterscotch-pink, the sunset is blue, and the sun looks two-thirds its usual size. Earth, when you spot it, is a bright blue star.",
+      "ifDistance": "When Mars is at its closest to Earth — once every two years or so — it's still about 100 million times farther than the Moon. A radio signal takes 3 minutes one-way at closest approach, and 22 minutes when Mars is on the far side of the Sun. Rovers have to think for themselves whenever they can't wait that long.",
+      "funFact": "Olympus Mons, the largest known volcano in the Solar System, is about 22 km tall — almost three times the height of Mount Everest above its base. Mars's weaker gravity and lack of plate tectonics let single volcanoes grow that big.",
+      "image": {
+        "alt": "Mars seen as a full disc from orbit — rust-coloured surface with a bright polar ice cap."
+      },
+      "facts": {
+        "fact1": "Diameter 6,779 km — about half Earth's.",
+        "fact2": "Average distance from Earth ~225 million km — closest pass ~54 million km.",
+        "fact3": "Average surface temperature 210 K (≈ -63 °C); ranges from 130 K at the poles to 308 K at the equator at noon.",
+        "fact4": "Atmosphere is 95% CO₂ but less than 1% of Earth's air pressure.",
+        "fact5": "Hosts Olympus Mons (22 km tall) and Valles Marineris (4,000 km long) — both record-holders in the Solar System."
+      }
+    },
+    "pluto": {
+      "name": "Pluto",
+      "tagline": "The dwarf planet that taught the Solar System has an outer layer we'd missed.",
+      "body": "Pluto is smaller than our Moon, orbits the Sun once every 248 years, and was demoted from planet to dwarf planet in 2006 — because we kept finding objects out there just like it. Then in 2015, NASA's New Horizons spacecraft flew past and showed us a world with nitrogen-ice plains, water-ice mountains, and a heart-shaped basin called Tombaugh Regio that nobody had expected to see on something so far from the Sun.",
+      "narrative": "Pluto's heart-shaped plain is geologically active — its surface is renewing itself even today, billions of kilometres from any warmth a star can provide. Whatever heats it, it isn't sunlight.",
+      "ifDistance": "Sunlight takes 5.5 hours to reach Pluto. Stand on its surface at noon and the Sun looks like a particularly bright star — bright enough to read by, but small enough to cover with the head of a pin held at arm's length.",
+      "funFact": "Pluto and its largest moon, Charon, are tidally locked to each other — they always show each other the same face. From Pluto, Charon never moves in the sky. It's a slow waltz partner that simply hangs there.",
+      "image": {
+        "alt": "Pluto in true colour — pale ice plains, the heart-shaped Tombaugh Regio, and reddish tholin terrain."
+      },
+      "facts": {
+        "fact1": "Diameter 2,377 km — smaller than Earth's Moon.",
+        "fact2": "Average distance from Earth ~5.9 billion km; one Pluto year = 248 Earth years.",
+        "fact3": "Surface temperature around 44 K (≈ -229 °C) — cold enough to freeze nitrogen.",
+        "fact4": "Demoted from planet to dwarf planet in 2006 once similar-sized neighbours were found.",
+        "fact5": "Surface is geologically young — flowing nitrogen ice resurfaces it even now."
+      }
+    },
+    "halley": {
+      "name": "Halley's Comet",
+      "tagline": "An icy visitor that returns every human lifetime.",
+      "body": "Halley's Comet is a peanut-shaped chunk of ice and dust about 15 km long, on a 76-year orbit that swings it from beyond Neptune to inside Venus's orbit. When it nears the Sun, the ice boils off and it grows two tails — one of dust, one of ionised gas — that stretch tens of millions of kilometres across the sky. Edmond Halley was the first to realise that comets seen in 1531, 1607, and 1682 were the same object returning. He predicted its 1758 comeback. He didn't live to see it, but it came.",
+      "narrative": "Most people see Halley's Comet at most twice in their lives. It last visited in 1986. Its next pass is due in 2061. The same chunk of ice has been doing this since before the pyramids.",
+      "funFact": "The 1986 ESA Giotto spacecraft flew within 600 km of Halley's nucleus — close enough that a dust grain punched through its camera. Most of what we know about the surface comes from that single fly-by.",
+      "image": {
+        "alt": "Halley's Comet nucleus close-up — dark peanut-shaped body with bright jets of gas erupting toward the Sun."
+      },
+      "facts": {
+        "fact1": "Nucleus is roughly 15 × 8 km — irregular, peanut-shaped.",
+        "fact2": "Orbital period: about 76 years. Last seen 1986; next expected ~2061.",
+        "fact3": "Surface is darker than coal — one of the darkest objects in the Solar System.",
+        "fact4": "Loses about a metre of surface ice each pass; will eventually fizzle out.",
+        "fact5": "First record of an observation is from 240 BCE in Chinese chronicles — 22 confirmed apparitions on record."
       }
     }
   },
