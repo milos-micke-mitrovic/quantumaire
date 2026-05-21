@@ -357,7 +357,7 @@
       "id": "uy_scuti",
       "i18nKey": "stops.uy_scuti",
       "sizeMeters": 2400000000000,
-      "distanceFromEarthMeters": 89900000000000000000,
+      "distanceFromEarthMeters": 4.93E+19,
       "temperatureKelvin": 3400,
       "order": 10,
       "badge": "FACT",

@@ -467,7 +467,7 @@
       "tagline": "Kada bi zamenila Sunce, progutala bi Jupiter.",
       "body": "UY Scuti je crveni hipergigant toliko naduven da su njegove konvektivne ćelije — pojedinačni mehurovi vrelog gasa koji izbijaju na površini — šire od čitavih planetarnih sistema. Spoljni slojevi su mu rjeđi od Zemljine atmosfere; mogli biste proleteti kroz njih u termo-otpornom brodu i jedva osetiti otpor. Zvezde ove mase ne traju dugo; UY Scuti će na kraju kolapsirati u blistavu supernovu.",
       "narrative": "Hipergiganti poput UY Scuti žive trenutak po kosmičkim merilima — manje od deset miliona godina od rođenja do supernove. Naše Sunce, deset puta manje masivno, već je staro pet milijardi godina i tek je na pola puta.",
-      "ifDistance": "Svetlost koju večeras vidimo sa UY Scuti krenula je sa nje pre oko 9.500 godina — otprilike u vreme kada su ljudi prvi put počeli da gaje žito u Plodnom polumesecu. Svetlost koja danas kreće sa UY Scuti stići će do Zemlje tek kada generacije naših potomaka odu i dođu na svet.",
+      "ifDistance": "Svetlost koju večeras vidimo sa UY Scuti krenula je sa nje pre oko 5.200 godina — otprilike u vreme kada su nicali prvi sumerski gradovi. Svetlost koja danas kreće sa UY Scuti stići će do Zemlje tek kada generacije naših potomaka odu i dođu na svet.",
       "massNarrative": "Iako je stotinama puta šira od Sunca, UY Scuti teži tek oko deset Sunaca. Većina njene zapremine je skoro vakuum — ogroman balon koji drži pritisak, ne gustina.",
       "funFact": "Kada UY Scuti konačno bude eksplodirao kao supernova, na kratko će zasijati jače od čitavog Mlečnog puta zajedno.",
       "image": {
@@ -477,7 +477,7 @@
         "fact1": "Poluprečnik oko 1.700 × Sunčev — među najvećim poznatim.",
         "fact2": "Svetlosti treba oko dva sata da pređe UY Scuti od jedne strane do druge — duže nego da stigne od Sunca do orbite Saturna.",
         "fact3": "Sjaj varira za oko 1,4 magnitude tokom stotina dana.",
-        "fact4": "Udaljena je oko 9.500 svetlosnih godina u sazvežđu Štit."
+        "fact4": "Udaljena je oko 5.200 svetlosnih godina u sazvežđu Štit."
       }
     },
     "milky_way": {
@@ -718,16 +718,16 @@
     "voyager1": {
       "name": "Voyager 1",
       "tagline": "Najdalji objekat koji je čovek napravio — i još uvek se javlja.",
-      "body": "Voyager 1 je lansiran sa Kejp Kanaverala u septembru 1977. u misiji da proleti pored Jupitera i Saturna. Četrdeset osam godina kasnije, još uvek radi — sada u međuzvezdanom prostoru, oko 165 astronomskih jedinica od Zemlje, šaljući slabu liniju podataka o česticama i magnetnim poljima oko sebe. Svakom signalu treba više od 22 sata da stigne do Zemlje brzinom svetlosti.",
+      "body": "Voyager 1 je lansiran sa Kejp Kanaverala u septembru 1977. u misiji da proleti pored Jupitera i Saturna. Četrdeset devet godina kasnije, još uvek radi — sada u međuzvezdanom prostoru, oko 168 astronomskih jedinica od Zemlje, šaljući slabu liniju podataka o česticama i magnetnim poljima oko sebe. Svakom signalu treba više od 23 sata da stigne do Zemlje brzinom svetlosti.",
       "narrative": "Voyager 1 je toliko daleko da radio komanda sa Zemlje treba skoro čitav dan da stigne do njega. Da je naš Sunčev sistem veličine košarkaškog terena, Voyager bi bio čestica prašine na samoj ivici.",
-      "ifDistance": "Radio signal sa Zemlje stiže do Voyager 1 za više od 22 sata — gotovo čitav dan pri brzini svetlosti. Da to rastojanje svedeš na dužinu fudbalskog terena (105 m), rastojanje Zemlja–Sunce u istoj razmeri bilo bi manje od jednog milimetra.",
+      "ifDistance": "Radio signal sa Zemlje stiže do Voyager 1 za više od 23 sata — gotovo čitav dan pri brzini svetlosti. Da to rastojanje svedeš na dužinu fudbalskog terena (105 m), rastojanje Zemlja–Sunce u istoj razmeri bilo bi manje od jednog milimetra.",
       "image": {
         "alt": "Sonda Voyager 1 u kosmičkom vakuumu, sa antenom okrenutom ka udaljenoj Zemlji."
       },
       "facts": {
-        "fact1": "Lansiran 5. septembra 1977. — pre više od 48 godina.",
-        "fact2": "Oko 25 milijardi km od Zemlje, više od 165 astronomskih jedinica.",
-        "fact3": "Radio signali putuju više od 22 sata u jednom pravcu brzinom svetlosti.",
+        "fact1": "Lansiran 5. septembra 1977. — pre više od 49 godina.",
+        "fact2": "Oko 25 milijardi km od Zemlje, više od 168 astronomskih jedinica.",
+        "fact3": "Radio signali putuju više od 23 sata u jednom pravcu brzinom svetlosti.",
         "fact4": "Nosi Zlatnu ploču — zvuke i slike Zemlje, za bilo koga ko bi je jednog dana mogao naći."
       },
       "massNarrative": "Voyager 1 teži oko 720 kg — otprilike koliko koncertni klavir. Taj jedan klavir veličine jedino je delo ljudskih ruku koje je ikada prešlo u međuzvezdani prostor.",
@@ -755,7 +755,7 @@
       "name": "Sunčev sistem",
       "distanceName": "Ivica Sunčevog sistema",
       "tagline": "Jedna zvezda i sve što drži u svojoj gravitaciji.",
-      "body": "Osam planeta, pet patuljastih planeta, više od 200 meseca i milioni asteroida i kometa — sve vezano za jednu žutu zvezdu. Planetarni deo je širok oko 12 milijardi km. Sunčeva gravitacija, međutim, doseže sto hiljada puta dalje, do slabe ljuske ledenih tela zvane Oortov oblak. Voyager 1, naša najudaljenija sonda, putuje 48 godina i još uvek nije prošla pored njega.",
+      "body": "Osam planeta, pet patuljastih planeta, više od 200 meseca i milioni asteroida i kometa — sve vezano za jednu žutu zvezdu. Planetarni deo je širok oko 12 milijardi km. Sunčeva gravitacija, međutim, doseže sto hiljada puta dalje, do slabe ljuske ledenih tela zvane Oortov oblak. Voyager 1, naša najudaljenija sonda, putuje 49 godina i još uvek nije prošla pored njega.",
       "narrative": "Smanjite Sunčev sistem da stane na košarkaški teren, i Zemlja bi bila manja od zrna peska u centru — potpuno nevidljiva golim okom.",
       "massNarrative": "Sunce drži 99,86% mase celog Sunčevog sistema. Saberite sve planete, mesece, asteroide i komete zajedno — to je samo 0,14%, a najveći deo toga čini Jupiter.",
       "funFact": "Pluton nije poslednja granica: iza Kojperovog pojasa nalazi se Oortov oblak, otprilike sferna ljuska ledenih tela koja se možda proteže do pola puta do najbliže zvezde. Voyager 1, naša najdalja sonda, doseći će njegov unutrašnji rub tek za oko 300 godina, a izaći iz spoljašnjeg ruba tek za desetine hiljada.",
@@ -765,7 +765,7 @@
       "facts": {
         "fact1": "Pluton kruži oko 5,9 milijardi km od Sunca.",
         "fact2": "8 planeta, 5 patuljastih planeta, više od 200 poznatih meseca.",
-        "fact3": "Voyager 1 putuje 48 godina i nalazi se oko 24 milijarde km dalje.",
+        "fact3": "Voyager 1 putuje 49 godina i nalazi se oko 25 milijardi km dalje.",
         "fact4": "Oortov oblak može se protezati do 100.000 AJ od Sunca.",
         "fact5": "Sunce je uvek najbliže veliko telo Zemlji — čak i kada je Jupiter u najbližoj tački svoje orbite (oposiciji), on je više od četiri puta dalji od nas nego što je Sunce."
       }

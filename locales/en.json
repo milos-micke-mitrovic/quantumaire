@@ -467,7 +467,7 @@
       "tagline": "If it replaced the Sun, it would swallow Jupiter.",
       "body": "UY Scuti is a red hypergiant so puffed up that its convection cells — single rising bubbles of hot gas on its surface — are wider than entire planetary systems. Its outer layers are thinner than Earth's atmosphere; you could fly through them in a heat-proof ship and barely notice resistance. Stars this massive don't last long; UY Scuti will end by collapsing into a brilliant supernova.",
       "narrative": "Hypergiants like UY Scuti live only a moment by cosmic standards — under ten million years from birth to supernova. Our Sun, ten times less massive, is already five billion years old and only halfway done.",
-      "ifDistance": "The light we see from UY Scuti tonight left it about 9,500 years ago — around the time humans were inventing agriculture in the Fertile Crescent. Light leaving UY Scuti now won't reach Earth until generations of our descendants have come and gone.",
+      "ifDistance": "The light we see from UY Scuti tonight left it about 5,200 years ago — around the time the first Sumerian cities were rising. Light leaving UY Scuti now won't reach Earth until generations of our descendants have come and gone.",
       "massNarrative": "Despite being hundreds of times wider than the Sun, UY Scuti weighs only about ten Suns. Most of its volume is near-vacuum — a giant balloon held up by pressure, not density.",
       "funFact": "When UY Scuti eventually collapses into a supernova, it will briefly outshine the entire Milky Way put together.",
       "image": {
@@ -477,7 +477,7 @@
         "fact1": "Radius roughly 1,700 × the Sun's — among the largest known.",
         "fact2": "Light takes about two hours to cross UY Scuti from one side to the other — longer than it takes to travel from the Sun out to Saturn.",
         "fact3": "Brightness varies by about 1.4 magnitudes over hundreds of days.",
-        "fact4": "Lies about 9,500 light-years away in the constellation Scutum."
+        "fact4": "Lies about 5,200 light-years away in the constellation Scutum."
       }
     },
     "milky_way": {
@@ -718,16 +718,16 @@
     "voyager1": {
       "name": "Voyager 1",
       "tagline": "The farthest human-made object — and still calling home.",
-      "body": "Voyager 1 launched from Cape Canaveral in September 1977 on a mission to fly past Jupiter and Saturn. Forty-eight years later it's still operating — now in interstellar space, about 165 astronomical units from Earth, sending back a faint trickle of data on the particles and magnetic fields around it. Every signal takes more than 22 hours to reach Earth at the speed of light.",
+      "body": "Voyager 1 launched from Cape Canaveral in September 1977 on a mission to fly past Jupiter and Saturn. Forty-nine years later it's still operating — now in interstellar space, about 168 astronomical units from Earth, sending back a faint trickle of data on the particles and magnetic fields around it. Every signal takes more than 23 hours to reach Earth at the speed of light.",
       "narrative": "Voyager 1 is so far away that a radio command from Earth takes almost a full day to reach it. If our Solar System were the size of a basketball court, Voyager would be a speck of dust at the very edge.",
-      "ifDistance": "A radio signal from Earth takes more than 22 hours to reach Voyager 1 — almost a full day at the speed of light. If you shrank that gap to the length of a football pitch (105 m), Earth's distance from the Sun at the same scale would be less than one millimetre.",
+      "ifDistance": "A radio signal from Earth takes more than 23 hours to reach Voyager 1 — almost a full day at the speed of light. If you shrank that gap to the length of a football pitch (105 m), Earth's distance from the Sun at the same scale would be less than one millimetre.",
       "image": {
         "alt": "Voyager 1 spacecraft against the cosmic void, dish antenna pointing back toward a distant Earth."
       },
       "facts": {
-        "fact1": "Launched 5 September 1977 — over 48 years ago.",
-        "fact2": "About 25 billion km from Earth, more than 165 astronomical units.",
-        "fact3": "Radio signals take more than 22 hours each way at the speed of light.",
+        "fact1": "Launched 5 September 1977 — over 49 years ago.",
+        "fact2": "About 25 billion km from Earth, more than 168 astronomical units.",
+        "fact3": "Radio signals take more than 23 hours each way at the speed of light.",
         "fact4": "Carries the Golden Record — sounds and images of Earth, for any future finder."
       },
       "massNarrative": "Voyager 1 weighs about 720 kg — roughly the same as a grand piano. That single piano-sized object is the only piece of human work that has ever crossed into interstellar space.",
@@ -755,7 +755,7 @@
       "name": "The Solar System",
       "distanceName": "Edge of the Solar System",
       "tagline": "One star and everything held in its gravity.",
-      "body": "Eight planets, five dwarf planets, more than 200 moons, and millions of asteroids and comets — all bound to one yellow star. The planetary part is roughly 12 billion km wide. The Sun's gravity, though, reaches out a hundred thousand times further, into a faint shell of icy bodies called the Oort cloud. Voyager 1, our farthest probe, has been travelling for 48 years and still isn't past it.",
+      "body": "Eight planets, five dwarf planets, more than 200 moons, and millions of asteroids and comets — all bound to one yellow star. The planetary part is roughly 12 billion km wide. The Sun's gravity, though, reaches out a hundred thousand times further, into a faint shell of icy bodies called the Oort cloud. Voyager 1, our farthest probe, has been travelling for 49 years and still isn't past it.",
       "narrative": "Shrink the Solar System to fit on a basketball court, and Earth would be smaller than a grain of sand near the centre — completely invisible to the naked eye.",
       "massNarrative": "The Sun holds 99.86% of the Solar System's entire mass. Pile every planet, moon, asteroid, and comet together and you get just 0.14% — and most of that is Jupiter.",
       "funFact": "Pluto isn't the last word: beyond the Kuiper Belt sits the Oort Cloud, a roughly spherical shell of icy bodies that may extend halfway to the nearest star. Voyager 1, our farthest probe, won't reach its inner edge for another 300 years and won't clear its outer edge for tens of thousands more.",
@@ -765,7 +765,7 @@
       "facts": {
         "fact1": "Pluto orbits about 5.9 billion km from the Sun.",
         "fact2": "8 planets, 5 dwarf planets, more than 200 known moons.",
-        "fact3": "Voyager 1 has been travelling for 48 years and is about 24 billion km out.",
+        "fact3": "Voyager 1 has been travelling for 49 years and is about 25 billion km out.",
         "fact4": "The Oort cloud may extend up to 100,000 AU from the Sun.",
         "fact5": "The Sun is always the closest large body to Earth — even at Jupiter's closest approach (opposition), Jupiter is still more than four times farther from us than the Sun is."
       }
