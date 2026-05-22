@@ -876,6 +876,96 @@
         "fact4": "Loses about a metre of surface ice each pass; will eventually fizzle out.",
         "fact5": "First record of an observation is from 240 BCE in Chinese chronicles — 22 confirmed apparitions on record."
       }
+    },
+    "mercury": {
+      "name": "Mercury",
+      "tagline": "The innermost planet — a cratered world of impossible extremes.",
+      "body": "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its surface looks remarkably like our Moon's: heavily cratered, airless, and grey. But the days swing between extremes a moon never sees — over 400 °C in direct sunlight, then dropping below -170 °C on the night side, because there's no atmosphere to hold the heat. A year on Mercury (88 Earth days) is shorter than two of its own days (176 Earth days each).",
+      "narrative": "Stand on Mercury at noon and the Sun looks three times wider than from Earth, painting the rocks white-hot. Walk into shadow and the temperature drops 600 °C in minutes — the most violent climate change you can experience without leaving the inner Solar System.",
+      "ifDistance": "Light takes about 8 minutes to reach Mercury from the Sun. From Earth, even at closest approach, Mercury is 77 million km away — a radio signal still takes more than four minutes to get there.",
+      "funFact": "Despite being closest to the Sun, Mercury isn't the hottest planet — Venus is, because of its runaway greenhouse atmosphere. Mercury's polar craters even hold water ice, kept frozen in permanent shadow.",
+      "image": {
+        "alt": "Mercury as a full disc — heavily cratered grey surface, similar to Earth's Moon."
+      },
+      "facts": {
+        "fact1": "Diameter 4,879 km — smaller than Jupiter's moon Ganymede.",
+        "fact2": "Year is 88 Earth days; solar day is 176 Earth days.",
+        "fact3": "Surface temperature swings from -173 °C at night to 427 °C in direct sunlight.",
+        "fact4": "Has no atmosphere to speak of and only the thinnest exosphere.",
+        "fact5": "Polar craters hold confirmed deposits of water ice in permanent shadow."
+      }
+    },
+    "venus": {
+      "name": "Venus",
+      "tagline": "Earth's twin in size — and its opposite in everything else.",
+      "body": "Venus is almost exactly Earth's diameter, and the second planet from the Sun. From a distance the planet looks placid — wrapped in featureless cream-coloured clouds. But the atmosphere below is the most hostile in the Solar System: 96% carbon dioxide, sulphuric-acid clouds, a surface pressure 92 times Earth's, and a runaway greenhouse effect that keeps the rocks at 465 °C — hot enough to melt lead. No spacecraft has lasted more than two hours on its surface.",
+      "narrative": "Look at Venus tonight as the brightest star in the sky. Then remember that under those innocent-looking clouds, the air would crush you, cook you, and dissolve what was left in acid, all at once.",
+      "ifDistance": "At closest approach Venus comes within 38 million km of Earth — closer than any other planet. Two-way radio signals take just over four minutes when the timing is right. Yet no human has ever even attempted to fly there.",
+      "funFact": "Venus rotates backwards relative to almost every other planet, and so slowly that a single Venusian day (243 Earth days) is longer than its year (225 Earth days). The Sun there rises in the west and sets in the east.",
+      "image": {
+        "alt": "Venus as a full disc — pale cream-and-tan cloud bands wrapping the planet."
+      },
+      "facts": {
+        "fact1": "Diameter 12,104 km — about 95% of Earth's.",
+        "fact2": "Surface temperature ~465 °C — the hottest planet, despite not being closest to the Sun.",
+        "fact3": "Surface pressure 92× Earth's — equivalent to being 900 m underwater.",
+        "fact4": "Rotates backwards; a Venusian day (243 Earth days) is longer than its year (225 Earth days).",
+        "fact5": "Atmosphere is 96.5% CO₂ with sulphuric-acid clouds — a textbook runaway greenhouse."
+      }
+    },
+    "saturn": {
+      "name": "Saturn",
+      "tagline": "The Solar System's signature image — a gas giant with rings.",
+      "body": "Saturn is the second-largest planet in the Solar System, a ball of hydrogen and helium nine times Earth's diameter. Its rings are the largest and brightest of any planet, made almost entirely of water ice — chunks ranging from grains of sand to icebergs — orbiting in a disc only tens of metres thick. Saturn has at least 146 known moons, including Titan, which has a thick atmosphere and lakes of liquid methane, and Enceladus, which fires jets of water into space from a buried ocean.",
+      "narrative": "Drop Saturn into a big enough bathtub and it would float. Of all the planets, it's the only one less dense than water — a gas giant so puffy that, gram for gram, you weigh more than it does.",
+      "ifDistance": "Sunlight takes 80 minutes to reach Saturn — longer than the running time of most movies. From Earth, it's 1.4 billion km on average. Cassini, the spacecraft that orbited Saturn for 13 years, sent each frame back over a 1-hour radio crawl.",
+      "funFact": "Saturn's rings span 282,000 km across — wide enough to nearly reach the Moon if pinned to Earth — but they're absurdly thin, often only 10 metres top to bottom. Edge-on, they almost disappear.",
+      "image": {
+        "alt": "Saturn with its iconic ring system seen at a 25-degree tilt."
+      },
+      "facts": {
+        "fact1": "Diameter 116,460 km — 9.4× Earth's.",
+        "fact2": "Average density 0.69 g/cm³ — less dense than water; would float in a big enough ocean.",
+        "fact3": "Rings span ~282,000 km but are only tens of metres thick.",
+        "fact4": "At least 146 confirmed moons — more than any other planet.",
+        "fact5": "Cloud-top temperature around -139 °C; powered partly by heat from its own contraction."
+      }
+    },
+    "uranus": {
+      "name": "Uranus",
+      "tagline": "An ice giant tipped on its side.",
+      "body": "Uranus is the seventh planet from the Sun and the third-largest by diameter. Unlike the other gas giants, much of its interior is made of \"ices\" — water, methane, and ammonia under extreme pressure — and trace methane in its atmosphere gives it its pale blue-green colour. Most strangely, its rotation axis is tilted 98 degrees, so it spins almost on its side. Each of its 84-Earth-year orbit, one pole gets a 21-year day while the other endures a 21-year night.",
+      "narrative": "Voyager 2 flew past Uranus in 1986 and saw a featureless ball — partly because it was the side of the planet in mid-day, partly because Uranus is genuinely calmer than its giant siblings. We have never sent another probe.",
+      "ifDistance": "Sunlight takes 2 hours 40 minutes to reach Uranus. From Earth, it's about 2.9 billion km — so far that the planet wasn't even recognised as a planet until 1781, when William Herschel spotted it through a telescope and at first mistook it for a comet.",
+      "funFact": "Uranus is the only planet in the Solar System tilted on its side. Some astronomers think it happened from a massive collision early in its history — the angle locked in for billions of years.",
+      "image": {
+        "alt": "Uranus as a pale blue-green disc, near-featureless and tilted nearly vertically."
+      },
+      "facts": {
+        "fact1": "Diameter 50,724 km — about 4× Earth's.",
+        "fact2": "Year lasts 84 Earth years; axial tilt is 98° — it rolls instead of spinning.",
+        "fact3": "Cloud-top temperature around -197 °C — coldest planetary atmosphere despite not being farthest.",
+        "fact4": "Has 13 known thin, dark rings — discovered only in 1977.",
+        "fact5": "Discovered by William Herschel in 1781 — first planet found by telescope."
+      }
+    },
+    "neptune": {
+      "name": "Neptune",
+      "tagline": "A storm-blue ice giant on the edge of the planetary realm.",
+      "body": "Neptune is the eighth and farthest planet, an ice giant similar in composition to Uranus but with a far more dramatic atmosphere. Voyager 2 imaged supersonic winds — the fastest in the Solar System, over 2,100 km/h — and a vast oval storm called the Great Dark Spot that has since faded and reformed elsewhere. It takes 165 Earth years for Neptune to orbit the Sun once, meaning the planet has barely completed one full orbit since it was discovered in 1846.",
+      "narrative": "Neptune was the first planet discovered by mathematics rather than observation: irregularities in Uranus's orbit pointed to an unseen pull. Astronomers calculated where it should be, pointed their telescope, and saw it on the first try.",
+      "ifDistance": "Sunlight takes 4 hours and 10 minutes to reach Neptune. From Earth, it's 4.5 billion km — the most distant of the eight planets, and one of the loneliest worlds we have ever photographed.",
+      "funFact": "Neptune's winds blow at over 2,100 km/h — faster than the speed of sound at sea level on Earth. Why a planet this cold has the system's strongest weather is still not fully understood.",
+      "image": {
+        "alt": "Neptune as a deep blue disc with cirrus clouds and the Great Dark Spot visible."
+      },
+      "facts": {
+        "fact1": "Diameter 49,244 km — about 3.9× Earth's.",
+        "fact2": "Year lasts 165 Earth years; one full orbit since discovery (1846 → 2011).",
+        "fact3": "Winds reach 2,100 km/h — the fastest in the Solar System.",
+        "fact4": "Cloud-top temperature around -201 °C, but radiates more heat than it receives.",
+        "fact5": "Discovered in 1846 by prediction, not observation — a triumph of Newtonian gravity."
+      }
     }
   },
   "about": {

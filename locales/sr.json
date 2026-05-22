@@ -876,6 +876,96 @@
         "fact4": "Gubi oko metar površinskog leda po svakom prolazu; vremenom će se ugasiti.",
         "fact5": "Prvi zabeleženi opažaj je iz 240. p.n.e. u kineskim hronikama — 22 potvrđena pojavljivanja."
       }
+    },
+    "mercury": {
+      "name": "Merkur",
+      "tagline": "Najunutrašnja planeta — svet ekstrema sa kraterima poput Mesečevih.",
+      "body": "Merkur je najmanja planeta Sunčevog sistema i najbliža Suncu. Površina mu izgleda upadljivo slično našem Mesecu: gusto kraterisana, bez vazduha, siva. Ali dani se njišu između ekstrema koje Mesec nikada ne doživljava — preko 400 °C na direktnom suncu, pa onda pad ispod -170 °C noću, jer nema atmosfere da zadrži toplotu. Godina na Merkuru (88 zemaljskih dana) kraća je od dva njegova dana (po 176 zemaljskih dana).",
+      "narrative": "Stoj na Merkuru u podne i Sunce izgleda tri puta šire nego sa Zemlje, belo užareno do bola. Pređi u senku i temperatura padne za 600 °C za nekoliko minuta — najnasilnija klimatska promena koju možeš doživeti bez izlaska iz unutrašnjeg Sunčevog sistema.",
+      "ifDistance": "Svetlosti treba oko 8 minuta da stigne do Merkura od Sunca. Sa Zemlje, čak i pri najbližem prolazu, Merkur je 77 miliona km daleko — radio signal i dalje stiže za preko četiri minuta.",
+      "funFact": "Iako je najbliži Suncu, Merkur nije najtoplija planeta — Venera jeste, zbog svog odbeglog efekta staklene bašte. Merkurovi polarni krateri čak sadrže vodeni led, zamrznut u večnoj senci.",
+      "image": {
+        "alt": "Merkur kao pun disk — gusto kraterisana siva površina, slična Zemljinom Mesecu."
+      },
+      "facts": {
+        "fact1": "Prečnik 4.879 km — manji od Jupiterovog meseca Ganimeda.",
+        "fact2": "Godina traje 88 zemaljskih dana; solarni dan 176 zemaljskih dana.",
+        "fact3": "Površinska temperatura ide od -173 °C noću do 427 °C na direktnom suncu.",
+        "fact4": "Praktično nema atmosferu — samo najtanju egzosferu.",
+        "fact5": "Polarni krateri sadrže potvrđene naslage vodenog leda u večnoj senci."
+      }
+    },
+    "venus": {
+      "name": "Venera",
+      "tagline": "Zemljina blizanka po veličini — i njena suprotnost u svemu ostalom.",
+      "body": "Venera je gotovo tačno Zemljinog prečnika i druga planeta od Sunca. Iz daljine planeta deluje smireno — umotana u jednolične krem-bele oblake. Ali atmosfera ispod je najnegostoljubivija u Sunčevom sistemu: 96% ugljen-dioksid, oblaci sumporne kiseline, površinski pritisak 92 puta veći od Zemljinog, i odbegli efekat staklene bašte koji drži stene na 465 °C — dovoljno toplo da olovo topi. Nijedna letelica nije izdržala duže od dva sata na njenoj površini.",
+      "narrative": "Pogledaj večeras Veneru kao najsjajniju zvezdu na nebu. Pa onda zapamti da bi te pod tim nedužnim oblacima vazduh smrvio, ispekao i rastvorio u kiselini, sve odjednom.",
+      "ifDistance": "Pri najbližem prolazu Venera dolazi na 38 miliona km od Zemlje — bliže od bilo koje druge planete. Dvosmerni radio signal traje nešto preko četiri minuta kada je tajming idealan. Pa ipak, nijedan čovek nikada nije ni pokušao da poleti tamo.",
+      "funFact": "Venera se okreće unazad u odnosu na skoro sve ostale planete, i to tako sporo da je jedan venerin dan (243 zemaljska dana) duži od njene godine (225 zemaljskih dana). Sunce tamo izlazi na zapadu i zalazi na istoku.",
+      "image": {
+        "alt": "Venera kao pun disk — blede krem-i-žute trake oblaka koje obavijaju planetu."
+      },
+      "facts": {
+        "fact1": "Prečnik 12.104 km — oko 95% Zemljinog.",
+        "fact2": "Površinska temperatura ~465 °C — najtoplija planeta, iako nije najbliža Suncu.",
+        "fact3": "Površinski pritisak 92× veći od Zemljinog — kao da si 900 m pod vodom.",
+        "fact4": "Okreće se unazad; venerin dan (243 zemaljska dana) duži je od godine (225).",
+        "fact5": "Atmosfera je 96,5% CO₂ sa oblacima sumporne kiseline — udžbenički odbegli staklenički efekat."
+      }
+    },
+    "saturn": {
+      "name": "Saturn",
+      "tagline": "Vizit-karta Sunčevog sistema — gasoviti gigant sa prstenovima.",
+      "body": "Saturn je druga po veličini planeta Sunčevog sistema, lopta vodonika i helijuma devet puta većeg prečnika od Zemlje. Njegovi prstenovi su najveći i najsjajniji od svih planetarnih, sastavljeni gotovo isključivo od vodenog leda — komada od zrna peska do santi — koji kruže u disku debelom tek desetinama metara. Saturn ima bar 146 poznatih meseca, uključujući Titan sa gustom atmosferom i jezerima tečnog metana, i Enceladus, koji izbacuje mlazove vode u svemir iz zakopanog okeana.",
+      "narrative": "Baci Saturn u dovoljno veliku kadu i plivao bi. Od svih planeta jedino je on manje gust od vode — gasoviti gigant toliko pufnast da, gram za gram, ti težiš više od njega.",
+      "ifDistance": "Sunčevoj svetlosti treba 80 minuta da stigne do Saturna — duže od trajanja većine filmova. Sa Zemlje je u proseku 1,4 milijarde km. Cassini, sonda koja je 13 godina kružila oko Saturna, slao je svaki kadar nazad kroz radio puzanje od jednog sata.",
+      "funFact": "Saturnovi prstenovi se protežu 282.000 km — dovoljno široko da skoro stignu do Meseca da su prikačeni za Zemlju — ali su besmisleno tanki, često samo 10 metara od gore do dole. Sa boka skoro nestanu.",
+      "image": {
+        "alt": "Saturn sa svojim ikoničnim sistemom prstenova viđen pod nagibom od 25 stepeni."
+      },
+      "facts": {
+        "fact1": "Prečnik 116.460 km — 9,4× veći od Zemljinog.",
+        "fact2": "Prosečna gustina 0,69 g/cm³ — manje od vode; plivao bi u dovoljno velikom okeanu.",
+        "fact3": "Prstenovi se protežu ~282.000 km ali su debeli samo desetine metara.",
+        "fact4": "Bar 146 potvrđenih meseca — više od bilo koje druge planete.",
+        "fact5": "Temperatura vrha oblaka oko -139 °C; delom se napaja toplotom sopstvene kontrakcije."
+      }
+    },
+    "uranus": {
+      "name": "Uran",
+      "tagline": "Ledeni gigant nakrivljen na bok.",
+      "body": "Uran je sedma planeta od Sunca i treća po veličini. Za razliku od ostalih gasovitih gigantata, najveći deo njegove unutrašnjosti čine \"ledovi\" — voda, metan i amonijak pod ekstremnim pritiskom — a tragovi metana u atmosferi daju mu njegovu bledu plavo-zelenu boju. Najčudnije, osa rotacije nakrivljena mu je 98 stepeni, pa se okreće gotovo na boku. Tokom njegove orbite od 84 zemaljske godine, jedan pol dobija 21-godišnji dan dok drugi izdržava 21-godišnju noć.",
+      "narrative": "Voyager 2 proleteo je pored Urana 1986. i video glatku kuglu — delom zato što je bila strana planete u podne, delom zato što je Uran zaista mirniji od svoje džinovske braće. Nikada nismo poslali drugu sondu.",
+      "ifDistance": "Sunčevoj svetlosti treba 2 sata i 40 minuta da stigne do Urana. Sa Zemlje je oko 2,9 milijardi km — toliko daleko da nije ni prepoznat kao planeta sve do 1781, kada ga je William Herschel uočio kroz teleskop i u prvi mah pomislio da je kometa.",
+      "funFact": "Uran je jedina planeta u Sunčevom sistemu nakrivljena na bok. Neki astronomi misle da se to desilo zbog masivnog sudara u njegovoj ranoj istoriji — ugao se zaglavio za milijarde godina.",
+      "image": {
+        "alt": "Uran kao bledi plavo-zeleni disk, gotovo bez detalja, nakrivljen skoro vertikalno."
+      },
+      "facts": {
+        "fact1": "Prečnik 50.724 km — oko 4× veći od Zemljinog.",
+        "fact2": "Godina traje 84 zemaljskih godina; osa nakrivljena 98° — kotrlja se umesto da se vrti.",
+        "fact3": "Temperatura vrha oblaka oko -197 °C — najhladnija planetarna atmosfera, iako nije najdalji.",
+        "fact4": "Ima 13 poznatih tankih, tamnih prstenova — otkrivenih tek 1977.",
+        "fact5": "Otkrio ga je William Herschel 1781 — prva planeta nađena teleskopom."
+      }
+    },
+    "neptune": {
+      "name": "Neptun",
+      "tagline": "Plavo-olujni ledeni gigant na ivici planetarnog carstva.",
+      "body": "Neptun je osma i najudaljenija planeta, ledeni gigant sastava sličnog Uranu ali sa znatno dramatičnijom atmosferom. Voyager 2 je snimio nadzvučne vetrove — najbrže u Sunčevom sistemu, preko 2.100 km/h — i ogromnu ovalnu oluju zvanu Velika tamna mrlja koja je u međuvremenu izbledela i ponovo se formirala na drugom mestu. Neptunu treba 165 zemaljskih godina da jednom obiđe Sunce, što znači da je planeta jedva završila jednu punu orbitu otkako je otkrivena 1846.",
+      "narrative": "Neptun je prva planeta otkrivena matematikom umesto posmatranjem: nepravilnosti u Uranovoj orbiti ukazivale su na neviđeni gravitacioni pomak. Astronomi su izračunali gde treba da bude, uperili teleskop, i videli ga iz prvog pokušaja.",
+      "ifDistance": "Sunčevoj svetlosti treba 4 sata i 10 minuta da stigne do Neptuna. Sa Zemlje je 4,5 milijarde km — najudaljenija od osam planeta, i jedan od najusamljenijih svetova koje smo ikada fotografisali.",
+      "funFact": "Neptunovi vetrovi duvaju preko 2.100 km/h — brže od brzine zvuka na nivou mora na Zemlji. Zašto planeta tako hladna ima najjače vreme u sistemu još uvek nije potpuno razjašnjeno.",
+      "image": {
+        "alt": "Neptun kao dubokoplavi disk sa cirusnim oblacima i vidljivom Velikom tamnom mrljom."
+      },
+      "facts": {
+        "fact1": "Prečnik 49.244 km — oko 3,9× veći od Zemljinog.",
+        "fact2": "Godina traje 165 zemaljskih godina; jedna puna orbita od otkrića (1846 → 2011).",
+        "fact3": "Vetrovi dostižu 2.100 km/h — najbrži u Sunčevom sistemu.",
+        "fact4": "Temperatura vrha oblaka oko -201 °C, ali zrači više toplote nego što prima.",
+        "fact5": "Otkriven 1846. predviđanjem, ne posmatranjem — trijumf Njutnove gravitacije."
+      }
     }
   },
   "about": {

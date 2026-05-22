@@ -1287,6 +1287,204 @@
       ],
       "distanceFromEarthMeters": 5910000000000,
       "temperatureKelvin": 44
+    },
+    {
+      "id": "mercury",
+      "i18nKey": "stops.mercury",
+      "sizeMeters": 4879000,
+      "order": 6.8,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/mercury.webp",
+        "aspect": "square",
+        "altKey": "stops.mercury.image.alt",
+        "geminiPrompt": "Mercury seen as a full disc — heavily cratered grey surface like our Moon, bright Caloris basin, deep #03030a void background. Photographic scientific render, NASA-grade clarity.",
+        "credit": "NASA / Johns Hopkins APL / Carnegie / MESSENGER"
+      },
+      "glossary": [
+        "orbit"
+      ],
+      "tags": [
+        "planet"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+        },
+        {
+          "label": "NASA",
+          "url": "https://science.nasa.gov/mercury/"
+        },
+        {
+          "label": "Britannica",
+          "url": "https://www.britannica.com/place/Mercury-planet"
+        }
+      ],
+      "distanceFromEarthMeters": 155000000000,
+      "temperatureKelvin": 440
+    },
+    {
+      "id": "venus",
+      "i18nKey": "stops.venus",
+      "sizeMeters": 12104000,
+      "order": 6.9,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/venus.webp",
+        "aspect": "square",
+        "altKey": "stops.venus.image.alt",
+        "geminiPrompt": "Venus shrouded in thick cream-coloured cloud bands, seen from approach distance, deep #03030a void with scattered stars. Photographic scientific render, ultra-detailed.",
+        "credit": "NASA / Mariner 10 / Calvin J. Hamilton"
+      },
+      "glossary": [
+        "orbit"
+      ],
+      "tags": [
+        "planet"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Venus"
+        },
+        {
+          "label": "NASA",
+          "url": "https://science.nasa.gov/venus/"
+        },
+        {
+          "label": "Britannica",
+          "url": "https://www.britannica.com/place/Venus-planet"
+        }
+      ],
+      "distanceFromEarthMeters": 120000000000,
+      "temperatureKelvin": 737
+    },
+    {
+      "id": "saturn",
+      "i18nKey": "stops.saturn",
+      "sizeMeters": 116460000,
+      "order": 7.75,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/saturn.webp",
+        "aspect": "square",
+        "altKey": "stops.saturn.image.alt",
+        "geminiPrompt": "Saturn in glorious view from Cassini — pale gold cloud bands, magnificent ring system tilted at 25 degrees, ring shadows on the planet, deep #03030a void. Photographic scientific render, ultra-detailed.",
+        "credit": "NASA / JPL / Space Science Institute / Cassini"
+      },
+      "glossary": [
+        "orbit"
+      ],
+      "tags": [
+        "planet",
+        "gas-giant"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Saturn"
+        },
+        {
+          "label": "NASA",
+          "url": "https://science.nasa.gov/saturn/"
+        },
+        {
+          "label": "Britannica",
+          "url": "https://www.britannica.com/place/Saturn-planet"
+        }
+      ],
+      "distanceFromEarthMeters": 1430000000000,
+      "temperatureKelvin": 134
+    },
+    {
+      "id": "uranus",
+      "i18nKey": "stops.uranus",
+      "sizeMeters": 50724000,
+      "order": 7.78,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/uranus.webp",
+        "aspect": "square",
+        "altKey": "stops.uranus.image.alt",
+        "geminiPrompt": "Uranus as a featureless pale cyan-green disc, faint thin rings tilted nearly vertically, deep #03030a void background. Photographic scientific render, NASA Voyager 2-grade clarity.",
+        "credit": "NASA / JPL / Voyager 2"
+      },
+      "glossary": [
+        "orbit"
+      ],
+      "tags": [
+        "planet",
+        "gas-giant"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Uranus"
+        },
+        {
+          "label": "NASA",
+          "url": "https://science.nasa.gov/uranus/"
+        },
+        {
+          "label": "Britannica",
+          "url": "https://www.britannica.com/place/Uranus-planet"
+        }
+      ],
+      "distanceFromEarthMeters": 2870000000000,
+      "temperatureKelvin": 76
+    },
+    {
+      "id": "neptune",
+      "i18nKey": "stops.neptune",
+      "sizeMeters": 49244000,
+      "order": 7.8,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/neptune.webp",
+        "aspect": "square",
+        "altKey": "stops.neptune.image.alt",
+        "geminiPrompt": "Neptune in deep blue — turbulent cloud bands, the Great Dark Spot, wispy high cirrus clouds, deep #03030a void. Photographic scientific render, Voyager 2 fidelity, ultra-detailed.",
+        "credit": "NASA / JPL / Voyager 2"
+      },
+      "glossary": [
+        "orbit"
+      ],
+      "tags": [
+        "planet",
+        "gas-giant"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neptune"
+        },
+        {
+          "label": "NASA",
+          "url": "https://science.nasa.gov/neptune/"
+        },
+        {
+          "label": "Britannica",
+          "url": "https://www.britannica.com/place/Neptune-planet"
+        }
+      ],
+      "distanceFromEarthMeters": 4500000000000,
+      "temperatureKelvin": 72
     }
   ]
 }
