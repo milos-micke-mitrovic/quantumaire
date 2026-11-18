@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { I18nProvider } from "@/lib/i18n";
+import { getDictionary } from "@/lib/i18n-server";
 import { JsonLd } from "@/components/JsonLd";
 import { BackToTop } from "@/components/BackToTop";
 import { HtmlLangSync } from "@/components/HtmlLangSync";
@@ -34,7 +35,7 @@ export default async function LocaleLayout({
   const typed = locale as Locale;
 
   return (
-    <I18nProvider locale={typed}>
+    <I18nProvider locale={typed} dictionary={getDictionary(typed)}>
       <HtmlLangSync lang={HREFLANG_MAP[typed]} />
       <JsonLd data={[organizationJsonLd(typed), websiteJsonLd(typed)]} />
       <SkipToContent />

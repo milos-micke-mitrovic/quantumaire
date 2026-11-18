@@ -47,6 +47,7 @@ export function StopCard({ stop, index }: StopCardProps) {
             image={stop.image}
             aspect="square"
             className="mb-4"
+            sizes="(min-width: 1024px) 360px, (min-width: 640px) 50vw, 100vw"
           />
           {isVisited && (
             <span

@@ -31,7 +31,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale: typed,
     path: "glossary",
-    title: tServer(typed, "common.glossaryPage.title"),
+    title: tServer(typed, "seo.glossary"),
     description: tServer(typed, "common.glossaryPage.tagline", {
       count: GLOSSARY_KEYS.length,
     }),
@@ -77,7 +77,7 @@ export default async function GlossaryPage({ params }: PageProps) {
           ]),
         ]}
       />
-      <GlossaryView />
+      <GlossaryView keys={GLOSSARY_KEYS} />
       <SiteFooter />
     </>
   );

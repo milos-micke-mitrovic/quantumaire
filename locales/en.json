@@ -1439,5 +1439,11 @@
       "laniakea_supercluster": "the Laniakea Supercluster",
       "observable_universe": "the observable universe"
     }
+  },
+  "seo": {
+    "home": "Scale of the Universe — Quarks to the Cosmos | Quantumaire",
+    "scaleTool": "Cosmic Scale Calculator: Shrink the Universe to Any Size",
+    "glossary": "Space & Physics Glossary — Plain-English Definitions",
+    "category": "{category} — Sizes, Facts & Comparisons"
   }
 }

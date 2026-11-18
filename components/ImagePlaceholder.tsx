@@ -13,6 +13,8 @@ interface Props {
   className?: string;
   /** Override the source aspect — useful in grids that need uniform tiles. */
   aspect?: ImagePlaceholderType["aspect"];
+  /** `sizes` hint so the browser fetches the smallest adequate variant. */
+  sizes?: string;
 }
 
 const ASPECTS: Record<ImagePlaceholderType["aspect"], string> = {
@@ -32,6 +34,7 @@ export function ImagePlaceholder({
   priority,
   className,
   aspect,
+  sizes = "(min-width: 1024px) 50vw, 100vw",
 }: Props) {
   const { t } = useI18n();
   const [missing, setMissing] = useState(false);
@@ -52,7 +55,7 @@ export function ImagePlaceholder({
           alt={alt}
           fill
           priority={priority}
-          sizes="(min-width: 1024px) 50vw, 100vw"
+          sizes={sizes}
           className="object-cover"
           placeholder="blur"
           blurDataURL="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxIDEiPjxyZWN0IGZpbGw9IiMwYTA4MTUiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48L3N2Zz4="

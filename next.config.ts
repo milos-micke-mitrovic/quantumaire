@@ -3,7 +3,10 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   images: {
-    formats: ["image/avif", "image/webp"],
+    // Cloudflare Workers have no image optimizer: serve pre-resized static
+    // variants (scripts/resize-images.mjs) through a custom loader.
+    loader: "custom",
+    loaderFile: "./lib/imageLoader.ts",
   },
   experimental: {
     optimizePackageImports: ["framer-motion"],

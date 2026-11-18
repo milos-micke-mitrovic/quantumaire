@@ -29,6 +29,9 @@ if [ "${SKIP_CHECKS:-0}" != "1" ]; then
   pnpm -s test
 fi
 
+echo "▸ Resizing new/changed images…"
+node scripts/resize-images.mjs
+
 echo "▸ Building for Cloudflare…"
 npx opennextjs-cloudflare build
 

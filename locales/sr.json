@@ -49,7 +49,7 @@
     "about": "O projektu",
     "relatedStops": "Povezane stanice",
     "exploreCategory": "Istraži {category}",
-    "stopsInCategory": "{count} stanica",
+    "stopsInCategory": "Stanica: {count}",
     "quickFacts": "Ključne činjenice",
     "sources": "Izvori",
     "openExternal": "Otvori u novom tabu",
@@ -66,7 +66,7 @@
     },
     "glossaryPage": {
       "title": "Rečnik pojmova",
-      "tagline": "{count} pojmova korišćenih kroz putovanje, definisanih na jednom mestu.",
+      "tagline": "Pojmova korišćenih kroz putovanje: {count} — svi definisani na jednom mestu.",
       "intro": "Svaka stručna reč koju koristimo kroz putovanje živi ovde, poređana po abecedi i pretraživa. Svaka stranica stanice povezuje šačicu pojmova najvažnijih baš za nju — ali ako ste naišli na nešto nepoznato čitajući bilo koju stanicu, ovo je strana za sletanje. Definicije su namerno kratke; radije biste pročitali tri kraće nego prelistali jednu dugu.",
       "filterPlaceholder": "Filtriraj pojmove…"
     },
@@ -114,7 +114,7 @@
       "tagline": "Izaberi dve stanice i vidi sve objekte koji po veličini staju između njih.",
       "from": "Od",
       "to": "Do",
-      "foundCount": "{count} stanica je u ovom opsegu"
+      "foundCount": "Stanica u ovom opsegu: {count}"
     },
     "random": "Slučajna stanica",
     "skipToContent": "Preskoči na glavni sadržaj",
@@ -1403,5 +1403,11 @@
     "metaSize": "{Name}: veličina oko {size}.",
     "metaTail": "Uporedite sa čovekom, Zemljom i svemirom.",
     "title": "{Name}: veličina i razmere u poređenju"
+  },
+  "seo": {
+    "home": "Razmere svemira — od kvarka do kosmosa | Quantumaire",
+    "scaleTool": "Kalkulator kosmičkih razmera: smanjite svemir na bilo koju veličinu",
+    "glossary": "Rečnik svemira i fizike — definicije jednostavnim jezikom",
+    "category": "{category} — veličine, činjenice i poređenja"
   }
 }

@@ -31,6 +31,7 @@ export async function generateMetadata({
     locale: typed,
     path: "about",
     title: tServer(typed, "about.title"),
+    absoluteTitle: true,
     description: tServer(typed, "about.intro").slice(0, 300),
   });
 }

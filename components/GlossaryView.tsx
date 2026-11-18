@@ -3,23 +3,22 @@
 import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
-import { GLOSSARY_KEYS } from "@/lib/glossary";
 
 function normalize(s: string): string {
   return s.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
 }
 
-export function GlossaryView() {
+export function GlossaryView({ keys }: { keys: string[] }) {
   const { t } = useI18n();
   const [query, setQuery] = useState("");
 
   const entries = useMemo(() => {
-    return GLOSSARY_KEYS.map((key) => ({
+    return keys.map((key) => ({
       key,
       term: t(`glossary.${key}.term`),
       definition: t(`glossary.${key}.definition`),
     })).sort((a, b) => a.term.localeCompare(b.term));
-  }, [t]);
+  }, [keys, t]);
 
   const filtered = useMemo(() => {
     const q = normalize(query.trim());

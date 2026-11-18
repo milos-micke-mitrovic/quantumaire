@@ -27,7 +27,8 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale: typed,
     path: "",
-    title: `${tServer(typed, "common.title")} — ${tServer(typed, "common.tagline")}`,
+    title: tServer(typed, "seo.home"),
+    absoluteTitle: true,
     description: tServer(typed, "common.subtagline"),
     imageAlt: tServer(typed, "common.tagline"),
   });

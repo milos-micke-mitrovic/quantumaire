@@ -66,3 +66,8 @@ export function tServer(
   const resolved = resolveKey(dict, key) ?? resolveKey(fallback, key) ?? key;
   return interpolate(resolved, vars);
 }
+
+/** The full dictionary for a locale, handed to the client I18nProvider. */
+export function getDictionary(locale: Locale): Dictionary {
+  return DICTIONARIES[locale] ?? DICTIONARIES[DEFAULT_LOCALE];
+}

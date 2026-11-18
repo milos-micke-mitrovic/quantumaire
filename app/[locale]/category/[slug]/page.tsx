@@ -49,7 +49,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale: typed,
     path: `category/${slug}`,
-    title: tServer(typed, "common.exploreCategory", { category: name }),
+    title: tServer(typed, "seo.category", { category: name }),
     description,
   });
 }

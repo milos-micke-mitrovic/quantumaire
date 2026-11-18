@@ -8,16 +8,9 @@ import {
   useMemo,
 } from "react";
 import { useRouter, usePathname } from "next/navigation";
-import en from "@/locales/en.json";
-import sr from "@/locales/sr.json";
 import type { Locale } from "./types";
 
-type Dictionary = Record<string, unknown>;
-
-const DICTIONARIES: Record<Locale, Dictionary> = {
-  en: en as Dictionary,
-  sr: sr as Dictionary,
-};
+export type Dictionary = Record<string, unknown>;
 
 export const SUPPORTED_LOCALES: Locale[] = ["en", "sr"];
 export const DEFAULT_LOCALE: Locale = "en";
@@ -76,13 +69,18 @@ function interpolate(
  * The provider is driven by the URL — `locale` is whatever segment is in the
  * current path. setLocale navigates to the equivalent path under the new
  * locale, so each language has its own canonical URL (good for SEO).
+ *
+ * The dictionary is passed in by the server layout so only the active
+ * locale's strings reach the browser (not every locale bundled into JS).
  */
 export function I18nProvider({
   children,
   locale,
+  dictionary,
 }: {
   children: React.ReactNode;
   locale: Locale;
+  dictionary: Dictionary;
 }) {
   const router = useRouter();
   const pathname = usePathname() ?? `/${locale}`;
@@ -90,7 +88,7 @@ export function I18nProvider({
   useEffect(() => {
     if (typeof window === "undefined") return;
     window.localStorage.setItem(STORAGE_KEY, locale);
-    document.documentElement.lang = locale === "sr" ? "sr-Latn" : "en";
+    // <html lang> is kept in sync by HtmlLangSync (sr-Latn-RS / en).
   }, [locale]);
 
   const setLocale = useCallback(
@@ -105,13 +103,9 @@ export function I18nProvider({
 
   const t = useCallback(
     (key: string, vars?: Record<string, string | number>) => {
-      const dict = DICTIONARIES[locale] ?? DICTIONARIES[DEFAULT_LOCALE];
-      const fallback = DICTIONARIES[DEFAULT_LOCALE];
-      const resolved =
-        resolveKey(dict, key) ?? resolveKey(fallback, key) ?? key;
-      return interpolate(resolved, vars);
+      return interpolate(resolveKey(dictionary, key) ?? key, vars);
     },
-    [locale]
+    [dictionary]
   );
 
   const value = useMemo<I18nContextValue>(

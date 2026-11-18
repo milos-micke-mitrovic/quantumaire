@@ -42,7 +42,7 @@ export function Journey() {
       <div
         role="group"
         aria-label={t("common.scale")}
-        className="mb-4 inline-flex items-center gap-1 rounded-full border border-white/10 bg-white/[0.04] p-1"
+        className="mb-4 inline-flex max-w-full items-center gap-1 overflow-x-auto rounded-full border border-white/10 bg-white/[0.04] p-1 [scrollbar-width:none]"
       >
         {(["size", "distance", "temperature"] as const).map((v) => {
           const isActive = view === v;
@@ -59,7 +59,7 @@ export function Journey() {
               aria-pressed={isActive}
               onClick={() => setView(v)}
               className={clsx(
-                "rounded-full px-4 py-1.5 text-xs font-medium uppercase tracking-[0.18em] transition-colors",
+                "shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.12em] transition-colors sm:px-4 sm:text-xs sm:tracking-[0.18em]",
                 isActive
                   ? "bg-aurora-gradient text-cosmos-void shadow-glow"
                   : "text-cosmos-star/70 hover:text-cosmos-star"

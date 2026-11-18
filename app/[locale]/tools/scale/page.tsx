@@ -30,7 +30,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale: typed,
     path: "tools/scale",
-    title: tServer(typed, "common.scaleTool.title"),
+    title: tServer(typed, "seo.scaleTool"),
     description: tServer(typed, "common.scaleTool.tagline"),
   });
 }

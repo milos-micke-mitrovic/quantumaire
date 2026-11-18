@@ -53,6 +53,8 @@ export interface PageSeoInput {
   imageAlt?: string;
   /** Allow indexing. Defaults to true. */
   index?: boolean;
+  /** Skip the "· Quantumaire" title template (title already names the site). */
+  absoluteTitle?: boolean;
 }
 
 /**
@@ -68,6 +70,7 @@ export function buildPageMetadata(input: PageSeoInput): Metadata {
     image = defaultOgImage(locale),
     imageAlt = title,
     index = true,
+    absoluteTitle = false,
   } = input;
 
   const canonical = absoluteUrl(locale, path);
@@ -79,7 +82,7 @@ export function buildPageMetadata(input: PageSeoInput): Metadata {
   languages["x-default"] = absoluteUrl(DEFAULT_LOCALE, path);
 
   return {
-    title,
+    title: absoluteTitle ? { absolute: title } : title,
     description,
     metadataBase: new URL(SITE_URL),
     alternates: {
