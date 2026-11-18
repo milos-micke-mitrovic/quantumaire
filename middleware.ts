@@ -37,7 +37,8 @@ function startsWithLocale(pathname: string): boolean {
  * Runs as edge `middleware.ts` rather than Next 16's `proxy.ts`: proxy is
  * pinned to the Node runtime, which OpenNext on Cloudflare Workers can't run.
  *
- * Two jobs:
+ * Jobs (in order): canonical-host redirect, locale prefixing, and
+ * forwarding the pathname. Locale details:
  *
  * 1. Any path missing a locale prefix (`/`, `/foo`, `/typo`, …) is redirected
  *    to `/${locale}${pathname}` based on the visitor's cookie or
@@ -50,8 +51,23 @@ function startsWithLocale(pathname: string): boolean {
  *    `<html lang>` server-side (Next.js doesn't expose the URL to the root
  *    layout otherwise).
  */
+const CANONICAL_HOST = "quantumaire.space";
+
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
+
+  // Canonical origin: https://quantumaire.space (Vercel used to do this).
+  // www and plain http get a permanent redirect so Google sees one copy.
+  const host = req.headers.get("host") ?? "";
+  const proto =
+    req.headers.get("x-forwarded-proto") ?? req.nextUrl.protocol.replace(":", "");
+  if (host === `www.${CANONICAL_HOST}` || (host === CANONICAL_HOST && proto === "http")) {
+    const url = req.nextUrl.clone();
+    url.protocol = "https";
+    url.host = CANONICAL_HOST;
+    url.port = "";
+    return NextResponse.redirect(url, 308);
+  }
 
   if (!startsWithLocale(pathname)) {
     const locale = pickLocale(req);
