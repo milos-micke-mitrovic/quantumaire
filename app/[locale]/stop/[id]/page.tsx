@@ -17,6 +17,7 @@ import {
   buildPageMetadata,
   LOCALES,
   SITE_MODIFIED,
+  SITE_URL,
   faqJsonLd,
   stopJsonLd,
 } from "@/lib/seo";
@@ -84,6 +85,7 @@ export async function generateMetadata({
             })
         : `${name} — ${tServer(typed, `categories.${stop.category}`)}`,
     description,
+    image: `${SITE_URL}/${typed}/stop/${stop.id}/opengraph-image/${stop.id}`,
     imageAlt: tServer(typed, stop.image.altKey),
   });
 }

@@ -10,3 +10,8 @@ tsconfig.tsbuildinfo
 .idea
 .vscode
 .claude/settings.local.json
+
+# Cloudflare / OpenNext
+.open-next
+.wrangler
+.dev.vars

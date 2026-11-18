@@ -34,6 +34,9 @@ function startsWithLocale(pathname: string): boolean {
 }
 
 /**
+ * Runs as edge `middleware.ts` rather than Next 16's `proxy.ts`: proxy is
+ * pinned to the Node runtime, which OpenNext on Cloudflare Workers can't run.
+ *
  * Two jobs:
  *
  * 1. Any path missing a locale prefix (`/`, `/foo`, `/typo`, …) is redirected
@@ -47,7 +50,7 @@ function startsWithLocale(pathname: string): boolean {
  *    `<html lang>` server-side (Next.js doesn't expose the URL to the root
  *    layout otherwise).
  */
-export function proxy(req: NextRequest) {
+export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
   if (!startsWithLocale(pathname)) {
@@ -57,10 +60,11 @@ export function proxy(req: NextRequest) {
     return NextResponse.redirect(url);
   }
 
-  // For everything else, set x-pathname and forward.
-  const response = NextResponse.next();
-  response.headers.set("x-pathname", pathname);
-  return response;
+  // For everything else, forward the pathname as a request header so the
+  // root layout can read it via headers().
+  const requestHeaders = new Headers(req.headers);
+  requestHeaders.set("x-pathname", pathname);
+  return NextResponse.next({ request: { headers: requestHeaders } });
 }
 
 export const config = {

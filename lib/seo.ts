@@ -13,7 +13,10 @@ export const SITE_URL = (
 
 export const SITE_NAME = "Quantumaire";
 
-export const DEFAULT_OG_IMAGE = `${SITE_URL}/og/quantumaire-cover.png`;
+/** Locale cover card rendered by `app/[locale]/opengraph-image.tsx`. */
+export function defaultOgImage(locale: Locale): string {
+  return `${SITE_URL}/${locale}/opengraph-image/${locale}`;
+}
 export const TWITTER_HANDLE = "@quantumaire";
 
 /** First public release of the journey. Used for schema.org datePublished. */
@@ -62,7 +65,7 @@ export function buildPageMetadata(input: PageSeoInput): Metadata {
     path = "",
     title,
     description,
-    image = DEFAULT_OG_IMAGE,
+    image = defaultOgImage(locale),
     imageAlt = title,
     index = true,
   } = input;
