@@ -26,7 +26,7 @@ import { StopComparisonCard } from "./StopComparisonCard";
 import { StopDistanceCard } from "./StopDistanceCard";
 import { StopTags } from "./StopTags";
 import { StopValuesCard } from "./StopValuesCard";
-import { Fragment } from "react";
+import { Fragment, type ReactNode } from "react";
 
 interface StopDetailProps {
   stop: Stop;
@@ -35,6 +35,8 @@ interface StopDetailProps {
   related: Stop[];
   /** Build-time ISO date (YYYY-MM-DD) for the "last updated" footer line. */
   lastUpdated: string;
+  /** Server-rendered content slotted after the quick facts (e.g. size FAQ). */
+  children?: ReactNode;
 }
 
 export function StopDetail({
@@ -43,6 +45,7 @@ export function StopDetail({
   next,
   related,
   lastUpdated,
+  children,
 }: StopDetailProps) {
   const { t, locale } = useI18n();
   useMarkVisited(stop.id);
@@ -219,6 +222,8 @@ export function StopDetail({
       <FunFactPanel i18nKey={stop.i18nKey} />
 
       <QuickFacts stop={stop} />
+
+      {children}
 
       {stop.sources && stop.sources.length > 0 && (
         <Sources sources={stop.sources} />

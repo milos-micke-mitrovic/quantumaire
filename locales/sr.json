@@ -1383,5 +1383,25 @@
       "smallest": "Koji je najmanji objekat u kategoriji {category}?",
       "largest": "Koji je najveći objekat u kategoriji {category}?"
     }
+  },
+  "sizeFaq": {
+    "heading": "{Name}: kratki odgovori",
+    "q1": "{Name} — kolika je veličina?",
+    "a1": "{Name}: veličina je oko {size} (≈ {sci} m). Na Quantumaire putovanju od kvarka do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
+    "q2": "{Name} u poređenju sa čovekom?",
+    "a2bigger": "Čovek visine 1,7 m otprilike je {ratio} puta manji nego {Name}.",
+    "a2smaller": "Čovek visine 1,7 m otprilike je {ratio} puta veći nego {Name}.",
+    "q3": "Šta je odmah manje, a šta odmah veće nego {Name}?",
+    "a3smaller": "Korak niže: {other} ({otherSize}), oko {ratio} puta manje.",
+    "a3larger": "Korak više: {other} ({otherSize}), oko {ratio} puta veće.",
+    "a3smallest": "{Name} je najmanja stanica na putovanju.",
+    "a3largest": "{Name} je najveća stanica na putovanju — ništa što možemo da posmatramo nije veće.",
+    "q4": "Kad bi Zemlja bila zrno peska, kolika bi bila veličina — {Name}?",
+    "a4": "Smanjite Zemlju na zrno peska od 0,5 mm i {Name} se smanjuje na oko {grain}.",
+    "q5": "Koliko je sigurno ono što znamo o temi: {Name}?",
+    "a5": "Quantumaire oznaka za temu {Name}: „{badge}“ — {tooltip}",
+    "metaSize": "{Name}: veličina oko {size}.",
+    "metaTail": "Uporedite sa čovekom, Zemljom i svemirom.",
+    "title": "{Name}: veličina i razmere u poređenju"
   }
 }

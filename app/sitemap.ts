@@ -15,13 +15,11 @@ function alternates(path: string) {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
   const entries: MetadataRoute.Sitemap = [];
 
   for (const locale of LOCALES) {
     entries.push({
       url: `${SITE_URL}/${locale}`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 1.0,
       alternates: alternates(""),
@@ -29,7 +27,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     entries.push({
       url: `${SITE_URL}/${locale}/about`,
-      lastModified: now,
       changeFrequency: "monthly",
       priority: 0.7,
       alternates: alternates("about"),
@@ -37,7 +34,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     entries.push({
       url: `${SITE_URL}/${locale}/glossary`,
-      lastModified: now,
       changeFrequency: "monthly",
       priority: 0.7,
       alternates: alternates("glossary"),
@@ -45,7 +41,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     entries.push({
       url: `${SITE_URL}/${locale}/tools/scale`,
-      lastModified: now,
       changeFrequency: "monthly",
       priority: 0.7,
       alternates: alternates("tools/scale"),
@@ -53,7 +48,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     entries.push({
       url: `${SITE_URL}/${locale}/tools/between`,
-      lastModified: now,
       changeFrequency: "monthly",
       priority: 0.7,
       alternates: alternates("tools/between"),
@@ -61,7 +55,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     entries.push({
       url: `${SITE_URL}/${locale}/compare`,
-      lastModified: now,
       changeFrequency: "monthly",
       priority: 0.7,
       alternates: alternates("compare"),
@@ -69,7 +62,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     entries.push({
       url: `${SITE_URL}/${locale}/topics`,
-      lastModified: now,
       changeFrequency: "monthly",
       priority: 0.75,
       alternates: alternates("topics"),
@@ -78,7 +70,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const topic of TOPICS) {
       entries.push({
         url: `${SITE_URL}/${locale}/topics/${topic.slug}`,
-        lastModified: now,
         changeFrequency: "monthly",
         priority: 0.8,
         alternates: alternates(`topics/${topic.slug}`),
@@ -89,7 +80,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const slug = categorySlug(cat);
       entries.push({
         url: `${SITE_URL}/${locale}/category/${slug}`,
-        lastModified: now,
         changeFrequency: "monthly",
         priority: 0.75,
         alternates: alternates(`category/${slug}`),
@@ -99,7 +89,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const stop of STOPS) {
       entries.push({
         url: `${SITE_URL}/${locale}/stop/${stop.id}`,
-        lastModified: now,
         changeFrequency: "monthly",
         priority: 0.85,
         alternates: alternates(`stop/${stop.id}`),

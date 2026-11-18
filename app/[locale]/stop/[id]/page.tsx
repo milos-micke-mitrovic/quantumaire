@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/JsonLd";
 import { StopDetail } from "@/components/StopDetail";
+import { StopSizeFaq } from "@/components/StopSizeFaq";
 import { SiteFooter } from "@/components/SiteFooter";
 import {
   STOPS,
@@ -16,9 +17,24 @@ import {
   buildPageMetadata,
   LOCALES,
   SITE_MODIFIED,
+  faqJsonLd,
   stopJsonLd,
 } from "@/lib/seo";
+import {
+  buildSizeFaq,
+  capFirst,
+  sizeSummary,
+  subjectName,
+  titleCase,
+} from "@/lib/sizeFaq";
 import type { Locale } from "@/lib/types";
+
+/** Trim to `max` chars on a word boundary, adding an ellipsis if cut. */
+function clip(text: string, max: number): string {
+  const clean = text.replace(/\s+/g, " ").trim();
+  if (clean.length <= max) return clean;
+  return `${clean.slice(0, clean.lastIndexOf(" ", max - 1))}…`;
+}
 
 interface PageProps {
   params: Promise<{ locale: string; id: string }>;
@@ -46,15 +62,27 @@ export async function generateMetadata({
   const name = tServer(typed, `${stop.i18nKey}.name`);
   const tagline = tServer(typed, `${stop.i18nKey}.tagline`);
   const body = tServer(typed, `${stop.i18nKey}.body`);
-  const description =
-    tagline.length + body.length < 158
-      ? `${tagline} ${body}`.trim()
-      : tagline;
+  const size = sizeSummary(stop, typed);
+  const tail = tServer(typed, "sizeFaq.metaTail");
+  const description = clip(
+    size
+      ? `${size} ${tagline} ${tail}`
+      : tagline.length + body.length < 158
+        ? `${tagline} ${body}`
+        : tagline,
+    160
+  );
 
   return buildPageMetadata({
     locale: typed,
     path: `stop/${stop.id}`,
-    title: `${name} — ${tServer(typed, `categories.${stop.category}`)}`,
+    title:
+      stop.sizeMeters !== null
+        ? tServer(typed, "sizeFaq.title", {
+              name: titleCase(subjectName(stop, typed)),
+              Name: capFirst(subjectName(stop, typed)),
+            })
+        : `${name} — ${tServer(typed, `categories.${stop.category}`)}`,
     description,
     imageAlt: tServer(typed, stop.image.altKey),
   });
@@ -78,6 +106,7 @@ export default async function StopPage({ params }: PageProps) {
   const facts = ["fact1", "fact2", "fact3", "fact4"].map((k) =>
     tServer(typed, `${stop.i18nKey}.facts.${k}`)
   );
+  const sizeFaq = buildSizeFaq(stop, typed);
 
   return (
     <>
@@ -97,6 +126,7 @@ export default async function StopPage({ params }: PageProps) {
             { name: tServer(typed, "common.title"), path: "" },
             { name, path: `stop/${stop.id}` },
           ]),
+          faqJsonLd(sizeFaq),
         ]}
       />
       <StopDetail
@@ -105,7 +135,15 @@ export default async function StopPage({ params }: PageProps) {
         next={next}
         related={related}
         lastUpdated={SITE_MODIFIED}
-      />
+      >
+        <StopSizeFaq
+          locale={typed}
+          heading={tServer(typed, "sizeFaq.heading", {
+            Name: capFirst(subjectName(stop, typed)),
+          })}
+          items={sizeFaq}
+        />
+      </StopDetail>
       <SiteFooter />
     </>
   );
