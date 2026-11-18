@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { formatMeters } from "@/lib/scale";
 import { useUnits } from "@/lib/units";

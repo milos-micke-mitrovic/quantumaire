@@ -4,7 +4,7 @@ import clsx from "clsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, m as motion } from "framer-motion";
 import { SUPPORTED_LOCALES, useI18n } from "@/lib/i18n";
 import { useUnits, type UnitSystem } from "@/lib/units";
 import type { Locale } from "@/lib/types";

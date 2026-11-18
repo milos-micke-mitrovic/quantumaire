@@ -4,7 +4,7 @@ import clsx from "clsx";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useMemo } from "react";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { CATEGORIES, STOPS, categorySlug } from "@/lib/content";
 import { useVisited } from "@/lib/visited";

@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import { m as motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 /**
  * Thin progress bar pinned to the top of the viewport that fills as the

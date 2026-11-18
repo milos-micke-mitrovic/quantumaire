@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import type { ImagePlaceholder as ImagePlaceholderType } from "@/lib/types";
 import { ImagePlaceholder } from "./ImagePlaceholder";

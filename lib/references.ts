@@ -1,3 +1,4 @@
+import { numberLocale, sig } from "./scale";
 /**
  * Scale-adaptive reference objects.
  *
@@ -194,25 +195,28 @@ export function formatFactor(
 ): string {
   const tr = t ?? defaultTranslator;
   if (!Number.isFinite(factor) || factor < 0) return String(factor);
+  const loc = numberLocale(tr);
+  const fixed = (n: number, digits: number) =>
+    n.toLocaleString(loc, { minimumFractionDigits: digits, maximumFractionDigits: digits });
 
   if (factor >= 1e15) {
     const exp = Math.floor(Math.log10(factor));
     const mantissa = factor / Math.pow(10, exp);
-    return `${Number(mantissa.toPrecision(3))} × 10${toSuperscript(exp)}`;
+    return `${sig(mantissa, loc)} × 10${toSuperscript(exp)}`;
   }
   if (factor >= 1e12) {
-    return `${Number((factor / 1e12).toPrecision(3))} ${tr("common.numberTrillion")}`;
+    return `${sig(factor / 1e12, loc)} ${tr("common.numberTrillion")}`;
   }
   if (factor >= 1e9) {
-    return `${Number((factor / 1e9).toPrecision(3))} ${tr("common.numberBillion")}`;
+    return `${sig(factor / 1e9, loc)} ${tr("common.numberBillion")}`;
   }
   if (factor >= 1e6) {
-    return `${Number((factor / 1e6).toPrecision(3))} ${tr("common.numberMillion")}`;
+    return `${sig(factor / 1e6, loc)} ${tr("common.numberMillion")}`;
   }
-  if (factor >= 1000) return Math.round(factor).toLocaleString("en-US");
-  if (factor >= 100) return factor.toFixed(0);
-  if (factor >= 10) return factor.toFixed(1);
-  return factor.toFixed(2);
+  if (factor >= 1000) return Math.round(factor).toLocaleString(loc);
+  if (factor >= 100) return fixed(factor, 0);
+  if (factor >= 10) return fixed(factor, 1);
+  return fixed(factor, 2);
 }
 
 const SUPERSCRIPTS: Record<string, string> = {

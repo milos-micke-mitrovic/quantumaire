@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useState, useSyncExternalStore } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { m as motion, AnimatePresence } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 
 interface ShareBarProps {

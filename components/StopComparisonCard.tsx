@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { getReference, pickReference, type Reference } from "@/lib/references";
 import { formatMeters } from "@/lib/scale";

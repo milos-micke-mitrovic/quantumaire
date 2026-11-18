@@ -33,9 +33,20 @@ export function toGrainScale(meters: number): number {
  */
 const MILE_M = 1609.344;
 
-/** Three significant figures without trailing zeros: 1.00 → "1", 93.0 → "93". */
-function sig(n: number): string {
-  return String(Number(n.toPrecision(3)));
+/**
+ * Three significant figures without trailing zeros (1.00 → "1", 93.0 → "93"),
+ * in the locale's number style ("1.39" en / "1,39" sr).
+ */
+export function sig(n: number, locale = "en-US"): string {
+  return Number(n.toPrecision(3)).toLocaleString(locale, {
+    maximumFractionDigits: 20,
+  });
+}
+
+/** BCP-47 tag for number formatting, taken from the active dictionary. */
+export function numberLocale(tr: (key: string) => string): string {
+  const loc = tr("common.numberLocale");
+  return loc === "common.numberLocale" ? "en-US" : loc;
 }
 const FOOT_M = 0.3048;
 
@@ -49,59 +60,60 @@ export function formatMeters(
   if (abs === 0) return "0 m";
 
   const tr = t ?? defaultMetersTranslator;
+  const loc = numberLocale(tr);
 
   // Sub-metre: SI prefixes are universal across both systems.
-  if (abs < 1e-12) return `${sig(meters * 1e15)} fm`;
-  if (abs < 1e-9) return `${sig(meters * 1e12)} pm`;
-  if (abs < 1e-6) return `${sig(meters * 1e9)} nm`;
-  if (abs < 1e-3) return `${sig(meters * 1e6)} µm`;
-  if (abs < 1) return `${sig(meters * 1e3)} mm`;
+  if (abs < 1e-12) return `${sig(meters * 1e15, loc)} fm`;
+  if (abs < 1e-9) return `${sig(meters * 1e12, loc)} pm`;
+  if (abs < 1e-6) return `${sig(meters * 1e9, loc)} nm`;
+  if (abs < 1e-3) return `${sig(meters * 1e6, loc)} µm`;
+  if (abs < 1) return `${sig(meters * 1e3, loc)} mm`;
 
   if (units === "imperial") {
     if (abs < 1e3) {
       const ft = meters / FOOT_M;
-      return `${sig(ft)} ft`;
+      return `${sig(ft, loc)} ft`;
     }
     if (abs < 1.609e9) {
       const mi = meters / MILE_M;
       const digits = Math.abs(mi) < 10 ? 1 : 0;
-      return `${mi.toLocaleString("en-US", { maximumFractionDigits: digits })} mi`;
+      return `${mi.toLocaleString(loc, { maximumFractionDigits: digits })} mi`;
     }
     if (abs < 1.609e12) {
-      return `${sig(meters / (1e6 * MILE_M))} ${tr("common.numberMillion")} mi`;
+      return `${sig(meters / (1e6 * MILE_M), loc)} ${tr("common.numberMillion")} mi`;
     }
     if (abs < 1e15) {
-      return `${sig(meters / (1e9 * MILE_M))} ${tr("common.numberBillion")} mi`;
+      return `${sig(meters / (1e9 * MILE_M), loc)} ${tr("common.numberBillion")} mi`;
     }
     // fall through to light-years
   } else {
-    if (abs < 1e3) return `${sig(meters)} m`;
+    if (abs < 1e3) return `${sig(meters, loc)} m`;
     if (abs < 1e9) {
       const km = meters / 1e3;
       const digits = Math.abs(km) < 10 ? 1 : 0;
-      return `${km.toLocaleString("en-US", { maximumFractionDigits: digits })} km`;
+      return `${km.toLocaleString(loc, { maximumFractionDigits: digits })} km`;
     }
     if (abs < 1e12) {
-      return `${sig(meters / 1e9)} ${tr("common.numberMillion")} km`;
+      return `${sig(meters / 1e9, loc)} ${tr("common.numberMillion")} km`;
     }
     if (abs < 1e15) {
-      return `${sig(meters / 1e12)} ${tr("common.numberBillion")} km`;
+      return `${sig(meters / 1e12, loc)} ${tr("common.numberBillion")} km`;
     }
   }
 
   // Light-year regime — universal across both systems.
   const ly = meters / 9.4607304725808e15;
-  if (Math.abs(ly) < 1e3) return `${sig(ly)} ${tr("common.unitLightYear")}`;
+  if (Math.abs(ly) < 1e3) return `${sig(ly, loc)} ${tr("common.unitLightYear")}`;
   if (Math.abs(ly) < 1e6) {
-    return `${Math.round(ly).toLocaleString("en-US")} ${tr("common.unitLightYear")}`;
+    return `${Math.round(ly).toLocaleString(loc)} ${tr("common.unitLightYear")}`;
   }
   if (Math.abs(ly) < 1e9) {
-    return `${sig(ly / 1e6)} ${tr("common.numberMillion")} ${tr("common.unitLightYear")}`;
+    return `${sig(ly / 1e6, loc)} ${tr("common.numberMillion")} ${tr("common.unitLightYear")}`;
   }
   if (Math.abs(ly) < 1e12) {
-    return `${sig(ly / 1e9)} ${tr("common.numberBillion")} ${tr("common.unitLightYear")}`;
+    return `${sig(ly / 1e9, loc)} ${tr("common.numberBillion")} ${tr("common.unitLightYear")}`;
   }
-  return `${sig(ly / 1e12)} ${tr("common.numberTrillion")} ${tr("common.unitLightYear")}`;
+  return `${sig(ly / 1e12, loc)} ${tr("common.numberTrillion")} ${tr("common.unitLightYear")}`;
 }
 
 /**
@@ -117,6 +129,7 @@ export function formatTemperature(
   t?: (key: string) => string
 ): string {
   const tr = t ?? defaultMetersTranslator;
+  const loc = numberLocale(tr);
   if (
     kelvin === null ||
     kelvin === undefined ||
@@ -132,25 +145,25 @@ export function formatTemperature(
   if (k < 1000) {
     const kRounded = Math.round(k);
     const cRounded = Math.round(celsius);
-    return `${kRounded.toLocaleString("en-US")} K (${cRounded >= 0 ? "" : ""}${cRounded} °C)`;
+    return `${kRounded.toLocaleString(loc)} K (${cRounded >= 0 ? "" : ""}${cRounded.toLocaleString(loc)} °C)`;
   }
 
   // Above 1,000 K — show both with rough rounding; at this scale K ≈ °C.
   if (k < 1e6) {
     const kRounded = Math.round(k / 100) * 100;
     const cRounded = Math.round(celsius / 100) * 100;
-    return `${kRounded.toLocaleString("en-US")} K (≈ ${cRounded.toLocaleString("en-US")} °C)`;
+    return `${kRounded.toLocaleString(loc)} K (≈ ${cRounded.toLocaleString(loc)} °C)`;
   }
 
   // Millions of K — express in "million K", °C identical at this scale.
   if (k < 1e9) {
     const mK = k / 1e6;
-    return `${sig(mK)} ${tr("common.numberMillion")} K (${tr("common.tempSameInC")})`;
+    return `${sig(mK, loc)} ${tr("common.numberMillion")} K (${tr("common.tempSameInC")})`;
   }
 
   // Billions and beyond.
   const bK = k / 1e9;
-  return `${sig(bK)} ${tr("common.numberBillion")} K (${tr("common.tempSameInC")})`;
+  return `${sig(bK, loc)} ${tr("common.numberBillion")} K (${tr("common.tempSameInC")})`;
 }
 
 const DEFAULT_METERS_LABELS: Record<string, string> = {
@@ -159,6 +172,7 @@ const DEFAULT_METERS_LABELS: Record<string, string> = {
   "common.numberTrillion": "trillion",
   "common.unitLightYear": "ly",
   "common.tempSameInC": "≈ same in °C",
+  "common.numberLocale": "en-US",
 };
 
 function defaultMetersTranslator(key: string): string {

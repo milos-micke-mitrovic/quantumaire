@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { STOPS } from "@/lib/content";
 import { formatMeters } from "@/lib/scale";

@@ -134,3 +134,19 @@ describe("formatMeters tidy output", () => {
     expect(formatMeters(8.8e26)).toBe("93 billion ly");
   });
 });
+
+describe("locale-aware numbers", () => {
+  const sr = (k: string) =>
+    ({
+      "common.numberLocale": "sr-Latn-RS",
+      "common.numberMillion": "miliona",
+      "common.numberBillion": "milijardi",
+      "common.unitLightYear": "sg",
+    })[k] ?? k;
+
+  it("uses Serbian separators when the dictionary says so", () => {
+    expect(formatMeters(12742000, sr)).toBe("12.742 km");
+    expect(formatMeters(1.39e9, sr)).toBe("1,39 miliona km");
+    expect(formatMeters(12742000)).toBe("12,742 km");
+  });
+});

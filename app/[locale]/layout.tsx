@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { I18nProvider } from "@/lib/i18n";
 import { getDictionary } from "@/lib/i18n-server";
 import { JsonLd } from "@/components/JsonLd";
+import { MotionProvider } from "@/components/MotionProvider";
 import { BackToTop } from "@/components/BackToTop";
 import { HtmlLangSync } from "@/components/HtmlLangSync";
 import { ReadingProgress } from "@/components/ReadingProgress";
@@ -36,6 +37,7 @@ export default async function LocaleLayout({
 
   return (
     <I18nProvider locale={typed} dictionary={getDictionary(typed)}>
+      <MotionProvider>
       <HtmlLangSync lang={HREFLANG_MAP[typed]} />
       <JsonLd data={[organizationJsonLd(typed), websiteJsonLd(typed)]} />
       <SkipToContent />
@@ -45,6 +47,7 @@ export default async function LocaleLayout({
       <div id="main-content">{children}</div>
       <BackToTop />
       <ShortcutsOverlay />
+      </MotionProvider>
     </I18nProvider>
   );
 }

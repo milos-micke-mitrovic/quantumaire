@@ -2,7 +2,7 @@
 
 import clsx from "clsx";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { TOPICS } from "@/lib/topics";
 

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { m as motion } from "framer-motion";
 import type { Category, Stop } from "@/lib/types";
 import { useI18n } from "@/lib/i18n";
 import { FilterableStopGrid } from "./FilterableStopGrid";

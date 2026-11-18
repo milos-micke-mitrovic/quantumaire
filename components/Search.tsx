@@ -10,7 +10,7 @@ import {
   useRef,
   useState,
 } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { STOPS, categorySlug } from "@/lib/content";
 import type { Stop } from "@/lib/types";

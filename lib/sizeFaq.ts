@@ -67,7 +67,7 @@ export function formatRatio(ratio: number, locale: Locale): string {
   return `10${sup}`;
 }
 
-function scientific(meters: number): string {
+function scientific(meters: number, locale: Locale): string {
   const exp = Math.floor(Math.log10(meters));
   const mantissa = meters / 10 ** exp;
   const sup = String(Math.abs(exp))
@@ -75,7 +75,8 @@ function scientific(meters: number): string {
     .map((d) => SUPERSCRIPT[Number(d)])
     .join("");
   const m = Number(mantissa.toPrecision(2));
-  return `${m === 1 ? "" : `${m} × `}10${exp < 0 ? "⁻" : ""}${sup}`;
+  const ms = m.toLocaleString(locale === "sr" ? "sr-Latn-RS" : "en-US");
+  return `${m === 1 ? "" : `${ms} × `}10${exp < 0 ? "⁻" : ""}${sup}`;
 }
 
 /**
@@ -121,7 +122,7 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
       a: t("sizeFaq.a1", {
         name,
         size: formatMeters(size, tm),
-        sci: scientific(size),
+        sci: scientific(size, locale),
         rank: rank + 1,
         total: SIZED.length,
       }),
