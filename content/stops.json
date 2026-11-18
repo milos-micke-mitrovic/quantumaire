@@ -360,7 +360,7 @@
       "distanceFromEarthMeters": 5.55E+19,
       "temperatureKelvin": 3550,
       "order": 10,
-      "badge": "FACT",
+      "badge": "PROBABLE_THEORY",
       "category": "COSMOS",
       "accent": "text-cosmos-ember",
       "accentGlow": "shadow-[0_0_80px_rgba(251,113,133,0.5)]",
