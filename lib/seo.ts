@@ -82,7 +82,7 @@ export function buildPageMetadata(input: PageSeoInput): Metadata {
   languages["x-default"] = absoluteUrl(DEFAULT_LOCALE, path);
 
   return {
-    title: absoluteTitle ? { absolute: title } : title,
+    title: absoluteTitle || !fitsWithBrand(title) ? { absolute: title } : title,
     description,
     metadataBase: new URL(SITE_URL),
     alternates: {
@@ -426,4 +426,16 @@ export function itemListJsonLd(locale: Locale) {
       name: tServer(locale, `${s.i18nKey}.name`),
     })),
   };
+}
+
+/** Trim text to `max` chars on a word boundary (meta descriptions). */
+export function clipDescription(text: string, max = 160): string {
+  const clean = text.replace(/\s+/g, " ").trim();
+  if (clean.length <= max) return clean;
+  return `${clean.slice(0, clean.lastIndexOf(" ", max - 1))}…`;
+}
+
+/** Drop the "· Quantumaire" suffix when it would push a title past ~60 chars. */
+export function fitsWithBrand(title: string): boolean {
+  return title.length + ` · ${SITE_NAME}`.length <= 62;
 }

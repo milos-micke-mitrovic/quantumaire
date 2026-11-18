@@ -47,7 +47,7 @@ export function GET() {
       `- [Compare two stops](${SITE_URL}/${locale}/compare) — pick any two stops and see their scale ratio`
     );
     lines.push(
-      `- [Topics](${SITE_URL}/${locale}/topics) — concept pages explaining stars, planets, and black holes`
+      `- [Topics](${SITE_URL}/${locale}/topics) — concept pages on stars, planets, black holes, the size of the universe, and the smallest and largest things in it`
     );
     lines.push("");
     lines.push(`### Topic pages (${locale})`);

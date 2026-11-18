@@ -10,6 +10,7 @@ import {
   breadcrumbJsonLd,
   buildPageMetadata,
   LOCALES,
+  clipDescription,
 } from "@/lib/seo";
 import type { Locale } from "@/lib/types";
 
@@ -39,7 +40,9 @@ export async function generateMetadata({
     locale: typed,
     path: `topics/${slug}`,
     title: tServer(typed, `${topic.i18nKey}.title`),
-    description: tServer(typed, `${topic.i18nKey}.tagline`),
+    description: clipDescription(
+      `${tServer(typed, `${topic.i18nKey}.tagline`)} ${tServer(typed, `${topic.i18nKey}.intro`)}`
+    ),
   });
 }
 

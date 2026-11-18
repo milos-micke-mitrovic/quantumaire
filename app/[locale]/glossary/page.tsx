@@ -32,7 +32,7 @@ export async function generateMetadata({
     locale: typed,
     path: "glossary",
     title: tServer(typed, "seo.glossary"),
-    description: tServer(typed, "common.glossaryPage.tagline", {
+    description: tServer(typed, "seo.glossaryDescription", {
       count: GLOSSARY_KEYS.length,
     }),
   });

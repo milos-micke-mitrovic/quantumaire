@@ -48,7 +48,7 @@ export async function generateMetadata({
     locale: typed,
     path: "compare",
     title,
-    description: tServer(typed, "common.comparePage.tagline"),
+    description: tServer(typed, "seo.compareDescription"),
     image: ogImage,
     imageAlt: `${aName} vs ${bName}`,
   });
@@ -64,7 +64,7 @@ export default async function ComparePageRoute({ params }: PageProps) {
     "@type": "SoftwareApplication",
     "@id": absoluteUrl(typed, "compare"),
     name: tServer(typed, "common.comparePage.title"),
-    description: tServer(typed, "common.comparePage.tagline"),
+    description: tServer(typed, "seo.compareDescription"),
     applicationCategory: "EducationalApplication",
     operatingSystem: "Any (browser)",
     inLanguage: typed === "sr" ? "sr-Latn-RS" : "en",

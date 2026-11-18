@@ -18,6 +18,7 @@ import {
   LOCALES,
   SITE_MODIFIED,
   SITE_URL,
+  clipDescription,
   faqJsonLd,
   stopJsonLd,
 } from "@/lib/seo";
@@ -29,13 +30,6 @@ import {
   titleCase,
 } from "@/lib/sizeFaq";
 import type { Locale } from "@/lib/types";
-
-/** Trim to `max` chars on a word boundary, adding an ellipsis if cut. */
-function clip(text: string, max: number): string {
-  const clean = text.replace(/\s+/g, " ").trim();
-  if (clean.length <= max) return clean;
-  return `${clean.slice(0, clean.lastIndexOf(" ", max - 1))}…`;
-}
 
 interface PageProps {
   params: Promise<{ locale: string; id: string }>;
@@ -65,25 +59,25 @@ export async function generateMetadata({
   const body = tServer(typed, `${stop.i18nKey}.body`);
   const size = sizeSummary(stop, typed);
   const tail = tServer(typed, "sizeFaq.metaTail");
-  const description = clip(
+  const description = clipDescription(
     size
       ? `${size} ${tagline} ${tail}`
-      : tagline.length + body.length < 158
-        ? `${tagline} ${body}`
-        : tagline,
+      : `${tagline} ${body}`,
     160
   );
+
+  const title =
+    stop.sizeMeters !== null
+      ? tServer(typed, "sizeFaq.title", {
+          name: titleCase(subjectName(stop, typed)),
+          Name: capFirst(subjectName(stop, typed)),
+        })
+      : `${name} — ${tServer(typed, `categories.${stop.category}`)}`;
 
   return buildPageMetadata({
     locale: typed,
     path: `stop/${stop.id}`,
-    title:
-      stop.sizeMeters !== null
-        ? tServer(typed, "sizeFaq.title", {
-              name: titleCase(subjectName(stop, typed)),
-              Name: capFirst(subjectName(stop, typed)),
-            })
-        : `${name} — ${tServer(typed, `categories.${stop.category}`)}`,
+    title,
     description,
     image: `${SITE_URL}/${typed}/stop/${stop.id}/opengraph-image/${stop.id}`,
     imageAlt: tServer(typed, stop.image.altKey),

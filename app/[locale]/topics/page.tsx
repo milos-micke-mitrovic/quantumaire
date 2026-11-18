@@ -32,7 +32,7 @@ export async function generateMetadata({
     locale: typed,
     path: "topics",
     title: tServer(typed, "topicsIndex.title"),
-    description: tServer(typed, "topicsIndex.tagline"),
+    description: tServer(typed, "seo.topicsDescription"),
   });
 }
 

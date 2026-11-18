@@ -140,6 +140,61 @@ export const TOPICS: Topic[] = [
     ],
     accent: "text-cosmos-plasma",
   },
+  {
+    slug: "how-big-is-the-universe",
+    i18nKey: "topics.howBigIsTheUniverse",
+    sectionCount: 5,
+    relatedStopIds: ["earth", "sun", "light_year", "milky_way", "andromeda", "laniakea_supercluster", "observable_universe", "dark_energy"],
+    sources: [
+      { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Observable_universe" },
+      { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Shape_of_the_universe" },
+      { label: "ESA", url: "https://www.esa.int/Science_Exploration/Space_Science/Planck" },
+      { label: "NASA", url: "https://science.nasa.gov/universe/overview/" },
+      { label: "Britannica", url: "https://www.britannica.com/science/universe" },
+    ],
+    accent: "text-cosmos-nova",
+  },
+  {
+    slug: "planet-sizes-compared",
+    i18nKey: "topics.planetSizesCompared",
+    sectionCount: 5,
+    relatedStopIds: ["mercury", "venus", "earth", "moon", "mars", "jupiter", "saturn", "uranus", "neptune", "pluto", "sun"],
+    sources: [
+      { label: "NASA", url: "https://nssdc.gsfc.nasa.gov/planetary/factsheet/" },
+      { label: "NASA", url: "https://science.nasa.gov/solar-system/" },
+      { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/List_of_Solar_System_objects_by_size" },
+      { label: "Britannica", url: "https://www.britannica.com/science/planet" },
+    ],
+    accent: "text-cosmos-aurora",
+  },
+  {
+    slug: "smallest-things-in-the-universe",
+    i18nKey: "topics.smallestThingsInTheUniverse",
+    sectionCount: 5,
+    relatedStopIds: ["quark", "proton", "atom", "dna", "virus", "bacterium", "cell", "human"],
+    sources: [
+      { label: "Physics Letters B (ZEUS, 2016)", url: "https://doi.org/10.1016/j.physletb.2016.04.007" },
+      { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Planck_units" },
+      { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Proton_radius_puzzle" },
+      { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Elementary_particle" },
+      { label: "Britannica", url: "https://www.britannica.com/science/atom" },
+    ],
+    accent: "text-cosmos-plasma",
+  },
+  {
+    slug: "largest-things-in-the-universe",
+    i18nKey: "topics.largestThingsInTheUniverse",
+    sectionCount: 6,
+    relatedStopIds: ["uy_scuti", "ton_618", "phoenix_a", "supermassive_black_hole", "milky_way", "galaxy_cluster", "laniakea_supercluster", "observable_universe"],
+    sources: [
+      { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/List_of_largest_stars" },
+      { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/List_of_most_massive_black_holes" },
+      { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/List_of_largest_cosmic_structures" },
+      { label: "Nature (Tully et al., 2014)", url: "https://doi.org/10.1038/nature13674" },
+      { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Hercules%E2%80%93Corona_Borealis_Great_Wall" },
+    ],
+    accent: "text-cosmos-ember",
+  },
 ];
 
 export function getTopic(slug: string): Topic | undefined {
