@@ -198,16 +198,16 @@ export function formatFactor(
   if (factor >= 1e15) {
     const exp = Math.floor(Math.log10(factor));
     const mantissa = factor / Math.pow(10, exp);
-    return `${mantissa.toPrecision(3)} × 10${toSuperscript(exp)}`;
+    return `${Number(mantissa.toPrecision(3))} × 10${toSuperscript(exp)}`;
   }
   if (factor >= 1e12) {
-    return `${(factor / 1e12).toPrecision(3)} ${tr("common.numberTrillion")}`;
+    return `${Number((factor / 1e12).toPrecision(3))} ${tr("common.numberTrillion")}`;
   }
   if (factor >= 1e9) {
-    return `${(factor / 1e9).toPrecision(3)} ${tr("common.numberBillion")}`;
+    return `${Number((factor / 1e9).toPrecision(3))} ${tr("common.numberBillion")}`;
   }
   if (factor >= 1e6) {
-    return `${(factor / 1e6).toPrecision(3)} ${tr("common.numberMillion")}`;
+    return `${Number((factor / 1e6).toPrecision(3))} ${tr("common.numberMillion")}`;
   }
   if (factor >= 1000) return Math.round(factor).toLocaleString("en-US");
   if (factor >= 100) return factor.toFixed(0);

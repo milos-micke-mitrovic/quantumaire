@@ -32,6 +32,11 @@ export function toGrainScale(meters: number): number {
  * light-year threshold the unit is `ly` in both systems too.
  */
 const MILE_M = 1609.344;
+
+/** Three significant figures without trailing zeros: 1.00 → "1", 93.0 → "93". */
+function sig(n: number): string {
+  return String(Number(n.toPrecision(3)));
+}
 const FOOT_M = 0.3048;
 
 export function formatMeters(
@@ -46,16 +51,16 @@ export function formatMeters(
   const tr = t ?? defaultMetersTranslator;
 
   // Sub-metre: SI prefixes are universal across both systems.
-  if (abs < 1e-12) return `${(meters * 1e15).toPrecision(3)} fm`;
-  if (abs < 1e-9) return `${(meters * 1e12).toPrecision(3)} pm`;
-  if (abs < 1e-6) return `${(meters * 1e9).toPrecision(3)} nm`;
-  if (abs < 1e-3) return `${(meters * 1e6).toPrecision(3)} µm`;
-  if (abs < 1) return `${(meters * 1e3).toPrecision(3)} mm`;
+  if (abs < 1e-12) return `${sig(meters * 1e15)} fm`;
+  if (abs < 1e-9) return `${sig(meters * 1e12)} pm`;
+  if (abs < 1e-6) return `${sig(meters * 1e9)} nm`;
+  if (abs < 1e-3) return `${sig(meters * 1e6)} µm`;
+  if (abs < 1) return `${sig(meters * 1e3)} mm`;
 
   if (units === "imperial") {
     if (abs < 1e3) {
       const ft = meters / FOOT_M;
-      return `${ft.toPrecision(3)} ft`;
+      return `${sig(ft)} ft`;
     }
     if (abs < 1.609e9) {
       const mi = meters / MILE_M;
@@ -63,40 +68,40 @@ export function formatMeters(
       return `${mi.toLocaleString("en-US", { maximumFractionDigits: digits })} mi`;
     }
     if (abs < 1.609e12) {
-      return `${(meters / (1e6 * MILE_M)).toPrecision(3)} ${tr("common.numberMillion")} mi`;
+      return `${sig(meters / (1e6 * MILE_M))} ${tr("common.numberMillion")} mi`;
     }
     if (abs < 1e15) {
-      return `${(meters / (1e9 * MILE_M)).toPrecision(3)} ${tr("common.numberBillion")} mi`;
+      return `${sig(meters / (1e9 * MILE_M))} ${tr("common.numberBillion")} mi`;
     }
     // fall through to light-years
   } else {
-    if (abs < 1e3) return `${meters.toPrecision(3)} m`;
+    if (abs < 1e3) return `${sig(meters)} m`;
     if (abs < 1e9) {
       const km = meters / 1e3;
       const digits = Math.abs(km) < 10 ? 1 : 0;
       return `${km.toLocaleString("en-US", { maximumFractionDigits: digits })} km`;
     }
     if (abs < 1e12) {
-      return `${(meters / 1e9).toPrecision(3)} ${tr("common.numberMillion")} km`;
+      return `${sig(meters / 1e9)} ${tr("common.numberMillion")} km`;
     }
     if (abs < 1e15) {
-      return `${(meters / 1e12).toPrecision(3)} ${tr("common.numberBillion")} km`;
+      return `${sig(meters / 1e12)} ${tr("common.numberBillion")} km`;
     }
   }
 
   // Light-year regime — universal across both systems.
   const ly = meters / 9.4607304725808e15;
-  if (Math.abs(ly) < 1e3) return `${ly.toPrecision(3)} ${tr("common.unitLightYear")}`;
+  if (Math.abs(ly) < 1e3) return `${sig(ly)} ${tr("common.unitLightYear")}`;
   if (Math.abs(ly) < 1e6) {
     return `${Math.round(ly).toLocaleString("en-US")} ${tr("common.unitLightYear")}`;
   }
   if (Math.abs(ly) < 1e9) {
-    return `${(ly / 1e6).toPrecision(3)} ${tr("common.numberMillion")} ${tr("common.unitLightYear")}`;
+    return `${sig(ly / 1e6)} ${tr("common.numberMillion")} ${tr("common.unitLightYear")}`;
   }
   if (Math.abs(ly) < 1e12) {
-    return `${(ly / 1e9).toPrecision(3)} ${tr("common.numberBillion")} ${tr("common.unitLightYear")}`;
+    return `${sig(ly / 1e9)} ${tr("common.numberBillion")} ${tr("common.unitLightYear")}`;
   }
-  return `${(ly / 1e12).toPrecision(3)} ${tr("common.numberTrillion")} ${tr("common.unitLightYear")}`;
+  return `${sig(ly / 1e12)} ${tr("common.numberTrillion")} ${tr("common.unitLightYear")}`;
 }
 
 /**
@@ -107,7 +112,11 @@ export function formatMeters(
  *
  * Returns "—" for null / non-finite / negative inputs.
  */
-export function formatTemperature(kelvin: number | null | undefined): string {
+export function formatTemperature(
+  kelvin: number | null | undefined,
+  t?: (key: string) => string
+): string {
+  const tr = t ?? defaultMetersTranslator;
   if (
     kelvin === null ||
     kelvin === undefined ||
@@ -136,12 +145,12 @@ export function formatTemperature(kelvin: number | null | undefined): string {
   // Millions of K — express in "million K", °C identical at this scale.
   if (k < 1e9) {
     const mK = k / 1e6;
-    return `${mK.toPrecision(3)} million K (≈ same in °C)`;
+    return `${sig(mK)} ${tr("common.numberMillion")} K (${tr("common.tempSameInC")})`;
   }
 
   // Billions and beyond.
   const bK = k / 1e9;
-  return `${bK.toPrecision(3)} billion K (≈ same in °C)`;
+  return `${sig(bK)} ${tr("common.numberBillion")} K (${tr("common.tempSameInC")})`;
 }
 
 const DEFAULT_METERS_LABELS: Record<string, string> = {
@@ -149,6 +158,7 @@ const DEFAULT_METERS_LABELS: Record<string, string> = {
   "common.numberBillion": "billion",
   "common.numberTrillion": "trillion",
   "common.unitLightYear": "ly",
+  "common.tempSameInC": "≈ same in °C",
 };
 
 function defaultMetersTranslator(key: string): string {

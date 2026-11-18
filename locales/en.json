@@ -181,7 +181,8 @@
       "sameTemperature": "{a} and {b} are at the same temperature.",
       "noData": "One side has no data for this comparison.",
       "notEnoughStops": "Not enough stops have this data yet — try a different mode."
-    }
+    },
+    "tempSameInC": "≈ same in °C"
   },
   "home": {
     "faq": {

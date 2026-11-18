@@ -67,7 +67,7 @@ function StopPicker({ label, selectedId, mode, onChange }: PickerProps) {
             const v = valueOf(s, mode)!;
             const valueText =
               mode === "temperature"
-                ? formatTemperature(v)
+                ? formatTemperature(v, t)
                 : formatMeters(v, t, units);
             return (
               <option key={s.id} value={s.id}>
@@ -107,7 +107,7 @@ function CompareCard({ stop, label, mode }: CompareCardProps) {
     v === null
       ? t("common.abstract")
       : mode === "temperature"
-        ? formatTemperature(v)
+        ? formatTemperature(v, t)
         : formatMeters(v, t, units);
   return (
     <Link

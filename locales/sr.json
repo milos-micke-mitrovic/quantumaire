@@ -181,7 +181,8 @@
       "sameTemperature": "{a} i {b} su na istoj temperaturi.",
       "noData": "Jedna strana nema podatke za ovo poređenje.",
       "notEnoughStops": "Premalo stanica ima ovaj podatak — probaj drugi režim poređenja."
-    }
+    },
+    "tempSameInC": "≈ isto u °C"
   },
   "home": {
     "faq": {

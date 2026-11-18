@@ -67,7 +67,7 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
               {t("common.temperature")}
             </dt>
             <dd className="mt-2 whitespace-nowrap font-mono text-base text-cosmos-plasma sm:text-lg">
-              {formatTemperature(stop.temperatureKelvin!)}
+              {formatTemperature(stop.temperatureKelvin!, t)}
             </dd>
           </div>
         )}

@@ -48,7 +48,7 @@ export function TemperatureScale({
   if (items.length === 0) return null;
   const active = items[Math.min(activeIdx, items.length - 1)];
   const lastIdx = items.length - 1;
-  const activeTempLabel = formatTemperature(active.temperatureKelvin);
+  const activeTempLabel = formatTemperature(active.temperatureKelvin, t);
   const activeName = t(`${active.i18nKey}.name`);
 
   return (
@@ -100,7 +100,7 @@ export function TemperatureScale({
             const pct = lastIdx === 0 ? 50 : (idx / lastIdx) * 100;
             const isActive = idx === activeIdx;
             const isHighlighted = idx === highlightIdx;
-            const tempForLabel = formatTemperature(item.temperatureKelvin);
+            const tempForLabel = formatTemperature(item.temperatureKelvin, t);
             const itemName = t(`${item.i18nKey}.name`);
             return (
               <button

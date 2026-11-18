@@ -100,7 +100,7 @@ export function StopCard({ stop, index }: StopCardProps) {
                   {t("common.temperatureShort")}
                 </span>
                 <span className="text-cosmos-star/85">
-                  {formatTemperature(stop.temperatureKelvin)}
+                  {formatTemperature(stop.temperatureKelvin, t)}
                 </span>
               </span>
             )}

@@ -124,3 +124,13 @@ describe("logPosition", () => {
     expect(logPosition(1e30, -18, 27)).toBe(1);
   });
 });
+
+describe("formatMeters tidy output", () => {
+  it("drops trailing zeros", () => {
+    expect(formatMeters(1e-18)).toBe("0.001 fm");
+    expect(formatMeters(1e-15)).toBe("1 fm");
+    expect(formatMeters(2e-9)).toBe("2 nm");
+    expect(formatMeters(1.7)).toBe("1.7 m");
+    expect(formatMeters(8.8e26)).toBe("93 billion ly");
+  });
+});
