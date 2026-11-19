@@ -506,7 +506,8 @@
     "mountain": "Planina",
     "force": "Sila",
     "spacetime": "Prostor-vreme",
-    "hypothetical": "Hipotetičko"
+    "hypothetical": "Hipotetičko",
+    "ocean": "Okean"
   },
   "stops": {
     "quark": {
@@ -1490,6 +1491,28 @@
         "fact8": "Podmorski teleskop KM3NeT objavio je 2025. najenergičniji neutrino ikada viđen: oko 220 PeV."
       },
       "metaDescription": "Neutrini su sablasne čestice skoro bez mase: 65 milijardi sa Sunca svake sekunde prođe kroz svaki kvadratni centimetar vas. Šta su, jednostavno objašnjeno."
+    },
+    "mariana_trench": {
+      "name": "Marijanski rov",
+      "seoTitle": "Koliko je dubok Marijanski rov? Dublji od Everesta",
+      "tagline": "Najdublje mesto u okeanu — kad biste u njega spustili Mont Everest, vrh bi i dalje bio dva kilometra pod vodom.",
+      "body": "Marijanski rov je brazda u obliku polumeseca na dnu zapadnog Tihog okeana, duga oko 2.550 km, istočno od Marijanskih ostrva, blizu Guama. Nastaje tamo gde Pacifička ploča tone pod manju Marijansku ploču. Njegova najdublja tačka, Čelendžerov ponor (Challenger Deep), nalazi se oko 10.935 m ispod nivoa mora, prema najnovijim merenjima sonarom i pritiskom. Tamo dole voda pritiska više od 1.000 puta jače nego na površini, vlada potpuni mrak, a temperatura je tek malo iznad nule — pa ipak ima života: rakova nalik škampima (amfipoda), džinovskih jednoćelijskih ksenofiofora i prostirki od mikroba.",
+      "narrative": "Kad biste Mont Everest spustili u Čelendžerov ponor, njegov vrh bi i dalje bio oko 2 km pod vodom. Putnički avioni lete na oko 11 km — skoro tačno onoliko iznad mora koliko je dno rova ispod njega.",
+      "funFact": "Do dna je stiglo tek nekoliko desetina ljudi. Prvi su bili Žak Pikar i Don Volš, koji su ga u batiskafu Trst dosegli 23. januara 1960. i na dnu proveli 20 minuta, dok im je pogled mutio uskovitlani mulj. Niko se nije vratio sve do 2012, kada je filmski reditelj Džejms Kameron zaronio sam; od 2019. podmornica Limiting Factor Viktora Veskova odvela je dole još dvadesetak ljudi.",
+      "image": {
+        "alt": "Batiskaf Trst na uzburkanom sivom moru iznad Marijanskog rova u januaru 1960, iza njega brod američke mornarice."
+      },
+      "facts": {
+        "fact1": "Najdublja tačka (Čelendžerov ponor): oko 10.935 m ispod nivoa mora.",
+        "fact2": "Dužina: oko 2.550 km; prosečna širina oko 69 km.",
+        "fact3": "Pritisak na dnu: oko 1.086 bara — više od 1.000 puta veći nego na površini.",
+        "fact4": "Temperatura vode na dnu: oko 1–4 °C.",
+        "fact5": "Prvi put dosegnut 23. januara 1960: Žak Pikar i Don Volš u batiskafu Trst.",
+        "fact6": "Nastao subdukcijom: Pacifička ploča tone pod Marijansku ploču.",
+        "fact7": "Na dubini od 10.898 m snimljena je plastična kesa — najdublji poznati komad plastičnog otpada.",
+        "fact8": "Tamo buja život: amfipodi, morski krastavci i ksenofiofore — pojedinačne ćelije velike i do 10 cm."
+      },
+      "metaDescription": "Marijanski rov se spušta do oko 10.935 m u Čelendžerovom ponoru — Everest bi nestao pod 2 km vode. Pritisak, život i ljudi koji su stigli do dna."
     }
   },
   "about": {
@@ -2080,6 +2103,10 @@
     "neutrino_oscillation": {
       "term": "Oscilacija neutrina",
       "definition": "Pojava da neutrino tokom putovanja prelazi iz jednog ukusa u drugi (elektronski, mionski, tau) — moguća samo zato što neutrini imaju masu."
+    },
+    "subduction": {
+      "term": "Subdukcija",
+      "definition": "Podvlačenje jedne tektonske ploče pod drugu, naniže u Zemljin omotač — proces koji stvara duboke okeanske rovove, lukove vulkanskih ostrva i najjače zemljotrese."
     }
   },
   "faq": {

@@ -506,7 +506,8 @@
     "mountain": "Mountain",
     "force": "Force",
     "spacetime": "Spacetime",
-    "hypothetical": "Hypothetical"
+    "hypothetical": "Hypothetical",
+    "ocean": "Ocean"
   },
   "stops": {
     "quark": {
@@ -1490,6 +1491,28 @@
         "fact8": "In 2025 the KM3NeT sea-floor telescope reported the most energetic neutrino ever seen: about 220 PeV."
       },
       "metaDescription": "Neutrinos are ghostly, almost massless particles: 65 billion from the Sun cross every square centimetre of you each second. What they are, simply explained."
+    },
+    "mariana_trench": {
+      "name": "Mariana Trench",
+      "seoTitle": "How Deep Is the Mariana Trench? Deeper Than Everest",
+      "tagline": "The deepest place in the ocean — drop Everest in and its summit would still be two kilometres underwater.",
+      "body": "The Mariana Trench is a crescent-shaped gash in the floor of the western Pacific, about 2,550 km long, east of the Mariana Islands near Guam. It forms where the Pacific Plate dives beneath the smaller Mariana Plate. Its deepest point, Challenger Deep, lies roughly 10,935 m below sea level according to the latest sonar and pressure surveys. Down there the water presses with more than 1,000 times the pressure at the surface, it is pitch dark and only just above freezing — and still there is life: shrimp-like amphipods, giant single-celled xenophyophores and mats of microbes.",
+      "narrative": "Drop Mount Everest into Challenger Deep and its summit would still sit about 2 km underwater. Airliners cruise at around 11 km — almost exactly as far above the sea as the bottom of the trench lies below it.",
+      "funFact": "Only a few dozen people have ever reached the bottom. The first, Jacques Piccard and Don Walsh, got there in the bathyscaphe Trieste on 23 January 1960 and spent 20 minutes on the floor, their view clouded by stirred-up silt. Nobody went back until film-maker James Cameron dived alone in 2012; since 2019 Victor Vescovo's submersible Limiting Factor has taken a couple of dozen more.",
+      "image": {
+        "alt": "The bathyscaphe Trieste afloat in rough grey seas over the Mariana Trench in January 1960, a US Navy ship behind it."
+      },
+      "facts": {
+        "fact1": "Deepest point (Challenger Deep): about 10,935 m below sea level.",
+        "fact2": "Length: about 2,550 km; average width about 69 km.",
+        "fact3": "Pressure at the bottom: about 1,086 bar — more than 1,000 times that at the surface.",
+        "fact4": "Water temperature at the bottom: about 1–4 °C.",
+        "fact5": "First reached on 23 January 1960 by Jacques Piccard and Don Walsh in the Trieste.",
+        "fact6": "Made by subduction: the Pacific Plate sinks beneath the Mariana Plate.",
+        "fact7": "A plastic bag has been spotted at 10,898 m — the deepest known piece of plastic litter.",
+        "fact8": "Life thrives there: amphipods, sea cucumbers and xenophyophores — single cells up to 10 cm across."
+      },
+      "metaDescription": "The Mariana Trench plunges about 10,935 m at Challenger Deep — Everest would vanish under 2 km of water. Pressure, life and the people who reached the bottom."
     }
   },
   "about": {
@@ -2080,6 +2103,10 @@
     "neutrino_oscillation": {
       "term": "Neutrino oscillation",
       "definition": "The way a neutrino switches between its three flavours (electron, muon, tau) as it travels — possible only because neutrinos have mass."
+    },
+    "subduction": {
+      "term": "Subduction",
+      "definition": "One tectonic plate sliding beneath another, down into Earth's mantle — the process that builds deep ocean trenches, volcanic island arcs and the strongest earthquakes."
     }
   },
   "faq": {
@@ -2156,7 +2183,8 @@
       "blue_whale": "a blue whale",
       "mount_everest": "Mount Everest",
       "m87_black_hole": "M87*",
-      "gaia_bh1": "Gaia BH1"
+      "gaia_bh1": "Gaia BH1",
+      "mariana_trench": "the Mariana Trench"
     }
   },
   "seo": {

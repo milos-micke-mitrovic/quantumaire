@@ -724,5 +724,19 @@
       "label": "Nobel Prize",
       "url": "https://www.nobelprize.org/prizes/physics/2015/summary/"
     }
+  ],
+  "mariana_trench": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mariana_Trench"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Challenger_Deep"
+    },
+    {
+      "label": "NOAA",
+      "url": "https://oceanservice.noaa.gov/facts/oceandepth.html"
+    }
   ]
 }

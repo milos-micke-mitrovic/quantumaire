@@ -1370,6 +1370,31 @@
       "tags": [
         "particle"
       ]
+    },
+    {
+      "id": "mariana_trench",
+      "i18nKey": "stops.mariana_trench",
+      "sizeMeters": 10935,
+      "order": 6.25,
+      "badge": "FACT",
+      "category": "EARTH",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "preferredReferenceId": "everest",
+      "image": {
+        "src": "/images/mariana-trench.webp",
+        "aspect": "wide",
+        "altKey": "stops.mariana_trench.image.alt",
+        "credit": "U.S. Navy — public domain"
+      },
+      "glossary": [
+        "subduction",
+        "plate_tectonics"
+      ],
+      "tags": [
+        "ocean"
+      ],
+      "temperatureKelvin": 275
     }
   ]
 }

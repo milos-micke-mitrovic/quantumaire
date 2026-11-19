@@ -4,6 +4,7 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 
 ## Queue (next first)
 
+- https://quantumaire.space/en/stop/mariana_trench
 - https://quantumaire.space/en/stop/neutrino
 - https://quantumaire.space/en/stop/gaia_bh1
 - https://quantumaire.space/en/stop/m87_black_hole
