@@ -41,7 +41,6 @@ export function StopCard({ stop, index, sizes = GRID_SIZES, deferImage = false }
     >
       <Link
         href={`/${locale}/stop/${stop.id}`}
-        aria-label={`${t("common.openStop")} — ${t(`${stop.i18nKey}.name`)}`}
         className="block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cosmos-aurora/60 rounded-2xl"
       >
         <div className="relative">

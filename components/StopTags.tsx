@@ -33,7 +33,7 @@ export function StopTags({ tags, className, size = "sm" }: StopTagsProps) {
     >
       {tags.map((id) => {
         const cls = clsx(
-          "inline-flex items-center rounded-full border border-cosmos-aurora/30 bg-cosmos-aurora/10 font-medium text-cosmos-aurora",
+          "inline-flex items-center rounded-full border border-cosmos-aurora/30 bg-cosmos-aurora/10 font-medium text-cosmos-plasma",
           size === "sm"
             ? "px-2 py-0.5 text-[10px] uppercase tracking-[0.16em]"
             : "px-2.5 py-1 text-[11px] uppercase tracking-[0.18em]"

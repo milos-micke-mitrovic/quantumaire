@@ -52,7 +52,7 @@ export function FaqSection({ locale }: FaqSectionProps) {
           ones below it, instead of stretching its grid-row neighbour. */}
       <div className="grid gap-3 lg:grid-cols-2 lg:items-start lg:gap-4">
         {[FAQ_INDICES.slice(0, 4), FAQ_INDICES.slice(4)].map((column, ci) => (
-          <dl key={ci} className="space-y-3 lg:space-y-4">
+          <div key={ci} className="space-y-3 lg:space-y-4">
             {column.map((i) => {
               const q = tServer(locale, `home.faq.q${i}`);
               const a = tServer(locale, `home.faq.a${i}`);
@@ -62,7 +62,7 @@ export function FaqSection({ locale }: FaqSectionProps) {
                   className="group rounded-2xl border border-white/10 bg-white/[0.025] open:bg-white/[0.04]"
                 >
                   <summary className="flex cursor-pointer list-none items-start justify-between gap-4 px-5 py-4 text-left text-base font-medium text-cosmos-star marker:hidden [&::-webkit-details-marker]:hidden">
-                    <dt className="flex-1 leading-snug">{q}</dt>
+                    <span className="flex-1 leading-snug">{q}</span>
                     <span
                       aria-hidden
                       className="mt-1 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-white/15 text-cosmos-star/60 transition-transform group-open:rotate-45"
@@ -79,7 +79,7 @@ export function FaqSection({ locale }: FaqSectionProps) {
                       </svg>
                     </span>
                   </summary>
-                  <dd className="px-5 pb-5 text-sm leading-relaxed text-cosmos-star/80 sm:text-[15px]">
+                  <div className="px-5 pb-5 text-sm leading-relaxed text-cosmos-star/80 sm:text-[15px]">
                     {a}{" "}
                     <Link
                       href={`/${locale}/stop/${FAQ_LINKS[i]}`}
@@ -87,11 +87,11 @@ export function FaqSection({ locale }: FaqSectionProps) {
                     >
                       {tServer(locale, "home.faq.readMore")} →
                     </Link>
-                  </dd>
+                  </div>
                 </details>
               );
             })}
-          </dl>
+          </div>
         ))}
       </div>
     </section>
