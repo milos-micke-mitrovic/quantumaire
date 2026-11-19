@@ -1444,6 +1444,29 @@
         "spacecraft"
       ],
       "temperatureKelvin": 40
+    },
+    {
+      "id": "fermi_paradox",
+      "i18nKey": "stops.fermi_paradox",
+      "sizeMeters": null,
+      "order": 14.5,
+      "badge": "SPECULATIVE",
+      "category": "COSMOS",
+      "accent": "text-badge-speculative",
+      "accentGlow": "shadow-[0_0_80px_rgba(251,113,133,0.4)]",
+      "image": {
+        "src": "/images/fermi-paradox.webp",
+        "aspect": "wide",
+        "altKey": "stops.fermi_paradox.image.alt",
+        "credit": "ESO/P. Horálek — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "drake_equation",
+        "habitable_zone"
+      ],
+      "tags": [
+        "alien-life"
+      ]
     }
   ]
 }

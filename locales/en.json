@@ -507,7 +507,8 @@
     "force": "Force",
     "spacetime": "Spacetime",
     "hypothetical": "Hypothetical",
-    "ocean": "Ocean"
+    "ocean": "Ocean",
+    "alien-life": "Alien life"
   },
   "stops": {
     "quark": {
@@ -1559,6 +1560,27 @@
         "fact8": "It has seen galaxies as they were less than 300 million years after the Big Bang."
       },
       "metaDescription": "The James Webb Space Telescope has a 6.5 m gold mirror and a tennis-court-sized sunshield, and works 1.5 million km from Earth. Size, distance and discoveries."
+    },
+    "fermi_paradox": {
+      "name": "Fermi Paradox",
+      "seoTitle": "What Is the Fermi Paradox? Where Is Everybody?",
+      "tagline": "Billions of planets, billions of years — and not a single sign of anyone else. Where is everybody?",
+      "body": "In 1950, over lunch at Los Alamos, the physicist Enrico Fermi asked a simple question: \"Where is everybody?\" The Milky Way holds hundreds of billions of stars, many of them billions of years older than the Sun, and we now know that planets are the rule rather than the exception — more than 6,000 have been confirmed around other stars. Even a civilisation travelling far slower than light could spread across the galaxy in a few million years, a blink compared with its age. Yet we see no visitors, no signals and no giant feats of engineering. That contradiction is the Fermi paradox. The question is real; every answer so far — from \"life is rare\" to \"they're hiding\" — is speculation.",
+      "narrative": "Squeeze the Milky Way's 13 billion years into a single calendar year and a civilisation with slow starships could settle the entire galaxy in about half a day — while all of recorded human history fits into the final 12 seconds.",
+      "funFact": "We've barely started looking. A 2018 estimate found that all the radio searches for alien signals so far add up to examining about one hot tub's worth of water from all of Earth's oceans. Finding no fish in a hot tub tells you very little about the sea.",
+      "image": {
+        "alt": "Radio dishes of the ALMA observatory in Chile's Atacama Desert under the arch of the Milky Way at night."
+      },
+      "facts": {
+        "fact1": "Named after Enrico Fermi, who asked \"Where is everybody?\" at Los Alamos in 1950.",
+        "fact2": "The Milky Way has an estimated 100–400 billion stars; many are billions of years older than the Sun.",
+        "fact3": "More than 6,000 planets around other stars have been confirmed since 1995.",
+        "fact4": "The Drake equation (1961) splits the number of detectable civilisations into factors — most of them still unknown.",
+        "fact5": "The \"Great Filter\" idea: some step from dead chemistry to star-faring life is extremely hard — and it may lie behind us, or ahead.",
+        "fact6": "The 1977 \"Wow!\" signal is the most famous candidate alien radio blip; it has never been picked up again.",
+        "fact7": "Proposed answers include rare life, short-lived civilisations, vast gaps in time between them — or simply that we haven't looked enough."
+      },
+      "metaDescription": "Billions of stars and thousands of known planets, yet no sign of aliens. What the Fermi paradox is and the main proposed answers, simply explained."
     }
   },
   "about": {
@@ -2161,6 +2183,10 @@
     "lagrange_point": {
       "term": "Lagrange point",
       "definition": "A spot where the gravity of two large bodies, such as the Sun and Earth, balances a spacecraft's orbital motion, so it keeps its place relative to both with very little fuel."
+    },
+    "drake_equation": {
+      "term": "Drake equation",
+      "definition": "Frank Drake's 1961 formula for estimating how many civilisations in our galaxy we might detect, by multiplying factors such as the rate of star formation, the share of stars with planets and how long civilisations last."
     }
   },
   "faq": {

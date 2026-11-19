@@ -762,5 +762,19 @@
       "label": "NASA",
       "url": "https://science.nasa.gov/mission/webb/"
     }
+  ],
+  "fermi_paradox": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fermi_paradox"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Drake_equation"
+    },
+    {
+      "label": "SETI Institute",
+      "url": "https://www.seti.org/drake-equation-index"
+    }
   ]
 }

@@ -507,7 +507,8 @@
     "force": "Sila",
     "spacetime": "Prostor-vreme",
     "hypothetical": "Hipotetičko",
-    "ocean": "Okean"
+    "ocean": "Okean",
+    "alien-life": "Vanzemaljski život"
   },
   "stops": {
     "quark": {
@@ -1559,6 +1560,27 @@
         "fact8": "Video je galaksije kakve su bile manje od 300 miliona godina posle Velikog praska."
       },
       "metaDescription": "Teleskop Džejms Veb ima zlatno ogledalo od 6,5 m i štit veličine teniskog terena, a radi 1,5 miliona km od Zemlje. Veličina, udaljenost i otkrića."
+    },
+    "fermi_paradox": {
+      "name": "Fermijev paradoks",
+      "seoTitle": "Šta je Fermijev paradoks? Gde su svi?",
+      "tagline": "Milijarde planeta, milijarde godina — i nijedan znak da postoji još neko. Gde su svi?",
+      "body": "Godine 1950, za ručkom u Los Alamosu, fizičar Enriko Fermi postavio je jednostavno pitanje: „Gde su svi?“ Mlečni put ima stotine milijardi zvezda, mnoge milijardama godina starije od Sunca, a danas znamo da su planete pravilo, a ne izuzetak — oko drugih zvezda potvrđeno ih je više od 6.000. Čak i civilizacija koja putuje mnogo sporije od svetlosti mogla bi da se raširi po celoj galaksiji za nekoliko miliona godina, što je tren u poređenju sa njenom starošću. Pa ipak, ne vidimo ni posetioce, ni signale, ni džinovske građevine. Ta protivrečnost je Fermijev paradoks. Pitanje je stvarno; svaki dosadašnji odgovor — od „život je redak“ do „kriju se“ — samo je spekulacija.",
+      "narrative": "Sabijte 13 milijardi godina istorije Mlečnog puta u jednu kalendarsku godinu i civilizacija sa sporim svemirskim brodovima mogla bi da naseli celu galaksiju za oko pola dana — dok bi cela zapisana ljudska istorija stala u poslednjih 12 sekundi.",
+      "funFact": "Jedva smo počeli da tražimo. Procena iz 2018. pokazala je da sve dosadašnje radio-potrage za signalima vanzemaljaca, zajedno, odgovaraju pregledu otprilike jednog džakuzija vode iz svih Zemljinih okeana. Ako u džakuziju nema riba, to malo govori o moru.",
+      "image": {
+        "alt": "Radio-antene opservatorije ALMA u čileanskoj pustinji Atakami, noću pod lukom Mlečnog puta."
+      },
+      "facts": {
+        "fact1": "Ime je dobio po Enriku Fermiju, koji je 1950. u Los Alamosu upitao: „Gde su svi?“",
+        "fact2": "Mlečni put ima, po procenama, 100–400 milijardi zvezda; mnoge su milijardama godina starije od Sunca.",
+        "fact3": "Od 1995. potvrđeno je više od 6.000 planeta oko drugih zvezda.",
+        "fact4": "Drejkova jednačina (1961) razlaže broj civilizacija koje bismo mogli da otkrijemo na činioce — od kojih je većina i dalje nepoznata.",
+        "fact5": "Ideja „Velikog filtera“: neki korak od mrtve hemije do života koji putuje među zvezdama izuzetno je težak — a može biti iza nas ili ispred nas.",
+        "fact6": "Signal „Wow!“ iz 1977. najpoznatiji je radio-signal za koji se mislilo da bi mogao biti vanzemaljski; nikada više nije uhvaćen.",
+        "fact7": "Predloženi odgovori: život je redak, civilizacije kratko traju, razdvojene su ogromnim razmacima u vremenu — ili jednostavno nismo dovoljno tražili."
+      },
+      "metaDescription": "Milijarde zvezda i hiljade poznatih planeta, a nijednog znaka vanzemaljaca. Šta je Fermijev paradoks i koji su glavni predloženi odgovori, jednostavno."
     }
   },
   "about": {
@@ -2161,6 +2183,10 @@
     "lagrange_point": {
       "term": "Lagranžova tačka",
       "definition": "Mesto gde gravitacija dva velika tela, poput Sunca i Zemlje, uravnotežuje orbitalno kretanje letelice, pa ona uz vrlo malo goriva zadržava položaj u odnosu na oba."
+    },
+    "drake_equation": {
+      "term": "Drejkova jednačina",
+      "definition": "Formula Frenka Drejka iz 1961. kojom se procenjuje koliko bismo civilizacija u našoj galaksiji mogli da otkrijemo, množenjem činilaca kao što su brzina nastanka zvezda, udeo zvezda sa planetama i koliko dugo civilizacije traju."
     }
   },
   "faq": {
