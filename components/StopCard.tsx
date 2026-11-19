@@ -17,12 +17,14 @@ interface StopCardProps {
   index: number;
   /** `sizes` for the card image; shelves pass their fixed card width. */
   sizes?: string;
+  /** Wait until the card is near the viewport before loading its image. */
+  deferImage?: boolean;
 }
 
 const GRID_SIZES =
   "(min-width: 1024px) 300px, (min-width: 640px) 45vw, calc(100vw - 4.5rem)";
 
-export function StopCard({ stop, index, sizes = GRID_SIZES }: StopCardProps) {
+export function StopCard({ stop, index, sizes = GRID_SIZES, deferImage = false }: StopCardProps) {
   const { t, locale } = useI18n();
   const { tempUnit } = useTempUnit();
   const { visited } = useVisited();
@@ -47,6 +49,7 @@ export function StopCard({ stop, index, sizes = GRID_SIZES }: StopCardProps) {
             image={stop.image}
             aspect="square"
             className="mb-4"
+            defer={deferImage}
             sizes={sizes}
           />
           {isVisited && (

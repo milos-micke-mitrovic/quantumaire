@@ -2,7 +2,7 @@
 
 import clsx from "clsx";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import type { ImagePlaceholder as ImagePlaceholderType } from "@/lib/types";
 
@@ -15,6 +15,12 @@ interface Props {
   aspect?: ImagePlaceholderType["aspect"];
   /** `sizes` hint so the browser fetches the smallest adequate variant. */
   sizes?: string;
+  /**
+   * Don't request the image until it is within ~300 px of the viewport.
+   * For the home shelves: native lazy loading starts 1–2.5k px early, so
+   * on a phone ~30 card images competed with the hero (LCP) for bandwidth.
+   */
+  defer?: boolean;
 }
 
 const ASPECTS: Record<ImagePlaceholderType["aspect"], string> = {
@@ -35,21 +41,44 @@ export function ImagePlaceholder({
   className,
   aspect,
   sizes = "(min-width: 1024px) 50vw, 100vw",
+  defer = false,
 }: Props) {
   const { t } = useI18n();
   const [missing, setMissing] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+  const [near, setNear] = useState(!defer);
+  useEffect(() => {
+    if (near || !ref.current) return;
+    if (typeof IntersectionObserver === "undefined") {
+      // Very old browsers: just load it.
+      queueMicrotask(() => setNear(true));
+      return;
+    }
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          setNear(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: "300px" }
+    );
+    io.observe(ref.current);
+    return () => io.disconnect();
+  }, [near]);
   const alt = t(image.altKey);
   const aspectKey = aspect ?? image.aspect;
 
   return (
     <div
+      ref={ref}
       className={clsx(
         "relative w-full overflow-hidden rounded-2xl border border-white/10 bg-cosmos-night/40",
         ASPECTS[aspectKey],
         className
       )}
     >
-      {!missing && (
+      {!missing && near && (
         <Image
           src={image.src}
           alt={alt}

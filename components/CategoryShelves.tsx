@@ -187,7 +187,7 @@ function ShelfRow({ stops }: { stops: Stop[] }) {
             key={stop.id}
             className="w-[78%] max-w-[300px] shrink-0 snap-start sm:w-[300px]"
           >
-            <StopCard stop={stop} index={i} sizes="(min-width: 640px) 260px, 70vw" />
+            <StopCard stop={stop} index={i} sizes="(min-width: 640px) 260px, 70vw" deferImage />
           </li>
         ))}
       </ul>
