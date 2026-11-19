@@ -16,27 +16,12 @@
       "image": {
         "src": "/images/quark.webp",
         "aspect": "square",
-        "altKey": "stops.quark.image.alt",
-        "geminiPrompt": "A glowing quark — a luminous, sub-femtometer point of pure energy suspended in an electric-blue gluon field. Vibrant cyan particle trails, hyperreal scientific illustration, deep space backdrop, cinematic, ultra-detailed."
+        "altKey": "stops.quark.image.alt"
       },
       "glossary": [
         "quantum",
         "gluon",
         "strong_force"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Quark"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Standard_Model"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/science/quark"
-        }
       ],
       "tags": [
         "particle"
@@ -54,27 +39,12 @@
       "image": {
         "src": "/images/proton.webp",
         "aspect": "square",
-        "altKey": "stops.proton.image.alt",
-        "geminiPrompt": "A proton visualized as three glowing quarks bound by a swirling gluon field, energetic plasma threads, vibrant red-blue color charge, hyperreal scientific render, dark cosmic background, ultra-detailed."
+        "altKey": "stops.proton.image.alt"
       },
       "glossary": [
         "quark",
         "strong_force",
         "nucleus"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Proton"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Atomic_nucleus"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/science/proton-subatomic-particle"
-        }
       ],
       "tags": [
         "particle"
@@ -93,27 +63,12 @@
         "src": "/images/atom.webp",
         "aspect": "square",
         "altKey": "stops.atom.image.alt",
-        "geminiPrompt": "A single hydrogen atom rendered as a glowing nucleus surrounded by a probabilistic electron cloud, soft luminous orbital shells, cyan-to-violet gradient, dark space backdrop, hyperreal scientific illustration.",
         "credit": "Forschungszentrum Jülich (CC BY-SA 3.0)"
       },
       "glossary": [
         "electron",
         "orbital",
         "quantum"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Atom"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Atomic_orbital"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/science/atom"
-        }
       ],
       "tags": [
         "matter"
@@ -132,27 +87,12 @@
         "src": "/images/dna.webp",
         "aspect": "portrait",
         "altKey": "stops.dna.image.alt",
-        "geminiPrompt": "A double-helix DNA strand glowing in violet and aurora-cyan, base pairs as crystalline rungs, drifting through dark cellular space, hyperreal scientific render with cinematic lighting.",
         "credit": "Zephyris (CC BY-SA 3.0)"
       },
       "glossary": [
         "base_pair",
         "helix",
         "genome"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/DNA"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Human_genome"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/science/DNA"
-        }
       ],
       "tags": [
         "biology"
@@ -170,23 +110,12 @@
       "image": {
         "src": "/images/mpd.webp",
         "aspect": "wide",
-        "altKey": "stops.mpd.image.alt",
-        "geminiPrompt": "A human silhouette split into multiple translucent overlapping personas, each rendered in a different cosmic hue — violet, amber, teal — fragments drifting apart like nebula clouds. Surreal, psychological, dreamlike, dark gallery lighting."
+        "altKey": "stops.mpd.image.alt"
       },
       "glossary": [
         "dissociation",
         "alter",
         "psychogenic"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Dissociative_identity_disorder"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/science/dissociative-identity-disorder"
-        }
       ],
       "tags": [
         "psychology"
@@ -205,27 +134,12 @@
         "src": "/images/pyramid.webp",
         "aspect": "wide",
         "altKey": "stops.pyramid.image.alt",
-        "geminiPrompt": "The Great Pyramid of Giza at twilight, golden limestone catching the last light, a single beam of starlight aligning with its apex, cosmic dust drifting overhead, hyperreal cinematic photograph, sense of ancient mystery.",
         "credit": "Nina-no (CC BY-SA 2.5)"
       },
       "glossary": [
         "orion_correlation",
         "limestone_casing",
         "khufu"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Khufu"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/topic/Great-Pyramid-of-Giza"
-        }
       ],
       "tags": [
         "ancient"
@@ -245,27 +159,12 @@
         "src": "/images/earth.webp",
         "aspect": "square",
         "altKey": "stops.earth.image.alt",
-        "geminiPrompt": "Earth seen from deep space — soft blue oceans, swirling white clouds, faint atmosphere glow, half-lit by a distant sun, ultra-detailed photographic realism, our reference grain of sand.",
         "credit": "NASA / Apollo 17"
       },
       "glossary": [
         "grain_of_sand",
         "reference_scale",
         "plate_tectonics"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Earth"
-        },
-        {
-          "label": "NASA",
-          "url": "https://science.nasa.gov/earth/"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/place/Earth"
-        }
       ],
       "tags": [
         "planet"
@@ -285,27 +184,12 @@
         "src": "/images/neutron-star.webp",
         "aspect": "square",
         "altKey": "stops.neutron_star.image.alt",
-        "geminiPrompt": "A pulsar — a city-sized neutron star spinning hundreds of times per second, twin polar jets of brilliant blue radiation cutting through dark space, dense magnetic field lines, hyperreal astrophysical render.",
         "credit": "NASA / JPL-Caltech (PIA21085)"
       },
       "glossary": [
         "pulsar",
         "supernova",
         "degenerate_matter"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Neutron_star"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Pulsar"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/science/neutron-star"
-        }
       ],
       "tags": [
         "star",
@@ -327,27 +211,12 @@
         "src": "/images/sun.webp",
         "aspect": "square",
         "altKey": "stops.sun.image.alt",
-        "geminiPrompt": "Our Sun in fierce ultraviolet detail — roiling plasma surface, prominences arcing into space, coronal loops, deep orange and white, photographic SDO-style astrophotography.",
         "credit": "NASA / SDO"
       },
       "glossary": [
         "fusion",
         "corona",
         "main_sequence"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Sun"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nuclear_fusion"
-        },
-        {
-          "label": "NASA",
-          "url": "https://science.nasa.gov/sun/"
-        }
       ],
       "tags": [
         "star"
@@ -368,23 +237,12 @@
       "image": {
         "src": "/images/uy-scuti.webp",
         "aspect": "wide",
-        "altKey": "stops.uy_scuti.image.alt",
-        "geminiPrompt": "UY Scuti — one of the largest known stars — a swollen red hypergiant filling the frame, dim crimson surface with convection cells the size of solar systems, tiny silhouette of our Sun for scale, awe-inspiring astrophysical art."
+        "altKey": "stops.uy_scuti.image.alt"
       },
       "glossary": [
         "hypergiant",
         "supernova",
         "stellar_radius"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/UY_Scuti"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Hypergiant"
-        }
       ],
       "tags": [
         "star",
@@ -405,27 +263,12 @@
         "src": "/images/milky-way.webp",
         "aspect": "wide",
         "altKey": "stops.milky_way.image.alt",
-        "geminiPrompt": "The Milky Way galaxy seen face-on — spiral arms glowing with stars, lavender dust lanes, a brilliant golden galactic core, billions of suns rendered in photographic deep-field detail.",
         "credit": "ESO / Y. Beletsky"
       },
       "glossary": [
         "spiral_arm",
         "galactic_core",
         "light_year"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Milky_Way"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Galactic_Center"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/place/Milky-Way-Galaxy"
-        }
       ],
       "tags": [
         "galaxy"
@@ -444,27 +287,12 @@
         "src": "/images/dark-matter.webp",
         "aspect": "wide",
         "altKey": "stops.dark_matter.image.alt",
-        "geminiPrompt": "Dark matter visualized as an invisible cosmic web — translucent violet filaments weaving through deep space, bending light around galaxies, ghostly gravitational lensing arcs, scientific simulation aesthetic.",
         "credit": "NASA / CXC / M. Markevitch — Bullet Cluster (1E 0657-56)"
       },
       "glossary": [
         "gravitational_lensing",
         "wimp",
         "halo"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Dark_matter"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Gravitational_lens"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/science/dark-matter"
-        }
       ],
       "tags": [
         "phenomenon"
@@ -483,7 +311,6 @@
         "src": "/images/dark-energy.webp",
         "aspect": "wide",
         "altKey": "stops.dark_energy.image.alt",
-        "geminiPrompt": "Dark energy as the accelerating expansion of space — galaxies stretched apart by an unseen force, faint magenta tension lines pulling outward, cosmological horizon receding, abstract and awe-inducing.",
         "credit": "NASA / ESA / S. Beckwith (STScI) — Hubble Ultra Deep Field"
       },
       "glossary": [
@@ -491,20 +318,6 @@
         "expansion",
         "horizon",
         "inflation"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Dark_energy"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Cosmological_constant"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/science/dark-energy"
-        }
       ],
       "tags": [
         "phenomenon"
@@ -525,7 +338,6 @@
         "src": "/images/observable-universe.webp",
         "aspect": "square",
         "altKey": "stops.observable_universe.image.alt",
-        "geminiPrompt": "The observable universe as a luminous sphere — billions of galaxies arranged along the cosmic web, deep violet voids and golden filaments, edge of the horizon glowing faintly, scientific cosmological art.",
         "credit": "Pablo Carlos Budassi (CC BY-SA 4.0)"
       },
       "glossary": [
@@ -534,20 +346,6 @@
         "cmb",
         "redshift",
         "inflation"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Observable_universe"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Big_Bang"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/science/universe"
-        }
       ],
       "tags": [
         "cosmos"
@@ -566,27 +364,12 @@
         "src": "/images/virus.webp",
         "aspect": "square",
         "altKey": "stops.virus.image.alt",
-        "geminiPrompt": "An icosahedral virus capsid rendered as faceted geometric protein subunits glowing in cyan #22d3ee and violet #7c5cff. A translucent RNA strand visible through the shell. Background: dark cellular fluid in #0a0a1f with faint biological textures, scattered protein motes in #f0abfc. Hyperreal scientific illustration, ultra-detailed.",
         "credit": "CDC / Public Health Image Library"
       },
       "glossary": [
         "capsid",
         "rna",
         "genome"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Virus"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Capsid"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/science/virus"
-        }
       ],
       "tags": [
         "biology",
@@ -608,7 +391,6 @@
         "src": "/images/supermassive-black-hole.webp",
         "aspect": "square",
         "altKey": "stops.supermassive_black_hole.image.alt",
-        "geminiPrompt": "A supermassive black hole imaged from close range — a pure black sphere ringed by an incandescent accretion disk in #fb7185 and #f0abfc, gravitational lensing curving stars and a photon ring above and below the horizon. Distant background: nebular #1a1245 with pinpricks of #e0f2fe starlight. Inspired by Event Horizon Telescope imagery, ultra-detailed scientific render, cinematic.",
         "credit": "EHT Collaboration (CC BY 4.0)"
       },
       "glossary": [
@@ -617,20 +399,6 @@
         "singularity",
         "quasar",
         "schwarzschild_radius"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Supermassive_black_hole"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Black_hole"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/science/black-hole"
-        }
       ],
       "tags": [
         "black-hole"
@@ -649,26 +417,11 @@
         "src": "/images/bacterium.webp",
         "aspect": "wide",
         "altKey": "stops.bacterium.image.alt",
-        "geminiPrompt": "A single bacterium (E. coli style rod) — translucent cell envelope in #22d3ee, surface proteins suggested, several whip-like flagella in #f0abfc trailing behind, ribosomes as #c084fc dots inside (no nucleus). Background: aqueous medium in deep #0a0a1f with faint biological textures. Hyperreal scientific illustration, ultra-detailed, wide cinematic crop.",
         "credit": "NIAID / Rocky Mountain Laboratories"
       },
       "glossary": [
         "organelle",
         "genome"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Bacteria"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Prokaryote"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/science/bacteria"
-        }
       ],
       "tags": [
         "biology",
@@ -689,23 +442,12 @@
         "src": "/images/galaxy-cluster.webp",
         "aspect": "wide",
         "altKey": "stops.galaxy_cluster.image.alt",
-        "geminiPrompt": "A galaxy cluster — dozens of galaxies in various orientations bound by gravity, a giant brightest cluster galaxy at centre in #c084fc, smaller spirals and ellipticals in #f0abfc around it, intracluster gas glowing faintly in #7c5cff. Faint #1a1245 cosmic web filaments stretching into the surrounding deep #03030a void. Wide cinematic crop, ultra-detailed.",
         "credit": "NASA / Hubble Heritage Team — M87"
       },
       "glossary": [
         "gravitational_lensing",
         "halo",
         "light_year"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Galaxy_cluster"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Virgo_Cluster"
-        }
       ],
       "tags": [
         "galaxy-cluster"
@@ -725,27 +467,12 @@
         "src": "/images/andromeda.webp",
         "aspect": "wide",
         "altKey": "stops.andromeda.image.alt",
-        "geminiPrompt": "The Andromeda galaxy (M31) tilted at a steep angle — full spiral structure visible, dust lanes in #1a1245 weaving through arms of #f0abfc stars, a bright #c084fc bulge at the core. Background: deep #03030a void with #e0f2fe foreground stars. Photographic deep-field astrophotography, ultra-detailed, wide cinematic crop.",
         "credit": "Adam Evans (CC BY 2.0)"
       },
       "glossary": [
         "spiral_arm",
         "galactic_core",
         "light_year"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Local_Group"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/place/Andromeda-Galaxy"
-        }
       ],
       "tags": [
         "galaxy"
@@ -764,26 +491,11 @@
         "src": "/images/cell.webp",
         "aspect": "square",
         "altKey": "stops.cell.image.alt",
-        "geminiPrompt": "A cross-section of a eukaryotic cell — translucent cell membrane in #22d3ee glow, nucleus rendered as a #7c5cff sphere with chromatin, mitochondria as elongated #f0abfc bodies, folded endoplasmic reticulum. Background: extracellular fluid in deep #0a0a1f with scattered #e0f2fe motes. Hyperreal scientific illustration, ultra-detailed.",
         "credit": "TenOfAllTrades (CC BY-SA 3.0)"
       },
       "glossary": [
         "organelle",
         "genome"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Cell_(biology)"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Eukaryote"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/science/cell-biology"
-        }
       ],
       "tags": [
         "biology"
@@ -802,25 +514,10 @@
         "src": "/images/human.webp",
         "aspect": "portrait",
         "altKey": "stops.human.image.alt",
-        "geminiPrompt": "A human silhouette in profile against a vertical cosmic gradient — deep #03030a void at the feet, luminous #7c5cff and #f0abfc above the head. Inside the silhouette, faint atomic and galactic patterns suggest scale spans. Soft #e0f2fe starlight particles trailing across the figure. Minimalist, hyperreal, awe-inspiring.",
         "credit": "Leonardo da Vinci, c.1490 — photo Luc Viatour"
       },
       "glossary": [
         "reference_scale"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Human"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/topic/Homo-sapiens"
-        }
       ],
       "tags": [
         "biology"
@@ -839,26 +536,11 @@
         "src": "/images/light-year.webp",
         "aspect": "wide",
         "altKey": "stops.light_year.image.alt",
-        "geminiPrompt": "An astronomical distance visualised — a single beam of light in #e0f2fe and #7c5cff stretching from foreground stars toward a distant Proxima-Centauri-style binary, faint year-markers along the photon's path. Background: deep #03030a starfield with #1a1245 nebular haze. Photographic scientific render, wide cinematic crop.",
         "credit": "NASA / ESA / CSA / STScI — JWST Pillars of Creation"
       },
       "glossary": [
         "parsec",
         "light_year"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Light-year"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Proxima_Centauri"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/science/light-year"
-        }
       ],
       "tags": [
         "unit"
@@ -879,27 +561,12 @@
         "src": "/images/solar-system.webp",
         "aspect": "wide",
         "altKey": "stops.solar_system.image.alt",
-        "geminiPrompt": "Top-down view of the Solar System — the Sun at the centre as a brilliant #f0abfc and #c084fc sphere, eight planets orbiting along faint #7c5cff ellipses, the wide ecliptic plane lit with a soft #1a1245 haze. Background: deep #03030a void with scattered #e0f2fe stars. Photographic scientific render, wide cinematic crop, ultra-detailed.",
         "credit": "NASA / JPL"
       },
       "glossary": [
         "ecliptic",
         "oort_cloud",
         "kuiper_belt"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Solar_System"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Voyager_program"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/place/Solar-System"
-        }
       ],
       "tags": [
         "star-system"
@@ -919,23 +586,12 @@
         "src": "/images/voyager1.webp",
         "aspect": "wide",
         "altKey": "stops.voyager1.image.alt",
-        "geminiPrompt": "Voyager 1 spacecraft viewed from behind, its large white dish antenna pointed back toward a distant pale-blue Earth far below, the band of the Milky Way arcing across deep #03030a void above. Aurora-violet #7c5cff and pink-violet #f0abfc highlights on the spacecraft's metallic skin and gold foil. Cinematic, awe-inspiring scientific render, wide crop, ultra-detailed.",
         "credit": "NASA / JPL"
       },
       "glossary": [
         "heliosphere",
         "oort_cloud",
         "astronomical_unit"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Voyager_1"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Voyager_program"
-        }
       ],
       "tags": [
         "spacecraft"
@@ -956,7 +612,6 @@
         "src": "/images/ton-618.webp",
         "aspect": "wide",
         "altKey": "stops.ton_618.image.alt",
-        "geminiPrompt": "TON 618 — an ultramassive quasar black hole at the centre of a distant galaxy — black sphere ringed by a vast luminous accretion disk in #fb7185 and #f0abfc, polar relativistic jets shooting out in bright #c084fc, gravitational lensing distorting the surrounding stars and galaxies in deep #03030a void with #1a1245 nebular haze. Awe-inspiring cinematic scientific render, wide crop, ultra-detailed.",
         "credit": "NASA / Goddard / Scientific Visualization Studio"
       },
       "glossary": [
@@ -964,16 +619,6 @@
         "accretion_disk",
         "singularity",
         "quasar"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/TON_618"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Quasar"
-        }
       ],
       "tags": [
         "black-hole",
@@ -995,7 +640,6 @@
         "src": "/images/phoenix-a.webp",
         "aspect": "wide",
         "altKey": "stops.phoenix_a.image.alt",
-        "geminiPrompt": "Phoenix-A — among the most massive black holes ever measured — a giant black sphere at the heart of the Phoenix Cluster, ringed by an enormous swirling accretion disk in #fb7185 and #f0abfc, surrounded by streamers of #7c5cff intracluster gas, hot X-ray plasma haze in #c084fc, the host galaxy a faint glow behind it. Deep #03030a void. Cinematic astrophysical render, wide crop, ultra-detailed.",
         "credit": "Artist's depiction (Phoenix Cluster, NASA / CXC)"
       },
       "glossary": [
@@ -1003,16 +647,6 @@
         "accretion_disk",
         "supercluster",
         "quasar"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Phoenix_Cluster"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_most_massive_black_holes"
-        }
       ],
       "tags": [
         "black-hole"
@@ -1033,23 +667,12 @@
         "src": "/images/laniakea-supercluster.webp",
         "aspect": "wide",
         "altKey": "stops.laniakea_supercluster.image.alt",
-        "geminiPrompt": "The Laniakea Supercluster visualised as a sprawling web of galaxy clusters all flowing toward a common gravitational basin — the Great Attractor — in the centre. Bright #c084fc galaxy concentrations along filaments of #7c5cff, with the Milky Way marked as a small #f0abfc node near the edge. Deep #03030a cosmic void background with #1a1245 nebular haze. Wide cinematic scientific render, ultra-detailed.",
         "credit": "R. Brent Tully et al. (CC BY-SA 4.0)"
       },
       "glossary": [
         "supercluster",
         "gravitational_lensing",
         "halo"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Laniakea_Supercluster"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Great_Attractor"
-        }
       ],
       "tags": [
         "supercluster"
@@ -1070,22 +693,11 @@
         "src": "/images/moon.webp",
         "aspect": "square",
         "altKey": "stops.moon.image.alt",
-        "geminiPrompt": "The Moon as seen from Earth orbit — full disc, cratered surface lit by direct sunlight, maria rendered in soft #1a1245 grey-blue, highlands in pale #e0f2fe, deep #03030a void background with a sparse field of #f0abfc stars. Photographic scientific render, ultra-detailed, NASA-grade clarity.",
         "credit": "Gregory H. Revera (CC BY-SA 3.0)"
       },
       "glossary": [
         "tidal_lock",
         "light_year"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Moon"
-        },
-        {
-          "label": "NASA",
-          "url": "https://moon.nasa.gov/about/in-depth/"
-        }
       ],
       "tags": [
         "satellite"
@@ -1106,22 +718,11 @@
         "src": "/images/jupiter.webp",
         "aspect": "square",
         "altKey": "stops.jupiter.image.alt",
-        "geminiPrompt": "Jupiter as a gas giant — banded cloud belts in #c084fc, #f0abfc, and warm cream, the Great Red Spot a clear vortex, four Galilean moons visible as small specks beside it. Deep #03030a space background scattered with #e0f2fe stars. Photographic scientific render, ultra-detailed.",
         "credit": "NASA / Juno / Kevin M. Gill"
       },
       "glossary": [
         "light_year",
         "brown_dwarf"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Jupiter"
-        },
-        {
-          "label": "NASA",
-          "url": "https://science.nasa.gov/jupiter/"
-        }
       ],
       "tags": [
         "planet",
@@ -1143,26 +744,11 @@
         "src": "/images/proxima-centauri.webp",
         "aspect": "square",
         "altKey": "stops.proxima_centauri.image.alt",
-        "geminiPrompt": "Proxima Centauri — a small red dwarf star glowing in deep #f0abfc and warm crimson tones, surface mottled with magnetic activity. A small terrestrial exoplanet (Proxima b) silhouetted against the disc. Background: deep #03030a void with #e0f2fe field stars and a faint Alpha Centauri pair in the distance. Photographic scientific render, ultra-detailed.",
         "credit": "ESA / Hubble / NASA"
       },
       "glossary": [
         "light_year",
         "habitable_zone"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Proxima_Centauri"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/place/Proxima-Centauri"
-        }
       ],
       "tags": [
         "star",
@@ -1182,7 +768,6 @@
         "src": "/images/halley.webp",
         "aspect": "wide",
         "altKey": "stops.halley.image.alt",
-        "geminiPrompt": "Halley's Comet — a dark peanut-shaped nucleus 15 km across glowing with two long tails: a yellow-white dust tail and a blue ionised gas tail stretching across deep #03030a space, distant Sun a tiny bright point, scattered #f0abfc stars. Cinematic astrophotography, ultra-detailed.",
         "credit": "ESA / Giotto / Halley Multicolour Camera Team"
       },
       "glossary": [
@@ -1190,20 +775,6 @@
       ],
       "tags": [
         "comet"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Halleys_Comet"
-        },
-        {
-          "label": "NASA",
-          "url": "https://science.nasa.gov/solar-system/comets/1p-halley/"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/place/Halleys-Comet"
-        }
       ],
       "distanceFromEarthMeters": 5300000000000,
       "temperatureKelvin": 100
@@ -1221,7 +792,6 @@
         "src": "/images/mars.webp",
         "aspect": "square",
         "altKey": "stops.mars.image.alt",
-        "geminiPrompt": "Mars as a full disc seen from orbit — rust-coloured #fb7185 and #f97316 surface, polar ice cap visible at the north pole in pale #e0f2fe, dark volcanic plains, thin atmosphere haze at the limb, deep #03030a void background. Photographic scientific render, NASA-grade clarity.",
         "credit": "ESA / Rosetta / OSIRIS"
       },
       "glossary": [
@@ -1229,20 +799,6 @@
       ],
       "tags": [
         "planet"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mars"
-        },
-        {
-          "label": "NASA",
-          "url": "https://science.nasa.gov/mars/"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/place/Mars-planet"
-        }
       ],
       "distanceFromEarthMeters": 255000000000,
       "temperatureKelvin": 210,
@@ -1261,7 +817,6 @@
         "src": "/images/pluto.webp",
         "aspect": "square",
         "altKey": "stops.pluto.image.alt",
-        "geminiPrompt": "Pluto in true colour as imaged by New Horizons — pale #e0f2fe ice plains in the Tombaugh heart-shaped region, mottled red-brown #fb7185 tholin terrain, dark cratered uplands, deep #03030a void with scattered #c084fc stars. Photographic scientific render, ultra-detailed.",
         "credit": "NASA / Johns Hopkins APL / SwRI"
       },
       "glossary": [
@@ -1269,20 +824,6 @@
       ],
       "tags": [
         "dwarf-planet"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Pluto"
-        },
-        {
-          "label": "NASA",
-          "url": "https://science.nasa.gov/dwarf-planets/pluto/"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/place/Pluto-dwarf-planet"
-        }
       ],
       "distanceFromEarthMeters": 5910000000000,
       "temperatureKelvin": 44
@@ -1300,7 +841,6 @@
         "src": "/images/mercury.webp",
         "aspect": "square",
         "altKey": "stops.mercury.image.alt",
-        "geminiPrompt": "Mercury seen as a full disc — heavily cratered grey surface like our Moon, bright Caloris basin, deep #03030a void background. Photographic scientific render, NASA-grade clarity.",
         "credit": "NASA / Johns Hopkins APL / Carnegie / MESSENGER"
       },
       "glossary": [
@@ -1308,20 +848,6 @@
       ],
       "tags": [
         "planet"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mercury_(planet)"
-        },
-        {
-          "label": "NASA",
-          "url": "https://science.nasa.gov/mercury/"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/place/Mercury-planet"
-        }
       ],
       "distanceFromEarthMeters": 155000000000,
       "temperatureKelvin": 440
@@ -1339,7 +865,6 @@
         "src": "/images/venus.webp",
         "aspect": "square",
         "altKey": "stops.venus.image.alt",
-        "geminiPrompt": "Venus shrouded in thick cream-coloured cloud bands, seen from approach distance, deep #03030a void with scattered stars. Photographic scientific render, ultra-detailed.",
         "credit": "NASA / Mariner 10 / Calvin J. Hamilton"
       },
       "glossary": [
@@ -1347,20 +872,6 @@
       ],
       "tags": [
         "planet"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Venus"
-        },
-        {
-          "label": "NASA",
-          "url": "https://science.nasa.gov/venus/"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/place/Venus-planet"
-        }
       ],
       "distanceFromEarthMeters": 170000000000,
       "temperatureKelvin": 737
@@ -1378,7 +889,6 @@
         "src": "/images/saturn.webp",
         "aspect": "square",
         "altKey": "stops.saturn.image.alt",
-        "geminiPrompt": "Saturn in glorious view from Cassini — pale gold cloud bands, magnificent ring system tilted at 25 degrees, ring shadows on the planet, deep #03030a void. Photographic scientific render, ultra-detailed.",
         "credit": "NASA / JPL / Space Science Institute / Cassini"
       },
       "glossary": [
@@ -1387,20 +897,6 @@
       "tags": [
         "planet",
         "gas-giant"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Saturn"
-        },
-        {
-          "label": "NASA",
-          "url": "https://science.nasa.gov/saturn/"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/place/Saturn-planet"
-        }
       ],
       "distanceFromEarthMeters": 1430000000000,
       "temperatureKelvin": 134
@@ -1418,7 +914,6 @@
         "src": "/images/uranus.webp",
         "aspect": "square",
         "altKey": "stops.uranus.image.alt",
-        "geminiPrompt": "Uranus as a featureless pale cyan-green disc, faint thin rings tilted nearly vertically, deep #03030a void background. Photographic scientific render, NASA Voyager 2-grade clarity.",
         "credit": "NASA / JPL / Voyager 2"
       },
       "glossary": [
@@ -1427,20 +922,6 @@
       "tags": [
         "planet",
         "gas-giant"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Uranus"
-        },
-        {
-          "label": "NASA",
-          "url": "https://science.nasa.gov/uranus/"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/place/Uranus-planet"
-        }
       ],
       "distanceFromEarthMeters": 2870000000000,
       "temperatureKelvin": 76
@@ -1458,7 +939,6 @@
         "src": "/images/neptune.webp",
         "aspect": "square",
         "altKey": "stops.neptune.image.alt",
-        "geminiPrompt": "Neptune in deep blue — turbulent cloud bands, the Great Dark Spot, wispy high cirrus clouds, deep #03030a void. Photographic scientific render, Voyager 2 fidelity, ultra-detailed.",
         "credit": "NASA / JPL / Voyager 2"
       },
       "glossary": [
@@ -1467,20 +947,6 @@
       "tags": [
         "planet",
         "gas-giant"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Neptune"
-        },
-        {
-          "label": "NASA",
-          "url": "https://science.nasa.gov/neptune/"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/place/Neptune-planet"
-        }
       ],
       "distanceFromEarthMeters": 4500000000000,
       "temperatureKelvin": 72
@@ -1498,27 +964,12 @@
         "src": "/images/planck-length.webp",
         "aspect": "wide",
         "altKey": "stops.planck_length.image.alt",
-        "geminiPrompt": "A foamy, flickering lattice of spacetime at the smallest conceivable scale.",
         "credit": "Alex Sukontsev — “Quantum foam” (abstract art) — CC BY-SA 2.0 (cropped)"
       },
       "glossary": [
         "quantum",
         "planck_units",
         "quantum_gravity"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Planck_length"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Planck_units"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Quantum_gravity"
-        }
       ],
       "tags": [
         "unit"
@@ -1537,27 +988,12 @@
         "src": "/images/higgs-boson.webp",
         "aspect": "wide",
         "altKey": "stops.higgs_boson.image.alt",
-        "geminiPrompt": "Particle tracks bursting from a collision point inside a detector, tracing a Higgs decay.",
         "credit": "CERN / CMS Collaboration (T. McCauley, L. Taylor) — CC BY 4.0 (cropped)"
       },
       "glossary": [
         "higgs_field",
         "standard_model",
         "strong_force"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Higgs_boson"
-        },
-        {
-          "label": "CERN",
-          "url": "https://home.cern/science/physics/higgs-boson"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/science/Higgs-boson"
-        }
       ],
       "tags": [
         "particle"
@@ -1576,27 +1012,12 @@
         "src": "/images/antimatter.webp",
         "aspect": "square",
         "altKey": "stops.antimatter.image.alt",
-        "geminiPrompt": "A particle and its mirror-image antiparticle meeting in a burst of light.",
         "credit": "Carl D. Anderson (1932), first positron track — public domain"
       },
       "glossary": [
         "positron",
         "annihilation",
         "big_bang"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Antimatter"
-        },
-        {
-          "label": "CERN",
-          "url": "https://home.cern/science/physics/antimatter"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Positron"
-        }
       ],
       "tags": [
         "matter"
@@ -1615,27 +1036,12 @@
         "src": "/images/quantum-entanglement.webp",
         "aspect": "wide",
         "altKey": "stops.quantum_entanglement.image.alt",
-        "geminiPrompt": "Two glowing particles far apart, linked by a faint luminous thread.",
         "credit": "NIST — entangled photon-pair source — public domain"
       },
       "glossary": [
         "quantum",
         "superposition",
         "bell_test"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Quantum_entanglement"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Bell_test"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/EPR_paradox"
-        }
       ],
       "tags": [
         "phenomenon"
@@ -1654,7 +1060,6 @@
         "src": "/images/tardigrade.webp",
         "aspect": "square",
         "altKey": "stops.tardigrade.image.alt",
-        "geminiPrompt": "A plump, eight-legged tardigrade clinging to a strand of moss under the microscope.",
         "credit": "Schokraie E. et al. (2012), PLoS ONE, SEM of Milnesium tardigradum — CC BY 2.5 (cropped)"
       },
       "glossary": [
@@ -1662,20 +1067,6 @@
         "tun_state",
         "extremophile",
         "grain_of_sand"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Tardigrade"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Cryptobiosis"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/animal/tardigrade"
-        }
       ],
       "tags": [
         "biology",
@@ -1695,22 +1086,11 @@
         "src": "/images/blue-whale.webp",
         "aspect": "wide",
         "altKey": "stops.blue_whale.image.alt",
-        "geminiPrompt": "A blue whale gliding through sunlit open ocean, dwarfing a diver beside it.",
         "credit": "NOAA Photo Library — public domain"
       },
       "glossary": [
         "baleen",
         "krill"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Blue_whale"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/animal/blue-whale"
-        }
       ],
       "tags": [
         "biology",
@@ -1730,27 +1110,12 @@
         "src": "/images/mount-everest.webp",
         "aspect": "wide",
         "altKey": "stops.mount_everest.image.alt",
-        "geminiPrompt": "The snow-plumed summit pyramid of Mount Everest against a deep blue high-altitude sky.",
         "credit": "Nir B. Gurung — CC BY-SA 4.0 (cropped)"
       },
       "glossary": [
         "plate_tectonics",
         "equatorial_bulge",
         "death_zone"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mount_Everest"
-        },
-        {
-          "label": "Britannica",
-          "url": "https://www.britannica.com/place/Mount-Everest"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Chimborazo"
-        }
       ],
       "tags": [
         "mountain"
@@ -1770,27 +1135,12 @@
         "src": "/images/gravity.webp",
         "aspect": "square",
         "altKey": "stops.gravity.image.alt",
-        "geminiPrompt": "A grid of spacetime curving into a deep well around a massive glowing sphere.",
         "credit": "NASA — Gravity Probe B artist’s concept — public domain"
       },
       "glossary": [
         "general_relativity",
         "spacetime",
         "graviton"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Gravity"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_relativity"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Graviton"
-        }
       ],
       "tags": [
         "force"
@@ -1809,27 +1159,12 @@
         "src": "/images/time-dilation.webp",
         "aspect": "square",
         "altKey": "stops.time_dilation.image.alt",
-        "geminiPrompt": "Two clocks ticking at different rates, one near Earth and one in orbit, against curved spacetime.",
         "credit": "U.S. Air Force — GPS Block IIIA satellite — public domain"
       },
       "glossary": [
         "special_relativity",
         "general_relativity",
         "spacetime"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Time_dilation"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Hafele%E2%80%93Keating_experiment"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Error_analysis_for_the_Global_Positioning_System"
-        }
       ],
       "tags": [
         "spacetime"
@@ -1848,7 +1183,6 @@
         "src": "/images/gravitational-waves.webp",
         "aspect": "wide",
         "altKey": "stops.gravitational_waves.image.alt",
-        "geminiPrompt": "Two black holes spiralling together, sending concentric ripples across a grid of spacetime.",
         "credit": "SXS Lensing (Simulating eXtreme Spacetimes) — CC BY 4.0 (cropped)"
       },
       "glossary": [
@@ -1856,20 +1190,6 @@
         "spacetime",
         "general_relativity",
         "event_horizon"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Gravitational_wave"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves"
-        },
-        {
-          "label": "LIGO Caltech",
-          "url": "https://www.ligo.caltech.edu/page/what-are-gw"
-        }
       ],
       "tags": [
         "phenomenon",
@@ -1889,7 +1209,6 @@
         "src": "/images/wormhole.webp",
         "aspect": "wide",
         "altKey": "stops.wormhole.image.alt",
-        "geminiPrompt": "A spherical gateway in space showing a distorted view of a distant star field.",
         "credit": "Les Bossinas (Cortez III Service Corp.) for NASA — public domain"
       },
       "glossary": [
@@ -1897,16 +1216,6 @@
         "spacetime",
         "general_relativity",
         "event_horizon"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Wormhole"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/ER_%3D_EPR"
-        }
       ],
       "tags": [
         "spacetime",
@@ -1926,7 +1235,6 @@
         "src": "/images/big-bang.webp",
         "aspect": "wide",
         "altKey": "stops.big_bang.image.alt",
-        "geminiPrompt": "A burst of light and matter expanding outward into galaxies as space itself stretches.",
         "credit": "ESA / Planck Collaboration — CC BY 4.0 (cropped)"
       },
       "glossary": [
@@ -1934,20 +1242,6 @@
         "cmb",
         "expansion",
         "inflation"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Big_Bang"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Cosmic_microwave_background"
-        },
-        {
-          "label": "NASA",
-          "url": "https://science.nasa.gov/universe/overview/"
-        }
       ],
       "tags": [
         "phenomenon",
@@ -1967,7 +1261,6 @@
         "src": "/images/multiverse.webp",
         "aspect": "wide",
         "altKey": "stops.multiverse.image.alt",
-        "geminiPrompt": "Countless iridescent bubble universes floating in a dark void, a few touching at their edges.",
         "credit": "NASA / ESA / CSA / STScI — Webb’s First Deep Field — public domain"
       },
       "glossary": [
@@ -1975,20 +1268,6 @@
         "inflation",
         "many_worlds",
         "cmb"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Multiverse"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Eternal_inflation"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Many-worlds_interpretation"
-        }
       ],
       "tags": [
         "hypothetical",
@@ -2008,7 +1287,6 @@
         "src": "/images/string-theory.webp",
         "aspect": "square",
         "altKey": "stops.string_theory.image.alt",
-        "geminiPrompt": "A twisted, many-lobed surface in pastel orange, pink and blue — a slice of a six-dimensional Calabi–Yau shape.",
         "credit": "Lunch (English Wikipedia) — Calabi–Yau manifold rendering — CC BY-SA 2.5 (cropped)"
       },
       "glossary": [
@@ -2016,20 +1294,6 @@
         "graviton",
         "extra_dimensions",
         "supersymmetry"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/String_theory"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/M-theory"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/AdS/CFT_correspondence"
-        }
       ],
       "tags": [
         "hypothetical",

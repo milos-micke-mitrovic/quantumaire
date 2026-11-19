@@ -65,7 +65,7 @@ export default async function BetweenPage({ params }: PageProps) {
         ]}
       />
       <BetweenFinder />
-      <SiteFooter />
+      <SiteFooter locale={typed} />
     </>
   );
 }

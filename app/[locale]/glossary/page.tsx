@@ -4,7 +4,7 @@ import { GlossaryView } from "@/components/GlossaryView";
 import { SiteFooter } from "@/components/SiteFooter";
 import { JsonLd } from "@/components/JsonLd";
 import { GLOSSARY_KEYS } from "@/lib/glossary";
-import { tServer } from "@/lib/i18n-server";
+import { pickDictionary, tServer } from "@/lib/i18n-server";
 import {
   absoluteUrl,
   breadcrumbJsonLd,
@@ -13,6 +13,7 @@ import {
   SITE_NAME,
 } from "@/lib/seo";
 import type { Locale } from "@/lib/types";
+import { I18nExtend } from "@/lib/i18n";
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -77,8 +78,10 @@ export default async function GlossaryPage({ params }: PageProps) {
           ]),
         ]}
       />
-      <GlossaryView keys={GLOSSARY_KEYS} />
-      <SiteFooter />
+      <I18nExtend dictionary={pickDictionary(typed, ["glossary"])}>
+        <GlossaryView keys={GLOSSARY_KEYS} />
+      </I18nExtend>
+      <SiteFooter locale={typed} />
     </>
   );
 }

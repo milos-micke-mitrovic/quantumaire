@@ -8,7 +8,7 @@ import {
 } from "@/components/Analytics";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 import { I18nProvider } from "@/lib/i18n";
-import { getDictionary } from "@/lib/i18n-server";
+import { getClientDictionary } from "@/lib/i18n-server";
 import { JsonLd } from "@/components/JsonLd";
 import { MotionProvider } from "@/components/MotionProvider";
 import { BackToTop } from "@/components/BackToTop";
@@ -119,7 +119,7 @@ export default async function LocaleLayout({
         <link rel="alternate" type="application/rss+xml" href="/sitemap.xml" />
       </head>
       <body className="relative min-h-screen font-body antialiased">
-        <I18nProvider locale={typed} dictionary={getDictionary(typed)}>
+        <I18nProvider locale={typed} dictionary={getClientDictionary(typed)}>
           <MotionProvider>
             <JsonLd data={[organizationJsonLd(typed), websiteJsonLd(typed)]} />
             <SkipToContent />

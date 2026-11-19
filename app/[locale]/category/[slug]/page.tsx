@@ -101,7 +101,7 @@ export default async function CategoryPage({ params }: PageProps) {
     <>
       <JsonLd data={jsonLdData} />
       <CategoryView category={category} stops={stops} />
-      <SiteFooter />
+      <SiteFooter locale={typed} />
     </>
   );
 }

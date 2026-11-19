@@ -24,10 +24,13 @@ autonomy: improve UI/UX/content/SEO/speed proactively, deploy yourself.
 - `content/stops.json` — every topic ("stop" is the internal/code name;
   never show "stop" or "journey" in UI text). Fields: id, i18nKey,
   sizeMeters (null for ideas), order, badge, category, accent, accentGlow,
-  image {src, aspect, altKey, geminiPrompt, credit}, glossary[], sources[],
+  image {src, aspect, altKey, credit}, glossary[],
   tags[], optional distanceFromEarthMeters, temperatureKelvin,
   distanceNameKey, insideNoteKey, preferredReferenceId.
   Edit as text — re-dumping with Python changes number formatting.
+- `content/sources.json` — external references per topic id (server-only,
+  via `lib/sources.ts`, so they stay out of the client bundle).
+  `content/image-prompts.json` is an archive of old AI-image prompts.
 - `locales/en.json`, `locales/sr.json` — all UI + content text. Python
   `json.dumps(d, indent=2, ensure_ascii=False) + "\n"` round-trips them
   byte-for-byte; keep EN and SR keys in sync. Serbian count phrases use

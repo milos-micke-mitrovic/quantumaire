@@ -12,7 +12,7 @@ import {
   getRelatedStops,
   getStop,
 } from "@/lib/content";
-import { tServer } from "@/lib/i18n-server";
+import { pickDictionary, tServer } from "@/lib/i18n-server";
 import {
   absoluteUrl,
   breadcrumbJsonLd,
@@ -32,6 +32,8 @@ import {
   titleCase,
 } from "@/lib/sizeFaq";
 import type { Locale } from "@/lib/types";
+import { I18nExtend } from "@/lib/i18n";
+import { getSources } from "@/lib/sources";
 
 interface PageProps {
   params: Promise<{ locale: string; id: string }>;
@@ -133,12 +135,19 @@ export default async function StopPage({ params }: PageProps) {
           faqJsonLd(sizeFaq),
         ]}
       />
+      <I18nExtend
+        dictionary={pickDictionary(typed, [
+          stop.i18nKey,
+          ...stop.glossary.map((g) => `glossary.${g}`),
+        ])}
+      >
       <StopDetail
         stop={stop}
         prev={prev}
         next={next}
         related={related}
         lastUpdated={SITE_MODIFIED}
+        sources={getSources(stop.id)}
       >
         <EverydayScale stop={stop} locale={typed} />
         <StopSizeFaq
@@ -152,7 +161,8 @@ export default async function StopPage({ params }: PageProps) {
           <SpacecraftSpeeds locale={typed} highlightId={stop.id} />
         )}
       </StopDetail>
-      <SiteFooter />
+      </I18nExtend>
+      <SiteFooter locale={typed} />
     </>
   );
 }

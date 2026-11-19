@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { Locale, Stop } from "./types";
 import { STOPS } from "./content";
 import { tServer } from "./i18n-server";
+import { getSources } from "./sources";
 
 /**
  * Central SEO config. Update SITE_URL via the NEXT_PUBLIC_SITE_URL env var
@@ -186,7 +187,7 @@ export function stopJsonLd(
   }
 ) {
   const url = absoluteUrl(locale, `stop/${stop.id}`);
-  const citations = (stop.sources ?? []).map((s) => ({
+  const citations = getSources(stop.id).map((s) => ({
     "@type": "CreativeWork",
     name: s.label,
     url: s.url,

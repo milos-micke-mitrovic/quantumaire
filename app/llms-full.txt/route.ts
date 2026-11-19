@@ -2,6 +2,7 @@ import { CATEGORIES, STOPS, categorySlug } from "@/lib/content";
 import { tServer } from "@/lib/i18n-server";
 import { formatMeters, formatTemperature } from "@/lib/scale";
 import { LOCALES, SITE_URL } from "@/lib/seo";
+import { getSources } from "@/lib/sources";
 
 export const dynamic = "force-static";
 
@@ -104,9 +105,10 @@ export function GET() {
           lines.push("");
         }
 
-        if (stop.sources && stop.sources.length > 0) {
+        const sources = getSources(stop.id);
+        if (sources.length > 0) {
           lines.push("Sources:");
-          for (const src of stop.sources) lines.push(`- ${src.label}: ${src.url}`);
+          for (const src of sources) lines.push(`- ${src.label}: ${src.url}`);
           lines.push("");
         }
       }

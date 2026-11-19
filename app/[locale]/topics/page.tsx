@@ -69,7 +69,7 @@ export default async function TopicsHubPage({ params }: PageProps) {
         ]}
       />
       <TopicsIndex />
-      <SiteFooter />
+      <SiteFooter locale={typed} />
     </>
   );
 }

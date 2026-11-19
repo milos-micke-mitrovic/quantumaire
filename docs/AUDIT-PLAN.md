@@ -49,24 +49,24 @@ browser (desktop + 390 px) after UI changes.
 
 ## Phase 3 — Serbian (docs/audit/serbian.md)
 
-- [ ] Compare-page ratio strings (grammar with nominative names) — highest impact.
-- [ ] Meaning errors (proton "bilionitog", parsec glossary term, light-time
+- [x] Compare-page ratio strings (grammar with nominative names) — highest impact.
+- [x] Meaning errors (proton "bilionitog", parsec glossary term, light-time
       hints, tardigrade certainty, etc.).
-- [ ] Global fixes: quotes „…“, "meseci", "merljiv", vi/ti consistency (pick
+- [x] Global fixes: quotes „…“, "meseci", "merljiv", vi/ti consistency (pick
       "ti" for UI and prose, or "vi" — be consistent), gender-neutral reader
       phrasing, decimals + "svetlosne godine", "na oko N".
-- [ ] Apply the terminology table site-wide.
+- [x] Apply the terminology table site-wide.
 
 ## Phase 4 — SEO structure (docs/audit/seo.md)
 
-- [ ] Static rendering: remove `headers()` from `app/layout.tsx:81`; set
+- [x] Static rendering: remove `headers()` from `app/layout.tsx:81`; set
       `<html lang>` per locale (root layout under `[locale]`, or a static
       approach) so pages prerender; make sure `/compare` has a Suspense
       fallback with real content. Verify OpenNext serves cached HTML.
-- [ ] Ship less to the client: pass a per-page / trimmed dictionary instead of
+- [x] Ship less to the client: pass a per-page / trimmed dictionary instead of
       the full ~194 KB one; strip `geminiPrompt` and `sources` from the client
       copy of stops.json (server-only data module).
-- [ ] Crawlable hub links: server-rendered footer nav (guides, categories,
+- [x] Crawlable hub links: server-rendered footer nav (guides, categories,
       tools incl. /compare and /tools/between, glossary, about).
 - [ ] Meta descriptions cut mid-sentence (73): rebuild stop descriptions so
       they end on a full sentence ≤160 chars; drop the self-comparison tail on
@@ -87,7 +87,7 @@ browser (desktop + 390 px) after UI changes.
       milky-way-vs-andromeda, …) with real titles; keep the interactive page.
 - [ ] Smaller: titles >60 / descriptions >160; robots.txt keep `Disallow: /api/`
       in bot groups; "Tools" breadcrumb + `/tools` hub page (or point to
-      converter); `/favicon.ico`; 404 page SSR body; sitemap x-default;
+      converter); `/favicon.ico`; 404 page SSR body (note: Next 16 renders every 404 — even a trivial not-found — through the `__next_error__` shell; status is 404 and the body appears after JS; revisit on a Next upgrade); sitemap x-default;
       llms.txt still says "stop"; thin pages (merge single-topic categories
       HUMAN_MIND + ANCIENT_HISTORY into a "Curiosities" category? or noindex).
 

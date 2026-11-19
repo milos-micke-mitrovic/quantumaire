@@ -76,7 +76,7 @@ export default async function ProgressPageRoute({ params }: PageProps) {
         ]}
       />
       <ProgressView />
-      <SiteFooter />
+      <SiteFooter locale={typed} />
     </>
   );
 }

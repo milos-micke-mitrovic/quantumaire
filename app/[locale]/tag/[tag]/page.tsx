@@ -76,7 +76,7 @@ export default async function TagPage({ params }: PageProps) {
         ]}
       />
       <TagView tag={tag} stops={stops} />
-      <SiteFooter />
+      <SiteFooter locale={typed} />
     </>
   );
 }

@@ -98,7 +98,7 @@ export default async function ScaleToolPage({ params }: PageProps) {
           ))}
         </div>
       </section>
-      <SiteFooter />
+      <SiteFooter locale={typed} />
     </>
   );
 }

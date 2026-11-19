@@ -26,8 +26,6 @@ export interface ImagePlaceholder {
   aspect: "square" | "wide" | "portrait";
   /** Translation key for the alt text */
   altKey: string;
-  /** Short Gemini-friendly prompt — surfaced in IMAGE_PROMPTS.md */
-  geminiPrompt: string;
   /**
    * Photographer / agency credit, rendered as a small grey caption under
    * the image. Required for CC-licensed material (NASA images are public
@@ -67,8 +65,6 @@ export interface Stop {
    * star, black-hole, galaxy, biology, spacecraft, …).
    */
   tags?: string[];
-  /** External references shown at the bottom of the stop page. */
-  sources?: Source[];
   /**
    * Distance from Earth in metres. Optional — only used for macro/cosmic
    * stops where the distance is part of what makes the object interesting.

@@ -4,7 +4,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 import { TopicView } from "@/components/TopicView";
 import { TOPICS, getTopic } from "@/lib/topics";
-import { tServer } from "@/lib/i18n-server";
+import { pickDictionary, tServer } from "@/lib/i18n-server";
 import {
   articleJsonLd,
   breadcrumbJsonLd,
@@ -13,6 +13,7 @@ import {
   clipDescription,
 } from "@/lib/seo";
 import type { Locale } from "@/lib/types";
+import { I18nExtend } from "@/lib/i18n";
 
 interface PageProps {
   params: Promise<{ locale: string; slug: string }>;
@@ -86,8 +87,10 @@ export default async function TopicPage({ params }: PageProps) {
           ]),
         ]}
       />
-      <TopicView topic={topic} />
-      <SiteFooter />
+      <I18nExtend dictionary={pickDictionary(typed, [topic.i18nKey])}>
+        <TopicView topic={topic} />
+      </I18nExtend>
+      <SiteFooter locale={typed} />
     </>
   );
 }

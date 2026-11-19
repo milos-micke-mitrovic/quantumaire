@@ -56,7 +56,7 @@ export default async function LocaleHome({ params }: PageProps) {
         <Journey />
         <FaqSection locale={typed} />
       </main>
-      <SiteFooter />
+      <SiteFooter locale={typed} />
     </>
   );
 }

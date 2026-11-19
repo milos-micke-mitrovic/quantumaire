@@ -90,7 +90,7 @@ export default async function ComparePageRoute({ params }: PageProps) {
       <Suspense fallback={null}>
         <ComparePage />
       </Suspense>
-      <SiteFooter />
+      <SiteFooter locale={typed} />
     </>
   );
 }

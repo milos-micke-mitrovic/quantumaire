@@ -19,5 +19,12 @@
 - All 27 items from `docs/audit/facts.md`, EN + SR: parsec definition, Andromeda/Homo, moon counts (Saturn 293, Jupiter 115, Aug 2026), Uranus −224 °C, Venera 13, DNA vs red blood cells, galaxy merger odds, category-intro magnitudes, Mercury midnight, twin paradox, neutron-star sugar cube, UY Scuti, Voyager (no hard-coded age; LECP off), Saturn rings 273k/282k, supernova rate, Hawking lifetime, Bell/local, Jupiter golf-ball scale, Halley 11 km mean.
 - Data: dark_energy → PROBABLE_THEORY; time-averaged distances (Venus 170, Mars 255 million km; new Mercury "closest planet on average" fact); TON 618 / Phoenix-A use comoving distance (fact explains light-travel vs now).
 
+## 2026-11-19 — audit Phase 3 (Serbian) + Phase 4 part 1
+- Serbian: all of `docs/audit/serbian.md` applied (313 keys): compare ratio strings („nego“ + nominative), meaning errors (proton „bilionitog“, light-time hints, parsec glossary, tardigrade certainty…), „…“ quotes, vi in prose, „meseci“, decimals, terminology table (džin/superdžin, Proksima Kentaura, Kajper, Ort, Rakova maglina, Sunčeve mase, gravitaciono sočivo…).
+- Static rendering: `[locale]/layout.tsx` is now the root layout (`<html lang>` at build time), `app/global-not-found.tsx`, no `headers()`; all topic/guide/category/tag/tool pages are SSG and OpenNext serves them from the static-assets incremental cache.
+- Client payload: layout ships a base dictionary (UI + names/taglines + glossary terms); stop/guide/glossary/about pages add their own text via `<I18nExtend>`. HTML −40–60 % (e.g. /en/tools/scale 241→94 KB). Test `tests/clientDictionary.test.ts` guards missing keys.
+- `geminiPrompt` → `content/image-prompts.json` (archive), `sources` → `content/sources.json` (server-only `lib/sources.ts`).
+- Footer is a server component with links to every category, guide, tool, glossary and about; dropped the llms.txt link.
+
 ## Next / ideas
 - Full audit done 2026-11-19 → `docs/AUDIT-PLAN.md` (phases 1–6, nothing ticked yet).

@@ -9,7 +9,7 @@ description: Add a new topic ("stop") to Quantumaire — content entry, EN+SR te
    (FACT / ESTABLISHED_THEORY / PROBABLE_THEORY / SPECULATIVE — be honest),
    category (MICRO_WORLD, EARTH, HUMAN_MIND, ANCIENT_HISTORY, PHYSICS,
    COSMOS), tags (reuse existing `tags.*` ids where possible), glossary keys
-   (reuse existing `glossary.*`), 2–3 verified sources (curl each URL),
+   (reuse existing `glossary.*`), 2–3 verified sources (curl each URL) in `content/sources.json` under the topic id,
    optional distanceFromEarthMeters / temperatureKelvin.
 2. **Order**: pick an `order` value that slots it near similar topics
    (prev/next navigation uses size order anyway — see `NAV_ORDER`).

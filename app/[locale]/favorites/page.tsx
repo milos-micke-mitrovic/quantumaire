@@ -50,7 +50,7 @@ export default async function FavoritesPage({ params }: PageProps) {
         ]}
       />
       <FavoritesView />
-      <SiteFooter />
+      <SiteFooter locale={typed} />
     </>
   );
 }

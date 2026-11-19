@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import clsx from "clsx";
-import type { Stop } from "@/lib/types";
+import type { Source, Stop } from "@/lib/types";
 import { useI18n } from "@/lib/i18n";
 import { formatFactor } from "@/lib/references";
 import { categorySlug } from "@/lib/content";
@@ -35,6 +35,8 @@ interface StopDetailProps {
   related: Stop[];
   /** Build-time ISO date (YYYY-MM-DD) for the "last updated" footer line. */
   lastUpdated: string;
+  /** External references (server-only data, see lib/sources.ts). */
+  sources: Source[];
   /** Server-rendered content slotted after the quick facts (e.g. size FAQ). */
   children?: ReactNode;
 }
@@ -45,6 +47,7 @@ export function StopDetail({
   next,
   related,
   lastUpdated,
+  sources,
   children,
 }: StopDetailProps) {
   const { t, locale } = useI18n();
@@ -225,8 +228,8 @@ export function StopDetail({
 
       {children}
 
-      {stop.sources && stop.sources.length > 0 && (
-        <Sources sources={stop.sources} />
+      {sources.length > 0 && (
+        <Sources sources={sources} />
       )}
 
       <p className="mt-5 text-[10px] uppercase tracking-[0.22em] text-cosmos-star/40">

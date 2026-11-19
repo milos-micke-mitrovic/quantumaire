@@ -67,7 +67,77 @@ export function tServer(
   return interpolate(resolved, vars);
 }
 
-/** The full dictionary for a locale, handed to the client I18nProvider. */
+/** The full dictionary for a locale (server-side use only). */
 export function getDictionary(locale: Locale): Dictionary {
   return DICTIONARIES[locale] ?? DICTIONARIES[DEFAULT_LOCALE];
+}
+
+/**
+ * Copy only the given paths out of a locale's dictionary. Paths are dotted
+ * and `*` matches every key at that level, e.g. `stops.*.name`. A path that
+ * ends on an object copies the whole subtree.
+ */
+export function pickDictionary(locale: Locale, paths: string[]): Dictionary {
+  const src = getDictionary(locale);
+  const out: Dictionary = {};
+  const put = (parts: string[], value: unknown) => {
+    let cur = out;
+    parts.slice(0, -1).forEach((p) => {
+      if (!cur[p] || typeof cur[p] !== "object") cur[p] = {};
+      cur = cur[p] as Dictionary;
+    });
+    cur[parts[parts.length - 1]] = value;
+  };
+  const walk = (node: unknown, rest: string[], trail: string[]) => {
+    if (rest.length === 0) {
+      if (node !== undefined) put(trail, node);
+      return;
+    }
+    if (!node || typeof node !== "object") return;
+    const [head, ...tail] = rest;
+    const keys = head === "*" ? Object.keys(node as Dictionary) : [head];
+    for (const k of keys) walk((node as Dictionary)[k], tail, [...trail, k]);
+  };
+  for (const path of paths) walk(src, path.split("."), []);
+  return out;
+}
+
+/**
+ * Top-level sections the client never needs on every page: long-form text
+ * is added per page with <I18nExtend> (see BASE_CLIENT_PATHS).
+ */
+const PAGE_ONLY_SECTIONS = new Set([
+  "stops",
+  "topics",
+  "glossary",
+  "about",
+  "home",
+  "sizeFaq",
+  "seo",
+  "faq",
+]);
+
+/**
+ * What the layout ships to the browser on every page: UI strings plus the
+ * short per-topic text that cards, search and menus show.
+ */
+export function baseClientPaths(locale: Locale): string[] {
+  const sections = Object.keys(getDictionary(locale)).filter(
+    (k) => !PAGE_ONLY_SECTIONS.has(k)
+  );
+  return [
+    ...sections,
+    "stops.*.name",
+    "stops.*.tagline",
+    "stops.*.image",
+    "stops.*.distanceName",
+    "stops.*.insideNote",
+    "topics.*.title",
+    "topics.*.tagline",
+    "glossary.*.term",
+  ];
+}
+
+export function getClientDictionary(locale: Locale): Dictionary {
+  return pickDictionary(locale, baseClientPaths(locale));
 }

@@ -24,6 +24,8 @@ interface I18nContextValue {
 }
 
 const I18nContext = createContext<I18nContextValue | null>(null);
+/** The (merged) dictionary in scope, so <I18nExtend> can layer on top. */
+const DictionaryContext = createContext<Dictionary>({});
 
 function walkPath(dict: Dictionary, parts: string[]): unknown {
   let cur: unknown = dict;
@@ -71,7 +73,8 @@ function interpolate(
  * locale, so each language has its own canonical URL (good for SEO).
  *
  * The dictionary is passed in by the server layout so only the active
- * locale's strings reach the browser (not every locale bundled into JS).
+ * locale's strings reach the browser (not every locale bundled into JS),
+ * and only the base subset — pages add their long text via <I18nExtend>.
  */
 export function I18nProvider({
   children,
@@ -113,7 +116,58 @@ export function I18nProvider({
     [locale, setLocale, t]
   );
 
-  return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>;
+  return (
+    <DictionaryContext.Provider value={dictionary}>
+      <I18nContext.Provider value={value}>{children}</I18nContext.Provider>
+    </DictionaryContext.Provider>
+  );
+}
+
+function deepMerge(base: Dictionary, extra: Dictionary): Dictionary {
+  const out: Dictionary = { ...base };
+  for (const [k, v] of Object.entries(extra)) {
+    const b = out[k];
+    out[k] =
+      v && typeof v === "object" && b && typeof b === "object"
+        ? deepMerge(b as Dictionary, v as Dictionary)
+        : v;
+  }
+  return out;
+}
+
+/**
+ * Adds page-specific strings (a topic's body, a guide's sections, glossary
+ * definitions…) on top of the base dictionary the layout ships, so long
+ * text only reaches the browser on the page that shows it.
+ */
+export function I18nExtend({
+  dictionary,
+  children,
+}: {
+  dictionary: Dictionary;
+  children: React.ReactNode;
+}) {
+  const parent = useContext(I18nContext);
+  const parentDict = useContext(DictionaryContext);
+  if (!parent) throw new Error("I18nExtend must be inside <I18nProvider>");
+  const merged = useMemo(
+    () => deepMerge(parentDict, dictionary),
+    [parentDict, dictionary]
+  );
+  const t = useCallback(
+    (key: string, vars?: Record<string, string | number>) =>
+      interpolate(resolveKey(merged, key) ?? key, vars),
+    [merged]
+  );
+  const value = useMemo<I18nContextValue>(
+    () => ({ ...parent, t }),
+    [parent, t]
+  );
+  return (
+    <DictionaryContext.Provider value={merged}>
+      <I18nContext.Provider value={value}>{children}</I18nContext.Provider>
+    </DictionaryContext.Provider>
+  );
 }
 
 export function useI18n(): I18nContextValue {

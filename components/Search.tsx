@@ -73,11 +73,10 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
       const name = t(`${stop.i18nKey}.name`);
       const tagline = t(`${stop.i18nKey}.tagline`);
       const category = t(`categories.${stop.category}`);
-      const facts = ["fact1", "fact2", "fact3", "fact4"]
-        .map((k) => t(`${stop.i18nKey}.facts.${k}`))
-        .join(" ");
+      // Tags stand in for body text, which isn't shipped on every page.
+      const tags = (stop.tags ?? []).map((tag) => t(`tags.${tag}`)).join(" ");
       const haystack = normalize(
-        `${name} ${tagline} ${category} ${stop.id} ${facts}`
+        `${name} ${tagline} ${category} ${stop.id} ${tags}`
       );
       return { stop, name, tagline, category, haystack };
     });

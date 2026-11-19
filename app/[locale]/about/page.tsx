@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { AboutContent } from "@/components/AboutContent";
 import { SiteFooter } from "@/components/SiteFooter";
 import { JsonLd } from "@/components/JsonLd";
-import { tServer } from "@/lib/i18n-server";
+import { pickDictionary, tServer } from "@/lib/i18n-server";
 import {
   absoluteUrl,
   breadcrumbJsonLd,
@@ -12,6 +12,7 @@ import {
   SITE_NAME,
 } from "@/lib/seo";
 import type { Locale } from "@/lib/types";
+import { I18nExtend } from "@/lib/i18n";
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -66,8 +67,10 @@ export default async function AboutPage({ params }: PageProps) {
           ]),
         ]}
       />
-      <AboutContent />
-      <SiteFooter />
+      <I18nExtend dictionary={pickDictionary(typed, ["about"])}>
+        <AboutContent />
+      </I18nExtend>
+      <SiteFooter locale={typed} />
     </>
   );
 }

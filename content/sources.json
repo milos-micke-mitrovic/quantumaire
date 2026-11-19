@@ -1,0 +1,686 @@
+{
+  "quark": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Quark"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Standard_Model"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/science/quark"
+    }
+  ],
+  "proton": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Proton"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atomic_nucleus"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/science/proton-subatomic-particle"
+    }
+  ],
+  "atom": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atom"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atomic_orbital"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/science/atom"
+    }
+  ],
+  "dna": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DNA"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Human_genome"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/science/DNA"
+    }
+  ],
+  "mpd": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dissociative_identity_disorder"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/science/dissociative-identity-disorder"
+    }
+  ],
+  "pyramid": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Khufu"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/topic/Great-Pyramid-of-Giza"
+    }
+  ],
+  "earth": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Earth"
+    },
+    {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/earth/"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/place/Earth"
+    }
+  ],
+  "neutron_star": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pulsar"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/science/neutron-star"
+    }
+  ],
+  "sun": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sun"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nuclear_fusion"
+    },
+    {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/sun/"
+    }
+  ],
+  "uy_scuti": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/UY_Scuti"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hypergiant"
+    }
+  ],
+  "milky_way": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Milky_Way"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Galactic_Center"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/place/Milky-Way-Galaxy"
+    }
+  ],
+  "dark_matter": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gravitational_lens"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/science/dark-matter"
+    }
+  ],
+  "dark_energy": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dark_energy"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cosmological_constant"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/science/dark-energy"
+    }
+  ],
+  "observable_universe": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Observable_universe"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Big_Bang"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/science/universe"
+    }
+  ],
+  "virus": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Virus"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Capsid"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/science/virus"
+    }
+  ],
+  "supermassive_black_hole": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Supermassive_black_hole"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Black_hole"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/science/black-hole"
+    }
+  ],
+  "bacterium": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bacteria"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Prokaryote"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/science/bacteria"
+    }
+  ],
+  "galaxy_cluster": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Galaxy_cluster"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Virgo_Cluster"
+    }
+  ],
+  "andromeda": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Local_Group"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/place/Andromeda-Galaxy"
+    }
+  ],
+  "cell": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cell_(biology)"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eukaryote"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/science/cell-biology"
+    }
+  ],
+  "human": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Human"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/topic/Homo-sapiens"
+    }
+  ],
+  "light_year": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Light-year"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/science/light-year"
+    }
+  ],
+  "solar_system": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Solar_System"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Voyager_program"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/place/Solar-System"
+    }
+  ],
+  "voyager1": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Voyager_1"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Voyager_program"
+    }
+  ],
+  "ton_618": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/TON_618"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Quasar"
+    }
+  ],
+  "phoenix_a": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Phoenix_Cluster"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_most_massive_black_holes"
+    }
+  ],
+  "laniakea_supercluster": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Laniakea_Supercluster"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Great_Attractor"
+    }
+  ],
+  "moon": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Moon"
+    },
+    {
+      "label": "NASA",
+      "url": "https://moon.nasa.gov/about/in-depth/"
+    }
+  ],
+  "jupiter": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jupiter"
+    },
+    {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/jupiter/"
+    }
+  ],
+  "proxima_centauri": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/place/Proxima-Centauri"
+    }
+  ],
+  "halley": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Halleys_Comet"
+    },
+    {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/solar-system/comets/1p-halley/"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/place/Halleys-Comet"
+    }
+  ],
+  "mars": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mars"
+    },
+    {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/mars/"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/place/Mars-planet"
+    }
+  ],
+  "pluto": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pluto"
+    },
+    {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/dwarf-planets/pluto/"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/place/Pluto-dwarf-planet"
+    }
+  ],
+  "mercury": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+    },
+    {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/mercury/"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/place/Mercury-planet"
+    }
+  ],
+  "venus": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Venus"
+    },
+    {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/venus/"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/place/Venus-planet"
+    }
+  ],
+  "saturn": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Saturn"
+    },
+    {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/saturn/"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/place/Saturn-planet"
+    }
+  ],
+  "uranus": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Uranus"
+    },
+    {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/uranus/"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/place/Uranus-planet"
+    }
+  ],
+  "neptune": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Neptune"
+    },
+    {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/neptune/"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/place/Neptune-planet"
+    }
+  ],
+  "planck_length": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Planck_length"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Planck_units"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Quantum_gravity"
+    }
+  ],
+  "higgs_boson": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Higgs_boson"
+    },
+    {
+      "label": "CERN",
+      "url": "https://home.cern/science/physics/higgs-boson"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/science/Higgs-boson"
+    }
+  ],
+  "antimatter": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Antimatter"
+    },
+    {
+      "label": "CERN",
+      "url": "https://home.cern/science/physics/antimatter"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Positron"
+    }
+  ],
+  "quantum_entanglement": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Quantum_entanglement"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bell_test"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/EPR_paradox"
+    }
+  ],
+  "tardigrade": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tardigrade"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cryptobiosis"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/animal/tardigrade"
+    }
+  ],
+  "blue_whale": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blue_whale"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/animal/blue-whale"
+    }
+  ],
+  "mount_everest": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest"
+    },
+    {
+      "label": "Britannica",
+      "url": "https://www.britannica.com/place/Mount-Everest"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chimborazo"
+    }
+  ],
+  "gravity": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gravity"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/General_relativity"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Graviton"
+    }
+  ],
+  "time_dilation": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Time_dilation"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hafele%E2%80%93Keating_experiment"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Error_analysis_for_the_Global_Positioning_System"
+    }
+  ],
+  "gravitational_waves": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gravitational_wave"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves"
+    },
+    {
+      "label": "LIGO Caltech",
+      "url": "https://www.ligo.caltech.edu/page/what-are-gw"
+    }
+  ],
+  "wormhole": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wormhole"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ER_%3D_EPR"
+    }
+  ],
+  "big_bang": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Big_Bang"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cosmic_microwave_background"
+    },
+    {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/universe/overview/"
+    }
+  ],
+  "multiverse": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Multiverse"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eternal_inflation"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Many-worlds_interpretation"
+    }
+  ],
+  "string_theory": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/String_theory"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/M-theory"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/AdS/CFT_correspondence"
+    }
+  ]
+}
