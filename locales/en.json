@@ -1467,6 +1467,29 @@
         "fact7": "The previous closest known black hole, A0620-00, is about twice as far away (~3,300 light-years)."
       },
       "metaDescription": "Gaia BH1 is the closest known black hole: 9.6 solar masses, 1,560 light-years away, found in 2022 from a Sun-like star circling something invisible."
+    },
+    "neutrino": {
+      "name": "Neutrino",
+      "seoTitle": "What Is a Neutrino? The Ghost Particle Explained",
+      "tagline": "The ghost particle: trillions pass through you every second, and almost none ever touch you.",
+      "body": "Neutrinos are elementary particles with no electric charge and an almost unimaginably small mass — under a millionth of an electron's. They come in three flavours (electron, muon and tau) and are made wherever atomic nuclei change: in the Sun's core, in nuclear reactors, in supernovae, even in the potassium in your bones. Because they feel only the weak force and gravity, they slip through whole planets as if they were empty space: tens of billions from the Sun cross every square centimetre of your skin each second, by day and by night. Wolfgang Pauli proposed them in 1930 to balance the books in radioactive decay; it took until 1956 to catch one.",
+      "narrative": "Hold up your thumb: tens of billions of neutrinos from the Sun pass through its nail every second. In your whole lifetime, perhaps only a handful of them will ever actually hit an atom in your body.",
+      "massNarrative": "A neutrino weighs less than 0.45 electronvolts (KATRIN, 2025) — under a millionth of an electron. Yet with about 340 left over from the Big Bang in every cubic centimetre of space, neutrinos are the second most common particle in the universe, after photons.",
+      "funFact": "In February 1987 three underground detectors caught about two dozen neutrinos in 13 seconds — roughly three hours before anyone saw the light of Supernova 1987A in a neighbouring galaxy. The neutrinos had escaped the collapsing star's core at once, while the light had to wait for the blast to reach the star's surface.",
+      "image": {
+        "alt": "The IceCube Laboratory at the South Pole at night, lit red, under the Milky Way and a green aurora."
+      },
+      "facts": {
+        "fact1": "Charge: none. Mass: under 0.45 eV — less than a millionth of an electron (KATRIN, 2025).",
+        "fact2": "Three flavours — electron, muon and tau — and they switch between them as they travel.",
+        "fact3": "About 65 billion solar neutrinos pass through every square centimetre of Earth each second.",
+        "fact4": "Proposed by Wolfgang Pauli in 1930; first detected in 1956 at a nuclear reactor by Clyde Cowan and Frederick Reines.",
+        "fact5": "Neutrino oscillations proved they have mass — Nobel Prize in Physics 2015 (Takaaki Kajita, Arthur McDonald).",
+        "fact6": "IceCube uses a cubic kilometre of Antarctic ice, watched by 5,160 light sensors, as its detector.",
+        "fact7": "Your body gives off about 4,000 neutrinos a second, from radioactive potassium-40.",
+        "fact8": "In 2025 the KM3NeT sea-floor telescope reported the most energetic neutrino ever seen: about 220 PeV."
+      },
+      "metaDescription": "Neutrinos are ghostly, almost massless particles: 65 billion from the Sun cross every square centimetre of you each second. What they are, simply explained."
     }
   },
   "about": {
@@ -2053,6 +2076,10 @@
     "supersymmetry": {
       "term": "Supersymmetry",
       "definition": "A proposed symmetry that pairs every known particle with a heavier 'superpartner'. Built into most versions of string theory; the LHC has found no superpartners so far."
+    },
+    "neutrino_oscillation": {
+      "term": "Neutrino oscillation",
+      "definition": "The way a neutrino switches between its three flavours (electron, muon, tau) as it travels — possible only because neutrinos have mass."
     }
   },
   "faq": {

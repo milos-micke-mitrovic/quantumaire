@@ -68,3 +68,4 @@
 ## 2026-11-19 — audit Phase 6 part 2 (new topics)
 - M87* (`m87_black_hole`, COSMOS, FACT, black-hole tag): EHT image (CC BY 4.0), 6.5 billion Suns, 38 billion km horizon, 55 million ly; EN+SR, sources (Wikipedia/ESO/NASA).
 - Gaia BH1 (`gaia_bh1`, COSMOS, FACT, black-hole): closest known black hole, 9.6 M☉, 1,560 ly, 57 km horizon; NOIRLab artist's impression (CC BY 4.0); BH2/BH3 in the fun fact.
+- Neutrino (`neutrino`, MICRO_WORLD idea, FACT, particle): ghost particle, KATRIN mass limit, SN 1987A, IceCube/KM3NeT; IceCube Lab photo (CC BY 4.0); new glossary term `neutrino_oscillation`.

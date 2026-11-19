@@ -710,5 +710,19 @@
       "label": "ESO",
       "url": "https://www.eso.org/public/news/eso2408/"
     }
+  ],
+  "neutrino": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Neutrino"
+    },
+    {
+      "label": "IceCube",
+      "url": "https://icecube.wisc.edu/science/icecube/"
+    },
+    {
+      "label": "Nobel Prize",
+      "url": "https://www.nobelprize.org/prizes/physics/2015/summary/"
+    }
   ]
 }

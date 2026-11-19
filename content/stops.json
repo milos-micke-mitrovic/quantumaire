@@ -1346,6 +1346,30 @@
       "tags": [
         "black-hole"
       ]
+    },
+    {
+      "id": "neutrino",
+      "i18nKey": "stops.neutrino",
+      "sizeMeters": null,
+      "order": 1.6,
+      "badge": "FACT",
+      "category": "MICRO_WORLD",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/neutrino.webp",
+        "aspect": "wide",
+        "altKey": "stops.neutrino.image.alt",
+        "credit": "John Hardin, IceCube/NSF — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "neutrino_oscillation",
+        "standard_model",
+        "supernova"
+      ],
+      "tags": [
+        "particle"
+      ]
     }
   ]
 }

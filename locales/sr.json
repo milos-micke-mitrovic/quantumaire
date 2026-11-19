@@ -1467,6 +1467,29 @@
         "fact7": "Prethodna najbliža poznata crna rupa, A0620-00, oko dva puta je dalja (oko 3.300 svetlosnih godina)."
       },
       "metaDescription": "Gaia BH1 je najbliža poznata crna rupa: 9,6 Sunčevih masa, 1.560 svetlosnih godina od nas, otkrivena 2022. po zvezdi koja kruži oko nečeg nevidljivog."
+    },
+    "neutrino": {
+      "name": "Neutrino",
+      "seoTitle": "Šta je neutrino? Čestica-duh, jednostavno",
+      "tagline": "Čestica-duh: bilioni prolaze kroz vas svake sekunde, a skoro nijedan vas ne dotakne.",
+      "body": "Neutrini su elementarne čestice bez električnog naelektrisanja i sa gotovo nezamislivo malom masom — manjom od milionitog dela mase elektrona. Postoje u tri ukusa (elektronski, mionski i tau) i nastaju svuda gde se atomska jezgra menjaju: u Sunčevom jezgru, u nuklearnim reaktorima, u supernovama, pa čak i u kalijumu u vašim kostima. Pošto osećaju samo slabu silu i gravitaciju, prolaze kroz cele planete kao da su prazan prostor: desetine milijardi neutrina sa Sunca svake sekunde prođu kroz svaki kvadratni centimetar vaše kože, i danju i noću. Volfgang Pauli ih je predložio 1930. da bi se „poklopio račun“ u radioaktivnom raspadu; prvi je uhvaćen tek 1956.",
+      "narrative": "Podignite palac: desetine milijardi neutrina sa Sunca svake sekunde prođu kroz njegov nokat. Za ceo vaš život, možda će samo nekolicina njih zaista udariti u neki atom vašeg tela.",
+      "massNarrative": "Neutrino ima masu manju od 0,45 elektronvolti (KATRIN, 2025) — manje od milionitog dela elektrona. Ipak, pošto u svakom kubnom centimetru svemira ima oko 340 neutrina zaostalih od Velikog praska, neutrini su druga najbrojnija čestica u svemiru, odmah posle fotona.",
+      "funFact": "U februaru 1987. tri podzemna detektora uhvatila su dvadesetak neutrina za 13 sekundi — oko tri sata pre nego što je iko video svetlost Supernove 1987A u susednoj galaksiji. Neutrini su odmah pobegli iz jezgra zvezde koja se urušavala, dok je svetlost morala da čeka da eksplozija stigne do površine zvezde.",
+      "image": {
+        "alt": "Laboratorija IceCube na Južnom polu noću, osvetljena crveno, pod Mlečnim putem i zelenom polarnom svetlošću."
+      },
+      "facts": {
+        "fact1": "Naelektrisanje: nikakvo. Masa: manja od 0,45 eV — manje od milionitog dela elektrona (KATRIN, 2025).",
+        "fact2": "Tri ukusa — elektronski, mionski i tau — i tokom putovanja prelaze iz jednog u drugi.",
+        "fact3": "Kroz svaki kvadratni centimetar Zemlje svake sekunde prođe oko 65 milijardi neutrina sa Sunca.",
+        "fact4": "Predložio ih je Volfgang Pauli 1930; prvi put su detektovani 1956. kod nuklearnog reaktora (Klajd Kouen i Frederik Rajns).",
+        "fact5": "Oscilacije neutrina dokazale su da imaju masu — Nobelova nagrada za fiziku 2015. (Takaaki Kađita, Artur Makdonald).",
+        "fact6": "IceCube kao detektor koristi kubni kilometar antarktičkog leda, koji prati 5.160 senzora svetlosti.",
+        "fact7": "Vaše telo emituje oko 4.000 neutrina u sekundi, iz radioaktivnog kalijuma-40.",
+        "fact8": "Podmorski teleskop KM3NeT objavio je 2025. najenergičniji neutrino ikada viđen: oko 220 PeV."
+      },
+      "metaDescription": "Neutrini su sablasne čestice skoro bez mase: 65 milijardi sa Sunca svake sekunde prođe kroz svaki kvadratni centimetar vas. Šta su, jednostavno objašnjeno."
     }
   },
   "about": {
@@ -2053,6 +2076,10 @@
     "supersymmetry": {
       "term": "Supersimetrija",
       "definition": "Predložena simetrija koja svakoj poznatoj čestici pridružuje težeg „superpartnera“. Ugrađena je u većinu verzija teorije struna; LHC zasad nije našao nijednog superpartnera."
+    },
+    "neutrino_oscillation": {
+      "term": "Oscilacija neutrina",
+      "definition": "Pojava da neutrino tokom putovanja prelazi iz jednog ukusa u drugi (elektronski, mionski, tau) — moguća samo zato što neutrini imaju masu."
     }
   },
   "faq": {
