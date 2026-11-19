@@ -2,18 +2,19 @@ import { ImageResponse } from "next/og";
 import { getStop } from "@/lib/content";
 import { tServer } from "@/lib/i18n-server";
 import { LOCALES } from "@/lib/seo";
+import { formatFactor } from "@/lib/references";
 import { formatMeters } from "@/lib/scale";
 import type { Locale } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
-function formatFactor(factor: number): string {
-  if (factor >= 1e9) return `${(factor / 1e9).toFixed(1)} B`;
-  if (factor >= 1e6) return `${(factor / 1e6).toFixed(1)} M`;
-  if (factor >= 1e3) return `${(factor / 1e3).toFixed(1)} K`;
-  if (factor >= 100) return factor.toFixed(0);
-  if (factor >= 10) return factor.toFixed(1);
-  return factor.toFixed(2);
+/** Satori's font lacks superscripts: "10¹⁵" → "10^15". */
+function ogSafe(text: string): string {
+  const sup = "⁻⁰¹²³⁴⁵⁶⁷⁸⁹";
+  const plain = "-0123456789";
+  return text.replace(/[⁻⁰¹²³⁴⁵⁶⁷⁸⁹]+/g, (m) =>
+    "^" + [...m].map((c) => plain[sup.indexOf(c)]).join("")
+  );
 }
 
 export async function GET(
@@ -34,12 +35,12 @@ export async function GET(
   const aName = tServer(typed, `${a.i18nKey}.name`);
   const bName = tServer(typed, `${b.i18nKey}.name`);
 
+  // How many times bigger the bigger one is ("11×", "3.5×") — never
+  // "1 / 3.55" or "11.0×"; the sizes under each name show which is which.
   let ratioBig = "—";
-  if (a.sizeMeters !== null && b.sizeMeters !== null && a.sizeMeters > 0) {
-    const r = b.sizeMeters / a.sizeMeters;
-    if (Math.abs(r - 1) < 0.001) ratioBig = "1×";
-    else if (r >= 1) ratioBig = `${formatFactor(r)}×`;
-    else ratioBig = `1 / ${formatFactor(1 / r)}`;
+  if (a.sizeMeters !== null && b.sizeMeters !== null && a.sizeMeters > 0 && b.sizeMeters > 0) {
+    const r = Math.max(a.sizeMeters, b.sizeMeters) / Math.min(a.sizeMeters, b.sizeMeters);
+    ratioBig = r < 1.001 ? "1×" : `${ogSafe(formatFactor(r, (k) => tServer(typed, k)))}×`;
   }
 
   return new ImageResponse(
@@ -122,7 +123,7 @@ export async function GET(
               }}
             >
               {a.sizeMeters !== null
-                ? formatMeters(a.sizeMeters, (k) => tServer(typed, k))
+                ? ogSafe(formatMeters(a.sizeMeters, (k) => tServer(typed, k)))
                 : tServer(typed, "common.abstract")}
             </div>
           </div>
@@ -199,7 +200,7 @@ export async function GET(
               }}
             >
               {b.sizeMeters !== null
-                ? formatMeters(b.sizeMeters, (k) => tServer(typed, k))
+                ? ogSafe(formatMeters(b.sizeMeters, (k) => tServer(typed, k)))
                 : tServer(typed, "common.abstract")}
             </div>
           </div>

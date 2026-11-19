@@ -48,7 +48,8 @@ export const FAMILIAR_DISTANCES: Familiar[] = [
   { id: "londonParis", meters: 344_000, rank: 1 },
   { id: "nyLa", meters: 3_940_000, rank: 1 },
   { id: "aroundEarth", meters: 40_075_000, rank: 1 },
-  { id: "earthMoon", meters: 384_400_000, rank: 1 },
+  // Not "the Earth–Moon distance": nobody pictures it, and next to the
+  // Earth → Moon reference row it read as "Neptune = Earth → Moon".
 ];
 
 /** Reference distances a stop's distance is scaled against. */

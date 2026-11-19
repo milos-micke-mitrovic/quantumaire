@@ -137,7 +137,7 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
   );
 }
 
-/** "2.7× closer than Proxima Centauri →" — the distance put in context. */
+/** "129× farther than Proxima Centauri →" — the distance put in context. */
 function DistanceCompare({
   stop,
   t,
@@ -151,12 +151,9 @@ function DistanceCompare({
   if (!visual) return null;
   const refName = t(`referenceLabels.${visual.reference.id}`);
   const refStopId = DISTANCE_REFERENCE_TO_STOP_ID[visual.reference.id];
-  const text = t(
-    visual.stopFarther
-      ? "common.distanceCompare.fartherThan"
-      : "common.distanceCompare.closerThan",
-    { factor: formatFactor(visual.ratio, t) }
-  );
+  const text = t("common.distanceCompare.fartherThan", {
+    factor: formatFactor(visual.ratio, t),
+  });
   return (
     <span className="mt-1 block whitespace-normal font-sans text-xs text-cosmos-star/60">
       {text}{" "}

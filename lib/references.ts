@@ -39,6 +39,9 @@ export const REFERENCES: Reference[] = [
   { id: "footballPitch", meters: 105, kind: "size" }, // length
   { id: "eiffelTower", meters: 330, kind: "size" }, // height
   { id: "everest", meters: 8848, kind: "size" }, // height
+  // City-sized things (neutron stars, small black holes): "about the size
+  // of Manhattan" pictures far better than "2.3 Everests".
+  { id: "manhattan", meters: 21_600, kind: "size" }, // length
   { id: "earthDiameter", meters: 1.2742e7, kind: "size" }, // Earth — diameter
   { id: "moonDistance", meters: 3.844e8, kind: "distance" }, // Earth–Moon distance
   { id: "sun", meters: 1.39e9, kind: "size" }, // Sun — diameter

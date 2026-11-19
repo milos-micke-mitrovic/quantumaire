@@ -13,18 +13,18 @@ Eiffel Tower", "2 °C" without saying where. Sweep every generated sentence
 across ALL topics in BOTH locales, dumping them to a file (like the analogy
 dump: a temporary vitest that writes to the scratchpad) and reading them:
 
-- [ ] Size FAQ (`lib/sizeFaq.ts`): all answers, incl. "one step down/up"
+- [x] Size FAQ (`lib/sizeFaq.ts`): all answers, incl. "one step down/up"
       (neighbours like Halley's Comet 1.01× bigger than the trench are
       technically right but pointless — consider skipping near-equal or
       unrelated neighbours), grain-of-sand answer for tiny things
       ("429 nm" — is that useful?), ratios "10¹⁶ times bigger".
-- [ ] Serbian FAQ grammar ("kolika bi bila veličina — Marijanski rov?",
+- [x] Serbian FAQ grammar ("kolika bi bila veličina — Marijanski rov?",
       "6.400 puta manji nego Marijanski rov" — gender/case agreement).
-- [ ] Compare pair pages (`app/[locale]/compare/[pair]/page.tsx`), SR too.
-- [ ] Distance compare ("2.7× closer than Proxima Centauri"), light-time.
-- [ ] Prev/next, "On the scales", search snippets, OG cards, share text.
-- [ ] Analogy distance rows (FAMILIAR_DISTANCES) — same "is it familiar?" test.
-- [ ] Real-scale card: decide whether neutron star / Gaia BH1 (round) vs
+- [x] Compare pair pages (`app/[locale]/compare/[pair]/page.tsx`), SR too.
+- [x] Distance compare ("2.7× closer than Proxima Centauri"), light-time.
+- [x] Prev/next, "On the scales", search snippets, OG cards, share text.
+- [x] Analogy distance rows (FAMILIAR_DISTANCES) — same "is it familiar?" test.
+- [x] Real-scale card: decide whether neutron star / Gaia BH1 (round) vs
       Everest should be circles-vs-bar or skip.
 
 ## 2. New topics (use the `add-topic` skill; Humankind and Life & Earth are thin)

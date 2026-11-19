@@ -21,6 +21,14 @@ export function EverydayScale({ stop, locale }: { stop: Stop; locale: Locale }) 
     const s = STOPS.find((x) => x.id === id);
     return s ? t(`${s.i18nKey}.name`) : id;
   };
+  // Distance rows name where the distance is measured to: "Earth → edge of
+  // the Solar System", not "Earth → Solar System".
+  const placeName = (id: string) => {
+    const s = STOPS.find((x) => x.id === id);
+    if (!s?.distanceNameKey) return stopName(id);
+    const place = t(s.distanceNameKey);
+    return place.charAt(0).toLowerCase() + place.slice(1);
+  };
 
   return (
     <section
@@ -47,6 +55,7 @@ export function EverydayScale({ stop, locale }: { stop: Stop; locale: Locale }) 
             t={t}
             tr={tr}
             stopName={stopName}
+            placeName={placeName}
           />
         ))}
       </div>
@@ -61,6 +70,7 @@ function AnalogyCard({
   t,
   tr,
   stopName,
+  placeName,
 }: {
   a: Analogy;
   locale: Locale;
@@ -68,6 +78,7 @@ function AnalogyCard({
   t: (key: string, vars?: Record<string, string | number>) => string;
   tr: (key: string) => string;
   stopName: (id: string) => string;
+  placeName: (id: string) => string;
 }) {
   const factorText =
     a.factor >= 1
@@ -81,7 +92,7 @@ function AnalogyCard({
   const toLabel =
     a.kind === "size"
       ? stopName(a.toId)
-      : t("analogy.fromEarth", { name: stopName(a.toId) });
+      : t("analogy.fromEarth", { name: placeName(a.toId) });
 
   const nameNode = (id: string, label: string, isStop: boolean) =>
     isStop && id !== stopId ? (

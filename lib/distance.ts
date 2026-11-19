@@ -1,4 +1,4 @@
-import { pickReference, type Reference } from "./references";
+import { REFERENCES, type Reference } from "./references";
 import type { Stop } from "./types";
 
 /** Distance references that correspond to a real topic page. */
@@ -15,25 +15,24 @@ export interface DistanceVisual {
   stopFarther: boolean;
 }
 
-/** The familiar distance a topic's distance from Earth is compared with. */
+/** A reference must be at least this many times nearer to be worth naming. */
+const MIN_RATIO = 1.5;
+
+/**
+ * The familiar distance a topic's distance from Earth is compared with:
+ * the farthest reference that is still clearly nearer, so the line always
+ * reads "129× farther than Proxima Centauri" — never "2.7× closer than"
+ * (hard to picture) or "1.14× farther than the Sun" (says nothing).
+ * Topics nearer than every reference (the ISS, the Moon) get no line.
+ */
 export function computeDistance(stop: Stop): DistanceVisual | null {
-  if (
-    typeof stop.distanceFromEarthMeters !== "number" ||
-    stop.distanceFromEarthMeters <= 0
-  ) {
-    return null;
-  }
   const distance = stop.distanceFromEarthMeters;
-  const reference = pickReference(distance, "distance", {
-    excludeNearSelf: true,
-  });
-  if (!reference) return null;
-  if (Math.abs(Math.log10(distance) - Math.log10(reference.meters)) < 0.05) {
-    return null;
+  if (typeof distance !== "number" || distance <= 0) return null;
+  let reference: Reference | null = null;
+  for (const r of REFERENCES) {
+    if (r.kind !== "distance" || r.meters * MIN_RATIO > distance) continue;
+    if (!reference || r.meters > reference.meters) reference = r;
   }
-  const stopFarther = distance > reference.meters;
-  const ratio = stopFarther
-    ? distance / reference.meters
-    : reference.meters / distance;
-  return { reference, ratio, stopFarther };
+  if (!reference) return null;
+  return { reference, ratio: distance / reference.meters, stopFarther: true };
 }
