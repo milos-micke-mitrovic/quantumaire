@@ -20,6 +20,13 @@ export interface Topic {
   i18nKey: string;
   sectionCount: number;
   relatedStopIds: string[];
+  /**
+   * Tag this guide fully covers. Its page then lists every topic with the
+   * tag, tag chips link here, and there is no separate /tag/ page.
+   */
+  tag?: string;
+  /** Topic page this guide expands on (shown as a link from that page). */
+  stopId?: string;
   sources: Source[];
   accent: string;
 }
@@ -27,6 +34,7 @@ export interface Topic {
 export const TOPICS: Topic[] = [
   {
     slug: "stars",
+    tag: "star",
     i18nKey: "topics.stars",
     sectionCount: 5,
     relatedStopIds: ["sun", "proxima_centauri", "uy_scuti", "neutron_star", "supermassive_black_hole"],
@@ -53,6 +61,7 @@ export const TOPICS: Topic[] = [
   },
   {
     slug: "black-holes",
+    tag: "black-hole",
     i18nKey: "topics.blackHoles",
     sectionCount: 5,
     relatedStopIds: ["neutron_star", "supermassive_black_hole"],
@@ -91,6 +100,7 @@ export const TOPICS: Topic[] = [
   },
   {
     slug: "big-bang",
+    stopId: "big_bang",
     i18nKey: "topics.bigBang",
     sectionCount: 4,
     relatedStopIds: ["observable_universe", "dark_energy"],
@@ -117,6 +127,7 @@ export const TOPICS: Topic[] = [
   },
   {
     slug: "time",
+    stopId: "time_dilation",
     i18nKey: "topics.time",
     sectionCount: 4,
     relatedStopIds: ["supermassive_black_hole", "observable_universe"],
@@ -156,6 +167,7 @@ export const TOPICS: Topic[] = [
   },
   {
     slug: "planet-sizes-compared",
+    tag: "planet",
     i18nKey: "topics.planetSizesCompared",
     sectionCount: 5,
     relatedStopIds: ["mercury", "venus", "earth", "moon", "mars", "jupiter", "saturn", "uranus", "neptune", "pluto", "sun"],
@@ -199,4 +211,19 @@ export const TOPICS: Topic[] = [
 
 export function getTopic(slug: string): Topic | undefined {
   return TOPICS.find((t) => t.slug === slug);
+}
+
+/** Guide that fully covers a tag, if any. */
+export function guideForTag(tag: string): Topic | undefined {
+  return TOPICS.find((t) => t.tag === tag);
+}
+
+/** Guides that include a topic page (related list, its tag, or stopId). */
+export function guidesForStop(stopId: string, tags: string[] = []): Topic[] {
+  return TOPICS.filter(
+    (t) =>
+      t.stopId === stopId ||
+      t.relatedStopIds.includes(stopId) ||
+      (t.tag !== undefined && tags.includes(t.tag))
+  );
 }

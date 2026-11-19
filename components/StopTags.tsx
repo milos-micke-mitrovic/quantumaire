@@ -3,7 +3,7 @@
 import clsx from "clsx";
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n";
-import { hasTagPage } from "@/lib/tags";
+import { tagHref } from "@/lib/tags";
 
 interface StopTagsProps {
   tags?: string[];
@@ -39,10 +39,11 @@ export function StopTags({ tags, className, size = "sm" }: StopTagsProps) {
             : "px-2.5 py-1 text-[11px] uppercase tracking-[0.18em]"
         );
         // Tags with their own collection page link to it.
-        return hasTagPage(id) ? (
+        const href = tagHref(id, locale);
+        return href ? (
           <Link
             key={id}
-            href={`/${locale}/tag/${id}`}
+            href={href}
             className={clsx(
               cls,
               "transition-colors hover:border-cosmos-plasma/60 hover:bg-cosmos-aurora/20 hover:text-cosmos-plasma focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cosmos-aurora/60"

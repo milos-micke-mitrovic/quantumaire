@@ -9,6 +9,7 @@ const SECTION_IDS = [
   "numbers",
   "story",
   "facts",
+  "guides",
   "everyday",
   "spacecraft",
   "qa",

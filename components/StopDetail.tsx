@@ -22,6 +22,7 @@ import { QuickFacts } from "./QuickFacts";
 import { Sources } from "./Sources";
 import { StopCard } from "./StopCard";
 import { StopComparisonCard } from "./StopComparisonCard";
+import { StopGuides } from "./StopGuides";
 import { StopHighlights } from "./StopHighlights";
 import { StopSectionNav } from "./StopSectionNav";
 import { StopTags } from "./StopTags";
@@ -226,6 +227,8 @@ export function StopDetail({
 
 
       <QuickFacts stop={stop} />
+
+      <StopGuides stop={stop} />
 
       {children}
 

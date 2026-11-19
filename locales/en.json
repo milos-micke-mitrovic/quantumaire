@@ -243,7 +243,8 @@
       "qa": "Q&A",
       "sources": "Sources",
       "journey-map": "On the scales",
-      "related": "Related"
+      "related": "Related",
+      "guides": "Guides"
     },
     "navBigger": "{factor}× bigger",
     "navSmaller": "{factor}× smaller",
@@ -356,7 +357,8 @@
       "open": "open",
       "navigate": "navigate",
       "close": "close"
-    }
+    },
+    "inGuides": "In our guides"
   },
   "home": {
     "faq": {

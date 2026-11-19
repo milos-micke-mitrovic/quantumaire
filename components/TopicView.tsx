@@ -6,6 +6,7 @@ import { m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import type { Topic } from "@/lib/topics";
 import { STOPS } from "@/lib/content";
+import { getStopsByTag } from "@/lib/tags";
 import { DistanceScale } from "./DistanceScale";
 import { Sources } from "./Sources";
 import { StopCard } from "./StopCard";
@@ -26,9 +27,16 @@ export function TopicView({ topic }: TopicViewProps) {
     body: t(`${topic.i18nKey}.section${i + 1}Body`),
   }));
 
-  const related = topic.relatedStopIds
-    .map((id) => STOPS.find((s) => s.id === id))
-    .filter((s): s is NonNullable<typeof s> => Boolean(s));
+  // Guides that cover a tag list every topic with it (that guide *is* the
+  // tag's page), then any extra hand-picked related topics.
+  const tagged = topic.tag ? getStopsByTag(topic.tag) : [];
+  const related = [
+    ...tagged,
+    ...topic.relatedStopIds
+      .map((id) => STOPS.find((s) => s.id === id))
+      .filter((s): s is NonNullable<typeof s> => Boolean(s))
+      .filter((s) => !tagged.includes(s)),
+  ];
 
   return (
     <main className="relative mx-auto w-full max-w-3xl px-5 pb-24 pt-10 sm:px-8 sm:pt-14">

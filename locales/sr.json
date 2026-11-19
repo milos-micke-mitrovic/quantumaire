@@ -243,7 +243,8 @@
       "qa": "Pitanja",
       "sources": "Izvori",
       "journey-map": "Na skalama",
-      "related": "Povezano"
+      "related": "Povezano",
+      "guides": "Vodiči"
     },
     "navBigger": "{factor}× veće",
     "navSmaller": "{factor}× manje",
@@ -356,7 +357,8 @@
       "open": "otvori",
       "navigate": "kretanje",
       "close": "zatvori"
-    }
+    },
+    "inGuides": "U našim vodičima"
   },
   "home": {
     "faq": {

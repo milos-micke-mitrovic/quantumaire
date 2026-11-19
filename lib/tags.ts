@@ -1,4 +1,5 @@
 import { STOPS } from "./content";
+import { guideForTag } from "./topics";
 import type { Stop } from "./types";
 
 /**
@@ -10,13 +11,20 @@ export const TAG_PAGES: string[] = (() => {
   const counts = new Map<string, number>();
   for (const s of STOPS) for (const t of s.tags ?? []) counts.set(t, (counts.get(t) ?? 0) + 1);
   return [...counts.entries()]
-    .filter(([tag, n]) => n >= 2 && tag !== "cosmos")
+    .filter(([tag, n]) => n >= 2 && tag !== "cosmos" && !guideForTag(tag))
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
     .map(([tag]) => tag);
 })();
 
 export function hasTagPage(tag: string): boolean {
   return TAG_PAGES.includes(tag);
+}
+
+/** Where a tag chip should link: its guide, its collection page, or nowhere. */
+export function tagHref(tag: string, locale: string): string | null {
+  const guide = guideForTag(tag);
+  if (guide) return `/${locale}/topics/${guide.slug}`;
+  return hasTagPage(tag) ? `/${locale}/tag/${tag}` : null;
 }
 
 /** Topics with a tag: sized ones smallest → largest, then the rest. */
