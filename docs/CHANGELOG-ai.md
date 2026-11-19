@@ -153,3 +153,10 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Accessibility: home FAQ no longer nests `<dt>/<dd>` in `<details>` (invalid `<dl>`), tag chips use `text-cosmos-plasma` (contrast), StopCard links lose the "Open — X" aria-label that mismatched their visible text.
 - After: home 81 (LCP 4.6 s, TBT 90 ms), Jupiter 79, guides 75–79 (TBT ~250 ms; one 1.6 s TBT reading was noise), accessibility/best practices/SEO 100 everywhere. Follow-up (fonts + JS weight) added to NEXT-PLAN.
 - Block 5 (Search Console CTR) waits for indexing data.
+
+## 2026-11-19 — fonts + JS weight (NEXT-PLAN block 4 follow-up)
+- Fonts: `subsets` in next/font only picks the *preloaded* files (every subset stays in the CSS via unicode-range), so both fonts now preload only `latin`; Serbian č/ć/š/ž/đ load latin-ext on demand (checked in the browser). The 404 layout had its own `latin-ext` font call, and Turbopack then preloaded latin-ext everywhere; both layouts now import one definition from `lib/fonts.ts`. 4 preloads / 173 KiB → 2 / 70 KiB.
+- Search: the dialog (index over every topic, guide and collection) moved to `components/SearchDialog.tsx` and loads via `next/dynamic` on first open; hovering or focusing the button prefetches it. Checked: opens via click and ⌘K, "giraf" finds the giraffe.
+- Guides: `TopicView` is now a server component (it only used `t()`), so the guide text doesn't hydrate; the page sends the client only the hand-written key-number strings instead of the whole guide namespace. GuideHero's blurred backdrop (the LCP element on square-image guides) was `loading="lazy"`; now eager (same URL as the preloaded image, no extra bytes).
+- Lighthouse mobile (live, 2 runs each): home 79–81 → 82–83 (LCP ~4.6 s), Jupiter 79 → 83–85, guides 75–82 → 82–85 with TBT ~225 → 40–80 ms; CLS 0. Remaining cost is react-dom + Next runtime under simulated 4G.
+- The only open plan item is block 5 (Search Console CTR), which needs indexing data first.

@@ -78,6 +78,9 @@ Use the `add-topic` skill (`.claude/skills/add-topic/SKILL.md`).
   shows stale CSS/JS, unregister it in the browser.
 - Kill stray dev servers (`pkill -f "next dev"`) — several on one port
   served stale code once.
+- Fonts live in `lib/fonts.ts` (shared by the locale layout and
+  global-not-found); `subsets: ["latin"]` only limits preloads — a second
+  font call with other options re-adds latin-ext preloads site-wide.
 - Satori (OG images) lacks superscript glyphs — use `ogSafe()`.
 - framer-motion `whileInView` on cards uses `amount: 0` (horizontal shelves
   otherwise leave partly visible cards invisible).

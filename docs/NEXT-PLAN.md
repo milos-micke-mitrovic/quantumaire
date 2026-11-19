@@ -50,11 +50,15 @@ dump: a temporary vitest that writes to the scratchpad) and reading them:
 - [x] Lighthouse (mobile) on home, a topic page, a guide; fix LCP/CLS/JS weight.
       2026-11-19: home 59 → 81 (LCP 8.8 → 4.6 s), topic 79, guides 75–79; a11y 100,
       best practices 100, SEO 100 on all. Real-network LCP image is done by ~1.2 s.
-- [ ] Remaining simulated LCP (~4.5–5 s) is fonts + JS under 4× CPU: 4 preloaded
+- [x] Remaining simulated LCP (~4.5–5 s) is fonts + JS under 4× CPU: 4 preloaded
       woff2 (173 KiB, latin + latin-ext of Inter and Space Grotesk) and ~425 KiB JS
       (biggest chunk ~71 KiB, ~1 s scripting). Ideas: drop latin-ext preload where
       possible, lighter framer-motion use above the fold, check what the home
       shelves/explorer pull into the first chunk.
+      2026-11-19: font preloads 4 → 2 (173 → 70 KiB), search dialog lazy, guide
+      body server-rendered. Home 79–81 → 82–83, Jupiter 83–85, guides 75–82 → 82–85
+      (TBT ~225 → 40–80 ms). What's left is react-dom + Next runtime (~120 KiB gz)
+      and simulated slow 4G; not worth chasing further for now.
 
 ## 5. Search Console data (once enough pages are indexed)
 
