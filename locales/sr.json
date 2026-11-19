@@ -1691,7 +1691,15 @@
       "section3Heading": "Zvezde poput Sunca za sobom ostavljaju planetarne magline",
       "section3Body": "Kada zvezdi nalik Suncu nestane goriva vodonika, ona se širi u crvenog džina, a zatim odbacuje spoljnu atmosferu u prostor. Izloženo jezgro — vreli beli patuljak — osvetljava taj zbačeni gas iznutra, stvarajući planetarnu maglinu. Za oko pet milijardi godina, to će se dogoditi i Suncu. Faza traje samo desetine hiljada godina pre nego što se gas raziđe.",
       "section4Heading": "Masivne zvezde za sobom ostavljaju ostatke supernove",
-      "section4Body": "Kada zvezda iznad osam Sunčevih masa umre, njeni spoljni slojevi eksplodiraju brzinom od hiljada kilometara u sekundi, ostavljajući udarni talas vrelog gasa koji svetli desetine hiljada godina. Rakova maglina se još uvek širi brzinom oko 1.500 km/s, a u njenom središtu se nalazi brzo rotirajuća neutronska zvezda — pulsar u Rakovoj maglini — kolapsirano jezgro originalne zvezde."
+      "section4Body": "Kada zvezda iznad osam Sunčevih masa umre, njeni spoljni slojevi eksplodiraju brzinom od hiljada kilometara u sekundi, ostavljajući udarni talas vrelog gasa koji svetli desetine hiljada godina. Rakova maglina se još uvek širi brzinom oko 1.500 km/s, a u njenom središtu se nalazi brzo rotirajuća neutronska zvezda — pulsar u Rakovoj maglini — kolapsirano jezgro originalne zvezde.",
+      "keyNumber1Label": "Supernova Rakove magline viđena sa Zemlje",
+      "keyNumber1Value": "1054. n. e.",
+      "keyNumber2Label": "Brzina širenja Rakove magline",
+      "keyNumber2Value": "≈ 1.500 km/s",
+      "keyNumber3Label": "Masa zvezde koja završava kao supernova",
+      "keyNumber3Value": "> 8 Sunčevih masa",
+      "keyNumber4Label": "Trajanje planetarne magline",
+      "keyNumber4Value": "desetine hiljada godina"
     },
     "bigBang": {
       "title": "Veliki prasak",
@@ -1706,7 +1714,13 @@
       "section3Body": "Godine 1998, dva nezavisna tima koja su merila udaljene supernove otkrila su da se širenje svemira ne usporava (kao što bi gravitacija sugerisala) — već ubrzava. Tajanstveni oblik energije ugrađen u sam prostor, nazvan *tamna energija*, izgleda da gura prostor sve brže i brže. Tokom narednih sto milijardi godina, ovo ubrzanje će na kraju odneti svaku galaksiju van naše lokalne grupe iza kosmičkog horizonta. Ubrzanje je **utvrđena teorija**; šta tamna energija zapravo *jeste* ostaje duboko otvoreno pitanje.",
       "section4Heading": "Pre Velikog praska? Samo spekulacija",
       "section4Body": "Pitanje „šta se dogodilo pre Velikog praska?“ leži na samoj ivici fizike. Postoji nekoliko ideja — večita inflacija, gde je naš svemir jedan od mnogih mehurova u mnogo većem inflacijskom multiverzumu; ciklični modeli, gde se Veliki praskovi i Veliki krahovi ponavljaju; modeli odskakanja iz petljaste kvantne gravitacije. Nijedna nije posmatračno potvrđena; neke možda ne mogu ni u principu da se potvrde. **Cela ova oblast je spekulativna** — fascinantna, ali još uvek nije nauka kao ostatak ove strane.",
-      "metaDescription": "Šta se desilo pre 13,8 milijardi godina i kako to znamo — širenje, kosmičko mikrotalasno pozadinsko zračenje, laki elementi — i šta je još otvoreno."
+      "metaDescription": "Šta se desilo pre 13,8 milijardi godina i kako to znamo — širenje, kosmičko mikrotalasno pozadinsko zračenje, laki elementi — i šta je još otvoreno.",
+      "keyNumber1Label": "Starost svemira",
+      "keyNumber1Value": "13,8 milijardi godina",
+      "keyNumber2Label": "Oslobađanje prve svetlosti (CMB)",
+      "keyNumber2Value": "≈ 380.000 godina posle Velikog praska",
+      "keyNumber3Label": "Otkriveno ubrzano širenje",
+      "keyNumber3Value": "1998."
     },
     "supernova": {
       "title": "Supernove",
@@ -1720,7 +1734,13 @@
       "section3Heading": "Poznate supernove",
       "section3Body": "**SN 1054** — koju su kineski, japanski i arapski astronomi zabeležili u julu 1054. godine — proizvela je Rakovu maglinu i njen centralni pulsar. **SN 1572** posmatrao je Tiho Brahe i ona je prelomila srednjovekovno verovanje u nepromenljiv kosmos. **SN 1987A**, u Velikom Magelanovom oblaku, bila je najbliža supernova vidljiva golim okom za skoro 400 godina i prva čija je zvezda pre eksplozije identifikovana.",
       "section4Heading": "Fabrika elemenata svemira",
-      "section4Body": "Vodonik i helijum dolaze iz Velikog praska. Skoro sve ostalo — ugljenik, kiseonik, kalcijum, gvožđe, zlato, uranijum — kuje se ili unutar zvezda ili u supernovama i spajanjima neutronskih zvezda. Saganova rečenica da smo „napravljeni od zvezdane materije“ doslovno je tačna: svaki atom u vašem telu teži od helijuma iskovan je unutar drevne zvezde i raspršen po prostoru kada je ona umrla. Vi ste, strukturno, reciklirana supernova."
+      "section4Body": "Vodonik i helijum dolaze iz Velikog praska. Skoro sve ostalo — ugljenik, kiseonik, kalcijum, gvožđe, zlato, uranijum — kuje se ili unutar zvezda ili u supernovama i spajanjima neutronskih zvezda. Saganova rečenica da smo „napravljeni od zvezdane materije“ doslovno je tačna: svaki atom u vašem telu teži od helijuma iskovan je unutar drevne zvezde i raspršen po prostoru kada je ona umrla. Vi ste, strukturno, reciklirana supernova.",
+      "keyNumber1Label": "Masa zvezde za kolaps jezgra",
+      "keyNumber1Value": "> 8 Sunčevih masa",
+      "keyNumber2Label": "Supernove u Mlečnom putu",
+      "keyNumber2Value": "≈ 2 u sto godina",
+      "keyNumber3Label": "Poslednja viđena u našoj galaksiji",
+      "keyNumber3Value": "1604."
     },
     "time": {
       "title": "Vreme",
@@ -1734,7 +1754,15 @@
       "section3Heading": "Paradoks blizanaca",
       "section3Body": "Ako jedan blizanac ostane na Zemlji, a drugi ubrza do blizu brzine svetlosti, putuje do udaljene zvezde i vrati se — blizanac koji je putovao biće mlađi. Ovo nije paradoks: blizanci nisu u simetričnom položaju, jer samo putnik prelazi iz referentnog sistema u kome odlazi u onaj u kome se vraća. Njihove putanje kroz prostor-vreme se razlikuju, a na savijenoj putanji protekne manje vremena. Efekat je izmeren atomskim satovima koji su leteli oko sveta. **Status: stvarna posledica relativnosti, posmatračno potvrđena.**",
       "section4Heading": "Strela vremena",
-      "section4Body": "Zašto se vreme kreće samo unapred? Fizički, skoro svi zakoni fizike rade isto unazad kao i unapred — osim drugog zakona termodinamike, koji kaže da ukupna entropija (nered) uvek raste. Ta asimetrija je ono što daje vremenu njegov pravac. Zašto je svemir započeo u tako niskoentropijskom stanju, međutim, mnogo je teže pitanje — i otvoreno. **Status: sama strela je utvrđena; njeno krajnje poreklo je spekulativno.**"
+      "section4Body": "Zašto se vreme kreće samo unapred? Fizički, skoro svi zakoni fizike rade isto unazad kao i unapred — osim drugog zakona termodinamike, koji kaže da ukupna entropija (nered) uvek raste. Ta asimetrija je ono što daje vremenu njegov pravac. Zašto je svemir započeo u tako niskoentropijskom stanju, međutim, mnogo je teže pitanje — i otvoreno. **Status: sama strela je utvrđena; njeno krajnje poreklo je spekulativno.**",
+      "keyNumber1Label": "Korekcija GPS satova",
+      "keyNumber1Value": "38 µs dnevno",
+      "keyNumber2Label": "Odstupanje GPS-a bez nje",
+      "keyNumber2Value": "≈ 10 km dnevno",
+      "keyNumber3Label": "Sat pri 1% brzine svetlosti",
+      "keyNumber3Value": "0,005% sporiji",
+      "keyNumber4Label": "Sat pri 99% brzine svetlosti",
+      "keyNumber4Value": "7 puta sporiji"
     },
     "distances": {
       "title": "Udaljenosti",
@@ -1835,7 +1863,8 @@
   "topicView": {
     "intro": "Pregled",
     "relatedStops": "Povezano",
-    "sourcesHeading": "Izvori"
+    "sourcesHeading": "Izvori",
+    "heroCredit": "Slika: {credit}"
   },
   "glossary": {
     "quantum": {

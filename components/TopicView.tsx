@@ -9,6 +9,8 @@ import { STOPS } from "@/lib/content";
 import { getStopsByTag } from "@/lib/tags";
 import { linkTopicNames, type Segment } from "@/lib/topicLinks";
 import { DistanceScale } from "./DistanceScale";
+import { GuideHero } from "./GuideHero";
+import { GuideKeyNumbers } from "./GuideKeyNumbers";
 import { Sources } from "./Sources";
 import { StopCard } from "./StopCard";
 
@@ -64,6 +66,8 @@ export function TopicView({ topic }: TopicViewProps) {
       .filter((s) => !tagged.includes(s)),
   ];
 
+  const hero = STOPS.find((s) => s.id === topic.heroStopId);
+
   return (
     <main className="relative mx-auto w-full max-w-3xl px-5 pb-24 pt-10 sm:px-8 sm:pt-14">
       <nav
@@ -100,7 +104,9 @@ export function TopicView({ topic }: TopicViewProps) {
         </p>
       </header>
 
-      <section className="mt-8 rounded-3xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-sm sm:p-8">
+      {hero && <GuideHero stop={hero} />}
+
+      <section className="mt-6 rounded-3xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-sm sm:p-8">
         <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
           {t("topicView.intro")}
         </p>
@@ -108,6 +114,8 @@ export function TopicView({ topic }: TopicViewProps) {
           {renderLinked(linked[0])}
         </p>
       </section>
+
+      <GuideKeyNumbers topic={topic} />
 
       {/* The Distances topic gets an interactive distance slider —
           a parallel to the size slider on the journey home page. */}

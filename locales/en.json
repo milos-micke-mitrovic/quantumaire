@@ -1691,7 +1691,15 @@
       "section3Heading": "Sun-sized deaths leave planetary nebulae",
       "section3Body": "When a Sun-like star runs out of hydrogen fuel, it expands into a red giant, then sheds its outer atmosphere into space. The exposed core — a hot white dwarf — illuminates that shed gas from the inside, producing a planetary nebula. In about five billion years, this is what will happen to the Sun. The phase lasts only tens of thousands of years before the gas dissipates.",
       "section4Heading": "Massive deaths leave supernova remnants",
-      "section4Body": "When a star above eight solar masses dies, its outer layers explode at thousands of kilometres per second, leaving a shock wave of hot gas that lights up for tens of thousands of years. The Crab Nebula still expands at about 1,500 km/s, and a rapidly spinning neutron star — the Crab Pulsar — sits at its centre, the collapsed core of the original star."
+      "section4Body": "When a star above eight solar masses dies, its outer layers explode at thousands of kilometres per second, leaving a shock wave of hot gas that lights up for tens of thousands of years. The Crab Nebula still expands at about 1,500 km/s, and a rapidly spinning neutron star — the Crab Pulsar — sits at its centre, the collapsed core of the original star.",
+      "keyNumber1Label": "Crab Nebula's supernova seen from Earth",
+      "keyNumber1Value": "1054 CE",
+      "keyNumber2Label": "Crab Nebula expansion speed",
+      "keyNumber2Value": "≈ 1,500 km/s",
+      "keyNumber3Label": "Star mass that ends in a supernova",
+      "keyNumber3Value": "> 8 solar masses",
+      "keyNumber4Label": "Lifetime of a planetary nebula",
+      "keyNumber4Value": "tens of thousands of years"
     },
     "bigBang": {
       "title": "The Big Bang",
@@ -1706,7 +1714,13 @@
       "section3Body": "In 1998, two independent teams measuring distant supernovae found that the universe's expansion isn't slowing down (as gravity would suggest) — it's speeding up. A mysterious form of energy embedded in space itself, called *dark energy*, appears to be pushing space apart faster and faster. Over the next hundred billion years, this acceleration will eventually carry every galaxy outside our local group beyond the cosmic horizon. The acceleration is **established theory**; what dark energy actually *is* remains a deep open question.",
       "section4Heading": "Before the Big Bang? Speculation only",
       "section4Body": "Asking \"what happened before the Big Bang?\" sits at the very edge of physics. Several ideas exist — eternal inflation, where our universe is one of many bubbles in a much larger inflating multiverse; cyclic models, where Big Bangs and Big Crunches repeat; bouncing models from loop quantum gravity. None has been observationally confirmed; some may even be unconfirmable in principle. **This entire area is speculative** — fascinating, but not yet science the way the rest of this page is.",
-      "metaDescription": "What happened 13.8 billion years ago, how we know — expansion, the cosmic microwave background, light elements — and what is still open."
+      "metaDescription": "What happened 13.8 billion years ago, how we know — expansion, the cosmic microwave background, light elements — and what is still open.",
+      "keyNumber1Label": "Age of the universe",
+      "keyNumber1Value": "13.8 billion years",
+      "keyNumber2Label": "First light set free (CMB)",
+      "keyNumber2Value": "≈ 380,000 years after the Big Bang",
+      "keyNumber3Label": "Accelerating expansion discovered",
+      "keyNumber3Value": "1998"
     },
     "supernova": {
       "title": "Supernovae",
@@ -1720,7 +1734,13 @@
       "section3Heading": "Famous supernovae",
       "section3Body": "**SN 1054** — recorded by Chinese, Japanese and Arab astronomers in July 1054 CE — produced the Crab Nebula and its central pulsar. **SN 1572** was observed by Tycho Brahe and broke the medieval belief in an unchanging cosmos. **SN 1987A**, in the Large Magellanic Cloud, was the closest naked-eye supernova in nearly 400 years and the first whose pre-explosion star was identified.",
       "section4Heading": "The universe's element factory",
-      "section4Body": "Hydrogen and helium come from the Big Bang. Almost everything else — carbon, oxygen, calcium, iron, gold, uranium — is forged either inside stars or in supernovae and neutron-star mergers. Carl Sagan's line that \"we are made of star-stuff\" is literally true: every atom in your body heavier than helium was forged inside an ancient star and scattered across space when it died. You are, structurally, recycled supernova."
+      "section4Body": "Hydrogen and helium come from the Big Bang. Almost everything else — carbon, oxygen, calcium, iron, gold, uranium — is forged either inside stars or in supernovae and neutron-star mergers. Carl Sagan's line that \"we are made of star-stuff\" is literally true: every atom in your body heavier than helium was forged inside an ancient star and scattered across space when it died. You are, structurally, recycled supernova.",
+      "keyNumber1Label": "Star mass for a core-collapse supernova",
+      "keyNumber1Value": "> 8 solar masses",
+      "keyNumber2Label": "Supernovae in the Milky Way",
+      "keyNumber2Value": "≈ 2 per century",
+      "keyNumber3Label": "Last one seen in our galaxy",
+      "keyNumber3Value": "1604"
     },
     "time": {
       "title": "Time",
@@ -1734,7 +1754,15 @@
       "section3Heading": "The twin paradox",
       "section3Body": "If one twin stays on Earth and the other accelerates to near light-speed, travels to a distant star, and returns — the travelling twin will be younger. This isn't a paradox: the two twins are not symmetric, because only the traveller switches from an outbound to an inbound frame of reference. Their paths through spacetime differ, and the bent path accumulates less time. The effect has been measured with atomic clocks flown around the world. **Status: real consequence of relativity, observationally confirmed.**",
       "section4Heading": "The arrow of time",
-      "section4Body": "Why does time only move forwards? Physically, almost every law of physics works the same backwards as forwards — except the second law of thermodynamics, which says total entropy (disorder) always increases. That asymmetry is what gives time its direction. Why the universe started in such a low-entropy state, though, is a much harder question — and an open one. **Status: the arrow itself is established; its ultimate origin is speculative.**"
+      "section4Body": "Why does time only move forwards? Physically, almost every law of physics works the same backwards as forwards — except the second law of thermodynamics, which says total entropy (disorder) always increases. That asymmetry is what gives time its direction. Why the universe started in such a low-entropy state, though, is a much harder question — and an open one. **Status: the arrow itself is established; its ultimate origin is speculative.**",
+      "keyNumber1Label": "GPS clock correction",
+      "keyNumber1Value": "38 µs per day",
+      "keyNumber2Label": "GPS drift without it",
+      "keyNumber2Value": "≈ 10 km per day",
+      "keyNumber3Label": "Clock at 1% of light speed",
+      "keyNumber3Value": "0.005% slower",
+      "keyNumber4Label": "Clock at 99% of light speed",
+      "keyNumber4Value": "7× slower"
     },
     "distances": {
       "title": "Distances",
@@ -1835,7 +1863,8 @@
   "topicView": {
     "intro": "Overview",
     "relatedStops": "Related",
-    "sourcesHeading": "Sources"
+    "sourcesHeading": "Sources",
+    "heroCredit": "Image: {credit}"
   },
   "glossary": {
     "quantum": {

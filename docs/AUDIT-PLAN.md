@@ -107,8 +107,8 @@ browser (desktop + 390 px) after UI changes.
       (log-scale explorer, light-time, everyday analogies, unit switches).
 - [x] Guides index: drop repeated "GUIDES" eyebrow; feature search-intent guides
       first; clearer intro.
-- [ ] Guide pages: ~~auto-link topic names in guide text to /stop/ pages~~ (done, `lib/topicLinks.ts`); hero
-      image per guide; key-numbers mini table.
+- [x] Guide pages: auto-link topic names in guide text to /stop/ pages
+      (`lib/topicLinks.ts`); hero image per guide; key-numbers mini table.
 - [x] StopCombobox closed state: long name + detail overlap; Between tool default
       range (e.g. human → earth).
 - [x] Remove "cosmos" tag from stops (duplicates category chip).

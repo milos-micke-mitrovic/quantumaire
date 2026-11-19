@@ -29,7 +29,21 @@ export interface Topic {
   stopId?: string;
   sources: Source[];
   accent: string;
+  /** Topic whose (licensed, credited) image is the guide's hero. */
+  heroStopId: string;
+  /** Rows of the "Key numbers" table, in order. */
+  keyNumbers: KeyNumber[];
 }
+
+/**
+ * A key-numbers row: either a value read from a topic's data (so it
+ * matches the topic page and follows the unit switches), or a
+ * hand-written pair `${i18nKey}.keyNumber{n}Label` / `…Value` for numbers
+ * no topic carries (ages, rates, thresholds).
+ */
+export type KeyNumber =
+  | { stopId: string; value: "size" | "distance" | "temperature" }
+  | { text: number };
 
 export const TOPICS: Topic[] = [
   {
@@ -44,6 +58,14 @@ export const TOPICS: Topic[] = [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Main_sequence" },
       { label: "Britannica", url: "https://www.britannica.com/science/star-astronomy" },
     ],
+    heroStopId: "sun",
+    keyNumbers: [
+      { stopId: "sun", value: "size" },
+      { stopId: "sun", value: "temperature" },
+      { stopId: "uy_scuti", value: "size" },
+      { stopId: "neutron_star", value: "size" },
+      { stopId: "proxima_centauri", value: "distance" },
+    ],
     accent: "text-cosmos-nova",
   },
   {
@@ -56,6 +78,14 @@ export const TOPICS: Topic[] = [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Exoplanet" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Habitable_zone" },
       { label: "Britannica", url: "https://www.britannica.com/science/planet" },
+    ],
+    heroStopId: "saturn",
+    keyNumbers: [
+      { stopId: "mercury", value: "size" },
+      { stopId: "earth", value: "size" },
+      { stopId: "jupiter", value: "size" },
+      { stopId: "venus", value: "temperature" },
+      { stopId: "neptune", value: "distance" },
     ],
     accent: "text-cosmos-aurora",
   },
@@ -71,6 +101,14 @@ export const TOPICS: Topic[] = [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Sagittarius_A*" },
       { label: "Britannica", url: "https://www.britannica.com/science/black-hole" },
     ],
+    heroStopId: "m87_black_hole",
+    keyNumbers: [
+      { stopId: "gaia_bh1", value: "distance" },
+      { stopId: "gaia_bh1", value: "size" },
+      { stopId: "supermassive_black_hole", value: "size" },
+      { stopId: "m87_black_hole", value: "size" },
+      { stopId: "ton_618", value: "size" },
+    ],
     accent: "text-cosmos-ember",
   },
   {
@@ -84,6 +122,13 @@ export const TOPICS: Topic[] = [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Supernova_remnant" },
       { label: "Britannica", url: "https://www.britannica.com/science/nebula" },
     ],
+    heroStopId: "light_year",
+    keyNumbers: [
+      { text: 1 },
+      { text: 2 },
+      { text: 3 },
+      { text: 4 },
+    ],
     accent: "text-cosmos-plasma",
   },
   {
@@ -95,6 +140,13 @@ export const TOPICS: Topic[] = [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Natural_satellite" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Ganymede_(moon)" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Moons_of_Jupiter" },
+    ],
+    heroStopId: "moon",
+    keyNumbers: [
+      { stopId: "moon", value: "size" },
+      { stopId: "moon", value: "distance" },
+      { stopId: "moon", value: "temperature" },
+      { stopId: "jupiter", value: "size" },
     ],
     accent: "text-cosmos-star",
   },
@@ -110,6 +162,13 @@ export const TOPICS: Topic[] = [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Cosmic_inflation" },
       { label: "Britannica", url: "https://www.britannica.com/science/big-bang-model" },
     ],
+    heroStopId: "big_bang",
+    keyNumbers: [
+      { text: 1 },
+      { text: 2 },
+      { text: 3 },
+      { stopId: "observable_universe", value: "size" },
+    ],
     accent: "text-cosmos-nova",
   },
   {
@@ -122,6 +181,14 @@ export const TOPICS: Topic[] = [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Type_Ia_supernova" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/SN_1054" },
       { label: "Britannica", url: "https://www.britannica.com/science/supernova" },
+    ],
+    heroStopId: "neutron_star",
+    keyNumbers: [
+      { text: 1 },
+      { text: 2 },
+      { text: 3 },
+      { stopId: "neutron_star", value: "size" },
+      { stopId: "neutron_star", value: "temperature" },
     ],
     accent: "text-cosmos-ember",
   },
@@ -137,6 +204,13 @@ export const TOPICS: Topic[] = [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/General_relativity" },
       { label: "Britannica", url: "https://www.britannica.com/science/relativity" },
     ],
+    heroStopId: "time_dilation",
+    keyNumbers: [
+      { text: 1 },
+      { text: 2 },
+      { text: 3 },
+      { text: 4 },
+    ],
     accent: "text-cosmos-aurora",
   },
   {
@@ -148,6 +222,15 @@ export const TOPICS: Topic[] = [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Cosmic_distance_ladder" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Proxima_Centauri" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Hubble%27s_law" },
+    ],
+    heroStopId: "milky_way",
+    keyNumbers: [
+      { stopId: "moon", value: "distance" },
+      { stopId: "sun", value: "distance" },
+      { stopId: "voyager1", value: "distance" },
+      { stopId: "proxima_centauri", value: "distance" },
+      { stopId: "andromeda", value: "distance" },
+      { stopId: "observable_universe", value: "distance" },
     ],
     accent: "text-cosmos-plasma",
   },
@@ -163,6 +246,14 @@ export const TOPICS: Topic[] = [
       { label: "NASA", url: "https://science.nasa.gov/universe/overview/" },
       { label: "Britannica", url: "https://www.britannica.com/science/universe" },
     ],
+    heroStopId: "observable_universe",
+    keyNumbers: [
+      { stopId: "observable_universe", value: "size" },
+      { stopId: "laniakea_supercluster", value: "size" },
+      { stopId: "milky_way", value: "size" },
+      { stopId: "andromeda", value: "distance" },
+      { stopId: "light_year", value: "size" },
+    ],
     accent: "text-cosmos-nova",
   },
   {
@@ -176,6 +267,14 @@ export const TOPICS: Topic[] = [
       { label: "NASA", url: "https://science.nasa.gov/solar-system/" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/List_of_Solar_System_objects_by_size" },
       { label: "Britannica", url: "https://www.britannica.com/science/planet" },
+    ],
+    heroStopId: "solar_system",
+    keyNumbers: [
+      { stopId: "sun", value: "size" },
+      { stopId: "jupiter", value: "size" },
+      { stopId: "earth", value: "size" },
+      { stopId: "mercury", value: "size" },
+      { stopId: "pluto", value: "size" },
     ],
     accent: "text-cosmos-aurora",
   },
@@ -191,6 +290,14 @@ export const TOPICS: Topic[] = [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Elementary_particle" },
       { label: "Britannica", url: "https://www.britannica.com/science/atom" },
     ],
+    heroStopId: "atom",
+    keyNumbers: [
+      { stopId: "planck_length", value: "size" },
+      { stopId: "quark", value: "size" },
+      { stopId: "proton", value: "size" },
+      { stopId: "atom", value: "size" },
+      { stopId: "virus", value: "size" },
+    ],
     accent: "text-cosmos-plasma",
   },
   {
@@ -204,6 +311,14 @@ export const TOPICS: Topic[] = [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/List_of_largest_cosmic_structures" },
       { label: "Nature (Tully et al., 2014)", url: "https://doi.org/10.1038/nature13674" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Hercules%E2%80%93Corona_Borealis_Great_Wall" },
+    ],
+    heroStopId: "laniakea_supercluster",
+    keyNumbers: [
+      { stopId: "uy_scuti", value: "size" },
+      { stopId: "ton_618", value: "size" },
+      { stopId: "milky_way", value: "size" },
+      { stopId: "laniakea_supercluster", value: "size" },
+      { stopId: "observable_universe", value: "size" },
     ],
     accent: "text-cosmos-ember",
   },
