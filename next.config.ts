@@ -1,7 +1,21 @@
+import { execSync } from "node:child_process";
 import type { NextConfig } from "next";
+
+// Date of the last commit that touched site content — the honest
+// "dateModified" for JSON-LD and the sitemap's <lastmod>.
+function contentModified(): string {
+  try {
+    return execSync("git log -1 --format=%cs -- content locales", {
+      encoding: "utf8",
+    }).trim();
+  } catch {
+    return new Date().toISOString().slice(0, 10);
+  }
+}
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  env: { CONTENT_MODIFIED: contentModified() },
   images: {
     // Cloudflare Workers have no image optimizer: serve pre-resized static
     // variants (scripts/resize-images.mjs) through a custom loader.

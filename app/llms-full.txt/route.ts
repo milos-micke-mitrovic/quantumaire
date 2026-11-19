@@ -8,7 +8,7 @@ export const dynamic = "force-static";
 
 /**
  * `/llms-full.txt` — extended companion to `/llms.txt` carrying the full
- * body text of every stop, so an LLM can answer detailed questions without
+ * body text of every topic, so an LLM can answer detailed questions without
  * crawling each page individually. Pair-listed in `/llms.txt`.
  *
  * Convention: https://llmstxt.org/#optional
@@ -22,7 +22,7 @@ export function GET() {
   );
   lines.push("");
   lines.push(
-    "Quantumaire's reference: if Earth were a 0.5 mm grain of sand, the Moon is a smaller speck 1.5 cm away and the Sun is a billiard ball roughly 6 m off. Every stop scales by the same factor."
+    "Quantumaire's reference: if Earth were a 0.5 mm grain of sand, the Moon is a smaller speck 1.5 cm away and the Sun is a billiard ball roughly 6 m off. Every topic scales by the same factor."
   );
   lines.push("");
 

@@ -23,7 +23,8 @@ export const TWITTER_HANDLE = "@quantumaire";
 /** First public release of the journey. Used for schema.org datePublished. */
 export const SITE_PUBLISHED = "2025-09-01";
 /** Build-time modification stamp baked into JSON-LD. */
-export const SITE_MODIFIED = new Date().toISOString().slice(0, 10);
+export const SITE_MODIFIED =
+  process.env.CONTENT_MODIFIED || new Date().toISOString().slice(0, 10);
 
 export const LOCALES: Locale[] = ["en", "sr"];
 export const DEFAULT_LOCALE: Locale = "en";

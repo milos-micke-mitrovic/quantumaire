@@ -41,10 +41,10 @@ export function GET() {
       `- [Scale calculator](${SITE_URL}/${locale}/tools/scale) — type any length and see it shrunk to grain-scale`
     );
     lines.push(
-      `- [What's in between?](${SITE_URL}/${locale}/tools/between) — list every stop between two sizes`
+      `- [What's in between?](${SITE_URL}/${locale}/tools/between) — list every topic between two sizes`
     );
     lines.push(
-      `- [Compare two stops](${SITE_URL}/${locale}/compare) — pick any two stops and see their scale ratio`
+      `- [Compare two objects](${SITE_URL}/${locale}/compare) — pick any two topics and see their scale ratio`
     );
     lines.push(
       `- [Topics](${SITE_URL}/${locale}/topics) — concept pages on stars, planets, black holes, the size of the universe, and the smallest and largest things in it`
@@ -71,7 +71,7 @@ export function GET() {
       );
     }
     lines.push("");
-    lines.push(`### Stops (${locale})`);
+    lines.push(`### Topics (${locale})`);
     lines.push("");
     for (const stop of STOPS) {
       const name = tServer(locale, `${stop.i18nKey}.name`);
@@ -113,7 +113,7 @@ export function GET() {
   lines.push("## Optional");
   lines.push("");
   lines.push(
-    `- [Full text](${SITE_URL}/llms-full.txt) — every stop's complete body, narrative, key facts, and sources in both locales`
+    `- [Full text](${SITE_URL}/llms-full.txt) — every topic's complete body, narrative, key facts, and sources in both locales`
   );
   lines.push(`- [Sitemap](${SITE_URL}/sitemap.xml)`);
   lines.push(`- [Robots](${SITE_URL}/robots.txt)`);

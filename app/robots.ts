@@ -31,6 +31,8 @@ export default function robots(): MetadataRoute.Robots {
           "YandexBot",
         ],
         allow: "/",
+        // A crawler obeys only its most specific group, so repeat this here.
+        disallow: ["/api/"],
       },
     ],
     sitemap: `${SITE_URL}/sitemap.xml`,

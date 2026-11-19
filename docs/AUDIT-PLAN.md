@@ -74,7 +74,7 @@ browser (desktop + 390 px) after UI changes.
 - [ ] ~~Guide titles too short → descriptive `seo` titles per guide~~ (done: `topics.*.seoTitle`); per-guide
       OG image (generated like stop OG) + `image` in Article JSON-LD;
       category/tag/tool pages get their own OG images.
-- [ ] `dateModified`: use a real content date (e.g. git commit date at build
+- [x] `dateModified`: use a real content date (e.g. git commit date at build
       or a constant bumped on content changes), add `<lastmod>` to sitemap.
 - [ ] ~~Idea-topic titles → search-intent titles~~ (done: `stops.*.seoTitle`); FAQ for ideas; resolve stop vs guide
       cannibalisation (big_bang ↔ topics/big-bang, observable_universe ↔
@@ -84,10 +84,10 @@ browser (desktop + 390 px) after UI changes.
 - [ ] Indexable compare pairs: `/compare/[a]-vs-[b]` for ~20 curated pairs
       (jupiter-vs-earth, sun-vs-earth, moon-vs-earth, uy-scuti-vs-sun,
       milky-way-vs-andromeda, …) with real titles; keep the interactive page.
-- [ ] Smaller: ~~titles >60 / descriptions >160~~ (done — local crawl of all 176 sitemap URLs: 0 issues; `metaDescription` keys + `fitDescription`); robots.txt keep `Disallow: /api/`
-      in bot groups; "Tools" breadcrumb + `/tools` hub page (or point to
-      converter); `/favicon.ico`; 404 page SSR body (note: Next 16 renders every 404 — even a trivial not-found — through the `__next_error__` shell; status is 404 and the body appears after JS; revisit on a Next upgrade); sitemap x-default;
-      llms.txt still says "stop"; thin pages (merge single-topic categories
+- [ ] Smaller: ~~titles >60 / descriptions >160~~ (done — local crawl of all 176 sitemap URLs: 0 issues; `metaDescription` keys + `fitDescription`); ~~robots.txt keep `Disallow: /api/`
+      in bot groups~~; "Tools" breadcrumb + `/tools` hub page (or point to
+      converter); ~~`/favicon.ico`~~; 404 page SSR body (note: Next 16 renders every 404 — even a trivial not-found — through the `__next_error__` shell; status is 404 and the body appears after JS; revisit on a Next upgrade); ~~sitemap x-default~~;
+      ~~llms.txt still says "stop"~~; thin pages (merge single-topic categories
       HUMAN_MIND + ANCIENT_HISTORY into a "Curiosities" category? or noindex).
 
 ## Phase 5 — Accessibility (docs/audit/code.md §6, §7, §9)
