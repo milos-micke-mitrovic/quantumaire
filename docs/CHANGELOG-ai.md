@@ -177,3 +177,9 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
   - "One step up/down" names neighbours of the same kind of measure (diameter / height-depth / length) or with a shared tag: Titan and Mercury → Mars (was the Amazon River), Great Red Spot → Neptune (was the Great Wall), Olympus Mons → Mariana Trench (was Halley's Comet and Gaia BH1); below 1 km anything can stand side by side, so Webb ↔ giraffe and Titanic ↔ Eiffel stay. No more false "largest on the scale" when a line is skipped.
   - "A 1.7 m human is roughly 340 times taller than an ant is long" (`a2smallerLong`).
   - Crab Nebula is not tagged stellar-remnant (would have drawn it as a circle and made a 2-topic page).
+
+## 2026-11-19 — compare pairs (round 3, block 3)
+- 9 new pair pages (35 total): mariana-trench-vs-mount-everest, olympus-mons-vs-mount-everest, uy-scuti-vs-betelgeuse, sirius-vs-sun, titan-vs-moon, moon-vs-europa, pluto-vs-ceres, great-red-spot-vs-earth, milky-way-vs-large-magellanic-cloud. Dumped all sentences EN+SR and read them; blue whale vs African elephant dropped (whale length vs shoulder height → "7.8× bigger" misleads).
+- A depth against a height reads "The Mariana Trench is about 1.2 times deeper than Mount Everest is tall: the Mariana Trench goes down 11 km, Mount Everest rises 8.8 km" (`pairSizeDeepTall` + description/FAQ variants; SR „Dubina — …; visina — …“). The interactive tool's ratio line follows: "1.24× deeper than Mount Everest is tall", "2.49× taller" for two heights (`timesAsTall`, `timesDeeperThanTall`).
+- LMC size stored as exactly 32,000 ly (was shown as 32,130 next to text saying ~32,000); Orion/Crab/LMC distances rounded to the text's 1,300 / 6,500 / 160,000 ly.
+- Remaining plan item: Search Console CTR (blocked on indexing data).

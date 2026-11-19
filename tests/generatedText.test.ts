@@ -79,6 +79,11 @@ describe("compare pair pages", () => {
     expect(describePair("en", j, s).lines.join(" ")).toMatch(/cloud tops/);
   });
 
+  it("compares a depth with a height as deeper-than-tall", () => {
+    const [m, e] = getPair("mariana-trench-vs-mount-everest")!;
+    expect(describePair("en", m, e).lines[0]).toMatch(/1\.2 times deeper than Mount Everest is tall: the Mariana Trench goes down 11 km/);
+  });
+
   it("does not compare an 'edge of' distance", () => {
     const [ton, ss] = getPair("ton-618-vs-solar-system")!;
     expect(describePair("en", ton, ss).lines.join(" ")).not.toMatch(/From Earth/);

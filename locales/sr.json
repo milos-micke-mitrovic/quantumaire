@@ -164,6 +164,8 @@
       "swap": "Zameni",
       "ratio": "Odnos",
       "timesAsBig": "{b}: {factor}× veće nego {a}",
+      "timesAsTall": "{b}: {factor}× više nego {a}",
+      "timesDeeperThanTall": "Dubina — {b}: {factor}× veća nego visina — {a}",
       "same": "{a} i {b} su iste veličine.",
       "oneAbstract": "Jedna strana je ideja, ne stvar — odnos nije moguć.",
       "bothAbstract": "Obe strane su apstraktne — odnos nije moguć.",

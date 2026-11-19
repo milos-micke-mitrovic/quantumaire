@@ -33,10 +33,12 @@ no nebula topic and the Moons guide has only the Moon.
 
 ## 3. More compare pairs (people search "X vs Y")
 
-- [ ] Add pairs for topics added since the last batch where the comparison is
+- [x] Add pairs for topics added since the last batch where the comparison is
       a real search and reads well (e.g. sirius-vs-sun, great-red-spot-vs-earth,
       titanic-vs-blue-whale?, olympus-mons-vs-mount-everest, titan-vs-moon,
       ceres-vs-moon, …); dump every pair page in both locales and read it.
+      2026-11-19: 9 added (35 total); blue-whale-vs-african-elephant dropped —
+      whale length vs elephant shoulder height reads as "7.8× bigger", misleading.
 
 ## 4. Search Console data (blocked until enough pages are indexed)
 

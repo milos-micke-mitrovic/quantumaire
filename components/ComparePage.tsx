@@ -9,7 +9,7 @@ import { StopCombobox } from "./StopCombobox";
 import { STOPS, getStop } from "@/lib/content";
 import { formatMeters, formatTemperature } from "@/lib/scale";
 import { useTempUnit, useUnits } from "@/lib/units";
-import { formatFactor } from "@/lib/references";
+import { formatFactor, sizeMeasure } from "@/lib/references";
 import { capFirst } from "@/lib/text";
 import type { Stop } from "@/lib/types";
 import { Badge } from "./Badge";
@@ -246,8 +246,19 @@ export function ComparePage({
     } else {
       const factor = formatFactor(ratio >= 1 ? ratio : 1 / ratio, t);
       ratioBig = `${factor}×`;
+      // Two heights read "taller"; a depth beating a height "deeper than … is tall".
+      const big = ratio >= 1 ? b : a;
+      const small = ratio >= 1 ? a : b;
+      const biggerKey =
+        mode !== "size"
+          ? ratioKeys.bigger
+          : sizeMeasure(big) === "height" && sizeMeasure(small) === "height"
+            ? "common.comparePage.timesAsTall"
+            : sizeMeasure(big) === "depth" && sizeMeasure(small) === "height"
+              ? "common.comparePage.timesDeeperThanTall"
+              : ratioKeys.bigger;
       ratioLine = capFirst(
-        t(ratioKeys.bigger, {
+        t(biggerKey, {
           a: ratio >= 1 ? aName : bName,
           b: ratio >= 1 ? bName : aName,
           factor,

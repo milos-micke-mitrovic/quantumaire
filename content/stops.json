@@ -2158,7 +2158,7 @@
     {
       "id": "large_magellanic_cloud",
       "i18nKey": "stops.large_magellanic_cloud",
-      "sizeMeters": 3.04e+20,
+      "sizeMeters": 3.0274e20,
       "distanceFromEarthMeters": 1.514e21,
       "order": 10.9,
       "badge": "FACT",

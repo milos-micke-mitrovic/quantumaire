@@ -79,6 +79,15 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/tag/mountain (new 2026-11-19)
 - https://quantumaire.space/en/tag/dwarf-planet (new 2026-11-19)
 - https://quantumaire.space/en/tag/asteroid (new 2026-11-19)
+- https://quantumaire.space/en/compare/mariana-trench-vs-mount-everest (new 2026-11-19)
+- https://quantumaire.space/en/compare/olympus-mons-vs-mount-everest (new 2026-11-19)
+- https://quantumaire.space/en/compare/uy-scuti-vs-betelgeuse (new 2026-11-19)
+- https://quantumaire.space/en/compare/sirius-vs-sun (new 2026-11-19)
+- https://quantumaire.space/en/compare/titan-vs-moon (new 2026-11-19)
+- https://quantumaire.space/en/compare/moon-vs-europa (new 2026-11-19)
+- https://quantumaire.space/en/compare/pluto-vs-ceres (new 2026-11-19)
+- https://quantumaire.space/en/compare/great-red-spot-vs-earth (new 2026-11-19)
+- https://quantumaire.space/en/compare/milky-way-vs-large-magellanic-cloud (new 2026-11-19)
 - remaining /en/stop/* pages, then /sr/* equivalents
 
 ## Done

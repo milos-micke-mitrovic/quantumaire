@@ -164,6 +164,8 @@
       "swap": "Swap",
       "ratio": "Ratio",
       "timesAsBig": "{b} is {factor}× bigger than {a}",
+      "timesAsTall": "{b} is {factor}× taller than {a}",
+      "timesDeeperThanTall": "{b} is {factor}× deeper than {a} is tall",
       "same": "{a} and {b} are the same size.",
       "oneAbstract": "One side is an idea, not a thing — no ratio possible.",
       "bothAbstract": "Both sides are abstract — no ratio possible.",
