@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Space_Grotesk } from "next/font/google";
+import { bodyFont as body, displayFont as display } from "@/lib/fonts";
 import { notFound } from "next/navigation";
 import "../globals.css";
 import {
@@ -39,23 +39,6 @@ export function generateStaticParams() {
 
 export const dynamicParams = false;
 
-/*
- * `subsets` only decides which files are preloaded: every subset stays in the
- * CSS (unicode-range), so Serbian č/ć/š/ž/đ still load latin-ext on demand.
- * Preloading only latin saves ~100 KiB of high-priority requests that
- * competed with the LCP image.
- */
-const display = Space_Grotesk({
-  subsets: ["latin"],
-  variable: "--font-display",
-  display: "swap",
-});
-
-const body = Inter({
-  subsets: ["latin"],
-  variable: "--font-body",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

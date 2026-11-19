@@ -1,19 +1,9 @@
 /* eslint-disable @next/next/no-html-link-for-pages -- crossing into a
    locale root layout needs a full page load, which plain <a> gives. */
 import type { Metadata } from "next";
-import { Inter, Space_Grotesk } from "next/font/google";
+import { bodyFont as body, displayFont as display } from "@/lib/fonts";
 import "./globals.css";
 
-const display = Space_Grotesk({
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-display",
-  display: "swap",
-});
-const body = Inter({
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-body",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "404 — Quantumaire",
