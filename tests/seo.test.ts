@@ -57,3 +57,17 @@ describe("tag collection pages", () => {
     });
   }
 });
+
+import { stopTitle } from "@/lib/sizeFaq";
+
+describe("topic page titles", () => {
+  for (const locale of ["en", "sr"] as const) {
+    it(`${locale}: every topic title fits in 60 characters`, () => {
+      for (const s of STOPS) {
+        const title = stopTitle(s, locale);
+        expect(title, s.id).not.toMatch(/^stops\./);
+        expect(title.length, `${s.id}: ${title}`).toBeLessThanOrEqual(60);
+      }
+    });
+  }
+});

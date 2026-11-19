@@ -28,8 +28,8 @@ import {
   buildSizeFaq,
   capFirst,
   sizeSummary,
+  stopTitle,
   subjectName,
-  titleCase,
 } from "@/lib/sizeFaq";
 import type { Locale } from "@/lib/types";
 import { I18nExtend } from "@/lib/i18n";
@@ -76,13 +76,7 @@ export async function generateMetadata({
       ? fitDescription([size, tagline, ...(withTail ? [tail] : [])])
       : fitDescription([tagline, body]));
 
-  const title =
-    stop.sizeMeters !== null
-      ? tServer(typed, "sizeFaq.title", {
-          name: titleCase(subjectName(stop, typed)),
-          Name: capFirst(subjectName(stop, typed)),
-        })
-      : tServer(typed, `${stop.i18nKey}.seoTitle`);
+  const title = stopTitle(stop, typed);
 
   return buildPageMetadata({
     locale: typed,

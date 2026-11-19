@@ -110,6 +110,20 @@ export function capFirst(s: string): string {
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
+/**
+ * Page title for a topic: a hand-written `seoTitle` wins (ideas always have
+ * one; sized topics may, e.g. "How Deep Is the Mariana Trench?"), otherwise
+ * sized topics get the generic "How Big Is X? Size & Scale Compared".
+ */
+export function stopTitle(stop: Stop, locale: Locale): string {
+  const custom = tServerOptional(locale, `${stop.i18nKey}.seoTitle`);
+  if (custom || stop.sizeMeters === null) return custom ?? tServer(locale, `${stop.i18nKey}.seoTitle`);
+  return tServer(locale, "sizeFaq.title", {
+    name: titleCase(subjectName(stop, locale)),
+    Name: capFirst(subjectName(stop, locale)),
+  });
+}
+
 export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
   const name = subjectName(stop, locale);
   const Name = capFirst(name);
