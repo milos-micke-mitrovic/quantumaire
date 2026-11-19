@@ -1,26 +1,15 @@
 "use client";
 
-import clsx from "clsx";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, m as motion } from "framer-motion";
-import { SUPPORTED_LOCALES, useI18n } from "@/lib/i18n";
-import { useUnits, type UnitSystem } from "@/lib/units";
+import { useI18n } from "@/lib/i18n";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 import { TempUnitSwitcher } from "./TempUnitSwitcher";
-import type { Locale } from "@/lib/types";
+import { UnitSwitcher } from "./UnitSwitcher";
 import { NavGroups } from "./NavGroups";
 import { BodyPortal } from "./BodyPortal";
 import { lockBodyScroll } from "@/lib/scrollLock";
 import { useDialog } from "@/lib/useDialog";
-
-const LOCALE_LABELS: Record<Locale, string> = {
-  en: "EN",
-  sr: "SR",
-};
-
-const UNIT_OPTIONS: Array<{ value: UnitSystem; labelKey: string }> = [
-  { value: "metric", labelKey: "common.unitMetricShort" },
-  { value: "imperial", labelKey: "common.unitImperialShort" },
-];
 
 /**
  * Mobile-only header replacement for NavMenu + UnitSwitcher + LanguageSwitcher.
@@ -31,8 +20,7 @@ const UNIT_OPTIONS: Array<{ value: UnitSystem; labelKey: string }> = [
  * in SiteHeader. Above sm, the inline desktop controls render instead.
  */
 export function MobileNav() {
-  const { t, locale, setLocale } = useI18n();
-  const { units, setUnits } = useUnits();
+  const { t } = useI18n();
   const [open, setOpen] = useState(false);
   const close = useCallback(() => setOpen(false), []);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -128,75 +116,21 @@ export function MobileNav() {
               </nav>
 
               <div className="border-t border-white/10 p-4 space-y-4">
-                <div>
-                  <p
-                    id="mobile-units-label"
-                    className="mb-2 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55"
-                  >
-                    {t("common.units")}
-                  </p>
-                  <div
-                    role="group"
-                    aria-labelledby="mobile-units-label"
-                    className="inline-flex w-full items-center gap-1 rounded-full border border-white/10 bg-white/[0.04] p-1"
-                  >
-                    {UNIT_OPTIONS.map((opt) => (
-                      <button
-                        key={opt.value}
-                        type="button"
-                        aria-pressed={opt.value === units}
-                        onClick={() => setUnits(opt.value)}
-                        className={clsx(
-                          "min-h-10 flex-1 rounded-full px-3 py-1.5 text-xs font-medium tracking-wider transition-colors",
-                          opt.value === units
-                            ? "bg-aurora-gradient text-cosmos-void shadow-glow"
-                            : "text-cosmos-star/70 hover:text-cosmos-star"
-                        )}
-                      >
-                        {t(opt.labelKey)}
-                      </button>
-                    ))}
+                {[
+                  { label: t("common.units"), control: <UnitSwitcher fullWidth /> },
+                  { label: t("common.temperatureUnit"), control: <TempUnitSwitcher fullWidth /> },
+                  { label: t("common.language"), control: <LanguageSwitcher fullWidth /> },
+                ].map(({ label, control }) => (
+                  <div key={label}>
+                    <p
+                      aria-hidden
+                      className="mb-2 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55"
+                    >
+                      {label}
+                    </p>
+                    {control}
                   </div>
-                </div>
-
-                <div>
-                  <p className="mb-2 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/50">
-                    {t("common.temperatureUnit")}
-                  </p>
-                  <TempUnitSwitcher className="w-full" />
-                </div>
-
-                <div>
-                  <p
-                    id="mobile-language-label"
-                    className="mb-2 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55"
-                  >
-                    {t("common.language")}
-                  </p>
-                  <div
-                    role="group"
-                    aria-labelledby="mobile-language-label"
-                    className="inline-flex w-full items-center gap-1 rounded-full border border-white/10 bg-white/[0.04] p-1"
-                  >
-                    {SUPPORTED_LOCALES.map((l) => (
-                      <button
-                        key={l}
-                        lang={l === "sr" ? "sr-Latn" : "en"}
-                        type="button"
-                        aria-pressed={l === locale}
-                        onClick={() => setLocale(l)}
-                        className={clsx(
-                          "min-h-10 flex-1 rounded-full px-3 py-1.5 text-xs font-medium tracking-wider transition-colors",
-                          l === locale
-                            ? "bg-aurora-gradient text-cosmos-void shadow-glow"
-                            : "text-cosmos-star/70 hover:text-cosmos-star"
-                        )}
-                      >
-                        {LOCALE_LABELS[l]}
-                      </button>
-                    ))}
-                  </div>
-                </div>
+                ))}
               </div>
             </motion.div>
           </motion.div>

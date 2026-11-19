@@ -39,7 +39,9 @@ export function SiteHeader() {
           <div className="hidden sm:flex sm:items-center sm:gap-3">
             <NavMenu />
             <UnitSwitcher />
-            <TempUnitSwitcher className="hidden lg:inline-flex" />
+            <div className="hidden lg:block">
+              <TempUnitSwitcher />
+            </div>
             <LanguageSwitcher />
           </div>
           <div className="sm:hidden">

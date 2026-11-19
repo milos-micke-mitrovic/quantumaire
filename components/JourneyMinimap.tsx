@@ -1,12 +1,18 @@
 "use client";
 
-import clsx from "clsx";
 import { useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { STOPS } from "@/lib/content";
 import { DistanceScale } from "./DistanceScale";
 import { InteractiveScale } from "./InteractiveScale";
 import { TemperatureScale } from "./TemperatureScale";
+import { ToggleGroup } from "./ToggleGroup";
+
+const VIEW_LABEL = {
+  size: "common.viewBySize",
+  distance: "common.viewByDistance",
+  temperature: "common.viewByTemperature",
+} as const;
 
 type Tab = "size" | "distance" | "temperature";
 
@@ -66,37 +72,15 @@ export function JourneyMinimap({ stopId }: JourneyMinimapProps) {
         </p>
       </div>
 
-      <div
-        role="group"
-        aria-label={t("common.scale")}
-        className="mb-4 inline-flex max-w-full items-center gap-1 overflow-x-auto rounded-full border border-white/10 bg-white/[0.04] p-1 [scrollbar-width:none]"
-      >
-        {available.map((v) => {
-          const isActive = tab === v;
-          const labelKey =
-            v === "size"
-              ? "common.viewBySize"
-              : v === "distance"
-                ? "common.viewByDistance"
-                : "common.viewByTemperature";
-          return (
-            <button
-              key={v}
-              type="button"
-              aria-pressed={isActive}
-              onClick={() => setTab(v)}
-              className={clsx(
-                "shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.12em] transition-colors sm:px-4 sm:text-xs sm:tracking-[0.18em]",
-                isActive
-                  ? "bg-aurora-gradient text-cosmos-void shadow-glow"
-                  : "text-cosmos-star/70 hover:text-cosmos-star"
-              )}
-            >
-              {t(labelKey)}
-            </button>
-          );
-        })}
-      </div>
+      <ToggleGroup
+        label={t("common.scale")}
+        options={available.map((v) => ({ value: v, label: t(VIEW_LABEL[v]) }))}
+        value={tab}
+        onChange={setTab}
+        size="sm"
+        caps
+        className="mb-4"
+      />
 
       {tab === "size" && sizeAvailable && (
         <InteractiveScale stops={STOPS} highlightStopId={stopId} />

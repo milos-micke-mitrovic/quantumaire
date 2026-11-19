@@ -113,9 +113,10 @@ browser (desktop + 390 px) after UI changes.
       range (e.g. human → earth).
 - [x] Remove "cosmos" tag from stops (duplicates category chip).
 - [x] Footer: drop visible llms.txt link.
-- [ ] Code health: ~~delete dead StopDistanceCard component (move
+- [x] Code health: delete dead StopDistanceCard component (move
       computeDistance + mapping to lib/), unused `LIGHT_YEAR_KM`, dedupe
-      `normalize()`, sized-stop sorting~~, toggle UIs; ~~client i18n EN fallback~~.
+      `normalize()`, sized-stop sorting, toggle UIs (`ToggleGroup`), client
+      i18n EN fallback.
 - [x] New topic candidates: M87*, Gaia BH1, neutrino, Mariana Trench, ISS,
       James Webb, Fermi paradox, speed of light (use the `add-topic` skill).
       All 8 live 2026-11-19 (60 topics); also /tag/spacecraft, tag-page text test.

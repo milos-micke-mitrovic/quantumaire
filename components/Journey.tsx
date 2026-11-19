@@ -1,6 +1,5 @@
 "use client";
 
-import clsx from "clsx";
 import { useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { STOPS } from "@/lib/content";
@@ -8,6 +7,13 @@ import { DistanceScale } from "./DistanceScale";
 import { CategoryShelves } from "./CategoryShelves";
 import { InteractiveScale } from "./InteractiveScale";
 import { TemperatureScale } from "./TemperatureScale";
+import { ToggleGroup } from "./ToggleGroup";
+
+const VIEW_LABEL = {
+  size: "common.viewBySize",
+  distance: "common.viewByDistance",
+  temperature: "common.viewByTemperature",
+} as const;
 
 type ScaleView = "size" | "distance" | "temperature";
 
@@ -39,37 +45,15 @@ export function Journey() {
         </p>
       </div>
 
-      <div
-        role="group"
-        aria-label={t("common.scale")}
-        className="mb-4 inline-flex max-w-full items-center gap-1 overflow-x-auto rounded-full border border-white/10 bg-white/[0.04] p-1 [scrollbar-width:none]"
-      >
-        {(["size", "distance", "temperature"] as const).map((v) => {
-          const isActive = view === v;
-          const labelKey =
-            v === "size"
-              ? "common.viewBySize"
-              : v === "distance"
-                ? "common.viewByDistance"
-                : "common.viewByTemperature";
-          return (
-            <button
-              key={v}
-              type="button"
-              aria-pressed={isActive}
-              onClick={() => setView(v)}
-              className={clsx(
-                "shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.12em] transition-colors sm:px-4 sm:text-xs sm:tracking-[0.18em]",
-                isActive
-                  ? "bg-aurora-gradient text-cosmos-void shadow-glow"
-                  : "text-cosmos-star/70 hover:text-cosmos-star"
-              )}
-            >
-              {t(labelKey)}
-            </button>
-          );
-        })}
-      </div>
+      <ToggleGroup
+        label={t("common.scale")}
+        options={(["size", "distance", "temperature"] as const).map((v) => ({ value: v, label: t(VIEW_LABEL[v]) }))}
+        value={view}
+        onChange={setView}
+        size="sm"
+        caps
+        className="mb-4"
+      />
 
       <div className="mb-12">
         {view === "size" ? (

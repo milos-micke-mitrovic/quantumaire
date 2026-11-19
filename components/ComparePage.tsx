@@ -14,9 +14,15 @@ import type { Stop } from "@/lib/types";
 import { Badge } from "./Badge";
 import { ImagePlaceholder } from "./ImagePlaceholder";
 import { ScaleVisual } from "./ScaleVisual";
+import { ToggleGroup } from "./ToggleGroup";
 
 type Mode = "size" | "distance" | "temperature";
 const MODES: readonly Mode[] = ["size", "distance", "temperature"] as const;
+const MODE_LABEL: Record<Mode, string> = {
+  size: "common.comparePage.modeSize",
+  distance: "common.comparePage.modeDistance",
+  temperature: "common.comparePage.modeTemperature",
+};
 
 function isMode(value: string | null): value is Mode {
   return value === "size" || value === "distance" || value === "temperature";
@@ -275,37 +281,14 @@ export function ComparePage({
         <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
           {t("common.comparePage.modeLabel")}
         </p>
-        <div
-          role="group"
-          aria-label={t("common.comparePage.modeLabel")}
-          className="mt-2 inline-flex items-center gap-1 rounded-full border border-white/10 bg-white/[0.04] p-1"
-        >
-          {MODES.map((m) => {
-            const active = m === mode;
-            const labelKey =
-              m === "size"
-                ? "common.comparePage.modeSize"
-                : m === "distance"
-                  ? "common.comparePage.modeDistance"
-                  : "common.comparePage.modeTemperature";
-            return (
-              <button
-                key={m}
-                type="button"
-                aria-pressed={active}
-                onClick={() => onModeChange(m)}
-                className={clsx(
-                  "rounded-full px-3 py-1 text-xs font-medium tracking-wider transition-colors",
-                  active
-                    ? "bg-aurora-gradient text-cosmos-void shadow-glow"
-                    : "text-cosmos-star/70 hover:text-cosmos-star"
-                )}
-              >
-                {t(labelKey)}
-              </button>
-            );
-          })}
-        </div>
+        <ToggleGroup<Mode>
+          label={t("common.comparePage.modeLabel")}
+          options={MODES.map((m) => ({ value: m, label: t(MODE_LABEL[m]) }))}
+          value={mode}
+          onChange={onModeChange}
+          size="sm"
+          className="mt-2"
+        />
       </section>
 
       <section className="mt-6 grid gap-4 sm:grid-cols-[1fr_auto_1fr]">

@@ -1,39 +1,24 @@
 "use client";
 
-import clsx from "clsx";
 import { SUPPORTED_LOCALES, useI18n } from "@/lib/i18n";
 import type { Locale } from "@/lib/types";
+import { ToggleGroup } from "./ToggleGroup";
 
-const LABELS: Record<Locale, string> = {
-  en: "EN",
-  sr: "SR",
-};
+const LOCALE_OPTIONS = SUPPORTED_LOCALES.map((l) => ({
+  value: l,
+  label: l.toUpperCase(),
+  lang: l === "sr" ? "sr-Latn" : "en",
+}));
 
-export function LanguageSwitcher() {
+export function LanguageSwitcher({ fullWidth }: { fullWidth?: boolean }) {
   const { locale, setLocale, t } = useI18n();
   return (
-    <div
-      role="group"
-      aria-label={t("common.language")}
-      className="inline-flex h-10 items-center gap-1 rounded-full border border-white/10 bg-white/[0.04] p-1 backdrop-blur-md"
-    >
-      {SUPPORTED_LOCALES.map((l) => (
-        <button
-          key={l}
-          lang={l === "sr" ? "sr-Latn" : "en"}
-          type="button"
-          aria-pressed={l === locale}
-          onClick={() => setLocale(l)}
-          className={clsx(
-            "h-full rounded-full px-3 text-xs font-medium tracking-wider transition-colors",
-            l === locale
-              ? "bg-aurora-gradient text-cosmos-void shadow-glow"
-              : "text-cosmos-star/70 hover:text-cosmos-star"
-          )}
-        >
-          {LABELS[l]}
-        </button>
-      ))}
-    </div>
+    <ToggleGroup<Locale>
+      label={t("common.language")}
+      options={LOCALE_OPTIONS}
+      value={locale}
+      onChange={setLocale}
+      fullWidth={fullWidth}
+    />
   );
 }
