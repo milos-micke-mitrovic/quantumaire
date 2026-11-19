@@ -88,7 +88,7 @@ export function I18nProvider({
   useEffect(() => {
     if (typeof window === "undefined") return;
     window.localStorage.setItem(STORAGE_KEY, locale);
-    // <html lang> is kept in sync by HtmlLangSync (sr-Latn-RS / en).
+    // <html lang> is set per locale by the [locale] root layout.
   }, [locale]);
 
   const setLocale = useCallback(

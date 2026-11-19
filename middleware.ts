@@ -37,19 +37,11 @@ function startsWithLocale(pathname: string): boolean {
  * Runs as edge `middleware.ts` rather than Next 16's `proxy.ts`: proxy is
  * pinned to the Node runtime, which OpenNext on Cloudflare Workers can't run.
  *
- * Jobs (in order): canonical-host redirect, locale prefixing, and
- * forwarding the pathname. Locale details:
- *
- * 1. Any path missing a locale prefix (`/`, `/foo`, `/typo`, …) is redirected
- *    to `/${locale}${pathname}` based on the visitor's cookie or
- *    Accept-Language. That way unknown URLs 404 in the visitor's language via
- *    `[locale]/not-found.tsx` instead of falling through to the bilingual
- *    root `not-found.tsx`.
- *
- * 2. On every other page, forward the request pathname to the server-rendered
- *    root layout via an `x-pathname` header so it can emit the correct
- *    `<html lang>` server-side (Next.js doesn't expose the URL to the root
- *    layout otherwise).
+ * Jobs (in order): canonical-host redirect and locale prefixing. Any path
+ * missing a locale prefix (`/`, `/foo`, `/typo`, …) is redirected to
+ * `/${locale}${pathname}` based on the visitor's cookie or Accept-Language,
+ * so unknown URLs 404 in the visitor's language via `[locale]/not-found.tsx`
+ * instead of falling through to the bilingual `app/global-not-found.tsx`.
  */
 const CANONICAL_HOST = "quantumaire.space";
 
@@ -76,11 +68,7 @@ export function middleware(req: NextRequest) {
     return NextResponse.redirect(url);
   }
 
-  // For everything else, forward the pathname as a request header so the
-  // root layout can read it via headers().
-  const requestHeaders = new Headers(req.headers);
-  requestHeaders.set("x-pathname", pathname);
-  return NextResponse.next({ request: { headers: requestHeaders } });
+  return NextResponse.next();
 }
 
 export const config = {

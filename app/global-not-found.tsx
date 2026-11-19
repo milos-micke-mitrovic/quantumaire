@@ -1,12 +1,35 @@
-import Link from "next/link";
+/* eslint-disable @next/next/no-html-link-for-pages -- crossing into a
+   locale root layout needs a full page load, which plain <a> gives. */
+import type { Metadata } from "next";
+import { Inter, Space_Grotesk } from "next/font/google";
+import "./globals.css";
+
+const display = Space_Grotesk({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-display",
+  display: "swap",
+});
+const body = Inter({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-body",
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  title: "404 — Quantumaire",
+  robots: { index: false },
+};
 
 /**
- * Static 404. Localised UI lives at `/[locale]/not-found.tsx`; this root
- * page handles paths that never matched a locale at all, so we just show
- * both languages side by side and let the user pick.
+ * Global 404 for URLs that match no route at all (the app has one root
+ * layout per locale, so there is no shared layout to wrap a normal
+ * not-found page). Localised 404s live at `[locale]/not-found.tsx`; this
+ * one shows both languages side by side.
  */
-export default function NotFound() {
+export default function GlobalNotFound() {
   return (
+    <html lang="en" className={`${display.variable} ${body.variable}`}>
+      <body className="relative min-h-screen bg-cosmos-void font-body text-cosmos-star antialiased">
     <main className="mx-auto flex min-h-[60vh] max-w-xl flex-col items-center justify-center px-5 text-center">
       <span className="text-[10px] font-medium uppercase tracking-[0.32em] text-cosmos-star/55">
         404
@@ -21,19 +44,21 @@ export default function NotFound() {
         The page you were looking for is somewhere past our cosmic horizon.
       </p>
       <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
-        <Link
+        <a
           href="/en"
           className="inline-flex items-center gap-2 rounded-full bg-aurora-gradient px-5 py-2.5 text-sm font-medium text-cosmos-void shadow-glow"
         >
           Back to the home page
-        </Link>
-        <Link
+        </a>
+        <a
           href="/sr"
           className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-5 py-2.5 text-sm font-medium text-cosmos-star/85 hover:text-cosmos-star"
         >
           Nazad na početnu
-        </Link>
+        </a>
       </div>
     </main>
+      </body>
+    </html>
   );
 }

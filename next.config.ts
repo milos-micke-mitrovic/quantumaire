@@ -37,6 +37,8 @@ const nextConfig: NextConfig = {
     }));
   },
   experimental: {
+    // app/global-not-found.tsx: there is one root layout per locale.
+    globalNotFound: true,
     optimizePackageImports: ["framer-motion"],
   },
 };
