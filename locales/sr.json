@@ -417,10 +417,10 @@
     "HUMANKIND": "Čovečanstvo",
     "COSMOS.description": "Galaksije, zvezde, zvezdani leševi gušći od atomskog jezgra i tamna strana svemira — najveće razmere koje možemo posmatrati.",
     "MICRO_WORLD.description": "Kvarkovi, atomi i molekuli — gradivni blokovi ispod svega što možete videti ili dotaći.",
-    "HUMANKIND.description": "Ljudi i ono što stvaraju: kako jedan mozak može ugostiti više od jednog ja i najviše što smo sagradili — od Velike piramide do Burdž Kalife.",
+    "HUMANKIND.description": "Ljudi i ono što stvaraju: kako jedan mozak može ugostiti više od jednog ja, Koloseum i Kineski zid, Titanik i najviše što smo sagradili — od Velike piramide do Burdž Kalife.",
     "COSMOS.intro": "Svemir na svim razmerama van tla pod vašim nogama — planete, zvezde, galaksije i najveće gravitaciono vezane strukture koje umemo da pronađemo. Više od polovine tema na Quantumaire-u nalazi se ovde, jer kosmos je tamo gde redovi veličine počinju zaista da nešto znače. Kategorija Kosmos takođe okuplja apstrakcije koje sve to drže na okupu: tamnu materiju, tamnu energiju, kosmički horizont.",
     "MICRO_WORLD.intro": "Sve manje od ćelije. Kvarkovi i gluoni unutar protona; proton unutar atoma; atom unutar DNK heliksa; heliks unutar virusa; virus, sa svoje strane, patuljast u poređenju sa bakterijom. Svaki korak naniže po ovoj lestvici je od deset do sto hiljada puta manji od prethodnog, pa intuicija ljudske razmere da se „male stvari razlikuju tek malo“ potpuno puca. Mikrosvet je mesto na kome posmatrate kako se ta intuicija lomi.",
-    "HUMANKIND.intro": "Nije sve što vredi znati moguće izmeriti metrom. Disocijativni poremećaj identiteta osobina je mozga, a ne merljiv objekat, ali mu je mesto u svakom poštenom pregledu onoga što postoji. Velika piramida, visoka 139 metara i sazidana od 2,3 miliona blokova poravnatih sa stranama sveta, bila je najviše što su ljudi sagradili skoro četiri hiljade godina; Ajfelova kula je 1889. tu visinu više nego udvostručila, a Burdž Kalifa danas doseže 828 metara — tamo gde ljudska razmera počinje da dotiče planetarnu. Ovde Quantumaire čuva teme o ljudima: o umovima koji mere svemir i o onome što su sagradili.",
+    "HUMANKIND.intro": "Nije sve što vredi znati moguće izmeriti metrom. Disocijativni poremećaj identiteta osobina je mozga, a ne merljiv objekat, ali mu je mesto u svakom poštenom pregledu onoga što postoji. Velika piramida, visoka 139 metara i sazidana od 2,3 miliona blokova poravnatih sa stranama sveta, bila je najviše što su ljudi sagradili skoro četiri hiljade godina; Ajfelova kula je 1889. tu visinu više nego udvostručila, a Burdž Kalifa danas doseže 828 metara — tamo gde ljudska razmera počinje da dotiče planetarnu. Graditelji su išli i u dužinu, ne samo u visinu: arena Koloseuma duga 189 metara, Titanik od 269 metara i Kineski zid, ukupno oko 21.000 km zidova. Ovde Quantumaire čuva teme o ljudima: o umovima koji mere svemir i o onome što su sagradili.",
     "EARTH": "Život i Zemlja",
     "PHYSICS": "Sile i prostor-vreme",
     "EARTH.description": "Živa bića i predeli naše planete — od vodenog medveda od pola milimetra do žirafe, plavog kita, Velikog kanjona i Sahare.",
@@ -517,7 +517,8 @@
     "ocean": "Okean",
     "alien-life": "Vanzemaljski život",
     "landmark": "Znamenitost",
-    "landscape": "Predeo"
+    "landscape": "Predeo",
+    "ship": "Brod"
   },
   "stops": {
     "quark": {
@@ -1887,6 +1888,67 @@
         "fact5": "Reka Kolorado usekla je današnji tok pre oko 5–6 miliona godina.",
         "fact6": "Nacionalni park SAD od 1919; oko 5 miliona posetilaca godišnje."
       }
+    },
+    "titanic": {
+      "name": "Titanik",
+      "tagline": "Najveći brod na vodi 1912. godine — 269 metara čelika koji je potonuo na prvom putovanju.",
+      "body": "RMS Titanik bio je dug 269 metara, širok 28 metara i visok 53 metra od kobilice do vrha dimnjaka — kad je 10. aprila 1912. isplovio iz Sauthemptona, bio je najveći pokretni objekat koji su ljudi ikada napravili. Kasno uveče 14. aprila, oko 600 km jugoistočno od Njufaundlenda, udario je u santu leda koja je moru otvorila niz vodonepropusnih odeljaka. Potonuo je za 2 sata i 40 minuta. Od oko 2.224 osobe na brodu poginulo je više od 1.500, delom i zato što je u 20 čamaca za spasavanje bilo mesta za samo 1.178 ljudi. Olupina leži u dva dela na oko 3.800 m dubine i pronađena je 1985.",
+      "narrative": "Da se Titanik uspravi na pramac, bio bi visok oko četiri petine Ajfelove kule — i viši od Velike piramide.",
+      "massNarrative": "Pun, istiskivao je oko 52.000 tona — otprilike koliko teži 8.700 afričkih slonova.",
+      "funFact": "Od četiri dimnjaka samo su tri bila prava. Četvrti, zadnji, bio je uglavnom ukras — četiri dimnjaka delovala su moćnije — i služio je za ventilaciju i kao odvod iz kuhinja.",
+      "seoTitle": "Koliko je bio veliki Titanik? Veličina u poređenju",
+      "metaDescription": "Titanik je bio dug 269 m i visok 53 m — najveći brod na vodi 1912. Njegova veličina u poređenju sa Ajfelovom kulom, fudbalskim terenom i čovekom.",
+      "image": {
+        "alt": "Crno-bela fotografija RMS Titanika sa četiri dimnjaka dok isplovljava iz Sauthemptona u aprilu 1912."
+      },
+      "facts": {
+        "fact1": "Dužina: oko 269 m; širina: oko 28 m.",
+        "fact2": "Visina od kobilice do vrha dimnjaka: oko 53 m.",
+        "fact3": "Udario je u santu leda u 23.40 14. aprila 1912; potonuo je u 2.20 sledećeg jutra.",
+        "fact4": "Na brodu oko 2.224 osobe; poginulo je više od 1.500.",
+        "fact5": "20 čamaca za spasavanje sa mestom za 1.178 ljudi — oko polovine putnika i posade.",
+        "fact6": "Olupina leži na oko 3.800 m dubine; pronađena je 1. septembra 1985."
+      }
+    },
+    "colosseum": {
+      "name": "Koloseum",
+      "tagline": "Velika rimska arena: 189 metara kamena koji je pre skoro 2.000 godina primao oko 50.000 gledalaca.",
+      "body": "Koloseum u Rimu je najveći amfiteatar ikada sagrađen: elipsa duga 189 metara i široka 156 metara, sa zidovima visokim oko 48 metara. Počeo je da se gradi pod carem Vespazijanom oko 70–72. godine, a otvorio ga je njegov sin Tit 80. godine sa 100 dana igara. Primao je, procenjuje se, 50.000 ili više ljudi, raspoređenih po redovima prema društvenom položaju. Borbe gladijatora, lov na životinje i pogubljenja odvijali su se iznad hipogeuma, lavirinta tunela, kaveza i liftova ispod poda arene. Zemljotresi i vekovi odnošenja kamena uzeli su oko dve trećine spoljnog zida, ali ostatak i dalje stoji.",
+      "narrative": "Koloseum je skoro dvostruko duži od fudbalskog terena, a spoljni zid mu je visok kao zgrada od 15 spratova.",
+      "funFact": "Po vrućini su mornari rimske flote razapinjali velarijum, ogromnu tendu od platna na užadima i jarbolima oko vrha zida, da bi zaklonili publiku od sunca — i danas se vide kamene konzole koje su držale jarbole.",
+      "seoTitle": "Koliko je veliki Koloseum? Veličina u poređenju",
+      "metaDescription": "Koloseum je dug 189 m, širok 156 m i visok 48 m, a primao je oko 50.000 gledalaca — najveći amfiteatar ikada sagrađen. Veličina u poređenju.",
+      "image": {
+        "alt": "Zakrivljeni spoljni zid Koloseuma u Rimu sa lukovima od travertina pod vedrim plavim nebom."
+      },
+      "facts": {
+        "fact1": "Spoljna elipsa: oko 189 m × 156 m.",
+        "fact2": "Visina spoljnog zida: oko 48 m.",
+        "fact3": "Otvorio ga je car Tit 80. godine, sa 100 dana igara.",
+        "fact4": "Primao je, procenjuje se, 50.000 ili više gledalaca.",
+        "fact5": "Građen uglavnom od travertina, tufa i rimskog betona; 80 ulaznih lukova.",
+        "fact6": "Deo istorijskog centra Rima na UNESCO listi svetske baštine."
+      }
+    },
+    "great_wall": {
+      "name": "Kineski zid",
+      "tagline": "Ne jedan zid nego hiljade kilometara zidova, građenih 2.000 godina — ukupno oko 21.000 km.",
+      "body": "Kineski zid je mreža zidova, rovova i prirodnih prepreka građenih preko severne Kine od 7. veka pre nove ere do 17. veka nove ere. Premer iz 2012. izbrojao je 21.196 km, sa svim dinastijama i ograncima; najpoznatiji kameni i zidani delovi sa stražarskim kulama pripadaju zidu dinastije Ming iz 14–17. veka, dugom oko 8.850 km. U njega su ugrađeni nabijena zemlja, kamen, cigla, pa čak i malter sa lepljivim pirinčem, a čuvale su ga posade koje su se dozivale dimom i vatrom. Uprkos raširenoj priči, golim okom se ne vidi iz orbite: širok je samo nekoliko metara i skoro iste boje kao tlo oko njega.",
+      "narrative": "Sa svim ograncima, zid bi se protegao više od pola puta oko Zemlje — oko 1,7 puta koliko je planeta široka.",
+      "funFact": "Graditelji iz doba dinastije Ming mešali su supu od lepljivog pirinča u krečni malter. Amilopektin iz pirinča čini malter čvršćim i otpornijim na vodu, i to je deo razloga što su ti delovi izdržali 500 godina.",
+      "seoTitle": "Koliko je dug Kineski zid? Dužina u poređenju",
+      "metaDescription": "Kineski zid je dug oko 21.196 km sa svim ograncima, a zid dinastije Ming oko 8.850 km. Koliko je dug, u poređenju sa Zemljom i drugim.",
+      "image": {
+        "alt": "Kineski zid vijuga preko zelenih, šumovitih planinskih grebena kod Mutjanjua pod plavim nebom sa belim oblacima."
+      },
+      "facts": {
+        "fact1": "Ukupna dužina, svi ogranci i dinastije: oko 21.196 km (premer iz 2012).",
+        "fact2": "Samo zid dinastije Ming: oko 8.850 km.",
+        "fact3": "Građen i obnavljan od 7. veka pre nove ere do 17. veka nove ere.",
+        "fact4": "Delovi iz doba Ming obično su visoki 6–8 m i široki 4–5 m na vrhu.",
+        "fact5": "Golim okom se ne vidi iz orbite, što su potvrdili i astronauti.",
+        "fact6": "Na UNESCO listi svetske baštine od 1987."
+      }
     }
   },
   "about": {
@@ -2570,6 +2632,18 @@
     "erosion": {
       "term": "Erozija",
       "definition": "Trošenje stena i tla vodom, vetrom i ledom. Za milione godina reka može da useče kanjon dubok više od kilometra."
+    },
+    "hypogeum": {
+      "term": "Hipogeum",
+      "definition": "Podzemni nivo rimske arene: tuneli, kavezi i liftovi na užad koji su kroz otvore u podu dizali životinje i scenografiju u arenu."
+    },
+    "watertight_compartment": {
+      "term": "Vodonepropusni odeljak",
+      "definition": "Deo trupa broda odvojen pregradama, tako da curenje potopi samo taj deo. Titanik je mogao da pluta sa četiri od 16 potopljenih — santa je otvorila pet ili šest."
+    },
+    "rammed_earth": {
+      "term": "Nabijena zemlja",
+      "definition": "Vlažna zemlja, šljunak i kreč nabijani sloj po sloj između drvenih dasaka. Veliki deo ranog Kineskog zida građen je ovako, mnogo pre zidova od cigle iz doba dinastije Ming."
     }
   },
   "faq": {
@@ -2667,7 +2741,10 @@
       "giraffe": "žirafa",
       "sahara": "Sahara",
       "amazon_river": "reka Amazon",
-      "grand_canyon": "Veliki kanjon"
+      "grand_canyon": "Veliki kanjon",
+      "titanic": "Titanik",
+      "colosseum": "Koloseum",
+      "great_wall": "Kineski zid"
     },
     "a3smallerTall": "Korak niže: {other} ({otherSize}), oko {ratio} puta niže.",
     "a3largerTall": "Korak više: {other} ({otherSize}), oko {ratio} puta više.",
@@ -2679,7 +2756,8 @@
     "a1Length": "{Name}: dužina je oko {size} (≈ {sci} m). Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
     "a1plainHeight": "{Name}: visina je oko {size}. Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
     "a1plainDepth": "{Name}: dubina je oko {size}. Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
-    "a1plainLength": "{Name}: dužina je oko {size}. Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini."
+    "a1plainLength": "{Name}: dužina je oko {size}. Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
+    "a8longer": "Dužina je otprilike {ratio} puta veća od prečnika Zemlje (12.742 km)."
   },
   "seo": {
     "home": "Razmere svemira — od kvarka do kosmosa | Quantumaire",
@@ -2894,6 +2972,13 @@
       "seoTitle": "Najveći predeli Zemlje: od Everesta do Sahare",
       "intro": "Rekorderi same planete: od 1,9 km dubokog Velikog kanjona i 11 km dubokog Marijanskog rova do Mont Everesta, reke Amazon duge 6.400 km i Sahare, široke skoro kao Sjedinjene Države.",
       "metaDescription": "Mont Everest, Marijanski rov, Veliki kanjon, reka Amazon i Sahara upoređeni po veličini — veliki predeli Zemlje na jednoj skali."
+    },
+    "ancient": {
+      "short": "Drevna čuda",
+      "title": "Drevna čuda, po veličini",
+      "seoTitle": "Drevna čuda: piramida, Koloseum i Kineski zid",
+      "intro": "Ono što su ljudi gradili snagom mišića, rampama i strpljenjem: Velika piramida od 139 metara, najviša građevina na Zemlji skoro četiri hiljade godina; Koloseum, arena duga 189 metara za oko 50.000 gledalaca; i Kineski zid, oko 21.000 km zidova podizanih dve hiljade godina.",
+      "metaDescription": "Velika piramida (139 m visine), Koloseum (189 m dužine) i Kineski zid (oko 21.196 km) upoređeni po veličini — najveće građevine drevnog sveta."
     }
   }
 }

@@ -417,10 +417,10 @@
     "HUMANKIND": "Humankind",
     "COSMOS.description": "Galaxies, stars, neutron-dense corpses, and the dark side of the universe — the largest scales we can observe.",
     "MICRO_WORLD.description": "Quarks, atoms, and molecules — the building blocks underneath everything you can see or touch.",
-    "HUMANKIND.description": "People and what they make: how one brain can house more than one self, and the tallest things we have built — from the Great Pyramid to the Burj Khalifa.",
+    "HUMANKIND.description": "People and what they make: how one brain can house more than one self, the Colosseum and the Great Wall, the Titanic, and the tallest things we have built — from the Great Pyramid to the Burj Khalifa.",
     "COSMOS.intro": "The universe at every scale beyond the ground beneath your feet — planets, stars, galaxies, and the largest gravitationally bound structures we know how to find. More than half of the topics on Quantumaire live here, because the cosmos is where orders of magnitude start to do real work. The Cosmos category also collects the abstractions that hold it all together: dark matter, dark energy, the cosmic horizon.",
     "MICRO_WORLD.intro": "Everything smaller than the cell. Quarks and gluons inside the proton; the proton inside the atom; the atom inside the DNA helix; the helix inside the virus; the virus, in turn, dwarfed by a bacterium. Each step down this ladder is anywhere from ten to a hundred thousand times smaller than the last, so the human-scale intuition that 'small things differ by a bit' breaks completely. The micro-world is where you watch that intuition snap.",
-    "HUMANKIND.intro": "Not everything worth knowing has a metre attached to it. Dissociative identity disorder is a property of the brain, not a measurable object, yet it belongs in any honest tour of what exists. The Great Pyramid, at 139 metres and 2.3 million blocks aligned to the cardinal directions, was the tallest thing humans built for nearly four thousand years; the Eiffel Tower more than doubled that in 1889, and the Burj Khalifa now reaches 828 metres — where the human scale starts to brush against the planetary. This is where Quantumaire keeps topics about people: the minds that measure the universe and the things they have built.",
+    "HUMANKIND.intro": "Not everything worth knowing has a metre attached to it. Dissociative identity disorder is a property of the brain, not a measurable object, yet it belongs in any honest tour of what exists. The Great Pyramid, at 139 metres and 2.3 million blocks aligned to the cardinal directions, was the tallest thing humans built for nearly four thousand years; the Eiffel Tower more than doubled that in 1889, and the Burj Khalifa now reaches 828 metres — where the human scale starts to brush against the planetary. Builders went long as well as tall: the Colosseum's 189-metre arena, the 269-metre Titanic, and the Great Wall of China, some 21,000 km of walls in all. This is where Quantumaire keeps topics about people: the minds that measure the universe and the things they have built.",
     "EARTH": "Life & Earth",
     "PHYSICS": "Forces & Spacetime",
     "EARTH.description": "Living things and landscapes on our own planet — from a half-millimetre water bear to the giraffe, the blue whale, the Grand Canyon and the Sahara.",
@@ -517,7 +517,8 @@
     "ocean": "Ocean",
     "alien-life": "Alien life",
     "landmark": "Landmark",
-    "landscape": "Landscape"
+    "landscape": "Landscape",
+    "ship": "Ship"
   },
   "stops": {
     "quark": {
@@ -1887,6 +1888,67 @@
         "fact5": "The Colorado River set its present course about 5–6 million years ago.",
         "fact6": "A US national park since 1919; about 5 million visitors a year."
       }
+    },
+    "titanic": {
+      "name": "Titanic",
+      "tagline": "The largest ship afloat in 1912 — 269 metres of steel that sank on its first voyage.",
+      "body": "RMS Titanic was 269 metres long, 28 metres wide and 53 metres tall from keel to funnel tops — when it sailed from Southampton on 10 April 1912 it was the largest moving object people had ever built. Late on 14 April, about 600 km south-east of Newfoundland, it struck an iceberg that opened a row of its watertight compartments to the sea. It sank in 2 hours 40 minutes. Of the roughly 2,224 people aboard, more than 1,500 died, partly because the 20 lifeboats had room for only 1,178. The wreck lies in two pieces about 3,800 m down and was found in 1985.",
+      "narrative": "Stand the Titanic on its bow and it would have been about four-fifths as tall as the Eiffel Tower — and taller than the Great Pyramid.",
+      "massNarrative": "Fully loaded it displaced about 52,000 tonnes — roughly the weight of 8,700 African elephants.",
+      "funFact": "Only three of its four funnels were real. The fourth, at the back, was mostly for show — four funnels looked more powerful — and was used for ventilation and as a chimney for the kitchens.",
+      "seoTitle": "How Big Was the Titanic? Size Compared",
+      "metaDescription": "The Titanic was 269 m long and 53 m tall — the largest ship afloat in 1912. Its size compared to the Eiffel Tower, a football pitch and a human.",
+      "image": {
+        "alt": "Black-and-white photo of RMS Titanic with its four funnels, steaming out of Southampton in April 1912."
+      },
+      "facts": {
+        "fact1": "Length: about 269 m; width: about 28 m.",
+        "fact2": "Height from keel to the top of the funnels: about 53 m.",
+        "fact3": "Struck an iceberg at 23:40 on 14 April 1912; sank at 2:20 the next morning.",
+        "fact4": "About 2,224 people aboard; more than 1,500 died.",
+        "fact5": "20 lifeboats with room for 1,178 people — about half of those on board.",
+        "fact6": "The wreck lies about 3,800 m deep and was found on 1 September 1985."
+      }
+    },
+    "colosseum": {
+      "name": "Colosseum",
+      "tagline": "Rome's great arena: 189 metres of stone that held some 50,000 spectators nearly 2,000 years ago.",
+      "body": "The Colosseum in Rome is the largest amphitheatre ever built: an ellipse 189 metres long and 156 metres wide, with walls rising about 48 metres. Begun under Emperor Vespasian around AD 70–72 and opened by his son Titus in AD 80 with 100 days of games, it seated an estimated 50,000 or more people on tiers ordered by social rank. Gladiator fights, animal hunts and executions were staged above the hypogeum, a maze of tunnels, cages and lifts beneath the arena floor. Earthquakes and centuries of stone-robbing took away about two-thirds of the outer wall, but the rest still stands.",
+      "narrative": "The Colosseum is almost twice as long as a football pitch, and its outer wall is as tall as a 15-storey building.",
+      "funFact": "On hot days sailors from the Roman fleet rigged the velarium, a huge awning of canvas stretched on ropes and masts around the top of the wall, to shade the crowd — you can still see the stone brackets that held the masts.",
+      "seoTitle": "How Big Is the Colosseum? Size Compared",
+      "metaDescription": "The Colosseum is 189 m long, 156 m wide and 48 m tall, and held about 50,000 spectators — the largest amphitheatre ever built. Size compared.",
+      "image": {
+        "alt": "The curved, arched travertine outer wall of the Colosseum in Rome under a clear blue sky."
+      },
+      "facts": {
+        "fact1": "Outer ellipse: about 189 m by 156 m.",
+        "fact2": "Height of the outer wall: about 48 m.",
+        "fact3": "Opened in AD 80 by Emperor Titus with 100 days of games.",
+        "fact4": "Held an estimated 50,000 spectators or more.",
+        "fact5": "Built mostly of travertine, tuff and Roman concrete; 80 entrance arches.",
+        "fact6": "A UNESCO World Heritage Site as part of the historic centre of Rome."
+      }
+    },
+    "great_wall": {
+      "name": "Great Wall of China",
+      "tagline": "Not one wall but thousands of kilometres of them, built over 2,000 years — about 21,000 km in all.",
+      "body": "The Great Wall is a network of walls, trenches and natural barriers built across northern China from the 7th century BC to the 17th century AD. A 2012 survey counted 21,196 km of it, all dynasties and branches included; the best-known stone-and-brick sections, with their watchtowers, are the Ming wall of the 14th–17th centuries, about 8,850 km long. Rammed earth, stone, brick and even sticky rice mortar went into it, and it was manned by garrisons that signalled with smoke and fire. Despite the popular claim, it is not visible to the naked eye from orbit: it is only a few metres wide and much the same colour as the land around it.",
+      "narrative": "Counting every branch, the wall would stretch more than halfway around the Earth — about 1.7 times the planet's width.",
+      "funFact": "Builders in the Ming dynasty mixed sticky rice soup into their lime mortar. The rice's amylopectin makes the mortar stronger and more water-resistant, which is part of why those sections have lasted 500 years.",
+      "seoTitle": "How Long Is the Great Wall of China? Length Compared",
+      "metaDescription": "The Great Wall of China measures about 21,196 km counting all branches, and the Ming wall about 8,850 km. How long it is, compared to Earth and more.",
+      "image": {
+        "alt": "The Great Wall winding over green, forested mountain ridges at Mutianyu under a blue sky with white clouds."
+      },
+      "facts": {
+        "fact1": "Total length, all branches and dynasties: about 21,196 km (2012 survey).",
+        "fact2": "The Ming-dynasty wall alone: about 8,850 km.",
+        "fact3": "Built and rebuilt from the 7th century BC to the 17th century AD.",
+        "fact4": "Ming sections are typically 6–8 m tall and 4–5 m wide on top.",
+        "fact5": "Not visible to the naked eye from orbit, as astronauts have confirmed.",
+        "fact6": "A UNESCO World Heritage Site since 1987."
+      }
     }
   },
   "about": {
@@ -2570,6 +2632,18 @@
     "erosion": {
       "term": "Erosion",
       "definition": "The wearing away of rock and soil by water, wind and ice. Given millions of years, a river can cut a canyon more than a kilometre deep."
+    },
+    "hypogeum": {
+      "term": "Hypogeum",
+      "definition": "The underground level of a Roman arena: tunnels, cages and rope-driven lifts that raised animals and scenery up through trapdoors onto the floor."
+    },
+    "watertight_compartment": {
+      "term": "Watertight compartment",
+      "definition": "A section of a ship's hull sealed off by bulkheads so that a leak floods only that part. The Titanic could float with four of its 16 flooded — the iceberg opened five or six."
+    },
+    "rammed_earth": {
+      "term": "Rammed earth",
+      "definition": "Damp soil, gravel and lime packed hard between wooden boards, layer by layer. Much of the early Great Wall was built this way, long before the brick-faced Ming sections."
     }
   },
   "faq": {
@@ -2662,7 +2736,10 @@
       "giraffe": "a giraffe",
       "sahara": "the Sahara",
       "amazon_river": "the Amazon River",
-      "grand_canyon": "the Grand Canyon"
+      "grand_canyon": "the Grand Canyon",
+      "titanic": "the Titanic",
+      "colosseum": "the Colosseum",
+      "great_wall": "the Great Wall of China"
     },
     "a7where": "The typical temperature of {name} is about {temp} — {note}.",
     "a2taller": "{Name} is roughly {ratio} times taller than a 1.7 m human.",
@@ -2679,7 +2756,8 @@
     "a1Length": "{Name} is about {size} long (≈ {sci} m). On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size.",
     "a1plainHeight": "{Name} stands about {size} tall. On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size.",
     "a1plainDepth": "{Name} is about {size} deep. On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size.",
-    "a1plainLength": "{Name} is about {size} long. On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size."
+    "a1plainLength": "{Name} is about {size} long. On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size.",
+    "a8longer": "{Name} is roughly {ratio} times longer than Earth is wide (12,742 km across)."
   },
   "seo": {
     "home": "Scale of the Universe — Quarks to the Cosmos | Quantumaire",
@@ -2894,6 +2972,13 @@
       "seoTitle": "Earth's Biggest Landscapes: Everest to the Sahara",
       "intro": "The planet's own record-breakers, from the Grand Canyon's 1.9 km drop and the 11 km Mariana Trench to Mount Everest, the 6,400 km Amazon River and the Sahara, almost as wide as the United States.",
       "metaDescription": "Mount Everest, the Mariana Trench, the Grand Canyon, the Amazon River and the Sahara compared by size — Earth's great landscapes on one scale."
+    },
+    "ancient": {
+      "short": "Ancient wonders",
+      "title": "Ancient wonders, by size",
+      "seoTitle": "Ancient Wonders Compared: Pyramid, Colosseum, Great Wall",
+      "intro": "What people built with muscle, ramps and patience: the 139-metre Great Pyramid, tallest building on Earth for nearly four thousand years; the Colosseum, an arena 189 metres long for some 50,000 spectators; and the Great Wall of China, about 21,000 km of walls raised over two thousand years.",
+      "metaDescription": "The Great Pyramid (139 m tall), the Colosseum (189 m long) and the Great Wall of China (about 21,196 km) compared by size — the ancient world's biggest builds."
     }
   }
 }

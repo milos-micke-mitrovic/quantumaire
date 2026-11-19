@@ -257,7 +257,9 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
     const bigger = size > EARTH_M;
     const measure = sizeMeasure(stop);
     const key = bigger
-      ? "sizeFaq.a8bigger"
+      ? measure === "length"
+        ? "sizeFaq.a8longer"
+        : "sizeFaq.a8bigger"
       : measure === "height"
         ? "sizeFaq.a8tall"
         : measure === "depth"

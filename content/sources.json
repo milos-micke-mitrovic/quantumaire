@@ -926,5 +926,35 @@
       "label": "NPS — Geology",
       "url": "https://www.nps.gov/grca/learn/nature/grca-geology.htm"
     }
+  ],
+  "titanic": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Titanic"
+    },
+    {
+      "label": "Wikipedia — Wreck of the Titanic",
+      "url": "https://en.wikipedia.org/wiki/Wreck_of_the_Titanic"
+    }
+  ],
+  "colosseum": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Colosseum"
+    },
+    {
+      "label": "UNESCO — Historic Centre of Rome",
+      "url": "https://whc.unesco.org/en/list/91/"
+    }
+  ],
+  "great_wall": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+    },
+    {
+      "label": "UNESCO — The Great Wall",
+      "url": "https://whc.unesco.org/en/list/438/"
+    }
   ]
 }

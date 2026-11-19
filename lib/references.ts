@@ -299,7 +299,7 @@ const HEIGHT_STOP_IDS = new Set([
   "mount_everest",
 ]);
 const DEPTH_STOP_IDS = new Set(["mariana_trench", "grand_canyon"]);
-const LENGTH_STOP_IDS = new Set(["amazon_river"]);
+const LENGTH_STOP_IDS = new Set(["amazon_river", "titanic", "colosseum", "great_wall"]);
 
 export function sizeMeasure(stop: { id: string }): SizeMeasure {
   if (HEIGHT_STOP_IDS.has(stop.id)) return "height";

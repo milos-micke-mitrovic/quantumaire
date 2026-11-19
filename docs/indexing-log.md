@@ -55,6 +55,10 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/stop/grand_canyon (new 2026-11-19)
 - https://quantumaire.space/en/tag/landscape (new 2026-11-19)
 - https://quantumaire.space/en/compare/giraffe-vs-human (new 2026-11-19)
+- https://quantumaire.space/en/stop/titanic (new 2026-11-19)
+- https://quantumaire.space/en/stop/colosseum (new 2026-11-19)
+- https://quantumaire.space/en/stop/great_wall (new 2026-11-19)
+- https://quantumaire.space/en/tag/ancient (new 2026-11-19)
 - remaining /en/stop/* pages, then /sr/* equivalents
 
 ## Done

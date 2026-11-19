@@ -1772,6 +1772,74 @@
       "tags": [
         "landscape"
       ]
+    },
+    {
+      "id": "titanic",
+      "i18nKey": "stops.titanic",
+      "sizeMeters": 269,
+      "order": 6.03,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "preferredReferenceId": "footballPitch",
+      "image": {
+        "src": "/images/titanic.webp",
+        "aspect": "wide",
+        "altKey": "stops.titanic.image.alt",
+        "credit": "Francis Godolphin Osbourne Stuart — public domain"
+      },
+      "glossary": [
+        "watertight_compartment"
+      ],
+      "tags": [
+        "ship"
+      ]
+    },
+    {
+      "id": "colosseum",
+      "i18nKey": "stops.colosseum",
+      "sizeMeters": 189,
+      "order": 6.01,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "preferredReferenceId": "footballPitch",
+      "image": {
+        "src": "/images/colosseum.webp",
+        "aspect": "wide",
+        "altKey": "stops.colosseum.image.alt",
+        "credit": "Nicholas Hartmann — CC BY-SA 4.0 (cropped)"
+      },
+      "glossary": [
+        "hypogeum"
+      ],
+      "tags": [
+        "ancient"
+      ]
+    },
+    {
+      "id": "great_wall",
+      "i18nKey": "stops.great_wall",
+      "sizeMeters": 21196000,
+      "order": 6.2,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/great-wall.webp",
+        "aspect": "wide",
+        "altKey": "stops.great_wall.image.alt",
+        "credit": "Velatrix — CC0"
+      },
+      "glossary": [
+        "rammed_earth"
+      ],
+      "tags": [
+        "ancient"
+      ]
     }
   ]
 }
