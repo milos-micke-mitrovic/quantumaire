@@ -32,5 +32,9 @@
 - Hand-written `metaDescription` for ideas, tags and 5 guides (EN+SR); tests guard seoTitle length.
 - Check script: crawl all sitemap URLs on `next start` → 0 title/description issues (was 91).
 
+## 2026-11-19 — audit Phase 4 part 3 (FAQ + hygiene)
+- FAQ (visible + JSON-LD): "How far is X from Earth?" (with light-time), "How hot is X?", "How big is X compared to Earth?"; idea topics lead with their search question ("What Is Dark Energy?"). Ratios near 1 keep two decimals.
+- Content date from git (`CONTENT_MODIFIED` via next.config) → JSON-LD dateModified + sitemap `<lastmod>`; sitemap x-default; robots `/api/` in the bot group; `/favicon.ico` (scripts/build-icons.mts); llms.txt says "topic".
+
 ## Next / ideas
 - Full audit done 2026-11-19 → `docs/AUDIT-PLAN.md` (phases 1–6, nothing ticked yet).

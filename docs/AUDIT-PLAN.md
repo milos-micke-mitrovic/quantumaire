@@ -76,10 +76,10 @@ browser (desktop + 390 px) after UI changes.
       category/tag/tool pages get their own OG images.
 - [x] `dateModified`: use a real content date (e.g. git commit date at build
       or a constant bumped on content changes), add `<lastmod>` to sitemap.
-- [ ] ~~Idea-topic titles → search-intent titles~~ (done: `stops.*.seoTitle`); FAQ for ideas; resolve stop vs guide
+- [x] ~~Idea-topic titles → search-intent titles~~ (done: `stops.*.seoTitle`; ideas FAQ leads with the title's question; big_bang/light_year added to their guides so stop ↔ guide cross-link); FAQ for ideas; resolve stop vs guide
       cannibalisation (big_bang ↔ topics/big-bang, observable_universe ↔
       how-big-is-the-universe): differentiate titles/intent, cross-link.
-- [ ] FAQ for distance/temperature: "How far is X from Earth?", "How hot is X?",
+- [x] FAQ for distance/temperature: "How far is X from Earth?", "How hot is X?",
       "X compared to Earth" (lib/sizeFaq.ts).
 - [ ] Indexable compare pairs: `/compare/[a]-vs-[b]` for ~20 curated pairs
       (jupiter-vs-earth, sun-vs-earth, moon-vs-earth, uy-scuti-vs-sun,

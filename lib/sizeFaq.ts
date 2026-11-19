@@ -1,6 +1,11 @@
 import { STOPS } from "./content";
-import { formatMeters, toGrainScale } from "./scale";
-import { tServer } from "./i18n-server";
+import {
+  formatLightTime,
+  formatMeters,
+  formatTemperature,
+  toGrainScale,
+} from "./scale";
+import { tServer, tServerOptional } from "./i18n-server";
 import type { Locale, Stop } from "./types";
 
 /**
@@ -12,6 +17,7 @@ import type { Locale, Stop } from "./types";
  */
 
 const HUMAN_M = 1.7;
+const EARTH_M = 12_742_000;
 const SUPERSCRIPT = "⁰¹²³⁴⁵⁶⁷⁸⁹";
 
 export interface SizeFaqLink {
@@ -41,8 +47,9 @@ function numberFormat(locale: Locale): Intl.NumberFormat {
 export function formatRatio(ratio: number, locale: Locale): string {
   const nf = numberFormat(locale);
   if (ratio < 10) {
+    // 1.03 must not round to "1 times bigger".
     return new Intl.NumberFormat(locale === "sr" ? "sr-Latn-RS" : "en-US", {
-      maximumFractionDigits: 1,
+      maximumFractionDigits: ratio < 1.1 ? 2 : 1,
     }).format(ratio);
   }
   if (ratio < 1e6) return nf.format(Number(ratio.toPrecision(2)));
@@ -114,6 +121,15 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
   const items: SizeFaqItem[] = [];
   const size = stop.sizeMeters;
 
+  // Ideas (no size): lead with "What is X?" — the question in the topic's
+  // search title, answered by its meta summary.
+  if (size === null) {
+    const seoTitle = tServerOptional(locale, `${stop.i18nKey}.seoTitle`);
+    const summary = tServerOptional(locale, `${stop.i18nKey}.metaDescription`);
+    const question = seoTitle?.match(/^[^?]+\?/)?.[0];
+    if (question && summary) items.push({ q: question, a: summary });
+  }
+
   if (size !== null) {
     const rank = SIZED.findIndex((s) => s.id === stop.id);
 
@@ -182,6 +198,37 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
         }),
       });
     }
+  }
+
+  if (size !== null && stop.id !== "earth" && size >= 1) {
+    const bigger = size > EARTH_M;
+    items.push({
+      q: t("sizeFaq.q8", { name }),
+      a: t(bigger ? "sizeFaq.a8bigger" : "sizeFaq.a8smaller", {
+        ratio: formatRatio(bigger ? size / EARTH_M : EARTH_M / size, locale),
+      }),
+      links: [{ id: "earth", name: t("stops.earth.name") }],
+    });
+  }
+
+  const distance = stop.distanceFromEarthMeters;
+  if (typeof distance === "number" && distance > 0) {
+    const lightTime = formatLightTime(distance, tm);
+    const q = t("sizeFaq.q6", { name });
+    // An idea topic whose search question is already this one (Voyager 1).
+    if (!items.some((i) => i.q.toLowerCase() === q.toLowerCase())) items.push({
+      q,
+      a: lightTime
+        ? t("sizeFaq.a6", { distance: formatMeters(distance, tm), lightTime })
+        : t("sizeFaq.a6far", { distance: formatMeters(distance, tm) }),
+    });
+  }
+
+  if (typeof stop.temperatureKelvin === "number") {
+    items.push({
+      q: t("sizeFaq.q7", { name }),
+      a: t("sizeFaq.a7", { temp: formatTemperature(stop.temperatureKelvin, tm) }),
+    });
   }
 
   items.push({

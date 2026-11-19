@@ -30,13 +30,27 @@ describe("buildSizeFaq", () => {
     expect(faq.some((f) => f.q.includes("grain of sand"))).toBe(false);
   });
 
-  it("only asks the certainty question for size-less stops", () => {
-    expect(buildSizeFaq(getStop("dark_energy")!, "en")).toHaveLength(1);
+  it("asks 'what is it?' and certainty for size-less stops", () => {
+    const faq = buildSizeFaq(getStop("dark_energy")!, "en");
+    expect(faq.map((f) => f.q)).toEqual([
+      "What Is Dark Energy?",
+      "How certain is what we know about Dark Energy?",
+    ]);
     expect(sizeSummary(getStop("dark_energy")!, "en")).toBeNull();
   });
 
+  it("asks distance, temperature and Earth comparison when data exists", () => {
+    const faq = buildSizeFaq(getStop("sun")!, "en");
+    const qs = faq.map((f) => f.q);
+    expect(qs).toContain("How far is the Sun from Earth?");
+    expect(qs).toContain("How hot is the Sun?");
+    expect(qs).toContain("How big is the Sun compared to Earth?");
+    expect(faq.find((f) => f.q.startsWith("How far"))!.a).toMatch(/light-minutes/);
+    expect(buildSizeFaq(getStop("earth")!, "en").some((f) => f.q.includes("compared to Earth"))).toBe(false);
+  });
+
   it("leaves no unfilled placeholders in Serbian", () => {
-    for (const id of ["quark", "earth", "observable_universe", "mpd"]) {
+    for (const id of ["quark", "earth", "sun", "voyager1", "andromeda", "observable_universe", "mpd"]) {
       const faq = buildSizeFaq(getStop(id)!, "sr");
       expect(faq.every((f) => !/\{\w+\}/.test(f.q + f.a))).toBe(true);
     }

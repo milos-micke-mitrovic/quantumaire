@@ -103,7 +103,7 @@ export const TOPICS: Topic[] = [
     stopId: "big_bang",
     i18nKey: "topics.bigBang",
     sectionCount: 4,
-    relatedStopIds: ["observable_universe", "dark_energy"],
+    relatedStopIds: ["big_bang", "observable_universe", "dark_energy"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Big_Bang" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Cosmic_microwave_background" },
@@ -143,7 +143,7 @@ export const TOPICS: Topic[] = [
     slug: "distances",
     i18nKey: "topics.distances",
     sectionCount: 4,
-    relatedStopIds: ["moon", "sun", "voyager1", "proxima_centauri", "milky_way", "andromeda", "laniakea_supercluster", "observable_universe"],
+    relatedStopIds: ["light_year", "moon", "sun", "voyager1", "proxima_centauri", "milky_way", "andromeda", "laniakea_supercluster", "observable_universe"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Cosmic_distance_ladder" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Proxima_Centauri" },
