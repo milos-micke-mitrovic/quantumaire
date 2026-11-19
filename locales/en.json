@@ -1536,6 +1536,29 @@
         "fact8": "Planned retirement: around 2030, followed by a controlled re-entry over the South Pacific."
       },
       "metaDescription": "The ISS is about 109 m across, weighs 450 tonnes and circles Earth 400 km up every 92 minutes. Its size, speed and how people live aboard."
+    },
+    "james_webb": {
+      "name": "James Webb Space Telescope",
+      "seoTitle": "James Webb Space Telescope: Size, Distance and Discoveries",
+      "tagline": "A gold-plated eye on a tennis-court-sized shield, parked 1.5 million km away to see the first galaxies.",
+      "body": "The James Webb Space Telescope is the largest telescope ever sent into space. Its primary mirror is 6.5 m across, built from 18 hexagonal segments of gold-coated beryllium, and it rides on a five-layer sunshield about the size of a tennis court. Launched on 25 December 2021, it works from an orbit around the Sun–Earth L2 point, 1.5 million km from Earth on the side away from the Sun, where one shield can block the Sun, Earth and Moon at once. Webb sees mainly in infrared, so it has to stay extremely cold: its shaded side sits at about −233 °C. That lets it catch light from galaxies that formed less than 300 million years after the Big Bang, peer through dust into stellar nurseries and read the chemistry of exoplanet atmospheres.",
+      "narrative": "Webb's sunshield is about the size of a tennis court, yet each of its five layers is thinner than a human hair. Together they cut the Sun's heat about a million times — like sunscreen with an SPF of a million.",
+      "massNarrative": "Webb weighs about 6.2 tonnes — roughly a large African elephant. Its mirrors carry only about 48 grams of gold, in a layer some 100 nanometres thick: about the mass of a golf ball.",
+      "funFact": "After launch Webb had to unfold itself: 344 steps that each had to work first time, with no way to send anyone up to fix a fault. It all went so smoothly — and the Ariane 5 launch was so precise — that the telescope saved enough fuel to keep working for well over 20 years instead of the planned ten.",
+      "image": {
+        "alt": "Webb's gold hexagonal primary mirror, fully unfolded and hanging from a crane in a NASA clean room, with technicians in white suits below."
+      },
+      "facts": {
+        "fact1": "Primary mirror: 6.5 m across, 18 gold-coated beryllium segments.",
+        "fact2": "Sunshield: about 21 × 14 m — the size of a tennis court — in five layers.",
+        "fact3": "Distance: about 1.5 million km from Earth, near the Sun–Earth L2 point — roughly four times farther than the Moon.",
+        "fact4": "Launched on 25 December 2021 on an Ariane 5 from Kourou, French Guiana.",
+        "fact5": "Cold side: about −233 °C; the MIRI instrument is cooled further, to about −266 °C.",
+        "fact6": "First full-colour images released on 11–12 July 2022.",
+        "fact7": "A joint mission of NASA, ESA and the Canadian Space Agency, costing about 10 billion dollars.",
+        "fact8": "It has seen galaxies as they were less than 300 million years after the Big Bang."
+      },
+      "metaDescription": "The James Webb Space Telescope has a 6.5 m gold mirror and a tennis-court-sized sunshield, and works 1.5 million km from Earth. Size, distance and discoveries."
     }
   },
   "about": {
@@ -2134,6 +2157,10 @@
     "free_fall": {
       "term": "Free fall",
       "definition": "Moving under gravity alone, with nothing holding you up. An orbit is free fall in which you also travel sideways fast enough to keep missing the ground."
+    },
+    "lagrange_point": {
+      "term": "Lagrange point",
+      "definition": "A spot where the gravity of two large bodies, such as the Sun and Earth, balances a spacecraft's orbital motion, so it keeps its place relative to both with very little fuel."
     }
   },
   "faq": {
@@ -2213,7 +2240,8 @@
       "m87_black_hole": "M87*",
       "gaia_bh1": "Gaia BH1",
       "mariana_trench": "the Mariana Trench",
-      "iss": "the International Space Station"
+      "iss": "the International Space Station",
+      "james_webb": "the James Webb Space Telescope"
     }
   },
   "seo": {
@@ -2405,9 +2433,9 @@
     "spacecraft": {
       "short": "Spacecraft",
       "title": "Spacecraft",
-      "seoTitle": "Spacecraft: Voyager 1, the ISS and How Far We've Gone",
-      "intro": "The machines we have sent beyond the sky: the International Space Station circling 400 km up, and Voyager 1, now a full light-day away in interstellar space.",
-      "metaDescription": "From the ISS circling 400 km above Earth to Voyager 1 a light-day away: our spacecraft, their sizes, speeds and distances compared."
+      "seoTitle": "Spacecraft: ISS, James Webb and Voyager 1 Compared",
+      "intro": "The machines we have sent beyond the sky: the International Space Station circling 400 km up, the James Webb Space Telescope 1.5 million km away, and Voyager 1, now a full light-day out in interstellar space.",
+      "metaDescription": "From the ISS 400 km above Earth to Webb at 1.5 million km and Voyager 1 a light-day away: our spacecraft, their sizes, speeds and distances."
     }
   }
 }

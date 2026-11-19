@@ -752,5 +752,15 @@
       "label": "ESA",
       "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station"
     }
+  ],
+  "james_webb": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
+    },
+    {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/mission/webb/"
+    }
   ]
 }

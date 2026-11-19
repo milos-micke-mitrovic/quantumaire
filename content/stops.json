@@ -1419,6 +1419,31 @@
       "tags": [
         "spacecraft"
       ]
+    },
+    {
+      "id": "james_webb",
+      "i18nKey": "stops.james_webb",
+      "sizeMeters": 21,
+      "distanceFromEarthMeters": 1500000000,
+      "order": 6.35,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-nova",
+      "accentGlow": "shadow-[0_0_80px_rgba(251,191,36,0.3)]",
+      "image": {
+        "src": "/images/james-webb.webp",
+        "aspect": "wide",
+        "altKey": "stops.james_webb.image.alt",
+        "credit": "NASA / Chris Gunn — public domain"
+      },
+      "glossary": [
+        "lagrange_point",
+        "redshift"
+      ],
+      "tags": [
+        "spacecraft"
+      ],
+      "temperatureKelvin": 40
     }
   ]
 }

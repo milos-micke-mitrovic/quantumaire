@@ -1536,6 +1536,29 @@
         "fact8": "Planirano povlačenje: oko 2030, a zatim kontrolisani ulazak u atmosferu iznad južnog Tihog okeana."
       },
       "metaDescription": "MSS je široka oko 109 m, teška 450 tona i obiđe Zemlju na visini od 400 km za 92 minuta. Njena veličina, brzina i kako ljudi žive u njoj."
+    },
+    "james_webb": {
+      "name": "Teleskop Džejms Veb",
+      "seoTitle": "Teleskop Džejms Veb: veličina, udaljenost i otkrića",
+      "tagline": "Pozlaćeno oko na štitu veličine teniskog terena, parkirano 1,5 miliona km od nas da bi videlo prve galaksije.",
+      "body": "Svemirski teleskop Džejms Veb (James Webb Space Telescope) najveći je teleskop ikada poslat u svemir. Njegovo glavno ogledalo široko je 6,5 m, sastavljeno od 18 šestougaonih segmenata od berilijuma presvučenih zlatom, a nosi ga štit od Sunca u pet slojeva, otprilike veličine teniskog terena. Lansiran 25. decembra 2021, radi sa orbite oko Lagranžove tačke L2 sistema Sunce–Zemlja, 1,5 miliona km od Zemlje, na strani suprotnoj od Sunca, gde jedan štit može istovremeno da zakloni Sunce, Zemlju i Mesec. Veb posmatra uglavnom u infracrvenom delu spektra, pa mora biti izuzetno hladan: njegova zasenčena strana ima oko −233 °C. Zahvaljujući tome hvata svetlost galaksija nastalih manje od 300 miliona godina posle Velikog praska, gleda kroz prašinu u porodilišta zvezda i čita hemijski sastav atmosfera egzoplaneta.",
+      "narrative": "Vebov štit od Sunca velik je otprilike kao teniski teren, a ipak je svaki od njegovih pet slojeva tanji od vlasi kose. Zajedno smanjuju Sunčevu toplotu oko milion puta — kao krema za sunčanje sa zaštitnim faktorom od milion.",
+      "massNarrative": "Veb je težak oko 6,2 tone — otprilike koliko veliki afrički slon. Na njegovim ogledalima ima svega oko 48 grama zlata, u sloju debelom oko 100 nanometara: otprilike masa jedne loptice za golf.",
+      "funFact": "Posle lansiranja Veb je morao sam da se rasklopi: 344 koraka od kojih je svaki morao da uspe iz prvog pokušaja, bez ikakve mogućnosti da neko ode gore i popravi kvar. Sve je prošlo toliko glatko — a lansiranje raketom Arijana 5 bilo je toliko precizno — da je teleskopu ostalo dovoljno goriva za znatno više od 20 godina rada umesto planiranih deset.",
+      "image": {
+        "alt": "Vebovo zlatno šestougaono glavno ogledalo, potpuno rasklopljeno, visi sa krana u NASA-inoj čistoj sobi, a ispod su tehničari u belim odelima."
+      },
+      "facts": {
+        "fact1": "Glavno ogledalo: 6,5 m u prečniku, 18 segmenata od berilijuma presvučenih zlatom.",
+        "fact2": "Štit od Sunca: oko 21 × 14 m — veličine teniskog terena — u pet slojeva.",
+        "fact3": "Udaljenost: oko 1,5 miliona km od Zemlje, kod tačke L2 sistema Sunce–Zemlja — otprilike četiri puta dalje od Meseca.",
+        "fact4": "Lansiran 25. decembra 2021. raketom Arijana 5 iz Kurua, u Francuskoj Gvajani.",
+        "fact5": "Hladna strana: oko −233 °C; instrument MIRI hlađen je još više, na oko −266 °C.",
+        "fact6": "Prvi snimci u boji objavljeni su 11. i 12. jula 2022.",
+        "fact7": "Zajednička misija NASA-e, ESA-e i Kanadske svemirske agencije, vredna oko 10 milijardi dolara.",
+        "fact8": "Video je galaksije kakve su bile manje od 300 miliona godina posle Velikog praska."
+      },
+      "metaDescription": "Teleskop Džejms Veb ima zlatno ogledalo od 6,5 m i štit veličine teniskog terena, a radi 1,5 miliona km od Zemlje. Veličina, udaljenost i otkrića."
     }
   },
   "about": {
@@ -2134,6 +2157,10 @@
     "free_fall": {
       "term": "Slobodni pad",
       "definition": "Kretanje samo pod dejstvom gravitacije, kada vas ništa ne drži. Orbita je slobodni pad u kojem se istovremeno krećete u stranu dovoljno brzo da stalno promašujete tlo."
+    },
+    "lagrange_point": {
+      "term": "Lagranžova tačka",
+      "definition": "Mesto gde gravitacija dva velika tela, poput Sunca i Zemlje, uravnotežuje orbitalno kretanje letelice, pa ona uz vrlo malo goriva zadržava položaj u odnosu na oba."
     }
   },
   "faq": {
@@ -2361,9 +2388,9 @@
     "spacecraft": {
       "short": "Letelice",
       "title": "Svemirske letelice",
-      "seoTitle": "Svemirske letelice: Voyager 1, MSS i koliko smo stigli",
-      "intro": "Mašine koje smo poslali iznad neba: Međunarodna svemirska stanica, koja kruži na 400 km visine, i Voyager 1, sada čitav svetlosni dan daleko, u međuzvezdanom prostoru.",
-      "metaDescription": "Od MSS, koja kruži 400 km iznad Zemlje, do Voyagera 1, udaljenog jedan svetlosni dan: naše letelice, njihove veličine, brzine i udaljenosti."
+      "seoTitle": "Svemirske letelice: MSS, Džejms Veb i Voyager 1",
+      "intro": "Mašine koje smo poslali iznad neba: Međunarodna svemirska stanica, koja kruži na 400 km visine, teleskop Džejms Veb, 1,5 miliona km daleko, i Voyager 1, sada čitav svetlosni dan daleko, u međuzvezdanom prostoru.",
+      "metaDescription": "Od MSS, 400 km iznad Zemlje, preko teleskopa Veb na 1,5 miliona km, do Voyagera 1, udaljenog svetlosni dan: naše letelice, veličine, brzine i udaljenosti."
     }
   }
 }
