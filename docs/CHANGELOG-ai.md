@@ -79,3 +79,4 @@
 
 ## 2026-11-19 — audit Phase 6 part 3 (guide hero + key numbers)
 - Every guide has a hero image borrowed from a topic (`Topic.heroStopId`, licensed + credited; square/portrait images shown whole over a blurred copy instead of cropped) and a "Key numbers" table (`Topic.keyNumbers`): rows read from topic data (size / distance / temperature, link to the topic, follow km/mi and °C/°F/K) or hand-written `keyNumber{n}Label/Value` texts for ages, rates and thresholds (nebulae, Big Bang, supernova, time; EN+SR, numbers match the guide text). `components/GuideHero.tsx`, `GuideKeyNumbers.tsx`; test `tests/guides.test.ts`.
+- Fix: guide text showed raw `**bold**` / `*italic*` markers (15 strings per locale). `lib/inlineMarkdown.ts` parses them (lone `*` in names like M87* left alone) before topic-name linking; markers stripped from the guide meta description and Article JSON-LD. Tests `tests/inlineMarkdown.test.ts`.

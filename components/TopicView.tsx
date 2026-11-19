@@ -7,6 +7,7 @@ import { useI18n } from "@/lib/i18n";
 import type { Topic } from "@/lib/topics";
 import { STOPS } from "@/lib/content";
 import { getStopsByTag } from "@/lib/tags";
+import { parseInline, type Run } from "@/lib/inlineMarkdown";
 import { linkTopicNames, type Segment } from "@/lib/topicLinks";
 import { DistanceScale } from "./DistanceScale";
 import { GuideHero } from "./GuideHero";
@@ -30,17 +31,21 @@ export function TopicView({ topic }: TopicViewProps) {
     body: t(`${topic.i18nKey}.section${i + 1}Body`),
   }));
 
-  // Topic names in the guide text link to their topic pages, each once.
+  // **bold** / *italic* runs first, then topic names inside each run link
+  // to their topic pages, each name once per guide.
   const linked = useMemo(() => {
     const names = STOPS.map((s) => ({ id: s.id, name: t(`${s.i18nKey}.name`) }));
     const seen = new Set<string>();
     return [intro, ...sections.map((s) => s.body)].map((text) =>
-      linkTopicNames(text, names, seen)
+      parseInline(text).map((run) => ({
+        ...run,
+        segments: linkTopicNames(run.text, names, seen),
+      }))
     );
     // sections derive from t + topic, so these deps cover them.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [t, topic, intro]);
-  const renderLinked = (segments: Segment[]) =>
+  const renderSegments = (segments: Segment[]) =>
     segments.map((seg, k) =>
       typeof seg === "string" ? (
         <Fragment key={k}>{seg}</Fragment>
@@ -52,6 +57,18 @@ export function TopicView({ topic }: TopicViewProps) {
         >
           {seg.text}
         </Link>
+      )
+    );
+  const renderLinked = (runs: (Run & { segments: Segment[] })[]) =>
+    runs.map((run, k) =>
+      run.bold ? (
+        <strong key={k} className="font-semibold text-cosmos-star">
+          {renderSegments(run.segments)}
+        </strong>
+      ) : run.italic ? (
+        <em key={k}>{renderSegments(run.segments)}</em>
+      ) : (
+        <Fragment key={k}>{renderSegments(run.segments)}</Fragment>
       )
     );
 

@@ -15,6 +15,7 @@ import {
 } from "@/lib/seo";
 import type { Locale } from "@/lib/types";
 import { I18nExtend } from "@/lib/i18n";
+import { stripInline } from "@/lib/inlineMarkdown";
 
 interface PageProps {
   params: Promise<{ locale: string; slug: string }>;
@@ -50,7 +51,7 @@ export async function generateMetadata({
       tServerOptional(typed, `${topic.i18nKey}.metaDescription`) ??
       fitDescription([
         tServer(typed, `${topic.i18nKey}.tagline`),
-        tServer(typed, `${topic.i18nKey}.intro`),
+        stripInline(tServer(typed, `${topic.i18nKey}.intro`)),
       ]),
   });
 }
@@ -64,7 +65,7 @@ export default async function TopicPage({ params }: PageProps) {
 
   const title = tServer(typed, `${topic.i18nKey}.title`);
   const tagline = tServer(typed, `${topic.i18nKey}.tagline`);
-  const intro = tServer(typed, `${topic.i18nKey}.intro`);
+  const intro = stripInline(tServer(typed, `${topic.i18nKey}.intro`));
 
   const articleLd = {
     ...articleJsonLd(typed, `topics/${slug}`, {
