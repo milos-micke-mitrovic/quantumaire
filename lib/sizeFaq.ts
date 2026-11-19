@@ -218,7 +218,8 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
       q,
       a: lightTime
         ? t("sizeFaq.a6", { distance: formatMeters(distance, tm), lightTime })
-        : t("sizeFaq.a6far", { distance: formatMeters(distance, tm) }),
+        : // Under one light-second (the ISS): no light-time worth quoting.
+          t(distance < 3e8 ? "sizeFaq.a6near" : "sizeFaq.a6far", { distance: formatMeters(distance, tm) }),
     });
   }
 

@@ -27,7 +27,7 @@ export const SPACECRAFT: Spacecraft[] = [
   { id: "newHorizons", launchYear: 2006, speedKmS: 13.7 },
   { id: "pioneer10", launchYear: 1972, speedKmS: 12.0 },
   { id: "pioneer11", launchYear: 1973, speedKmS: 11.4 },
-  { id: "iss", launchYear: 1998, speedKmS: 7.66 },
+  { id: "iss", launchYear: 1998, speedKmS: 7.66, stopId: "iss" },
 ];
 
 export function kmPerHour(speedKmS: number): number {

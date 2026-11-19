@@ -25,6 +25,14 @@ describe("buildSizeFaq", () => {
     expect(faq.every((f) => !/\{\w+\}/.test(f.q + f.a))).toBe(true);
   });
 
+  it("does not claim the ISS's light set out long ago", () => {
+    for (const locale of ["en", "sr"] as const) {
+      const faq = buildSizeFaq(getStop("iss")!, locale);
+      const far = faq.find((f) => /400 km/.test(f.a))!;
+      expect(far.a).toMatch(/fraction of a second|delić sekunde/);
+    }
+  });
+
   it("skips the grain-of-sand question for Earth itself", () => {
     const faq = buildSizeFaq(getStop("earth")!, "en");
     expect(faq.some((f) => f.q.includes("grain of sand"))).toBe(false);

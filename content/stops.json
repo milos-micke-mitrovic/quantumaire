@@ -1395,6 +1395,30 @@
         "ocean"
       ],
       "temperatureKelvin": 275
+    },
+    {
+      "id": "iss",
+      "i18nKey": "stops.iss",
+      "sizeMeters": 109,
+      "distanceFromEarthMeters": 400000,
+      "order": 6.3,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-aurora",
+      "accentGlow": "shadow-[0_0_80px_rgba(124,92,255,0.4)]",
+      "preferredReferenceId": "footballPitch",
+      "image": {
+        "src": "/images/iss.webp",
+        "aspect": "wide",
+        "altKey": "stops.iss.image.alt",
+        "credit": "NASA — public domain"
+      },
+      "glossary": [
+        "free_fall"
+      ],
+      "tags": [
+        "spacecraft"
+      ]
     }
   ]
 }

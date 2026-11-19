@@ -1513,6 +1513,29 @@
         "fact8": "Tamo buja život: amfipodi, morski krastavci i ksenofiofore — pojedinačne ćelije velike i do 10 cm."
       },
       "metaDescription": "Marijanski rov se spušta do oko 10.935 m u Čelendžerovom ponoru — Everest bi nestao pod 2 km vode. Pritisak, život i ljudi koji su stigli do dna."
+    },
+    "iss": {
+      "name": "Međunarodna svemirska stanica",
+      "seoTitle": "Međunarodna svemirska stanica: veličina, brzina, visina",
+      "tagline": "Laboratorija veličine fudbalskog terena koja pada oko Zemlje 16 puta dnevno — ljudi u njoj žive bez prekida od 2000.",
+      "body": "Međunarodna svemirska stanica (MSS, engl. ISS) najveća je građevina koju su ljudi ikada postavili u svemir: oko 109 m preko rešetke sa solarnim panelima — otprilike dužina fudbalskog terena — i oko 450 tona mase. Kruži oko Zemlje na visini od oko 400 km brzinom od oko 7,7 km/s, jednom u 92 minuta, pa posada dnevno vidi oko 16 izlazaka i zalazaka Sunca. Od 1998. grade je svemirske agencije SAD, Rusije, Evrope, Japana i Kanade, a ljudi u njoj neprekidno borave od 2. novembra 2000. Astronauti u njoj lebde ne zato što gore nema gravitacije — ona je i dalje oko 90% one na tlu — već zato što stanica i svi u njoj neprestano slobodno padaju oko planete.",
+      "narrative": "Smanjite Zemlju na globus od 30 cm i MSS bi kružila samo 1 cm iznad njegove površine — bliže od vrha prsta koji držite iznad globusa. Mesec bi, u istoj razmeri, bio oko 9 metara daleko.",
+      "massNarrative": "MSS je teška oko 450 tona — više od 300 automobila. Njen hermetizovani prostor, oko 900 m³, veći je od kuće sa šest spavaćih soba.",
+      "funFact": "Prvi deo stanice, ruski modul Zarja, lansiran je 20. novembra 1998. Od tada ju je posetilo više od 280 ljudi iz preko 20 zemalja. Plan je da se povuče iz upotrebe oko 2030: letelica za spuštanje sa orbite, koju gradi SpaceX, oboriće je iznad udaljenog dela južnog Tihog okeana, gde će najveći deo stanice izgoreti pri ulasku u atmosferu.",
+      "image": {
+        "alt": "Međunarodna svemirska stanica na crnoj pozadini svemira, sa dugačkom rešetkom duž koje je osam pari zlatnosmeđih solarnih panela."
+      },
+      "facts": {
+        "fact1": "Veličina: oko 109 × 73 m — otprilike fudbalski teren.",
+        "fact2": "Masa: oko 450 tona.",
+        "fact3": "Visina: oko 400 km; brzina oko 7,7 km/s (27.600 km/h).",
+        "fact4": "Jedan krug oko Zemlje za ~92 minuta — oko 16 izlazaka Sunca dnevno.",
+        "fact5": "Neprekidno naseljena od 2. novembra 2000.",
+        "fact6": "Partneri: NASA, Roskosmos, ESA, JAXA i Kanadska svemirska agencija.",
+        "fact7": "Vidljiva golim okom — kad je najsjajnija, sjajnija je od Venere.",
+        "fact8": "Planirano povlačenje: oko 2030, a zatim kontrolisani ulazak u atmosferu iznad južnog Tihog okeana."
+      },
+      "metaDescription": "MSS je široka oko 109 m, teška 450 tona i obiđe Zemlju na visini od 400 km za 92 minuta. Njena veličina, brzina i kako ljudi žive u njoj."
     }
   },
   "about": {
@@ -2107,6 +2130,10 @@
     "subduction": {
       "term": "Subdukcija",
       "definition": "Podvlačenje jedne tektonske ploče pod drugu, naniže u Zemljin omotač — proces koji stvara duboke okeanske rovove, lukove vulkanskih ostrva i najjače zemljotrese."
+    },
+    "free_fall": {
+      "term": "Slobodni pad",
+      "definition": "Kretanje samo pod dejstvom gravitacije, kada vas ništa ne drži. Orbita je slobodni pad u kojem se istovremeno krećete u stranu dovoljno brzo da stalno promašujete tlo."
     }
   },
   "faq": {
@@ -2135,6 +2162,7 @@
     "q6": "Koliko je daleko {Name}?",
     "a6": "Udaljenost od Zemlje: oko {distance} ({lightTime}).",
     "a6far": "Udaljenost od Zemlje: oko {distance} — svetlost koju danas vidimo krenula je davno.",
+    "a6near": "Udaljenost od Zemlje: oko {distance} — toliko blizu da svetlost odande do nas stigne za mali delić sekunde.",
     "q7": "{Name} — kolika je temperatura?",
     "a7": "Tipična temperatura: oko {temp}.",
     "q8": "{Name} u poređenju sa Zemljom?",
@@ -2288,8 +2316,8 @@
       "short": "Čestice",
       "title": "Subatomske čestice",
       "seoTitle": "Subatomske čestice: kvarkovi, protoni i Higsov bozon",
-      "intro": "Gradivni blokovi ispod atoma: kvarkovi koji grade protone i neutrone, sam proton, i Higsov bozon koji je potvrdio polje koje česticama daje masu.",
-      "metaDescription": "Ispod atoma: kvarkovi od kojih su protoni i neutroni, sam proton i Higsov bozon koji stoji iza mase čestica — veličine i činjenice."
+      "intro": "Gradivni blokovi ispod atoma: kvarkovi koji grade protone i neutrone, sam proton, Higsov bozon koji je potvrdio polje koje česticama daje masu, i sablasni neutrino.",
+      "metaDescription": "Ispod atoma: kvarkovi od kojih su protoni i neutroni, sam proton, Higsov bozon koji stoji iza mase čestica i sablasni neutrino — veličine i činjenice."
     },
     "black-hole": {
       "short": "Crne rupe",
@@ -2329,6 +2357,13 @@
       "seoTitle": "Tardigrad i plavi kit: najizdržljiviji i najveći",
       "intro": "Vodeni medved od pola milimetra koji može da preživi vakuum svemira, i plavi kit, najteža poznata životinja — život na oba kraja raspona veličina.",
       "metaDescription": "Tardigrad od pola milimetra koji preživljava vakuum svemira i plavi kit, najteža životinja ikada — život na oba kraja raspona veličina."
+    },
+    "spacecraft": {
+      "short": "Letelice",
+      "title": "Svemirske letelice",
+      "seoTitle": "Svemirske letelice: Voyager 1, MSS i koliko smo stigli",
+      "intro": "Mašine koje smo poslali iznad neba: Međunarodna svemirska stanica, koja kruži na 400 km visine, i Voyager 1, sada čitav svetlosni dan daleko, u međuzvezdanom prostoru.",
+      "metaDescription": "Od MSS, koja kruži 400 km iznad Zemlje, do Voyagera 1, udaljenog jedan svetlosni dan: naše letelice, njihove veličine, brzine i udaljenosti."
     }
   }
 }

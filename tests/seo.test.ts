@@ -40,3 +40,20 @@ describe("search titles", () => {
     });
   }
 });
+
+import { TAG_PAGES } from "@/lib/tags";
+
+describe("tag collection pages", () => {
+  for (const [locale, dict] of [["en", en], ["sr", sr]] as const) {
+    it(`${locale}: every tag page has its own texts`, () => {
+      const pages = dict.tagPages as Record<string, Record<string, string> | string>;
+      for (const tag of TAG_PAGES) {
+        const page = pages[tag];
+        expect(page, `tagPages.${tag}`).toBeTypeOf("object");
+        for (const key of ["short", "title", "seoTitle", "intro"]) {
+          expect((page as Record<string, string>)[key], `tagPages.${tag}.${key}`).toBeTruthy();
+        }
+      }
+    });
+  }
+});
