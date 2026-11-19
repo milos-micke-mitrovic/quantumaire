@@ -1,11 +1,13 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { m as motion } from "framer-motion";
 import clsx from "clsx";
 import type { Stop } from "@/lib/types";
 import { useI18n } from "@/lib/i18n";
+import { formatFactor } from "@/lib/references";
 import { categorySlug } from "@/lib/content";
 import { useMarkVisited } from "@/lib/visited";
 import { Badge } from "./Badge";
@@ -250,65 +252,122 @@ export function StopDetail({
         </section>
       )}
 
-      <nav className="mt-10 grid gap-3 sm:grid-cols-2" aria-label={t("common.stopNavigation")}>
+      <nav
+        className="mt-10 grid gap-3 sm:grid-cols-2"
+        aria-label={t("common.stopNavigation")}
+      >
         {prev ? (
-          <Link
-            href={`/${locale}/stop/${prev.id}`}
-            onClick={(e) => keepSectionHash(e, `/${locale}/stop/${prev.id}`)}
-            className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-left transition-colors hover:border-white/20"
-          >
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              className="h-4 w-4 shrink-0 text-cosmos-star/60 transition-transform group-hover:-translate-x-0.5"
-              aria-hidden
-            >
-              <path d="M15 6l-6 6 6 6" strokeLinecap="round" />
-            </svg>
-            <span className="min-w-0 flex-1">
-              <span className="block text-[10px] uppercase tracking-[0.22em] text-cosmos-star/55">
-                {t("common.prev")}
-              </span>
-              <span className="mt-1 block truncate font-display text-sm text-cosmos-star">
-                {t(`${prev.i18nKey}.name`)}
-              </span>
-            </span>
-          </Link>
+          <NavCard
+            stop={prev}
+            current={stop}
+            dir="prev"
+            onNavigate={keepSectionHash}
+          />
         ) : (
           <span aria-hidden />
         )}
-
         {next ? (
-          <Link
-            href={`/${locale}/stop/${next.id}`}
-            onClick={(e) => keepSectionHash(e, `/${locale}/stop/${next.id}`)}
-            className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-right transition-colors hover:border-white/20"
-          >
-            <span className="min-w-0 flex-1">
-              <span className="block text-[10px] uppercase tracking-[0.22em] text-cosmos-star/55">
-                {t("common.next")}
-              </span>
-              <span className="mt-1 block truncate font-display text-sm text-cosmos-star">
-                {t(`${next.i18nKey}.name`)}
-              </span>
-            </span>
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              className="h-4 w-4 shrink-0 text-cosmos-star/60 transition-transform group-hover:translate-x-0.5"
-              aria-hidden
-            >
-              <path d="M9 6l6 6-6 6" strokeLinecap="round" />
-            </svg>
-          </Link>
+          <NavCard
+            stop={next}
+            current={stop}
+            dir="next"
+            onNavigate={keepSectionHash}
+          />
         ) : (
           <span aria-hidden />
         )}
       </nav>
     </main>
+  );
+}
+
+/**
+ * Previous / next card with a thumbnail on the inner side (opposite the
+ * text) and a one-line hint: how much bigger or smaller it is, or its
+ * category for ideas without a size.
+ */
+function NavCard({
+  stop,
+  current,
+  dir,
+  onNavigate,
+}: {
+  stop: Stop;
+  current: Stop;
+  dir: "prev" | "next";
+  onNavigate: (e: React.MouseEvent, href: string) => void;
+}) {
+  const { t, locale } = useI18n();
+  const href = `/${locale}/stop/${stop.id}`;
+  const isNext = dir === "next";
+
+  let hint = t(`categories.${stop.category}`);
+  if (stop.sizeMeters && current.sizeMeters) {
+    const ratio = stop.sizeMeters / current.sizeMeters;
+    if (ratio >= 1.15) hint = t("common.navBigger", { factor: formatFactor(ratio, t) });
+    else if (ratio <= 1 / 1.15)
+      hint = t("common.navSmaller", { factor: formatFactor(1 / ratio, t) });
+  }
+
+  const arrow = (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      className={clsx(
+        "h-4 w-4 shrink-0 text-cosmos-star/60 transition-transform",
+        isNext ? "group-hover:translate-x-0.5" : "group-hover:-translate-x-0.5"
+      )}
+      aria-hidden
+    >
+      <path d={isNext ? "M9 6l6 6-6 6" : "M15 6l-6 6 6 6"} strokeLinecap="round" />
+    </svg>
+  );
+  const thumb = (
+    <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl border border-white/10 bg-cosmos-void sm:h-16 sm:w-16">
+      <Image
+        src={stop.image.src}
+        alt=""
+        fill
+        sizes="64px"
+        className="object-cover transition-transform duration-300 group-hover:scale-105"
+      />
+    </span>
+  );
+  const text = (
+    <span className={clsx("min-w-0 flex-1", isNext ? "text-right" : "text-left")}>
+      <span className="block text-[10px] uppercase tracking-[0.22em] text-cosmos-star/55">
+        {t(isNext ? "common.next" : "common.prev")}
+      </span>
+      <span className="mt-1 block truncate font-display text-sm text-cosmos-star sm:text-base">
+        {t(`${stop.i18nKey}.name`)}
+      </span>
+      <span className="mt-0.5 block truncate text-xs text-cosmos-star/50">
+        {hint}
+      </span>
+    </span>
+  );
+
+  return (
+    <Link
+      href={href}
+      onClick={(e) => onNavigate(e, href)}
+      className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-3 transition-colors hover:border-white/20 hover:bg-white/[0.05] sm:gap-4 sm:p-4"
+    >
+      {isNext ? (
+        <>
+          {thumb}
+          {text}
+          {arrow}
+        </>
+      ) : (
+        <>
+          {arrow}
+          {text}
+          {thumb}
+        </>
+      )}
+    </Link>
   );
 }

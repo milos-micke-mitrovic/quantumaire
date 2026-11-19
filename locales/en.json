@@ -244,7 +244,9 @@
       "sources": "Sources",
       "journey-map": "On the scales",
       "related": "Related"
-    }
+    },
+    "navBigger": "{factor}× bigger",
+    "navSmaller": "{factor}× smaller"
   },
   "home": {
     "faq": {

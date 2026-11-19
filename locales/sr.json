@@ -244,7 +244,9 @@
       "sources": "Izvori",
       "journey-map": "Na skalama",
       "related": "Povezano"
-    }
+    },
+    "navBigger": "{factor}× veće",
+    "navSmaller": "{factor}× manje"
   },
   "home": {
     "faq": {
