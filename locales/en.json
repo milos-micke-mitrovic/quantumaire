@@ -2,11 +2,11 @@
   "common": {
     "title": "Quantumaire",
     "tagline": "From the smallest spark to the edge of everything.",
-    "subtagline": "A guided journey across more than 60 orders of magnitude — from the Planck length to the observable universe — with the truth-status of every stop labelled honestly.",
+    "subtagline": "A guided journey across more than 60 orders of magnitude — from the Planck length to the observable universe — with the truth-status of every topic labelled honestly.",
     "begin": "Begin the journey",
     "back": "Back",
-    "next": "Next stop",
-    "prev": "Previous stop",
+    "next": "Next",
+    "prev": "Previous",
     "scale": "Scale",
     "category": "Category",
     "badge": "Confidence",
@@ -17,8 +17,8 @@
     "unitImperial": "Imperial (mi)",
     "unitMetricShort": "km",
     "unitImperialShort": "mi",
-    "openStop": "Open stop",
-    "returnHome": "Return to the journey",
+    "openStop": "Open",
+    "returnHome": "Back to the scale",
     "moreSoon": "More to explore",
     "here": "Here",
     "scaleLegend": "Real log scale, smallest to largest — tap a dot or use ← → to step through.",
@@ -42,16 +42,16 @@
     "viewByTemperature": "By temperature",
     "temperatureLegend": "Real log scale, coldest to hottest — tap a dot or use ← → to step through.",
     "journeyMinimap": {
-      "heading": "Where this stop sits in each journey",
+      "heading": "Where it sits on each scale",
       "youAreHere": "You are here"
     },
     "abstract": "abstract",
-    "footer": "Every stop carries an honesty badge — Fact, Established theory, Probable theory or Speculative — so you always know how sure science is.",
+    "footer": "Every topic carries an honesty badge — Fact, Established theory, Probable theory or Speculative — so you always know how sure science is.",
     "glossary": "Glossary",
     "about": "About",
-    "relatedStops": "Related stops",
+    "relatedStops": "Related",
     "exploreCategory": "Explore {category}",
-    "stopsInCategory": "{count} stops",
+    "stopsInCategory": "{count} topics",
     "quickFacts": "Quick facts",
     "sources": "Sources",
     "openExternal": "Open in a new tab",
@@ -63,31 +63,31 @@
     "notFound": {
       "label": "404",
       "title": "Lost in the void",
-      "body": "The page you were looking for is somewhere past our cosmic horizon. Try the journey home.",
-      "home": "Return to the journey"
+      "body": "The page you were looking for is somewhere past our cosmic horizon. Head back to the scale.",
+      "home": "Back to the scale"
     },
     "glossaryPage": {
       "title": "Glossary",
-      "tagline": "{count} terms used across the journey, defined in one place.",
-      "intro": "Every technical word we use across the journey lives here, alphabetised and searchable. Each stop's page links the handful of glossary terms most relevant to it — but if you ran into something unfamiliar reading any stop, this is the page to land on. Definitions are deliberately short; we'd rather you read three of them than skim one long one.",
+      "tagline": "{count} terms used across the site, defined in one place.",
+      "intro": "Every technical word we use across the site lives here, alphabetised and searchable. Each topic's page links the handful of glossary terms most relevant to it — but if you ran into something unfamiliar reading any page, this is the page to land on. Definitions are deliberately short; we'd rather you read three of them than skim one long one.",
       "filterPlaceholder": "Filter terms…"
     },
     "tools": "Tools",
     "scaleTool": {
       "title": "Scale calculator",
-      "tagline": "Type any length. See it shrunk down to our grain-of-sand reference, with the nearest Quantumaire stop alongside.",
-      "intro": "Quantumaire's whole journey rests on one trick: shrink Earth to a single 0.5 mm grain of sand, then shrink everything else by the same factor. This page does that math for any length you type — a bacterium, a city, the distance to Jupiter, anything. The result tells you both the grain-scale equivalent and which stop on the journey it sits closest to.",
+      "tagline": "Type any length. See it shrunk down to our grain-of-sand reference, with the nearest Quantumaire topic alongside.",
+      "intro": "Quantumaire's whole scale rests on one trick: shrink Earth to a single 0.5 mm grain of sand, then shrink everything else by the same factor. This page does that math for any length you type — a bacterium, a city, the distance to Jupiter, anything. The result tells you both the grain-scale equivalent and which topic on the site it sits closest to.",
       "inputLabel": "Length",
       "unitLabel": "Unit",
       "yourValue": "Your value",
       "asGrainScale": "Shrunk to grain-scale",
-      "nearestStop": "Nearest stop",
-      "noNearest": "No nearby stop — try a different size."
+      "nearestStop": "Nearest topic",
+      "noNearest": "No nearby topic — try a different size."
     },
     "loading": "Loading…",
     "error": {
       "title": "Something slipped past the horizon",
-      "body": "An unexpected error stopped this page from rendering. You can try again, or head back to the journey.",
+      "body": "An unexpected error stopped this page from rendering. You can try again, or head back to the scale.",
       "retry": "Try again"
     },
     "filter": "Filter",
@@ -109,36 +109,36 @@
     "bookmarkAdd": "Save to favorites",
     "bookmarkRemove": "Remove from favorites",
     "bookmarksTitle": "Favorites",
-    "bookmarksTagline": "The stops you've saved for later.",
-    "bookmarksEmpty": "You haven't saved any stops yet. Open a stop and tap the heart to add it here.",
+    "bookmarksTagline": "The topics you've saved for later.",
+    "bookmarksEmpty": "You haven't saved any topics yet. Open one and tap the heart to add it here.",
     "betweenTool": {
       "title": "What's in between?",
-      "tagline": "Pick any two stops and see every object that fits between them by size.",
+      "tagline": "Pick any two objects and see every object that fits between them by size.",
       "from": "From",
       "to": "To",
-      "foundCount": "{count} stops fall in this range"
+      "foundCount": "{count} objects fall in this range"
     },
-    "random": "Random stop",
+    "random": "Random topic",
     "skipToContent": "Skip to main content",
     "backToTop": "Back to top",
     "breadcrumb": "Breadcrumb",
-    "stopNavigation": "Stop navigation",
+    "stopNavigation": "Page navigation",
     "ratio": "ratio",
     "progress": {
-      "title": "Your journey",
-      "tagline": "{count} of {total} stops visited.",
-      "intro": "Quantumaire's journey has thirty stops. This page tracks which ones you've opened, stored locally on this device — no account, no server, no cross-site tracking. It's here so you can see what's still ahead, jump straight to a random stop you haven't visited yet, and (if you ever want to) start over with a clean slate.",
-      "complete": "Journey complete — every stop opened. Welcome to the club.",
-      "empty": "You haven't opened any stops yet. Pick one and the journey begins.",
+      "title": "Your progress",
+      "tagline": "{count} of {total} topics visited.",
+      "intro": "This page tracks which topics on Quantumaire you've opened, stored locally on this device — no account, no server, no cross-site tracking. It's here so you can see what's still ahead, jump straight to a random topic you haven't visited yet, and (if you ever want to) start over with a clean slate.",
+      "complete": "All done — every topic opened. Welcome to the club.",
+      "empty": "You haven't opened any topics yet. Pick one to get started.",
       "categoryBreakdown": "By category",
       "remaining": "Still to visit",
-      "openRandom": "Open a random unvisited stop"
+      "openRandom": "Open a random unvisited topic"
     },
     "visited": {
       "marker": "Visited",
       "count": "{count} / {total} visited",
       "reset": "Reset progress",
-      "confirmReset": "Forget which stops you've visited? This only affects this device."
+      "confirmReset": "Forget which topics you've visited? This only affects this device."
     },
     "compare": "Compare",
     "shortcuts": {
@@ -147,15 +147,15 @@
       "searchOpen": "Open search",
       "searchNav": "Move up / down in results",
       "searchSelect": "Open the selected result",
-      "stopNav": "Previous / next stop",
-      "randomStop": "Random stop",
+      "stopNav": "Previous / next",
+      "randomStop": "Random topic",
       "closeOverlay": "Close any overlay",
       "showHelp": "Show this help"
     },
     "comparePage": {
-      "title": "Compare two stops",
+      "title": "Compare two objects",
       "tagline": "Pick any two and see the ratio between them.",
-      "intro": "The journey sliders give you the full sweep at once; this page is for pinning two specific things side by side. Pick any two stops with concrete sizes and you get the exact ratio between them — including the kind of number that makes the difference feel real (a Sun is roughly a hundred Jupiters across; a Jupiter is roughly eleven Earths; an Earth is roughly four Moons). Sharing the URL of any pairing gives the other person the same view.",
+      "intro": "The scale sliders give you the full sweep at once; this page is for pinning two specific things side by side. Pick any two objects with concrete sizes and you get the exact ratio between them — including the kind of number that makes the difference feel real (a Sun is roughly a hundred Jupiters across; a Jupiter is roughly eleven Earths; an Earth is roughly four Moons). Sharing the URL of any pairing gives the other person the same view.",
       "swap": "Swap",
       "ratio": "Ratio",
       "timesAsBig": "{b} is {factor}× bigger than {a}",
@@ -163,10 +163,10 @@
       "same": "{a} and {b} are the same size.",
       "oneAbstract": "One side is an idea, not a thing — no ratio possible.",
       "bothAbstract": "Both sides are abstract — no ratio possible.",
-      "chooseA": "Pick a stop",
-      "chooseB": "Pick a stop",
-      "openStopA": "Open stop A",
-      "openStopB": "Open stop B",
+      "chooseA": "Pick an object",
+      "chooseB": "Pick an object",
+      "openStopA": "Open A",
+      "openStopB": "Open B",
       "visualHeading": "Size comparison",
       "drawnToScale": "Drawn to true scale.",
       "tooExtreme": "The size difference is too extreme to render honestly. The numbers below tell the full story.",
@@ -182,7 +182,7 @@
       "timesColder": "{b} is {factor}× cooler than {a}",
       "sameTemperature": "{a} and {b} are at the same temperature.",
       "noData": "One side has no data for this comparison.",
-      "notEnoughStops": "Not enough stops have this data yet — try a different mode."
+      "notEnoughStops": "Not enough objects have this data yet — try a different mode."
     },
     "tempSameInC": "≈ same in °C",
     "numberLocale": "en-US",
@@ -222,12 +222,12 @@
       "yours": "Yours",
       "topicsDesc": "Guided reads: how big is the universe, planet sizes…",
       "glossaryDesc": "Every term explained in a sentence or two",
-      "randomDesc": "Jump to a surprise stop",
-      "compareDesc": "Put any two stops side by side",
+      "randomDesc": "Jump to a surprise topic",
+      "compareDesc": "Put any two objects side by side",
       "scaleDesc": "Shrink Earth to a grain of sand — see the rest",
       "betweenDesc": "Find what fits between two sizes",
-      "favoritesDesc": "Stops you saved with the heart",
-      "progressDesc": "How much of the journey you've seen",
+      "favoritesDesc": "Topics you saved with the heart",
+      "progressDesc": "How much of the site you've seen",
       "categories": "Categories"
     },
     "heroCredit": "Background: Webb's First Deep Field — NASA, ESA, CSA, STScI",
@@ -242,7 +242,7 @@
       "spacecraft": "Spacecraft",
       "qa": "Q&A",
       "sources": "Sources",
-      "journey-map": "Journey map",
+      "journey-map": "On the scales",
       "related": "Related"
     }
   },
@@ -289,20 +289,20 @@
     "MICRO_WORLD.description": "Quarks, atoms, and molecules — the building blocks underneath everything you can see or touch.",
     "HUMAN_MIND.description": "Documented oddities of how a single brain — and a single body — can house more than one self.",
     "ANCIENT_HISTORY.description": "Monuments and mysteries whose construction still resists complete explanation.",
-    "COSMOS.intro": "The universe at every scale beyond the ground beneath your feet — planets, stars, galaxies, and the largest gravitationally bound structures we know how to find. More than half of the stops on Quantumaire live here, because the cosmos is where orders of magnitude start to do real work. The Cosmos category also collects the abstractions that hold it all together: dark matter, dark energy, the cosmic horizon.",
+    "COSMOS.intro": "The universe at every scale beyond the ground beneath your feet — planets, stars, galaxies, and the largest gravitationally bound structures we know how to find. More than half of the topics on Quantumaire live here, because the cosmos is where orders of magnitude start to do real work. The Cosmos category also collects the abstractions that hold it all together: dark matter, dark energy, the cosmic horizon.",
     "MICRO_WORLD.intro": "Everything smaller than the cell. Quarks and gluons inside the proton; the proton inside the atom; the atom inside the DNA helix; the helix inside the virus; the virus, in turn, dwarfed by a bacterium. Each step down this ladder is roughly a thousand times smaller than the last, so the human-scale intuition that 'small things differ by a bit' breaks completely. The micro-world is where you watch that intuition snap.",
-    "HUMAN_MIND.intro": "Phenomena that don't fit on the size axis at all because they're properties of the brain rather than measurable objects. Quantumaire includes one such stop — dissociative identity disorder — to acknowledge that not everything which meaningfully exists has a metre attached to it. The mind belongs on a journey through scale even when it sits outside the ruler.",
-    "ANCIENT_HISTORY.intro": "Structures and artifacts whose engineering still invites careful explanation rather than easy dismissal. The Great Pyramid is the only stop here so far — but at 139 metres, with 2.3 million blocks aligned to the cardinal directions, it sits at exactly the right scale to bridge the human and the planetary.",
+    "HUMAN_MIND.intro": "Phenomena that don't fit on the size axis at all because they're properties of the brain rather than measurable objects. Quantumaire includes one such topic — dissociative identity disorder — to acknowledge that not everything which meaningfully exists has a metre attached to it. The mind belongs in a tour of scale even when it sits outside the ruler.",
+    "ANCIENT_HISTORY.intro": "Structures and artifacts whose engineering still invites careful explanation rather than easy dismissal. The Great Pyramid is the only topic here so far — but at 139 metres, with 2.3 million blocks aligned to the cardinal directions, it sits at exactly the right scale to bridge the human and the planetary.",
     "EARTH": "Life & Earth",
     "PHYSICS": "Forces & Spacetime",
     "EARTH.description": "Living things and landscapes on our own planet — from a half-millimetre water bear to the blue whale and the roof of the world.",
-    "PHYSICS.description": "Gravity, time, ripples in spacetime and quantum links — the rules that every object on the journey has to obey.",
-    "EARTH.intro": "The stretch of the scale you can actually touch. Life on Earth spans more than seven orders of magnitude — from a tardigrade you'd need a microscope to see, through a human being, to a blue whale longer than a basketball court — and the planet's own surface adds Mount Everest, almost nine kilometres of rock folded upward by colliding continents. These stops anchor the cosmic numbers to things you already have a feel for.",
-    "PHYSICS.intro": "Not objects but the rules behind them. Gravity, the weakest force, still decides the shape of everything from planets to galaxy clusters; time itself runs at different speeds depending on how fast you move and how deep you sit in a gravity well; spacetime can ripple, and on paper it can even fold into a wormhole. These stops have no size you could put on a ruler — what they have is reach: every other stop on the journey obeys them."
+    "PHYSICS.description": "Gravity, time, ripples in spacetime and quantum links — the rules that every object on the site has to obey.",
+    "EARTH.intro": "The stretch of the scale you can actually touch. Life on Earth spans more than seven orders of magnitude — from a tardigrade you'd need a microscope to see, through a human being, to a blue whale longer than a basketball court — and the planet's own surface adds Mount Everest, almost nine kilometres of rock folded upward by colliding continents. These topics anchor the cosmic numbers to things you already have a feel for.",
+    "PHYSICS.intro": "Not objects but the rules behind them. Gravity, the weakest force, still decides the shape of everything from planets to galaxy clusters; time itself runs at different speeds depending on how fast you move and how deep you sit in a gravity well; spacetime can ripple, and on paper it can even fold into a wormhole. These topics have no size you could put on a ruler — what they have is reach: everything else on the site obeys them."
   },
   "comparison": {
     "title": "From quark to the observable universe",
-    "subtitle": "Every stop with a measurable size, on a true logarithmic scale spanning more than 60 orders of magnitude — then browse them all by category below.",
+    "subtitle": "Every object with a measurable size, on a true logarithmic scale spanning more than 60 orders of magnitude — then browse them all by category below.",
     "equal": "About the size of a grain of sand.",
     "times": "{factor}× a grain of sand",
     "fraction": "1 / {factor} of a grain of sand",
@@ -488,8 +488,8 @@
     },
     "earth": {
       "name": "Earth",
-      "tagline": "Our home planet — and this journey's reference grain of sand.",
-      "body": "If we shrink Earth down to a single 0.5 mm grain of sand, every other size in this journey changes by the same factor. At that scale the Sun is a billiard ball about six metres away, the Moon is a smaller speck just 1.5 cm from Earth, and the Milky Way spans about 40 million kilometres — a hundred real Earth–Moon distances. The trick is letting your sense of scale stretch.",
+      "tagline": "Our home planet — and Quantumaire's reference grain of sand.",
+      "body": "If we shrink Earth down to a single 0.5 mm grain of sand, every other size on this site changes by the same factor. At that scale the Sun is a billiard ball about six metres away, the Moon is a smaller speck just 1.5 cm from Earth, and the Milky Way spans about 40 million kilometres — a hundred real Earth–Moon distances. The trick is letting your sense of scale stretch.",
       "narrative": "Quantumaire's anchor: if Earth were a single grain of sand, the Moon would be a smaller speck about 1.5 cm away, and the Sun would be a billiard ball roughly 6 metres off.",
       "massNarrative": "Earth weighs about a 6 followed by 21 zeros — in tonnes. Compress that into a peanut and you'd have a black hole.",
       "funFact": "Earth's day is slowly getting longer. When the first dinosaurs walked the planet, a day was less than 23 hours long; in a billion years it'll be over 25 hours.",
@@ -1276,11 +1276,11 @@
   "about": {
     "title": "About Quantumaire",
     "tagline": "A small, careful map of everything.",
-    "intro": "Quantumaire is an interactive educational journey from the smallest known particles to the largest structures in the observable universe. The premise is simple: most explanations of scale either over-simplify (planets compared to fruit) or over-complicate (raw scientific notation with no anchor). We try for a third way — one reference object, one clear gradient of confidence, and an honest label on every claim.",
+    "intro": "Quantumaire is an interactive educational tour of scale from the smallest known particles to the largest structures in the observable universe. The premise is simple: most explanations of scale either over-simplify (planets compared to fruit) or over-complicate (raw scientific notation with no anchor). We try for a third way — one reference object, one clear gradient of confidence, and an honest label on every claim.",
     "scaleHeading": "Earth as a grain of sand",
-    "scaleBody": "Every length on the journey is rescaled to a single 0.5 mm grain of sand standing in for Earth. At that scale the Sun is a billiard ball about six metres away. The Moon is a smaller speck about 1.5 cm from Earth. UY Scuti — one of the largest known stars — becomes a ball roughly as tall as a fifteen-storey building. The Milky Way at the same scale spans about a hundred real Earth-Moon distances. This is the only mental conversion you need to do; we handle the rest.",
+    "scaleBody": "Every length on this site is rescaled to a single 0.5 mm grain of sand standing in for Earth. At that scale the Sun is a billiard ball about six metres away. The Moon is a smaller speck about 1.5 cm from Earth. UY Scuti — one of the largest known stars — becomes a ball roughly as tall as a fifteen-storey building. The Milky Way at the same scale spans about a hundred real Earth-Moon distances. This is the only mental conversion you need to do; we handle the rest.",
     "badgesHeading": "How we label confidence",
-    "badgesIntro": "Not every claim in science carries the same weight. A measurement is not a theory; a theory is not a hunch. Every stop on Quantumaire wears one of four badges so you always know what you are reading.",
+    "badgesIntro": "Not every claim in science carries the same weight. A measurement is not a theory; a theory is not a hunch. Every topic on Quantumaire wears one of four badges so you always know what you are reading.",
     "badgeFactBody": "Directly measured or directly observed. Atoms exist. The Sun fuses hydrogen. Earth is round. We may refine the precision, but the existence of the thing is not in question.",
     "badgeEstablishedBody": "A well-tested theoretical framework that fits the evidence we have. Special relativity. The Big Bang. The size of the observable universe. Open to refinement, but supported by enormous, convergent observational data.",
     "badgeProbableBody": "Our current best explanation for something real that we have not yet fully pinned down. Dark matter is a clear example: we can map it through gravitational lensing, but we don't know what particle it is made of.",
@@ -1292,9 +1292,9 @@
     "imageAlt": "Stylised cosmic diagram showing the spectrum of confidence from fact to speculation."
   },
   "topicsIndex": {
-    "title": "Topics",
-    "tagline": "Concept pages that contextualise the specific stops on the journey.",
-    "intro": "Where a stop tells you about a specific object — UY Scuti, the Moon, the supermassive black hole at our galactic centre — a topic tells you about the class. What stars are. How planets form. Why black holes have an event horizon. Read a topic when you want context for several stops at once, or when you want the broader picture before zooming in to a single one."
+    "title": "Guides",
+    "tagline": "Concept pages that put the individual objects on Quantumaire in context.",
+    "intro": "Where an object page tells you about a specific object — UY Scuti, the Moon, the supermassive black hole at our galactic centre — a concept page tells you about the class. What stars are. How planets form. Why black holes have an event horizon. Read one when you want context for several objects at once, or when you want the broader picture before zooming in to a single one."
   },
   "topics": {
     "stars": {
@@ -1457,7 +1457,7 @@
       "section2Heading": "Atoms and their nuclei",
       "section2Body": "Atoms are where chemistry lives. They range from about 0.1 nm across for hydrogen to around half a nanometre for the largest — so somewhere between half a million and a million atoms side by side would span the thickness of a human hair. Almost all of an atom is empty space. Its nucleus is 10,000 to 100,000 times smaller than the atom itself: blow an atom up to the size of a football stadium and the nucleus would be about the size of a pea on the centre spot, holding more than 99.9% of the mass. The nucleus is made of protons and neutrons. A proton's charge radius is about 0.84 femtometres (0.84 × 10⁻¹⁵ m), making it about 1.7 fm across. Even that figure took effort: in 2010, measurements using muonic hydrogen gave a value about 4% smaller than the older accepted one, the so-called proton radius puzzle. Later experiments have mostly converged on the smaller value. Note that a proton has no hard surface; its \"size\" is the extent of its electric charge, which fades out gradually.",
       "section3Heading": "Quarks and electrons: as small as we can measure",
-      "section3Body": "Protons and neutrons are each made of three quarks, and atoms are completed by electrons. As far as anyone can tell, both quarks and electrons are point particles: they show no internal structure and no measurable size. That is not the same as proving their size is zero — it means every experiment so far has come up empty. At the HERA electron–proton collider in Hamburg, the ZEUS experiment set an upper limit of 0.43 × 10⁻¹⁸ m on the radius of a quark (published 2016), about 2,000 times smaller than a proton's radius. Electrons have been tested to similar or finer levels without any sign of structure. On this site, the quark stop's figure of 10⁻¹⁸ m is such an upper bound, not a measured diameter. If you measure smallness by mass instead, the champions are neutrinos: the KATRIN experiment has shown that a neutrino weighs less than 0.45 eV, under a millionth of an electron's mass. Photons and gluons have no mass at all.",
+      "section3Body": "Protons and neutrons are each made of three quarks, and atoms are completed by electrons. As far as anyone can tell, both quarks and electrons are point particles: they show no internal structure and no measurable size. That is not the same as proving their size is zero — it means every experiment so far has come up empty. At the HERA electron–proton collider in Hamburg, the ZEUS experiment set an upper limit of 0.43 × 10⁻¹⁸ m on the radius of a quark (published 2016), about 2,000 times smaller than a proton's radius. Electrons have been tested to similar or finer levels without any sign of structure. On this site, the quark page's figure of 10⁻¹⁸ m is such an upper bound, not a measured diameter. If you measure smallness by mass instead, the champions are neutrinos: the KATRIN experiment has shown that a neutrino weighs less than 0.45 eV, under a millionth of an electron's mass. Photons and gluons have no mass at all.",
       "section4Heading": "The Planck length: a limit of theory, not a pixel",
       "section4Body": "The Planck length, about 1.6 × 10⁻³⁵ m, is built from three constants of nature: the speed of light, the gravitational constant and Planck's constant. It is about 10²⁰ times smaller than a proton — roughly as much smaller than a proton as Earth is smaller than the observable universe. Physicists expect that at around this scale the quantum effects of gravity become important, and that general relativity and quantum mechanics, as we currently write them, stop giving trustworthy answers. It is often described as the \"pixel size\" of the universe or the smallest length that can exist. That claim goes beyond the evidence. No experiment has shown that space is grainy; some approaches to quantum gravity, such as loop quantum gravity, suggest a discrete structure near this scale, while others do not. Observations of distant gamma-ray bursts have searched for the tiny differences in the speed of light that the simplest grainy-space models predict, and so far have ruled several of them out. Our most powerful colliders probe distances down to roughly 10⁻¹⁹ m — still several million billion times larger than the Planck length.",
       "section5Heading": "How we measure the very small",
@@ -1468,7 +1468,7 @@
       "tagline": "The biggest star, black hole, galaxy and cosmic structure — with honest error bars.",
       "intro": "\"Largest\" is a slippery word in astronomy. Stars have fuzzy edges, black-hole masses are inferred indirectly, galaxies fade gradually into darkness, and some of the biggest claimed structures may be partly patterns in noise. So instead of one confident record per category, here are the leading contenders and how sure we are about each. Climbing from stars to the cosmic web, every step is roughly a thousand to a million times bigger than the one before.",
       "section1Heading": "The largest stars",
-      "section1Body": "The biggest stars are red supergiants and hypergiants — swollen, cool stars near the end of their lives. Their sizes are calculated from brightness and temperature, and brightness depends on distance, so estimates shift a lot. UY Scuti, once listed at about 1,700 times the Sun's radius, was revised down to roughly 900 after the Gaia mission improved its distance; it is the largest star on this journey, but no longer a record holder. Current leading candidates include Stephenson 2-18, estimated at around 1,800 solar radii with error bars of several hundred and some doubt about its distance; WOH G64 in the Large Magellanic Cloud, about 1,500; VY Canis Majoris, about 1,400; and RW Cephei, about 1,100. Placed where the Sun is, VY Canis Majoris would swallow the orbit of Jupiter, and even UY Scuti would reach past Mars into the asteroid belt. Size is not mass: these puffed-up giants weigh only around 7 to 40 Suns. The most massive star known, R136a1, has roughly 200 solar masses but is only a few dozen times wider than the Sun.",
+      "section1Body": "The biggest stars are red supergiants and hypergiants — swollen, cool stars near the end of their lives. Their sizes are calculated from brightness and temperature, and brightness depends on distance, so estimates shift a lot. UY Scuti, once listed at about 1,700 times the Sun's radius, was revised down to roughly 900 after the Gaia mission improved its distance; it is the largest star on this site, but no longer a record holder. Current leading candidates include Stephenson 2-18, estimated at around 1,800 solar radii with error bars of several hundred and some doubt about its distance; WOH G64 in the Large Magellanic Cloud, about 1,500; VY Canis Majoris, about 1,400; and RW Cephei, about 1,100. Placed where the Sun is, VY Canis Majoris would swallow the orbit of Jupiter, and even UY Scuti would reach past Mars into the asteroid belt. Size is not mass: these puffed-up giants weigh only around 7 to 40 Suns. The most massive star known, R136a1, has roughly 200 solar masses but is only a few dozen times wider than the Sun.",
       "section2Heading": "The largest black holes",
       "section2Body": "A black hole's size — the width of its event horizon — grows in direct proportion to its mass, so the biggest black holes are the heaviest. TON 618, a quasar whose light has travelled about 10.8 billion years, is estimated at around 40 billion solar masses (older estimates said 66 billion), giving an event horizon about 1,600 astronomical units across — some 20 times the width of Pluto's orbit. That mass comes from the speed of gas around the black hole, a method uncertain by a factor of two or three. The black hole in Holmberg 15A, the central galaxy of the cluster Abell 85, was weighed at about 40 billion solar masses from the motions of its stars, a more direct method. Phoenix-A's estimates range from a few billion to about 100 billion solar masses; this site uses about 25 billion. For comparison, M87*, the first black hole ever imaged, is about 6.5 billion solar masses, and Sagittarius A* at the centre of our galaxy about 4 million. Some theorists argue that black holes fed by glowing accretion disks struggle to grow past about 50 billion solar masses, which would put TON 618 near a natural ceiling.",
       "section3Heading": "The largest galaxies",
@@ -1483,7 +1483,7 @@
   },
   "topicView": {
     "intro": "Overview",
-    "relatedStops": "Related stops",
+    "relatedStops": "Related",
     "sourcesHeading": "Sources"
   },
   "glossary": {
@@ -1842,7 +1842,7 @@
   },
   "faq": {
     "category": {
-      "included": "What stops are in the {category} category?",
+      "included": "What topics are in the {category} category?",
       "smallest": "What is the smallest object in {category}?",
       "largest": "What is the largest object in {category}?"
     }
@@ -1850,15 +1850,15 @@
   "sizeFaq": {
     "heading": "{Name}: quick answers",
     "q1": "How big is {name}?",
-    "a1": "{Name} measures about {size} (≈ {sci} m). On Quantumaire's journey from the quark to the observable universe, it ranks {rank} of {total} by size.",
+    "a1": "{Name} measures about {size} (≈ {sci} m). On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size.",
     "q2": "How big is {name} compared to a human?",
     "a2bigger": "{Name} is roughly {ratio} times bigger than a 1.7 m human.",
     "a2smaller": "A 1.7 m human is roughly {ratio} times bigger than {name}.",
     "q3": "What is just smaller and just bigger than {name}?",
     "a3smaller": "One step down is {other} ({otherSize}), about {ratio} times smaller.",
     "a3larger": "One step up is {other} ({otherSize}), about {ratio} times bigger.",
-    "a3smallest": "{Name} is the smallest stop on the journey.",
-    "a3largest": "{Name} is the largest stop on the journey — nothing we can observe is bigger.",
+    "a3smallest": "{Name} is the smallest thing on Quantumaire's scale.",
+    "a3largest": "{Name} is the largest thing on Quantumaire's scale — nothing we can observe is bigger.",
     "q4": "If Earth were a grain of sand, how big would {name} be?",
     "a4": "Shrink Earth to a 0.5 mm grain of sand and {name} shrinks to about {grain}.",
     "q5": "How certain is what we know about {name}?",
@@ -1914,7 +1914,8 @@
     "category": "{category} — Sizes, Facts & Comparisons",
     "compareDescription": "Compare any two things in the universe — from a quark to the observable universe — by size, distance or temperature, and see exactly how many times bigger one is.",
     "topicsDescription": "Plain-English guides to the universe: how big it is, planet sizes compared, the smallest and largest things that exist, stars, black holes, the Big Bang and more.",
-    "glossaryDescription": "{count} space and physics terms explained in plain English — from quarks, gluons and event horizons to redshift, light-years and dark energy."
+    "glossaryDescription": "{count} space and physics terms explained in plain English — from quarks, gluons and event horizons to redshift, light-years and dark energy.",
+    "topicsTitle": "Guides to the Universe: Size, Scale & Space Explained"
   },
   "spacecraft": {
     "heading": "How fast are our spacecraft?",

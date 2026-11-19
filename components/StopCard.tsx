@@ -28,7 +28,7 @@ export function StopCard({ stop, index }: StopCardProps) {
     <motion.article
       initial={{ opacity: 0, y: 16 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.1, margin: "0px 0px -10% 0px" }}
+      viewport={{ once: true, amount: 0 }}
       transition={{ duration: 0.3, ease: "easeOut", delay: (index % 6) * 0.02 }}
       className={clsx(
         "group relative flex h-full flex-col overflow-hidden rounded-3xl border border-white/10",

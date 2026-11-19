@@ -54,15 +54,32 @@ export function getStop(id: string): Stop | undefined {
   return STOPS.find((s) => s.id === id);
 }
 
+/**
+ * Reading order for previous/next: every topic with a size, smallest to
+ * largest, then the size-less ideas grouped by category. (The `order`
+ * field slots ideas between objects, which made "next" jump from Atom to
+ * Quantum entanglement to DNA.)
+ */
+export const NAV_ORDER: Stop[] = (() => {
+  const sized = STOPS.filter((s) => s.sizeMeters !== null && s.sizeMeters > 0)
+    .slice()
+    .sort((a, b) => (a.sizeMeters as number) - (b.sizeMeters as number));
+  const rank = (c: Category) => CATEGORIES.indexOf(c);
+  const ideas = STOPS.filter((s) => !(s.sizeMeters !== null && s.sizeMeters > 0))
+    .slice()
+    .sort((a, b) => rank(a.category) - rank(b.category) || a.order - b.order);
+  return [...sized, ...ideas];
+})();
+
 export function getNeighbors(id: string): {
   prev: Stop | null;
   next: Stop | null;
 } {
-  const idx = STOPS.findIndex((s) => s.id === id);
+  const idx = NAV_ORDER.findIndex((s) => s.id === id);
   if (idx === -1) return { prev: null, next: null };
   return {
-    prev: idx > 0 ? STOPS[idx - 1] : null,
-    next: idx < STOPS.length - 1 ? STOPS[idx + 1] : null,
+    prev: idx > 0 ? NAV_ORDER[idx - 1] : null,
+    next: idx < NAV_ORDER.length - 1 ? NAV_ORDER[idx + 1] : null,
   };
 }
 

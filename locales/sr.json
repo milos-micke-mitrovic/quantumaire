@@ -2,11 +2,11 @@
   "common": {
     "title": "Quantumaire",
     "tagline": "Od najmanje iskre do ivice svega.",
-    "subtagline": "Vođeno putovanje kroz više od 60 redova veličine — od Plankove dužine do vidljivog svemira — gde svaka stanica nosi iskreno označen status istine.",
+    "subtagline": "Vođeno putovanje kroz više od 60 redova veličine — od Plankove dužine do vidljivog svemira — gde svaka tema nosi iskreno označen status istine.",
     "begin": "Započni putovanje",
     "back": "Nazad",
-    "next": "Sledeća stanica",
-    "prev": "Prethodna stanica",
+    "next": "Sledeće",
+    "prev": "Prethodno",
     "scale": "Razmera",
     "category": "Kategorija",
     "badge": "Pouzdanost",
@@ -17,8 +17,8 @@
     "unitImperial": "Imperijalne (mi)",
     "unitMetricShort": "km",
     "unitImperialShort": "mi",
-    "openStop": "Otvori stanicu",
-    "returnHome": "Nazad na putovanje",
+    "openStop": "Otvori",
+    "returnHome": "Nazad na skalu",
     "moreSoon": "Još za istražiti",
     "here": "Ovde",
     "scaleLegend": "Stvarna logaritamska skala, od najmanjeg do najvećeg — dodirni tačku ili koristi ← →.",
@@ -42,16 +42,16 @@
     "viewByTemperature": "Po temperaturi",
     "temperatureLegend": "Stvarna logaritamska skala, od najhladnijeg do najtoplijeg — dodirni tačku ili koristi ← →.",
     "journeyMinimap": {
-      "heading": "Gde se ova stanica nalazi na svakom putovanju",
+      "heading": "Gde se nalazi na svakoj skali",
       "youAreHere": "Vi ste ovde"
     },
     "abstract": "apstraktno",
-    "footer": "Svaka stanica nosi oznaku iskrenosti — Činjenica, Utvrđena teorija, Verovatna teorija ili Spekulacija — da uvek znaš koliko je nauka sigurna.",
+    "footer": "Svaka tema nosi oznaku iskrenosti — Činjenica, Utvrđena teorija, Verovatna teorija ili Spekulacija — da uvek znaš koliko je nauka sigurna.",
     "glossary": "Rečnik pojmova",
     "about": "O projektu",
-    "relatedStops": "Povezane stanice",
+    "relatedStops": "Povezano",
     "exploreCategory": "Istraži {category}",
-    "stopsInCategory": "Stanica: {count}",
+    "stopsInCategory": "Tema: {count}",
     "quickFacts": "Ključne činjenice",
     "sources": "Izvori",
     "openExternal": "Otvori u novom tabu",
@@ -63,31 +63,31 @@
     "notFound": {
       "label": "404",
       "title": "Izgubljeni u praznini",
-      "body": "Stranica koju ste tražili je negde iza našeg kosmičkog horizonta. Vratite se na putovanje.",
-      "home": "Nazad na putovanje"
+      "body": "Stranica koju ste tražili je negde iza našeg kosmičkog horizonta. Vratite se na skalu.",
+      "home": "Nazad na skalu"
     },
     "glossaryPage": {
       "title": "Rečnik pojmova",
-      "tagline": "Pojmova korišćenih kroz putovanje: {count} — svi definisani na jednom mestu.",
-      "intro": "Svaka stručna reč koju koristimo kroz putovanje živi ovde, poređana po abecedi i pretraživa. Svaka stranica stanice povezuje šačicu pojmova najvažnijih baš za nju — ali ako ste naišli na nešto nepoznato čitajući bilo koju stanicu, ovo je strana za sletanje. Definicije su namerno kratke; radije biste pročitali tri kraće nego prelistali jednu dugu.",
+      "tagline": "Pojmova korišćenih na sajtu: {count} — svi definisani na jednom mestu.",
+      "intro": "Svaka stručna reč koju koristimo na sajtu živi ovde, poređana po abecedi i pretraživa. Svaka stranica teme povezuje šačicu pojmova najvažnijih baš za nju — ali ako ste naišli na nešto nepoznato čitajući bilo koju stranicu, ovo je strana za sletanje. Definicije su namerno kratke; radije biste pročitali tri kraće nego prelistali jednu dugu.",
       "filterPlaceholder": "Filtriraj pojmove…"
     },
     "tools": "Alati",
     "scaleTool": {
       "title": "Kalkulator razmere",
-      "tagline": "Unesi bilo koju dužinu. Vidi je smanjenu na našu referencu — zrno peska — uz najbližu Quantumaire stanicu.",
-      "intro": "Celo Quantumaire putovanje počiva na jednom triku: smanji Zemlju na jedno zrno peska od 0,5 mm, pa sve ostalo smanji istim faktorom. Ova strana radi taj račun za bilo koju dužinu koju ukucate — bakteriju, grad, udaljenost do Jupitera, bilo šta. Rezultat vam govori i ekvivalent u razmeri zrna peska i koja je stanica na putovanju njoj najbliža.",
+      "tagline": "Unesi bilo koju dužinu. Vidi je smanjenu na našu referencu — zrno peska — uz najbližu Quantumaire temu.",
+      "intro": "Cela Quantumaire skala počiva na jednom triku: smanji Zemlju na jedno zrno peska od 0,5 mm, pa sve ostalo smanji istim faktorom. Ova strana radi taj račun za bilo koju dužinu koju ukucate — bakteriju, grad, udaljenost do Jupitera, bilo šta. Rezultat vam govori i ekvivalent u razmeri zrna peska i koja je tema na sajtu njoj najbliža.",
       "inputLabel": "Dužina",
       "unitLabel": "Jedinica",
       "yourValue": "Tvoja vrednost",
       "asGrainScale": "Smanjena na razmeru zrna peska",
-      "nearestStop": "Najbliža stanica",
-      "noNearest": "Nema bliske stanice — probaj drugu veličinu."
+      "nearestStop": "Najbliža tema",
+      "noNearest": "Nema bliske teme — probaj drugu veličinu."
     },
     "loading": "Učitavanje…",
     "error": {
       "title": "Nešto je proklizalo iza horizonta",
-      "body": "Neočekivana greška je zaustavila prikaz stranice. Možete pokušati ponovo ili se vratiti na putovanje.",
+      "body": "Neočekivana greška je zaustavila prikaz stranice. Možete pokušati ponovo ili se vratiti na skalu.",
       "retry": "Pokušaj ponovo"
     },
     "filter": "Filter",
@@ -109,36 +109,36 @@
     "bookmarkAdd": "Sačuvaj u omiljene",
     "bookmarkRemove": "Ukloni iz omiljenih",
     "bookmarksTitle": "Omiljene",
-    "bookmarksTagline": "Stanice koje si sačuvao za kasnije.",
-    "bookmarksEmpty": "Još nisi sačuvao nijednu stanicu. Otvori stanicu i dodirni srce da je dodaš ovde.",
+    "bookmarksTagline": "Teme koje si sačuvao za kasnije.",
+    "bookmarksEmpty": "Još nisi sačuvao nijednu temu. Otvori neku i dodirni srce da je dodaš ovde.",
     "betweenTool": {
       "title": "Šta je između?",
-      "tagline": "Izaberi dve stanice i vidi sve objekte koji po veličini staju između njih.",
+      "tagline": "Izaberi dva objekta i vidi sve objekte koji po veličini staju između njih.",
       "from": "Od",
       "to": "Do",
-      "foundCount": "Stanica u ovom opsegu: {count}"
+      "foundCount": "Objekata u ovom opsegu: {count}"
     },
-    "random": "Slučajna stanica",
+    "random": "Nasumična tema",
     "skipToContent": "Preskoči na glavni sadržaj",
     "backToTop": "Nazad na vrh",
     "breadcrumb": "Putanja navigacije",
-    "stopNavigation": "Navigacija stanica",
+    "stopNavigation": "Navigacija stranica",
     "ratio": "odnos",
     "progress": {
-      "title": "Vaše putovanje",
-      "tagline": "Posećeno {count} od {total} stanica.",
-      "intro": "Quantumaire-ovo putovanje ima trideset stanica. Ova strana prati koje ste otvorili, čuvajući to lokalno na ovom uređaju — bez naloga, bez servera, bez praćenja između sajtova. Tu je da vidite šta vam je još pred sobom, skočite pravo na nasumičnu stanicu koju još niste posetili i (ako poželite) krenete iznova sa čistim brojem.",
-      "complete": "Putovanje završeno — svaka stanica otvorena. Dobrodošli u klub.",
-      "empty": "Još niste otvorili nijednu stanicu. Izaberite jednu i putovanje počinje.",
+      "title": "Tvoj napredak",
+      "tagline": "Posećeno tema: {count} od {total}.",
+      "intro": "Ova strana prati koje ste teme na Quantumaire-u otvorili, čuvajući to lokalno na ovom uređaju — bez naloga, bez servera, bez praćenja između sajtova. Tu je da vidite šta vam je još pred sobom, skočite pravo na nasumičnu temu koju još niste posetili i (ako poželite) krenete iznova sa čistim brojem.",
+      "complete": "Sve pređeno — svaka tema otvorena. Dobrodošli u klub.",
+      "empty": "Još niste otvorili nijednu temu. Izaberite jednu i krenite.",
       "categoryBreakdown": "Po kategoriji",
       "remaining": "Preostalo za posetiti",
-      "openRandom": "Otvori slučajnu neposećenu stanicu"
+      "openRandom": "Otvori slučajnu neposećenu temu"
     },
     "visited": {
       "marker": "Posećeno",
       "count": "{count} / {total} posećeno",
       "reset": "Resetuj napredak",
-      "confirmReset": "Zaboraviti koje stanice ste posetili? Ovo utiče samo na ovaj uređaj."
+      "confirmReset": "Zaboraviti koje teme ste posetili? Ovo utiče samo na ovaj uređaj."
     },
     "compare": "Uporedi",
     "shortcuts": {
@@ -147,15 +147,15 @@
       "searchOpen": "Otvori pretragu",
       "searchNav": "Pomeranje gore / dole u rezultatima",
       "searchSelect": "Otvori izabrani rezultat",
-      "stopNav": "Prethodna / sledeća stanica",
-      "randomStop": "Slučajna stanica",
+      "stopNav": "Prethodno / sledeće",
+      "randomStop": "Nasumična tema",
       "closeOverlay": "Zatvori prekrivač",
       "showHelp": "Prikaži ovu pomoć"
     },
     "comparePage": {
-      "title": "Uporedi dve stanice",
+      "title": "Uporedi dva objekta",
       "tagline": "Izaberi bilo koje dve i vidi odnos između njih.",
-      "intro": "Slajderi putovanja vam daju ceo raspon odjednom; ova strana je za to da dve konkretne stvari postavite jednu uz drugu. Izaberite bilo koje dve stanice sa konkretnim veličinama i dobićete tačan odnos između njih — uključujući brojeve koji razliku čine stvarnom (Sunce je otprilike sto Jupitera u prečniku; Jupiter otprilike jedanaest Zemalja; Zemlja otprilike četiri Meseca). Deljenjem URL-a bilo kog para, ista poređenja vidi i sagovornik.",
+      "intro": "Slajderi skale vam daju ceo raspon odjednom; ova strana je za to da dve konkretne stvari postavite jednu uz drugu. Izaberite bilo koja dva objekta sa konkretnim veličinama i dobićete tačan odnos između njih — uključujući brojeve koji razliku čine stvarnom (Sunce je otprilike sto Jupitera u prečniku; Jupiter otprilike jedanaest Zemalja; Zemlja otprilike četiri Meseca). Deljenjem URL-a bilo kog para, ista poređenja vidi i sagovornik.",
       "swap": "Zameni",
       "ratio": "Odnos",
       "timesAsBig": "{b} je {factor}× veće od {a}",
@@ -163,10 +163,10 @@
       "same": "{a} i {b} su iste veličine.",
       "oneAbstract": "Jedna strana je ideja, ne stvar — odnos nije moguć.",
       "bothAbstract": "Obe strane su apstraktne — odnos nije moguć.",
-      "chooseA": "Izaberi stanicu",
-      "chooseB": "Izaberi stanicu",
-      "openStopA": "Otvori stanicu A",
-      "openStopB": "Otvori stanicu B",
+      "chooseA": "Izaberi objekat",
+      "chooseB": "Izaberi objekat",
+      "openStopA": "Otvori A",
+      "openStopB": "Otvori B",
       "visualHeading": "Vizuelno poređenje",
       "drawnToScale": "Prikazano u pravoj razmeri.",
       "tooExtreme": "Razlika u veličini je previše ekstremna da bi se iskreno prikazala. Brojevi ispod govore celu priču.",
@@ -182,7 +182,7 @@
       "timesColder": "{b} je {factor}× hladnije od {a}",
       "sameTemperature": "{a} i {b} su na istoj temperaturi.",
       "noData": "Jedna strana nema podatke za ovo poređenje.",
-      "notEnoughStops": "Premalo stanica ima ovaj podatak — probaj drugi režim poređenja."
+      "notEnoughStops": "Premalo objekata ima ovaj podatak — probaj drugi režim poređenja."
     },
     "tempSameInC": "≈ isto u °C",
     "numberLocale": "sr-Latn-RS",
@@ -222,12 +222,12 @@
       "yours": "Tvoje",
       "topicsDesc": "Vođena čitanja: koliki je svemir, veličine planeta…",
       "glossaryDesc": "Svaki pojam objašnjen u rečenici-dve",
-      "randomDesc": "Skoči na nasumičnu stanicu",
-      "compareDesc": "Uporedi bilo koje dve stanice",
+      "randomDesc": "Skoči na nasumičnu temu",
+      "compareDesc": "Uporedi bilo koja dva objekta",
       "scaleDesc": "Smanji Zemlju na zrno peska — vidi ostalo",
       "betweenDesc": "Pronađi šta staje između dve veličine",
-      "favoritesDesc": "Stanice koje si sačuvao srcem",
-      "progressDesc": "Koliki deo putovanja si video",
+      "favoritesDesc": "Teme koje si sačuvao srcem",
+      "progressDesc": "Koliki deo sajta si video",
       "categories": "Kategorije"
     },
     "heroCredit": "Pozadina: Vebovo prvo duboko polje — NASA, ESA, CSA, STScI",
@@ -242,7 +242,7 @@
       "spacecraft": "Letelice",
       "qa": "Pitanja",
       "sources": "Izvori",
-      "journey-map": "Mapa putovanja",
+      "journey-map": "Na skalama",
       "related": "Povezano"
     }
   },
@@ -289,20 +289,20 @@
     "MICRO_WORLD.description": "Kvarkovi, atomi i molekuli — gradivni blokovi ispod svega što možete videti ili dotaći.",
     "HUMAN_MIND.description": "Dokumentovane neobičnosti kako jedan mozak — i jedno telo — može ugostiti više od jednog ja.",
     "ANCIENT_HISTORY.description": "Spomenici i misterije čija gradnja se i dalje opire potpunom objašnjenju.",
-    "COSMOS.intro": "Svemir na svim razmerama van tla pod vašim nogama — planete, zvezde, galaksije i najveće gravitaciono vezane strukture koje umemo da pronađemo. Više od polovine stanica na Quantumaire-u nalazi se ovde, jer kosmos je tamo gde redovi veličine počinju zaista da nešto znače. Kategorija Kosmos takođe okuplja apstrakcije koje sve to drže na okupu: tamnu materiju, tamnu energiju, kosmički horizont.",
+    "COSMOS.intro": "Svemir na svim razmerama van tla pod vašim nogama — planete, zvezde, galaksije i najveće gravitaciono vezane strukture koje umemo da pronađemo. Više od polovine tema na Quantumaire-u nalazi se ovde, jer kosmos je tamo gde redovi veličine počinju zaista da nešto znače. Kategorija Kosmos takođe okuplja apstrakcije koje sve to drže na okupu: tamnu materiju, tamnu energiju, kosmički horizont.",
     "MICRO_WORLD.intro": "Sve manje od ćelije. Kvarkovi i gluoni unutar protona; proton unutar atoma; atom unutar DNK heliksa; heliks unutar virusa; virus, sa svoje strane, patuljast u poređenju sa bakterijom. Svaki korak naniže po ovoj lestvici je otprilike hiljadu puta manji od prethodnog, pa intuicija ljudske razmere da se 'male stvari razlikuju za poneki deo' potpuno puca. Mikrosvet je mesto na kome posmatrate kako se ta intuicija lomi.",
-    "HUMAN_MIND.intro": "Fenomeni koji uopšte ne staju na osu veličine, jer su osobine mozga, a ne mereljivi objekti. Quantumaire uključuje jednu takvu stanicu — disocijativni poremećaj identiteta — da prizna da nije sve što značajno postoji moguće izmeriti metrom. Um pripada putovanju kroz razmeru čak i kada sedi van lenjira.",
-    "ANCIENT_HISTORY.intro": "Građevine i artefakti čija inženjerija i dalje poziva na pažljivo objašnjenje, a ne na olako odbacivanje. Velika piramida je za sada jedina stanica ovde — ali sa 139 metara visine, 2,3 miliona blokova poređanih u skladu sa stranama sveta, ona stoji baš na onoj razmeri koja premošćuje ljudsko i planetarno.",
+    "HUMAN_MIND.intro": "Fenomeni koji uopšte ne staju na osu veličine, jer su osobine mozga, a ne mereljivi objekti. Quantumaire uključuje jednu takvu temu — disocijativni poremećaj identiteta — da prizna da nije sve što značajno postoji moguće izmeriti metrom. Um pripada priči o razmeri čak i kada sedi van lenjira.",
+    "ANCIENT_HISTORY.intro": "Građevine i artefakti čija inženjerija i dalje poziva na pažljivo objašnjenje, a ne na olako odbacivanje. Velika piramida je za sada jedina tema ovde — ali sa 139 metara visine, 2,3 miliona blokova poređanih u skladu sa stranama sveta, ona stoji baš na onoj razmeri koja premošćuje ljudsko i planetarno.",
     "EARTH": "Život i Zemlja",
     "PHYSICS": "Sile i prostor-vreme",
     "EARTH.description": "Živa bića i predeli naše planete — od vodenog medveda od pola milimetra do plavog kita i krova sveta.",
-    "PHYSICS.description": "Gravitacija, vreme, talasi u prostor-vremenu i kvantne veze — pravila kojima se pokorava svaki objekat na ovom putovanju.",
-    "EARTH.intro": "Deo skale koji zaista možete da dodirnete. Život na Zemlji obuhvata više od sedam redova veličine — od tardigrada za koga vam treba mikroskop, preko čoveka, do plavog kita dužeg od košarkaškog terena — a površina planete dodaje Mont Everest, skoro devet kilometara stena koje su sudari kontinenata izgurali naviše. Ove stanice vezuju kosmičke brojeve za stvari koje već osećate.",
-    "PHYSICS.intro": "Ne objekti, već pravila iza njih. Gravitacija, najslabija sila, i dalje određuje oblik svega, od planeta do jata galaksija; samo vreme teče različitom brzinom u zavisnosti od toga koliko se brzo krećete i koliko ste duboko u gravitacionom polju; prostor-vreme može da talasa, a na papiru čak i da se savije u crvotočinu. Ove stanice nemaju veličinu koju biste stavili na lenjir — imaju domet: svaka druga stanica na putovanju im se pokorava."
+    "PHYSICS.description": "Gravitacija, vreme, talasi u prostor-vremenu i kvantne veze — pravila kojima se pokorava svaki objekat na ovom sajtu.",
+    "EARTH.intro": "Deo skale koji zaista možete da dodirnete. Život na Zemlji obuhvata više od sedam redova veličine — od tardigrada za koga vam treba mikroskop, preko čoveka, do plavog kita dužeg od košarkaškog terena — a površina planete dodaje Mont Everest, skoro devet kilometara stena koje su sudari kontinenata izgurali naviše. Ove teme vezuju kosmičke brojeve za stvari koje već osećate.",
+    "PHYSICS.intro": "Ne objekti, već pravila iza njih. Gravitacija, najslabija sila, i dalje određuje oblik svega, od planeta do jata galaksija; samo vreme teče različitom brzinom u zavisnosti od toga koliko se brzo krećete i koliko ste duboko u gravitacionom polju; prostor-vreme može da talasa, a na papiru čak i da se savije u crvotočinu. Ove teme nemaju veličinu koju biste stavili na lenjir — imaju domet: sve ostalo na sajtu im se pokorava."
   },
   "comparison": {
     "title": "Od kvarka do vidljivog svemira",
-    "subtitle": "Sve stanice merljive veličine, na pravoj logaritamskoj skali kroz više od 60 redova veličine — a ispod ih pregledaj po kategorijama.",
+    "subtitle": "Svi objekti merljive veličine, na pravoj logaritamskoj skali kroz više od 60 redova veličine — a ispod ih pregledaj po kategorijama.",
     "equal": "Otprilike veličine zrna peska.",
     "times": "{factor}× zrno peska",
     "fraction": "1 / {factor} zrna peska",
@@ -488,8 +488,8 @@
     },
     "earth": {
       "name": "Zemlja",
-      "tagline": "Naša planeta — i referentno zrno peska ovog putovanja.",
-      "body": "Ako Zemlju smanjimo na jedno zrno peska od 0,5 mm, svaka druga veličina na ovom putovanju menja se istim faktorom. U toj razmeri Sunce je bilijarska kugla na oko šest metara udaljenosti, Mesec je manja tačka samo 1,5 cm od Zemlje, a Mlečni put se prostire na oko 40 miliona kilometara — sto stvarnih rastojanja Zemlja–Mesec. Trik je u tome da pustite svoj osećaj za razmeru da se rastegne.",
+      "tagline": "Naša planeta — i Quantumaire-ovo referentno zrno peska.",
+      "body": "Ako Zemlju smanjimo na jedno zrno peska od 0,5 mm, svaka druga veličina na ovom sajtu menja se istim faktorom. U toj razmeri Sunce je bilijarska kugla na oko šest metara udaljenosti, Mesec je manja tačka samo 1,5 cm od Zemlje, a Mlečni put se prostire na oko 40 miliona kilometara — sto stvarnih rastojanja Zemlja–Mesec. Trik je u tome da pustite svoj osećaj za razmeru da se rastegne.",
       "narrative": "Quantumaire-ovo polazište: da je Zemlja zrno peska, Mesec bi bio manja tačka oko 1,5 cm dalje, a Sunce bilijarska kugla udaljena oko 6 metara.",
       "massNarrative": "Zemlja teži oko 6 sa 21 nulom — u tonama. Sabijte to u kikiriki i dobili biste crnu rupu.",
       "funFact": "Zemljin dan se polako produžava. Kada su prvi dinosaurusi hodali planetom, dan je trajao manje od 23 sata; za milijardu godina trajaće preko 25 sati.",
@@ -1276,11 +1276,11 @@
   "about": {
     "title": "O Quantumaire-u",
     "tagline": "Mala, pažljiva mapa svega.",
-    "intro": "Quantumaire je interaktivno obrazovno putovanje od najmanjih poznatih čestica do najvećih struktura u vidljivom svemiru. Premisa je jednostavna: većina objašnjenja razmere ili pojednostavljuje preterano (planete poređene sa voćem) ili komplikuje preterano (sirova naučna notacija bez sidra). Mi pokušavamo treći put — jedan referentni objekat, jedan jasan gradijent pouzdanosti, i iskrena oznaka na svakoj tvrdnji.",
+    "intro": "Quantumaire je interaktivni obrazovni pregled razmera od najmanjih poznatih čestica do najvećih struktura u vidljivom svemiru. Premisa je jednostavna: većina objašnjenja razmere ili pojednostavljuje preterano (planete poređene sa voćem) ili komplikuje preterano (sirova naučna notacija bez sidra). Mi pokušavamo treći put — jedan referentni objekat, jedan jasan gradijent pouzdanosti, i iskrena oznaka na svakoj tvrdnji.",
     "scaleHeading": "Zemlja kao zrno peska",
-    "scaleBody": "Svaka dužina na putovanju je preskalirana na jedno zrno peska od 0,5 mm koje predstavlja Zemlju. U toj razmeri Sunce je bilijarska kugla na oko šest metara udaljenosti. Mesec je manja tačka oko 1,5 cm od Zemlje. UY Scuti — jedna od najvećih poznatih zvezda — postaje lopta otprilike visine zgrade od petnaestak spratova. Mlečni put u istoj razmeri prostire se oko sto stvarnih rastojanja Zemlja–Mesec. Ovo je jedina mentalna konverzija koju treba da uradite; o ostalom brinemo mi.",
+    "scaleBody": "Svaka dužina na sajtu je preskalirana na jedno zrno peska od 0,5 mm koje predstavlja Zemlju. U toj razmeri Sunce je bilijarska kugla na oko šest metara udaljenosti. Mesec je manja tačka oko 1,5 cm od Zemlje. UY Scuti — jedna od najvećih poznatih zvezda — postaje lopta otprilike visine zgrade od petnaestak spratova. Mlečni put u istoj razmeri prostire se oko sto stvarnih rastojanja Zemlja–Mesec. Ovo je jedina mentalna konverzija koju treba da uradite; o ostalom brinemo mi.",
     "badgesHeading": "Kako označavamo pouzdanost",
-    "badgesIntro": "Nemaju sve tvrdnje u nauci istu težinu. Merenje nije teorija; teorija nije nagađanje. Svaka stanica na Quantumaire nosi jednu od četiri oznake, tako da uvek znate šta čitate.",
+    "badgesIntro": "Nemaju sve tvrdnje u nauci istu težinu. Merenje nije teorija; teorija nije nagađanje. Svaka tema na Quantumaire-u nosi jednu od četiri oznake, tako da uvek znate šta čitate.",
     "badgeFactBody": "Direktno izmereno ili direktno posmatrano. Atomi postoje. Sunce vrši fuziju vodonika. Zemlja je okrugla. Možemo poboljšati preciznost, ali postojanje stvari nije pod znakom pitanja.",
     "badgeEstablishedBody": "Dobro provereni teorijski okvir koji se uklapa u dokaze koje imamo. Specijalna relativnost. Veliki prasak. Veličina vidljivog svemira. Otvorena za poboljšanje, ali podržana ogromnom količinom podudarnih posmatračkih dokaza.",
     "badgeProbableBody": "Naše trenutno najbolje objašnjenje za nešto stvarno što još nismo u potpunosti utvrdili. Tamna materija je jasan primer: možemo je mapirati kroz gravitaciono sočivovanje, ali ne znamo od koje je čestice sačinjena.",
@@ -1292,9 +1292,9 @@
     "imageAlt": "Stilizovani kosmički dijagram koji prikazuje spektar pouzdanosti od činjenice do spekulacije."
   },
   "topicsIndex": {
-    "title": "Teme",
-    "tagline": "Pregledne strane koje stavljaju konkretne stanice putovanja u širi kontekst.",
-    "intro": "Tamo gde stanica govori o jednom konkretnom objektu — UY Scuti, Mesec, supermasivna crna rupa u centru naše galaksije — tema govori o klasi. Šta su zvezde. Kako planete nastaju. Zašto crne rupe imaju horizont događaja. Pročitajte temu kada želite kontekst za više stanica odjednom, ili kada želite širu sliku pre nego što se približite jednoj konkretnoj."
+    "title": "Vodiči",
+    "tagline": "Pregledne strane koje pojedinačne objekte na Quantumaire-u stavljaju u širi kontekst.",
+    "intro": "Tamo gde strana objekta govori o jednom konkretnom objektu — UY Scuti, Mesec, supermasivna crna rupa u centru naše galaksije — pregledna strana govori o klasi. Šta su zvezde. Kako planete nastaju. Zašto crne rupe imaju horizont događaja. Pročitajte je kada želite kontekst za više objekata odjednom, ili kada želite širu sliku pre nego što se približite jednoj konkretnoj."
   },
   "topics": {
     "stars": {
@@ -1457,7 +1457,7 @@
       "section2Heading": "Atomi i njihova jezgra",
       "section2Body": "Atomi su mesto gde živi hemija. Kreću se od oko 0,1 nm u prečniku za vodonik do oko pola nanometra za najveće — pa bi negde između pola miliona i milion atoma poređanih jedan do drugog premostilo debljinu ljudske vlasi. Gotovo ceo atom je prazan prostor. Njegovo jezgro je od 10.000 do 100.000 puta manje od samog atoma: uvećajte atom do veličine fudbalskog stadiona i jezgro bi bilo otprilike veličine zrna graška na centru terena, sa više od 99,9% mase. Jezgro čine protoni i neutroni. Poluprečnik naelektrisanja protona iznosi oko 0,84 femtometra (0,84 × 10⁻¹⁵ m), pa je proton širok oko 1,7 fm. Čak je i ta vrednost zahtevala trud: 2010. godine merenja na mionskom vodoniku dala su vrednost oko 4% manju od ranije prihvaćene — takozvana zagonetka poluprečnika protona. Kasniji eksperimenti uglavnom su se složili oko manje vrednosti. Imajte na umu da proton nema tvrdu površinu; njegova „veličina” je oblast kroz koju se prostire njegovo električno naelektrisanje, koje postepeno slabi.",
       "section3Heading": "Kvarkovi i elektroni: najmanje što možemo da izmerimo",
-      "section3Body": "Protoni i neutroni sastoje se od po tri kvarka, a atome upotpunjuju elektroni. Koliko iko može da kaže, i kvarkovi i elektroni su tačkaste čestice: ne pokazuju unutrašnju strukturu ni merljivu veličinu. To nije isto što i dokaz da im je veličina nula — znači samo da nijedan dosadašnji eksperiment nije ništa pronašao. Na sudaraču elektrona i protona HERA u Hamburgu, eksperiment ZEUS postavio je gornju granicu od 0,43 × 10⁻¹⁸ m za poluprečnik kvarka (objavljeno 2016), oko 2.000 puta manje od poluprečnika protona. Elektroni su testirani do sličnih ili još finijih razmera, bez ikakvog traga strukture. Na ovom sajtu, vrednost od 10⁻¹⁸ m kod stanice o kvarku upravo je takva gornja granica, a ne izmeren prečnik. Ako malenost merite masom, šampioni su neutrini: eksperiment KATRIN pokazao je da neutrino ima masu manju od 0,45 eV, što je manje od milionitog dela mase elektrona. Fotoni i gluoni uopšte nemaju masu.",
+      "section3Body": "Protoni i neutroni sastoje se od po tri kvarka, a atome upotpunjuju elektroni. Koliko iko može da kaže, i kvarkovi i elektroni su tačkaste čestice: ne pokazuju unutrašnju strukturu ni merljivu veličinu. To nije isto što i dokaz da im je veličina nula — znači samo da nijedan dosadašnji eksperiment nije ništa pronašao. Na sudaraču elektrona i protona HERA u Hamburgu, eksperiment ZEUS postavio je gornju granicu od 0,43 × 10⁻¹⁸ m za poluprečnik kvarka (objavljeno 2016), oko 2.000 puta manje od poluprečnika protona. Elektroni su testirani do sličnih ili još finijih razmera, bez ikakvog traga strukture. Na ovom sajtu, vrednost od 10⁻¹⁸ m na strani o kvarku upravo je takva gornja granica, a ne izmeren prečnik. Ako malenost merite masom, šampioni su neutrini: eksperiment KATRIN pokazao je da neutrino ima masu manju od 0,45 eV, što je manje od milionitog dela mase elektrona. Fotoni i gluoni uopšte nemaju masu.",
       "section4Heading": "Plankova dužina: granica teorije, a ne piksel",
       "section4Body": "Plankova dužina, oko 1,6 × 10⁻³⁵ m, sastavljena je od tri prirodne konstante: brzine svetlosti, gravitacione konstante i Plankove konstante. Oko 10²⁰ puta je manja od protona — otprilike onoliko puta manja od protona koliko je Zemlja manja od vidljivog svemira. Fizičari očekuju da na otprilike ovoj razmeri kvantni efekti gravitacije postaju važni i da opšta teorija relativnosti i kvantna mehanika, onakve kakvim ih danas zapisujemo, prestaju da daju pouzdane odgovore. Često se opisuje kao „veličina piksela” svemira ili najmanja dužina koja može da postoji. Ta tvrdnja ide dalje od dokaza. Nijedan eksperiment nije pokazao da je prostor zrnast; neki pristupi kvantnoj gravitaciji, poput petljaste kvantne gravitacije, nagoveštavaju diskretnu strukturu blizu ove razmere, a drugi ne. Posmatranja dalekih gama-bljeskova tražila su sićušne razlike u brzini svetlosti koje predviđaju najjednostavniji modeli zrnastog prostora, i do sada su nekoliko takvih modela isključila. Naši najmoćniji sudarači ispituju rastojanja do otprilike 10⁻¹⁹ m — što je i dalje nekoliko miliona milijardi puta više od Plankove dužine.",
       "section5Heading": "Kako merimo veoma malo",
@@ -1468,7 +1468,7 @@
       "tagline": "Najveća zvezda, crna rupa, galaksija i kosmička struktura — sa poštenim marginama greške.",
       "intro": "„Najveće” je u astronomiji klizava reč. Zvezde imaju mutne ivice, mase crnih rupa zaključuju se posredno, galaksije postepeno blede u tamu, a neke od najvećih prijavljenih struktura možda su delimično obrasci u šumu. Zato, umesto jednog samouverenog rekorda po kategoriji, evo vodećih kandidata i koliko smo u svaki od njih sigurni. Penjući se od zvezda do kosmičke mreže, svaki korak je otprilike hiljadu do milion puta veći od prethodnog.",
       "section1Heading": "Najveće zvezde",
-      "section1Body": "Najveće zvezde su crveni supergiganti i hipergiganti — naduvene, hladne zvezde pri kraju života. Njihove veličine izračunavaju se iz sjaja i temperature, a sjaj zavisi od udaljenosti, pa se procene znatno menjaju. UY Scuti, nekada navođena sa oko 1.700 Sunčevih poluprečnika, smanjena je na otprilike 900 kada je misija Gaia precizirala njenu udaljenost; ona je najveća zvezda na ovom putovanju, ali više nije rekorder. Među trenutnim vodećim kandidatima su Stephenson 2-18, procenjena na oko 1.800 Sunčevih poluprečnika, sa marginom greške od nekoliko stotina i sa sumnjama u njenu udaljenost; WOH G64 u Velikom Magelanovom oblaku, oko 1.500; VY Canis Majoris, oko 1.400; i RW Cephei, oko 1.100. Postavljena na mesto Sunca, VY Canis Majoris progutala bi Jupiterovu orbitu, a čak bi i UY Scuti sezala dalje od Marsa, u asteroidni pojas. Veličina nije masa: ovi naduveni džinovi imaju masu od samo oko 7 do 40 Sunaca. Najmasivnija poznata zvezda, R136a1, ima otprilike 200 solarnih masa, ali je samo nekoliko desetina puta šira od Sunca.",
+      "section1Body": "Najveće zvezde su crveni supergiganti i hipergiganti — naduvene, hladne zvezde pri kraju života. Njihove veličine izračunavaju se iz sjaja i temperature, a sjaj zavisi od udaljenosti, pa se procene znatno menjaju. UY Scuti, nekada navođena sa oko 1.700 Sunčevih poluprečnika, smanjena je na otprilike 900 kada je misija Gaia precizirala njenu udaljenost; ona je najveća zvezda na ovom sajtu, ali više nije rekorder. Među trenutnim vodećim kandidatima su Stephenson 2-18, procenjena na oko 1.800 Sunčevih poluprečnika, sa marginom greške od nekoliko stotina i sa sumnjama u njenu udaljenost; WOH G64 u Velikom Magelanovom oblaku, oko 1.500; VY Canis Majoris, oko 1.400; i RW Cephei, oko 1.100. Postavljena na mesto Sunca, VY Canis Majoris progutala bi Jupiterovu orbitu, a čak bi i UY Scuti sezala dalje od Marsa, u asteroidni pojas. Veličina nije masa: ovi naduveni džinovi imaju masu od samo oko 7 do 40 Sunaca. Najmasivnija poznata zvezda, R136a1, ima otprilike 200 solarnih masa, ali je samo nekoliko desetina puta šira od Sunca.",
       "section2Heading": "Najveće crne rupe",
       "section2Body": "Veličina crne rupe — širina njenog horizonta događaja — raste srazmerno njenoj masi, pa su najveće crne rupe ujedno i najteže. TON 618, kvazar čija je svetlost putovala oko 10,8 milijardi godina, procenjuje se na oko 40 milijardi solarnih masa (starije procene govorile su o 66 milijardi), što daje horizont događaja širok oko 1.600 astronomskih jedinica — dvadesetak puta širi od Plutonove orbite. Ta masa dobija se iz brzine gasa oko crne rupe, metodom koja može da pogreši i dva do tri puta. Crna rupa u Holmberg 15A, centralnoj galaksiji jata Abell 85, izmerena je na oko 40 milijardi solarnih masa na osnovu kretanja njenih zvezda, što je direktniji metod. Procene za Phoenix-A kreću se od nekoliko milijardi do oko 100 milijardi solarnih masa; ovaj sajt koristi oko 25 milijardi. Poređenja radi, M87*, prva crna rupa koja je ikada snimljena, ima oko 6,5 milijardi solarnih masa, a Sagittarius A* u središtu naše galaksije oko 4 miliona. Neki teoretičari smatraju da crne rupe koje se hrane iz sjajnih akrecionih diskova teško rastu preko oko 50 milijardi solarnih masa, što bi TON 618 smestilo blizu prirodne gornje granice.",
       "section3Heading": "Najveće galaksije",
@@ -1483,7 +1483,7 @@
   },
   "topicView": {
     "intro": "Pregled",
-    "relatedStops": "Povezane stanice",
+    "relatedStops": "Povezano",
     "sourcesHeading": "Izvori"
   },
   "glossary": {
@@ -1842,7 +1842,7 @@
   },
   "faq": {
     "category": {
-      "included": "Koje stanice spadaju u kategoriju {category}?",
+      "included": "Koje teme spadaju u kategoriju {category}?",
       "smallest": "Koji je najmanji objekat u kategoriji {category}?",
       "largest": "Koji je najveći objekat u kategoriji {category}?"
     }
@@ -1850,15 +1850,15 @@
   "sizeFaq": {
     "heading": "{Name}: kratki odgovori",
     "q1": "{Name} — kolika je veličina?",
-    "a1": "{Name}: veličina je oko {size} (≈ {sci} m). Na Quantumaire putovanju od kvarka do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
+    "a1": "{Name}: veličina je oko {size} (≈ {sci} m). Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
     "q2": "{Name} u poređenju sa čovekom?",
     "a2bigger": "Čovek visine 1,7 m otprilike je {ratio} puta manji nego {Name}.",
     "a2smaller": "Čovek visine 1,7 m otprilike je {ratio} puta veći nego {Name}.",
     "q3": "Šta je odmah manje, a šta odmah veće nego {Name}?",
     "a3smaller": "Korak niže: {other} ({otherSize}), oko {ratio} puta manje.",
     "a3larger": "Korak više: {other} ({otherSize}), oko {ratio} puta veće.",
-    "a3smallest": "{Name} je najmanja stanica na putovanju.",
-    "a3largest": "{Name} je najveća stanica na putovanju — ništa što možemo da posmatramo nije veće.",
+    "a3smallest": "{Name} je najmanja stvar na Quantumaire skali.",
+    "a3largest": "{Name} je najveća stvar na Quantumaire skali — ništa što možemo da posmatramo nije veće.",
     "q4": "Kad bi Zemlja bila zrno peska, kolika bi bila veličina — {Name}?",
     "a4": "Smanjite Zemlju na zrno peska od 0,5 mm i {Name} se smanjuje na oko {grain}.",
     "q5": "Koliko je sigurno ono što znamo o temi: {Name}?",
@@ -1872,9 +1872,10 @@
     "scaleTool": "Kalkulator kosmičkih razmera",
     "glossary": "Rečnik svemira i fizike",
     "category": "{category} — veličine, činjenice i poređenja",
-    "compareDescription": "Uporedite bilo koje dve stanice — od kvarka do vidljivog svemira — po veličini, udaljenosti ili temperaturi i odmah vidite koliko puta je jedna veća od druge.",
+    "compareDescription": "Uporedite bilo koje dve stvari — od kvarka do vidljivog svemira — po veličini, udaljenosti ili temperaturi i odmah vidite koliko puta je jedna veća od druge.",
     "topicsDescription": "Vodiči kroz svemir jednostavnim jezikom: koliki je svemir, poređenje veličina planeta, najmanje i najveće stvari koje postoje, zvezde, crne rupe, Veliki prasak i još mnogo toga.",
-    "glossaryDescription": "Pojmovi iz svemira i fizike objašnjeni jednostavnim jezikom ({count}) — od kvarkova, gluona i horizonta događaja do crvenog pomaka, svetlosnih godina i tamne energije."
+    "glossaryDescription": "Pojmovi iz svemira i fizike objašnjeni jednostavnim jezikom ({count}) — od kvarkova, gluona i horizonta događaja do crvenog pomaka, svetlosnih godina i tamne energije.",
+    "topicsTitle": "Vodiči kroz svemir: veličine, razmere i svemir objašnjeni"
   },
   "spacecraft": {
     "heading": "Koliko su brze naše letelice?",

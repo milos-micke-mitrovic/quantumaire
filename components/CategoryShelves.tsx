@@ -2,7 +2,7 @@
 
 import clsx from "clsx";
 import Link from "next/link";
-import { useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { CATEGORIES, categorySlug, getStopsByCategory } from "@/lib/content";
 import type { Category, Stop } from "@/lib/types";
@@ -41,8 +41,12 @@ export function CategoryShelves() {
 
   const shelves = useMemo<Shelf[]>(() => {
     const ordered = SHELF_ORDER.filter((c) => CATEGORIES.includes(c));
-    const big = ordered.filter((c) => getStopsByCategory(c).length >= MIN_SHELF);
-    const small = ordered.filter((c) => getStopsByCategory(c).length < MIN_SHELF);
+    const big = ordered.filter(
+      (c) => getStopsByCategory(c).length >= MIN_SHELF,
+    );
+    const small = ordered.filter(
+      (c) => getStopsByCategory(c).length < MIN_SHELF,
+    );
     const out: Shelf[] = big.map((c) => ({
       key: c,
       title: t(`categories.${c}`),
@@ -77,7 +81,10 @@ export function CategoryShelves() {
                   {shelf.categories.map((c) => (
                     <span
                       key={c}
-                      className={clsx("h-2.5 w-2.5 rounded-full", CATEGORY_DOT[c])}
+                      className={clsx(
+                        "h-2.5 w-2.5 rounded-full",
+                        CATEGORY_DOT[c],
+                      )}
                     />
                   ))}
                 </span>
@@ -132,6 +139,27 @@ export function CategoryShelves() {
 function ShelfRow({ stops }: { stops: Stop[] }) {
   const { t } = useI18n();
   const ref = useRef<HTMLUListElement>(null);
+  // Arrows only make sense when the row overflows, and only in the
+  // direction there is something left to see.
+  const [edges, setEdges] = useState({ left: false, right: false });
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const update = () =>
+      setEdges({
+        left: el.scrollLeft > 4,
+        right: el.scrollLeft + el.clientWidth < el.scrollWidth - 4,
+      });
+    const raf = requestAnimationFrame(update);
+    el.addEventListener("scroll", update, { passive: true });
+    const ro = new ResizeObserver(update);
+    ro.observe(el);
+    return () => {
+      cancelAnimationFrame(raf);
+      el.removeEventListener("scroll", update);
+      ro.disconnect();
+    };
+  }, []);
   const scroll = (dir: -1 | 1) => {
     const el = ref.current;
     if (!el) return;
@@ -141,17 +169,19 @@ function ShelfRow({ stops }: { stops: Stop[] }) {
     "absolute top-[38%] z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-cosmos-deep/90 text-cosmos-star shadow-glow backdrop-blur transition-colors hover:bg-cosmos-nebula sm:flex";
   return (
     <div className="relative">
-      <button
-        type="button"
-        onClick={() => scroll(-1)}
-        aria-label={t("common.prev")}
-        className={clsx(arrow, "-left-3")}
-      >
-        <span aria-hidden>←</span>
-      </button>
+      {edges.left && (
+        <button
+          type="button"
+          onClick={() => scroll(-1)}
+          aria-label={t("common.prev")}
+          className={clsx(arrow, "left-2")}
+        >
+          <span aria-hidden>←</span>
+        </button>
+      )}
       <ul
         ref={ref}
-        className="-mx-5 flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-px-5 px-5 pb-4 [scrollbar-width:thin] sm:-mx-8 sm:scroll-px-8 sm:px-8"
+        className="-mx-5 flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-px-5 px-5 pb-4 [scrollbar-width:thin] sm:mx-0 sm:scroll-px-0 sm:px-0"
       >
         {stops.map((stop, i) => (
           <li
@@ -162,14 +192,16 @@ function ShelfRow({ stops }: { stops: Stop[] }) {
           </li>
         ))}
       </ul>
-      <button
-        type="button"
-        onClick={() => scroll(1)}
-        aria-label={t("common.next")}
-        className={clsx(arrow, "-right-3")}
-      >
-        <span aria-hidden>→</span>
-      </button>
+      {edges.right && (
+        <button
+          type="button"
+          onClick={() => scroll(1)}
+          aria-label={t("common.next")}
+          className={clsx(arrow, "right-2")}
+        >
+          <span aria-hidden>→</span>
+        </button>
+      )}
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   CATEGORIES,
+  NAV_ORDER,
   STOPS,
   categoryFromSlug,
   categorySlug,
@@ -69,14 +70,19 @@ describe("stop lookups", () => {
     expect(getStop("not-a-real-stop")).toBeUndefined();
   });
 
+  it("getNeighbors walks sized topics by size", () => {
+    expect(getNeighbors("atom").next?.id).toBe("dna");
+    expect(getNeighbors("dna").prev?.id).toBe("atom");
+  });
+
   it("getNeighbors returns prev=null for the first stop", () => {
-    const first = STOPS[0];
+    const first = NAV_ORDER[0];
     const { prev } = getNeighbors(first.id);
     expect(prev).toBeNull();
   });
 
   it("getNeighbors returns next=null for the last stop", () => {
-    const last = STOPS[STOPS.length - 1];
+    const last = NAV_ORDER[NAV_ORDER.length - 1];
     const { next } = getNeighbors(last.id);
     expect(next).toBeNull();
   });

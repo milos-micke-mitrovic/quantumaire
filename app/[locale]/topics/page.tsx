@@ -31,7 +31,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale: typed,
     path: "topics",
-    title: tServer(typed, "topicsIndex.title"),
+    title: tServer(typed, "seo.topicsTitle"),
     description: tServer(typed, "seo.topicsDescription"),
   });
 }
