@@ -682,5 +682,19 @@
       "label": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/AdS/CFT_correspondence"
     }
+  ],
+  "m87_black_hole": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Messier_87"
+    },
+    {
+      "label": "ESO",
+      "url": "https://www.eso.org/public/news/eso1907/"
+    },
+    {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/resource/first-image-of-a-black-hole/"
+    }
   ]
 }

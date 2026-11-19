@@ -1423,6 +1423,28 @@
         "fact4": "No experimental confirmation; the LHC has found no superpartners so far."
       },
       "metaDescription": "String theory says the smallest building blocks may be tiny vibrating strings, uniting gravity with quantum physics. Elegant, but still untested."
+    },
+    "m87_black_hole": {
+      "name": "M87*",
+      "seoTitle": "M87*: The First Black Hole Ever Photographed",
+      "tagline": "The first black hole humanity ever saw — a shadow wider than our whole planetary system.",
+      "body": "M87* is the supermassive black hole at the heart of Messier 87, a giant elliptical galaxy in the Virgo Cluster about 55 million light-years away. It weighs about 6.5 billion Suns, and its event horizon is roughly 38 billion km across — wide enough to hold the orbits of all eight planets several times over. On 10 April 2019 the Event Horizon Telescope, a network of radio dishes around the globe linked into one Earth-sized virtual telescope, released its picture: a glowing ring of hot gas around a dark shadow, just the shape general relativity predicted. Later images revealed the ring's magnetic fields (2021) and showed that the ring is still there, with its brightest patch shifted (2024).",
+      "narrative": "Shrink M87*'s event horizon to the length of a football pitch and the Sun becomes a 4 mm bead, Earth a speck thinner than a human hair — and Neptune's entire orbit would barely spill out of the centre circle.",
+      "massNarrative": "M87* weighs about 6.5 billion Suns — more than 1,500 times as much as Sagittarius A*, the black hole at the centre of our own galaxy.",
+      "funFact": "Seeing M87* was like spotting an orange on the Moon from Earth: the ring is only 42 microarcseconds wide. No single dish can do that, so the Event Horizon Telescope synchronised eight observatories, from Hawaii and Arizona to Mexico, Chile and Spain, with atomic clocks — and the petabytes of data travelled by plane on hard drives, because it was far too much for the internet.",
+      "image": {
+        "alt": "The Event Horizon Telescope image of M87*: a lopsided orange ring of glowing gas around a dark central shadow."
+      },
+      "facts": {
+        "fact1": "Mass: about 6.5 billion times the Sun (EHT, 2019).",
+        "fact2": "Event horizon: roughly 38 billion km across — more than 250 times the Earth–Sun distance.",
+        "fact3": "Distance: about 55 million light-years, in the galaxy Messier 87 in the Virgo Cluster.",
+        "fact4": "First image released on 10 April 2019, from data eight radio observatories gathered in April 2017.",
+        "fact5": "Its jet of particles moving at nearly the speed of light stretches about 5,000 light-years out of the galaxy.",
+        "fact6": "Hawaiian name: Pōwehi — \"the embellished dark source of unending creation\".",
+        "fact7": "In 2023 astronomers found that its jet wobbles on a roughly 11-year cycle — evidence that the black hole spins."
+      },
+      "metaDescription": "M87* was the first black hole ever photographed (2019): 6.5 billion Suns, an event horizon 38 billion km wide, 55 million light-years away."
     }
   },
   "about": {
@@ -2083,7 +2105,8 @@
       "planck_length": "the Planck length",
       "tardigrade": "a tardigrade",
       "blue_whale": "a blue whale",
-      "mount_everest": "Mount Everest"
+      "mount_everest": "Mount Everest",
+      "m87_black_hole": "M87*"
     }
   },
   "seo": {

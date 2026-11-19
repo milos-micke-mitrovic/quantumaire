@@ -1423,6 +1423,28 @@
         "fact4": "Nema eksperimentalne potvrde; LHC zasad nije našao nijednog superpartnera."
       },
       "metaDescription": "Prema teoriji struna, najmanji gradivni delovi mogu biti sićušne strune koje vibriraju i spajaju gravitaciju sa kvantnom fizikom. Elegantno, ali neprovereno."
+    },
+    "m87_black_hole": {
+      "name": "M87*",
+      "seoTitle": "M87*: prva crna rupa koju smo ikada snimili",
+      "tagline": "Prva crna rupa koju je čovečanstvo ikada videlo — senka šira od celog našeg planetarnog sistema.",
+      "body": "M87* je supermasivna crna rupa u srcu galaksije Messier 87, džinovske eliptične galaksije u Virgo jatu, udaljene oko 55 miliona svetlosnih godina. Teška je oko 6,5 milijardi Sunaca, a njen horizont događaja širok je oko 38 milijardi km — dovoljno da u njega nekoliko puta stanu orbite svih osam planeta. Teleskop horizonta događaja (Event Horizon Telescope), mreža radio-antena širom planete povezanih u jedan virtuelni teleskop veličine Zemlje, objavio je 10. aprila 2019. njen snimak: užareni prsten vrelog gasa oko tamne senke, baš onakav kakav je predvidela opšta teorija relativnosti. Kasniji snimci otkrili su magnetna polja u prstenu (2021) i pokazali da je prsten i dalje tu, samo mu se najsjajniji deo pomerio (2024).",
+      "narrative": "Kada bi se horizont događaja M87* smanjio na dužinu fudbalskog terena, Sunce bi bilo zrnce od 4 mm, Zemlja trunčica tanja od vlasi kose — a cela Neptunova orbita jedva bi izašla iz centralnog kruga.",
+      "massNarrative": "M87* je teška oko 6,5 milijardi Sunaca — više od 1.500 puta više od Sagittariusa A*, crne rupe u centru naše galaksije.",
+      "funFact": "Videti M87* bilo je kao uočiti narandžu na Mesecu sa Zemlje: prsten je širok svega 42 mikrolučne sekunde. Nijedna antena to ne može sama, pa je Teleskop horizonta događaja atomskim časovnicima uskladio osam opservatorija, od Havaja i Arizone do Meksika, Čilea i Španije — a petabajti podataka putovali su avionom, na hard-diskovima, jer ih je bilo previše za internet.",
+      "image": {
+        "alt": "Snimak M87* Teleskopa horizonta događaja: nesimetričan narandžast prsten užarenog gasa oko tamne središnje senke."
+      },
+      "facts": {
+        "fact1": "Masa: oko 6,5 milijardi Sunčevih masa (EHT, 2019).",
+        "fact2": "Horizont događaja: oko 38 milijardi km u prečniku — više od 250 rastojanja Zemlja–Sunce.",
+        "fact3": "Udaljenost: oko 55 miliona svetlosnih godina, u galaksiji Messier 87 u Virgo jatu.",
+        "fact4": "Prvi snimak objavljen je 10. aprila 2019, iz podataka koje je osam radio-opservatorija prikupilo u aprilu 2017.",
+        "fact5": "Njen mlaz čestica koje jure skoro brzinom svetlosti proteže se oko 5.000 svetlosnih godina van galaksije.",
+        "fact6": "Havajsko ime: Pōwehi — „ukrašeni tamni izvor beskrajnog stvaranja“.",
+        "fact7": "Astronomi su 2023. otkrili da se njen mlaz klati u ciklusu od oko 11 godina — dokaz da se crna rupa okreće."
+      },
+      "metaDescription": "M87* je prva snimljena crna rupa (2019): 6,5 milijardi Sunaca, horizont događaja širok 38 milijardi km, 55 miliona svetlosnih godina od nas."
     }
   },
   "about": {

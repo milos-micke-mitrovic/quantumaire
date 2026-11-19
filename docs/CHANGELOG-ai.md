@@ -64,3 +64,6 @@
 
 ## Next / ideas
 - Audit plan: phases 1–5 done; Phase 6 left: 8 new topics, guide hero image + key-numbers table, dedupe toggle UIs. Daily GSC indexing (queue starts with compare pairs).
+
+## 2026-11-19 — audit Phase 6 part 2 (new topics)
+- M87* (`m87_black_hole`, COSMOS, FACT, black-hole tag): EHT image (CC BY 4.0), 6.5 billion Suns, 38 billion km horizon, 55 million ly; EN+SR, sources (Wikipedia/ESO/NASA).

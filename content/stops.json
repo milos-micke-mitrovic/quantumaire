@@ -1295,6 +1295,32 @@
         "hypothetical",
         "spacetime"
       ]
+    },
+    {
+      "id": "m87_black_hole",
+      "i18nKey": "stops.m87_black_hole",
+      "sizeMeters": 38000000000000,
+      "distanceFromEarthMeters": 518000000000000000000000,
+      "order": 10.32,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-ember",
+      "accentGlow": "shadow-[0_0_80px_rgba(251,113,133,0.5)]",
+      "preferredReferenceId": "au",
+      "image": {
+        "src": "/images/m87-black-hole.webp",
+        "aspect": "square",
+        "altKey": "stops.m87_black_hole.image.alt",
+        "credit": "EHT Collaboration — CC BY 4.0"
+      },
+      "glossary": [
+        "event_horizon",
+        "accretion_disk",
+        "schwarzschild_radius"
+      ],
+      "tags": [
+        "black-hole"
+      ]
     }
   ]
 }
