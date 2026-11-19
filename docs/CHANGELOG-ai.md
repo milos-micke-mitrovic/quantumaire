@@ -15,5 +15,9 @@
 - Images: new `w128` variant, `imageSizes`/`deviceSizes` match variants, correct `sizes` on cards/shelves/stop hero/lightbox.
 - Service worker v3: only OK responses cached, caches trimmed, images refreshed only after 7 days.
 
+## 2026-11-19 — audit Phase 2 (facts)
+- All 27 items from `docs/audit/facts.md`, EN + SR: parsec definition, Andromeda/Homo, moon counts (Saturn 293, Jupiter 115, Aug 2026), Uranus −224 °C, Venera 13, DNA vs red blood cells, galaxy merger odds, category-intro magnitudes, Mercury midnight, twin paradox, neutron-star sugar cube, UY Scuti, Voyager (no hard-coded age; LECP off), Saturn rings 273k/282k, supernova rate, Hawking lifetime, Bell/local, Jupiter golf-ball scale, Halley 11 km mean.
+- Data: dark_energy → PROBABLE_THEORY; time-averaged distances (Venus 170, Mars 255 million km; new Mercury "closest planet on average" fact); TON 618 / Phoenix-A use comoving distance (fact explains light-travel vs now).
+
 ## Next / ideas
 - Full audit done 2026-11-19 → `docs/AUDIT-PLAN.md` (phases 1–6, nothing ticked yet).

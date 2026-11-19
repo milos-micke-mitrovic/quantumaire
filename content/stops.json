@@ -475,7 +475,7 @@
       "i18nKey": "stops.dark_energy",
       "sizeMeters": null,
       "order": 13,
-      "badge": "SPECULATIVE",
+      "badge": "PROBABLE_THEORY",
       "category": "COSMOS",
       "accent": "text-badge-speculative",
       "accentGlow": "shadow-[0_0_80px_rgba(251,113,133,0.4)]",
@@ -945,7 +945,7 @@
       "id": "ton_618",
       "i18nKey": "stops.ton_618",
       "sizeMeters": 240000000000000,
-      "distanceFromEarthMeters": 1.02E+26,
+      "distanceFromEarthMeters": 1.72E+26,
       "order": 10.4,
       "badge": "PROBABLE_THEORY",
       "category": "COSMOS",
@@ -984,7 +984,7 @@
       "id": "phoenix_a",
       "i18nKey": "stops.phoenix_a",
       "sizeMeters": 150000000000000,
-      "distanceFromEarthMeters": 5.54E+25,
+      "distanceFromEarthMeters": 6.9E+25,
       "order": 10.42,
       "badge": "PROBABLE_THEORY",
       "category": "COSMOS",
@@ -1244,7 +1244,7 @@
           "url": "https://www.britannica.com/place/Mars-planet"
         }
       ],
-      "distanceFromEarthMeters": 225000000000,
+      "distanceFromEarthMeters": 255000000000,
       "temperatureKelvin": 210,
       "preferredReferenceId": "earthDiameter"
     },
@@ -1362,7 +1362,7 @@
           "url": "https://www.britannica.com/place/Venus-planet"
         }
       ],
-      "distanceFromEarthMeters": 120000000000,
+      "distanceFromEarthMeters": 170000000000,
       "temperatureKelvin": 737
     },
     {

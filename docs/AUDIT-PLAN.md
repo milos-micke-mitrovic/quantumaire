@@ -39,13 +39,13 @@ browser (desktop + 390 px) after UI changes.
 
 ## Phase 2 — Facts (docs/audit/facts.md)
 
-- [ ] All 3 high + 7 medium items, EN and SR together (SR text is given for
+- [x] All 3 high + 7 medium items, EN and SR together (SR text is given for
       most; write the rest carefully). Includes: parsec definition, Andromeda
       vs Homo (2.8 Myr), moon counts (Saturn 293, Jupiter 115), Uranus coldest
       −224 °C, Venera 13 127 min, DNA/red blood cells, dark_energy badge →
       PROBABLE_THEORY (content/stops.json, edit as text), galaxy merge odds,
       category-intro orders of magnitude, Venus vs Mercury average distance.
-- [ ] The 17 low items.
+- [x] The 17 low items.
 
 ## Phase 3 — Serbian (docs/audit/serbian.md)
 
