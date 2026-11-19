@@ -214,6 +214,102 @@
       ]
     },
     {
+      "id": "betelgeuse",
+      "i18nKey": "stops.betelgeuse",
+      "sizeMeters": 1.06e12,
+      "order": 9.95,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-ember",
+      "accentGlow": "shadow-[0_0_80px_rgba(251,113,133,0.5)]",
+      "image": {
+        "src": "/images/betelgeuse.webp",
+        "aspect": "square",
+        "altKey": "stops.betelgeuse.image.alt",
+        "credit": "ALMA (ESO/NAOJ/NRAO)/E. O’Gorman/P. Kervella — CC BY 4.0"
+      },
+      "glossary": [
+        "red_supergiant",
+        "supernova",
+        "stellar_radius"
+      ],
+      "tags": [
+        "star"
+      ],
+      "distanceFromEarthMeters": 5.18e18,
+      "temperatureKelvin": 3600
+    },
+    {
+      "id": "oort_cloud",
+      "i18nKey": "stops.oort_cloud",
+      "sizeMeters": 3e16,
+      "order": 10.53,
+      "badge": "PROBABLE_THEORY",
+      "category": "COSMOS",
+      "accent": "text-badge-probable",
+      "accentGlow": "shadow-[0_0_80px_rgba(251,191,36,0.3)]",
+      "image": {
+        "src": "/images/oort-cloud.webp",
+        "aspect": "wide",
+        "altKey": "stops.oort_cloud.image.alt",
+        "credit": "S. Deiries/ESO — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "oort_cloud",
+        "kuiper_belt",
+        "astronomical_unit"
+      ],
+      "tags": [
+        "comet"
+      ]
+    },
+    {
+      "id": "red_blood_cell",
+      "i18nKey": "stops.red_blood_cell",
+      "sizeMeters": 7.5e-6,
+      "order": 4.58,
+      "badge": "FACT",
+      "category": "MICRO_WORLD",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/red-blood-cell.webp",
+        "aspect": "square",
+        "altKey": "stops.red_blood_cell.image.alt",
+        "credit": "Bruce Wetzel & Harry Schaefer, National Cancer Institute — public domain"
+      },
+      "glossary": [
+        "hemoglobin",
+        "organelle"
+      ],
+      "tags": [
+        "biology"
+      ]
+    },
+    {
+      "id": "statue_of_liberty",
+      "i18nKey": "stops.statue_of_liberty",
+      "sizeMeters": 93,
+      "order": 6.02,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/statue-of-liberty.webp",
+        "aspect": "square",
+        "altKey": "stops.statue_of_liberty.image.alt",
+        "credit": "Elcobbola — public domain"
+      },
+      "glossary": [
+        "patina",
+        "wrought_iron"
+      ],
+      "tags": [
+        "landmark"
+      ]
+    },
+    {
       "id": "earth",
       "i18nKey": "stops.earth",
       "sizeMeters": 12742000,

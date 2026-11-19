@@ -99,3 +99,10 @@
 
 ## 2026-11-19 — temperatures say where (owner report)
 - "Mariana Trench: 2 °C" didn't say where. New `stops.<id>.temperatureNote` (EN+SR) for all 18 topics with a temperature — "water at the bottom (Challenger Deep)", "summit, January average", "cloud tops", "visible surface (photosphere)", "cold, shaded side of the sunshield"… — shown under the value in the Numbers card and in the "How hot is X?" FAQ (`sizeFaq.a7where`). Notes carry no numbers so they work with °C/°F/K. Test: every topic with a temperature has a note in both locales.
+
+## 2026-11-19 — new topics: Betelgeuse, Oort cloud, red blood cell, Statue of Liberty
+- Betelgeuse (`betelgeuse`, COSMOS, FACT, star tag): 640–764 R☉ (1.06×10¹² m), 548 ly, 3,600 K, Great Dimming, Siwarha, coming supernova; ALMA image (CC BY 4.0). Glossary `red_supergiant`.
+- Oort cloud (`oort_cloud`, COSMOS, PROBABLE_THEORY — never observed; 3×10¹⁶ m ≈ 3 ly across): Öpik/Oort, long-period comets, Voyager 300/30,000 years; photo of Comet McNaught over Paranal (S. Deiries/ESO, CC BY 4.0) instead of a labelled diagram. Tag `comet` → new `/tag/comet` collection (Halley + Oort; EN+SR texts).
+- Red blood cell (`red_blood_cell`, MICRO_WORLD, FACT, biology): 7.5 µm, 270 M haemoglobin, 20–30 trillion, 100–120 days; NCI SEM (PD). Glossary `hemoglobin`.
+- Statue of Liberty (`statue_of_liberty`, HUMANKIND, FACT, landmark): 93 m ground-to-torch, 46 m statue, 2.4 mm copper, Eiffel's framework (NPS statistics); PD photo on blur. Glossary `patina`. Landmarks collection intro now lists four.
+- Compare pairs: betelgeuse-vs-sun, statue-of-liberty-vs-eiffel-tower (25). Betelgeuse has a temperature note ("surface").

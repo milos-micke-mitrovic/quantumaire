@@ -103,6 +103,50 @@
       "url": "https://en.wikipedia.org/wiki/Sequoiadendron_giganteum"
     }
   ],
+  "betelgeuse": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse"
+    },
+    {
+      "label": "ESO",
+      "url": "https://www.eso.org/public/images/potw1726a/"
+    },
+    {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-finds-that-betelgeuses-mysterious-dimming-is-due-to-a-traumatic-outburst/"
+    }
+  ],
+  "oort_cloud": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Oort_cloud"
+    },
+    {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/solar-system/oort-cloud/"
+    }
+  ],
+  "red_blood_cell": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Red_blood_cell"
+    },
+    {
+      "label": "NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK2263/"
+    }
+  ],
+  "statue_of_liberty": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+    },
+    {
+      "label": "National Park Service",
+      "url": "https://www.nps.gov/stli/learn/historyculture/statue-statistics.htm"
+    }
+  ],
   "pyramid": [
     {
       "label": "Wikipedia",

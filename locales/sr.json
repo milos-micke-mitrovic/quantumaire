@@ -1688,6 +1688,95 @@
         "fact8": "Najveća grana, debela preko 2 m i duga preko 30 m, odlomila se 2006."
       },
       "metaDescription": "General Šerman, džinovska sekvoja u Kaliforniji, najveće je živo drvo: 83,8 m visine, 1.487 m³ drveta i preko 2.000 godina starosti. Pogledajte poređenje."
+    },
+    "betelgeuse": {
+      "name": "Betelgez",
+      "seoTitle": "Koliki je Betelgez? Crveni superdžin u Orionu",
+      "tagline": "Crveno rame Oriona — zvezda toliko naduvena da bi progutala orbitu Marsa, a jednog dana će eksplodirati.",
+      "body": "Betelgez je crvenkasta zvezda na ramenu Oriona, obično deseta po sjaju na noćnom nebu. To je crveni superdžin: rođen pre manje od 10 miliona godina, sa možda 15 do 20 Sunčevih masa, već je potrošio vodonik u jezgru i silno se naduo. Poluprečnik mu je oko 640–764 puta veći od Sunčevog — raspon dolazi uglavnom od toga što je udaljenost teško tačno izmeriti: negde između 400 i 600 svetlosnih godina (548 prema studiji iz 2020). Kad bi stajao na mestu Sunca, njegova površina bila bi iza asteroidnog pojasa i progutala bi orbite Merkura, Venere, Zemlje i Marsa.",
+      "narrative": "Kad bi Sunce bilo kliker od 1 cm, Betelgez bi bio lopta prečnika oko 7,6 m — šira nego što je visoka kuća na sprat.",
+      "funFact": "Betelgez će završiti kao supernova, najverovatnije u narednih 100.000 godina. Tada će mesecima sijati otprilike kao Mesec u prvoj četvrti i videće se i danju — a sa oko 550 svetlosnih godina udaljenosti previše je daleko da bi nam naudio. Njegovo naglo bleđenje 2019–2020, „Veliko zatamnjenje“, nije bilo odbrojavanje: Habl je pokazao da je zvezda izbacila oblak gasa koji se ohladio u prašinu i zaklonio deo njene svetlosti.",
+      "image": {
+        "alt": "Betelgez na snimku radio-teleskopa ALMA: mutan narandžasti disk sa svetlijom mrljom, na crnom nebu."
+      },
+      "facts": {
+        "fact1": "Poluprečnik: oko 640–764 Sunčeva — prečnik od oko milijardu kilometara.",
+        "fact2": "Udaljenost: oko 400–600 svetlosnih godina; studija iz 2020. daje 548.",
+        "fact3": "Temperatura površine: oko 3.600 K — dovoljno hladno da sija narandžastocrveno.",
+        "fact4": "Masa: oko 10–20 Sunčevih; starost manja od 10 miliona godina.",
+        "fact5": "Očekuje se da eksplodira kao supernova u narednih oko 100.000 godina.",
+        "fact6": "Tokom Velikog zatamnjenja 2019–2020. izgubio je više od pola sjaja — promena vidljiva golim okom.",
+        "fact7": "Verovatno ima malu zvezdu pratilju, Sivarhu, prvi put viđenu 2025.",
+        "fact8": "Najsjajnija zvezda noćnog neba u bliskom infracrvenom delu spektra."
+      },
+      "temperatureNote": "površina",
+      "metaDescription": "Betelgez, crveni superdžin u Orionu, oko 700 puta je širi od Sunca i progutao bi orbitu Marsa. Veličina, udaljenost i supernova koja dolazi."
+    },
+    "oort_cloud": {
+      "name": "Ortov oblak",
+      "seoTitle": "Koliki je Ortov oblak? Granica Sunčevog sistema",
+      "tagline": "Ogromna, nevidljiva ljuska ledenih tela oko Sunca — toliko daleka da se proteže dobar deo puta do sledeće zvezde.",
+      "body": "Ortov oblak je pretpostavljena ljuska ledenih planetezimala — preostalih gradivnih blokova planeta, koje su džinovske planete izbacile ka spolja — koja okružuje Sunce na udaljenosti od oko 2.000 do 100.000 astronomskih jedinica ili više: oko 1,6 svetlosnih godina, a prema nekim procenama i dvostruko dalje. Nijedan teleskop nikada nije video nijedan objekat u njemu; tela su premala, previše tamna i previše daleka. Na njegovo postojanje ukazuju dugoperiodične komete, koje padaju ka Suncu iz svih pravaca neba, a ne samo iz ravni planeta. Estonski astronom Ernst Epik predložio je takav rezervoar 1932, a holandski astronom Jan Ort detaljno je razradio tu ideju 1950.",
+      "narrative": "Smanjite udaljenost Sunce–Zemlja na jedan metar i sve planete stanu u 30 metara oko Sunca, dok bi spoljna ivica Ortovog oblaka bila oko 100 km daleko. Voyager 1, najudaljenija letelica, ni do unutrašnje ivice neće stići još oko 300 godina — a da ga pređe, trebalo bi mu još oko 30.000.",
+      "funFact": "Oblak možda sadrži bilione ledenih tela većih od kilometra, a sva zajedno možda imaju masu od svega oko pet Zemalja. S vremena na vreme zvezda u prolazu ili privlačenje Mlečnog puta gurne neko od njih ka unutra, i ono vekovima kasnije može stići kao velika kometa — poput komete Maknot, na slici iz 2007.",
+      "image": {
+        "alt": "Široki, perjasti rep komete Maknot izvija se iznad kupola teleskopa opservatorije Paranal na noćnom nebu Čilea, januar 2007."
+      },
+      "facts": {
+        "fact1": "Pretpostavlja se da se proteže od oko 2.000 do 100.000 AJ ili više od Sunca — do 1,6 svetlosnih godina, možda i 3.",
+        "fact2": "Nikad direktno posmatran: na njegovo postojanje ukazuju dugoperiodične komete.",
+        "fact3": "Možda sadrži bilione ledenih tela većih od 1 km.",
+        "fact4": "Ukupna masa možda oko pet Zemalja.",
+        "fact5": "Predložili su ga Ernst Epik (1932) i Jan Ort (1950).",
+        "fact6": "Voyager 1 će do njega stići za oko 300 godina, a za prolazak kroz njega trebaće mu oko 30.000.",
+        "fact7": "Dugoperiodične komete dolaze iz svih pravaca, pa je spoljni oblak sfera, a ne disk poput Kajperovog pojasa.",
+        "fact8": "Njegova spoljna ivica označava granicu Sunčevog gravitacionog uticaja (Hilovu sferu)."
+      },
+      "metaDescription": "Ortov oblak je ogromna ljuska ledenih tela za koju se smatra da okružuje Sunce do 100.000 AJ ili dalje — više od svetlosne godine. Veličina, komete i zašto ga nikad nismo videli."
+    },
+    "red_blood_cell": {
+      "name": "Crveno krvno zrnce",
+      "seoTitle": "Koliko je veliko crveno krvno zrnce? Veličina i oblik",
+      "tagline": "Telesni kurir kiseonika — spljošten disk širok 7,5 mikrometara i najbrojnija ćelija koju imate.",
+      "body": "Crvena krvna zrnca (eritrociti) nose kiseonik iz pluća do svakog tkiva i vraćaju ugljen-dioksid. Kod čoveka je to savitljiv bikonkavan disk — debeo na obodu, tanak u sredini — prečnika oko 6,2–8,2 µm i debljine 2–2,5 µm. Da bi napravilo mesta za hemoglobin koji prenosi kiseonik, zrnce tokom sazrevanja izbacuje jedro, pa ne može ni da se deli ni da se popravlja; posle oko 100–120 dana u krvotoku razgrađuje se i reciklira. Odrasla osoba ima ih oko 20–30 biliona, otprilike 70% svih ćelija u telu po broju.",
+      "narrative": "Poređajte 130 crvenih krvnih zrnaca i jedva će pokriti jedan milimetar. Ona iz vašeg tela, poređana jedno do drugog, obmotala bi Zemlju četiri do pet puta.",
+      "funFact": "Crveno krvno zrnce šire je od najužih kapilara kroz koje mora da prođe, pa se savija u oblik metka ili cigare i provlači se u nizu, jedno za drugim. Ceo krug krvotoka obiđe za oko minut — a koštana srž ih nadoknađuje brzinom od oko 2,4 miliona novih u sekundi.",
+      "image": {
+        "alt": "Snimak ljudske krvi skenirajućim elektronskim mikroskopom: glatka, ulegnuta crvena krvna zrnca okupljena oko nekoliko okruglih, kvrgavih belih krvnih zrnaca."
+      },
+      "facts": {
+        "fact1": "Prečnik: oko 6,2–8,2 µm; debljina oko 2–2,5 µm na obodu i manje od 1 µm u sredini.",
+        "fact2": "Svako sadrži oko 270 miliona molekula hemoglobina.",
+        "fact3": "Odrasla osoba ima oko 20–30 biliona — oko 70% svih ćelija u telu po broju.",
+        "fact4": "Životni vek u krvotoku: oko 100–120 dana.",
+        "fact5": "Nema jedro: izbacuje ga tokom razvoja da bi napravilo mesta za hemoglobin.",
+        "fact6": "U koštanoj srži nastaje oko 2,4 miliona novih crvenih krvnih zrnaca u sekundi.",
+        "fact7": "Crvena krvna zrnca čine oko 40–45% zapremine krvi.",
+        "fact8": "Jedan krug kroz krvotok traje oko minut."
+      },
+      "metaDescription": "Crveno krvno zrnce je ulegnut disk širok oko 7,5 µm — 270 miliona molekula hemoglobina, bez jedra, 20–30 biliona u vašem telu. Pogledajte poređenje."
+    },
+    "statue_of_liberty": {
+      "name": "Kip slobode",
+      "seoTitle": "Koliko je visok Kip slobode? 93 m do baklje",
+      "tagline": "93 metra od tla do baklje — bakarna oplata tanka kao dva novčića, okačena na kostur koji je projektovao Gustav Ajfel.",
+      "body": "Kip slobode — zvanično „Sloboda koja prosvetljuje svet“ — poklon je naroda Francuske Sjedinjenim Državama, svečano otkriven na ostrvu Liberti u njujorškoj luci 28. oktobra 1886. Lik je oblikovao vajar Frederik Ogist Bartoldi, a gvozdenu konstrukciju u unutrašnjosti projektovala je firma Gustava Ajfela, nekoliko godina pre nego što je u Parizu nikla njegova kula. Sam kip je visok 46 m od osnove do baklje; na granitnom postolju i betonskom temelju doseže 93 m iznad tla. Oplata mu je od kovanog bakra debelog samo 2,4 mm — u početku sjajno smeđa, do oko 1906. potpuno je pozelenela od zaštitne patine.",
+      "narrative": "Samo kažiprst mu je dug 2,44 m — više od vrata — a nos 1,37 m. Postavite ga pored Ajfelove kule i, zajedno sa postoljem, dosegao bi dobro iznad njenog prvog sprata, ali ne i do drugog.",
+      "funFact": "Bakarna oplata teška je oko 80 tona, a ipak je ceo kip napravljen da se savija: na jakom vetru može da se zaljulja do oko 7,5 cm, a baklja do 15 cm. Baklja koju danas vidite zamena je iz 1986, prekrivena listićima zlata od 24 karata; originalna je izložena u Muzeju Kipa slobode.",
+      "image": {
+        "alt": "Zeleni bakarni Kip slobode podiže baklju iznad kamenog postolja na ostrvu Liberti, pod oblačnim nebom."
+      },
+      "facts": {
+        "fact1": "Visina: 93 m od tla do vrha baklje; sam kip ima 46 m.",
+        "fact2": "Svečano otkriven 28. oktobra 1886, kao poklon naroda Francuske.",
+        "fact3": "Bakarna oplata debela 2,4 mm — otprilike kao dva novčića.",
+        "fact4": "Bakar je težak oko 80 tona, unutrašnja konstrukcija oko 200 tona.",
+        "fact5": "Gvozdenu konstrukciju projektovala je firma Gustava Ajfela.",
+        "fact6": "Kažiprst: 2,44 m; nos: 1,37 m; desna ruka: 12,8 m.",
+        "fact7": "Patina ga je iz bakarnosmeđe boje obojila u zeleno do oko 1906.",
+        "fact8": "Kruna ima 25 prozora i sedam zraka."
+      },
+      "metaDescription": "Kip slobode je visok 93 m od tla do baklje: bakarni kip od 46 m sa oplatom tankom kao dva novčića, na konstrukciji firme Gustava Ajfela."
     }
   },
   "about": {
@@ -2339,6 +2428,18 @@
     "serotiny": {
       "term": "Serotinija",
       "definition": "Čuvanje semena u zatvorenim šišarkama dok ga nešto — najčešće vrelina požara — ne oslobodi. Šišarke džinovske sekvoje otvaraju se posle požara i spuštaju seme na osunčano tlo koje je vatra raščistila, gde mladice imaju šanse."
+    },
+    "hemoglobin": {
+      "term": "Hemoglobin",
+      "definition": "Protein sa gvožđem koji ispunjava crvena krvna zrnca i daje krvi boju. Svaki molekul može da nosi četiri molekula kiseonika: preuzima ih u plućima i otpušta tamo gde su tkivima potrebni."
+    },
+    "patina": {
+      "term": "Patina",
+      "definition": "Tanak sloj koji se stvara na površini metala u dodiru sa vazduhom i vodom. Na bakru je to poznata zelena prevlaka, koja štiti metal ispod od dalje korozije."
+    },
+    "red_supergiant": {
+      "term": "Crveni superdžin",
+      "definition": "Masivna zvezda pri kraju života koja je potrošila vodonik u jezgru i naduvala se na stotine Sunčevih prečnika, sa hladnom, crvenom površinom. Većina završava kao supernova kolapsa jezgra."
     }
   },
   "faq": {
@@ -2575,8 +2676,15 @@
       "short": "Znamenitosti",
       "title": "Znamenitosti, od Velike piramide do Burdž Kalife",
       "seoTitle": "Koliko su visoke znamenitosti? Piramida, Ajfel, Burdž",
-      "intro": "Najviše što su ljudi sagradili, svaka u svoje vreme rekorder: Velika piramida, najviša skoro četiri hiljade godina, Ajfelova kula od 330 metara i Burdž Kalifa od 828 metara — šest Velikih piramida jedna na drugoj.",
-      "metaDescription": "Od Velike piramide (139 m) preko Ajfelove kule (330 m) do Burdž Kalife (828 m): najviše građevine koje su ljudi podigli, u poređenju jedna sa drugom i sa vama."
+      "intro": "Čuvene građevine jedna pored druge: Kip slobode od 93 metra, Velika piramida — najviša građevina na Zemlji skoro četiri hiljade godina — Ajfelova kula od 330 metara i Burdž Kalifa od 828 metara, šest Velikih piramida jedna na drugoj.",
+      "metaDescription": "Od Kipa slobode (93 m) i Velike piramide (139 m) do Ajfelove kule (330 m) i Burdž Kalife (828 m): čuvene znamenitosti poređene po visini."
+    },
+    "comet": {
+      "short": "Komete",
+      "title": "Komete i odakle dolaze",
+      "seoTitle": "Komete: Halejeva kometa i Ortov oblak",
+      "intro": "Prljave grudve snega široke nekoliko kilometara i nevidljivi rezervoar iz kog padaju: Halejeva kometa, koja se vraća otprilike svakih 76 godina, i Ortov oblak, ljuska ledenih tela za koju se smatra da se proteže više od svetlosne godine od Sunca.",
+      "metaDescription": "Halejeva kometa je kugla leda i prašine od 11 km; Ortov oblak, odakle dolaze dugoperiodične komete, možda se proteže više od svetlosne godine od Sunca."
     }
   }
 }

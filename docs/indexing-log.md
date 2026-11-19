@@ -43,6 +43,11 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/stop/burj_khalifa (new 2026-11-19)
 - https://quantumaire.space/en/stop/general_sherman (new 2026-11-19)
 - https://quantumaire.space/en/tag/landmark (new 2026-11-19)
+- https://quantumaire.space/en/stop/betelgeuse (new 2026-11-19)
+- https://quantumaire.space/en/stop/oort_cloud (new 2026-11-19)
+- https://quantumaire.space/en/stop/red_blood_cell (new 2026-11-19)
+- https://quantumaire.space/en/stop/statue_of_liberty (new 2026-11-19)
+- https://quantumaire.space/en/tag/comet (new 2026-11-19)
 - remaining /en/stop/* pages, then /sr/* equivalents
 
 ## Done

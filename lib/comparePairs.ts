@@ -28,6 +28,8 @@ export const COMPARE_PAIRS: Array<[string, string]> = [
   ["burj_khalifa", "eiffel_tower"],
   ["eiffel_tower", "pyramid"],
   ["general_sherman", "blue_whale"],
+  ["betelgeuse", "sun"],
+  ["statue_of_liberty", "eiffel_tower"],
   ["bacterium", "virus"],
   ["atom", "proton"],
 ];
