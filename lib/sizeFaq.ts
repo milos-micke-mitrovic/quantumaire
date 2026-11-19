@@ -238,9 +238,17 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
   }
 
   if (typeof stop.temperatureKelvin === "number") {
+    const noteKey = `${stop.i18nKey}.temperatureNote`;
+    const note = tServer(locale, noteKey);
+    const temperatureNote = note === noteKey ? null : note;
     items.push({
       q: t("sizeFaq.q7", { name }),
-      a: t("sizeFaq.a7", { temp: formatTemperature(stop.temperatureKelvin, tm) }),
+      a: temperatureNote
+        ? t("sizeFaq.a7where", {
+            temp: formatTemperature(stop.temperatureKelvin, tm),
+            note: temperatureNote,
+          })
+        : t("sizeFaq.a7", { temp: formatTemperature(stop.temperatureKelvin, tm) }),
     });
   }
 

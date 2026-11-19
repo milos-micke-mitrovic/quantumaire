@@ -31,6 +31,10 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
     typeof stop.distanceFromEarthMeters === "number" &&
     stop.distanceFromEarthMeters > 0;
   const hasTemp = typeof stop.temperatureKelvin === "number";
+  // Where the temperature applies ("cloud tops", "water at the bottom").
+  const temperatureNoteKey = `${stop.i18nKey}.temperatureNote`;
+  const temperatureNote =
+    t(temperatureNoteKey) === temperatureNoteKey ? null : t(temperatureNoteKey);
   const insideNote =
     !hasDistance && stop.insideNoteKey ? t(stop.insideNoteKey) : null;
   // Things we sit inside (Solar System, Laniakea, …) are measured to a
@@ -120,6 +124,11 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
             </dt>
             <dd className="mt-2 whitespace-nowrap font-mono text-base text-cosmos-plasma sm:text-lg">
               {formatTemperature(stop.temperatureKelvin!, t, tempUnit)}
+              {temperatureNote && (
+                <span className="mt-1 block whitespace-normal font-sans text-xs text-cosmos-star/55">
+                  {temperatureNote}
+                </span>
+              )}
             </dd>
           </div>
         )}

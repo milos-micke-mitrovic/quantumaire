@@ -114,3 +114,17 @@ describe("compare pairs", () => {
     }
   });
 });
+
+import enDict from "@/locales/en.json";
+import srDict from "@/locales/sr.json";
+
+describe("temperature notes", () => {
+  it("every topic with a temperature says where it applies (EN + SR)", () => {
+    for (const s of STOPS.filter((x) => typeof x.temperatureKelvin === "number")) {
+      for (const d of [enDict, srDict]) {
+        const stops = d.stops as Record<string, { temperatureNote?: string }>;
+        expect(stops[s.id]?.temperatureNote, s.id).toBeTruthy();
+      }
+    }
+  });
+});

@@ -629,7 +629,8 @@
         "fact2": "Starost: oko 4,54 milijarde godina.",
         "fact3": "70,8% površine je voda.",
         "fact4": "Magnetno polje se, u proseku, preokreće svakih 200 do 300 hiljada godina."
-      }
+      },
+      "temperatureNote": "prosek na površini"
     },
     "neutron_star": {
       "name": "Neutronska zvezda",
@@ -646,7 +647,8 @@
         "fact2": "Površinska gravitacija je oko 10¹¹ × Zemljina.",
         "fact3": "Najbrži poznati pulsar rotira 716 puta u sekundi.",
         "fact4": "Nastaje kada se zvezda od otprilike 8 do 25 Sunčevih masa uruši u supernovi."
-      }
+      },
+      "temperatureNote": "površina tipične neutronske zvezde"
     },
     "sun": {
       "name": "Sunce",
@@ -664,7 +666,8 @@
         "fact2": "Sunčevoj svetlosti treba 8 minuta 20 sekundi da dođe do Zemlje.",
         "fact3": "Površinska temperatura 5.772 K (≈ 5.500 °C); jezgro oko 15,7 miliona K.",
         "fact4": "Već oko 4,6 milijardi godina je zvezda glavnog niza."
-      }
+      },
+      "temperatureNote": "vidljiva površina (fotosfera)"
     },
     "uy_scuti": {
       "name": "UY Scuti",
@@ -682,7 +685,8 @@
         "fact2": "Svetlosti treba oko 70 minuta da pređe UY Scuti od jedne strane do druge — duže nego što Sunčevoj svetlosti treba do Jupitera.",
         "fact3": "Sjaj varira za više od 2 magnitude u ciklusu od oko 740 dana.",
         "fact4": "Udaljena je oko 5.900 svetlosnih godina u sazvežđu Štit."
-      }
+      },
+      "temperatureNote": "površina"
     },
     "milky_way": {
       "name": "Mlečni put",
@@ -998,7 +1002,8 @@
         "fact2": "Prosečna udaljenost od Zemlje: 384.400 km.",
         "fact3": "Plimski zaključan — ista hemisfera uvek gleda ka Zemlji.",
         "fact4": "Dvanaest ljudi je hodalo po njegovoj površini, svi između 1969. i 1972."
-      }
+      },
+      "temperatureNote": "prosek na površini; noću mnogo hladnije, danju toplije"
     },
     "jupiter": {
       "name": "Jupiter",
@@ -1016,7 +1021,8 @@
         "fact2": "Prosečna udaljenost od Sunca: 778 miliona km (oko 5,2 AJ).",
         "fact3": "Dan na Jupiteru traje manje od 10 sati — najbrža rotacija svih planeta.",
         "fact4": "Više od 100 poznatih meseci (115 od avgusta 2026), uključujući četiri velika Galilejeva satelita."
-      }
+      },
+      "temperatureNote": "vrhovi oblaka"
     },
     "proxima_centauri": {
       "name": "Proksima Kentaura",
@@ -1034,7 +1040,8 @@
         "fact2": "Prečnik oko 214.000 km — oko 15% Sunčevog.",
         "fact3": "Crvena patuljasta zvezda, sa površinskom temperaturom oko 3.000 K (≈ 2.700 °C).",
         "fact4": "Ima bar dve poznate planete, uključujući Proksimu b u nastanjivoj zoni."
-      }
+      },
+      "temperatureNote": "površina"
     },
     "mars": {
       "name": "Mars",
@@ -1052,7 +1059,8 @@
         "fact3": "Prosečna površinska temperatura 210 K (≈ -63 °C); kreće se od 130 K na polovima do 308 K na ekvatoru u podne.",
         "fact4": "Atmosferu čini 95% CO₂, ali je njen pritisak manji od 1% Zemljinog.",
         "fact5": "Na njemu su Olimp (22 km visine) i Valles Marineris (4.000 km dužine) — oba su rekorderi Sunčevog sistema."
-      }
+      },
+      "temperatureNote": "prosek na površini"
     },
     "pluto": {
       "name": "Pluton",
@@ -1070,7 +1078,8 @@
         "fact3": "Površinska temperatura oko 44 K (≈ -229 °C) — dovoljno hladno da se azot zamrzne.",
         "fact4": "Degradiran sa planete na patuljastu planetu 2006. kada su pronađeni slični susedi.",
         "fact5": "Površina je geološki mlada — azotni led koji teče obnavlja je čak i sada."
-      }
+      },
+      "temperatureNote": "površina"
     },
     "halley": {
       "name": "Halejeva kometa",
@@ -1087,7 +1096,8 @@
         "fact3": "Površina je tamnija od uglja — jedan od najtamnijih objekata u Sunčevom sistemu.",
         "fact4": "Gubi oko metar površinskog leda po svakom prolazu; vremenom će se ugasiti.",
         "fact5": "Prvi pouzdani zapis: kineski astronomi, 240. p.n.e. Svaki povratak od tada je zabeležen — ukupno 30."
-      }
+      },
+      "temperatureNote": "ledeno jezgro, daleko od Sunca"
     },
     "mercury": {
       "name": "Merkur",
@@ -1106,7 +1116,8 @@
         "fact4": "Praktično nema atmosferu — samo najtanju egzosferu.",
         "fact5": "Polarni krateri sadrže potvrđene naslage vodenog leda u večnoj senci.",
         "fact6": "U proseku je Merkur planeta najbliža Zemlji — i svakoj drugoj planeti — jer se nikad ne udaljava mnogo od Sunca."
-      }
+      },
+      "temperatureNote": "prosek na površini; danju užareno, noću ledeno"
     },
     "venus": {
       "name": "Venera",
@@ -1124,7 +1135,8 @@
         "fact3": "Površinski pritisak 92× veći od Zemljinog — kao na dubini od 900 m pod vodom.",
         "fact4": "Okreće se unazad; jedna rotacija (243 zemaljska dana) traje duže od godine (225).",
         "fact5": "Atmosfera je 96,5% CO₂ sa oblacima sumporne kiseline — udžbenički primer nekontrolisanog efekta staklene bašte."
-      }
+      },
+      "temperatureNote": "površina, isto danju i noću"
     },
     "saturn": {
       "name": "Saturn",
@@ -1142,7 +1154,8 @@
         "fact3": "Glavni prstenovi protežu se ~273.000 km (282.000 km sa F prstenom), ali su debeli samo desetine metara.",
         "fact4": "293 poznata meseca (od avgusta 2026) — više od bilo koje druge planete.",
         "fact5": "Temperatura vrha oblaka oko -139 °C; delom se napaja toplotom sopstvene kontrakcije."
-      }
+      },
+      "temperatureNote": "vrhovi oblaka"
     },
     "uranus": {
       "name": "Uran",
@@ -1160,7 +1173,8 @@
         "fact3": "Gornja atmosfera spušta se do oko −224 °C (49 K) — najhladnija od svih planeta, hladnija čak i od udaljenijeg Neptuna.",
         "fact4": "Ima 13 poznatih tankih, tamnih prstenova — otkrivenih tek 1977.",
         "fact5": "Otkrio ga je Vilijam Heršel 1781. godine — prva planeta nađena teleskopom."
-      }
+      },
+      "temperatureNote": "vrhovi oblaka"
     },
     "neptune": {
       "name": "Neptun",
@@ -1178,7 +1192,8 @@
         "fact3": "Vetrovi dostižu 2.100 km/h — najbrži u Sunčevom sistemu.",
         "fact4": "Temperatura vrha oblaka oko -201 °C, ali zrači više toplote nego što prima.",
         "fact5": "Otkriven 1846. predviđanjem, ne posmatranjem — trijumf Njutnove gravitacije."
-      }
+      },
+      "temperatureNote": "vrhovi oblaka"
     },
     "planck_length": {
       "name": "Plankova dužina",
@@ -1299,7 +1314,8 @@
         "fact2": "Prvi su se na vrh popeli Tenzing Norgej i Edmund Hilari, 29. maja 1953.",
         "fact3": "Vazdušni pritisak na vrhu je samo oko trećina onog na nivou mora.",
         "fact4": "Prosečna temperatura na vrhu u januaru: oko −36 °C."
-      }
+      },
+      "temperatureNote": "vrh, prosek u januaru"
     },
     "gravity": {
       "name": "Gravitacija",
@@ -1514,7 +1530,8 @@
         "fact7": "Na dubini od 10.898 m snimljena je plastična kesa — najdublji poznati komad plastičnog otpada.",
         "fact8": "Tamo buja život: amfipodi, morski krastavci i ksenofiofore — pojedinačne ćelije velike i do 10 cm."
       },
-      "metaDescription": "Marijanski rov se spušta do oko 10.935 m u Čelendžerovom ponoru — Everest bi nestao pod 2 km vode. Pritisak, život i ljudi koji su stigli do dna."
+      "metaDescription": "Marijanski rov se spušta do oko 10.935 m u Čelendžerovom ponoru — Everest bi nestao pod 2 km vode. Pritisak, život i ljudi koji su stigli do dna.",
+      "temperatureNote": "voda na dnu (Čelendžerov ponor)"
     },
     "iss": {
       "name": "Međunarodna svemirska stanica",
@@ -1560,7 +1577,8 @@
         "fact7": "Zajednička misija NASA-e, ESA-e i Kanadske svemirske agencije, vredna oko 10 milijardi dolara.",
         "fact8": "Video je galaksije kakve su bile manje od 300 miliona godina posle Velikog praska."
       },
-      "metaDescription": "Teleskop Džejms Veb ima zlatno ogledalo od 6,5 m i štit veličine teniskog terena, a radi 1,5 miliona km od Zemlje. Veličina, udaljenost i otkrića."
+      "metaDescription": "Teleskop Džejms Veb ima zlatno ogledalo od 6,5 m i štit veličine teniskog terena, a radi 1,5 miliona km od Zemlje. Veličina, udaljenost i otkrića.",
+      "temperatureNote": "hladna strana štita od sunca, u senci"
     },
     "fermi_paradox": {
       "name": "Fermijev paradoks",
@@ -2357,7 +2375,8 @@
     "a8smaller": "Zemlja, prečnika 12.742 km, otprilike je {ratio} puta veća nego {Name}.",
     "metaSize": "{Name}: veličina oko {size}.",
     "metaTail": "Uporedite sa čovekom, Zemljom i svemirom.",
-    "title": "{Name}: veličina i razmere u poređenju"
+    "title": "{Name}: veličina i razmere u poređenju",
+    "a7where": "Tipična temperatura: oko {temp} — {note}."
   },
   "seo": {
     "home": "Razmere svemira — od kvarka do kosmosa | Quantumaire",

@@ -629,7 +629,8 @@
         "fact2": "Age: about 4.54 billion years.",
         "fact3": "70.8% of the surface is water.",
         "fact4": "Magnetic field reverses, on average, every 200 to 300 thousand years."
-      }
+      },
+      "temperatureNote": "average at the surface"
     },
     "neutron_star": {
       "name": "Neutron Star",
@@ -646,7 +647,8 @@
         "fact2": "Surface gravity is roughly 10¹¹ × Earth's.",
         "fact3": "The fastest known pulsar spins 716 times every second.",
         "fact4": "Forms when a star of roughly 8 to 25 solar masses collapses in a supernova."
-      }
+      },
+      "temperatureNote": "surface of a typical one"
     },
     "sun": {
       "name": "The Sun",
@@ -664,7 +666,8 @@
         "fact2": "Sunlight takes 8 minutes 20 seconds to reach Earth.",
         "fact3": "Surface temperature 5,772 K (≈ 5,500 °C); core about 15.7 million K.",
         "fact4": "Has been a main-sequence star for about 4.6 billion years."
-      }
+      },
+      "temperatureNote": "visible surface (photosphere)"
     },
     "uy_scuti": {
       "name": "UY Scuti",
@@ -682,7 +685,8 @@
         "fact2": "Light takes about 70 minutes to cross UY Scuti from one side to the other — longer than sunlight takes to reach Jupiter.",
         "fact3": "Brightness varies by more than 2 magnitudes over a cycle of roughly 740 days.",
         "fact4": "Lies about 5,900 light-years away in the constellation Scutum."
-      }
+      },
+      "temperatureNote": "surface"
     },
     "milky_way": {
       "name": "Milky Way",
@@ -998,7 +1002,8 @@
         "fact2": "Average distance from Earth: 384,400 km.",
         "fact3": "Tidally locked — the same hemisphere always faces Earth.",
         "fact4": "Twelve humans have walked on its surface, all between 1969 and 1972."
-      }
+      },
+      "temperatureNote": "average at the surface; far colder at night, hotter by day"
     },
     "jupiter": {
       "name": "Jupiter",
@@ -1016,7 +1021,8 @@
         "fact2": "Average distance from the Sun: 778 million km (about 5.2 AU).",
         "fact3": "A day on Jupiter is under 10 hours — the fastest spin of any planet.",
         "fact4": "More than 100 known moons (115 as of August 2026), including the four large Galilean satellites."
-      }
+      },
+      "temperatureNote": "cloud tops"
     },
     "proxima_centauri": {
       "name": "Proxima Centauri",
@@ -1034,7 +1040,8 @@
         "fact2": "Diameter about 214,000 km — about 15% of the Sun's.",
         "fact3": "A red dwarf, with a surface temperature of around 3,000 K (≈ 2,700 °C).",
         "fact4": "Has at least two known planets, including Proxima b in the habitable zone."
-      }
+      },
+      "temperatureNote": "surface"
     },
     "mars": {
       "name": "Mars",
@@ -1052,7 +1059,8 @@
         "fact3": "Average surface temperature 210 K (≈ -63 °C); ranges from 130 K at the poles to 308 K at the equator at noon.",
         "fact4": "Atmosphere is 95% CO₂ but less than 1% of Earth's air pressure.",
         "fact5": "Hosts Olympus Mons (22 km tall) and Valles Marineris (4,000 km long) — both record-holders in the Solar System."
-      }
+      },
+      "temperatureNote": "average at the surface"
     },
     "pluto": {
       "name": "Pluto",
@@ -1070,7 +1078,8 @@
         "fact3": "Surface temperature around 44 K (≈ -229 °C) — cold enough to freeze nitrogen.",
         "fact4": "Demoted from planet to dwarf planet in 2006 once similar-sized neighbours were found.",
         "fact5": "Surface is geologically young — flowing nitrogen ice resurfaces it even now."
-      }
+      },
+      "temperatureNote": "surface"
     },
     "halley": {
       "name": "Halley's Comet",
@@ -1087,7 +1096,8 @@
         "fact3": "Surface is darker than coal — one of the darkest objects in the Solar System.",
         "fact4": "Loses about a metre of surface ice each pass; will eventually fizzle out.",
         "fact5": "First certain record: Chinese astronomers in 240 BCE. Every return since has been logged — 30 in all."
-      }
+      },
+      "temperatureNote": "icy nucleus, far from the Sun"
     },
     "mercury": {
       "name": "Mercury",
@@ -1106,7 +1116,8 @@
         "fact4": "Has no atmosphere to speak of and only the thinnest exosphere.",
         "fact5": "Polar craters hold confirmed deposits of water ice in permanent shadow.",
         "fact6": "On average, Mercury is the closest planet to Earth — and to every other planet — because it never strays far from the Sun."
-      }
+      },
+      "temperatureNote": "average at the surface; scorching by day, frozen at night"
     },
     "venus": {
       "name": "Venus",
@@ -1124,7 +1135,8 @@
         "fact3": "Surface pressure 92× Earth's — equivalent to being 900 m underwater.",
         "fact4": "Rotates backwards; one rotation (243 Earth days) takes longer than its year (225).",
         "fact5": "Atmosphere is 96.5% CO₂ with sulphuric-acid clouds — a textbook runaway greenhouse."
-      }
+      },
+      "temperatureNote": "surface, day and night alike"
     },
     "saturn": {
       "name": "Saturn",
@@ -1142,7 +1154,8 @@
         "fact3": "Main rings span ~273,000 km (282,000 km with the F ring) but are only tens of metres thick.",
         "fact4": "293 known moons (as of August 2026) — more than any other planet.",
         "fact5": "Cloud-top temperature around -139 °C; powered partly by heat from its own contraction."
-      }
+      },
+      "temperatureNote": "cloud tops"
     },
     "uranus": {
       "name": "Uranus",
@@ -1160,7 +1173,8 @@
         "fact3": "Its upper atmosphere dips to about −224 °C (49 K) — the coldest of any planet, colder even than more-distant Neptune.",
         "fact4": "Has 13 known thin, dark rings — discovered only in 1977.",
         "fact5": "Discovered by William Herschel in 1781 — first planet found by telescope."
-      }
+      },
+      "temperatureNote": "cloud tops"
     },
     "neptune": {
       "name": "Neptune",
@@ -1178,7 +1192,8 @@
         "fact3": "Winds reach 2,100 km/h — the fastest in the Solar System.",
         "fact4": "Cloud-top temperature around -201 °C, but radiates more heat than it receives.",
         "fact5": "Discovered in 1846 by prediction, not observation — a triumph of Newtonian gravity."
-      }
+      },
+      "temperatureNote": "cloud tops"
     },
     "planck_length": {
       "name": "Planck Length",
@@ -1299,7 +1314,8 @@
         "fact2": "First summited on 29 May 1953 by Tenzing Norgay and Edmund Hillary.",
         "fact3": "Air pressure at the summit is only about a third of that at sea level.",
         "fact4": "Average summit temperature in January: around −36 °C."
-      }
+      },
+      "temperatureNote": "summit, January average"
     },
     "gravity": {
       "name": "Gravity",
@@ -1514,7 +1530,8 @@
         "fact7": "A plastic bag has been spotted at 10,898 m — the deepest known piece of plastic litter.",
         "fact8": "Life thrives there: amphipods, sea cucumbers and xenophyophores — single cells up to 10 cm across."
       },
-      "metaDescription": "The Mariana Trench plunges about 10,935 m at Challenger Deep — Everest would vanish under 2 km of water. Pressure, life and the people who reached the bottom."
+      "metaDescription": "The Mariana Trench plunges about 10,935 m at Challenger Deep — Everest would vanish under 2 km of water. Pressure, life and the people who reached the bottom.",
+      "temperatureNote": "water at the bottom (Challenger Deep)"
     },
     "iss": {
       "name": "International Space Station",
@@ -1560,7 +1577,8 @@
         "fact7": "A joint mission of NASA, ESA and the Canadian Space Agency, costing about 10 billion dollars.",
         "fact8": "It has seen galaxies as they were less than 300 million years after the Big Bang."
       },
-      "metaDescription": "The James Webb Space Telescope has a 6.5 m gold mirror and a tennis-court-sized sunshield, and works 1.5 million km from Earth. Size, distance and discoveries."
+      "metaDescription": "The James Webb Space Telescope has a 6.5 m gold mirror and a tennis-court-sized sunshield, and works 1.5 million km from Earth. Size, distance and discoveries.",
+      "temperatureNote": "cold, shaded side of the sunshield"
     },
     "fermi_paradox": {
       "name": "Fermi Paradox",
@@ -2405,7 +2423,8 @@
       "eiffel_tower": "the Eiffel Tower",
       "burj_khalifa": "the Burj Khalifa",
       "general_sherman": "the General Sherman tree"
-    }
+    },
+    "a7where": "The typical temperature of {name} is about {temp} — {note}."
   },
   "seo": {
     "home": "Scale of the Universe — Quarks to the Cosmos | Quantumaire",

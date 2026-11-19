@@ -96,3 +96,6 @@
 
 ## 2026-11-19 — everyday-scale analogies: only well-known topics (owner report)
 - "ISS = a marble → Pluto ≈ the Eiffel Tower" was useless: nobody pictures Pluto. The second row of a size analogy now only uses `FAMILIAR_STOP_IDS` (lib/analogies.ts: atom, DNA, virus, bacterium, cell, red blood cell, human, blue whale, pyramid, Statue of Liberty, Eiffel, Burj, Everest, Moon, Earth, Jupiter, Sun, Solar System, Milky Way, observable universe). Dumped all analogies before/after: Pluto, Halley, Webb, Mercury, UY Scuti, M87*, neutron star, Phoenix A, light-year, tardigrade no longer appear as the "picture this" object; every sized topic except the Planck length still gets ≥1 analogy. Test guards the whitelist.
+
+## 2026-11-19 — temperatures say where (owner report)
+- "Mariana Trench: 2 °C" didn't say where. New `stops.<id>.temperatureNote` (EN+SR) for all 18 topics with a temperature — "water at the bottom (Challenger Deep)", "summit, January average", "cloud tops", "visible surface (photosphere)", "cold, shaded side of the sunshield"… — shown under the value in the Numbers card and in the "How hot is X?" FAQ (`sizeFaq.a7where`). Notes carry no numbers so they work with °C/°F/K. Test: every topic with a temperature has a note in both locales.

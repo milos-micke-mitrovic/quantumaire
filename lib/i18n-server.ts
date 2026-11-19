@@ -160,6 +160,7 @@ export function baseClientPaths(locale: Locale): string[] {
     "stops.*.image",
     "stops.*.distanceName",
     "stops.*.insideNote",
+    "stops.*.temperatureNote",
     "topics.*.title",
     "topics.*.tagline",
     "glossary.*.term",
