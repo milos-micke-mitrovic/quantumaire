@@ -73,7 +73,6 @@ export default async function ScaleToolPage({ params }: PageProps) {
           faqJsonLd(faq),
           breadcrumbJsonLd(typed, [
             { name: tServer(typed, "common.title"), path: "" },
-            { name: tServer(typed, "common.tools"), path: "tools/scale" },
             { name: tServer(typed, "common.scaleTool.title"), path: "tools/scale" },
           ]),
         ]}

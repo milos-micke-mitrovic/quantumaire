@@ -85,10 +85,9 @@ browser (desktop + 390 px) after UI changes.
       (jupiter-vs-earth, sun-vs-earth, moon-vs-earth, uy-scuti-vs-sun,
       milky-way-vs-andromeda, …) with real titles; keep the interactive page.
 - [ ] Smaller: ~~titles >60 / descriptions >160~~ (done — local crawl of all 176 sitemap URLs: 0 issues; `metaDescription` keys + `fitDescription`); ~~robots.txt keep `Disallow: /api/`
-      in bot groups~~; "Tools" breadcrumb + `/tools` hub page (or point to
-      converter); ~~`/favicon.ico`~~; 404 page SSR body (note: Next 16 renders every 404 — even a trivial not-found — through the `__next_error__` shell; status is 404 and the body appears after JS; revisit on a Next upgrade); ~~sitemap x-default~~;
+      in bot groups~~; ~~"Tools" breadcrumb~~ (middle item dropped); ~~`/favicon.ico`~~; 404 page SSR body (note: Next 16 renders every 404 — even a trivial not-found — through the `__next_error__` shell; status is 404 and the body appears after JS; revisit on a Next upgrade); ~~sitemap x-default~~;
       ~~llms.txt still says "stop"~~; thin pages (merge single-topic categories
-      HUMAN_MIND + ANCIENT_HISTORY into a "Curiosities" category? or noindex).
+      HUMAN_MIND + ANCIENT_HISTORY into a "Curiosities" category? or noindex) — **waiting for owner decision** (changes taxonomy/URLs).
 
 ## Phase 5 — Accessibility (docs/audit/code.md §6, §7, §9)
 
