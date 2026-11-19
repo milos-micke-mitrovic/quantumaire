@@ -232,7 +232,7 @@ export function StopDetail({
         <Sources sources={sources} />
       )}
 
-      <p className="mt-5 text-[10px] uppercase tracking-[0.22em] text-cosmos-star/40">
+      <p className="mt-5 text-[10px] uppercase tracking-[0.22em] text-cosmos-star/55">
         {t("common.lastUpdated", { date: lastUpdated })}
       </p>
 

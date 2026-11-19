@@ -20,11 +20,12 @@ export function LanguageSwitcher() {
       {SUPPORTED_LOCALES.map((l) => (
         <button
           key={l}
+          lang={l === "sr" ? "sr-Latn" : "en"}
           type="button"
           aria-pressed={l === locale}
           onClick={() => setLocale(l)}
           className={clsx(
-            "rounded-full px-3 py-1 text-xs font-medium tracking-wider transition-colors",
+            "min-h-9 rounded-full px-3 py-1 text-xs font-medium tracking-wider transition-colors",
             l === locale
               ? "bg-aurora-gradient text-cosmos-void shadow-glow"
               : "text-cosmos-star/70 hover:text-cosmos-star"

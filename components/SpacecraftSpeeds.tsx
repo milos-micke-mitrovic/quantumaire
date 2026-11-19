@@ -105,7 +105,7 @@ export function SpacecraftSpeeds({
           </li>
         ))}
       </ul>
-      <p className="mt-2 text-[10px] uppercase tracking-[0.16em] text-cosmos-star/45 sm:hidden">
+      <p className="mt-2 text-[10px] uppercase tracking-[0.16em] text-cosmos-star/55 sm:hidden">
         {t("spacecraft.colSpeed")} · {t("spacecraft.colLightYear")}
       </p>
 

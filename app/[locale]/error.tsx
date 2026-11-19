@@ -51,7 +51,7 @@ export default function LocaleError({
         </Link>
       </div>
       {error.digest && (
-        <p className="mt-4 font-mono text-[10px] uppercase tracking-[0.22em] text-cosmos-star/40">
+        <p className="mt-4 font-mono text-[10px] uppercase tracking-[0.22em] text-cosmos-star/55">
           ref · {error.digest}
         </p>
       )}

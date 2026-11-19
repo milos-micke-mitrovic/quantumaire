@@ -32,7 +32,7 @@ export function TagView({ tag, stops }: { tag: string; stops: Stop[] }) {
         <p className="mt-4 text-base leading-relaxed text-cosmos-star/75 sm:text-lg">
           {t(`tagPages.${tag}.intro`)}
         </p>
-        <p className="mt-3 text-[11px] uppercase tracking-[0.2em] text-cosmos-star/45">
+        <p className="mt-3 text-[11px] uppercase tracking-[0.2em] text-cosmos-star/55">
           {t("common.stopsInCategory", { count: stops.length })}
         </p>
       </header>

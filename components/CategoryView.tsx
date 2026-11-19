@@ -54,7 +54,7 @@ export function CategoryView({ category, stops }: CategoryViewProps) {
         <p className="mt-5 max-w-2xl text-base leading-relaxed text-cosmos-star/70">
           {t(`categories.${category}.intro`)}
         </p>
-        <p className="mt-4 text-[11px] font-mono uppercase tracking-[0.22em] text-cosmos-star/45">
+        <p className="mt-4 text-[11px] font-mono uppercase tracking-[0.22em] text-cosmos-star/55">
           {t("common.stopsInCategory", { count: stops.length })}
         </p>
       </motion.header>

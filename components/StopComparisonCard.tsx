@@ -96,7 +96,7 @@ export function StopComparisonCard({ stop }: StopComparisonCardProps) {
         <p className="text-[11px] font-medium uppercase tracking-[0.22em] text-cosmos-star/65">
           {stopName} <span aria-hidden>—</span> {refNameNode}
         </p>
-        <p className="text-[10px] uppercase tracking-[0.22em] text-cosmos-star/45">
+        <p className="text-[10px] uppercase tracking-[0.22em] text-cosmos-star/55">
           {t("common.comparePage.drawnToScale")}
         </p>
       </header>

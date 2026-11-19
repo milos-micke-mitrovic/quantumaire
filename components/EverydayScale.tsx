@@ -112,12 +112,12 @@ function AnalogyCard({
       >
         {left}
       </span>
-      <span aria-hidden className="font-mono text-cosmos-star/40">
+      <span aria-hidden className="font-mono text-cosmos-star/55">
         {sign}
       </span>
       <span className="text-cosmos-plasma">
         {t(`analogy.items.${objId}`)}
-        <span className="ml-1.5 whitespace-nowrap font-mono text-[11px] text-cosmos-star/45">
+        <span className="ml-1.5 whitespace-nowrap font-mono text-[11px] text-cosmos-star/55">
           {formatMeters(objMeters, tr)}
         </span>
       </span>
@@ -126,7 +126,7 @@ function AnalogyCard({
 
   return (
     <div className="rounded-2xl border border-white/10 bg-cosmos-deep/50 px-4 py-3">
-      <p className="text-[10px] font-medium uppercase tracking-[0.2em] text-cosmos-star/45">
+      <p className="text-[10px] font-medium uppercase tracking-[0.2em] text-cosmos-star/55">
         {factorText}
       </p>
       <div className="mt-1 divide-y divide-white/5 text-sm">

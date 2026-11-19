@@ -90,7 +90,7 @@ export function NavGroups({
   return (
     <div className={isMenu ? "grid gap-1 sm:grid-cols-3" : "space-y-4"}>
       <div className={clsx("min-w-0", isMenu && "sm:col-span-3")}>
-        <p className="px-3 pb-1.5 pt-2 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/45">
+        <p className="px-3 pb-1.5 pt-2 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
           {t("common.nav.categories")}
         </p>
         <div className="flex flex-wrap gap-1.5 px-2 pb-1">
@@ -100,7 +100,6 @@ export function NavGroups({
               <Link
                 key={c}
                 href={href}
-                role={isMenu ? "menuitem" : undefined}
                 onClick={onNavigate}
                 className={clsx(
                   "inline-flex items-center gap-1.5 rounded-full border border-white/10 px-2.5 py-1 text-xs transition-colors",
@@ -118,7 +117,7 @@ export function NavGroups({
       </div>
       {groups.map((g) => (
         <div key={g.key} className="min-w-0">
-          <p className="px-3 pb-1 pt-2 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/45">
+          <p className="px-3 pb-1 pt-2 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
             {g.title}
           </p>
           {g.links.map((l) => {
@@ -127,7 +126,6 @@ export function NavGroups({
               <Link
                 key={l.href}
                 href={l.href}
-                role={isMenu ? "menuitem" : undefined}
                 onClick={onNavigate}
                 className={clsx(
                   "block rounded-xl px-3 py-2 transition-colors",
@@ -160,7 +158,6 @@ export function NavGroups({
       >
         <Link
           href={about.href}
-          role={isMenu ? "menuitem" : undefined}
           onClick={onNavigate}
           className="block rounded-xl px-3 py-2 text-xs uppercase tracking-[0.18em] text-cosmos-star/60 transition-colors hover:bg-white/[0.05] hover:text-cosmos-star"
         >

@@ -50,11 +50,11 @@ body::before {
   border: 2px solid theme("colors.cosmos.void");
 }
 
-/* Focus styling: keyboard only */
-:where(button, a, [role="button"]):focus-visible {
-  outline: none;
-  box-shadow: 0 0 0 2px theme("colors.cosmos.aurora");
-  border-radius: 9999px;
+/* Focus styling: keyboard only. An outline follows each element's own
+   shape (no forced pill radius) and stays visible in forced-colors mode. */
+:where(button, a, [role="button"], [role="option"], input, select, textarea):focus-visible {
+  outline: 2px solid theme("colors.cosmos.plasma");
+  outline-offset: 2px;
 }
 
 /* Respect reduced motion */

@@ -51,7 +51,6 @@ export function StopCard({ stop, index, sizes = GRID_SIZES }: StopCardProps) {
           />
           {isVisited && (
             <span
-              aria-label={t("common.visited.marker")}
               title={t("common.visited.marker")}
               className="absolute left-2 top-2 inline-flex h-7 w-7 items-center justify-center rounded-full bg-cosmos-deep/85 text-cosmos-nova shadow-glow backdrop-blur-sm"
             >
@@ -63,11 +62,9 @@ export function StopCard({ stop, index, sizes = GRID_SIZES }: StopCardProps) {
               >
                 <path d="M20.285 6.708a1 1 0 0 0-1.414-1.414L9 15.165 5.129 11.293a1 1 0 1 0-1.414 1.414l4.578 4.578a1 1 0 0 0 1.414 0L20.285 6.708z" />
               </svg>
+              <span className="sr-only">{t("common.visited.marker")}</span>
             </span>
           )}
-          <div className="absolute right-2 top-2">
-            <BookmarkButton stopId={stop.id} size="sm" />
-          </div>
         </div>
 
         <div className="flex items-start justify-between text-[10px] font-mono uppercase tracking-[0.18em] text-cosmos-star/55">
@@ -75,7 +72,7 @@ export function StopCard({ stop, index, sizes = GRID_SIZES }: StopCardProps) {
           <span className="flex flex-col items-end gap-1 text-right">
             {stop.sizeMeters !== null ? (
               <span className="inline-flex items-baseline gap-2">
-                <span className="text-cosmos-star/45">{t("common.size")}</span>
+                <span className="text-cosmos-star/55">{t("common.size")}</span>
                 <span className="text-cosmos-star/85">
                   <CardLength meters={stop.sizeMeters} />
                 </span>
@@ -86,7 +83,7 @@ export function StopCard({ stop, index, sizes = GRID_SIZES }: StopCardProps) {
             {stop.distanceFromEarthMeters !== undefined &&
               stop.distanceFromEarthMeters > 0 && (
                 <span className="inline-flex items-baseline gap-2">
-                  <span className="text-cosmos-star/45">
+                  <span className="text-cosmos-star/55">
                     {t("common.distanceShort")}
                   </span>
                   <span className="text-cosmos-star/85">
@@ -96,7 +93,7 @@ export function StopCard({ stop, index, sizes = GRID_SIZES }: StopCardProps) {
               )}
             {stop.temperatureKelvin !== undefined && (
               <span className="inline-flex items-baseline gap-2">
-                <span className="text-cosmos-star/45">
+                <span className="text-cosmos-star/55">
                   {t("common.temperatureShort")}
                 </span>
                 <span className="text-cosmos-star/85">
@@ -128,6 +125,10 @@ export function StopCard({ stop, index, sizes = GRID_SIZES }: StopCardProps) {
         >
           {t(`categories.${stop.category}`)}
         </Link>
+      </div>
+      {/* Sibling of the link (not nested in it), over the image corner. */}
+      <div className="absolute right-7 top-7 z-10">
+        <BookmarkButton stopId={stop.id} size="sm" />
       </div>
     </article>
   );

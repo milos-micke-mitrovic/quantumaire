@@ -360,7 +360,7 @@ export function ComparePage({
 
       {/* Exact number sits below, as supporting data. */}
       {ratioBig !== "—" && (
-        <p className="mt-2 text-center text-[11px] font-mono uppercase tracking-[0.22em] text-cosmos-star/45">
+        <p className="mt-2 text-center text-[11px] font-mono uppercase tracking-[0.22em] text-cosmos-star/55">
           {t("common.comparePage.ratio")} · {ratioBig}
         </p>
       )}

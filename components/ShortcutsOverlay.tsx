@@ -1,9 +1,10 @@
 "use client";
 
 import { AnimatePresence, m as motion } from "framer-motion";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { lockBodyScroll } from "@/lib/scrollLock";
+import { useDialog } from "@/lib/useDialog";
 
 interface Shortcut {
   keys: string[];
@@ -24,6 +25,8 @@ export function ShortcutsOverlay() {
   const { t } = useI18n();
   const [open, setOpen] = useState(false);
   const close = useCallback(() => setOpen(false), []);
+  const panelRef = useRef<HTMLDivElement>(null);
+  useDialog(panelRef, open);
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
@@ -55,12 +58,14 @@ export function ShortcutsOverlay() {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.15 }}
           onClick={close}
-          role="dialog"
-          aria-modal="true"
-          aria-label={t("common.shortcuts.title")}
           className="fixed inset-0 z-50 flex items-center justify-center bg-cosmos-void/85 backdrop-blur-md px-4"
         >
           <motion.div
+            ref={panelRef}
+            role="dialog"
+            aria-modal="true"
+            aria-label={t("common.shortcuts.title")}
+            tabIndex={-1}
             initial={{ opacity: 0, y: 12, scale: 0.96 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 12, scale: 0.96 }}
@@ -81,7 +86,7 @@ export function ShortcutsOverlay() {
                 type="button"
                 onClick={close}
                 aria-label={t("common.searchClose")}
-                className="rounded-full p-1.5 text-cosmos-star/55 transition-colors hover:bg-white/[0.06] hover:text-cosmos-star"
+                className="inline-flex h-10 w-10 items-center justify-center rounded-full text-cosmos-star/55 transition-colors hover:bg-white/[0.06] hover:text-cosmos-star"
               >
                 <svg
                   viewBox="0 0 24 24"

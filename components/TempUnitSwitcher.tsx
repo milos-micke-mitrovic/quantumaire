@@ -33,7 +33,7 @@ export function TempUnitSwitcher({ className }: { className?: string }) {
           aria-pressed={opt.value === tempUnit}
           onClick={() => setTempUnit(opt.value)}
           className={clsx(
-            "flex-1 rounded-full px-2.5 py-1 text-xs font-medium tracking-wider transition-colors",
+            "min-h-9 flex-1 rounded-full px-2.5 py-1 text-xs font-medium tracking-wider transition-colors",
             opt.value === tempUnit
               ? "bg-aurora-gradient text-cosmos-void shadow-glow"
               : "text-cosmos-star/70 hover:text-cosmos-star"

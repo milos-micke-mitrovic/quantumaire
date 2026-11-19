@@ -30,7 +30,7 @@ export function UnitSwitcher() {
           aria-pressed={opt.value === units}
           onClick={() => setUnits(opt.value)}
           className={clsx(
-            "rounded-full px-3 py-1 text-xs font-medium tracking-wider transition-colors",
+            "min-h-9 rounded-full px-3 py-1 text-xs font-medium tracking-wider transition-colors",
             opt.value === units
               ? "bg-aurora-gradient text-cosmos-void shadow-glow"
               : "text-cosmos-star/70 hover:text-cosmos-star"

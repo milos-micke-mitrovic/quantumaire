@@ -70,7 +70,7 @@ export function JourneyHero() {
           </svg>
         </a>
       </div>
-      <p className="absolute bottom-3 right-4 text-[10px] text-cosmos-star/35">
+      <p className="absolute bottom-3 right-4 text-[10px] text-cosmos-star/60">
         {t("common.heroCredit")}
       </p>
     </section>

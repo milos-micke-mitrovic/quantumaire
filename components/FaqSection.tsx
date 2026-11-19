@@ -83,7 +83,7 @@ export function FaqSection({ locale }: FaqSectionProps) {
                     {a}{" "}
                     <Link
                       href={`/${locale}/stop/${FAQ_LINKS[i]}`}
-                      className="whitespace-nowrap text-cosmos-aurora underline-offset-4 hover:text-cosmos-plasma hover:underline"
+                      className="whitespace-nowrap text-cosmos-plasma underline-offset-4 hover:text-cosmos-plasma hover:underline"
                     >
                       {tServer(locale, "home.faq.readMore")} →
                     </Link>

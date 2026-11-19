@@ -103,7 +103,16 @@ export function StopCombobox({
   };
 
   return (
-    <div ref={wrapRef} className="relative">
+    <div
+      ref={wrapRef}
+      className="relative"
+      onBlur={(e) => {
+        // Tabbing out of the picker closes the list.
+        if (!wrapRef.current?.contains(e.relatedTarget as Node | null)) {
+          setOpen(false);
+        }
+      }}
+    >
       <label
         htmlFor={id}
         className="block text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55"
@@ -136,7 +145,7 @@ export function StopCombobox({
           }}
           onKeyDown={onKeyDown}
           className={clsx(
-            "w-full truncate rounded-2xl border border-white/10 bg-cosmos-night/40 py-3 text-base text-cosmos-star placeholder:text-cosmos-star/40 focus:border-cosmos-aurora/60 focus:outline-none",
+            "w-full truncate rounded-2xl border border-white/10 bg-cosmos-night/40 py-3 text-base text-cosmos-star placeholder:text-cosmos-star/55 focus:border-cosmos-aurora/60 focus:outline-none focus:ring-2 focus:ring-cosmos-aurora/40",
             selected?.image && !open ? "pl-12" : "pl-4",
             showSelectedDetail ? "pr-24" : "pr-10"
           )}
@@ -172,7 +181,12 @@ export function StopCombobox({
           className="absolute z-40 mt-2 max-h-72 w-full overflow-y-auto rounded-2xl border border-white/10 bg-cosmos-deep p-1.5 shadow-glow"
         >
           {results.length === 0 ? (
-            <li className="px-3 py-4 text-center text-sm text-cosmos-star/55">
+            <li
+              role="option"
+              aria-disabled="true"
+              aria-selected="false"
+              className="px-3 py-4 text-center text-sm text-cosmos-star/55"
+            >
               {t("common.searchEmpty")}
             </li>
           ) : (

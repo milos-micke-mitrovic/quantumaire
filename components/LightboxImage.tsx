@@ -1,11 +1,12 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import type { ImagePlaceholder as ImagePlaceholderType } from "@/lib/types";
 import { ImagePlaceholder } from "./ImagePlaceholder";
 import { lockBodyScroll } from "@/lib/scrollLock";
+import { useDialog } from "@/lib/useDialog";
 
 interface LightboxImageProps {
   image: ImagePlaceholderType;
@@ -25,6 +26,8 @@ export function LightboxImage({
   const { t } = useI18n();
   const [open, setOpen] = useState(false);
   const close = useCallback(() => setOpen(false), []);
+  const panelRef = useRef<HTMLDivElement>(null);
+  useDialog(panelRef, open);
 
   useEffect(() => {
     if (!open) return;
@@ -46,7 +49,7 @@ export function LightboxImage({
       <button
         type="button"
         onClick={() => setOpen(true)}
-        aria-label={`${alt} — zoom`}
+        aria-label={`${alt} — ${t("common.zoom")}`}
         className="group relative block w-full focus:outline-none focus-visible:ring-2 focus-visible:ring-cosmos-aurora/60 rounded-2xl"
       >
         <ImagePlaceholder
@@ -76,7 +79,7 @@ export function LightboxImage({
         </span>
       </button>
       {image.credit && (
-        <p className="mt-1.5 text-[10px] leading-snug text-cosmos-star/45">
+        <p className="mt-1.5 text-[10px] leading-snug text-cosmos-star/55">
           {image.credit}
         </p>
       )}
@@ -84,9 +87,6 @@ export function LightboxImage({
       <AnimatePresence>
         {open && (
           <motion.div
-            role="dialog"
-            aria-modal="true"
-            aria-label={alt}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -95,6 +95,11 @@ export function LightboxImage({
             className="fixed inset-0 z-50 flex items-center justify-center bg-cosmos-void/95 px-4 py-12 backdrop-blur-md sm:py-16"
           >
             <motion.div
+              ref={panelRef}
+              role="dialog"
+              aria-modal="true"
+              aria-label={alt}
+              tabIndex={-1}
               initial={{ opacity: 0, scale: 0.96 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.96 }}
@@ -126,7 +131,7 @@ export function LightboxImage({
                 {alt}
               </p>
               {image.credit && (
-                <p className="mt-1 text-center text-[10px] text-cosmos-star/45">
+                <p className="mt-1 text-center text-[10px] text-cosmos-star/55">
                   {image.credit}
                 </p>
               )}

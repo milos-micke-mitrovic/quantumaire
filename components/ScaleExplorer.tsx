@@ -3,7 +3,7 @@
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { formatFactor } from "@/lib/references";
 import { assignLanes, buildAxis, gapLabel, thinTicks } from "@/lib/scaleAxis";
@@ -70,6 +70,8 @@ export function ScaleExplorer({
   originLabel,
   maxGapDecades = 6,
 }: ScaleExplorerProps) {
+  // Unique per instance: two explorers can show the same topic.
+  const uid = useId();
   const { t, locale } = useI18n();
   const scrollRef = useRef<HTMLDivElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
@@ -225,7 +227,7 @@ export function ScaleExplorer({
           </div>
           <Link
             href={`/${locale}/stop/${active.stop.id}`}
-            className="inline-flex items-center gap-1 rounded-full border border-cosmos-aurora/40 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.16em] text-cosmos-aurora transition-colors hover:border-cosmos-plasma hover:text-cosmos-plasma focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cosmos-plasma/60"
+            className="inline-flex items-center gap-1 rounded-full border border-cosmos-aurora/40 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.16em] text-cosmos-plasma transition-colors hover:border-cosmos-plasma hover:text-cosmos-star focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cosmos-plasma/60"
           >
             {t("common.openStop")}
             <span aria-hidden>→</span>
@@ -242,7 +244,7 @@ export function ScaleExplorer({
               {step}
             </>
           ) : (
-            <span className="text-cosmos-star/40">{legend}</span>
+            <span className="text-cosmos-star/55">{legend}</span>
           )}
         </p>
         <div className="flex shrink-0 items-center gap-1">
@@ -251,7 +253,7 @@ export function ScaleExplorer({
             onClick={() => go(idx - 1)}
             disabled={idx === 0}
             aria-label={t("common.prev")}
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-white/10 text-cosmos-star/75 transition-colors hover:bg-white/[0.06] hover:text-cosmos-star disabled:opacity-30"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-cosmos-star/75 transition-colors hover:bg-white/[0.06] hover:text-cosmos-star disabled:opacity-30"
           >
             <span aria-hidden>←</span>
           </button>
@@ -263,7 +265,7 @@ export function ScaleExplorer({
             onClick={() => go(idx + 1)}
             disabled={idx === items.length - 1}
             aria-label={t("common.next")}
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-white/10 text-cosmos-star/75 transition-colors hover:bg-white/[0.06] hover:text-cosmos-star disabled:opacity-30"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-cosmos-star/75 transition-colors hover:bg-white/[0.06] hover:text-cosmos-star disabled:opacity-30"
           >
             <span aria-hidden>→</span>
           </button>
@@ -279,7 +281,7 @@ export function ScaleExplorer({
           ref={trackRef}
           role="listbox"
           aria-label={valueLabel}
-          aria-activedescendant={`scale-dot-${active.stop.id}`}
+          aria-orientation="horizontal"
           onKeyDown={onKeyDown}
           className="relative h-[124px] min-w-[52rem] lg:min-w-0"
         >
@@ -295,7 +297,7 @@ export function ScaleExplorer({
               style={{ left: `${tk.pos * 100}%` }}
             >
               <div className="mx-auto -mt-[24px] h-[8px] w-px bg-white/25" />
-              <p className="mt-[16px] whitespace-nowrap font-mono text-[9px] text-cosmos-star/40">
+              <p className="mt-[16px] whitespace-nowrap font-mono text-[9px] text-cosmos-star/55">
                 {tk.label}
               </p>
             </div>
@@ -315,7 +317,7 @@ export function ScaleExplorer({
               <div className="h-full border-x border-white/20 bg-[repeating-linear-gradient(90deg,transparent_0_3px,#0a0a1f_3px_6px)]" />
               <p
                 title={t("common.explorer.gapHint")}
-                className="mt-[22px] whitespace-nowrap text-center font-mono text-[9px] text-cosmos-star/35"
+                className="mt-[22px] whitespace-nowrap text-center font-mono text-[9px] text-cosmos-star/55"
               >
                 ⋯ {gapLabel(g.decades)} ⋯
               </p>
@@ -346,7 +348,7 @@ export function ScaleExplorer({
             return (
               <button
                 key={it.stop.id + i}
-                id={`scale-dot-${it.stop.id}`}
+                id={`${uid}-dot-${it.stop.id}`}
                 data-idx={i}
                 type="button"
                 role="option"
@@ -355,7 +357,7 @@ export function ScaleExplorer({
                 tabIndex={isActive ? 0 : -1}
                 onClick={() => setActiveIdx(i)}
                 aria-label={`${name} — ${it.value === null ? originLabel : formatValue(it.value)}`}
-                className="group/dot absolute -translate-x-1/2 -translate-y-1/2 p-1.5 focus:outline-none"
+                className="group/dot absolute -translate-x-1/2 -translate-y-1/2 p-2 focus:outline-none"
                 style={{
                   left: `${positions[i] * 100}%`,
                   top: 62 + LANE_OFFSET_PX[lanes[i]],

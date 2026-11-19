@@ -1,7 +1,7 @@
 "use client";
 
 import clsx from "clsx";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, m as motion } from "framer-motion";
 import { SUPPORTED_LOCALES, useI18n } from "@/lib/i18n";
 import { useUnits, type UnitSystem } from "@/lib/units";
@@ -10,6 +10,7 @@ import type { Locale } from "@/lib/types";
 import { NavGroups } from "./NavGroups";
 import { BodyPortal } from "./BodyPortal";
 import { lockBodyScroll } from "@/lib/scrollLock";
+import { useDialog } from "@/lib/useDialog";
 
 const LOCALE_LABELS: Record<Locale, string> = {
   en: "EN",
@@ -34,6 +35,8 @@ export function MobileNav() {
   const { units, setUnits } = useUnits();
   const [open, setOpen] = useState(false);
   const close = useCallback(() => setOpen(false), []);
+  const panelRef = useRef<HTMLDivElement>(null);
+  useDialog(panelRef, open);
 
   useEffect(() => {
     if (!open) return;
@@ -57,7 +60,7 @@ export function MobileNav() {
         aria-haspopup="dialog"
         aria-expanded={open}
         aria-label={t("common.menuOpen")}
-        className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/[0.04] text-cosmos-star/80 transition-colors hover:bg-white/[0.08] hover:text-cosmos-star"
+        className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/[0.04] text-cosmos-star/80 transition-colors hover:bg-white/[0.08] hover:text-cosmos-star"
       >
         <svg
           viewBox="0 0 24 24"
@@ -76,9 +79,6 @@ export function MobileNav() {
       <AnimatePresence>
         {open && (
           <motion.div
-            role="dialog"
-            aria-modal="true"
-            aria-label={t("common.menuLabel")}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -87,6 +87,11 @@ export function MobileNav() {
             className="fixed inset-0 z-50 bg-cosmos-void/90 backdrop-blur-md"
           >
             <motion.div
+              ref={panelRef}
+              role="dialog"
+              aria-modal="true"
+              aria-label={t("common.menuLabel")}
+              tabIndex={-1}
               initial={{ x: "100%" }}
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
@@ -102,7 +107,7 @@ export function MobileNav() {
                   type="button"
                   onClick={close}
                   aria-label={t("common.menuClose")}
-                  className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-white/10 bg-white/[0.04] text-cosmos-star/70 transition-colors hover:bg-white/[0.08] hover:text-cosmos-star"
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/[0.04] text-cosmos-star/70 transition-colors hover:bg-white/[0.08] hover:text-cosmos-star"
                 >
                   <svg
                     viewBox="0 0 24 24"
@@ -124,11 +129,15 @@ export function MobileNav() {
 
               <div className="border-t border-white/10 p-4 space-y-4">
                 <div>
-                  <p className="mb-2 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/50">
+                  <p
+                    id="mobile-units-label"
+                    className="mb-2 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55"
+                  >
                     {t("common.units")}
                   </p>
                   <div
                     role="group"
+                    aria-labelledby="mobile-units-label"
                     className="inline-flex w-full items-center gap-1 rounded-full border border-white/10 bg-white/[0.04] p-1"
                   >
                     {UNIT_OPTIONS.map((opt) => (
@@ -138,7 +147,7 @@ export function MobileNav() {
                         aria-pressed={opt.value === units}
                         onClick={() => setUnits(opt.value)}
                         className={clsx(
-                          "flex-1 rounded-full px-3 py-1.5 text-xs font-medium tracking-wider transition-colors",
+                          "min-h-10 flex-1 rounded-full px-3 py-1.5 text-xs font-medium tracking-wider transition-colors",
                           opt.value === units
                             ? "bg-aurora-gradient text-cosmos-void shadow-glow"
                             : "text-cosmos-star/70 hover:text-cosmos-star"
@@ -158,21 +167,26 @@ export function MobileNav() {
                 </div>
 
                 <div>
-                  <p className="mb-2 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/50">
+                  <p
+                    id="mobile-language-label"
+                    className="mb-2 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55"
+                  >
                     {t("common.language")}
                   </p>
                   <div
                     role="group"
+                    aria-labelledby="mobile-language-label"
                     className="inline-flex w-full items-center gap-1 rounded-full border border-white/10 bg-white/[0.04] p-1"
                   >
                     {SUPPORTED_LOCALES.map((l) => (
                       <button
                         key={l}
+                        lang={l === "sr" ? "sr-Latn" : "en"}
                         type="button"
                         aria-pressed={l === locale}
                         onClick={() => setLocale(l)}
                         className={clsx(
-                          "flex-1 rounded-full px-3 py-1.5 text-xs font-medium tracking-wider transition-colors",
+                          "min-h-10 flex-1 rounded-full px-3 py-1.5 text-xs font-medium tracking-wider transition-colors",
                           l === locale
                             ? "bg-aurora-gradient text-cosmos-void shadow-glow"
                             : "text-cosmos-star/70 hover:text-cosmos-star"

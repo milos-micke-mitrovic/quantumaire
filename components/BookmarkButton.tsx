@@ -38,7 +38,7 @@ export function BookmarkButton({
       }
       className={clsx(
         "inline-flex items-center justify-center rounded-full border transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-cosmos-aurora/60",
-        size === "md" ? "h-10 w-10" : "h-8 w-8",
+        size === "md" ? "h-10 w-10" : "h-9 w-9",
         active
           ? "border-cosmos-nova/60 bg-cosmos-nova/15 text-cosmos-nova"
           : "border-white/10 bg-white/[0.04] text-cosmos-star/65 hover:border-white/20 hover:text-cosmos-star",

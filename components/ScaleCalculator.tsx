@@ -152,7 +152,7 @@ export function ScaleCalculator() {
               inputMode="decimal"
               value={raw}
               onChange={(e) => setRaw(e.target.value)}
-              className="mt-2 w-full rounded-2xl border border-white/10 bg-cosmos-night/40 px-4 py-3 font-mono text-xl text-cosmos-star focus:border-cosmos-aurora/60 focus:outline-none"
+              className="mt-2 w-full rounded-2xl border border-white/10 bg-cosmos-night/40 px-4 py-3 font-mono text-xl text-cosmos-star focus:border-cosmos-aurora/60 focus:outline-none focus:ring-2 focus:ring-cosmos-aurora/40"
             />
           </div>
           <StopCombobox

@@ -82,7 +82,7 @@ export function ImagePlaceholder({
           <p className="text-xs font-medium uppercase tracking-[0.18em] text-cosmos-star/70">
             {alt}
           </p>
-          <p className="max-w-[28ch] text-[11px] leading-snug text-cosmos-star/45">
+          <p className="max-w-[28ch] text-[11px] leading-snug text-cosmos-star/55">
             {image.src}
           </p>
         </div>

@@ -80,7 +80,7 @@ export function ProgressView() {
             <span className="bg-aurora-gradient bg-clip-text text-transparent">
               {count}
             </span>
-            <span className="ml-2 text-cosmos-star/45">/ {total}</span>
+            <span className="ml-2 text-cosmos-star/55">/ {total}</span>
           </p>
           <p className="font-mono text-base text-cosmos-plasma">
             {Math.round(ratio * 100)}%
@@ -114,7 +114,7 @@ export function ProgressView() {
             className={clsx(
               "inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium transition-colors",
               remaining.length === 0
-                ? "border border-white/10 bg-white/[0.04] text-cosmos-star/40"
+                ? "border border-white/10 bg-white/[0.04] text-cosmos-star/55"
                 : "bg-aurora-gradient text-cosmos-void shadow-glow hover:-translate-y-0.5"
             )}
           >
@@ -194,7 +194,7 @@ export function ProgressView() {
                   <span className="truncate text-cosmos-star/85">
                     {t(`${stop.i18nKey}.name`)}
                   </span>
-                  <span className="text-[10px] uppercase tracking-[0.18em] text-cosmos-star/45">
+                  <span className="text-[10px] uppercase tracking-[0.18em] text-cosmos-star/55">
                     {t(`categories.${stop.category}`)}
                   </span>
                 </Link>

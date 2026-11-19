@@ -7,6 +7,7 @@ import {
   useCallback,
   useEffect,
   useMemo,
+  useId,
   useRef,
   useState,
 } from "react";
@@ -20,6 +21,7 @@ import type { Stop } from "@/lib/types";
 import { formatMeters } from "@/lib/scale";
 import { useUnits } from "@/lib/units";
 import { lockBodyScroll } from "@/lib/scrollLock";
+import { useDialog } from "@/lib/useDialog";
 
 function normalize(s: string): string {
   return s.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
@@ -169,14 +171,10 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
       ? extraResults[i].href
       : `/${locale}/stop/${results[i - extraResults.length].stop.id}`;
 
-  useEffect(() => {
-    const id = window.setTimeout(() => inputRef.current?.focus(), 30);
-    const unlock = lockBodyScroll();
-    return () => {
-      window.clearTimeout(id);
-      unlock();
-    };
-  }, []);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const listId = useId();
+  useDialog(panelRef, true, inputRef);
+  useEffect(() => lockBodyScroll(), []);
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
@@ -215,11 +213,13 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
       transition={{ duration: 0.15 }}
       className="fixed inset-0 z-50 flex items-start justify-center bg-cosmos-void/85 backdrop-blur-md px-4 pt-[12vh] sm:pt-[16vh]"
       onClick={onClose}
-      role="dialog"
-      aria-modal="true"
-      aria-label={t("common.search")}
     >
       <motion.div
+        ref={panelRef}
+        role="dialog"
+        aria-modal="true"
+        aria-label={t("common.search")}
+        tabIndex={-1}
         initial={{ opacity: 0, y: -8, scale: 0.98 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
         exit={{ opacity: 0, y: -8, scale: 0.98 }}
@@ -249,13 +249,21 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
             onChange={onQueryChange}
             onKeyDown={onKeyDownInput}
             placeholder={t("common.searchHint")}
-            className="flex-1 bg-transparent text-sm text-cosmos-star placeholder:text-cosmos-star/40 focus:outline-none sm:text-[15px]"
+            role="combobox"
+            aria-label={t("common.search")}
+            aria-autocomplete="list"
+            aria-expanded={total > 0}
+            aria-controls={listId}
+            aria-activedescendant={
+              total > 0 ? `${listId}-opt-${activeIndex}` : undefined
+            }
+            className="flex-1 bg-transparent text-sm text-cosmos-star placeholder:text-cosmos-star/55 focus:outline-none sm:text-[15px]"
           />
           <button
             type="button"
             onClick={onClose}
             aria-label={t("common.searchClose")}
-            className="rounded-full p-1 text-cosmos-star/55 transition-colors hover:bg-white/[0.06] hover:text-cosmos-star"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full text-cosmos-star/55 transition-colors hover:bg-white/[0.06] hover:text-cosmos-star"
           >
             <svg
               viewBox="0 0 24 24"
@@ -278,19 +286,32 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
               {t("common.searchEmpty")}
             </p>
           ) : (
-            <ul ref={listRef} role="listbox" aria-label={t("common.search")}>
+            <ul
+              ref={listRef}
+              id={listId}
+              role="listbox"
+              aria-label={t("common.search")}
+            >
               {extraResults.length > 0 && (
                 <li
                   role="presentation"
-                  className="px-4 pb-1 pt-2 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/45"
+                  aria-hidden
+                  className="px-4 pb-1 pt-2 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55"
                 >
                   {t("common.searchPages")}
                 </li>
               )}
               {extraResults.map((e, i) => (
-                <li key={e.href} data-idx={i} role="option" aria-selected={i === activeIndex}>
+                <li
+                  key={e.href}
+                  id={`${listId}-opt-${i}`}
+                  data-idx={i}
+                  role="option"
+                  aria-selected={i === activeIndex}
+                >
                   <Link
                     href={e.href}
+                    tabIndex={-1}
                     onMouseEnter={() => setActiveIndex(i)}
                     onClick={onClose}
                     className={clsx(
@@ -315,7 +336,8 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
               {extraResults.length > 0 && results.length > 0 && (
                 <li
                   role="presentation"
-                  className="px-4 pb-1 pt-3 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/45"
+                  aria-hidden
+                  className="px-4 pb-1 pt-3 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55"
                 >
                   {t("common.searchTopics")}
                 </li>
@@ -326,12 +348,14 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
                 return (
                   <li
                     key={item.stop.id}
+                    id={`${listId}-opt-${i}`}
                     data-idx={i}
                     role="option"
                     aria-selected={isActive}
                   >
                     <Link
                       href={`/${locale}/stop/${item.stop.id}`}
+                      tabIndex={-1}
                       onMouseEnter={() => setActiveIndex(i)}
                       onClick={onClose}
                       className={clsx(
@@ -350,20 +374,7 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
                         </span>
                       </span>
                       <span className="flex shrink-0 flex-col items-end gap-1 text-[10px] uppercase tracking-[0.18em] text-cosmos-star/55">
-                        <button
-                          type="button"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            e.stopPropagation();
-                            onClose();
-                            router.push(
-                              `/${locale}/category/${categorySlug(item.stop.category)}`
-                            );
-                          }}
-                          className="rounded-full px-2 py-0.5 hover:bg-white/[0.06] focus:outline-none focus-visible:ring-2 focus-visible:ring-cosmos-aurora/60"
-                        >
-                          {item.category}
-                        </button>
+                        <span className="px-2 py-0.5">{item.category}</span>
                         <span className="font-mono">
                           {item.stop.sizeMeters !== null
                             ? formatMeters(item.stop.sizeMeters, t, units)
@@ -378,7 +389,7 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
           )}
         </div>
 
-        <div className="flex items-center justify-between border-t border-white/10 px-4 py-2 text-[10px] uppercase tracking-[0.18em] text-cosmos-star/45 sm:px-5">
+        <div className="flex items-center justify-between border-t border-white/10 px-4 py-2 text-[10px] uppercase tracking-[0.18em] text-cosmos-star/55 sm:px-5">
           <span className="flex items-center gap-2">
             <kbd className="rounded bg-white/10 px-1.5 py-0.5 text-cosmos-star/65">↵</kbd>
             {t("common.searchKeys.open")}
@@ -428,7 +439,7 @@ export function Search() {
         type="button"
         onClick={() => setOpen(true)}
         aria-label={t("common.searchOpen")}
-        className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5 text-xs font-medium uppercase tracking-[0.18em] text-cosmos-star/70 transition-colors hover:bg-white/[0.08] hover:text-cosmos-star"
+        className="inline-flex min-h-10 items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5 text-xs font-medium uppercase tracking-[0.18em] text-cosmos-star/70 transition-colors hover:bg-white/[0.08] hover:text-cosmos-star"
       >
         <svg
           viewBox="0 0 24 24"

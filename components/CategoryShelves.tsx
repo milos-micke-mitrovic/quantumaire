@@ -98,7 +98,7 @@ export function CategoryShelves() {
                 ) : (
                   shelf.title
                 )}
-                <span className="font-mono text-sm font-normal text-cosmos-star/40">
+                <span className="font-mono text-sm font-normal text-cosmos-star/55">
                   {shelf.stops.length}
                 </span>
               </h3>

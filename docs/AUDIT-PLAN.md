@@ -91,15 +91,15 @@ browser (desktop + 390 px) after UI changes.
 
 ## Phase 5 — Accessibility (docs/audit/code.md §6, §7, §9)
 
-- [ ] Focus trap + return focus: Search, MobileNav, ShortcutsOverlay, Lightbox.
-- [ ] Search input as proper combobox with accessible name; no `<button>`
+- [x] Focus trap + return focus: Search, MobileNav, ShortcutsOverlay, Lightbox.
+- [x] Search input as proper combobox with accessible name; no `<button>`
       inside the result link; StopCard bookmark not nested in the link.
-- [ ] NavMenu: drop `role="menu"` (use plain nav list) or add arrow keys.
-- [ ] ScaleExplorer: one keyboard model (roving tabindex), unique ids per
+- [x] NavMenu: drop `role="menu"` (use plain nav list) or add arrow keys.
+- [x] ScaleExplorer: one keyboard model (roving tabindex), unique ids per
       instance (useId); StopCombobox closes on blur/Tab.
-- [ ] Contrast: raise small text to ≥ text-cosmos-star/55; aurora link colour
+- [x] Contrast: raise small text to ≥ text-cosmos-star/55; aurora link colour
       on dark → plasma; glossary filter visible focus ring.
-- [ ] Touch targets ≥ 40 px on mobile (search trigger, close buttons,
+- [x] Touch targets ≥ 40 px on mobile (search trigger, close buttons,
       bookmark, toggles; scale dots get bigger hit areas).
 
 ## Phase 6 — UX & content (docs/audit/ux-notes.md + ideas)

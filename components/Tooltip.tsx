@@ -37,6 +37,16 @@ export function Tooltip({ content, children, side = "top" }: TooltipProps) {
     () => false
   );
 
+  // Escape dismisses an open tooltip (WCAG 1.4.13).
+  useEffect(() => {
+    if (!open) return;
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") setOpen(false);
+    }
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [open]);
+
   // On touch devices, dismiss the tooltip when the user taps elsewhere.
   useEffect(() => {
     if (!open || !isTouch) return;

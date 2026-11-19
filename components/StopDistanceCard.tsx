@@ -116,7 +116,7 @@ export function StopDistanceCard({ stop }: StopDistanceCardProps) {
       <header className="border-b border-white/10 px-5 py-3 sm:px-6">
         <p className="text-[11px] font-medium uppercase tracking-[0.22em] text-cosmos-star/65">
           {stopName} <span aria-hidden>—</span> {refNameNode}{" "}
-          <span className="text-cosmos-star/40">
+          <span className="text-cosmos-star/55">
             <span aria-hidden>·</span> {t("common.distanceFromEarth")}
           </span>
         </p>

@@ -72,7 +72,7 @@ export function ScaleVisual({ a, b }: ScaleVisualProps) {
           {t("common.comparePage.visualHeading")}
         </h2>
         {isToScale && (
-          <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/45">
+          <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
             {t("common.comparePage.drawnToScale")}
           </p>
         )}

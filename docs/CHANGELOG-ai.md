@@ -42,5 +42,12 @@
 ## 2026-11-19 — audit Phase 4 part 5 (OG cards)
 - `lib/ogCard.tsx` shared card; `opengraph-image.tsx` for every guide, category, tag, plus topics index, glossary, about and both tools (EN+SR). Pages point og:image at their own card (`ogImageUrl`), guide Article JSON-LD has `image`. Note: Next 16 calls `generateImageMetadata` once with empty params during build — fall back to id "default".
 
+## 2026-11-19 — audit Phase 5 (accessibility)
+- `lib/useDialog.ts`: focus into panel, Tab trap (ignores tabIndex −1), page inert, focus returns to opener — Search, MobileNav, Shortcuts, Lightbox; `role="dialog"` moved from backdrop to panel. Verified with real keyboard in Chrome.
+- Search input is a combobox (aria-controls/activedescendant, label); result links tabIndex −1; category button removed from inside links. StopCard bookmark is a sibling of the link; visited marker has sr-only text.
+- NavMenu/NavGroups: no `role="menu"`; MobileNav groups labelled; ScaleExplorer: no aria-activedescendant on roving listbox, `useId` dot ids, horizontal orientation; StopCombobox closes on blur, "no results" is a disabled option.
+- Contrast: `/35–/45` text → `/55`, aurora links → plasma; outline-based focus ring for links/buttons/inputs/options; glossary filter and pickers show focus.
+- Touch targets ≥ 40 px (search trigger, burger/close, dialog close, explorer arrows, drawer pills), 36 px bookmark/switch pills; Tooltip closes on Escape; skip target focusable; `lang` on language buttons.
+
 ## Next / ideas
 - Full audit done 2026-11-19 → `docs/AUDIT-PLAN.md` (phases 1–6, nothing ticked yet).

@@ -90,7 +90,7 @@ export function GlossaryView({ keys }: { keys: string[] }) {
         <label htmlFor="glossary-filter" className="sr-only">
           {t("common.glossaryPage.filterPlaceholder")}
         </label>
-        <div className="flex items-center gap-2 rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-3">
+        <div className="flex items-center gap-2 rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-3 focus-within:border-cosmos-plasma/70 focus-within:ring-2 focus-within:ring-cosmos-aurora/40">
           <svg
             viewBox="0 0 24 24"
             fill="none"
@@ -110,7 +110,7 @@ export function GlossaryView({ keys }: { keys: string[] }) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder={t("common.glossaryPage.filterPlaceholder")}
-            className="w-full bg-transparent text-sm text-cosmos-star placeholder:text-cosmos-star/40 focus:outline-none"
+            className="w-full bg-transparent text-sm text-cosmos-star placeholder:text-cosmos-star/55 focus:outline-none"
           />
         </div>
       </div>
@@ -139,7 +139,7 @@ export function GlossaryView({ keys }: { keys: string[] }) {
               </dd>
               {(usedIn.get(entry.key)?.length ?? 0) > 0 && (
                 <dd className="mt-3 flex flex-wrap items-center gap-1.5">
-                  <span className="text-[10px] uppercase tracking-[0.18em] text-cosmos-star/45">
+                  <span className="text-[10px] uppercase tracking-[0.18em] text-cosmos-star/55">
                     {t("common.glossaryPage.usedIn")}
                   </span>
                   {usedIn.get(entry.key)!.map((s) => (
