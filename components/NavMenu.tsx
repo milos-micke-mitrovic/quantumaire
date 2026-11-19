@@ -39,7 +39,7 @@ export function NavMenu() {
         aria-expanded={open}
         aria-label={t("common.more")}
         className={clsx(
-          "inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5 text-xs font-medium uppercase tracking-[0.18em] transition-colors",
+          "inline-flex h-10 items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.04] px-3 text-xs font-medium uppercase tracking-[0.18em] transition-colors",
           open
             ? "bg-white/[0.08] text-cosmos-star"
             : "text-cosmos-star/70 hover:bg-white/[0.06] hover:text-cosmos-star"

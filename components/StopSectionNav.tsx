@@ -69,7 +69,7 @@ export function StopSectionNav() {
   return (
     <nav
       aria-label={t("common.sections.label")}
-      className="sticky top-[57px] z-30 -mx-5 mt-6 border-y border-white/5 bg-cosmos-void/85 backdrop-blur-md sm:mx-0 sm:rounded-full sm:border print:hidden"
+      className="sticky top-[var(--header-h)] z-30 -mx-5 mt-6 border-y border-white/5 bg-cosmos-void/85 backdrop-blur-md sm:mx-0 sm:rounded-full sm:border print:hidden"
     >
       <div
         ref={barRef}

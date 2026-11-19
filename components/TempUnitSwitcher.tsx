@@ -22,7 +22,7 @@ export function TempUnitSwitcher({ className }: { className?: string }) {
       role="group"
       aria-label={t("common.temperatureUnit")}
       className={clsx(
-        "inline-flex items-center gap-1 rounded-full border border-white/10 bg-white/[0.04] p-1 backdrop-blur-md",
+        "inline-flex h-10 items-center gap-1 rounded-full border border-white/10 bg-white/[0.04] p-1 backdrop-blur-md",
         className
       )}
     >
@@ -33,7 +33,7 @@ export function TempUnitSwitcher({ className }: { className?: string }) {
           aria-pressed={opt.value === tempUnit}
           onClick={() => setTempUnit(opt.value)}
           className={clsx(
-            "min-h-9 flex-1 rounded-full px-2.5 py-1 text-xs font-medium tracking-wider transition-colors",
+            "h-full flex-1 rounded-full px-2.5 text-xs font-medium tracking-wider transition-colors",
             opt.value === tempUnit
               ? "bg-aurora-gradient text-cosmos-void shadow-glow"
               : "text-cosmos-star/70 hover:text-cosmos-star"

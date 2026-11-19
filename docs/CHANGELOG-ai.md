@@ -59,5 +59,8 @@
 ## 2026-11-19 — categories merged
 - Human Mind + Ancient History (one topic each) → **Humankind** / „Čovečanstvo“ (`HUMANKIND`, `/category/humankind`); `/category/human-mind` and `/category/ancient-history` 308 there (next.config.ts). Test: every category has ≥ 2 topics.
 
+## 2026-11-19 — header fix (owner report)
+- Header controls were uneven (40/30/46 px after the touch-target change) and the stop-page section bar, stuck at a hard-coded `top-[57px]`, slid under the taller header and clipped the active pill. Now every header control is `h-10`, the header height is one CSS variable `--header-h` (globals.css) used by the header, the section bar and section scroll-margins.
+
 ## Next / ideas
 - Audit plan: phases 1–5 done; Phase 6 left: 8 new topics, guide hero image + key-numbers table, dedupe toggle UIs. Daily GSC indexing (queue starts with compare pairs).

@@ -124,7 +124,13 @@ body::before {
   }
 }
 
+/* Height of the sticky site header — the section bar sticks right under
+   it and anchored sections scroll clear of both. */
+:root {
+  --header-h: 4rem;
+}
+
 /* Stop-page sections land below the sticky header + section bar. */
 [data-section] {
-  scroll-margin-top: 7.5rem;
+  scroll-margin-top: calc(var(--header-h) + 3.75rem);
 }

@@ -15,7 +15,7 @@ export function LanguageSwitcher() {
     <div
       role="group"
       aria-label={t("common.language")}
-      className="inline-flex items-center gap-1 rounded-full border border-white/10 bg-white/[0.04] p-1 backdrop-blur-md"
+      className="inline-flex h-10 items-center gap-1 rounded-full border border-white/10 bg-white/[0.04] p-1 backdrop-blur-md"
     >
       {SUPPORTED_LOCALES.map((l) => (
         <button
@@ -25,7 +25,7 @@ export function LanguageSwitcher() {
           aria-pressed={l === locale}
           onClick={() => setLocale(l)}
           className={clsx(
-            "min-h-9 rounded-full px-3 py-1 text-xs font-medium tracking-wider transition-colors",
+            "h-full rounded-full px-3 text-xs font-medium tracking-wider transition-colors",
             l === locale
               ? "bg-aurora-gradient text-cosmos-void shadow-glow"
               : "text-cosmos-star/70 hover:text-cosmos-star"

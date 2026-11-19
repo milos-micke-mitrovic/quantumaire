@@ -436,7 +436,7 @@ export function Search() {
         type="button"
         onClick={() => setOpen(true)}
         aria-label={t("common.searchOpen")}
-        className="inline-flex min-h-10 items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5 text-xs font-medium uppercase tracking-[0.18em] text-cosmos-star/70 transition-colors hover:bg-white/[0.08] hover:text-cosmos-star"
+        className="inline-flex h-10 items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-3 text-xs font-medium uppercase tracking-[0.18em] text-cosmos-star/70 transition-colors hover:bg-white/[0.08] hover:text-cosmos-star"
       >
         <svg
           viewBox="0 0 24 24"
