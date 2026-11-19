@@ -2012,6 +2012,46 @@
         "fact5": "Najveći član: patuljasta planeta Cerera, prečnika oko 940 km.",
         "fact6": "Prosečna udaljenost između asteroida: oko 1 milion km."
       }
+    },
+    "water_molecule": {
+      "name": "Molekul vode",
+      "tagline": "Dva atoma vodonika i jedan kiseonika, savijeni pod 104,5° — mali, nakrivljeni molekul koji omogućava život.",
+      "body": "Molekul vode je jedan atom kiseonika koji drži dva atoma vodonika pod uglom od oko 104,5°, a ceo je širok otprilike 0,28 nanometara. Kiseonik privlači zajedničke elektrone ka sebi, pa molekul ima jedan blago negativan kraj i dva blago pozitivna. Zbog te nakrivljenosti susedni molekuli se drže zajedno vodoničnim vezama — zato je voda tečna na sobnoj temperaturi dok su mnogo teži molekuli gasovi, zato upija toliko toplote i zato se u njoj rastvara toliko materija. Zbog toga je i led rastresit: voda se pri smrzavanju širi za oko 9%, pa led pluta.",
+      "narrative": "Potrebno je oko 3,6 miliona molekula vode poređanih jedan do drugog da bi se prekrio jedan milimetar.",
+      "funFact": "U jednoj čaši vode ima više molekula vode — oko 8 kvadriliona — nego što ima čaša vode u svim okeanima sveta, i to više od hiljadu puta.",
+      "seoTitle": "Koliko je veliki molekul vode? Veličina u poređenju",
+      "metaDescription": "Molekul vode širok je oko 0,28 nm — jedan kiseonik i dva vodonika pod 104,5°. Koliko je to malo i koliko ih ima u jednoj čaši vode.",
+      "image": {
+        "alt": "Kap vode odskače sa plave vodene površine, a oko nje se šire krugovi."
+      },
+      "facts": {
+        "fact1": "Veličina: oko 0,28 nm (280 pm).",
+        "fact2": "Ugao između dva atoma vodonika: oko 104,5°.",
+        "fact3": "Dužina veze O–H: oko 0,096 nm.",
+        "fact4": "Čaša od 250 ml sadrži oko 8 × 10²⁴ molekula vode.",
+        "fact5": "Voda se pri smrzavanju širi za oko 9% — zato led pluta.",
+        "fact6": "Jedan molekul ima masu od oko 3 × 10⁻²⁶ kg."
+      }
+    },
+    "pollen_grain": {
+      "name": "Polenovo zrno",
+      "tagline": "Biljni prenosilac muških ćelija u oklopu — dovoljno čvrstom da izdrži milione godina.",
+      "body": "Polenovo zrno prenosi muške ćelije cvetnice ili četinara do drugog cveta ili šišarke. Većina zrna je široka 10 do 100 mikrometara — tipično oko 25 µm, četvrtina debljine ljudske vlasi — mada je polen nezaboravka širok samo oko 5 µm, a polen bundeve dostiže oko 200 µm. Svaka vrsta ima svoj oblik: bodljikave lopte, glatke perle, zrna sa vazdušnim kesicama zahvaljujući kojima polen bora lebdi stotinama kilometara. Spoljni zid je od sporopolenina, jednog od najotpornijih prirodnih materijala, pa polen milionima godina opstaje u jezerskom mulju i stenama i naučnicima pomaže da čitaju klimu prošlosti, pa čak i da rešavaju zločine.",
+      "narrative": "Tri tipična polenova zrna jedno do drugog široka su otprilike kao jedna ljudska vlas.",
+      "funFact": "Jedna biljka ambrozije može za jednu sezonu da otpusti i do milijardu polenovih zrna — a polenska kijavica, preterana reakcija imunog sistema na njih, pogađa otprilike 10 do 30% odraslih širom sveta.",
+      "seoTitle": "Koliko je veliko polenovo zrno? Veličina u poređenju",
+      "metaDescription": "Većina polenovih zrna široka je 10–100 µm, tipično oko 25 µm — četvrtina debljine vlasi. Veličina, oblici i zašto polen traje milionima godina.",
+      "image": {
+        "alt": "Obojeni snimak skenirajućeg elektronskog mikroskopa: polenova zrna raznih biljaka — bodljikave žute lopte, zelena zrna nalik pasulju i male ružičaste kuglice."
+      },
+      "facts": {
+        "fact1": "Većina zrna: 10–100 µm; tipično oko 25 µm.",
+        "fact2": "Među najmanjima: nezaboravak, oko 5 µm.",
+        "fact3": "Među najvećima: bundeva, oko 200 µm — jedva vidljivo golim okom.",
+        "fact4": "Jedna biljka ambrozije može da otpusti do milijardu zrna u sezoni.",
+        "fact5": "Spoljni zid, sporopolenin, može da opstane stotinama miliona godina.",
+        "fact6": "Polen koji nosi vetar može da pređe stotine kilometara."
+      }
     }
   },
   "about": {
@@ -2719,6 +2759,14 @@
     "dwarf_planet": {
       "term": "Patuljasta planeta",
       "definition": "Telo koje kruži oko Sunca i dovoljno je masivno da bude okruglo, ali nije očistilo svoju putanju od drugih objekata — najpoznatije su Pluton i Cerera."
+    },
+    "hydrogen_bond": {
+      "term": "Vodonična veza",
+      "definition": "Slabo privlačenje između blago pozitivnog atoma vodonika u jednom molekulu i blago negativnog atoma (na primer kiseonika) u drugom. Milijarde takvih veza drže tečnu vodu na okupu."
+    },
+    "sporopollenin": {
+      "term": "Sporopolenin",
+      "definition": "Otporni polimer od kog je spoljni zid polena i spora. Toliko dobro podnosi toplotu, kiseline i raspadanje da polen kao fosil opstaje stotinama miliona godina."
     }
   },
   "faq": {
@@ -2822,7 +2870,9 @@
       "great_wall": "Kineski zid",
       "great_red_spot": "Velika crvena pega",
       "sirius": "Sirijus",
-      "asteroid_belt": "asteroidni pojas"
+      "asteroid_belt": "asteroidni pojas",
+      "water_molecule": "molekul vode",
+      "pollen_grain": "polenovo zrno"
     },
     "a3smallerTall": "Korak niže: {other} ({otherSize}), oko {ratio} puta niže.",
     "a3largerTall": "Korak više: {other} ({otherSize}), oko {ratio} puta više.",
@@ -3000,10 +3050,10 @@
     },
     "matter": {
       "short": "Materija",
-      "title": "Materija i antimaterija",
-      "seoTitle": "Materija i antimaterija: atomi i njihovi blizanci u ogledalu",
-      "intro": "Atom, osnovna jedinica svakog hemijskog elementa, i antimaterija, njegova slika u ogledalu — kad se sretnu, nestaju u čistoj energiji, a zašto je svemir izabrao materiju i dalje je nerešeno.",
-      "metaDescription": "Atom, gradivni deo svakog elementa, i antimaterija, njegova slika u ogledalu. Pri dodiru se poništavaju — a zašto je materija pobedila, nije rešeno."
+      "title": "Materija, antimaterija i molekuli",
+      "seoTitle": "Atomi, molekuli vode i antimaterija u poređenju",
+      "intro": "Atom, osnovna jedinica svakog hemijskog elementa; molekul vode, tri atoma savijena pod 104,5° koja omogućavaju život; i antimaterija, slika materije u ogledalu — kad se sretnu, nestaju u čistoj energiji, a zašto je svemir izabrao materiju i dalje je nerešeno.",
+      "metaDescription": "Atom, molekul vode i antimaterija: gradivni deo svakog elementa, molekul života i slika u ogledalu koja se pri dodiru poništava."
     },
     "galaxy": {
       "short": "Galaksije",

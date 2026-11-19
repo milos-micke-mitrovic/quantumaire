@@ -2012,6 +2012,46 @@
         "fact5": "Largest member: the dwarf planet Ceres, about 940 km across.",
         "fact6": "Average distance between asteroids: about 1 million km."
       }
+    },
+    "water_molecule": {
+      "name": "Water Molecule",
+      "tagline": "Two hydrogen atoms and one oxygen, bent at 104.5° — the small, lopsided molecule that makes life possible.",
+      "body": "A water molecule is one oxygen atom holding two hydrogen atoms at an angle of about 104.5°, and the whole thing is roughly 0.28 nanometres across. Oxygen pulls the shared electrons towards itself, so the molecule has a slightly negative end and two slightly positive ones. That lopsidedness lets neighbouring molecules cling together with hydrogen bonds, which is why water is liquid at room temperature when much heavier molecules are gases, why it soaks up so much heat, and why so many substances dissolve in it. It also makes ice open and airy: water expands by about 9% as it freezes, so ice floats.",
+      "narrative": "It would take about 3.6 million water molecules lined up side by side to span a single millimetre.",
+      "funFact": "There are more water molecules in one glass of water — about 8 million billion billion — than there are glasses of water in all the world's oceans, by a factor of more than a thousand.",
+      "seoTitle": "How Big Is a Water Molecule? Size Compared",
+      "metaDescription": "A water molecule is about 0.28 nm across — one oxygen and two hydrogens at 104.5°. How small that is, and how many are in a single glass of water.",
+      "image": {
+        "alt": "A drop of water bouncing up from a blue water surface, with rings spreading out around it."
+      },
+      "facts": {
+        "fact1": "Size: about 0.28 nm (280 pm) across.",
+        "fact2": "Angle between the two hydrogen atoms: about 104.5°.",
+        "fact3": "O–H bond length: about 0.096 nm.",
+        "fact4": "A 250 ml glass holds about 8 × 10²⁴ water molecules.",
+        "fact5": "Water expands by about 9% when it freezes — that's why ice floats.",
+        "fact6": "Each molecule weighs about 3 × 10⁻²⁶ kg."
+      }
+    },
+    "pollen_grain": {
+      "name": "Pollen Grain",
+      "tagline": "A plant's sperm carrier in an armoured shell — tough enough to last for millions of years.",
+      "body": "A pollen grain carries a flowering plant's or conifer's male cells to another flower or cone. Most grains are 10 to 100 micrometres across — a typical one about 25 µm, a quarter the width of a human hair — though forget-me-not pollen is only about 5 µm and pumpkin pollen reaches about 200 µm. Each species has its own shape: spiky balls, smooth beads, grains with air sacs that let pine pollen drift for hundreds of kilometres. The outer wall is made of sporopollenin, one of the toughest natural materials known, so pollen survives in lake mud and rock for millions of years and lets scientists read past climates and even solve crimes.",
+      "narrative": "Three typical pollen grains side by side are about as wide as a single human hair.",
+      "funFact": "A single ragweed plant can release up to a billion pollen grains in one season — and hay fever, the immune system's overreaction to them, affects roughly 10 to 30% of adults around the world.",
+      "seoTitle": "How Big Is a Pollen Grain? Size Compared",
+      "metaDescription": "Most pollen grains are 10–100 µm across, typically about 25 µm — a quarter the width of a human hair. Size, shapes and why pollen lasts for millions of years.",
+      "image": {
+        "alt": "Colourised scanning electron microscope image of pollen grains from several plants: spiky yellow balls, green beans and small pink spheres."
+      },
+      "facts": {
+        "fact1": "Most grains: 10–100 µm across; a typical one about 25 µm.",
+        "fact2": "Among the smallest: forget-me-not, about 5 µm.",
+        "fact3": "Among the largest: pumpkin, about 200 µm — just visible to the eye.",
+        "fact4": "A single ragweed plant can release up to a billion grains a season.",
+        "fact5": "Its outer wall, sporopollenin, can survive for hundreds of millions of years.",
+        "fact6": "Wind-blown pollen can travel hundreds of kilometres."
+      }
     }
   },
   "about": {
@@ -2719,6 +2759,14 @@
     "dwarf_planet": {
       "term": "Dwarf planet",
       "definition": "A body that orbits the Sun and is massive enough to be round, but has not cleared its orbit of other objects — Pluto and Ceres are the best known."
+    },
+    "hydrogen_bond": {
+      "term": "Hydrogen bond",
+      "definition": "A weak attraction between a slightly positive hydrogen atom in one molecule and a slightly negative atom (such as oxygen) in another. Billions of them hold liquid water together."
+    },
+    "sporopollenin": {
+      "term": "Sporopollenin",
+      "definition": "The tough polymer that forms the outer wall of pollen and spores. It resists heat, acids and decay so well that pollen survives as fossils for hundreds of millions of years."
     }
   },
   "faq": {
@@ -2817,7 +2865,9 @@
       "great_wall": "the Great Wall of China",
       "great_red_spot": "the Great Red Spot",
       "sirius": "Sirius",
-      "asteroid_belt": "the asteroid belt"
+      "asteroid_belt": "the asteroid belt",
+      "water_molecule": "a water molecule",
+      "pollen_grain": "a pollen grain"
     },
     "a7where": "The typical temperature of {name} is about {temp} — {note}.",
     "a2taller": "{Name} is roughly {ratio} times taller than a 1.7 m human.",
@@ -3000,10 +3050,10 @@
     },
     "matter": {
       "short": "Matter",
-      "title": "Matter and antimatter",
-      "seoTitle": "Matter and Antimatter: Atoms and Their Mirror Twins",
-      "intro": "The atom, the basic unit of every chemical element, and antimatter, its mirror image — the two meet and vanish in pure energy, and why the universe chose matter is still unsolved.",
-      "metaDescription": "The atom, building block of every element, and antimatter, its mirror image. They annihilate on contact — and why matter won is unsolved."
+      "title": "Matter, antimatter and molecules",
+      "seoTitle": "Atoms, Water Molecules and Antimatter Compared",
+      "intro": "The atom, the basic unit of every chemical element; the water molecule, three atoms bent at 104.5° that make life possible; and antimatter, matter's mirror image — the two meet and vanish in pure energy, and why the universe chose matter is still unsolved.",
+      "metaDescription": "The atom, the water molecule and antimatter: building blocks of every element, the molecule of life, and the mirror image that annihilates on contact."
     },
     "galaxy": {
       "short": "Galaxies",

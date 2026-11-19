@@ -62,6 +62,8 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/stop/great_red_spot (new 2026-11-19)
 - https://quantumaire.space/en/stop/sirius (new 2026-11-19)
 - https://quantumaire.space/en/stop/asteroid_belt (new 2026-11-19)
+- https://quantumaire.space/en/stop/water_molecule (new 2026-11-19)
+- https://quantumaire.space/en/stop/pollen_grain (new 2026-11-19)
 - remaining /en/stop/* pages, then /sr/* equivalents
 
 ## Done

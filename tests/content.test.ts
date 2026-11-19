@@ -74,8 +74,8 @@ describe("stop lookups", () => {
   });
 
   it("getNeighbors walks sized topics by size", () => {
-    expect(getNeighbors("atom").next?.id).toBe("dna");
-    expect(getNeighbors("dna").prev?.id).toBe("atom");
+    expect(getNeighbors("atom").next?.id).toBe("water_molecule");
+    expect(getNeighbors("dna").prev?.id).toBe("water_molecule");
   });
 
   it("getNeighbors returns prev=null for the first stop", () => {

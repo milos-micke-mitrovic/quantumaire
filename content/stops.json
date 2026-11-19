@@ -1910,6 +1910,50 @@
       "tags": [
         "asteroid"
       ]
+    },
+    {
+      "id": "water_molecule",
+      "i18nKey": "stops.water_molecule",
+      "sizeMeters": 2.8e-10,
+      "order": 3.5,
+      "badge": "FACT",
+      "category": "MICRO_WORLD",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/water-molecule.webp",
+        "aspect": "wide",
+        "altKey": "stops.water_molecule.image.alt",
+        "credit": "Davide Restivo — CC BY-SA 2.0 (cropped)"
+      },
+      "glossary": [
+        "hydrogen_bond"
+      ],
+      "tags": [
+        "matter"
+      ]
+    },
+    {
+      "id": "pollen_grain",
+      "i18nKey": "stops.pollen_grain",
+      "sizeMeters": 2.5e-05,
+      "order": 4.62,
+      "badge": "FACT",
+      "category": "MICRO_WORLD",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/pollen-grain.webp",
+        "aspect": "wide",
+        "altKey": "stops.pollen_grain.image.alt",
+        "credit": "Dartmouth Electron Microscope Facility — public domain"
+      },
+      "glossary": [
+        "sporopollenin"
+      ],
+      "tags": [
+        "biology"
+      ]
     }
   ]
 }

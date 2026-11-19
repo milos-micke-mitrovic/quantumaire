@@ -986,5 +986,25 @@
       "label": "NASA — Dawn mission",
       "url": "https://science.nasa.gov/mission/dawn/"
     }
+  ],
+  "water_molecule": [
+    {
+      "label": "Wikipedia — Properties of water",
+      "url": "https://en.wikipedia.org/wiki/Properties_of_water"
+    },
+    {
+      "label": "USGS — How much water is there on Earth?",
+      "url": "https://www.usgs.gov/special-topics/water-science-school/science/how-much-water-there-earth"
+    }
+  ],
+  "pollen_grain": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pollen"
+    },
+    {
+      "label": "Wikipedia — Sporopollenin",
+      "url": "https://en.wikipedia.org/wiki/Sporopollenin"
+    }
   ]
 }

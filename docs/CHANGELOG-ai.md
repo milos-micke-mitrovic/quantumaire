@@ -133,3 +133,8 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Great Red Spot (`great_red_spot`, 16,350 km wide per Juno 2017, shrinking from ~40,000 km; Juno close-up, PD; tag `storm`, glossary `anticyclone`), Sirius (`sirius`, Sirius A 2.38 million km, 8.6 ly, 9,940 K "surface of Sirius A"; NASA/ESA/G. Bacon artist's impression, PD; glossary `white_dwarf`), asteroid belt (`asteroid_belt`, ~960 million km across the outer edge, 2.2–3.2 AU; Dawn image of Vesta, PD, square; tag `asteroid`, glossary `dwarf_planet`).
 - Kuiper Belt skipped: 30–50 AU gives ~100 AU across, the same 1.5×10¹³ m as the Solar System topic — two identical dots and a confusing comparison.
 - Distance FAQ: stars and galaxies up to 10 million ly now say "its light takes about 8.6 years to reach us" (was "set out long ago" for Sirius/Proxima); topics measured to an edge say "The edge of the Solar System is about 1.59 ly from Earth" (was "its light set out long ago" for the Solar System).
+
+## 2026-11-19 — new topics: Micro-world (NEXT-PLAN block 2 done)
+- Water molecule (`water_molecule`, 0.28 nm, tag `matter` → matter collection retitled "Matter, antimatter and molecules"; water-drop photo by Davide Restivo, CC BY-SA 2.0; glossary `hydrogen_bond`), pollen grain (`pollen_grain`, typical 25 µm, real-scale card vs a hair; Dartmouth SEM, PD; glossary `sporopollenin`).
+- Familiar list: elephant + giraffe added; Sahara/Amazon/Grand Canyon/Titanic etc. not (people know the name, not the size). No new round topics (Sirius is round via the `star` tag); `temperatureNote` set for Sahara and Sirius.
+- Next: NEXT-PLAN block 3 (guides).
