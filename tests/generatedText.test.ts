@@ -84,3 +84,17 @@ describe("compare pair pages", () => {
     expect(describePair("en", ton, ss).lines.join(" ")).not.toMatch(/From Earth/);
   });
 });
+
+describe("distance answers", () => {
+  it("gives light travel time in years for stars, and names edges", () => {
+    expect(text("sirius")).toMatch(/its light takes about 8\.6 years to reach us/);
+    expect(text("solar_system")).toMatch(/The edge of the Solar System is about 1\.59 ly from Earth\./);
+    expect(text("ton_618")).not.toMatch(/years to reach us/);
+  });
+
+  it("uses measure-specific wording for lengths", () => {
+    expect(text("great_wall")).toMatch(/1\.7 times longer than Earth is wide/);
+    expect(text("amazon_river")).toMatch(/is about 6,400 km long/);
+    expect(text("giraffe")).toMatch(/A giraffe stands about 5\.5 m tall/);
+  });
+});

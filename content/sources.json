@@ -956,5 +956,35 @@
       "label": "UNESCO — The Great Wall",
       "url": "https://whc.unesco.org/en/list/438/"
     }
+  ],
+  "great_red_spot": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot"
+    },
+    {
+      "label": "NASA — Jupiter",
+      "url": "https://science.nasa.gov/jupiter/"
+    }
+  ],
+  "sirius": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sirius"
+    }
+  ],
+  "asteroid_belt": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Asteroid_belt"
+    },
+    {
+      "label": "NASA — Asteroids",
+      "url": "https://science.nasa.gov/solar-system/asteroids/"
+    },
+    {
+      "label": "NASA — Dawn mission",
+      "url": "https://science.nasa.gov/mission/dawn/"
+    }
   ]
 }

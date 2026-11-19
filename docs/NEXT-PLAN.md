@@ -32,7 +32,7 @@ dump: a temporary vitest that writes to the scratchpad) and reading them:
 - [x] Life & Earth: African elephant, giraffe, Sahara, Amazon River, Grand Canyon
 - [x] Humankind: Titanic, Colosseum, Great Wall (length — check the "X times
       Earth" FAQ doesn't mislead; maybe skip the Earth comparison for lengths)
-- [ ] Cosmos: Great Red Spot, Sirius, Kuiper Belt, asteroid belt
+- [x] Cosmos: Great Red Spot, Sirius, Kuiper Belt, asteroid belt (Kuiper Belt skipped: its ~100 AU span equals the Solar System topic's size)
 - [ ] Micro-world: water molecule, pollen grain
 - [ ] Add each to `FAMILIAR_STOP_IDS` (lib/analogies.ts) only if laypeople know
       its size; round ones to `ROUND_STOP_IDS`/tags (lib/references.ts); add

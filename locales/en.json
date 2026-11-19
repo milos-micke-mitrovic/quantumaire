@@ -518,7 +518,9 @@
     "alien-life": "Alien life",
     "landmark": "Landmark",
     "landscape": "Landscape",
-    "ship": "Ship"
+    "ship": "Ship",
+    "storm": "Storm",
+    "asteroid": "Asteroid"
   },
   "stops": {
     "quark": {
@@ -1949,6 +1951,67 @@
         "fact5": "Not visible to the naked eye from orbit, as astronauts have confirmed.",
         "fact6": "A UNESCO World Heritage Site since 1987."
       }
+    },
+    "great_red_spot": {
+      "name": "Great Red Spot",
+      "tagline": "A storm on Jupiter wider than the whole Earth — raging for at least 150 years.",
+      "body": "The Great Red Spot is a giant high-pressure storm in Jupiter's southern hemisphere: an oval about 16,350 km wide when NASA's Juno flew over it in 2017, roughly 1.3 times the width of Earth. Winds around its edge reach about 430 km/h, and the whole vortex turns once every six days or so. It has been watched continuously since 1878, and in the late 1800s it was about 40,000 km long — it has been shrinking and becoming rounder ever since. Juno's microwave measurements suggest its roots reach some 200–500 km down into the atmosphere; its red colour probably comes from chemicals in the cloud tops altered by sunlight.",
+      "narrative": "Drop Earth into the Great Red Spot and it would fit with room to spare — and in the 1800s, three Earths would have fitted side by side.",
+      "funFact": "A dark spot seen on Jupiter by Giovanni Cassini from 1665 to 1713 was long thought to be the same storm, which would make it over 350 years old. A 2024 study of old drawings concluded it was probably a different storm that faded away — today's spot was first recorded in 1831.",
+      "seoTitle": "How Big Is the Great Red Spot? Jupiter's Giant Storm",
+      "metaDescription": "Jupiter's Great Red Spot was about 16,350 km wide in 2017 — wider than Earth — with winds near 430 km/h. Its size, its shrinking, and how it compares.",
+      "image": {
+        "alt": "Close-up from NASA's Juno spacecraft of the swirling orange-red clouds of Jupiter's Great Red Spot."
+      },
+      "facts": {
+        "fact1": "Width: about 16,350 km (Juno, 2017) — about 1.3 times Earth.",
+        "fact2": "In the late 1800s it was about 40,000 km long; it has been shrinking since.",
+        "fact3": "Winds at its edge: about 430 km/h.",
+        "fact4": "Turns once about every 6 Earth days.",
+        "fact5": "Reaches roughly 200–500 km down into Jupiter's atmosphere.",
+        "fact6": "Watched continuously since 1878; first recorded in 1831."
+      }
+    },
+    "sirius": {
+      "name": "Sirius",
+      "tagline": "The brightest star in the night sky — a hot white star with a dead, Earth-sized companion.",
+      "body": "Sirius, the Dog Star in Canis Major, outshines every other star in the night sky because it is both powerful and close: only 8.6 light-years away. The bright star, Sirius A, is about twice the Sun's mass and 1.7 times its width, with a surface near 9,700 °C that gives it its blue-white colour, and it gives off about 25 times as much light as the Sun. Every 50 years it is circled by Sirius B, a white dwarf — the burnt-out core of a star that once outshone it — packing about the Sun's mass into a ball roughly the size of Earth. In ancient Egypt, the first dawn appearance of Sirius each year announced the coming flood of the Nile.",
+      "narrative": "Swap the Sun for Sirius A and it would look 1.7 times as wide in our sky, shine about 25 times brighter — and Earth would be scorched.",
+      "funFact": "Sirius B was found by its pull before it was seen. In 1844 Friedrich Bessel noticed Sirius wobbling as if tugged by an unseen partner; in 1862 Alvan Graham Clark, testing a new telescope lens, spotted the faint companion right where it was predicted.",
+      "seoTitle": "How Big Is Sirius? The Brightest Star Compared",
+      "metaDescription": "Sirius A, the brightest star in the night sky, is about 2.4 million km wide — 1.7 times the Sun — and 8.6 light-years away. Its size compared to the Sun.",
+      "image": {
+        "alt": "Artist's impression of the brilliant white star Sirius A with its small blue-white companion, the white dwarf Sirius B, against a field of stars."
+      },
+      "temperatureNote": "surface of Sirius A",
+      "facts": {
+        "fact1": "Sirius A: about 2.4 million km wide — 1.7 times the Sun.",
+        "fact2": "Distance: about 8.6 light-years — one of our nearest neighbours.",
+        "fact3": "Mass: about 2 Suns; brightness: about 25 Suns.",
+        "fact4": "Surface temperature: about 9,940 K.",
+        "fact5": "Companion Sirius B: a white dwarf about Earth's size with roughly the Sun's mass.",
+        "fact6": "The two orbit each other every 50 years."
+      }
+    },
+    "asteroid_belt": {
+      "name": "Asteroid Belt",
+      "tagline": "A ring of leftover rubble between Mars and Jupiter — far emptier than the movies suggest.",
+      "body": "The main asteroid belt circles the Sun between Mars and Jupiter, roughly 330 to 480 million km out, so measured across its outer edge it is close to a billion kilometres wide. It holds more than a million asteroids larger than 1 km and countless smaller ones, yet all of them together add up to only about 3% of the Moon's mass — and more than half of that is in Ceres, Vesta, Pallas and Hygiea. They are leftovers from the birth of the Solar System that never formed a planet, because Jupiter's gravity kept stirring them up. NASA's Dawn spacecraft orbited Vesta and then Ceres, the belt's one dwarf planet.",
+      "narrative": "The asteroids are on average about a million kilometres apart — more than twice the distance to the Moon. Fly straight through and you would almost certainly never see one.",
+      "funFact": "Since the 1970s more than a dozen spacecraft have crossed the belt — Pioneer 10 first — and none has ever been hit. Mission planners have to work hard to get close to an asteroid on purpose.",
+      "seoTitle": "How Big Is the Asteroid Belt? Size Compared",
+      "metaDescription": "The asteroid belt orbits 330–480 million km from the Sun, nearly a billion km across, yet all its asteroids weigh only 3% of the Moon. Its size compared.",
+      "image": {
+        "alt": "Grey, heavily cratered asteroid Vesta, the second-largest body in the asteroid belt, photographed by NASA's Dawn spacecraft."
+      },
+      "facts": {
+        "fact1": "Lies about 2.2–3.2 AU from the Sun (roughly 330–480 million km).",
+        "fact2": "Across its outer edge: close to 1 billion km.",
+        "fact3": "More than a million asteroids bigger than 1 km.",
+        "fact4": "Total mass: only about 3% of the Moon's.",
+        "fact5": "Largest member: the dwarf planet Ceres, about 940 km across.",
+        "fact6": "Average distance between asteroids: about 1 million km."
+      }
     }
   },
   "about": {
@@ -2644,6 +2707,18 @@
     "rammed_earth": {
       "term": "Rammed earth",
       "definition": "Damp soil, gravel and lime packed hard between wooden boards, layer by layer. Much of the early Great Wall was built this way, long before the brick-faced Ming sections."
+    },
+    "anticyclone": {
+      "term": "Anticyclone",
+      "definition": "A storm system around a region of high pressure. On Jupiter's southern half, like the Great Red Spot, it turns anticlockwise — the opposite way to a hurricane there."
+    },
+    "white_dwarf": {
+      "term": "White dwarf",
+      "definition": "The hot, dense core left when a Sun-like star dies: about a Sun's mass squeezed into a ball the size of Earth, slowly cooling for billions of years."
+    },
+    "dwarf_planet": {
+      "term": "Dwarf planet",
+      "definition": "A body that orbits the Sun and is massive enough to be round, but has not cleared its orbit of other objects — Pluto and Ceres are the best known."
     }
   },
   "faq": {
@@ -2739,7 +2814,10 @@
       "grand_canyon": "the Grand Canyon",
       "titanic": "the Titanic",
       "colosseum": "the Colosseum",
-      "great_wall": "the Great Wall of China"
+      "great_wall": "the Great Wall of China",
+      "great_red_spot": "the Great Red Spot",
+      "sirius": "Sirius",
+      "asteroid_belt": "the asteroid belt"
     },
     "a7where": "The typical temperature of {name} is about {temp} — {note}.",
     "a2taller": "{Name} is roughly {ratio} times taller than a 1.7 m human.",
@@ -2757,7 +2835,9 @@
     "a1plainHeight": "{Name} stands about {size} tall. On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size.",
     "a1plainDepth": "{Name} is about {size} deep. On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size.",
     "a1plainLength": "{Name} is about {size} long. On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size.",
-    "a8longer": "{Name} is roughly {ratio} times longer than Earth is wide (12,742 km across)."
+    "a8longer": "{Name} is roughly {ratio} times longer than Earth is wide (12,742 km across).",
+    "a6years": "{Name} is about {distance} from Earth — its light takes about {years} years to reach us.",
+    "a6edge": "The {place} is about {distance} from Earth."
   },
   "seo": {
     "home": "Scale of the Universe — Quarks to the Cosmos | Quantumaire",

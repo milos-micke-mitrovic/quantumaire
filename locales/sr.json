@@ -518,7 +518,9 @@
     "alien-life": "Vanzemaljski život",
     "landmark": "Znamenitost",
     "landscape": "Predeo",
-    "ship": "Brod"
+    "ship": "Brod",
+    "storm": "Oluja",
+    "asteroid": "Asteroid"
   },
   "stops": {
     "quark": {
@@ -1949,6 +1951,67 @@
         "fact5": "Golim okom se ne vidi iz orbite, što su potvrdili i astronauti.",
         "fact6": "Na UNESCO listi svetske baštine od 1987."
       }
+    },
+    "great_red_spot": {
+      "name": "Velika crvena pega",
+      "tagline": "Oluja na Jupiteru šira od cele Zemlje — besni najmanje 150 godina.",
+      "body": "Velika crvena pega je ogromna oluja visokog pritiska na južnoj polulopti Jupitera: ovalna, široka oko 16.350 km kada je NASA-in Juno 2017. preleteo iznad nje, otprilike 1,3 puta šira od Zemlje. Vetrovi oko njene ivice dostižu oko 430 km/h, a ceo vrtlog se okrene jednom otprilike za šest dana. Neprekidno se posmatra od 1878, a krajem 19. veka bila je duga oko 40.000 km — od tada se smanjuje i postaje sve okruglija. Junova mikrotalasna merenja ukazuju na to da joj koreni sežu oko 200–500 km duboko u atmosferu; crvenu boju verovatno daju hemijska jedinjenja u vrhovima oblaka koja menja sunčeva svetlost.",
+      "narrative": "Spustite Zemlju u Veliku crvenu pegu i stala bi sa viškom prostora — a u 19. veku u nju bi stale tri Zemlje jedna do druge.",
+      "funFact": "Tamna pega koju je Đovani Kasini posmatrao na Jupiteru od 1665. do 1713. dugo se smatrala istom olujom, pa bi bila stara preko 350 godina. Studija iz 2024. zasnovana na starim crtežima zaključila je da je to verovatno bila druga oluja koja je nestala — današnja pega prvi put je zabeležena 1831.",
+      "seoTitle": "Koliko je velika Velika crvena pega? Džinovska oluja",
+      "metaDescription": "Jupiterova Velika crvena pega bila je 2017. široka oko 16.350 km — šira od Zemlje — sa vetrovima od oko 430 km/h. Njena veličina, smanjivanje i poređenja.",
+      "image": {
+        "alt": "Krupni snimak NASA-ine letelice Juno: kovitlavi narandžastocrveni oblaci Jupiterove Velike crvene pege."
+      },
+      "facts": {
+        "fact1": "Širina: oko 16.350 km (Juno, 2017) — oko 1,3 puta šira od Zemlje.",
+        "fact2": "Krajem 19. veka bila je duga oko 40.000 km; od tada se smanjuje.",
+        "fact3": "Vetrovi na ivici: oko 430 km/h.",
+        "fact4": "Okrene se jednom otprilike za 6 zemaljskih dana.",
+        "fact5": "Seže oko 200–500 km duboko u Jupiterovu atmosferu.",
+        "fact6": "Neprekidno se posmatra od 1878; prvi put zabeležena 1831."
+      }
+    },
+    "sirius": {
+      "name": "Sirijus",
+      "tagline": "Najsjajnija zvezda noćnog neba — vrela bela zvezda sa mrtvim pratiocem veličine Zemlje.",
+      "body": "Sirijus, Pasja zvezda u sazvežđu Veliki pas, sjajniji je od svih drugih zvezda noćnog neba jer je istovremeno snažan i blizu: udaljen je samo 8,6 svetlosnih godina. Sjajna zvezda, Sirijus A, ima oko dve mase Sunca i 1,7 puta je šira od njega, sa površinom od blizu 9.700 °C koja joj daje plavobelu boju, i zrači oko 25 puta više svetlosti od Sunca. Na svakih 50 godina oko nje obiđe Sirijus B, beli patuljak — izgorelo jezgro zvezde koja je nekad bila sjajnija od nje — koji otprilike masu Sunca sabija u loptu veličine Zemlje. U starom Egiptu prvo pojavljivanje Sirijusa u zoru svake godine najavljivalo je izlivanje Nila.",
+      "narrative": "Zamenite Sunce Sirijusom A i na našem nebu bio bi 1,7 puta širi, sijao bi oko 25 puta jače — a Zemlja bi bila spržena.",
+      "funFact": "Sirijus B je otkriven po privlačenju pre nego što je viđen. Fridrih Besel je 1844. primetio da se Sirijus njiše kao da ga vuče nevidljivi par; 1862. Alvan Grejam Klark je, isprobavajući novo sočivo teleskopa, ugledao bledog pratioca baš tamo gde je predviđeno.",
+      "seoTitle": "Koliko je veliki Sirijus? Najsjajnija zvezda u poređenju",
+      "metaDescription": "Sirijus A, najsjajnija zvezda noćnog neba, širok je oko 2,4 miliona km — 1,7 puta više od Sunca — i udaljen 8,6 svetlosnih godina. Veličina u poređenju sa Suncem.",
+      "image": {
+        "alt": "Umetnički prikaz blistavo bele zvezde Sirijus A sa malim plavobelim pratiocem, belim patuljkom Sirijus B, na pozadini zvezda."
+      },
+      "temperatureNote": "površina Sirijusa A",
+      "facts": {
+        "fact1": "Sirijus A: širok oko 2,4 miliona km — 1,7 puta više od Sunca.",
+        "fact2": "Udaljenost: oko 8,6 svetlosnih godina — jedan od naših najbližih suseda.",
+        "fact3": "Masa: oko 2 Sunca; sjaj: oko 25 Sunaca.",
+        "fact4": "Temperatura površine: oko 9.940 K.",
+        "fact5": "Pratilac Sirijus B: beli patuljak veličine Zemlje, sa otprilike masom Sunca.",
+        "fact6": "Njih dvoje obiđu jedno oko drugog za 50 godina."
+      }
+    },
+    "asteroid_belt": {
+      "name": "Asteroidni pojas",
+      "tagline": "Prsten preostalog kamenja između Marsa i Jupitera — mnogo prazniji nego u filmovima.",
+      "body": "Glavni asteroidni pojas kruži oko Sunca između Marsa i Jupitera, otprilike 330 do 480 miliona km daleko, pa je meren preko spoljne ivice širok blizu milijardu kilometara. U njemu je više od milion asteroida većih od 1 km i nebrojeno manjih, a ipak svi zajedno imaju samo oko 3% mase Meseca — i više od polovine toga je u Cereri, Vesti, Paladi i Higiji. To su ostaci iz rađanja Sunčevog sistema koji nikad nisu postali planeta, jer ih je Jupiterova gravitacija stalno uznemiravala. NASA-ina letelica Dawn kružila je oko Veste, a zatim oko Cerere, jedine patuljaste planete u pojasu.",
+      "narrative": "Asteroidi su u proseku udaljeni oko milion kilometara jedan od drugog — više nego dvostruko dalje nego Mesec od nas. Proletite pravo kroz pojas i skoro sigurno nećete videti nijedan.",
+      "funFact": "Od 1970-ih pojas je preletelo više od desetak letelica — prva je bila Pionir 10 — i nijednu nikada nije pogodio asteroid. Planeri misija moraju dobro da se pomuče da bi se namerno približili nekom asteroidu.",
+      "seoTitle": "Koliko je veliki asteroidni pojas? Veličina u poređenju",
+      "metaDescription": "Asteroidni pojas kruži 330–480 miliona km od Sunca, širok je blizu milijardu km, a svi njegovi asteroidi imaju samo 3% mase Meseca. Veličina u poređenju.",
+      "image": {
+        "alt": "Siva asteroida Vesta puna kratera, drugo najveće telo u asteroidnom pojasu, snimljena NASA-inom letelicom Dawn."
+      },
+      "facts": {
+        "fact1": "Nalazi se oko 2,2–3,2 AJ od Sunca (otprilike 330–480 miliona km).",
+        "fact2": "Preko spoljne ivice: blizu 1 milijarde km.",
+        "fact3": "Više od milion asteroida većih od 1 km.",
+        "fact4": "Ukupna masa: samo oko 3% mase Meseca.",
+        "fact5": "Najveći član: patuljasta planeta Cerera, prečnika oko 940 km.",
+        "fact6": "Prosečna udaljenost između asteroida: oko 1 milion km."
+      }
     }
   },
   "about": {
@@ -2644,6 +2707,18 @@
     "rammed_earth": {
       "term": "Nabijena zemlja",
       "definition": "Vlažna zemlja, šljunak i kreč nabijani sloj po sloj između drvenih dasaka. Veliki deo ranog Kineskog zida građen je ovako, mnogo pre zidova od cigle iz doba dinastije Ming."
+    },
+    "anticyclone": {
+      "term": "Anticiklon",
+      "definition": "Vremenski sistem oko oblasti visokog pritiska. Na južnoj polovini Jupitera, kao Velika crvena pega, okreće se suprotno od kazaljke na satu — obrnuto od uragana tamo."
+    },
+    "white_dwarf": {
+      "term": "Beli patuljak",
+      "definition": "Vrelo, gusto jezgro koje ostane kad umre zvezda nalik Suncu: otprilike masa Sunca sabijena u loptu veličine Zemlje, koja se milijardama godina polako hladi."
+    },
+    "dwarf_planet": {
+      "term": "Patuljasta planeta",
+      "definition": "Telo koje kruži oko Sunca i dovoljno je masivno da bude okruglo, ali nije očistilo svoju putanju od drugih objekata — najpoznatije su Pluton i Cerera."
     }
   },
   "faq": {
@@ -2744,7 +2819,10 @@
       "grand_canyon": "Veliki kanjon",
       "titanic": "Titanik",
       "colosseum": "Koloseum",
-      "great_wall": "Kineski zid"
+      "great_wall": "Kineski zid",
+      "great_red_spot": "Velika crvena pega",
+      "sirius": "Sirijus",
+      "asteroid_belt": "asteroidni pojas"
     },
     "a3smallerTall": "Korak niže: {other} ({otherSize}), oko {ratio} puta niže.",
     "a3largerTall": "Korak više: {other} ({otherSize}), oko {ratio} puta više.",
@@ -2757,7 +2835,9 @@
     "a1plainHeight": "{Name}: visina je oko {size}. Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
     "a1plainDepth": "{Name}: dubina je oko {size}. Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
     "a1plainLength": "{Name}: dužina je oko {size}. Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
-    "a8longer": "Dužina je otprilike {ratio} puta veća od prečnika Zemlje (12.742 km)."
+    "a8longer": "Dužina je otprilike {ratio} puta veća od prečnika Zemlje (12.742 km).",
+    "a6years": "Udaljenost od Zemlje: oko {distance} — svetlosti odande treba oko {years} godina da stigne do nas.",
+    "a6edge": "{place}: oko {distance} od Zemlje."
   },
   "seo": {
     "home": "Razmere svemira — od kvarka do kosmosa | Quantumaire",

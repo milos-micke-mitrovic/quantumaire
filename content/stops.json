@@ -1840,6 +1840,76 @@
       "tags": [
         "ancient"
       ]
+    },
+    {
+      "id": "great_red_spot",
+      "i18nKey": "stops.great_red_spot",
+      "sizeMeters": 16350000,
+      "order": 7.75,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-ember",
+      "accentGlow": "shadow-[0_0_80px_rgba(251,113,133,0.4)]",
+      "image": {
+        "src": "/images/great-red-spot.webp",
+        "aspect": "wide",
+        "altKey": "stops.great_red_spot.image.alt",
+        "credit": "NASA / SwRI / MSSS / Gerald Eichstädt / Seán Doran — public domain"
+      },
+      "glossary": [
+        "anticyclone"
+      ],
+      "tags": [
+        "storm"
+      ]
+    },
+    {
+      "id": "sirius",
+      "i18nKey": "stops.sirius",
+      "sizeMeters": 2380000000,
+      "order": 9.2,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-star",
+      "accentGlow": "shadow-[0_0_80px_rgba(224,242,254,0.35)]",
+      "distanceFromEarthMeters": 81360000000000000,
+      "temperatureKelvin": 9940,
+      "image": {
+        "src": "/images/sirius.webp",
+        "aspect": "wide",
+        "altKey": "stops.sirius.image.alt",
+        "credit": "NASA, ESA and G. Bacon (STScI) — public domain"
+      },
+      "glossary": [
+        "white_dwarf",
+        "main_sequence"
+      ],
+      "tags": [
+        "star"
+      ]
+    },
+    {
+      "id": "asteroid_belt",
+      "i18nKey": "stops.asteroid_belt",
+      "sizeMeters": 960000000000,
+      "order": 10.4,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/asteroid-belt.webp",
+        "aspect": "square",
+        "altKey": "stops.asteroid_belt.image.alt",
+        "credit": "NASA/JPL-Caltech/UCLA/MPS/DLR/IDA — public domain"
+      },
+      "glossary": [
+        "dwarf_planet",
+        "astronomical_unit"
+      ],
+      "tags": [
+        "asteroid"
+      ]
     }
   ]
 }

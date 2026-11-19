@@ -38,6 +38,18 @@ export interface SizeFaqItem {
 /** Stops with a physical size, smallest first. */
 const SIZED: Stop[] = SIZED_STOPS;
 
+const LIGHT_YEAR_M = 9.4607304725808e15;
+
+/** Light travel time in years for a distance: "8.6", "548", "2.5 million". */
+function lightYears(meters: number, locale: Locale): string {
+  const ly = meters / LIGHT_YEAR_M;
+  const loc = locale === "sr" ? "sr-Latn-RS" : "en-US";
+  if (ly >= 1e6) return scaled(ly / 1e6, "common.numberMillion", (k) => tServer(locale, k), loc);
+  // Same precision as formatMeters, so "5,866 ly" reads "5,866 years".
+  const n = Number(ly.toPrecision(ly < 1e3 ? 3 : 4));
+  return n.toLocaleString(loc);
+}
+
 /** Key suffix for measure-specific wording (a1Height, a1plainDepth…). */
 const MEASURE_SUFFIX = { height: "Height", depth: "Depth", length: "Length", size: "" } as const;
 
@@ -281,12 +293,24 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
     const lightTime = formatLightTime(distance, tm);
     const q = t("sizeFaq.q6", { name });
     // An idea topic whose search question is already this one (Voyager 1).
+    // Measured to an edge ("Edge of the Solar System"): name that place —
+    // nothing's light "takes 1.6 years" to reach us from the Solar System.
+    const placeName = stop.distanceNameKey ? tServer(locale, stop.distanceNameKey) : null;
+    // English template adds "The": "The edge of the Solar System is…".
+    const place =
+      placeName && locale === "en" ? placeName.charAt(0).toLowerCase() + placeName.slice(1) : placeName;
     if (!items.some((i) => i.q.toLowerCase() === q.toLowerCase())) items.push({
       q,
-      a: lightTime
+      a: place
+        ? t("sizeFaq.a6edge", { place, distance: formatMeters(distance, tm) })
+        : lightTime
         ? t("sizeFaq.a6", { distance: formatMeters(distance, tm), lightTime })
-        : // Under one light-second (the ISS): no light-time worth quoting.
-          t(distance < 3e8 ? "sizeFaq.a6near" : "sizeFaq.a6far", { distance: formatMeters(distance, tm) }),
+        : distance >= LIGHT_YEAR_M && distance < 1e7 * LIGHT_YEAR_M
+          ? // "its light takes about 8.6 years to reach us" — but not for
+            // cosmological distances, where expansion breaks that reading.
+            t("sizeFaq.a6years", { distance: formatMeters(distance, tm), years: lightYears(distance, locale) })
+          : // Under one light-second (the ISS): no light-time worth quoting.
+            t(distance < 3e8 ? "sizeFaq.a6near" : "sizeFaq.a6far", { distance: formatMeters(distance, tm) }),
     });
   }
 
