@@ -78,15 +78,13 @@ Use the `add-topic` skill (`.claude/skills/add-topic/SKILL.md`).
   shows stale CSS/JS, unregister it in the browser.
 - Kill stray dev servers (`pkill -f "next dev"`) — several on one port
   served stale code once.
-- Mobile testing: the Chrome extension's `resize_window` does nothing while
-  the owner's window is maximized/full-screen (innerWidth stays 1280). Use,
-  in order of preference: (1) headless Playwright with a phone viewport —
-  `npx playwright screenshot --viewport-size=390,844 <url> out.png`
-  (Chromium is cached in ~/Library/Caches/ms-playwright; `npx` fetching the
-  package needs the owner's OK — or add `playwright` as a devDependency); (2) a same-origin
-  390 px `<iframe>` injected into a page via `javascript_tool` (good for
-  overflow sweeps: compare `scrollWidth` with `innerWidth` inside it);
-  (3) ask the owner to un-maximize the window or open DevTools device mode.
+- Mobile testing: `pnpm check:mobile [--base https://quantumaire.space]
+  [--out DIR] [--full] /en/stop/x /sr/…` (scripts/mobile-check.mjs) —
+  headless Playwright on the installed Google Chrome, 390×844 touch phone,
+  prints scrollWidth/overflowing elements per page and saves screenshots
+  (read them with the Read tool). Default base is the dev server :5739.
+  The Chrome extension's `resize_window` does nothing while the owner's
+  window is maximized, so don't rely on it for mobile.
 - Fonts live in `lib/fonts.ts` (shared by the locale layout and
   global-not-found); `subsets: ["latin"]` only limits preloads — a second
   font call with other options re-adds latin-ext preloads site-wide.

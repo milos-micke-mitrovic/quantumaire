@@ -11,7 +11,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "preview:cf": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy:cf": "./deploy-cf.sh"
+    "deploy:cf": "./deploy-cf.sh",
+    "check:mobile": "node scripts/mobile-check.mjs"
   },
   "dependencies": {
     "clsx": "2.1.1",
@@ -30,6 +31,7 @@
     "eslint": "9.18.0",
     "eslint-config-next": "16.2.6",
     "happy-dom": "^20.9.0",
+    "playwright": "^1.65.1",
     "postcss": "8.5.1",
     "sharp": "^0.34.4",
     "tailwindcss": "3.4.17",
