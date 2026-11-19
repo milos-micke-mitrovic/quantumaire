@@ -1581,6 +1581,28 @@
         "fact7": "Predloženi odgovori: život je redak, civilizacije kratko traju, razdvojene su ogromnim razmacima u vremenu — ili jednostavno nismo dovoljno tražili."
       },
       "metaDescription": "Milijarde zvezda i hiljade poznatih planeta, a nijednog znaka vanzemaljaca. Šta je Fermijev paradoks i koji su glavni predloženi odgovori, jednostavno."
+    },
+    "speed_of_light": {
+      "name": "Brzina svetlosti",
+      "seoTitle": "Kolika je brzina svetlosti? 299.792 km/s, objašnjeno",
+      "tagline": "Kosmičko ograničenje brzine: 299.792.458 metara svake sekunde — tačno.",
+      "body": "U vakuumu svetlost putuje tačno 299.792.458 metara u sekundi — oko 300.000 km/s, odnosno 1,08 milijardi km/h. Taj broj je tačan zato što je od 1983. sam metar definisan pomoću njega. Ajnštajnova specijalna teorija relativnosti (1905) učinila ju je više od brzine: ista je za svakog posmatrača, ma koliko se brzo kretao, a ništa što ima masu nikada je ne može dostići — što ste joj bliži, svaki dodatni delić brzine košta sve više energije. Istom brzinom šire se i gravitacija i svi elektromagnetni talasi, od radio-talasa do gama-zraka. Kroz staklo, vodu ili dijamant svetlost usporava, ali to je kolektivni efekat materijala — samo ograničenje brzine nikada se ne menja.",
+      "narrative": "Svetlost obiđe Zemlju oko sedam i po puta u sekundi. Pa ipak joj treba 1,3 sekunde do Meseca, 8 minuta i 20 sekundi od Sunca do nas, više od 4 godine od najbliže zvezde i 2,5 miliona godina od galaksije Andromeda.",
+      "funFact": "Prva procena stigla je zahvaljujući jednom mesecu. Ole Remer je 1676. primetio da Jupiterov mesec Io izlazi iz pomračenja kasnije kada je Zemlja dalje od Jupitera — svetlost je jednostavno imala duži put. Kristijan Hajgens je iz njegovih podataka izračunao brzinu od oko 220.000 km/s: promašaj za četvrtinu, ali dokaz da je svetlosti potrebno vreme da putuje.",
+      "image": {
+        "alt": "Tanak narandžasti laserski zrak izlazi iz kupole teleskopa ka centru Mlečnog puta, na nebu punom zvezda."
+      },
+      "facts": {
+        "fact1": "Tačno 299.792.458 m/s u vakuumu — utvrđeno definicijom od 1983.",
+        "fact2": "Oko 1,08 milijardi km/h, odnosno 186.282 milje u sekundi.",
+        "fact3": "U vodi svetlost ide oko 225.000 km/s, a u dijamantu oko 124.000 km/s.",
+        "fact4": "Sunčevoj svetlosti treba oko 8 minuta i 20 sekundi da stigne do Zemlje.",
+        "fact5": "Prvi put procenjena 1676, iz pomračenja Jupiterovog meseca Io (Ole Remer).",
+        "fact6": "Lene Hau je 1999. usporila svetlost na oko 17 m/s — oko 61 km/h — u ultrahladnom oblaku atoma.",
+        "fact7": "Čestice koje se u vodi kreću brže nego što svetlost ide kroz vodu zrače plavi sjaj — Čerenkovljevo zračenje.",
+        "fact8": "Daleke galaksije mogu se udaljavati brže od svetlosti jer se širi sam prostor — lokalno, ništa ne pretiče svetlost."
+      },
+      "metaDescription": "Svetlost putuje tačno 299.792.458 m/s — kosmičko ograničenje brzine. Zašto je broj tačan, zašto je niko ne može prestići i koliko joj treba do nas."
     }
   },
   "about": {
@@ -2362,7 +2384,7 @@
       "short": "Prostor-vreme",
       "title": "Prostor-vreme: vreme, gravitacija i prečice",
       "seoTitle": "Prostor-vreme: dilatacija vremena, crvotočine i više",
-      "intro": "Ajnštajn je od prostora i vremena napravio jedno rastegljivo tkivo. Evo šta iz toga sledi — satovi koji se ne slažu, talasi koji prelaze svemir i spekulativnije ideje izgrađene na tome.",
+      "intro": "Ajnštajn je od prostora i vremena napravio jedno rastegljivo tkivo, sa ograničenjem brzine u samom srcu. Evo šta iz toga sledi — satovi koji se ne slažu, talasi koji prelaze svemir i spekulativnije ideje izgrađene na tome.",
       "metaDescription": "Ajnštajn je spojio prostor i vreme u jedno rastegljivo tkivo. Posledice: satovi koji se ne slažu, talasi kroz svemir i spekulativne ideje."
     },
     "particle": {

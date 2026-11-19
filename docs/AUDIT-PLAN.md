@@ -116,6 +116,7 @@ browser (desktop + 390 px) after UI changes.
 - [ ] Code health: ~~delete dead StopDistanceCard component (move
       computeDistance + mapping to lib/), unused `LIGHT_YEAR_KM`, dedupe
       `normalize()`, sized-stop sorting~~, toggle UIs; ~~client i18n EN fallback~~.
-- [ ] New topic candidates: M87*, Gaia BH1, neutrino, Mariana Trench, ISS,
+- [x] New topic candidates: M87*, Gaia BH1, neutrino, Mariana Trench, ISS,
       James Webb, Fermi paradox, speed of light (use the `add-topic` skill).
+      All 8 live 2026-11-19 (60 topics); also /tag/spacecraft, tag-page text test.
 - [ ] Daily: `gsc-indexing` skill (queue in docs/indexing-log.md).

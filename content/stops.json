@@ -1467,6 +1467,30 @@
       "tags": [
         "alien-life"
       ]
+    },
+    {
+      "id": "speed_of_light",
+      "i18nKey": "stops.speed_of_light",
+      "sizeMeters": null,
+      "order": 7.05,
+      "badge": "FACT",
+      "category": "PHYSICS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/speed-of-light.webp",
+        "aspect": "square",
+        "altKey": "stops.speed_of_light.image.alt",
+        "credit": "ESO/Yuri Beletsky — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "special_relativity",
+        "spacetime",
+        "light_year"
+      ],
+      "tags": [
+        "spacetime"
+      ]
     }
   ]
 }

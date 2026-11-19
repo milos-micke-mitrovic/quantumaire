@@ -776,5 +776,19 @@
       "label": "SETI Institute",
       "url": "https://www.seti.org/drake-equation-index"
     }
+  ],
+  "speed_of_light": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Speed_of_light"
+    },
+    {
+      "label": "BIPM",
+      "url": "https://www.bipm.org/en/si-base-units/metre"
+    },
+    {
+      "label": "NIST",
+      "url": "https://www.nist.gov/si-redefinition/meter"
+    }
   ]
 }
