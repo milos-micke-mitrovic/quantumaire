@@ -94,6 +94,34 @@ function bestMatch(target: number, pool: Familiar[], exclude: Set<string>) {
   return best;
 }
 
+/**
+ * Topics people already have a feel for. The second row of an analogy
+ * ("…and then X would be the size of Y") only helps if X is one of these —
+ * "Pluto ≈ the Eiffel Tower" teaches nothing, since nobody pictures Pluto.
+ */
+export const FAMILIAR_STOP_IDS = new Set([
+  "atom",
+  "dna",
+  "virus",
+  "bacterium",
+  "cell",
+  "red_blood_cell",
+  "human",
+  "blue_whale",
+  "pyramid",
+  "statue_of_liberty",
+  "eiffel_tower",
+  "burj_khalifa",
+  "mount_everest",
+  "moon",
+  "earth",
+  "jupiter",
+  "sun",
+  "solar_system",
+  "milky_way",
+  "observable_universe",
+]);
+
 /** Familiar items that are themselves this stop (avoid "Earth = Earth"). */
 const SAME_AS_STOP: Record<string, string> = {
   earth: "earth",
@@ -109,7 +137,7 @@ function sizeAnalogy(
 ): Analogy | null {
   let best: (Analogy & { score: number }) | null = null;
   for (const other of others) {
-    if (other.id === stop.id) continue;
+    if (other.id === stop.id || !FAMILIAR_STOP_IDS.has(other.id)) continue;
     const ratio = other.sizeMeters / stop.sizeMeters;
     if (direction === "up" ? ratio < 50 : ratio > 1 / 50) continue;
     if (direction === "up" ? ratio > 1e9 : ratio < 1e-9) continue;

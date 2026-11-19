@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { STOPS } from "@/lib/content";
-import { buildAnalogies } from "@/lib/analogies";
+import { buildAnalogies, FAMILIAR_STOP_IDS } from "@/lib/analogies";
 
 describe("buildAnalogies", () => {
   it("gives sized stops a bigger and a smaller comparison", () => {
-    const atom = STOPS.find((s) => s.id === "atom")!;
-    const a = buildAnalogies(atom, STOPS);
+    const human = STOPS.find((s) => s.id === "human")!;
+    const a = buildAnalogies(human, STOPS);
     expect(a.filter((x) => x.kind === "size").length).toBe(2);
   });
 
@@ -14,6 +14,14 @@ describe("buildAnalogies", () => {
       for (const a of buildAnalogies(s, STOPS)) {
         expect(a.closeness).toBeGreaterThan(1 / 1.51);
         expect(a.closeness).toBeLessThan(1.51);
+      }
+    }
+  });
+
+  it("only scales well-known topics in the second row (no \"Pluto ≈ …\")", () => {
+    for (const s of STOPS) {
+      for (const a of buildAnalogies(s, STOPS)) {
+        if (a.kind === "size") expect(FAMILIAR_STOP_IDS.has(a.toId)).toBe(true);
       }
     }
   });
