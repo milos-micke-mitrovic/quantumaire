@@ -12,6 +12,7 @@ import {
 } from "react";
 import { AnimatePresence, m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
+import { BodyPortal } from "./BodyPortal";
 import { STOPS, categorySlug } from "@/lib/content";
 import type { Stop } from "@/lib/types";
 import { formatMeters } from "@/lib/scale";
@@ -46,6 +47,14 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
   const [query, setQuery] = useState("");
   const [activeIndex, setActiveIndex] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
+  const listRef = useRef<HTMLUListElement>(null);
+
+  // Keep the keyboard-highlighted result visible while arrowing through.
+  useEffect(() => {
+    listRef.current
+      ?.querySelector<HTMLElement>(`[data-idx="${activeIndex}"]`)
+      ?.scrollIntoView({ block: "nearest" });
+  }, [activeIndex]);
 
   const indexed = useMemo<IndexedStop[]>(() => {
     return STOPS.map((stop) => {
@@ -181,11 +190,16 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
               {t("common.searchEmpty")}
             </p>
           ) : (
-            <ul role="listbox" aria-label={t("common.search")}>
+            <ul ref={listRef} role="listbox" aria-label={t("common.search")}>
               {results.map((item, i) => {
                 const isActive = i === activeIndex;
                 return (
-                  <li key={item.stop.id} role="option" aria-selected={isActive}>
+                  <li
+                    key={item.stop.id}
+                    data-idx={i}
+                    role="option"
+                    aria-selected={isActive}
+                  >
                     <Link
                       href={`/${locale}/stop/${item.stop.id}`}
                       onMouseEnter={() => setActiveIndex(i)}
@@ -305,9 +319,11 @@ export function Search() {
         </kbd>
       </button>
 
-      <AnimatePresence>
-        {open && <SearchDialog onClose={close} />}
-      </AnimatePresence>
+      <BodyPortal>
+        <AnimatePresence>
+          {open && <SearchDialog onClose={close} />}
+        </AnimatePresence>
+      </BodyPortal>
     </>
   );
 }

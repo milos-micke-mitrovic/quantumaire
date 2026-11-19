@@ -8,6 +8,7 @@ import { useUnits, type UnitSystem } from "@/lib/units";
 import { TempUnitSwitcher } from "./TempUnitSwitcher";
 import type { Locale } from "@/lib/types";
 import { NavGroups } from "./NavGroups";
+import { BodyPortal } from "./BodyPortal";
 
 const LOCALE_LABELS: Record<Locale, string> = {
   en: "EN",
@@ -70,6 +71,7 @@ export function MobileNav() {
         </svg>
       </button>
 
+      <BodyPortal>
       <AnimatePresence>
         {open && (
           <motion.div
@@ -185,6 +187,7 @@ export function MobileNav() {
           </motion.div>
         )}
       </AnimatePresence>
+      </BodyPortal>
     </>
   );
 }
