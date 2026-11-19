@@ -6,6 +6,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback, useMemo } from "react";
 import { m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
+import { StopCombobox } from "./StopCombobox";
 import { STOPS, getStop } from "@/lib/content";
 import { formatMeters, formatTemperature } from "@/lib/scale";
 import { useTempUnit, useUnits } from "@/lib/units";
@@ -53,44 +54,25 @@ function StopPicker({ label, selectedId, mode, onChange }: PickerProps) {
   const { units } = useUnits();
   const { tempUnit } = useTempUnit();
   const stops = useMemo(() => eligibleStops(mode), [mode]);
+  const options = stops.map((s) => {
+    const v = valueOf(s, mode)!;
+    return {
+      id: s.id,
+      name: t(`${s.i18nKey}.name`),
+      detail:
+        mode === "temperature"
+          ? formatTemperature(v, t, tempUnit)
+          : formatMeters(v, t, units),
+      image: s.image.src,
+    };
+  });
   return (
-    <label className="block">
-      <span className="block text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
-        {label}
-      </span>
-      <div className="relative mt-2">
-        <select
-          value={selectedId}
-          onChange={(e) => onChange(e.target.value)}
-          className="w-full appearance-none rounded-2xl border border-white/10 bg-cosmos-night/40 py-3 pl-4 pr-10 text-base text-cosmos-star focus:border-cosmos-aurora/60 focus:outline-none"
-        >
-          {stops.map((s) => {
-            const v = valueOf(s, mode)!;
-            const valueText =
-              mode === "temperature"
-                ? formatTemperature(v, t, tempUnit)
-                : formatMeters(v, t, units);
-            return (
-              <option key={s.id} value={s.id}>
-                {t(`${s.i18nKey}.name`)} · {valueText}
-              </option>
-            );
-          })}
-        </select>
-        <svg
-          aria-hidden
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-cosmos-star/55"
-        >
-          <path d="M6 9l6 6 6-6" />
-        </svg>
-      </div>
-    </label>
+    <StopCombobox
+      label={label}
+      options={options}
+      value={selectedId}
+      onChange={onChange}
+    />
   );
 }
 

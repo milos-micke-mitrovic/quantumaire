@@ -1,4 +1,5 @@
 import { CATEGORIES, STOPS, categorySlug } from "@/lib/content";
+import { TAG_PAGES } from "@/lib/tags";
 import { TOPICS } from "@/lib/topics";
 import { LOCALES, SITE_URL } from "@/lib/seo";
 
@@ -81,6 +82,9 @@ function collectUrls(): string[] {
     }
     for (const cat of CATEGORIES) {
       out.push(`${SITE_URL}/${locale}/category/${categorySlug(cat)}`);
+    }
+    for (const tag of TAG_PAGES) {
+      out.push(`${SITE_URL}/${locale}/tag/${tag}`);
     }
   }
   return out;

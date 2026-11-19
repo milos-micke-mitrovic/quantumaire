@@ -40,6 +40,9 @@ interface PageProps {
 
 /** Stops that show the "how fast are our spacecraft?" table. */
 const SPACECRAFT_STOPS = new Set(["voyager1", "light_year"]);
+/** Only the generated pages exist; anything else is a real 404. */
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   const out: Array<{ locale: string; id: string }> = [];
   for (const locale of LOCALES) {

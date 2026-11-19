@@ -246,7 +246,8 @@
       "related": "Related"
     },
     "navBigger": "{factor}× bigger",
-    "navSmaller": "{factor}× smaller"
+    "navSmaller": "{factor}× smaller",
+    "comboSearch": "Type to search…"
   },
   "home": {
     "faq": {
@@ -2003,6 +2004,88 @@
       "londonParis": "London → Paris",
       "nyLa": "New York → Los Angeles",
       "aroundEarth": "once around the Earth"
+    }
+  },
+  "tagPages": {
+    "eyebrow": "Collection",
+    "more": "More collections",
+    "planet": {
+      "short": "Planets",
+      "title": "The planets, compared by size",
+      "seoTitle": "Planet Sizes Compared: All 8 Planets, Smallest to Largest",
+      "intro": "All eight planets of the Solar System side by side, from little Mercury to Jupiter, which could swallow more than a thousand Earths. Open any planet for its size, distance, temperature and the facts that make it strange."
+    },
+    "biology": {
+      "short": "Life",
+      "title": "Life, from DNA to the blue whale",
+      "seoTitle": "How Big Is Life? From DNA and Viruses to the Blue Whale",
+      "intro": "Living things span more than ten orders of magnitude — from the DNA helix two nanometres wide, through viruses, bacteria and cells, to you and the largest animal that has ever lived."
+    },
+    "phenomenon": {
+      "short": "Phenomena",
+      "title": "Phenomena of the universe",
+      "seoTitle": "Cosmic Phenomena Explained: Dark Matter, Dark Energy, Big Bang & More",
+      "intro": "Things that are not objects but happenings and hidden ingredients: dark matter and dark energy, the Big Bang, gravitational waves and quantum entanglement — each labelled with how sure science really is."
+    },
+    "star": {
+      "short": "Stars",
+      "title": "Stars, compared by size",
+      "seoTitle": "Star Sizes Compared: Neutron Stars, the Sun, Proxima Centauri & UY Scuti",
+      "intro": "From a neutron star the size of a city to UY Scuti, a hypergiant that would reach past Mars if it replaced the Sun — the range of stars is wider than most people imagine."
+    },
+    "gas-giant": {
+      "short": "Giant planets",
+      "title": "The giant planets",
+      "seoTitle": "Gas and Ice Giants: Jupiter, Saturn, Uranus and Neptune Compared",
+      "intro": "The four outer planets — Jupiter and Saturn, the gas giants, and Uranus and Neptune, often called ice giants — hold more than 99% of the mass of all the planets put together."
+    },
+    "spacetime": {
+      "short": "Spacetime",
+      "title": "Spacetime: time, gravity and shortcuts",
+      "seoTitle": "Spacetime Explained: Time Dilation, Gravitational Waves, Wormholes & String Theory",
+      "intro": "Einstein turned space and time into one stretchy fabric. Here is what follows from that — clocks that disagree, ripples that cross the universe, and the more speculative ideas built on top."
+    },
+    "particle": {
+      "short": "Particles",
+      "title": "Subatomic particles",
+      "seoTitle": "Subatomic Particles Explained: Quarks, Protons and the Higgs Boson",
+      "intro": "The building blocks under the atom: the quarks that make protons and neutrons, the proton itself, and the Higgs boson that confirmed the field giving particles their mass."
+    },
+    "black-hole": {
+      "short": "Black holes",
+      "title": "Black holes, compared by size",
+      "seoTitle": "The Biggest Black Holes: Sagittarius A*, Phoenix-A and TON 618 Compared",
+      "intro": "From Sagittarius A* at the centre of our galaxy to TON 618 and Phoenix-A, among the most massive black holes known — each event horizon measured against things you know."
+    },
+    "hypothetical": {
+      "short": "Hypothetical",
+      "title": "Hypothetical ideas",
+      "seoTitle": "Speculative Physics: Wormholes, the Multiverse and String Theory",
+      "intro": "Ideas allowed by the mathematics but never observed. Each one is clearly labelled Speculative — fascinating possibilities, not discoveries."
+    },
+    "matter": {
+      "short": "Matter",
+      "title": "Matter and antimatter",
+      "seoTitle": "Matter and Antimatter: Atoms and Their Mirror Twins",
+      "intro": "The atom, the basic unit of every chemical element, and antimatter, its mirror image — the two meet and vanish in pure energy, and why the universe chose matter is still unsolved."
+    },
+    "galaxy": {
+      "short": "Galaxies",
+      "title": "Galaxies, compared",
+      "seoTitle": "Milky Way vs Andromeda: How Big Are Galaxies?",
+      "intro": "Our home galaxy, the Milky Way, and its big neighbour Andromeda — two spirals of hundreds of billions of stars, on course to merge in a few billion years."
+    },
+    "unit": {
+      "short": "Units",
+      "title": "Units of length at the extremes",
+      "seoTitle": "The Planck Length and the Light-Year: The Extremes of Measuring Length",
+      "intro": "Two units at opposite ends of the scale: the Planck length, where physics as we know it breaks down, and the light-year, the distance light travels in a year."
+    },
+    "animal": {
+      "short": "Animals",
+      "title": "Animals at the extremes of size",
+      "seoTitle": "Tardigrade vs Blue Whale: The Smallest Tough Animal and the Largest Ever",
+      "intro": "A half-millimetre water bear that can survive the vacuum of space, and the blue whale, the heaviest animal ever known — life at both ends of the animal size range."
     }
   }
 }

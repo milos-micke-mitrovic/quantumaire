@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { CATEGORIES, STOPS, categorySlug } from "@/lib/content";
+import { TAG_PAGES } from "@/lib/tags";
 import { TOPICS } from "@/lib/topics";
 import { LOCALES, SITE_URL } from "@/lib/seo";
 
@@ -83,6 +84,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly",
         priority: 0.75,
         alternates: alternates(`category/${slug}`),
+      });
+    }
+
+    for (const tag of TAG_PAGES) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/tag/${tag}`,
+        changeFrequency: "monthly",
+        priority: 0.7,
+        alternates: alternates(`tag/${tag}`),
       });
     }
 

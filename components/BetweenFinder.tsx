@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useId, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { useI18n } from "@/lib/i18n";
+import { StopCombobox } from "./StopCombobox";
 import { STOPS } from "@/lib/content";
 import { formatMeters } from "@/lib/scale";
 import { useUnits } from "@/lib/units";
@@ -17,8 +18,6 @@ function isSized(s: Stop): s is SizedStop {
 export function BetweenFinder() {
   const { t, locale } = useI18n();
   const { units } = useUnits();
-  const aId = useId();
-  const bId = useId();
 
   const sizedSorted = useMemo(
     () => STOPS.filter(isSized).sort((a, b) => a.sizeMeters - b.sizeMeters),
@@ -39,6 +38,13 @@ export function BetweenFinder() {
     return sizedSorted.filter((s) => s.sizeMeters >= min && s.sizeMeters <= max);
   }, [a, b, sizedSorted]);
 
+  const options = sizedSorted.map((s) => ({
+    id: s.id,
+    name: t(`${s.i18nKey}.name`),
+    detail: formatMeters(s.sizeMeters, t, units),
+    image: s.image.src,
+  }));
+
   return (
     <main className="mx-auto w-full max-w-3xl px-5 pb-24 pt-10 sm:px-8">
       <header className="mb-6 max-w-2xl">
@@ -55,40 +61,18 @@ export function BetweenFinder() {
 
       <section className="rounded-3xl border border-white/10 bg-white/[0.03] p-5 sm:p-6">
         <div className="grid gap-4 sm:grid-cols-2">
-          <label htmlFor={aId} className="block">
-            <span className="block text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
-              {t("common.betweenTool.from")}
-            </span>
-            <select
-              id={aId}
-              value={a}
-              onChange={(e) => setA(e.target.value)}
-              className="mt-2 w-full rounded-2xl border border-white/10 bg-cosmos-deep/70 px-3 py-2.5 text-sm text-cosmos-star focus:border-cosmos-aurora/60 focus:outline-none"
-            >
-              {sizedSorted.map((s) => (
-                <option key={s.id} value={s.id}>
-                  {t(`${s.i18nKey}.name`)} — {formatMeters(s.sizeMeters, t, units)}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label htmlFor={bId} className="block">
-            <span className="block text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
-              {t("common.betweenTool.to")}
-            </span>
-            <select
-              id={bId}
-              value={b}
-              onChange={(e) => setB(e.target.value)}
-              className="mt-2 w-full rounded-2xl border border-white/10 bg-cosmos-deep/70 px-3 py-2.5 text-sm text-cosmos-star focus:border-cosmos-aurora/60 focus:outline-none"
-            >
-              {sizedSorted.map((s) => (
-                <option key={s.id} value={s.id}>
-                  {t(`${s.i18nKey}.name`)} — {formatMeters(s.sizeMeters, t, units)}
-                </option>
-              ))}
-            </select>
-          </label>
+          <StopCombobox
+            label={t("common.betweenTool.from")}
+            options={options}
+            value={a}
+            onChange={setA}
+          />
+          <StopCombobox
+            label={t("common.betweenTool.to")}
+            options={options}
+            value={b}
+            onChange={setB}
+          />
         </div>
 
         <p className="mt-5 text-[11px] uppercase tracking-[0.18em] text-cosmos-star/55">

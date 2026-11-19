@@ -18,6 +18,9 @@ interface PageProps {
   params: Promise<{ locale: string; slug: string }>;
 }
 
+/** Only the generated pages exist; anything else is a real 404. */
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   const out: Array<{ locale: string; slug: string }> = [];
   for (const locale of LOCALES) {

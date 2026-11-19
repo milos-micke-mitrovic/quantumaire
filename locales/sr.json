@@ -246,7 +246,8 @@
       "related": "Povezano"
     },
     "navBigger": "{factor}× veće",
-    "navSmaller": "{factor}× manje"
+    "navSmaller": "{factor}× manje",
+    "comboSearch": "Kucaj za pretragu…"
   },
   "home": {
     "faq": {
@@ -1963,6 +1964,88 @@
       "londonParis": "London → Pariz",
       "nyLa": "Njujork → Los Anđeles",
       "aroundEarth": "jedan krug oko Zemlje"
+    }
+  },
+  "tagPages": {
+    "eyebrow": "Kolekcija",
+    "more": "Još kolekcija",
+    "planet": {
+      "short": "Planete",
+      "title": "Planete, poređene po veličini",
+      "seoTitle": "Poređenje veličina planeta: svih 8 planeta, od najmanje do najveće",
+      "intro": "Svih osam planeta Sunčevog sistema jedna pored druge, od malog Merkura do Jupitera, u koji bi stalo više od hiljadu Zemalja. Otvori bilo koju planetu za veličinu, udaljenost, temperaturu i činjenice koje je čine neobičnom."
+    },
+    "biology": {
+      "short": "Život",
+      "title": "Život, od DNK do plavog kita",
+      "seoTitle": "Koliki je život? Od DNK i virusa do plavog kita",
+      "intro": "Živa bića obuhvataju više od deset redova veličine — od spirale DNK široke dva nanometra, preko virusa, bakterija i ćelija, do tebe i najveće životinje koja je ikada živela."
+    },
+    "phenomenon": {
+      "short": "Fenomeni",
+      "title": "Fenomeni svemira",
+      "seoTitle": "Kosmički fenomeni objašnjeni: tamna materija, tamna energija, Veliki prasak",
+      "intro": "Ne objekti, već pojave i skriveni sastojci: tamna materija i tamna energija, Veliki prasak, gravitacioni talasi i kvantna spregnutost — svaki označen koliko je nauka zaista sigurna."
+    },
+    "star": {
+      "short": "Zvezde",
+      "title": "Zvezde, poređene po veličini",
+      "seoTitle": "Poređenje veličina zvezda: neutronske zvezde, Sunce, Proksima i UY Scuti",
+      "intro": "Od neutronske zvezde veličine grada do UY Scuti, hiperdžina koji bi, na mestu Sunca, dosezao iza Marsa — raspon zvezda je širi nego što većina ljudi zamišlja."
+    },
+    "gas-giant": {
+      "short": "Džinovske planete",
+      "title": "Džinovske planete",
+      "seoTitle": "Gasoviti i ledeni džinovi: Jupiter, Saturn, Uran i Neptun",
+      "intro": "Četiri spoljne planete — gasoviti džinovi Jupiter i Saturn, i Uran i Neptun, koje često zovu ledenim džinovima — sadrže više od 99% mase svih planeta zajedno."
+    },
+    "spacetime": {
+      "short": "Prostor-vreme",
+      "title": "Prostor-vreme: vreme, gravitacija i prečice",
+      "seoTitle": "Prostor-vreme objašnjeno: dilatacija vremena, gravitacioni talasi, crvotočine",
+      "intro": "Ajnštajn je od prostora i vremena napravio jedno rastegljivo tkivo. Evo šta iz toga sledi — satovi koji se ne slažu, talasi koji prelaze svemir i spekulativnije ideje izgrađene na tome."
+    },
+    "particle": {
+      "short": "Čestice",
+      "title": "Subatomske čestice",
+      "seoTitle": "Subatomske čestice objašnjene: kvarkovi, protoni i Higsov bozon",
+      "intro": "Gradivni blokovi ispod atoma: kvarkovi koji grade protone i neutrone, sam proton, i Higsov bozon koji je potvrdio polje koje česticama daje masu."
+    },
+    "black-hole": {
+      "short": "Crne rupe",
+      "title": "Crne rupe, poređene po veličini",
+      "seoTitle": "Najveće crne rupe: Sagittarius A*, Phoenix-A i TON 618",
+      "intro": "Od Sagittarius A* u središtu naše galaksije do TON 618 i Phoenix-A, među najmasivnijim poznatim crnim rupama — svaki horizont događaja izmeren prema stvarima koje poznaješ."
+    },
+    "hypothetical": {
+      "short": "Hipotetičko",
+      "title": "Hipotetičke ideje",
+      "seoTitle": "Spekulativna fizika: crvotočine, multiverzum i teorija struna",
+      "intro": "Ideje koje matematika dozvoljava, ali koje nikada nisu uočene. Svaka je jasno označena kao spekulacija — fascinantne mogućnosti, ne otkrića."
+    },
+    "matter": {
+      "short": "Materija",
+      "title": "Materija i antimaterija",
+      "seoTitle": "Materija i antimaterija: atomi i njihovi blizanci u ogledalu",
+      "intro": "Atom, osnovna jedinica svakog hemijskog elementa, i antimaterija, njegova slika u ogledalu — kad se sretnu, nestaju u čistoj energiji, a zašto je svemir izabrao materiju i dalje je nerešeno."
+    },
+    "galaxy": {
+      "short": "Galaksije",
+      "title": "Galaksije, poređene",
+      "seoTitle": "Mlečni put i Andromeda: koliko su velike galaksije?",
+      "intro": "Naša galaksija, Mlečni put, i njen veliki sused Andromeda — dve spirale sa stotinama milijardi zvezda, na putu da se spoje za nekoliko milijardi godina."
+    },
+    "unit": {
+      "short": "Jedinice",
+      "title": "Jedinice dužine na krajnostima",
+      "seoTitle": "Plankova dužina i svetlosna godina: krajnosti merenja dužine",
+      "intro": "Dve jedinice na suprotnim krajevima skale: Plankova dužina, gde fizika kakvu znamo prestaje da važi, i svetlosna godina, put koji svetlost pređe za godinu dana."
+    },
+    "animal": {
+      "short": "Životinje",
+      "title": "Životinje na krajnostima veličine",
+      "seoTitle": "Tardigrad i plavi kit: najizdržljivija mala i najveća životinja ikada",
+      "intro": "Vodeni medved od pola milimetra koji može da preživi vakuum svemira, i plavi kit, najteža poznata životinja — život na oba kraja raspona veličina."
     }
   }
 }
