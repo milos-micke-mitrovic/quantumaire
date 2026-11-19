@@ -7,8 +7,8 @@ import { ComparePairLinks } from "@/components/ComparePairLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 import { COMPARE_PAIRS, getPair, pairSlug } from "@/lib/comparePairs";
+import { describePair } from "@/lib/comparePairText";
 import { tServer } from "@/lib/i18n-server";
-import { formatMeters, formatTemperature } from "@/lib/scale";
 import {
   breadcrumbJsonLd,
   buildPageMetadata,
@@ -16,7 +16,6 @@ import {
   LOCALES,
   SITE_URL,
 } from "@/lib/seo";
-import { capFirst, formatRatio, subjectName } from "@/lib/sizeFaq";
 import type { Locale, Stop } from "@/lib/types";
 
 export const dynamicParams = false;
@@ -29,68 +28,6 @@ export function generateStaticParams() {
 
 interface PageProps {
   params: Promise<{ locale: string; pair: string }>;
-}
-
-/** All the server-side sentences for one pair, in one locale. */
-function describePair(locale: Locale, a: Stop, b: Stop) {
-  const tm = (key: string) => tServer(locale, key);
-  const name = (s: Stop) => tServer(locale, `${s.i18nKey}.name`);
-  // Titles use the bare names ("Burj Khalifa vs Eiffel Tower"); sentences
-  // use the article-bearing subject ("the Eiffel Tower", "a blue whale").
-  const aName = subjectName(a, locale);
-  const bName = subjectName(b, locale);
-  const vars = { a: aName, b: bName };
-  const lines: string[] = [];
-  let big = aName;
-  let small = bName;
-  let ratio = "1";
-  if (a.sizeMeters && b.sizeMeters) {
-    const aBigger = a.sizeMeters >= b.sizeMeters;
-    big = aBigger ? aName : bName;
-    small = aBigger ? bName : aName;
-    ratio = formatRatio(
-      aBigger ? a.sizeMeters / b.sizeMeters : b.sizeMeters / a.sizeMeters,
-      locale
-    );
-    lines.push(
-      capFirst(tServer(locale, "common.comparePage.pairSize", {
-        ...vars,
-        big,
-        small,
-        ratio,
-        sizeA: formatMeters(a.sizeMeters, tm),
-        sizeB: formatMeters(b.sizeMeters, tm),
-      }))
-    );
-  }
-  const distA = a.id === "earth" ? null : a.distanceFromEarthMeters;
-  const distB = b.id === "earth" ? null : b.distanceFromEarthMeters;
-  if (distA && distB) {
-    lines.push(
-      tServer(locale, "common.comparePage.pairDistance", {
-        ...vars,
-        distA: formatMeters(distA, tm),
-        distB: formatMeters(distB, tm),
-      })
-    );
-  }
-  if (a.temperatureKelvin && b.temperatureKelvin) {
-    lines.push(
-      tServer(locale, "common.comparePage.pairTemp", {
-        ...vars,
-        tempA: formatTemperature(a.temperatureKelvin, tm),
-        tempB: formatTemperature(b.temperatureKelvin, tm),
-      })
-    );
-  }
-  return {
-    title: tServer(locale, "common.comparePage.pairTitle", { a: name(a), b: name(b) }),
-    description: capFirst(
-      tServer(locale, "common.comparePage.pairDescription", { big, small, ratio })
-    ),
-    faqQ: tServer(locale, "common.comparePage.pairFaqQ", { big, small }),
-    lines,
-  };
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {

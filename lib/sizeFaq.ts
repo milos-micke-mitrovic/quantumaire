@@ -3,9 +3,12 @@ import {
   formatLightTime,
   formatMeters,
   formatTemperature,
+  scaled,
   toGrainScale,
 } from "./scale";
-import { tServer, tServerOptional } from "./i18n-server";
+import { getDictionary, tServer, tServerOptional } from "./i18n-server";
+import { areRelated, sizeMeasure } from "./references";
+import { capFirst } from "./text";
 import type { Locale, Stop } from "./types";
 
 /**
@@ -35,6 +38,28 @@ export interface SizeFaqItem {
 /** Stops with a physical size, smallest first. */
 const SIZED: Stop[] = SIZED_STOPS;
 
+/** Neighbours closer than this are only named when they are related. */
+const NEAR_EQUAL = 1.15;
+/** Below this, Earth-as-a-grain-of-sand shrinks things to invisible specks. */
+const MIN_GRAIN_METERS = 1e-5;
+/** Below this, "Earth is 600,000 times wider than X" says nothing. */
+const MIN_EARTH_COMPARE_METERS = 1e3;
+
+/**
+ * The nearest topic below (`step = -1`) or above (`+1`) on the size scale,
+ * skipping near-equal neighbours of an unrelated kind.
+ */
+function neighbour(rank: number, step: -1 | 1): Stop | null {
+  const self = SIZED[rank];
+  for (let i = rank + step; i >= 0 && i < SIZED.length; i += step) {
+    const other = SIZED[i];
+    const ratio =
+      Math.max(other.sizeMeters!, self.sizeMeters!) / Math.min(other.sizeMeters!, self.sizeMeters!);
+    if (ratio >= NEAR_EQUAL || areRelated(self, other)) return other;
+  }
+  return null;
+}
+
 function numberFormat(locale: Locale): Intl.NumberFormat {
   return new Intl.NumberFormat(locale === "sr" ? "sr-Latn-RS" : "en-US", {
     maximumFractionDigits: 0,
@@ -52,15 +77,16 @@ export function formatRatio(ratio: number, locale: Locale): string {
   }
   if (ratio < 1e6) return nf.format(Number(ratio.toPrecision(2)));
   const scales: Array<[number, string]> = [
-    [1e12, tServer(locale, "common.numberTrillion")],
-    [1e9, tServer(locale, "common.numberBillion")],
-    [1e6, tServer(locale, "common.numberMillion")],
+    [1e12, "common.numberTrillion"],
+    [1e9, "common.numberBillion"],
+    [1e6, "common.numberMillion"],
   ];
   if (ratio < 1e15) {
-    for (const [base, word] of scales) {
+    for (const [base, key] of scales) {
       if (ratio >= base) {
+        // Two significant figures: "17 billion", "7.5 million".
         const m = Number((ratio / base).toPrecision(2));
-        return `${new Intl.NumberFormat(locale === "sr" ? "sr-Latn-RS" : "en-US", { maximumFractionDigits: 1 }).format(m)} ${word}`;
+        return scaled(m, key, (k) => tServer(locale, k), locale === "sr" ? "sr-Latn-RS" : "en-US");
       }
     }
   }
@@ -90,11 +116,10 @@ function scientific(meters: number, locale: Locale): string {
  */
 export function subjectName(stop: Stop, locale: Locale): string {
   const name = tServer(locale, `${stop.i18nKey}.name`);
-  // tServer falls back to English, so only English may use the subject map.
-  if (locale !== "en") return name;
-  const key = `sizeFaq.subjects.${stop.id}`;
-  const v = tServer(locale, key);
-  return v === key ? name : v;
+  // Read the locale's own map: tServer would fall back to English subjects.
+  const subjects = (getDictionary(locale).sizeFaq as { subjects?: Record<string, string> })
+    ?.subjects;
+  return subjects?.[stop.id] ?? name;
 }
 
 /** Mid-title casing: "an atom" → "an Atom", "the observable universe" → "the Observable Universe". */
@@ -105,10 +130,7 @@ export function titleCase(s: string): string {
   });
 }
 
-/** Uppercase the first letter, for sentence-initial subjects. */
-export function capFirst(s: string): string {
-  return s.charAt(0).toUpperCase() + s.slice(1);
-}
+export { capFirst } from "./text";
 
 /**
  * Page title for a topic: a hand-written `seoTitle` wins (ideas always have
@@ -145,9 +167,12 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
   if (size !== null) {
     const rank = SIZED.findIndex((s) => s.id === stop.id);
 
+    // "(≈ 8.4 × 10¹ m)" adds nothing to "83.8 m": powers of ten only for
+    // the very small and the very large.
+    const plain = size >= 1e-2 && size < 1e5;
     items.push({
       q: t("sizeFaq.q1", { name }),
-      a: t("sizeFaq.a1", {
+      a: t(plain ? "sizeFaq.a1plain" : "sizeFaq.a1", {
         name,
         size: formatMeters(size, tm),
         sci: scientific(size, locale),
@@ -159,9 +184,17 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
     if (stop.id !== "human") {
       const bigger = size > HUMAN_M;
       const ratio = bigger ? size / HUMAN_M : HUMAN_M / size;
+      const measure = sizeMeasure(stop);
+      const key = !bigger
+        ? "sizeFaq.a2smaller"
+        : measure === "height"
+          ? "sizeFaq.a2taller"
+          : measure === "depth"
+            ? "sizeFaq.a2deeper"
+            : "sizeFaq.a2bigger";
       items.push({
         q: t("sizeFaq.q2", { name }),
-        a: t(bigger ? "sizeFaq.a2bigger" : "sizeFaq.a2smaller", {
+        a: t(key, {
           name,
           ratio: formatRatio(ratio, locale),
         }),
@@ -169,14 +202,15 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
       });
     }
 
-    const smaller = rank > 0 ? SIZED[rank - 1] : null;
-    const larger = rank < SIZED.length - 1 ? SIZED[rank + 1] : null;
+    const smaller = neighbour(rank, -1);
+    const larger = neighbour(rank, 1);
     const parts: string[] = [];
     const links: SizeFaqLink[] = [];
     if (smaller) {
       const sName = t(`${smaller.i18nKey}.name`);
+      const tall = sizeMeasure(stop) === "height" && sizeMeasure(smaller) === "height";
       parts.push(
-        t("sizeFaq.a3smaller", {
+        t(tall ? "sizeFaq.a3smallerTall" : "sizeFaq.a3smaller", {
           other: subjectName(smaller, locale),
           otherSize: formatMeters(smaller.sizeMeters, tm),
           ratio: formatRatio(size / (smaller.sizeMeters as number), locale),
@@ -188,8 +222,9 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
     }
     if (larger) {
       const lName = t(`${larger.i18nKey}.name`);
+      const tall = sizeMeasure(stop) === "height" && sizeMeasure(larger) === "height";
       parts.push(
-        t("sizeFaq.a3larger", {
+        t(tall ? "sizeFaq.a3largerTall" : "sizeFaq.a3larger", {
           other: subjectName(larger, locale),
           otherSize: formatMeters(larger.sizeMeters, tm),
           ratio: formatRatio((larger.sizeMeters as number) / size, locale),
@@ -201,7 +236,7 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
     }
     items.push({ q: t("sizeFaq.q3", { name }), a: parts.join(" "), links });
 
-    if (size >= 1e3 && stop.id !== "earth") {
+    if (toGrainScale(size) >= MIN_GRAIN_METERS && stop.id !== "earth") {
       items.push({
         q: t("sizeFaq.q4", { name }),
         a: t("sizeFaq.a4", {
@@ -212,11 +247,19 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
     }
   }
 
-  if (size !== null && stop.id !== "earth" && size >= 1) {
+  if (size !== null && stop.id !== "earth" && size >= MIN_EARTH_COMPARE_METERS) {
     const bigger = size > EARTH_M;
+    const measure = sizeMeasure(stop);
+    const key = bigger
+      ? "sizeFaq.a8bigger"
+      : measure === "height"
+        ? "sizeFaq.a8tall"
+        : measure === "depth"
+          ? "sizeFaq.a8deep"
+          : "sizeFaq.a8smaller";
     items.push({
       q: t("sizeFaq.q8", { name }),
-      a: t(bigger ? "sizeFaq.a8bigger" : "sizeFaq.a8smaller", {
+      a: t(key, {
         ratio: formatRatio(bigger ? size / EARTH_M : EARTH_M / size, locale),
       }),
       links: [{ id: "earth", name: t("stops.earth.name") }],

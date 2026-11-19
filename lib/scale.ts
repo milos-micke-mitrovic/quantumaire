@@ -43,6 +43,31 @@ export function sig(n: number, locale = "en-US"): string {
   });
 }
 
+/**
+ * "93 billion" / "93 milijarde": a number plus its scale word, which in
+ * Serbian agrees with whole numbers (1 milijarda, 2–4 milijarde, 5+
+ * milijardi). Optional `<key>One` / `<key>Few` texts hold those forms.
+ */
+export function scaled(
+  n: number,
+  key: string,
+  tr: (key: string) => string,
+  loc: string
+): string {
+  const num = Number(n.toPrecision(3));
+  let word = tr(key);
+  if (Number.isInteger(num)) {
+    const d = num % 10;
+    const dd = num % 100;
+    const form = d === 1 && dd !== 11 ? "One" : d >= 2 && d <= 4 && (dd < 12 || dd > 14) ? "Few" : null;
+    if (form) {
+      const v = tr(`${key}${form}`);
+      if (v && v !== `${key}${form}`) word = v;
+    }
+  }
+  return `${sig(n, loc)} ${word}`;
+}
+
 /** BCP-47 tag for number formatting, taken from the active dictionary. */
 export function numberLocale(tr: (key: string) => string): string {
   const loc = tr("common.numberLocale");
@@ -86,10 +111,10 @@ export function formatMeters(
       return `${mi.toLocaleString(loc, { maximumFractionDigits: digits })} mi`;
     }
     if (abs < 1.609e12) {
-      return `${sig(meters / (1e6 * MILE_M), loc)} ${tr("common.numberMillion")} mi`;
+      return `${scaled(meters / (1e6 * MILE_M), "common.numberMillion", tr, loc)} mi`;
     }
     if (abs < 1e15) {
-      return `${sig(meters / (1e9 * MILE_M), loc)} ${tr("common.numberBillion")} mi`;
+      return `${scaled(meters / (1e9 * MILE_M), "common.numberBillion", tr, loc)} mi`;
     }
     // fall through to light-years
   } else {
@@ -100,10 +125,10 @@ export function formatMeters(
       return `${km.toLocaleString(loc, { maximumFractionDigits: digits })} km`;
     }
     if (abs < 1e12) {
-      return `${sig(meters / 1e9, loc)} ${tr("common.numberMillion")} km`;
+      return `${scaled(meters / 1e9, "common.numberMillion", tr, loc)} km`;
     }
     if (abs < 1e15) {
-      return `${sig(meters / 1e12, loc)} ${tr("common.numberBillion")} km`;
+      return `${scaled(meters / 1e12, "common.numberBillion", tr, loc)} km`;
     }
   }
 
@@ -111,15 +136,16 @@ export function formatMeters(
   const ly = meters / 9.4607304725808e15;
   if (Math.abs(ly) < 1e3) return `${sig(ly, loc)} ${tr("common.unitLightYear")}`;
   if (Math.abs(ly) < 1e6) {
-    return `${Math.round(ly).toLocaleString(loc)} ${tr("common.unitLightYear")}`;
+    // Four significant figures: "105,700 ly" stays, "26,002 ly" → "26,000 ly".
+    return `${Number(ly.toPrecision(4)).toLocaleString(loc)} ${tr("common.unitLightYear")}`;
   }
   if (Math.abs(ly) < 1e9) {
-    return `${sig(ly / 1e6, loc)} ${tr("common.numberMillion")} ${tr("common.unitLightYear")}`;
+    return `${scaled(ly / 1e6, "common.numberMillion", tr, loc)} ${tr("common.unitLightYear")}`;
   }
   if (Math.abs(ly) < 1e12) {
-    return `${sig(ly / 1e9, loc)} ${tr("common.numberBillion")} ${tr("common.unitLightYear")}`;
+    return `${scaled(ly / 1e9, "common.numberBillion", tr, loc)} ${tr("common.unitLightYear")}`;
   }
-  return `${sig(ly / 1e12, loc)} ${tr("common.numberTrillion")} ${tr("common.unitLightYear")}`;
+  return `${scaled(ly / 1e12, "common.numberTrillion", tr, loc)} ${tr("common.unitLightYear")}`;
 }
 
 const SPEED_OF_LIGHT = 299_792_458;
@@ -203,12 +229,12 @@ export function formatTemperature(
   // Millions of K — express in "million K", °C identical at this scale.
   if (k < 1e9) {
     const mK = k / 1e6;
-    return `${sig(mK, loc)} ${tr("common.numberMillion")} K (${tr("common.tempSameInC")})`;
+    return `${scaled(mK, "common.numberMillion", tr, loc)} K (${tr("common.tempSameInC")})`;
   }
 
   // Billions and beyond.
   const bK = k / 1e9;
-  return `${sig(bK, loc)} ${tr("common.numberBillion")} K (${tr("common.tempSameInC")})`;
+  return `${scaled(bK, "common.numberBillion", tr, loc)} K (${tr("common.tempSameInC")})`;
 }
 
 /**
@@ -235,9 +261,9 @@ function formatTemperatureIn(
     return `${(Math.round(value / 100) * 100).toLocaleString(loc)} ${symbol}`;
   }
   if (abs < 1e9) {
-    return `${sig(value / 1e6, loc)} ${tr("common.numberMillion")} ${symbol}`;
+    return `${scaled(value / 1e6, "common.numberMillion", tr, loc)} ${symbol}`;
   }
-  return `${sig(value / 1e9, loc)} ${tr("common.numberBillion")} ${symbol}`;
+  return `${scaled(value / 1e9, "common.numberBillion", tr, loc)} ${symbol}`;
 }
 
 const DEFAULT_METERS_LABELS: Record<string, string> = {

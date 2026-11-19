@@ -1,4 +1,4 @@
-import { numberLocale, sig } from "./scale";
+import { numberLocale, scaled, sig } from "./scale";
 /**
  * Scale-adaptive reference objects.
  *
@@ -235,10 +235,10 @@ export function formatFactor(
     return `${sig(factor / 1e12, loc)} ${tr("common.numberTrillion")}`;
   }
   if (factor >= 1e9) {
-    return `${sig(factor / 1e9, loc)} ${tr("common.numberBillion")}`;
+    return scaled(factor / 1e9, "common.numberBillion", tr, loc);
   }
   if (factor >= 1e6) {
-    return `${sig(factor / 1e6, loc)} ${tr("common.numberMillion")}`;
+    return scaled(factor / 1e6, "common.numberMillion", tr, loc);
   }
   if (factor >= 1000) return Math.round(factor).toLocaleString(loc);
   if (factor >= 100) return fixed(factor, 0);
@@ -274,4 +274,42 @@ const DEFAULT_LABELS: Record<string, string> = {
 
 function defaultTranslator(key: string): string {
   return DEFAULT_LABELS[key] ?? key;
+}
+
+/**
+ * What a topic's size measures. Most sizes are a diameter or length
+ * ("bigger"), but for towers, trees, mountains and people it is a height
+ * ("taller") and for the Mariana Trench a depth ("deeper") — generated
+ * sentences pick their verb from this.
+ */
+export type SizeMeasure = "height" | "depth" | "size";
+const HEIGHT_STOP_IDS = new Set([
+  "human",
+  "general_sherman",
+  "pyramid",
+  "statue_of_liberty",
+  "eiffel_tower",
+  "burj_khalifa",
+  "mount_everest",
+]);
+const DEPTH_STOP_IDS = new Set(["mariana_trench"]);
+
+export function sizeMeasure(stop: { id: string }): SizeMeasure {
+  if (HEIGHT_STOP_IDS.has(stop.id)) return "height";
+  if (DEPTH_STOP_IDS.has(stop.id)) return "depth";
+  return "size";
+}
+
+/**
+ * Whether two topics are worth comparing side by side when their sizes are
+ * nearly equal: same kind of thing (a shared tag) or both heights/depths
+ * (the tallest mountain vs the deepest trench). "Halley's Comet is 1.01×
+ * bigger than the Mariana Trench" is true but tells nobody anything.
+ */
+export function areRelated(
+  a: { id: string; tags?: string[] },
+  b: { id: string; tags?: string[] }
+): boolean {
+  if ((a.tags ?? []).some((t) => (b.tags ?? []).includes(t))) return true;
+  return sizeMeasure(a) !== "size" && sizeMeasure(b) !== "size";
 }

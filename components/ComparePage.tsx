@@ -10,6 +10,7 @@ import { STOPS, getStop } from "@/lib/content";
 import { formatMeters, formatTemperature } from "@/lib/scale";
 import { useTempUnit, useUnits } from "@/lib/units";
 import { formatFactor } from "@/lib/references";
+import { capFirst } from "@/lib/text";
 import type { Stop } from "@/lib/types";
 import { Badge } from "./Badge";
 import { ImagePlaceholder } from "./ImagePlaceholder";
@@ -134,23 +135,21 @@ function CompareCard({ stop, label, mode }: CompareCardProps) {
   );
 }
 
-const RATIO_LINE_KEYS: Record<
-  Mode,
-  { bigger: string; smaller: string; same: string }
-> = {
+/**
+ * Always phrased from the bigger / farther / hotter side: "Proxima Centauri
+ * is 2.7× farther", never "the Sun is 2.7× closer" or "3× smaller".
+ */
+const RATIO_LINE_KEYS: Record<Mode, { bigger: string; same: string }> = {
   size: {
     bigger: "common.comparePage.timesAsBig",
-    smaller: "common.comparePage.timesSmaller",
     same: "common.comparePage.same",
   },
   distance: {
     bigger: "common.comparePage.timesAsFar",
-    smaller: "common.comparePage.timesCloser",
     same: "common.comparePage.sameDistance",
   },
   temperature: {
     bigger: "common.comparePage.timesHotter",
-    smaller: "common.comparePage.timesColder",
     same: "common.comparePage.sameTemperature",
   },
 };
@@ -224,8 +223,14 @@ export function ComparePage({
   const aValue = valueOf(a, mode);
   const bValue = valueOf(b, mode);
 
-  const aName = t(`${a.i18nKey}.name`);
-  const bName = t(`${b.i18nKey}.name`);
+  // Mid-sentence subjects: "a blue whale", "the Sun" (sizeFaq.subjects).
+  const subject = (s: Stop) => {
+    const key = `sizeFaq.subjects.${s.id}`;
+    const v = t(key);
+    return v === key ? t(`${s.i18nKey}.name`) : v;
+  };
+  const aName = subject(a);
+  const bName = subject(b);
 
   const ratioKeys = RATIO_LINE_KEYS[mode];
   let ratioLine: string;
@@ -236,22 +241,18 @@ export function ComparePage({
   } else {
     const ratio = bValue / aValue;
     if (Math.abs(ratio - 1) < 0.001) {
-      ratioLine = t(ratioKeys.same, { a: aName, b: bName });
+      ratioLine = capFirst(t(ratioKeys.same, { a: aName, b: bName }));
       ratioBig = "1×";
-    } else if (ratio >= 1) {
-      ratioBig = `${formatFactor(ratio, t)}×`;
-      ratioLine = t(ratioKeys.bigger, {
-        a: aName,
-        b: bName,
-        factor: formatFactor(ratio, t),
-      });
     } else {
-      ratioBig = `${formatFactor(1 / ratio, t)}×`;
-      ratioLine = t(ratioKeys.smaller, {
-        a: aName,
-        b: bName,
-        factor: formatFactor(1 / ratio, t),
-      });
+      const factor = formatFactor(ratio >= 1 ? ratio : 1 / ratio, t);
+      ratioBig = `${factor}×`;
+      ratioLine = capFirst(
+        t(ratioKeys.bigger, {
+          a: ratio >= 1 ? aName : bName,
+          b: ratio >= 1 ? bName : aName,
+          factor,
+        })
+      );
     }
   }
 

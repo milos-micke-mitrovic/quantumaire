@@ -161,6 +161,8 @@ export function baseClientPaths(locale: Locale): string[] {
     "stops.*.distanceName",
     "stops.*.insideNote",
     "stops.*.temperatureNote",
+    // Mid-sentence names ("a blue whale", "atom") for the compare tool.
+    "sizeFaq.subjects",
     "topics.*.title",
     "topics.*.tagline",
     "glossary.*.term",
