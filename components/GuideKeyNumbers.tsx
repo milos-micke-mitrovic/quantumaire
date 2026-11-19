@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n";
 import { getStop } from "@/lib/content";
+import { sizeLabelKey } from "@/lib/references";
 import { formatLightTime, formatMeters, formatTemperature } from "@/lib/scale";
 import type { KeyNumber, Topic } from "@/lib/topics";
 import { useTempUnit, useUnits } from "@/lib/units";
@@ -68,7 +69,7 @@ export function GuideKeyNumbers({ topic }: GuideKeyNumbersProps) {
             {name}
           </Link>
           <span className="mt-0.5 block text-[10px] uppercase tracking-[0.18em] text-cosmos-star/55">
-            {t(METRIC_LABEL[kn.value])}
+            {t(kn.value === "size" ? sizeLabelKey(stop) : METRIC_LABEL[kn.value])}
           </span>
         </th>
         <td className="py-3 text-right align-top font-mono text-sm text-cosmos-plasma sm:text-base">

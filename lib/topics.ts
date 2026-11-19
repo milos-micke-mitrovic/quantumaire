@@ -51,7 +51,7 @@ export const TOPICS: Topic[] = [
     tag: "star",
     i18nKey: "topics.stars",
     sectionCount: 5,
-    relatedStopIds: ["sun", "proxima_centauri", "uy_scuti", "neutron_star", "supermassive_black_hole"],
+    relatedStopIds: ["sun", "proxima_centauri", "sirius", "betelgeuse", "uy_scuti", "neutron_star", "supermassive_black_hole"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Star" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Stellar_classification" },
@@ -72,7 +72,7 @@ export const TOPICS: Topic[] = [
     slug: "planets",
     i18nKey: "topics.planets",
     sectionCount: 4,
-    relatedStopIds: ["earth", "jupiter", "solar_system"],
+    relatedStopIds: ["earth", "jupiter", "great_red_spot", "asteroid_belt", "solar_system"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Planet" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Exoplanet" },
@@ -217,7 +217,7 @@ export const TOPICS: Topic[] = [
     slug: "distances",
     i18nKey: "topics.distances",
     sectionCount: 4,
-    relatedStopIds: ["light_year", "moon", "sun", "voyager1", "proxima_centauri", "milky_way", "andromeda", "laniakea_supercluster", "observable_universe"],
+    relatedStopIds: ["light_year", "moon", "sun", "voyager1", "proxima_centauri", "sirius", "milky_way", "andromeda", "laniakea_supercluster", "observable_universe"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Cosmic_distance_ladder" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Proxima_Centauri" },
@@ -261,7 +261,7 @@ export const TOPICS: Topic[] = [
     tag: "planet",
     i18nKey: "topics.planetSizesCompared",
     sectionCount: 5,
-    relatedStopIds: ["mercury", "venus", "earth", "moon", "mars", "jupiter", "saturn", "uranus", "neptune", "pluto", "sun"],
+    relatedStopIds: ["mercury", "venus", "earth", "moon", "mars", "jupiter", "great_red_spot", "saturn", "uranus", "neptune", "pluto", "sun"],
     sources: [
       { label: "NASA", url: "https://nssdc.gsfc.nasa.gov/planetary/factsheet/" },
       { label: "NASA", url: "https://science.nasa.gov/solar-system/" },
@@ -282,7 +282,7 @@ export const TOPICS: Topic[] = [
     slug: "smallest-things-in-the-universe",
     i18nKey: "topics.smallestThingsInTheUniverse",
     sectionCount: 5,
-    relatedStopIds: ["quark", "proton", "atom", "dna", "virus", "bacterium", "cell", "human"],
+    relatedStopIds: ["quark", "proton", "atom", "water_molecule", "dna", "virus", "bacterium", "red_blood_cell", "cell", "pollen_grain", "human"],
     sources: [
       { label: "Physics Letters B (ZEUS, 2016)", url: "https://doi.org/10.1016/j.physletb.2016.04.007" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Planck_units" },
@@ -304,7 +304,7 @@ export const TOPICS: Topic[] = [
     slug: "largest-things-in-the-universe",
     i18nKey: "topics.largestThingsInTheUniverse",
     sectionCount: 6,
-    relatedStopIds: ["uy_scuti", "ton_618", "phoenix_a", "supermassive_black_hole", "milky_way", "galaxy_cluster", "laniakea_supercluster", "observable_universe"],
+    relatedStopIds: ["uy_scuti", "betelgeuse", "ton_618", "phoenix_a", "supermassive_black_hole", "milky_way", "galaxy_cluster", "laniakea_supercluster", "observable_universe"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/List_of_largest_stars" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/List_of_most_massive_black_holes" },
@@ -321,6 +321,50 @@ export const TOPICS: Topic[] = [
       { stopId: "observable_universe", value: "size" },
     ],
     accent: "text-cosmos-ember",
+  },
+  {
+    slug: "tallest-buildings-and-structures",
+    i18nKey: "topics.tallestStructures",
+    sectionCount: 4,
+    relatedStopIds: ["statue_of_liberty", "pyramid", "eiffel_tower", "burj_khalifa", "general_sherman", "giraffe", "mount_everest"],
+    sources: [
+      { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/History_of_the_world%27s_tallest_buildings" },
+      { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/List_of_tallest_buildings" },
+      { label: "CTBUH — Height criteria", url: "https://www.ctbuh.org/resource/height" },
+      { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Hyperion_%28tree%29" },
+      { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Jeddah_Tower" },
+    ],
+    heroStopId: "burj_khalifa",
+    keyNumbers: [
+      { stopId: "statue_of_liberty", value: "size" },
+      { stopId: "pyramid", value: "size" },
+      { text: 1 },
+      { stopId: "eiffel_tower", value: "size" },
+      { stopId: "burj_khalifa", value: "size" },
+      { stopId: "mount_everest", value: "size" },
+    ],
+    accent: "text-badge-fact",
+  },
+  {
+    slug: "human-body-by-size",
+    i18nKey: "topics.humanBodyBySize",
+    sectionCount: 4,
+    relatedStopIds: ["human", "cell", "red_blood_cell", "bacterium", "virus", "dna", "water_molecule", "atom"],
+    sources: [
+      { label: "Sender, Fuchs & Milo (PLOS Biology, 2016)", url: "https://doi.org/10.1371/journal.pbio.1002533" },
+      { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Human_body" },
+      { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Cell_%28biology%29" },
+    ],
+    heroStopId: "red_blood_cell",
+    keyNumbers: [
+      { stopId: "human", value: "size" },
+      { text: 1 },
+      { text: 2 },
+      { stopId: "red_blood_cell", value: "size" },
+      { text: 3 },
+      { stopId: "dna", value: "size" },
+    ],
+    accent: "text-cosmos-aurora",
   },
 ];
 

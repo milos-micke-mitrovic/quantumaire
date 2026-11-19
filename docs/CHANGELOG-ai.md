@@ -138,3 +138,11 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Water molecule (`water_molecule`, 0.28 nm, tag `matter` → matter collection retitled "Matter, antimatter and molecules"; water-drop photo by Davide Restivo, CC BY-SA 2.0; glossary `hydrogen_bond`), pollen grain (`pollen_grain`, typical 25 µm, real-scale card vs a hair; Dartmouth SEM, PD; glossary `sporopollenin`).
 - Familiar list: elephant + giraffe added; Sahara/Amazon/Grand Canyon/Titanic etc. not (people know the name, not the size). No new round topics (Sirius is round via the `star` tag); `temperatureNote` set for Sahara and Sirius.
 - Next: NEXT-PLAN block 3 (guides).
+
+## 2026-11-19 — guides (NEXT-PLAN block 3)
+- New topics linked from guides: Stars (+Sirius, Betelgeuse), Planets (+Great Red Spot, asteroid belt; text now mentions the Asteroid Belt), Planet sizes (+Great Red Spot), Distances (+Sirius), Smallest things (+water molecule, red blood cell, pollen grain; text mentions pollen and the water molecule), Largest things (+Betelgeuse).
+- New guide `/topics/tallest-buildings-and-structures` (hero Burj Khalifa): how the record climbed (Great Pyramid → Lincoln Cathedral → Eiffel → Chrysler → Empire State → Taipei 101 → Burj), CTBUH height rules and vanity height, wind/lift limits and Jeddah Tower, nature's tallest (giraffe, Hyperion, General Sherman, Everest, Mauna Kea). Key numbers incl. a hand-written Lincoln Cathedral row. Not tied to the `landmark` tag, so /tag/landmark stays.
+- New guide `/topics/human-body-by-size` (hero red blood cell): 1.7 m human, 30 trillion cells (84% red blood cells, Sender et al. 2016), DNA 2 nm wide / 2 m long, 38 trillion bacteria, viruses. Key numbers mix topic data and hand-written counts.
+- Size labels follow the measure: "Height" (Eiffel, Everest, giraffe), "Depth" (trench, Grand Canyon), "Length" (Amazon, Titanic, Great Wall) in the Numbers card and guide key numbers (`sizeLabelKey`).
+- Client bundle: collection intros/meta (`tagPages`) no longer ship on every page — base keeps `tagPages.*.short/title`, the tag page adds its intro via `I18nExtend` (base dictionary was over the 60 KB budget test after 17 new topics).
+- Next: NEXT-PLAN block 4 (Lighthouse/performance).

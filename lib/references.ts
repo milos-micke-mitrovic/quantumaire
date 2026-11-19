@@ -308,6 +308,12 @@ export function sizeMeasure(stop: { id: string }): SizeMeasure {
   return "size";
 }
 
+/** Label for a topic's size value: "Height" for the Eiffel Tower, "Depth" for the trench. */
+export function sizeLabelKey(stop: { id: string }): string {
+  const m = sizeMeasure(stop);
+  return m === "size" ? "common.size" : `common.${m}`;
+}
+
 /**
  * Whether two topics are worth comparing side by side when their sizes are
  * nearly equal: same kind of thing (a shared tag) or both heights/depths

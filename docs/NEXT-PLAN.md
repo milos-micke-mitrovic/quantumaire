@@ -40,9 +40,9 @@ dump: a temporary vitest that writes to the scratchpad) and reading them:
 
 ## 3. Guides
 
-- [ ] Link new topics from existing guides (Betelgeuse → stars, Oort cloud /
+- [x] Link new topics from existing guides (Betelgeuse → stars, Oort cloud /
       comets → solar system / largest things, landmarks → largest things).
-- [ ] New guide candidates: "Tallest buildings and structures", "The human body
+- [x] New guide candidates: "Tallest buildings and structures", "The human body
       by size" (cell, red blood cell, bacterium, virus, DNA, human).
 
 ## 4. Performance

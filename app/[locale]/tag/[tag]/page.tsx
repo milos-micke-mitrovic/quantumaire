@@ -3,7 +3,8 @@ import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/JsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 import { TagView } from "@/components/TagView";
-import { tServer, tServerOptional } from "@/lib/i18n-server";
+import { I18nExtend } from "@/lib/i18n";
+import { pickDictionary, tServer, tServerOptional } from "@/lib/i18n-server";
 import {
   absoluteUrl,
   breadcrumbJsonLd,
@@ -79,7 +80,9 @@ export default async function TagPage({ params }: PageProps) {
           ]),
         ]}
       />
-      <TagView tag={tag} stops={stops} />
+      <I18nExtend dictionary={pickDictionary(typed, [`tagPages.${tag}.intro`])}>
+        <TagView tag={tag} stops={stops} />
+      </I18nExtend>
       <SiteFooter locale={typed} />
     </>
   );

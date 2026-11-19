@@ -3,7 +3,7 @@
 import clsx from "clsx";
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n";
-import { formatFactor } from "@/lib/references";
+import { formatFactor, sizeLabelKey } from "@/lib/references";
 import {
   DISTANCE_REFERENCE_TO_STOP_ID,
   computeDistance,
@@ -68,7 +68,7 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
         {hasSize && (
           <div>
             <dt className="text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
-              {t("common.size")}
+              {t(sizeLabelKey(stop))}
             </dt>
             <dd className="mt-2 whitespace-nowrap font-mono text-base text-cosmos-plasma sm:text-lg">
               {formatMeters(stop.sizeMeters!, t, units)}

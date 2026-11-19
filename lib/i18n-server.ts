@@ -143,6 +143,7 @@ const PAGE_ONLY_SECTIONS = new Set([
   "sizeFaq",
   "seo",
   "faq",
+  "tagPages",
 ]);
 
 /**
@@ -163,6 +164,12 @@ export function baseClientPaths(locale: Locale): string[] {
     "stops.*.temperatureNote",
     // Mid-sentence names ("a blue whale", "atom") for the compare tool.
     "sizeFaq.subjects",
+    // Collection names for search and "more collections"; the intro is
+    // added by the tag page itself.
+    "tagPages.eyebrow",
+    "tagPages.more",
+    "tagPages.*.short",
+    "tagPages.*.title",
     "topics.*.title",
     "topics.*.tagline",
     "glossary.*.term",
