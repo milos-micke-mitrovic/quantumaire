@@ -27,11 +27,14 @@ export function StopCombobox({
   options,
   value,
   onChange,
+  showSelectedDetail = true,
 }: {
   label: string;
   options: ComboOption[];
   value: string;
   onChange: (id: string) => void;
+  /** Show the selected option's detail inside the closed field. */
+  showSelectedDetail?: boolean;
 }) {
   const { t } = useI18n();
   const id = useId();
@@ -133,11 +136,12 @@ export function StopCombobox({
           }}
           onKeyDown={onKeyDown}
           className={clsx(
-            "w-full rounded-2xl border border-white/10 bg-cosmos-night/40 py-3 pr-24 text-base text-cosmos-star placeholder:text-cosmos-star/40 focus:border-cosmos-aurora/60 focus:outline-none",
-            selected?.image && !open ? "pl-12" : "pl-4"
+            "w-full truncate rounded-2xl border border-white/10 bg-cosmos-night/40 py-3 text-base text-cosmos-star placeholder:text-cosmos-star/40 focus:border-cosmos-aurora/60 focus:outline-none",
+            selected?.image && !open ? "pl-12" : "pl-4",
+            showSelectedDetail ? "pr-24" : "pr-10"
           )}
         />
-        {!open && selected?.detail && (
+        {!open && showSelectedDetail && selected?.detail && (
           <span className="pointer-events-none absolute right-9 top-1/2 -translate-y-1/2 font-mono text-xs text-cosmos-star/50">
             {selected.detail}
           </span>

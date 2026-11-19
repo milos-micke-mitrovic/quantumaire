@@ -74,7 +74,7 @@
     },
     "tools": "Tools",
     "scaleTool": {
-      "title": "Scale calculator",
+      "title": "Distance converter",
       "tagline": "Type any length. See it shrunk down to our grain-of-sand reference, with the nearest Quantumaire topic alongside.",
       "intro": "Quantumaire's whole scale rests on one trick: shrink Earth to a single 0.5 mm grain of sand, then shrink everything else by the same factor. This page does that math for any length you type — a bacterium, a city, the distance to Jupiter, anything. The result tells you both the grain-scale equivalent and which topic on the site it sits closest to.",
       "inputLabel": "Length",
@@ -247,7 +247,102 @@
     },
     "navBigger": "{factor}× bigger",
     "navSmaller": "{factor}× smaller",
-    "comboSearch": "Type to search…"
+    "comboSearch": "Type to search…",
+    "converter": {
+      "title": "Space distance converter",
+      "tagline": "Convert any length between km, miles, astronomical units, light-years and parsecs — and see how long light takes to cross it and what it compares to.",
+      "amount": "Amount",
+      "unit": "Unit",
+      "allUnits": "The same length in every unit",
+      "lightTime": "Light-travel time",
+      "comparedTo": "Compared to",
+      "nextSmaller": "Next smaller topic",
+      "nextBigger": "Next bigger topic",
+      "timesBigger": "Your length is {factor}× bigger",
+      "timesSmaller": "{factor}× bigger than your length",
+      "enterValue": "Enter a positive number to convert.",
+      "presets": {
+        "au": "1 AU",
+        "ly": "1 light-year",
+        "pc": "1 parsec",
+        "moon": "Earth → Moon",
+        "proxima": "Earth → Proxima Centauri",
+        "marathon": "A marathon"
+      },
+      "units": {
+        "fm": {
+          "name": "femtometre",
+          "hint": "≈ a proton"
+        },
+        "nm": {
+          "name": "nanometre",
+          "hint": "billionth of a metre"
+        },
+        "um": {
+          "name": "micrometre",
+          "hint": "≈ a bacterium"
+        },
+        "mm": {
+          "name": "millimetre",
+          "hint": "grain of sand ≈ 0.5"
+        },
+        "cm": {
+          "name": "centimetre",
+          "hint": ""
+        },
+        "m": {
+          "name": "metre",
+          "hint": ""
+        },
+        "km": {
+          "name": "kilometre",
+          "hint": ""
+        },
+        "mi": {
+          "name": "mile",
+          "hint": "1.609 km"
+        },
+        "au": {
+          "name": "astronomical unit",
+          "hint": "Earth–Sun ≈ 150M km"
+        },
+        "ly": {
+          "name": "light-year",
+          "hint": "≈ 9.46 trillion km"
+        },
+        "pc": {
+          "name": "parsec",
+          "hint": "≈ 3.26 light-years"
+        },
+        "mpc": {
+          "name": "megaparsec",
+          "hint": "≈ 3.26 million ly"
+        }
+      },
+      "faqHeading": "Space distance units, explained",
+      "faq": [
+        {
+          "q": "What is an astronomical unit (AU)?",
+          "a": "An astronomical unit is the average distance between Earth and the Sun: exactly 149,597,870,700 metres, or about 150 million km. Astronomers use it for distances inside the Solar System — Jupiter, for example, orbits about 5.2 AU from the Sun."
+        },
+        {
+          "q": "How many kilometres are in a light-year?",
+          "a": "A light-year is the distance light travels in one Julian year: about 9.46 trillion km (9.4607 × 10¹² km), or roughly 63,000 AU. It is a unit of distance, not of time."
+        },
+        {
+          "q": "What is a parsec?",
+          "a": "A parsec is about 3.26 light-years (3.086 × 10¹³ km). It is the distance at which a star would appear to shift by one arcsecond as Earth moves half-way around its orbit — which is how astronomers first measured the distances to nearby stars."
+        },
+        {
+          "q": "What is a megaparsec (Mpc)?",
+          "a": "A megaparsec is a million parsecs, about 3.26 million light-years. It is the everyday unit for distances between galaxies; the Andromeda Galaxy is about 0.77 Mpc away."
+        },
+        {
+          "q": "How far away is the nearest star in these units?",
+          "a": "Proxima Centauri is about 4.24 light-years away — 1.30 parsecs, about 268,000 AU, or roughly 40 trillion km."
+        }
+      ]
+    }
   },
   "home": {
     "faq": {
@@ -1912,7 +2007,7 @@
   },
   "seo": {
     "home": "Scale of the Universe — Quarks to the Cosmos | Quantumaire",
-    "scaleTool": "Cosmic Scale Calculator: Shrink the Universe to Any Size",
+    "scaleTool": "Space Distance Converter: km, AU, Light-Years & Parsecs",
     "glossary": "Space & Physics Glossary — Plain-English Definitions",
     "category": "{category} — Sizes, Facts & Comparisons",
     "compareDescription": "Compare any two things in the universe — from a quark to the observable universe — by size, distance or temperature, and see exactly how many times bigger one is.",

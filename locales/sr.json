@@ -74,7 +74,7 @@
     },
     "tools": "Alati",
     "scaleTool": {
-      "title": "Kalkulator razmere",
+      "title": "Konvertor udaljenosti",
       "tagline": "Unesi bilo koju dužinu. Vidi je smanjenu na našu referencu — zrno peska — uz najbližu Quantumaire temu.",
       "intro": "Cela Quantumaire skala počiva na jednom triku: smanji Zemlju na jedno zrno peska od 0,5 mm, pa sve ostalo smanji istim faktorom. Ova strana radi taj račun za bilo koju dužinu koju ukucate — bakteriju, grad, udaljenost do Jupitera, bilo šta. Rezultat vam govori i ekvivalent u razmeri zrna peska i koja je tema na sajtu njoj najbliža.",
       "inputLabel": "Dužina",
@@ -247,7 +247,102 @@
     },
     "navBigger": "{factor}× veće",
     "navSmaller": "{factor}× manje",
-    "comboSearch": "Kucaj za pretragu…"
+    "comboSearch": "Kucaj za pretragu…",
+    "converter": {
+      "title": "Konvertor svemirskih udaljenosti",
+      "tagline": "Pretvori bilo koju dužinu između km, milja, astronomskih jedinica, svetlosnih godina i parseka — i vidi koliko svetlosti treba da je pređe i sa čim se može uporediti.",
+      "amount": "Iznos",
+      "unit": "Jedinica",
+      "allUnits": "Ista dužina u svim jedinicama",
+      "lightTime": "Vreme putovanja svetlosti",
+      "comparedTo": "U poređenju sa",
+      "nextSmaller": "Prva manja tema",
+      "nextBigger": "Prva veća tema",
+      "timesBigger": "Tvoja dužina je {factor}× veća",
+      "timesSmaller": "{factor}× veće od tvoje dužine",
+      "enterValue": "Unesi pozitivan broj za konverziju.",
+      "presets": {
+        "au": "1 AJ",
+        "ly": "1 svetlosna godina",
+        "pc": "1 parsek",
+        "moon": "Zemlja → Mesec",
+        "proxima": "Zemlja → Proksima Kentaur",
+        "marathon": "Maraton"
+      },
+      "units": {
+        "fm": {
+          "name": "femtometar",
+          "hint": "≈ proton"
+        },
+        "nm": {
+          "name": "nanometar",
+          "hint": "milijarditi deo metra"
+        },
+        "um": {
+          "name": "mikrometar",
+          "hint": "≈ bakterija"
+        },
+        "mm": {
+          "name": "milimetar",
+          "hint": "zrno peska ≈ 0,5"
+        },
+        "cm": {
+          "name": "centimetar",
+          "hint": ""
+        },
+        "m": {
+          "name": "metar",
+          "hint": ""
+        },
+        "km": {
+          "name": "kilometar",
+          "hint": ""
+        },
+        "mi": {
+          "name": "milja",
+          "hint": "1,609 km"
+        },
+        "au": {
+          "name": "astronomska jedinica",
+          "hint": "Zemlja–Sunce ≈ 150 mil. km"
+        },
+        "ly": {
+          "name": "svetlosna godina",
+          "hint": "≈ 9,46 biliona km"
+        },
+        "pc": {
+          "name": "parsek",
+          "hint": "≈ 3,26 svetlosnih godina"
+        },
+        "mpc": {
+          "name": "megaparsek",
+          "hint": "≈ 3,26 miliona sg"
+        }
+      },
+      "faqHeading": "Jedinice svemirskih udaljenosti, objašnjene",
+      "faq": [
+        {
+          "q": "Šta je astronomska jedinica (AJ)?",
+          "a": "Astronomska jedinica je prosečna udaljenost između Zemlje i Sunca: tačno 149.597.870.700 metara, ili oko 150 miliona km. Astronomi je koriste za udaljenosti unutar Sunčevog sistema — Jupiter, na primer, kruži oko 5,2 AJ od Sunca."
+        },
+        {
+          "q": "Koliko kilometara ima svetlosna godina?",
+          "a": "Svetlosna godina je put koji svetlost pređe za jednu julijansku godinu: oko 9,46 biliona km (9,4607 × 10¹² km), ili otprilike 63.000 AJ. To je jedinica udaljenosti, a ne vremena."
+        },
+        {
+          "q": "Šta je parsek?",
+          "a": "Parsek iznosi oko 3,26 svetlosnih godina (3,086 × 10¹³ km). To je udaljenost na kojoj bi se zvezda prividno pomerila za jednu lučnu sekundu dok Zemlja pređe pola svoje orbite — tako su astronomi prvi put izmerili udaljenosti do bliskih zvezda."
+        },
+        {
+          "q": "Šta je megaparsek (Mpc)?",
+          "a": "Megaparsek je milion parseka, oko 3,26 miliona svetlosnih godina. To je uobičajena jedinica za udaljenosti između galaksija; galaksija Andromeda je udaljena oko 0,77 Mpc."
+        },
+        {
+          "q": "Koliko je daleko najbliža zvezda u ovim jedinicama?",
+          "a": "Proksima Kentaur je udaljena oko 4,24 svetlosne godine — 1,30 parseka, oko 268.000 AJ, ili otprilike 40 biliona km."
+        }
+      ]
+    }
   },
   "home": {
     "faq": {
@@ -1872,7 +1967,7 @@
   },
   "seo": {
     "home": "Razmere svemira — od kvarka do kosmosa | Quantumaire",
-    "scaleTool": "Kalkulator kosmičkih razmera",
+    "scaleTool": "Konvertor svemirskih udaljenosti: km, AJ, svetlosne godine i parseci",
     "glossary": "Rečnik svemira i fizike",
     "category": "{category} — veličine, činjenice i poređenja",
     "compareDescription": "Uporedite bilo koje dve stvari — od kvarka do vidljivog svemira — po veličini, udaljenosti ili temperaturi i odmah vidite koliko puta je jedna veća od druge.",

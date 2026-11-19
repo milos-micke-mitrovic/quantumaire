@@ -25,13 +25,13 @@ export default function NotFound() {
           href="/en"
           className="inline-flex items-center gap-2 rounded-full bg-aurora-gradient px-5 py-2.5 text-sm font-medium text-cosmos-void shadow-glow"
         >
-          Return to the journey
+          Back to the home page
         </Link>
         <Link
           href="/sr"
           className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-5 py-2.5 text-sm font-medium text-cosmos-star/85 hover:text-cosmos-star"
         >
-          Nazad na putovanje
+          Nazad na početnu
         </Link>
       </div>
     </main>
