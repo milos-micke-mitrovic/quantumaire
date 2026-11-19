@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
+import { localizeCredit } from "@/lib/text";
 import type { ImagePlaceholder as ImagePlaceholderType } from "@/lib/types";
 import { ImagePlaceholder } from "./ImagePlaceholder";
 import { lockBodyScroll } from "@/lib/scrollLock";
@@ -23,7 +24,8 @@ export function LightboxImage({
   priority,
   className,
 }: LightboxImageProps) {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
+  const credit = image.credit ? localizeCredit(image.credit, locale) : "";
   const [open, setOpen] = useState(false);
   const close = useCallback(() => setOpen(false), []);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -80,7 +82,7 @@ export function LightboxImage({
       </button>
       {image.credit && (
         <p className="mt-1.5 text-[10px] leading-snug text-cosmos-star/55">
-          {image.credit}
+          {credit}
         </p>
       )}
 
@@ -132,7 +134,7 @@ export function LightboxImage({
               </p>
               {image.credit && (
                 <p className="mt-1 text-center text-[10px] text-cosmos-star/55">
-                  {image.credit}
+                  {credit}
                 </p>
               )}
             </motion.div>

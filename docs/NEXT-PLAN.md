@@ -1,9 +1,50 @@
-# Next plan (after the 2026-11-19 audit)
+# Next plan (round 3, written 2026-11-19)
 
-The audit plan (`docs/AUDIT-PLAN.md`) is done except two blocked items: daily
-GSC indexing (`gsc-indexing` skill, ~10 URLs/day) and the 404 SSR body (waits
-for a Next upgrade). This is the follow-up list. Work top to bottom, tick boxes,
-commit + deploy each block, test desktop + mobile, log in `docs/CHANGELOG-ai.md`.
+Round 2 (generated-text audit, 17 new topics, 2 guides, performance) is done —
+see "Done: round 2" below. Still blocked: daily GSC indexing (`gsc-indexing`
+skill, ~10 URLs/day), the 404 SSR body (Next upgrade) and the Search Console
+CTR pass (needs data). Work top to bottom, tick boxes, commit + deploy each
+block, test desktop + mobile, log in `docs/CHANGELOG-ai.md`.
+
+## 1. Review today's 17 topics + 2 guides (quality before quantity)
+
+They skipped the facts/Serbian audits the older topics went through.
+
+- [x] Facts: every number in name/body/facts/funFact/keyNumbers vs sources.json
+      (EN), mark/fix anything unsourced or out of date.
+- [x] Serbian: grammar, terminology table from docs/audit/serbian.md, „…“
+      quotes, decimal comma, vi-forms, count phrases.
+- [x] Desktop + mobile walkthrough of a few new pages (topic, guide, tag,
+      compare pair, home shelves) in both locales; fix layout issues.
+
+## 2. Fill the empty stretches of the size scale
+
+Sorted by size, the biggest gaps a layperson would notice are 0.5 mm → 1.7 m
+(tardigrade → human: nothing insect- or pet-sized), 57 km → 2,400 km (Gaia BH1
+→ Pluto) and 3 ly → 100,000 ly (Oort cloud → Milky Way). The Nebulae guide has
+no nebula topic and the Moons guide has only the Moon.
+
+- [ ] Life & Earth: ant, honeybee (familiar small-animal sizes)
+- [ ] Cosmos, mid-size: Ceres, Olympus Mons (vs Everest), Titan, Europa
+- [ ] Cosmos, large: Orion Nebula, Crab Nebula, Large Magellanic Cloud
+- [ ] Wire them into guides (nebulae, moons, planets, supernova, smallest/
+      largest), collections, familiar/round lists; dump and read the new FAQ
+      answers, analogies, real-scale cards.
+
+## 3. More compare pairs (people search "X vs Y")
+
+- [ ] Add pairs for topics added since the last batch where the comparison is
+      a real search and reads well (e.g. sirius-vs-sun, great-red-spot-vs-earth,
+      titanic-vs-blue-whale?, olympus-mons-vs-mount-everest, titan-vs-moon,
+      ceres-vs-moon, …); dump every pair page in both locales and read it.
+
+## 4. Search Console data (blocked until enough pages are indexed)
+
+- [ ] Pages with impressions but low CTR → rewrite titles/descriptions.
+
+---
+
+# Done: round 2
 
 ## 1. Generated-text audit (owner keeps finding these — do this first)
 
@@ -60,6 +101,4 @@ dump: a temporary vitest that writes to the scratchpad) and reading them:
       (TBT ~225 → 40–80 ms). What's left is react-dom + Next runtime (~120 KiB gz)
       and simulated slow 4G; not worth chasing further for now.
 
-## 5. Search Console data (once enough pages are indexed)
-
-- [ ] Pages with impressions but low CTR → rewrite titles/descriptions.
+## 5. Search Console data — moved to round 3, block 4.

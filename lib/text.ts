@@ -7,3 +7,14 @@ export function normalize(s: string): string {
 export function capFirst(s: string): string {
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
+
+/**
+ * Image credits are stored in English ("Author — public domain",
+ * "… CC BY 4.0 (cropped)"); translate the generic words for Serbian pages.
+ */
+export function localizeCredit(credit: string, locale: string): string {
+  if (locale !== "sr") return credit;
+  return credit
+    .replace(/\bpublic domain\b/g, "javno vlasništvo")
+    .replace(/\(cropped\)/g, "(isečeno)");
+}

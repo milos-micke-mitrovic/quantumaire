@@ -3,6 +3,7 @@
 import clsx from "clsx";
 import Image from "next/image";
 import { useI18n } from "@/lib/i18n";
+import { localizeCredit } from "@/lib/text";
 import type { Stop } from "@/lib/types";
 
 interface GuideHeroProps {
@@ -15,7 +16,7 @@ interface GuideHeroProps {
  * blurred copy of themselves instead of being cropped to the banner.
  */
 export function GuideHero({ stop }: GuideHeroProps) {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const { image } = stop;
   const wide = image.aspect === "wide";
   const alt = t(image.altKey);
@@ -48,7 +49,7 @@ export function GuideHero({ stop }: GuideHeroProps) {
       </div>
       {image.credit && (
         <figcaption className="mt-2 text-right text-[11px] leading-snug text-cosmos-star/55">
-          {t("topicView.heroCredit", { credit: image.credit })}
+          {t("topicView.heroCredit", { credit: localizeCredit(image.credit, locale) })}
         </figcaption>
       )}
     </figure>

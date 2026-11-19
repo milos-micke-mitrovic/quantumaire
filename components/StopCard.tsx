@@ -1,5 +1,6 @@
 "use client";
 
+import { sizeLabelKey } from "@/lib/references";
 import clsx from "clsx";
 import Link from "next/link";
 import type { Stop } from "@/lib/types";
@@ -74,7 +75,7 @@ export function StopCard({ stop, index, sizes = GRID_SIZES, deferImage = false }
           <span className="flex flex-col items-end gap-1 text-right">
             {stop.sizeMeters !== null ? (
               <span className="inline-flex items-baseline gap-2">
-                <span className="text-cosmos-star/55">{t("common.size")}</span>
+                <span className="text-cosmos-star/55">{t(sizeLabelKey(stop))}</span>
                 <span className="text-cosmos-star/85">
                   <CardLength meters={stop.sizeMeters} />
                 </span>

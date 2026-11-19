@@ -314,6 +314,20 @@ export function sizeLabelKey(stop: { id: string }): string {
   return m === "size" ? "common.size" : `common.${m}`;
 }
 
+const REFERENCE_MEASURE: Record<string, SizeMeasure> = {
+  person: "height",
+  eiffelTower: "height",
+  everest: "height",
+  footballPitch: "length",
+  manhattan: "length",
+};
+
+/** Same as sizeLabelKey for an everyday reference: "Length" for a football pitch. */
+export function referenceLabelKey(ref: { id: string }): string {
+  const m = REFERENCE_MEASURE[ref.id] ?? "size";
+  return m === "size" ? "common.size" : `common.${m}`;
+}
+
 /**
  * Whether two topics are worth comparing side by side when their sizes are
  * nearly equal: same kind of thing (a shared tag) or both heights/depths

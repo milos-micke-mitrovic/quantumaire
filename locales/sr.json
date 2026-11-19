@@ -1024,7 +1024,7 @@
       "tagline": "Najveća planeta Sunčevog sistema — teža od svih ostalih zajedno.",
       "body": "Jupiter je gasoviti džin masivniji od svih ostalih planeta zajedno. Njegova atmosfera je burni okean vodonika i helijuma, obeležen pojasevima oluja i Velikom crvenom pegom — anticiklonom dovoljno velikim da proguta Zemlju i da još ostane prostora. Ima i više od 100 poznatih meseci; četiri od njih, Galilejevi sateliti, bili su prvi objekti za koje je dokazano da kruže oko nečeg drugog osim Zemlje.",
       "narrative": "Jupiter je toliko masivan da ne kruži direktno oko Sunca — njih dvoje dele zajedničko težište, zvano baricentar, koje leži taman izvan površine Sunca. To je jedina planeta u našem sistemu kod koje je to slučaj.",
-      "ifDistance": "Jupiter je od Sunca oko 5,2 puta dalji nego Zemlja. Stavite Sunce — u ovoj razmeri lopticu za golf — ispod jednog koša na košarkaškom terenu, i Zemlja bi kružila oko 4,6 metara dalje, a Jupiter bi bio blizu suprotnog kraja, oko 24 metra dalje.",
+      "ifDistance": "Jupiter je od Sunca oko 5,2 puta dalji nego Zemlja. Stavite Sunce — u ovoj razmeri lopticu za golf — ispod jednog koša na košarkaškom terenu, i Zemlja bi kružila oko 4,6 metra dalje, a Jupiter bi bio blizu suprotnog kraja, oko 24 metra dalje.",
       "massNarrative": "Jupiter sadrži 2,5 puta više mase od svih ostalih planeta Sunčevog sistema zajedno. Drhtaj koji izaziva u Suncu najjači je pojedinačni planetarni signal u našem sistemu — i jedan je od standardnih načina na koji astronomi pronalaze planete veličine Jupitera oko drugih zvezda.",
       "funFact": "Da je Jupiter bio oko 80 puta masivniji, fuzija vodonika bi se upalila u njegovom jezgru i postao bi mala zvezda. Živeli bismo u binarnom zvezdanom sistemu umesto u planetarnom.",
       "image": {
@@ -1317,7 +1317,7 @@
     "mount_everest": {
       "name": "Mont Everest",
       "tagline": "Najviša tačka iznad nivoa mora — ali ne i najviša planina, niti najbliža zvezdama.",
-      "body": "Mont Everest se uzdiže 8.848,86 metara iznad nivoa mora, prema zajedničkom kinesko-nepalskom merenju iz 2020. Postoji zato što se Indija već nekih 50 miliona godina zabija u Aziju, gužvajući koru u Himalaje — a Everest i dalje raste otprilike 2 mm godišnje. Mereno od podnožja do vrha, havajska Mauna Kea je viša, sa preko 10.000 m, od kojih je veći deo pod vodom. A pošto je Zemlja ispupčena na ekvatoru, vrh ekvadorskog Čimboraza nalazi se oko 2 km dalje od Zemljinog središta nego vrh Everesta.",
+      "body": "Mont Everest se uzdiže 8.848,86 metra iznad nivoa mora, prema zajedničkom kinesko-nepalskom merenju iz 2020. Postoji zato što se Indija već nekih 50 miliona godina zabija u Aziju, gužvajući koru u Himalaje — a Everest i dalje raste otprilike 2 mm godišnje. Mereno od podnožja do vrha, havajska Mauna Kea je viša, sa preko 10.000 m, od kojih je veći deo pod vodom. A pošto je Zemlja ispupčena na ekvatoru, vrh ekvadorskog Čimboraza nalazi se oko 2 km dalje od Zemljinog središta nego vrh Everesta.",
       "narrative": "Smanjite Zemlju na globus od 30 cm i Everest postaje ispupčenje visoko samo 0,2 mm — otprilike debljine dva lista papira.",
       "funFact": "Stena na samom krovu sveta je morski krečnjak, pun ostataka trilobita, morskih ljiljana i drugih morskih stvorenja koja su živela na dnu okeana pre oko 450 miliona godina.",
       "image": {
@@ -1640,8 +1640,8 @@
     "eiffel_tower": {
       "name": "Ajfelova kula",
       "seoTitle": "Koliko je visoka Ajfelova kula? 330 m gvožđa",
-      "tagline": "330 metara kovanog gvožđa, podignutih za dve godine kao privremena kapija sajma — i nikad srušenih.",
-      "body": "Ajfelova kula sagrađena je 1887–1889. kao ulazna kapija Svetske izložbe u Parizu, kojom je obeležena stogodišnjica Francuske revolucije. Projektovali su je Moris Kešlen i Emil Nugje, inženjeri firme Gustava Ajfela, a sklopljena je od 18.038 delova od kovanog gvožđa, spojenih sa 2,5 miliona zakivaka. Sa 330 metara, računajući antene, bila je daleko najviša građevina na svetu punu 41 godinu, sve dok je 1930. nije nadvisila zgrada Krajsler. Trebalo je da bude rastavljena 1909; spasla ju je upravo visina, zbog koje je bila savršen stub za novu tehnologiju — radio.",
+      "tagline": "330 metara kovanog gvožđa — podignuta za dve godine kao privremena kapija izložbe, i nikad srušena.",
+      "body": "Ajfelova kula sagrađena je 1887–1889. kao ulazna kapija Svetske izložbe u Parizu, kojom je obeležena stogodišnjica Francuske revolucije. Projektovali su je Moris Kešlen i Emil Nugje, inženjeri firme Gustava Ajfela, a sklopljena je od 18.038 delova od kovanog gvožđa, spojenih pomoću 2,5 miliona zakivaka. Sa 330 metara, računajući antene, bila je daleko najviša građevina na svetu punu 41 godinu, sve dok je 1930. nije nadvisila zgrada Krajsler. Trebalo je da bude rastavljena 1909; spasla ju je upravo visina, zbog koje je bila savršen antenski stub za novu tehnologiju — radio.",
       "narrative": "Postavite čoveka pored nje i kula je skoro 200 puta viša. A ipak je zapanjujuće laka za svoju veličinu: kad biste pretopili njenih 7.300 tona gvožđa, metal bi kvadratnu osnovu od 125 metara prekrio slojem debelim tek oko 6 cm.",
       "funFact": "Kula nikad ne stoji savršeno mirno. Tokom vrelog dana gvožđe na sunčanoj strani širi se više nego na strani u senci, pa se vrh nagne od sunca i do 18 cm — i ponovo se ispravi kad se uveče ohladi.",
       "image": {
@@ -1657,14 +1657,14 @@
         "fact7": "Vrelim danima vrh se pomera od sunca i do 18 cm.",
         "fact8": "5,9 miliona posetilaca u 2022. — najposećeniji spomenik sa ulaznicom na svetu."
       },
-      "metaDescription": "Ajfelova kula je visoka 330 m: 7.300 tona kovanog gvožđa i 2,5 miliona zakivaka, sagrađena za dve godine za 1889. Poređenje sa ljudima, piramidama i vrhovima."
+      "metaDescription": "Ajfelova kula je visoka 330 m: 7.300 tona kovanog gvožđa i 2,5 miliona zakivaka, sagrađena za dve godine, za izložbu 1889. Poređenje sa ljudima, piramidama i vrhovima."
     },
     "burj_khalifa": {
       "name": "Burdž Kalifa",
       "seoTitle": "Koliko je visok Burdž Kalifa? Neboder od 828 m",
       "tagline": "Najviša zgrada ikada sagrađena — 828 metara, toliko visoka da na vrhu sunce zalazi kasnije.",
-      "body": "Burdž Kalifa u Dubaiju, u Ujedinjenim Arapskim Emiratima, najviša je zgrada na svetu otkako je otvoren 4. januara 2010. Projektovao ga je biro Skidmore, Owings & Merrill; do vrha tornja visok je 828 m (829,8 m do vrha antene) i ima 163 sprata iznad zemlje. Osnova u obliku slova Y — tri krila oslonjena na centralno jezgro — drži ga stabilnim na pustinjskom vetru, a zgrada se dok raste 27 puta spiralno stepenasto sužava, kako vetar ne bi stvarao ritmične vrtloge koji je ljuljaju. Za gradnju je utrošeno oko 330.000 m³ betona i 55.000 tona čelične armature.",
-      "narrative": "Da biste dosegli vrh, 487 ljudi moralo bi da stane jedno drugom na glavu — ili dve i po Ajfelove kule jedna na drugu. Ipak, oko 243 m te visine otpada na toranj — bez njega bi zgrada bila visoka 585 m.",
+      "body": "Burdž Kalifa u Dubaiju, u Ujedinjenim Arapskim Emiratima, najviša je zgrada na svetu otkako je otvoren 4. januara 2010. Projektovao ga je biro Skidmore, Owings & Merrill; do vrha tornja visok je 828 m (829,8 m do vrha antene) i ima 163 sprata iznad zemlje. Osnova u obliku slova Y — tri krila oslonjena na centralno jezgro — drži ga stabilnim na pustinjskom vetru, a zgrada se, kako se penje uvis, 27 puta spiralno stepenasto sužava, kako vetar ne bi stvarao ritmične vrtloge koji je ljuljaju. Za gradnju je utrošeno oko 330.000 m³ betona i 55.000 tona čelične armature.",
+      "narrative": "Da biste dosegli vrh, 487 ljudi moralo bi da stane jedno drugom na glavu — ili dve i po Ajfelove kule jedna na drugu. Ipak, oko 244 m te visine otpada na toranj — bez njega bi zgrada bila visoka 585 m.",
       "funFact": "Zgrada je dovoljno visoka da produži zalazak sunca. Na gornjim spratovima sunce se vidi još nekoliko minuta pošto je zašlo na ulici — zato za vreme ramazana stanari iznad 80. sprata prekidaju post dva minuta kasnije, a oni iznad 150. sprata tri minuta kasnije.",
       "image": {
         "alt": "Srebrni, sve tanji toranj Burdž Kalife uzdiže se visoko iznad okolnih zgrada centra Dubaija, pod vedrim plavim nebom."
@@ -1674,7 +1674,7 @@
         "fact2": "163 sprata iznad zemlje — više od bilo koje druge zgrade.",
         "fact3": "Otvoren 4. januara 2010, posle šest godina gradnje.",
         "fact4": "Oko 330.000 m³ betona i 55.000 tona čelične armature.",
-        "fact5": "Sam toranj ima oko 243 m — viši je od Velike piramide.",
+        "fact5": "Sam toranj ima oko 244 m — viši je od Velike piramide.",
         "fact6": "Temelj: 192 šipa, svaki širok 1,5 m i dug 43 m.",
         "fact7": "57 liftova; 2.909 stepenika od prizemlja do 160. sprata.",
         "fact8": "Na najvišoj tački zgrada se njiše oko 1,5 m."
@@ -1685,7 +1685,7 @@
       "name": "Drvo General Šerman",
       "seoTitle": "Koliko je veliko drvo General Šerman? Najveće na Zemlji",
       "tagline": "Najveće živo drvo na Zemlji — 1.487 kubnih metara drveta, i dalje raste posle više od dve hiljade godina.",
-      "body": "General Šerman je džinovska sekvoja (Sequoiadendron giganteum) u Džinovskoj šumi Nacionalnog parka Sekvoja, u Kaliforniji. Nije najviše drvo — to je Hiperion, obalska sekvoja visoka oko 116 m — niti najšire, ali je po zapremini najveće poznato drvo sa jednim stablom: u njegovom deblu ima oko 1.487 m³ drveta. Visoko je 83,8 m, deblo mu je pri dnu široko 7,7 m, a staro je, prema procenama, 2.300–2.700 godina. Za tako dug život džinovske sekvoje delom mogu da zahvale vatri: sunđerasta kora, debela i do oko 90 cm, štiti živo drvo, a vrelina požara pomaže šišarkama da se otvore i rasprše seme po tek raščišćenom tlu.",
+      "body": "General Šerman je džinovska sekvoja (Sequoiadendron giganteum) u Džinovskoj šumi Nacionalnog parka Sekvoja, u Kaliforniji. Nije najviše drvo — to je Hiperion, obalska sekvoja visoka oko 116 m — niti najšire, ali je po zapremini najveće poznato drvo sa jednim deblom: u njegovom deblu ima oko 1.487 m³ drveta. Visoko je 83,8 m, deblo mu je u visini grudi široko 7,7 m (na samom dnu oko 11 m), a staro je, prema procenama, 2.300–2.700 godina. Za tako dug život džinovske sekvoje delom mogu da zahvale vatri: sunđerasta kora, debela i do oko 90 cm, štiti živo drvo, a vrelina požara pomaže šišarkama da se otvore i rasprše seme po tek raščišćenom tlu.",
       "narrative": "Samo deblo napunilo bi više od pola olimpijskog bazena. Da biste dostigli njegovu visinu, 49 ljudi moralo bi da stane jedno drugom na glavu — ili tri plava kita, najveće životinje ikada, jedan iznad drugog.",
       "funFact": "U januaru 2006. najveća grana drveta — debela preko 2 m i duga preko 30 m, veća od debla većine drveća — sama se odlomila i razbila ogradu i deo staze ispod. Niko nije video kako pada. Godine 2021, kad se približio šumski požar, vatrogasci su podnožje drveta obmotali zaštitnom folijom; prošlo je bez oštećenja.",
       "image": {
@@ -1694,11 +1694,11 @@
       "facts": {
         "fact1": "Visina: 83,8 m.",
         "fact2": "Zapremina debla: oko 1.487 m³ — najveća od svih poznatih stabala sa jednim deblom.",
-        "fact3": "Prečnik pri dnu: oko 7,7 m.",
+        "fact3": "Prečnik debla: 7,7 m u visini grudi, oko 11 m na samom dnu.",
         "fact4": "Procenjena starost: 2.300–2.700 godina.",
         "fact5": "Džinovska sekvoja — vrsta koja u divljini raste samo na zapadnim padinama kalifornijske Sijera Nevade.",
         "fact6": "Nije najviše drvo: Hiperion, obalska sekvoja, doseže oko 116 m.",
-        "fact7": "Ime je dobilo 1879, po generalu iz Američkog građanskog rata Vilijamu Tekamsi Šermanu.",
+        "fact7": "Ime je dobilo 1879, po generalu iz Američkog građanskog rata generalu Vilijamu T. Šermanu.",
         "fact8": "Najveća grana, debela preko 2 m i duga preko 30 m, odlomila se 2006."
       },
       "metaDescription": "General Šerman, džinovska sekvoja u Kaliforniji, najveće je živo drvo: 83,8 m visine, 1.487 m³ drveta i preko 2.000 godina starosti. Pogledajte poređenje."
@@ -1707,7 +1707,7 @@
       "name": "Betelgez",
       "seoTitle": "Koliki je Betelgez? Crveni superdžin u Orionu",
       "tagline": "Crveno rame Oriona — zvezda toliko naduvena da bi progutala orbitu Marsa, a jednog dana će eksplodirati.",
-      "body": "Betelgez je crvenkasta zvezda na ramenu Oriona, obično deseta po sjaju na noćnom nebu. To je crveni superdžin: rođen pre manje od 10 miliona godina, sa možda 15 do 20 Sunčevih masa, već je potrošio vodonik u jezgru i silno se naduo. Poluprečnik mu je oko 640–764 puta veći od Sunčevog — raspon dolazi uglavnom od toga što je udaljenost teško tačno izmeriti: negde između 400 i 600 svetlosnih godina (548 prema studiji iz 2020). Kad bi stajao na mestu Sunca, njegova površina bila bi iza asteroidnog pojasa i progutala bi orbite Merkura, Venere, Zemlje i Marsa.",
+      "body": "Betelgez je crvenkasta zvezda na ramenu Oriona, obično deseta po sjaju na noćnom nebu. To je crveni superdžin: rođen pre manje od 10 miliona godina, sa možda 15 do 20 Sunčevih masa, već je potrošio vodonik u jezgru i silno se naduo. Poluprečnik mu je oko 640–764 puta veći od Sunčevog — raspon potiče uglavnom od toga što je udaljenost teško tačno izmeriti: negde između 400 i 600 svetlosnih godina (548 prema studiji iz 2020). Kad bi stajao na mestu Sunca, njegova površina sezala bi do asteroidnog pojasa ili iza njega i progutala bi orbite Merkura, Venere, Zemlje i Marsa.",
       "narrative": "Kad bi Sunce bilo kliker od 1 cm, Betelgez bi bio lopta prečnika oko 7,6 m — šira nego što je visoka kuća na sprat.",
       "funFact": "Betelgez će završiti kao supernova, najverovatnije u narednih 100.000 godina. Tada će mesecima sijati otprilike kao Mesec u prvoj četvrti i videće se i danju — a sa oko 550 svetlosnih godina udaljenosti previše je daleko da bi nam naudio. Njegovo naglo bleđenje 2019–2020, „Veliko zatamnjenje“, nije bilo odbrojavanje: Habl je pokazao da je zvezda izbacila oblak gasa koji se ohladio u prašinu i zaklonio deo njene svetlosti.",
       "image": {
@@ -1716,8 +1716,8 @@
       "facts": {
         "fact1": "Poluprečnik: oko 640–764 Sunčeva — prečnik od oko milijardu kilometara.",
         "fact2": "Udaljenost: oko 400–600 svetlosnih godina; studija iz 2020. daje 548.",
-        "fact3": "Temperatura površine: oko 3.600 K — dovoljno hladno da sija narandžastocrveno.",
-        "fact4": "Masa: oko 10–20 Sunčevih; starost manja od 10 miliona godina.",
+        "fact3": "Temperatura površine: oko 3.600 K — dovoljno niska da zvezda sija narandžastocrveno.",
+        "fact4": "Masa: oko 15–20 Sunčevih; starost manja od 10 miliona godina.",
         "fact5": "Očekuje se da eksplodira kao supernova u narednih oko 100.000 godina.",
         "fact6": "Tokom Velikog zatamnjenja 2019–2020. izgubio je više od pola sjaja — promena vidljiva golim okom.",
         "fact7": "Verovatno ima malu zvezdu pratilju, Sivarhu, prvi put viđenu 2025.",
@@ -1730,14 +1730,14 @@
       "name": "Ortov oblak",
       "seoTitle": "Koliki je Ortov oblak? Granica Sunčevog sistema",
       "tagline": "Ogromna, nevidljiva ljuska ledenih tela oko Sunca — toliko daleka da se proteže dobar deo puta do sledeće zvezde.",
-      "body": "Ortov oblak je pretpostavljena ljuska ledenih planetezimala — preostalih gradivnih blokova planeta, koje su džinovske planete izbacile ka spolja — koja okružuje Sunce na udaljenosti od oko 2.000 do 100.000 astronomskih jedinica ili više: oko 1,6 svetlosnih godina, a prema nekim procenama i dvostruko dalje. Nijedan teleskop nikada nije video nijedan objekat u njemu; tela su premala, previše tamna i previše daleka. Na njegovo postojanje ukazuju dugoperiodične komete, koje padaju ka Suncu iz svih pravaca neba, a ne samo iz ravni planeta. Estonski astronom Ernst Epik predložio je takav rezervoar 1932, a holandski astronom Jan Ort detaljno je razradio tu ideju 1950.",
+      "body": "Ortov oblak je pretpostavljena ljuska ledenih planetezimala — preostalih gradivnih blokova planeta, koje su džinovske planete izbacile daleko od Sunca — koja okružuje Sunce na udaljenosti od oko 2.000 do 100.000 astronomskih jedinica ili više: oko 1,6 svetlosne godine, a prema nekim procenama i dvostruko dalje. Nijedan teleskop nikada nije video nijedan objekat u njemu; tela su premala, previše tamna i previše daleka. Na njegovo postojanje ukazuju dugoperiodične komete, koje padaju ka Suncu iz svih pravaca neba, a ne samo iz ravni planeta. Estonski astronom Ernst Epik predložio je takav rezervoar 1932, a holandski astronom Jan Ort detaljno je razradio tu ideju 1950.",
       "narrative": "Smanjite udaljenost Sunce–Zemlja na jedan metar i sve planete stanu u 30 metara oko Sunca, dok bi spoljna ivica Ortovog oblaka bila oko 100 km daleko. Voyager 1, najudaljenija letelica, ni do unutrašnje ivice neće stići još oko 300 godina — a da ga pređe, trebalo bi mu još oko 30.000.",
-      "funFact": "Oblak možda sadrži bilione ledenih tela većih od kilometra, a sva zajedno možda imaju masu od svega oko pet Zemalja. S vremena na vreme zvezda u prolazu ili privlačenje Mlečnog puta gurne neko od njih ka unutra, i ono vekovima kasnije može stići kao velika kometa — poput komete Maknot, na slici iz 2007.",
+      "funFact": "Oblak možda sadrži bilione ledenih tela većih od kilometra, a sva zajedno možda imaju masu od svega oko pet Zemalja. S vremena na vreme zvezda u prolazu ili privlačenje Mlečnog puta gurne jedno od njih ka unutrašnjosti Sunčevog sistema, i ono može stići — možda i milion godina kasnije — kao velika kometa — poput komete Maknot, na slici iz 2007.",
       "image": {
         "alt": "Široki, perjasti rep komete Maknot izvija se iznad kupola teleskopa opservatorije Paranal na noćnom nebu Čilea, januar 2007."
       },
       "facts": {
-        "fact1": "Pretpostavlja se da se proteže od oko 2.000 do 100.000 AJ ili više od Sunca — do 1,6 svetlosnih godina, možda i 3.",
+        "fact1": "Pretpostavlja se da se proteže od oko 2.000 do 100.000 AJ ili više od Sunca — do 1,6 svetlosne godine, možda i 3.",
         "fact2": "Nikad direktno posmatran: na njegovo postojanje ukazuju dugoperiodične komete.",
         "fact3": "Možda sadrži bilione ledenih tela većih od 1 km.",
         "fact4": "Ukupna masa možda oko pet Zemalja.",
@@ -1751,8 +1751,8 @@
     "red_blood_cell": {
       "name": "Crveno krvno zrnce",
       "seoTitle": "Koliko je veliko crveno krvno zrnce? Veličina i oblik",
-      "tagline": "Telesni kurir kiseonika — spljošten disk širok 7,5 mikrometara i najbrojnija ćelija koju imate.",
-      "body": "Crvena krvna zrnca (eritrociti) nose kiseonik iz pluća do svakog tkiva i vraćaju ugljen-dioksid. Kod čoveka je to savitljiv bikonkavan disk — debeo na obodu, tanak u sredini — prečnika oko 6,2–8,2 µm i debljine 2–2,5 µm. Da bi napravilo mesta za hemoglobin koji prenosi kiseonik, zrnce tokom sazrevanja izbacuje jedro, pa ne može ni da se deli ni da se popravlja; posle oko 100–120 dana u krvotoku razgrađuje se i reciklira. Odrasla osoba ima ih oko 20–30 biliona, otprilike 70% svih ćelija u telu po broju.",
+      "tagline": "Kurir koji raznosi kiseonik po telu — spljošten disk širok 7,5 mikrometra i najbrojnija ćelija koju imate.",
+      "body": "Crvena krvna zrnca (eritrociti) nose kiseonik iz pluća do svakog tkiva i vraćaju ugljen-dioksid. Kod čoveka je to savitljiv bikonkavan disk — debeo na obodu, tanak u sredini — prečnika oko 6,2–8,2 µm i debljine 2–2,5 µm. Da bi napravilo mesta za hemoglobin koji prenosi kiseonik, zrnce tokom sazrevanja izbacuje jedro, pa ne može ni da se deli ni da se popravlja; posle oko 100–120 dana u krvotoku razgrađuje se i reciklira. Odrasla osoba ima ih oko 20–30 biliona, više od 80% svih ćelija u telu po broju.",
       "narrative": "Poređajte 130 crvenih krvnih zrnaca i jedva će pokriti jedan milimetar. Ona iz vašeg tela, poređana jedno do drugog, obmotala bi Zemlju četiri do pet puta.",
       "funFact": "Crveno krvno zrnce šire je od najužih kapilara kroz koje mora da prođe, pa se savija u oblik metka ili cigare i provlači se u nizu, jedno za drugim. Ceo krug krvotoka obiđe za oko minut — a koštana srž ih nadoknađuje brzinom od oko 2,4 miliona novih u sekundi.",
       "image": {
@@ -1761,7 +1761,7 @@
       "facts": {
         "fact1": "Prečnik: oko 6,2–8,2 µm; debljina oko 2–2,5 µm na obodu i manje od 1 µm u sredini.",
         "fact2": "Svako sadrži oko 270 miliona molekula hemoglobina.",
-        "fact3": "Odrasla osoba ima oko 20–30 biliona — oko 70% svih ćelija u telu po broju.",
+        "fact3": "Odrasla osoba ima oko 20–30 biliona — više od 80% svih ćelija u telu po broju.",
         "fact4": "Životni vek u krvotoku: oko 100–120 dana.",
         "fact5": "Nema jedro: izbacuje ga tokom razvoja da bi napravilo mesta za hemoglobin.",
         "fact6": "U koštanoj srži nastaje oko 2,4 miliona novih crvenih krvnih zrnaca u sekundi.",
@@ -1775,7 +1775,7 @@
       "seoTitle": "Koliko je visok Kip slobode? 93 m do baklje",
       "tagline": "93 metra od tla do baklje — bakarna oplata tanka kao dva novčića, okačena na kostur koji je projektovao Gustav Ajfel.",
       "body": "Kip slobode — zvanično „Sloboda koja prosvetljuje svet“ — poklon je naroda Francuske Sjedinjenim Državama, svečano otkriven na ostrvu Liberti u njujorškoj luci 28. oktobra 1886. Lik je oblikovao vajar Frederik Ogist Bartoldi, a gvozdenu konstrukciju u unutrašnjosti projektovala je firma Gustava Ajfela, nekoliko godina pre nego što je u Parizu nikla njegova kula. Sam kip je visok 46 m od osnove do baklje; na granitnom postolju i betonskom temelju doseže 93 m iznad tla. Oplata mu je od kovanog bakra debelog samo 2,4 mm — u početku sjajno smeđa, do oko 1906. potpuno je pozelenela od zaštitne patine.",
-      "narrative": "Samo kažiprst mu je dug 2,44 m — više od vrata — a nos 1,37 m. Postavite ga pored Ajfelove kule i, zajedno sa postoljem, dosegao bi dobro iznad njenog prvog sprata, ali ne i do drugog.",
+      "narrative": "Samo kažiprst mu je dug 2,44 m — duži nego što su vrata visoka — a nos 1,37 m. Postavite ga pored Ajfelove kule i, zajedno sa postoljem, dosegao bi dobro iznad njenog prvog nivoa, ali ne i do drugog.",
       "funFact": "Bakarna oplata teška je oko 80 tona, a ipak je ceo kip napravljen da se savija: na jakom vetru može da se zaljulja do oko 7,5 cm, a baklja do 15 cm. Baklja koju danas vidite zamena je iz 1986, prekrivena listićima zlata od 24 karata; originalna je izložena u Muzeju Kipa slobode.",
       "image": {
         "alt": "Zeleni bakarni Kip slobode podiže baklju iznad kamenog postolja na ostrvu Liberti, pod oblačnim nebom."
@@ -1794,8 +1794,8 @@
     },
     "african_elephant": {
       "name": "Afrički slon",
-      "tagline": "Najveća životinja na kopnu — div od šest tona koji razgovara bruktanjem previše dubokim da bismo ga čuli.",
-      "body": "Afrički savanski slon je najveća živa kopnena životinja: odrastao mužjak je visok oko 3,2 metra u ramenima i težak oko 6 tona, a najveći zabeleženi dostigao je oko 4 metra i 10 tona. Surla je srasli nos i gornja usna sa desetinama hiljada mišićnih snopova — dovoljno snažna da obori granu, a dovoljno precizna da podigne jedan kikiriki. Slonovi se sporazumevaju niskim bruktanjem, delom infrazvukom, koji putuje kilometrima kroz vazduh i tlo. Krivolov zbog slonovače i nestajanje staništa naglo su smanjili njihov broj; vrsta se vodi kao ugrožena.",
+      "tagline": "Najveća životinja na kopnu — div od šest tona koji razgovara niskim brundanjem previše dubokim da bismo ga čuli.",
+      "body": "Afrički savanski slon je najveća živa kopnena životinja: odrastao mužjak je visok oko 3,2 metra u ramenima i težak oko 6 tona, a najveći zabeleženi dostigao je oko 4 metra i 10 tona. Surla je srasli nos i gornja usna sa desetinama hiljada mišićnih snopova — dovoljno snažna da obori granu, a dovoljno precizna da podigne jedan kikiriki. Slonovi se sporazumevaju niskim niskim brundanjem, delom infrazvukom, koji putuje kilometrima kroz vazduh i tlo. Krivolov zbog slonovače i nestajanje staništa naglo su smanjili njihov broj; vrsta se vodi kao ugrožena.",
       "narrative": "Veliki mužjak je samo do ramena skoro dvostruko viši od odraslog čoveka — a težak je kao oko 80 ljudi.",
       "massNarrative": "Mužjak od 6 tona težak je otprilike kao četiri porodična automobila, a dnevno pojede oko 150 kg biljaka.",
       "funFact": "Te ogromne uši su radijatori: krv teče kroz gustu mrežu sudova odmah ispod tanke kože, a mahanje njima po vrućini može da ohladi tu krv za nekoliko stepeni pre nego što se vrati u telo.",
@@ -1816,8 +1816,8 @@
     "giraffe": {
       "name": "Žirafa",
       "tagline": "Najviša živa životinja — vrat dug skoro dva metra, sastavljen od samo sedam kostiju.",
-      "body": "Žirafe su najviše žive životinje: mužjaci dostižu oko 5,5 metara, dovoljno da gledaju kroz prozor na drugom spratu, a ženke oko 4,3 m. Sam vrat može biti dug blizu 2 metra, a ipak ima istih sedam pršljenova kao i vaš — svaki je samo izdužen. Da bi krv stigla toliko visoko, potrebno je srce od oko 11 kg i krvni pritisak otprilike dvostruko veći nego kod čoveka; zategnuta koža na nogama radi kao pilotsko odelo pod pritiskom, pa se krv ne skuplja u stopalima. Žirafe žive u savanama i retkim šumama Afrike, gde zahvaljujući visini brste lišće akacije do kog nijedan drugi biljojed ne dopire.",
-      "narrative": "Visok mužjak je više od tri puta viši od vas — tri odrasla čoveka jedan drugom na ramenima tek bi ga pogledala u oči.",
+      "body": "Žirafe su najviše žive životinje: mužjaci dostižu oko 5,5 metra, dovoljno da gledaju kroz prozor na drugom spratu, a ženke oko 4,3 m. Sam vrat može biti dug blizu 2 metra, a ipak ima istih sedam pršljenova kao i vaš — svaki je samo izdužen. Da bi krv stigla toliko visoko, potrebno je srce od oko 11 kg i krvni pritisak otprilike dvostruko veći nego kod čoveka; zategnuta koža na nogama radi kao pilotsko odelo pod pritiskom, pa se krv ne skuplja u stopalima. Žirafe žive u savanama i retkim šumama Afrike, gde zahvaljujući visini brste lišće akacije do kog nijedan drugi biljojed ne dopire.",
+      "narrative": "Visok mužjak je više od tri puta viši od vas — kad bi tri odrasla čoveka stala jedan drugom na ramena, onaj na vrhu i dalje bi gledao naviše u njene oči.",
       "funFact": "Jezik žirafe dug je oko 45–50 cm i tamnoplavo-crn, verovatno da bi se zaštitio od opekotina tokom sati brstenja — i dovoljno je čvrst da se obavije oko trnovitih grana akacije.",
       "seoTitle": "Koliko je visoka žirafa? Najviša živa životinja",
       "metaDescription": "Mužjaci žirafe visoki su oko 5,5 m — najviše žive životinje — sa vratom od 2 m od samo sedam pršljenova. Visina u poređenju sa čovekom.",
@@ -1835,12 +1835,12 @@
     },
     "sahara": {
       "name": "Sahara",
-      "tagline": "Najveća topla pustinja na Zemlji — široka skoro kao Sjedinjene Države, a zelena pre samo 6.000 godina.",
-      "body": "Sahara pokriva oko 9,2 miliona km² severne Afrike, proteže se oko 4.800 km od Atlantika do Crvenog mora i zahvata jedanaest država. Samo oko četvrtine nje čine peščane dine; najveći deo su gole kamene visoravni i šljunkovite ravnice. Letnja popodneva redovno prelaze 40 °C, a suv vazduh pušta da noći padnu skoro do nule. Nije uvek bila pustinja: tokom afričkog vlažnog perioda, pre oko 11.000 do 5.000 godina, veći deo su pokrivali jezera, travnjaci i nilski konji, a crteži na stenama iz tog doba prikazuju stočare tamo gde je danas samo pesak.",
+      "tagline": "Najveća topla pustinja na Zemlji — velika skoro kao Sjedinjene Države, a zelena pre samo 6.000 godina.",
+      "body": "Sahara pokriva oko 9,2 miliona km² severne Afrike, proteže se oko 4.800 km od Atlantika do Crvenog mora i zahvata jedanaest država. Samo oko četvrtine nje čine peščane dine; najveći deo su gole kamene visoravni i šljunkovite ravnice. Letnja popodneva redovno prelaze 40 °C, a zbog suvog vazduha noću temperatura padne skoro do nule. Nije uvek bila pustinja: tokom afričkog vlažnog perioda, pre oko 11.000 do 5.000 godina, veći deo su pokrivali jezera, travnjaci i nilski konji, a crteži na stenama iz tog doba prikazuju stočare tamo gde je danas samo pesak.",
       "narrative": "Prebacite Saharu preko Evrope i protezala bi se od Lisabona do iza Moskve — Merkur, najmanja planeta, jedva je širi.",
       "funFact": "Pustinja hrani prašumu: vetrovi svake godine prenesu oko 28 miliona tona saharske prašine preko Atlantika do basena Amazona, a njen fosfor nadoknađuje ono što kiša ispere iz tla prašume.",
       "seoTitle": "Koliko je velika pustinja Sahara? Veličina u poređenju",
-      "metaDescription": "Sahara pokriva oko 9,2 miliona km² i proteže se oko 4.800 km kroz severnu Afriku — najveća topla pustinja na Zemlji. Koliko je velika, koliko vruća i nekad zelena.",
+      "metaDescription": "Sahara pokriva oko 9,2 miliona km² i proteže se oko 4.800 km kroz severnu Afriku — najveća topla pustinja na Zemlji. Koliko je velika, koliko je vruća i kako je nekad bila zelena.",
       "image": {
         "alt": "Talasaste narandžaste dine Erg Šebija u marokanskoj Sahari pružaju se do horizonta u večernjem svetlu."
       },
@@ -1850,7 +1850,7 @@
         "fact2": "Oko 4.800 km od istoka do zapada i do oko 1.800 km od severa do juga.",
         "fact3": "Samo oko 25% su peščane dine; ostalo su stene, šljunak i planine.",
         "fact4": "Najviša tačka: vulkan Emi Kusi u Čadu, oko 3.415 m.",
-        "fact5": "Letnji dani često prelaze 40 °C, a pustinjske noći mogu pasti blizu nule.",
+        "fact5": "Letnji dani često prelaze 40 °C, a noću temperatura može pasti blizu nule.",
         "fact6": "Bila je zelena, sa jezerima i travnjacima, pre oko 11.000 do 5.000 godina."
       }
     },
@@ -1859,7 +1859,7 @@
       "tagline": "Reka koja u more odnese petinu sve rečne vode na svetu.",
       "body": "Amazon teče oko 6.400 km od peruanskih Anda do Atlantika — da li je duži on ili Nil zavisi od toga gde se odluči da je izvor. Po količini vode nema takmaca: na ušću istekne oko 209.000 kubnih metara vode u sekundi, oko petine sve rečne vode koja stiže u svetska mora i više nego sledećih sedam najvećih reka zajedno. Njegov basen, oko 7 miliona km², obuhvata najveću prašumu na Zemlji. U kišnoj sezoni reka može da se razlije desetinama kilometara u širinu, a preko glavnog toka ne vodi nijedan most.",
       "narrative": "Ispravljen, Amazon bi se pružao od Njujorka do Berlina — oko pola širine cele Zemlje.",
-      "funFact": "Dva puta mesečno, oko mladog i punog meseca, plima Atlantika gura uzvodno talas zvani pororoka — visok do 4 m i čuje se mnogo pre nego što stigne — a surferi su ga jahali više od 10 km.",
+      "funFact": "Dva puta mesečno, oko mladog i punog meseca, plima Atlantika gura uzvodno talas zvani pororoka — visok do 4 m, koji se čuje mnogo pre nego što stigne — a surferi su na njemu surfovali više od 10 km.",
       "seoTitle": "Koliko je duga reka Amazon? Dužina i veličina",
       "metaDescription": "Reka Amazon duga je oko 6.400 km i nosi oko petine sve rečne vode koja stiže u mora. Njena dužina u poređenju sa čovekom, Zemljom i drugim.",
       "image": {
@@ -1869,16 +1869,16 @@
         "fact1": "Dužina: oko 6.400 km (neka merenja daju preko 6.900 km).",
         "fact2": "Prosečan protok: oko 209.000 m³ vode u sekundi.",
         "fact3": "Nosi oko 20% sve rečne vode koja stiže u mora.",
-        "fact4": "Rečni basen: oko 7 miliona km², deli ga devet država.",
+        "fact4": "Rečni basen: oko 7 miliona km², deli ga osam država i Francuska Gvajana.",
         "fact5": "Preko glavnog toka nigde ne vodi nijedan most.",
-        "fact6": "Dom više od 2.500 poznatih vrsta riba."
+        "fact6": "U njoj živi više od 2.500 poznatih vrsta riba."
       }
     },
     "grand_canyon": {
       "name": "Veliki kanjon",
-      "tagline": "Izdubila ga je reka Kolorado: dug 447 km, dubok skoro 1,9 km, sa 1,8 milijardi godina stena na vidiku.",
+      "tagline": "Izdubila ga je reka Kolorado: dug 447 km, dubok skoro 1,9 km, sa stenama starim do 1,8 milijardi godina.",
       "body": "Veliki kanjon u Arizoni vijuga 447 km duž reke Kolorado, širok do 29 km od ivice do ivice i dubok skoro 1,9 km na najdubljem mestu. Njegovi zidovi su naslagani slojevi stena kao stranice knjige: krečnjak i peščar blizu ivice stari su oko 270 miliona godina, a tamni škriljac na dnu oko 1,8 milijardi godina. Reka je počela da useca današnji tok pre oko 5 do 6 miliona godina, uz pomoć sporog izdizanja visoravni Kolorado. Nacionalni park SAD postao je 1919. i danas ga godišnje poseti oko 5 miliona ljudi.",
-      "narrative": "Stavite dve Burdž Kalife jednu na drugu i na najdubljem mestu i dalje ne bi stigle od reke do ivice.",
+      "narrative": "Ni dva Burdž Kalife, jedan na drugom, na najdubljem mestu ne bi stigla od reke do ivice.",
       "funFact": "Kanjon ima sopstvenu klimu: reka na dnu može biti oko 11 °C toplija od ivice iznad, pa ujutru možete ostaviti sneg gore, a popodne se spustiti u pustinjsku vrućinu.",
       "seoTitle": "Koliko je dubok Veliki kanjon? Veličina u poređenju",
       "metaDescription": "Veliki kanjon dubok je skoro 1,9 km, dug 447 km i širok do 29 km, a stene na dnu stare su 1,8 milijardi godina. Veličina u poređenju sa Everestom i drugim.",
@@ -1897,19 +1897,19 @@
     "titanic": {
       "name": "Titanik",
       "tagline": "Najveći brod na vodi 1912. godine — 269 metara čelika koji je potonuo na prvom putovanju.",
-      "body": "RMS Titanik bio je dug 269 metara, širok 28 metara i visok 53 metra od kobilice do vrha dimnjaka — kad je 10. aprila 1912. isplovio iz Sauthemptona, bio je najveći pokretni objekat koji su ljudi ikada napravili. Kasno uveče 14. aprila, oko 600 km jugoistočno od Njufaundlenda, udario je u santu leda koja je moru otvorila niz vodonepropusnih odeljaka. Potonuo je za 2 sata i 40 minuta. Od oko 2.224 osobe na brodu poginulo je više od 1.500, delom i zato što je u 20 čamaca za spasavanje bilo mesta za samo 1.178 ljudi. Olupina leži u dva dela na oko 3.800 m dubine i pronađena je 1985.",
-      "narrative": "Da se Titanik uspravi na pramac, bio bi visok oko četiri petine Ajfelove kule — i viši od Velike piramide.",
-      "massNarrative": "Pun, istiskivao je oko 52.000 tona — otprilike koliko teži 8.700 afričkih slonova.",
+      "body": "RMS Titanik bio je dug 269 metara, širok 28 metara i visok 53 metra od kobilice do vrha dimnjaka — kad je 10. aprila 1912. isplovio iz Sautemptona, bio je najveći pokretni objekat koji su ljudi ikada napravili. Kasno uveče 14. aprila, oko 600 km jugoistočno od Njufaundlenda, udario je u santu leda koja je moru otvorila niz vodonepropusnih odeljaka. Potonuo je za 2 sata i 40 minuta. Od oko 2.224 osobe na brodu poginulo je više od 1.500, delom i zato što je u 20 čamaca za spasavanje bilo mesta za samo 1.178 ljudi. Olupina leži u dva dela na oko 3.800 m dubine i pronađena je 1985.",
+      "narrative": "Da se Titanik uspravi na pramac, bio bi visok oko četiri petine visine Ajfelove kule — i viši od Velike piramide.",
+      "massNarrative": "Potpuno natovaren, istiskivao je oko 52.000 tona — otprilike koliko teži 8.700 afričkih slonova.",
       "funFact": "Od četiri dimnjaka samo su tri bila prava. Četvrti, zadnji, bio je uglavnom ukras — četiri dimnjaka delovala su moćnije — i služio je za ventilaciju i kao odvod iz kuhinja.",
       "seoTitle": "Koliko je bio veliki Titanik? Veličina u poređenju",
       "metaDescription": "Titanik je bio dug 269 m i visok 53 m — najveći brod na vodi 1912. Njegova veličina u poređenju sa Ajfelovom kulom, fudbalskim terenom i čovekom.",
       "image": {
-        "alt": "Crno-bela fotografija RMS Titanika sa četiri dimnjaka dok isplovljava iz Sauthemptona u aprilu 1912."
+        "alt": "Crno-bela fotografija RMS Titanika sa četiri dimnjaka dok isplovljava iz Sautemptona u aprilu 1912."
       },
       "facts": {
         "fact1": "Dužina: oko 269 m; širina: oko 28 m.",
         "fact2": "Visina od kobilice do vrha dimnjaka: oko 53 m.",
-        "fact3": "Udario je u santu leda u 23.40 14. aprila 1912; potonuo je u 2.20 sledećeg jutra.",
+        "fact3": "Udario je u santu leda 14. aprila 1912. u 23.40; potonuo je u 2.20 sledećeg jutra.",
         "fact4": "Na brodu oko 2.224 osobe; poginulo je više od 1.500.",
         "fact5": "20 čamaca za spasavanje sa mestom za 1.178 ljudi — oko polovine putnika i posade.",
         "fact6": "Olupina leži na oko 3.800 m dubine; pronađena je 1. septembra 1985."
@@ -1918,9 +1918,9 @@
     "colosseum": {
       "name": "Koloseum",
       "tagline": "Velika rimska arena: 189 metara kamena koji je pre skoro 2.000 godina primao oko 50.000 gledalaca.",
-      "body": "Koloseum u Rimu je najveći amfiteatar ikada sagrađen: elipsa duga 189 metara i široka 156 metara, sa zidovima visokim oko 48 metara. Počeo je da se gradi pod carem Vespazijanom oko 70–72. godine, a otvorio ga je njegov sin Tit 80. godine sa 100 dana igara. Primao je, procenjuje se, 50.000 ili više ljudi, raspoređenih po redovima prema društvenom položaju. Borbe gladijatora, lov na životinje i pogubljenja odvijali su se iznad hipogeuma, lavirinta tunela, kaveza i liftova ispod poda arene. Zemljotresi i vekovi odnošenja kamena uzeli su oko dve trećine spoljnog zida, ali ostatak i dalje stoji.",
+      "body": "Koloseum u Rimu je najveći amfiteatar ikada sagrađen: elipsa duga 189 metara i široka 156 metara, sa zidovima visokim oko 48 metara. Počeo je da se gradi pod carem Vespazijanom oko 70–72. godine, a otvorio ga je njegov sin Tit 80. godine sa 100 dana igara. Primao je, procenjuje se, 50.000 ili više ljudi, raspoređenih po redovima prema društvenom položaju. Borbe gladijatora, lov na životinje i pogubljenja odvijali su se iznad hipogeuma, lavirinta tunela, kaveza i dizalica ispod poda arene. Zemljotresi i vekovi raznošenja kamena odneli su oko dve trećine spoljnog zida, ali ostatak i dalje stoji.",
       "narrative": "Koloseum je skoro dvostruko duži od fudbalskog terena, a spoljni zid mu je visok kao zgrada od 15 spratova.",
-      "funFact": "Po vrućini su mornari rimske flote razapinjali velarijum, ogromnu tendu od platna na užadima i jarbolima oko vrha zida, da bi zaklonili publiku od sunca — i danas se vide kamene konzole koje su držale jarbole.",
+      "funFact": "Po vrućini su mornari rimske flote razapinjali velarijum, ogromnu tendu od platna na užadi i jarbolima oko vrha zida, da bi zaklonili publiku od sunca — i danas se vide kamene konzole koje su držale jarbole.",
       "seoTitle": "Koliko je veliki Koloseum? Veličina u poređenju",
       "metaDescription": "Koloseum je dug 189 m, širok 156 m i visok 48 m, a primao je oko 50.000 gledalaca — najveći amfiteatar ikada sagrađen. Veličina u poređenju.",
       "image": {
@@ -1937,10 +1937,10 @@
     },
     "great_wall": {
       "name": "Kineski zid",
-      "tagline": "Ne jedan zid nego hiljade kilometara zidova, građenih 2.000 godina — ukupno oko 21.000 km.",
-      "body": "Kineski zid je mreža zidova, rovova i prirodnih prepreka građenih preko severne Kine od 7. veka pre nove ere do 17. veka nove ere. Premer iz 2012. izbrojao je 21.196 km, sa svim dinastijama i ograncima; najpoznatiji kameni i zidani delovi sa stražarskim kulama pripadaju zidu dinastije Ming iz 14–17. veka, dugom oko 8.850 km. U njega su ugrađeni nabijena zemlja, kamen, cigla, pa čak i malter sa lepljivim pirinčem, a čuvale su ga posade koje su se dozivale dimom i vatrom. Uprkos raširenoj priči, golim okom se ne vidi iz orbite: širok je samo nekoliko metara i skoro iste boje kao tlo oko njega.",
+      "tagline": "Ne jedan zid nego hiljade kilometara zidova, građenih tokom 2.000 godina — ukupno oko 21.000 km.",
+      "body": "Kineski zid je mreža zidova, rovova i prirodnih prepreka građenih preko severne Kine od 7. veka pre nove ere do 17. veka nove ere. Premer iz 2012. izmerio je 21.196 km, sa svim dinastijama i ograncima; najpoznatiji kameni i zidani delovi sa stražarskim kulama pripadaju zidu dinastije Ming iz 14–17. veka, dugom oko 8.850 km. U njega su ugrađeni nabijena zemlja, kamen, cigla, pa čak i malter sa lepljivim pirinčem, a čuvale su ga posade koje su se dozivale dimom i vatrom. Uprkos raširenoj priči, astronauti ga iz orbite golim okom jedva, ako uopšte, primećuju: širok je samo nekoliko metara i skoro iste boje kao tlo oko njega.",
       "narrative": "Sa svim ograncima, zid bi se protegao više od pola puta oko Zemlje — oko 1,7 puta koliko je planeta široka.",
-      "funFact": "Graditelji iz doba dinastije Ming mešali su supu od lepljivog pirinča u krečni malter. Amilopektin iz pirinča čini malter čvršćim i otpornijim na vodu, i to je deo razloga što su ti delovi izdržali 500 godina.",
+      "funFact": "Graditelji iz doba dinastije Ming dodavali su supu od lepljivog pirinča krečnom malteru. Amilopektin iz pirinča čini malter čvršćim i otpornijim na vodu, i to je deo razloga što su ti delovi izdržali 500 godina.",
       "seoTitle": "Koliko je dug Kineski zid? Dužina u poređenju",
       "metaDescription": "Kineski zid je dug oko 21.196 km sa svim ograncima, a zid dinastije Ming oko 8.850 km. Koliko je dug, u poređenju sa Zemljom i drugim.",
       "image": {
@@ -1951,17 +1951,17 @@
         "fact2": "Samo zid dinastije Ming: oko 8.850 km.",
         "fact3": "Građen i obnavljan od 7. veka pre nove ere do 17. veka nove ere.",
         "fact4": "Delovi iz doba Ming obično su visoki 6–8 m i široki 4–5 m na vrhu.",
-        "fact5": "Golim okom se ne vidi iz orbite, što su potvrdili i astronauti.",
+        "fact5": "Iz orbite se golim okom praktično ne vidi, a sa Meseca nikako.",
         "fact6": "Na UNESCO listi svetske baštine od 1987."
       }
     },
     "great_red_spot": {
       "name": "Velika crvena pega",
-      "tagline": "Oluja na Jupiteru šira od cele Zemlje — besni najmanje 150 godina.",
-      "body": "Velika crvena pega je ogromna oluja visokog pritiska na južnoj polulopti Jupitera: ovalna, široka oko 16.350 km kada je NASA-in Juno 2017. preleteo iznad nje, otprilike 1,3 puta šira od Zemlje. Vetrovi oko njene ivice dostižu oko 430 km/h, a ceo vrtlog se okrene jednom otprilike za šest dana. Neprekidno se posmatra od 1878, a krajem 19. veka bila je duga oko 40.000 km — od tada se smanjuje i postaje sve okruglija. Junova mikrotalasna merenja ukazuju na to da joj koreni sežu oko 200–500 km duboko u atmosferu; crvenu boju verovatno daju hemijska jedinjenja u vrhovima oblaka koja menja sunčeva svetlost.",
-      "narrative": "Spustite Zemlju u Veliku crvenu pegu i stala bi sa viškom prostora — a u 19. veku u nju bi stale tri Zemlje jedna do druge.",
+      "tagline": "Oluja na Jupiteru šira od cele Zemlje — besni već najmanje 150 godina.",
+      "body": "Velika crvena pega je ogromna oluja visokog pritiska na južnoj polulopti Jupitera: ovalna, široka oko 16.350 km kada je NASA-in Juno 2017. preleteo iznad nje, otprilike 1,3 puta šira od Zemlje. Vetrovi oko njene ivice dostižu oko 430 km/h, a ceo vrtlog se okrene jednom za četiri do šest dana. Neprekidno se posmatra od 1878, a krajem 19. veka bila je duga oko 40.000 km — od tada se smanjuje i postaje sve okruglija. Junova mikrotalasna merenja ukazuju na to da joj koreni sežu oko 200–500 km duboko u atmosferu; crvenu boju verovatno daju hemijska jedinjenja u vrhovima oblaka koja menja sunčeva svetlost.",
+      "narrative": "Spustite Zemlju u Veliku crvenu pegu i stala bi i još bi ostalo mesta — a u 19. veku u nju bi stale tri Zemlje jedna do druge.",
       "funFact": "Tamna pega koju je Đovani Kasini posmatrao na Jupiteru od 1665. do 1713. dugo se smatrala istom olujom, pa bi bila stara preko 350 godina. Studija iz 2024. zasnovana na starim crtežima zaključila je da je to verovatno bila druga oluja koja je nestala — današnja pega prvi put je zabeležena 1831.",
-      "seoTitle": "Koliko je velika Velika crvena pega? Džinovska oluja",
+      "seoTitle": "Kolika je Velika crvena pega? Jupiterova džinovska oluja",
       "metaDescription": "Jupiterova Velika crvena pega bila je 2017. široka oko 16.350 km — šira od Zemlje — sa vetrovima od oko 430 km/h. Njena veličina, smanjivanje i poređenja.",
       "image": {
         "alt": "Krupni snimak NASA-ine letelice Juno: kovitlavi narandžastocrveni oblaci Jupiterove Velike crvene pege."
@@ -1970,7 +1970,7 @@
         "fact1": "Širina: oko 16.350 km (Juno, 2017) — oko 1,3 puta šira od Zemlje.",
         "fact2": "Krajem 19. veka bila je duga oko 40.000 km; od tada se smanjuje.",
         "fact3": "Vetrovi na ivici: oko 430 km/h.",
-        "fact4": "Okrene se jednom otprilike za 6 zemaljskih dana.",
+        "fact4": "Okrene se jednom za 4–6 zemaljskih dana.",
         "fact5": "Seže oko 200–500 km duboko u Jupiterovu atmosferu.",
         "fact6": "Neprekidno se posmatra od 1878; prvi put zabeležena 1831."
       }
@@ -1978,34 +1978,34 @@
     "sirius": {
       "name": "Sirijus",
       "tagline": "Najsjajnija zvezda noćnog neba — vrela bela zvezda sa mrtvim pratiocem veličine Zemlje.",
-      "body": "Sirijus, Pasja zvezda u sazvežđu Veliki pas, sjajniji je od svih drugih zvezda noćnog neba jer je istovremeno snažan i blizu: udaljen je samo 8,6 svetlosnih godina. Sjajna zvezda, Sirijus A, ima oko dve mase Sunca i 1,7 puta je šira od njega, sa površinom od blizu 9.700 °C koja joj daje plavobelu boju, i zrači oko 25 puta više svetlosti od Sunca. Na svakih 50 godina oko nje obiđe Sirijus B, beli patuljak — izgorelo jezgro zvezde koja je nekad bila sjajnija od nje — koji otprilike masu Sunca sabija u loptu veličine Zemlje. U starom Egiptu prvo pojavljivanje Sirijusa u zoru svake godine najavljivalo je izlivanje Nila.",
+      "body": "Sirijus, Pasja zvezda u sazvežđu Veliki pas, sjajniji je od svih drugih zvezda noćnog neba jer je istovremeno snažan i blizu: udaljen je samo 8,6 svetlosne godine. Sjajna zvezda, Sirijus A, ima oko dve mase Sunca i 1,7 puta je šira od njega, sa temperaturom površine od blizu 9.700 °C koja joj daje plavobelu boju, i zrači oko 25 puta više svetlosti od Sunca. Na svakih 50 godina oko nje obiđe Sirijus B, beli patuljak — ugašeno jezgro zvezde koja je nekad bila sjajnija od nje — koji otprilike masu Sunca sabija u loptu veličine Zemlje. U starom Egiptu prvo pojavljivanje Sirijusa u zoru svake godine najavljivalo je izlivanje Nila.",
       "narrative": "Zamenite Sunce Sirijusom A i na našem nebu bio bi 1,7 puta širi, sijao bi oko 25 puta jače — a Zemlja bi bila spržena.",
-      "funFact": "Sirijus B je otkriven po privlačenju pre nego što je viđen. Fridrih Besel je 1844. primetio da se Sirijus njiše kao da ga vuče nevidljivi par; 1862. Alvan Grejam Klark je, isprobavajući novo sočivo teleskopa, ugledao bledog pratioca baš tamo gde je predviđeno.",
+      "funFact": "Sirijus B je otkriven po gravitacionom uticaju pre nego što je viđen. Fridrih Besel je 1844. primetio da se Sirijus njiše kao da ga vuče nevidljivi pratilac; 1862. Alvan Grejam Klark je, isprobavajući novo sočivo teleskopa, ugledao bledog pratioca baš tamo gde je predviđeno.",
       "seoTitle": "Koliko je veliki Sirijus? Najsjajnija zvezda u poređenju",
-      "metaDescription": "Sirijus A, najsjajnija zvezda noćnog neba, širok je oko 2,4 miliona km — 1,7 puta više od Sunca — i udaljen 8,6 svetlosnih godina. Veličina u poređenju sa Suncem.",
+      "metaDescription": "Sirijus A, najsjajnija zvezda noćnog neba, širok je oko 2,4 miliona km — 1,7 puta širi od Sunca — i udaljen 8,6 svetlosne godine. Veličina u poređenju sa Suncem.",
       "image": {
         "alt": "Umetnički prikaz blistavo bele zvezde Sirijus A sa malim plavobelim pratiocem, belim patuljkom Sirijus B, na pozadini zvezda."
       },
       "temperatureNote": "površina Sirijusa A",
       "facts": {
-        "fact1": "Sirijus A: širok oko 2,4 miliona km — 1,7 puta više od Sunca.",
-        "fact2": "Udaljenost: oko 8,6 svetlosnih godina — jedan od naših najbližih suseda.",
+        "fact1": "Sirijus A: širok oko 2,4 miliona km — 1,7 puta širi od Sunca.",
+        "fact2": "Udaljenost: oko 8,6 svetlosne godine — jedan od naših najbližih suseda.",
         "fact3": "Masa: oko 2 Sunca; sjaj: oko 25 Sunaca.",
         "fact4": "Temperatura površine: oko 9.940 K.",
-        "fact5": "Pratilac Sirijus B: beli patuljak veličine Zemlje, sa otprilike masom Sunca.",
-        "fact6": "Njih dvoje obiđu jedno oko drugog za 50 godina."
+        "fact5": "Pratilac Sirijus B: beli patuljak veličine Zemlje, sa masom otprilike kao Sunce.",
+        "fact6": "Dve zvezde obiđu jedna oko druge za 50 godina."
       }
     },
     "asteroid_belt": {
       "name": "Asteroidni pojas",
       "tagline": "Prsten preostalog kamenja između Marsa i Jupitera — mnogo prazniji nego u filmovima.",
-      "body": "Glavni asteroidni pojas kruži oko Sunca između Marsa i Jupitera, otprilike 330 do 480 miliona km daleko, pa je meren preko spoljne ivice širok blizu milijardu kilometara. U njemu je više od milion asteroida većih od 1 km i nebrojeno manjih, a ipak svi zajedno imaju samo oko 3% mase Meseca — i više od polovine toga je u Cereri, Vesti, Paladi i Higiji. To su ostaci iz rađanja Sunčevog sistema koji nikad nisu postali planeta, jer ih je Jupiterova gravitacija stalno uznemiravala. NASA-ina letelica Dawn kružila je oko Veste, a zatim oko Cerere, jedine patuljaste planete u pojasu.",
+      "body": "Glavni asteroidni pojas kruži oko Sunca između Marsa i Jupitera, otprilike 330 do 480 miliona km daleko, pa je meren preko spoljne ivice širok blizu milijardu kilometara. U njemu je više od milion asteroida većih od 1 km i nebrojeno manjih, a ipak svi zajedno imaju samo oko 3% mase Meseca — i više od polovine toga je u Cereri, Vesti, Paladi i Higiji. To su ostaci iz rađanja Sunčevog sistema koji nikad nisu postali planeta, jer ih je Jupiterova gravitacija stalno remetila. NASA-ina letelica Dawn kružila je oko Veste, a zatim oko Cerere, jedine patuljaste planete u pojasu.",
       "narrative": "Asteroidi su u proseku udaljeni oko milion kilometara jedan od drugog — više nego dvostruko dalje nego Mesec od nas. Proletite pravo kroz pojas i skoro sigurno nećete videti nijedan.",
       "funFact": "Od 1970-ih pojas je preletelo više od desetak letelica — prva je bila Pionir 10 — i nijednu nikada nije pogodio asteroid. Planeri misija moraju dobro da se pomuče da bi se namerno približili nekom asteroidu.",
       "seoTitle": "Koliko je veliki asteroidni pojas? Veličina u poređenju",
       "metaDescription": "Asteroidni pojas kruži 330–480 miliona km od Sunca, širok je blizu milijardu km, a svi njegovi asteroidi imaju samo 3% mase Meseca. Veličina u poređenju.",
       "image": {
-        "alt": "Siva asteroida Vesta puna kratera, drugo najveće telo u asteroidnom pojasu, snimljena NASA-inom letelicom Dawn."
+        "alt": "Sivi asteroid Vesta, pun kratera, drugo najveće telo u asteroidnom pojasu, snimljen NASA-inom letelicom Dawn."
       },
       "facts": {
         "fact1": "Nalazi se oko 2,2–3,2 AJ od Sunca (otprilike 330–480 miliona km).",
@@ -2018,8 +2018,8 @@
     },
     "water_molecule": {
       "name": "Molekul vode",
-      "tagline": "Dva atoma vodonika i jedan kiseonika, savijeni pod 104,5° — mali, nakrivljeni molekul koji omogućava život.",
-      "body": "Molekul vode je jedan atom kiseonika koji drži dva atoma vodonika pod uglom od oko 104,5°, a ceo je širok otprilike 0,28 nanometara. Kiseonik privlači zajedničke elektrone ka sebi, pa molekul ima jedan blago negativan kraj i dva blago pozitivna. Zbog te nakrivljenosti susedni molekuli se drže zajedno vodoničnim vezama — zato je voda tečna na sobnoj temperaturi dok su mnogo teži molekuli gasovi, zato upija toliko toplote i zato se u njoj rastvara toliko materija. Zbog toga je i led rastresit: voda se pri smrzavanju širi za oko 9%, pa led pluta.",
+      "tagline": "Dva atoma vodonika i jedan atom kiseonika, savijeni pod 104,5° — mali, nesimetrični molekul koji omogućava život.",
+      "body": "Molekul vode je jedan atom kiseonika koji drži dva atoma vodonika pod uglom od oko 104,5°, a ceo je širok otprilike 0,28 nanometra. Kiseonik privlači zajedničke elektrone ka sebi, pa molekul ima jedan blago negativan kraj i dva blago pozitivna. Zbog te nesimetričnosti susedni molekuli se drže zajedno vodoničnim vezama — zato je voda tečna na sobnoj temperaturi dok su mnogo teži molekuli gasovi, zato upija toliko toplote i zato se u njoj rastvara toliko supstanci. Zbog toga je i led rastresit: voda se pri smrzavanju širi za oko 9%, pa led pluta.",
       "narrative": "Potrebno je oko 3,6 miliona molekula vode poređanih jedan do drugog da bi se prekrio jedan milimetar.",
       "funFact": "U jednoj čaši vode ima više molekula vode — oko 8 kvadriliona — nego što ima čaša vode u svim okeanima sveta, i to više od hiljadu puta.",
       "seoTitle": "Koliko je veliki molekul vode? Veličina u poređenju",
@@ -2040,7 +2040,7 @@
       "name": "Polenovo zrno",
       "tagline": "Biljni prenosilac muških ćelija u oklopu — dovoljno čvrstom da izdrži milione godina.",
       "body": "Polenovo zrno prenosi muške ćelije cvetnice ili četinara do drugog cveta ili šišarke. Većina zrna je široka 10 do 100 mikrometara — tipično oko 25 µm, četvrtina debljine ljudske vlasi — mada je polen nezaboravka širok samo oko 5 µm, a polen bundeve dostiže oko 200 µm. Svaka vrsta ima svoj oblik: bodljikave lopte, glatke perle, zrna sa vazdušnim kesicama zahvaljujući kojima polen bora lebdi stotinama kilometara. Spoljni zid je od sporopolenina, jednog od najotpornijih prirodnih materijala, pa polen milionima godina opstaje u jezerskom mulju i stenama i naučnicima pomaže da čitaju klimu prošlosti, pa čak i da rešavaju zločine.",
-      "narrative": "Tri tipična polenova zrna jedno do drugog široka su otprilike kao jedna ljudska vlas.",
+      "narrative": "Tri ili četiri tipična polenova zrna jedno do drugog široka su otprilike kao jedna ljudska vlas.",
       "funFact": "Jedna biljka ambrozije može za jednu sezonu da otpusti i do milijardu polenovih zrna — a polenska kijavica, preterana reakcija imunog sistema na njih, pogađa otprilike 10 do 30% odraslih širom sveta.",
       "seoTitle": "Koliko je veliko polenovo zrno? Veličina u poređenju",
       "metaDescription": "Većina polenovih zrna široka je 10–100 µm, tipično oko 25 µm — četvrtina debljine vlasi. Veličina, oblici i zašto polen traje milionima godina.",
@@ -2050,7 +2050,7 @@
       "facts": {
         "fact1": "Većina zrna: 10–100 µm; tipično oko 25 µm.",
         "fact2": "Među najmanjima: nezaboravak, oko 5 µm.",
-        "fact3": "Među najvećima: bundeva, oko 200 µm — jedva vidljivo golim okom.",
+        "fact3": "Među najvećima: bundeva, oko 200 µm — jedva se vidi golim okom.",
         "fact4": "Jedna biljka ambrozije može da otpusti do milijardu zrna u sezoni.",
         "fact5": "Spoljni zid, sporopolenin, može da opstane stotinama miliona godina.",
         "fact6": "Polen koji nosi vetar može da pređe stotine kilometara."
@@ -2257,7 +2257,7 @@
       "section3Heading": "Šta je iza: konačan ili beskonačan?",
       "section3Body": "Iza našeg horizonta gotovo sigurno ima još istog — galaksija, jata i kosmičke mreže — jer ništa što posmatramo ne nagoveštava bilo kakvu promenu blizu ivice našeg pogleda. Koliko još, ne zna se. Merenja kosmičkog mikrotalasnog pozadinskog zračenja ESA-inim satelitom Planck pokazuju da je prostor ravan sa tačnošću od delića procenta (parametar zakrivljenosti 0,0007 ± 0,0019, u skladu sa nulom). Savršeno ravan svemir najjednostavnijeg mogućeg oblika bio bi beskonačan. Blago zakrivljen svemir mogao bi da se zatvara sam u sebe poput površine lopte — konačan, a ipak bez ivice bilo gde. Čak i u tom slučaju, jedna statistička analiza podataka (Vardanyan, Trotta i Silk, 2011) zaključila je da bi ceo svemir po zapremini morao da bude nekoliko puta veći od svega što možemo da posmatramo. Status istinitosti, pošteno označen: vrednost od 93 milijarde svetlosnih godina za vidljivi deo jeste utvrđena teorija, pouzdana u granicama od nekoliko procenata. Veličina svega ostalog je otvoreno pitanje — moguće je da je beskonačan, moguće je da je konačan ali ogroman, i nijedan današnji eksperiment ne može da razlikuje ove dve mogućnosti.",
       "section4Heading": "Korak po korak uz razmeru",
-      "section4Body": "Ovako veliki broj sam po sebi malo govori, pa se do njega popnimo u koracima. Zemlja ima prečnik od 12.742 km. Sunce je široko oko 109 Zemalja i udaljeno 150 miliona km. Svetlosna godina iznosi oko 9,46 biliona km, a najbliža zvezda, Proksima Kentaura, udaljena je 4,24 svetlosne godine. Mlečni put se prostire na oko 100.000 svetlosnih godina i sadrži od 100 do 400 milijardi zvezda. Andromeda, najbliža velika galaksija, udaljena je 2,5 miliona svetlosnih godina. Laniakea, superjato u kom živimo, široka je oko 500 miliona svetlosnih godina. Vidljivi svemir, sa svoje 93 milijarde svetlosnih godina, širok je oko 930.000 Mlečnih puteva, odnosno blizu 190 Laniakea, i sadrži stotine milijardi galaksija — neke procene idu i do 2 biliona. A sada sve smanjite istim faktorom, koristeći referentnu razmeru ovog sajta u kojoj je Zemlja zrno peska od 0,5 mm: Sunce postaje kugla od 5,4 cm na oko 5,9 metara, Mlečni put se proteže na oko 40 miliona kilometara, a ceo vidljivi svemir ima prečnik od otprilike 3,6 svetlosne godine — gotovo koliko iznosi stvarno rastojanje odavde do Proksime Kentaura.",
+      "section4Body": "Ovako veliki broj sam po sebi malo govori, pa se do njega popnimo u koracima. Zemlja ima prečnik od 12.742 km. Sunce je široko oko 109 Zemalja i udaljeno 150 miliona km. Svetlosna godina iznosi oko 9,46 biliona km, a najbliža zvezda, Proksima Kentaura, udaljena je 4,24 svetlosne godine. Mlečni put se prostire na oko 100.000 svetlosnih godina i sadrži od 100 do 400 milijardi zvezda. Andromeda, najbliža velika galaksija, udaljena je 2,5 miliona svetlosnih godina. Laniakea, superjato u kom živimo, široka je oko 500 miliona svetlosnih godina. Vidljivi svemir, sa svoje 93 milijarde svetlosnih godina, širok je oko 930.000 Mlečnih puteva, odnosno blizu 190 Laniakea, i sadrži stotine milijardi galaksija — neke procene idu i do 2 biliona. A sada sve smanjite istim faktorom, koristeći referentnu razmeru ovog sajta u kojoj je Zemlja zrno peska od 0,5 mm: Sunce postaje kugla od 5,4 cm na oko 5,9 metra, Mlečni put se proteže na oko 40 miliona kilometara, a ceo vidljivi svemir ima prečnik od otprilike 3,6 svetlosne godine — gotovo koliko iznosi stvarno rastojanje odavde do Proksime Kentaura.",
       "section5Heading": "Česte zablude",
       "section5Body": "„Svemir je širok 13,8 milijardi svetlosnih godina.“ Nije — 13,8 milijardi je njegova starost u godinama. Zbog širenja, vidljivi deo širok je oko 93 milijarde svetlosnih godina. „Veliki prasak je bila eksplozija iz jednog centra.“ Nije to bila eksplozija u već postojećem prostoru; sam prostor je svuda počeo da se širi, pa ne postoji ni centar ni tačka iz koje se širio. „Svemir se širi u nešto.“ Širenje znači da rastu rastojanja između međusobno udaljenih galaksija; za to nije potreban nikakav spoljašnji prostor u koji bi se širio. „Sve se širi, pa i mi.“ Gravitacijom povezani sistemi — atomi, ljudi, planete, Sunčev sistem, Mlečni put, pa čak i naša Lokalna grupa galaksija — ne šire se. Rastezanje prevladava tek na razmerama između grupa i jata galaksija. „Ništa ne može da se udaljava brže od svetlosti.“ Relativnost ograničava kretanje kroz prostor, a ne rast samog prostora; većina galaksija u vidljivom svemiru danas se od nas udaljava brže od svetlosti. „Vidimo ceo svemir.“ Vidimo samo ono što je svetlost stigla da nam donese. Vidljivi svemir je mehur oko nas, a ne celina."
     },
@@ -2271,7 +2271,7 @@
       "section2Heading": "Koliko Zemalja stane u Jupiter — a koliko u Sunce?",
       "section2Body": "Zapremina raste sa kubom širine, pa skromne razlike u prečniku postaju ogromne razlike u zapremini. Jupiter je oko 11 puta širi od Zemlje, pa bi u njega po zapremini stalo oko 1.300 Zemalja. U Saturn bi stalo oko 760 Zemalja, u Uran oko 63, a u Neptun oko 58. Sunce, 109 puta šire od Zemlje, ima zapreminu od oko 1,3 miliona Zemalja — ili oko 1.000 Jupitera. U obrnutom smeru, otprilike 49 Meseci ispunilo bi Zemlju, a oko tri Plutona ispunila bi Mesec. (Ovo su odnosi zapremina. Prave kugle pri slaganju ostavljaju praznine, pa bi ih zapravo stalo manje.) Masa priča drugačiju priču od veličine. Jupiter ima 318 puta veću masu od Zemlje, a ne 1.300 puta, jer je uglavnom od vodonika i helijuma. Saturn je toliko lagan za svoju veličinu da mu je prosečna gustina, oko 0,69 grama po kubnom centimetru, manja od gustine vode. A Neptun je, iako nešto manji od Urana, masivniji od njega — oko 17 Zemljinih masa naspram Uranovih 14,5.",
       "section3Heading": "Model u razmeri: Zemlja kao zrno peska",
-      "section3Body": "Referentna razmera Quantumaire-a smanjuje Zemlju na jedno zrno peska od 0,5 mm. U toj razmeri Sunce je kugla prečnika oko 5,4 cm — veličine bilijarske kugle — a Zemlja je od nje udaljena oko 5,9 metara. Merkur je trunčica od 0,19 mm na 2,3 m od Sunca. Venera ima 0,47 mm, na 4,2 m. Zemlja je zrno od 0,5 mm, na 5,9 m, a Mesec je mrvica od 0,14 mm, samo 1,5 cm dalje. Mars ima 0,27 mm, na 8,9 m. Jupiter je najveća perla, oko 5,5 mm, na 31 m. Saturn ima 4,6 mm, na 56 m. Uran ima 2 mm, na 113 m. Neptun ima 1,9 mm, na 177 m. Pluton, zrnce prašine od 0,09 mm, kruži u proseku oko 230 m daleko. Ceo planetarni sistem staje u nekoliko gradskih blokova — ali najbliža zvezda, Proksima Kentaura, bila bi još jedna mala kugla udaljena oko 1.600 kilometara. Ta praznina je prava pouka svakog poštenog modela u razmeri: planete su sićušne u poređenju sa rastojanjima između njih.",
+      "section3Body": "Referentna razmera Quantumaire-a smanjuje Zemlju na jedno zrno peska od 0,5 mm. U toj razmeri Sunce je kugla prečnika oko 5,4 cm — veličine bilijarske kugle — a Zemlja je od nje udaljena oko 5,9 metra. Merkur je trunčica od 0,19 mm na 2,3 m od Sunca. Venera ima 0,47 mm, na 4,2 m. Zemlja je zrno od 0,5 mm, na 5,9 m, a Mesec je mrvica od 0,14 mm, samo 1,5 cm dalje. Mars ima 0,27 mm, na 8,9 m. Jupiter je najveća perla, oko 5,5 mm, na 31 m. Saturn ima 4,6 mm, na 56 m. Uran ima 2 mm, na 113 m. Neptun ima 1,9 mm, na 177 m. Pluton, zrnce prašine od 0,09 mm, kruži u proseku oko 230 m daleko. Ceo planetarni sistem staje u nekoliko gradskih blokova — ali najbliža zvezda, Proksima Kentaura, bila bi još jedna mala kugla udaljena oko 1.600 kilometara. Ta praznina je prava pouka svakog poštenog modela u razmeri: planete su sićušne u poređenju sa rastojanjima između njih.",
       "section4Heading": "Iznenađujuća poređenja",
       "section4Body": "Poređajte ostalih sedam planeta jednu do druge, po srednjem prečniku, i zajedno daju oko 380.000 km — nešto manje od prosečnog rastojanja Zemlja–Mesec od 384.400 km. (To važi samo u proseku: kada je Mesec najbliži, na oko 363.000 km, više ne bi stale.) Dva meseca su šira od planete Merkur — Jupiterov Ganimed sa 5.268 km i Saturnov Titan sa 5.150 km — iako oba imaju manje od polovine Merkurove mase. Saturnovi glavni prstenovi prostiru se na oko 270.000 km od ivice do ivice, više nego dvostruko šire od same planete, a obično su debeli svega desetak metara. Jupiterova Velika crvena pega smanjuje se već više od jednog veka; nekada široka oko tri Zemlje, danas je tek nešto šira od jedne. A Zemlja je, ispostavlja se, najveća od stenovitih planeta — najveći čvrsti svet koji kruži oko Sunca.",
       "section5Heading": "Zašto većina slika greši",
@@ -2314,14 +2314,14 @@
     "tallestStructures": {
       "title": "Najviše zgrade i građevine",
       "seoTitle": "Najviše zgrade na svetu, upoređene po visini",
-      "tagline": "Od Velike piramide do Burdž Kalife — kako se penjao rekord najviše građevine koju su ljudi sagradili i šta ga zaustavlja.",
-      "intro": "Skoro četiri hiljade godina najviše što su ljudi ikada sagradili bila je gomila krečnjaka u Egiptu. A onda su gvožđe i čelik za nešto više od jednog veka podigli rekord sa 139 metara na 828. Evo kako se rekord penjao, kako se visina zapravo meri, šta ograničava neboder i kako se naše najviše građevine porede sa najvišim što priroda izraste — jedno pored drugog na istoj skali.",
+      "tagline": "Od Velike piramide do Burdž Kalife — kako se penjao rekord u visini ljudskih građevina i šta ga zaustavlja.",
+      "intro": "Skoro četiri hiljade godina najviše što su ljudi ikada sagradili bila je gomila krečnjaka u Egiptu. A onda su gvožđe i čelik za nešto više od jednog veka podigli rekord sa oko 170 metara na 828. Evo kako se rekord penjao, kako se visina zapravo meri, šta ograničava neboder i kako se naše najviše građevine porede sa najvišim što priroda stvori — jedno pored drugog na istoj skali.",
       "section1Heading": "Kako se rekord penjao",
-      "section1Body": "Velika piramida u Gizi završena je oko 2560. godine pre nove ere, visoka oko 146,6 m; od tada je izgubila vrh i oblogu i danas ima oko 139 m. Ništa što su ljudi sagradili nije je nadvisilo sve do tornja katedrale u Linkolnu u Engleskoj, oko 1311, koji je dostigao oko 160 m pre nego što ga je vetar srušio 1548. **Ajfelova kula** iz 1889. skoro je udvostručila rekord sa 300 m — danas 330 m sa antenama — i držala ga dok je 1930. nije prestigla zgrada Krajsler u Njujorku. Neboderi su zatim jurili naviše: Empajer stejt bilding (381 m) 1931, Tajpej 101 (508 m) 2004. i Burdž Kalifa, 828 m, 2010. godine.",
+      "section1Body": "Velika piramida u Gizi završena je oko 2560. godine pre nove ere, visoka oko 146,6 m; od tada je izgubila vrh i oblogu i danas ima oko 139 m. Ništa što su ljudi sagradili nije je nadvisilo sve do tornja katedrale u Linkolnu u Engleskoj, oko 1311, koji je dostigao oko 160 m pre nego što ga je vetar srušio 1548. **Ajfelova kula** iz 1889. skoro je udvostručila rekord, dostigavši 300 m — danas 330 m sa antenama — i držala ga dok je 1930. nije prestigla zgrada Krajsler u Njujorku. Rekord za zgrade zatim je jurio naviše — Empajer stejt bilding (381 m) 1931, Tajpej 101 (508 m) 2004. i Burdž Kalifa, 828 m, 2010. godine — dok su nekoliko decenija tanki radio-jarboli sa zateznim užadima bili još viši, poput varšavskog jarbola od 646 m (1974–1991).",
       "section2Heading": "Šta je visoko? Pravila",
       "section2Body": "Visina zvuči jednostavno dok ne morate da odlučite gde je vrh. Savet za visoke zgrade i urbano stanovanje (CTBUH) meri zgradu do arhitektonskog vrha — tornjevi se računaju, a antene, jarboli za zastave i natpisi ne. Zato su tornjevi popularni: jeftino dodaju visinu. Prazan toranj i gornji spratovi Burdž Kalife dodaju oko 244 m u kojima niko ne može da živi ni radi — takozvanu visinu iz sujete. I statue imaju svoja pravila: Kip slobode visok je 46 m od pete do baklje, ali 93 m od tla kad se uračunaju postolje i temelj.",
-      "section3Heading": "Zašto zgrade ne mogu samo da rastu",
-      "section3Body": "Iznad nekoliko stotina metara problem je manje težina, a više vetar. Visoka kula je ogromna poluga i udari vetra je njišu; projektanti joj sužavaju oblik, uvijaju je ili kače ogromna klatna blizu vrha — ono u Tajpeju 101 teško je oko 660 tona — da priguše kretanje. Liftovi su druga granica: čelična užad postaju toliko teška da veoma visoke zgrade imaju nebeske holove u kojima se na pola puta preseda u drugi lift. A svaki novi sprat traži više konstrukcije ispod sebe i više mesta za liftove, pa se prostor koji se zaista može iznajmiti smanjuje kako kula raste. Ipak, u Saudijskoj Arabiji se gradi Džeda toranj, planiran da pređe 1.000 m.",
+      "section3Heading": "Zašto zgrade ne mogu da rastu unedogled",
+      "section3Body": "Iznad nekoliko stotina metara problem je manje težina, a više vetar. Visoka kula je ogromna poluga i udari vetra je njišu; projektanti joj sužavaju oblik, uvijaju je ili kače ogromna klatna blizu vrha — ono u Tajpeju 101 teško je oko 660 tona — da priguše kretanje. Liftovi su druga granica: čelična užad postaje toliko teška da veoma visoke zgrade imaju presedne holove (tzv. sky lobby) u kojima se na pola puta preseda u drugi lift. A svaki novi sprat traži više konstrukcije ispod sebe i više mesta za liftove, pa se prostor koji se zaista može iznajmiti smanjuje kako kula raste. Ipak, u Saudijskoj Arabiji se gradi toranj Džeda, planiran da pređe 1.000 m.",
       "section4Heading": "Neboderi prirode",
       "section4Body": "Živa bića dostižu visine koje bi namučile i inženjera. Žirafa, sa oko 5,5 m, najviša je životinja; najviše poznato drvo, obalska sekvoja nazvana Hiperion, visoko je oko 116 m, a sekvoja **General Šerman**, iako visoka samo 84 m, najveće je pojedinačno drvo po zapremini. Planine ih sve nadvisuju: **Mont Everest** se diže 8.849 m iznad nivoa mora — više od deset Burdž Kalifa naslaganih jedna na drugu. Meren od podnožja na dnu okeana, havajski Mauna Kea je još viši, oko 10.200 m, mada je veći deo pod vodom.",
       "keyNumber1Label": "Toranj katedrale u Linkolnu (oko 1311–1548)",
@@ -2330,19 +2330,19 @@
     "humanBodyBySize": {
       "title": "Ljudsko telo po veličini",
       "seoTitle": "Ljudsko telo po veličini: od vas do DNK",
-      "tagline": "Od čoveka od 1,7 metara, preko 30 biliona ćelija, do DNK široke dva nanometra — i bakterija i virusa koji putuju sa nama.",
-      "intro": "Vi ste najpoznatiji objekat na skali, a i jedan od najnaseljenijih. Čovek od 1,7 metara sastoji se od oko 30 biliona ćelija prepunih molekula i nosi otprilike još toliko bakterija. Evo tela spolja ka unutra — osoba, ćelije, molekuli — i mikroskopskih putnika koji žive na nama i u nama, svaki sa veličinom koju možete da uporedite.",
-      "section1Heading": "Vi, sa oko 1,7 metara",
-      "section1Body": "Quantumaire uzima 1,7 m za odraslog **čoveka** — otprilike svetski prosek muškaraca i žena. Tipično odraslo telo je oko 60% voda po masi i sadrži otprilike 7 × 10²⁷ atoma, uglavnom vodonika. Kad se sve uveća, brojevi i dalje iznenađuju: nastavljeni jedan na drugi, krvni sudovi jednog odraslog protegli bi se desetinama hiljada kilometara, a ukupna površina plućnih alveola otprilike je kao polovina teniskog terena.",
+      "tagline": "Od čoveka od 1,7 metra, preko 30 biliona ćelija, do DNK široke dva nanometra — i bakterija i virusa koji putuju sa nama.",
+      "intro": "Vi ste najpoznatiji objekat na skali, a i jedan od najnaseljenijih. Čovek od 1,7 metra sastoji se od oko 30 biliona ćelija prepunih molekula i nosi otprilike još toliko bakterija. Evo tela spolja ka unutra — osoba, ćelije, molekuli — i mikroskopskih putnika koji žive na nama i u nama, svaki sa veličinom koju možete da uporedite.",
+      "section1Heading": "Vi, sa oko 1,7 metra",
+      "section1Body": "Quantumaire uzima 1,7 m za odraslog **čoveka** — nešto iznad svetskog proseka muškaraca i žena. Voda čini oko 60% mase tipičnog odraslog tela, a telo sadrži otprilike 7 × 10²⁷ atoma, uglavnom vodonika. Kad se sve uveća, brojevi i dalje iznenađuju: nastavljeni jedan na drugi, krvni sudovi jednog odraslog protegli bi se desetinama hiljada kilometara, a ukupna površina plućnih alveola otprilike je kao polovina teniskog terena.",
       "section2Heading": "Trideset biliona ćelija",
-      "section2Body": "Popis ćelija tela iz 2016. izbrojao je oko 30 biliona ljudskih ćelija — a oko 84% njih su crvena krvna zrnca, mali diskovi široki oko 7,5 µm koji prenose kiseonik. Tipična ćelija tela široka je oko 10 µm, otprilike desetina debljine vlasi. Krajnosti su daleko jedna od druge: jajna ćelija ima oko 0,1 mm i jedva se vidi golim okom, dok neke nervne ćelije idu oko metar, od dna kičme do prstiju na nogama. Telo svakog dana zameni milijarde ćelija; crvena krvna zrnca traju oko četiri meseca.",
+      "section2Body": "Popis ćelija tela iz 2016. izbrojao je oko 30 biliona ljudskih ćelija — a oko 84% njih su crvena krvna zrnca, mali diskovi široki oko 7,5 µm koji prenose kiseonik. Tipična ćelija tela široka je oko 10 µm, otprilike desetina debljine vlasi. Krajnosti su daleko jedna od druge: jajna ćelija ima oko 0,1 mm i jedva se vidi golim okom, dok neke nervne ćelije dugačke su oko metar, od dna kičme do prstiju na nogama. Telo svakog dana zameni milijarde ćelija; crvena krvna zrnca traju oko četiri meseca.",
       "section3Heading": "Unutar ćelije: DNK i molekuli",
-      "section3Body": "U jedru skoro svake ćelije nalaze se dva cela kompleta vašeg genoma: 46 hromozoma sa oko 6 milijardi „slova“ DNK, parova baza. Dvostruka spirala široka je samo oko 2 nm, a ipak bi ispravljena DNK iz jedne ćelije bila duga oko 2 metra — spakovana u jedro široko nekoliko mikrometara. Idite još niže i stižete do molekula od kojih je sve napravljeno: molekul vode, najčešći u vašem telu, širok je oko 0,28 nm, a atom oko 0,1 nm.",
+      "section3Body": "U jedru svake ćelije koja ga ima nalaze se dva cela kompleta vašeg genoma: 46 hromozoma sa oko 6 milijardi parova baza — „slova“ DNK. Dvostruka spirala široka je samo oko 2 nm, a ipak bi ispravljena DNK iz jedne ćelije bila duga oko 2 metra — spakovana u jedro široko nekoliko mikrometara. Spustite se još dublje i stižete do molekula od kojih je sve napravljeno: molekul vode, najčešći u vašem telu, širok je oko 0,28 nm, a atom oko 0,1 nm.",
       "section4Heading": "Putnici: bakterije i virusi",
       "section4Body": "Isti popis iz 2016. procenio je da u nama i na nama živi oko 38 biliona bakterija, uglavnom u crevima — nešto više od naših sopstvenih ćelija, ali zajedno teških samo oko 0,2 kg, jer je svaka sićušna, tipično duga 1–2 µm. Virusi su još manji, uglavnom 20–300 nm, ispod onoga što svetlosni mikroskop može da pokaže; virus gripa širok je oko 100 nm. Većina tih putnika je bezopasna ili korisna: vare hranu koju mi ne možemo i potiskuju one koji bi nas razboleli.",
-      "keyNumber1Label": "Ljudske ćelije u telu odraslog",
+      "keyNumber1Label": "Ljudske ćelije u telu odrasle osobe",
       "keyNumber1Value": "oko 30 biliona",
-      "keyNumber2Label": "Bakterije u telu i na telu odraslog",
+      "keyNumber2Label": "Bakterije u telu i na telu odrasle osobe",
       "keyNumber2Value": "oko 38 biliona",
       "keyNumber3Label": "DNK iz jedne ćelije, ispravljena",
       "keyNumber3Value": "oko 2 m"
@@ -2729,19 +2729,19 @@
     },
     "thermal_expansion": {
       "term": "Toplotno širenje",
-      "definition": "Većina materijala se pri zagrevanju malo širi, jer njihovi atomi jače trepere i razmiču se. Inženjeri za to ostavljaju prostor kod mostova, šina i tornjeva — gvožđe Ajfelove kule pomera se za nekoliko centimetara između hladne noći i vrelog popodneva."
+      "definition": "Većina materijala se pri zagrevanju malo širi, jer njihovi atomi jače titraju i razmiču se. Inženjeri za to ostavljaju prostor kod mostova, šina i tornjeva — gvožđe Ajfelove kule pomera se za nekoliko centimetara između hladne noći i vrelog popodneva."
     },
     "wrought_iron": {
       "term": "Kovano gvožđe",
-      "definition": "Gvožđe sa vrlo malo ugljenika, oblikovano kovanjem umesto livenjem u kalupe. Žilavo i lako za zakivanje, bilo je glavni konstrukcioni metal 19. veka, dok ga jeftin čelik nije zamenio."
+      "definition": "Gvožđe sa vrlo malo ugljenika, oblikovano kovanjem umesto livenjem u kalupe. Žilavo i lako se zakiva, bilo je glavni konstrukcioni metal 19. veka, dok ga jeftin čelik nije zamenio."
     },
     "vanity_height": {
-      "term": "Ukrasna visina (vanity height)",
-      "definition": "Deo nebodera iznad najvišeg upotrebljivog sprata — najčešće toranj koji zgradu samo čini višom. Zvanične liste visine ubrajaju tornjeve, ali ne i antene, pa tornjevi odlučuju o rekordima; Burdž Kalifi toranj dodaje oko 243 m."
+      "term": "Visina iz sujete (vanity height)",
+      "definition": "Deo nebodera iznad najvišeg upotrebljivog sprata — najčešće toranj koji zgradu samo čini višom. Zvanične liste visine ubrajaju tornjeve, ali ne i antene, pa tornjevi odlučuju o rekordima; Burdž Kalifi toranj dodaje oko 244 m."
     },
     "serotiny": {
       "term": "Serotinija",
-      "definition": "Čuvanje semena u zatvorenim šišarkama dok ga nešto — najčešće vrelina požara — ne oslobodi. Šišarke džinovske sekvoje otvaraju se posle požara i spuštaju seme na osunčano tlo koje je vatra raščistila, gde mladice imaju šanse."
+      "definition": "Čuvanje semena u zatvorenim šišarkama dok ga nešto — najčešće vrelina požara — ne oslobodi. Šišarke džinovske sekvoje otvaraju se posle požara i spuštaju seme na osunčano tlo koje je vatra raščistila, gde klijanci imaju šansu da opstanu."
     },
     "hemoglobin": {
       "term": "Hemoglobin",
@@ -2753,7 +2753,7 @@
     },
     "red_supergiant": {
       "term": "Crveni superdžin",
-      "definition": "Masivna zvezda pri kraju života koja je potrošila vodonik u jezgru i naduvala se na stotine Sunčevih prečnika, sa hladnom, crvenom površinom. Većina završava kao supernova kolapsa jezgra."
+      "definition": "Masivna zvezda pri kraju života koja je potrošila vodonik u jezgru i naduvala se do nekoliko stotina Sunčevih prečnika, sa hladnom, crvenom površinom. Većina završava kao supernova s kolapsom jezgra."
     },
     "infrasound": {
       "term": "Infrazvuk",
@@ -2768,8 +2768,8 @@
       "definition": "„More peska“: široko područje dina koje nanosi vetar. Ergovi čine samo oko četvrtine Sahare; ostalo su stene i šljunak."
     },
     "tidal_bore": {
-      "term": "Plimni talas",
-      "definition": "Talas koji se uzvodno kreće uz reku, nasuprot toku, kada jaka plima naiđe na ušće — pororoka na Amazonu jedan je od najvećih."
+      "term": "Rečni plimni talas",
+      "definition": "Talas koji se kreće uzvodno, nasuprot toku, kada jaka plima naiđe na ušće — pororoka na Amazonu jedan je od najvećih."
     },
     "erosion": {
       "term": "Erozija",
@@ -2777,7 +2777,7 @@
     },
     "hypogeum": {
       "term": "Hipogeum",
-      "definition": "Podzemni nivo rimske arene: tuneli, kavezi i liftovi na užad koji su kroz otvore u podu dizali životinje i scenografiju u arenu."
+      "definition": "Podzemni nivo rimske arene: tuneli, kavezi i dizalice na užad koji su kroz otvore u podu dizali životinje i scenografiju u arenu."
     },
     "watertight_compartment": {
       "term": "Vodonepropusni odeljak",
@@ -2785,11 +2785,11 @@
     },
     "rammed_earth": {
       "term": "Nabijena zemlja",
-      "definition": "Vlažna zemlja, šljunak i kreč nabijani sloj po sloj između drvenih dasaka. Veliki deo ranog Kineskog zida građen je ovako, mnogo pre zidova od cigle iz doba dinastije Ming."
+      "definition": "Vlažna zemlja, šljunak i kreč nabijani sloj po sloj između drvenih dasaka. Veliki deo ranog Kineskog zida građen je ovako, mnogo pre ciglom obloženih delova iz doba dinastije Ming."
     },
     "anticyclone": {
       "term": "Anticiklon",
-      "definition": "Vremenski sistem oko oblasti visokog pritiska. Na južnoj polovini Jupitera, kao Velika crvena pega, okreće se suprotno od kazaljke na satu — obrnuto od uragana tamo."
+      "definition": "Vremenski sistem oko oblasti visokog pritiska. Na južnoj polulopti Jupitera, kao Velika crvena pega, okreće se suprotno od kazaljke na satu — suprotno od tamošnjih uragana."
     },
     "white_dwarf": {
       "term": "Beli patuljak",
@@ -2797,7 +2797,7 @@
     },
     "dwarf_planet": {
       "term": "Patuljasta planeta",
-      "definition": "Telo koje kruži oko Sunca i dovoljno je masivno da bude okruglo, ali nije očistilo svoju putanju od drugih objekata — najpoznatije su Pluton i Cerera."
+      "definition": "Telo koje kruži oko Sunca i dovoljno je masivno da bude okruglo, ali nije očistilo svoju putanju od drugih objekata — najpoznatiji su Pluton i Cerera."
     },
     "hydrogen_bond": {
       "term": "Vodonična veza",
@@ -3125,7 +3125,7 @@
       "short": "Znamenitosti",
       "title": "Znamenitosti, od Velike piramide do Burdž Kalife",
       "seoTitle": "Koliko su visoke znamenitosti? Piramida, Ajfel, Burdž",
-      "intro": "Čuvene građevine jedna pored druge: Kip slobode od 93 metra, Velika piramida — najviša građevina na Zemlji skoro četiri hiljade godina — Ajfelova kula od 330 metara i Burdž Kalifa od 828 metara, šest Velikih piramida jedna na drugoj.",
+      "intro": "Čuvene građevine jedna pored druge: Kip slobode od 93 metra, Velika piramida — najviša građevina na Zemlji skoro četiri hiljade godina — Ajfelova kula od 330 metara i Burdž Kalifa od 828 metara, visok kao šest Velikih piramida jedna na drugoj.",
       "metaDescription": "Od Kipa slobode (93 m) i Velike piramide (139 m) do Ajfelove kule (330 m) i Burdž Kalife (828 m): čuvene znamenitosti poređene po visini."
     },
     "comet": {
@@ -3139,14 +3139,14 @@
       "short": "Predeli",
       "title": "Veliki predeli Zemlje, po veličini",
       "seoTitle": "Najveći predeli Zemlje: od Everesta do Sahare",
-      "intro": "Rekorderi same planete: od 1,9 km dubokog Velikog kanjona i 11 km dubokog Marijanskog rova do Mont Everesta, reke Amazon duge 6.400 km i Sahare, široke skoro kao Sjedinjene Države.",
+      "intro": "Rekorderi same planete: od 1,9 km dubokog Velikog kanjona i 11 km dubokog Marijanskog rova do Mont Everesta, reke Amazon duge 6.400 km i Sahare, velike skoro kao Sjedinjene Države.",
       "metaDescription": "Mont Everest, Marijanski rov, Veliki kanjon, reka Amazon i Sahara upoređeni po veličini — veliki predeli Zemlje na jednoj skali."
     },
     "ancient": {
       "short": "Drevna čuda",
       "title": "Drevna čuda, po veličini",
       "seoTitle": "Drevna čuda: piramida, Koloseum i Kineski zid",
-      "intro": "Ono što su ljudi gradili snagom mišića, rampama i strpljenjem: Velika piramida od 139 metara, najviša građevina na Zemlji skoro četiri hiljade godina; Koloseum, arena duga 189 metara za oko 50.000 gledalaca; i Kineski zid, oko 21.000 km zidova podizanih dve hiljade godina.",
+      "intro": "Ono što su ljudi gradili snagom mišića, rampama i strpljenjem: Velika piramida od 139 metara, najviša građevina na Zemlji skoro četiri hiljade godina; Koloseum, arena duga 189 metara za oko 50.000 gledalaca; i Kineski zid, oko 21.000 km zidova podizanih tokom dve hiljade godina.",
       "metaDescription": "Velika piramida (139 m visine), Koloseum (189 m dužine) i Kineski zid (oko 21.196 km) upoređeni po veličini — najveće građevine drevnog sveta."
     }
   }

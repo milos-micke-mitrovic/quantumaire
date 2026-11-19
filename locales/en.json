@@ -428,7 +428,7 @@
     "PHYSICS": "Forces & Spacetime",
     "EARTH.description": "Living things and landscapes on our own planet — from a half-millimetre water bear to the giraffe, the blue whale, the Grand Canyon and the Sahara.",
     "PHYSICS.description": "Gravity, time, ripples in spacetime and quantum links — the rules that every object on the site has to obey.",
-    "EARTH.intro": "The stretch of the scale you can actually touch. Animal life alone spans nearly five orders of magnitude — from a tardigrade barely visible to the naked eye, through a human being, past an elephant and a giraffe to a blue whale longer than a basketball court — and the planet's own surface adds Mount Everest, almost nine kilometres of rock folded upward by colliding continents, the Grand Canyon, the 6,400 km Amazon River and the Sahara, almost as wide as the United States. The plant kingdom goes bigger still: General Sherman, a giant sequoia, stands 84 metres tall with a trunk holding nearly 1,500 cubic metres of wood. These topics anchor the cosmic numbers to things you already have a feel for.",
+    "EARTH.intro": "The stretch of the scale you can actually touch. Animal life alone spans nearly five orders of magnitude — from a tardigrade barely visible to the naked eye, through a human being, past an elephant and a giraffe to a blue whale longer than a basketball court — and the planet's own surface adds Mount Everest, almost nine kilometres of rock folded upward by colliding continents, the Grand Canyon, the 6,400 km Amazon River and the Sahara, almost as big as the United States. The plant kingdom goes bigger still: General Sherman, a giant sequoia, stands 84 metres tall with a trunk holding nearly 1,500 cubic metres of wood. These topics anchor the cosmic numbers to things you already have a feel for.",
     "PHYSICS.intro": "Not objects but the rules behind them. Gravity, the weakest force, still decides the shape of everything from planets to galaxy clusters; time itself runs at different speeds depending on how fast you move and how deep you sit in a gravity well; spacetime can ripple, and on paper it can even fold into a wormhole. These topics have no size you could put on a ruler — what they have is reach: everything else on the site obeys them."
   },
   "comparison": {
@@ -1664,7 +1664,7 @@
       "seoTitle": "How Tall Is the Burj Khalifa? The 828 m Skyscraper",
       "tagline": "The tallest building ever made — 828 metres, so high that the sun sets later at the top.",
       "body": "Burj Khalifa in Dubai, United Arab Emirates, has been the tallest building in the world since it opened on 4 January 2010. Designed by Skidmore, Owings & Merrill, it rises 828 m to the top of its spire (829.8 m to the tip of the antenna) and has 163 floors above ground. Its Y-shaped plan — three wings braced around a central core — keeps it steady in desert winds, and the tower steps back 27 times in a spiral as it climbs, so the wind cannot organise itself into rhythmic, shaking vortices. Building it took about 330,000 m³ of concrete and 55,000 tonnes of steel reinforcement.",
-      "narrative": "You would need 487 people standing on each other's heads to reach its top, or two and a half Eiffel Towers stacked end to end. About 243 m of that height is spire, though — without it the building would be 585 m tall.",
+      "narrative": "You would need 487 people standing on each other's heads to reach its top, or two and a half Eiffel Towers stacked end to end. About 244 m of that height is spire, though — without it the building would be 585 m tall.",
       "funFact": "The building is tall enough to stretch the sunset. On its upper floors the sun stays visible for a few minutes after it has set at street level — so during Ramadan, residents above the 80th floor wait two extra minutes to break their fast, and those above the 150th floor wait three.",
       "image": {
         "alt": "Burj Khalifa's silver, tapering spire rising far above the surrounding towers of downtown Dubai under a clear blue sky."
@@ -1674,7 +1674,7 @@
         "fact2": "163 floors above ground — more than any other building.",
         "fact3": "Opened on 4 January 2010 after six years of construction.",
         "fact4": "About 330,000 m³ of concrete and 55,000 tonnes of steel rebar.",
-        "fact5": "The spire alone is about 243 m — taller than the Great Pyramid.",
+        "fact5": "The spire alone is about 244 m — taller than the Great Pyramid.",
         "fact6": "Foundation: 192 piles, each 1.5 m wide and 43 m long.",
         "fact7": "57 lifts; 2,909 stairs from the ground floor to the 160th.",
         "fact8": "At its highest point the tower sways about 1.5 m."
@@ -1685,7 +1685,7 @@
       "name": "General Sherman Tree",
       "seoTitle": "How Big Is the General Sherman Tree? Largest on Earth",
       "tagline": "The largest living tree on Earth — 1,487 cubic metres of wood, still growing after more than two thousand years.",
-      "body": "General Sherman is a giant sequoia (Sequoiadendron giganteum) in the Giant Forest of Sequoia National Park, California. It is not the tallest tree — that is Hyperion, a coast redwood about 116 m high — nor the widest, but by volume it is the largest single-stem tree known: its trunk holds about 1,487 m³ of wood. It stands 83.8 m tall, its trunk is 7.7 m across near the base, and it is estimated to be 2,300–2,700 years old. Giant sequoias owe their long lives partly to fire: spongy bark up to about 90 cm thick shields the living wood, and the heat of a blaze helps their cones open and drop seeds onto freshly cleared ground.",
+      "body": "General Sherman is a giant sequoia (Sequoiadendron giganteum) in the Giant Forest of Sequoia National Park, California. It is not the tallest tree — that is Hyperion, a coast redwood about 116 m high — nor the widest, but by volume it is the largest single-stem tree known: its trunk holds about 1,487 m³ of wood. It stands 83.8 m tall, its trunk is 7.7 m across at chest height (about 11 m at the very base), and it is estimated to be 2,300–2,700 years old. Giant sequoias owe their long lives partly to fire: spongy bark up to about 90 cm thick shields the living wood, and the heat of a blaze helps their cones open and drop seeds onto freshly cleared ground.",
       "narrative": "Its trunk alone would fill more than half an Olympic swimming pool. To match its height you would need 49 people standing on each other's heads — or three blue whales, the largest animals ever, balanced nose to tail.",
       "funFact": "In January 2006 the tree's largest branch — over 2 m thick and 30 m long, bigger than the trunks of most trees — snapped off on its own and smashed the fence and part of the path below. Nobody saw it fall. In 2021, as a wildfire approached, firefighters wrapped the base of the tree in protective foil; it came through unharmed.",
       "image": {
@@ -1694,7 +1694,7 @@
       "facts": {
         "fact1": "Height: 83.8 m.",
         "fact2": "Trunk volume: about 1,487 m³ — the largest of any known single-stem tree.",
-        "fact3": "Diameter near the base: about 7.7 m.",
+        "fact3": "Trunk diameter: 7.7 m at chest height, about 11 m at the very base.",
         "fact4": "Estimated age: 2,300–2,700 years.",
         "fact5": "A giant sequoia — a species that grows wild only on the western slopes of California's Sierra Nevada.",
         "fact6": "Not the tallest tree: Hyperion, a coast redwood, reaches about 116 m.",
@@ -1707,7 +1707,7 @@
       "name": "Betelgeuse",
       "seoTitle": "How Big Is Betelgeuse? The Red Supergiant in Orion",
       "tagline": "Orion's red shoulder — a star so swollen it would swallow the orbit of Mars, and one day it will explode.",
-      "body": "Betelgeuse is the reddish star marking Orion's shoulder, usually the tenth-brightest in the night sky. It is a red supergiant: born less than 10 million years ago with perhaps 15 to 20 times the Sun's mass, it has already used up the hydrogen in its core and swollen enormously. Its radius is roughly 640–764 times the Sun's — the spread comes mostly from how hard its distance is to pin down, somewhere around 400–600 light-years (548 in a 2020 study). Put it where the Sun is and its surface would lie beyond the asteroid belt, engulfing the orbits of Mercury, Venus, Earth and Mars.",
+      "body": "Betelgeuse is the reddish star marking Orion's shoulder, usually the tenth-brightest in the night sky. It is a red supergiant: born less than 10 million years ago with perhaps 15 to 20 times the Sun's mass, it has already used up the hydrogen in its core and swollen enormously. Its radius is roughly 640–764 times the Sun's — the spread comes mostly from how hard its distance is to pin down, somewhere around 400–600 light-years (548 in a 2020 study). Put it where the Sun is and its surface would reach into or beyond the asteroid belt, engulfing the orbits of Mercury, Venus, Earth and Mars.",
       "narrative": "If the Sun were a 1 cm marble, Betelgeuse would be a ball about 7.6 m across — wider than a two-storey house is tall.",
       "funFact": "Betelgeuse will end as a supernova, most likely within the next 100,000 years. When it does, it will shine about as brightly as a half Moon for months and be visible in daylight — yet at roughly 550 light-years it is far too distant to harm us. Its sudden fading in 2019–2020, the \"Great Dimming\", was not the countdown: Hubble showed the star had thrown off a cloud of gas that cooled into dust and blocked part of its light.",
       "image": {
@@ -1717,7 +1717,7 @@
         "fact1": "Radius: about 640–764 times the Sun's — roughly a billion km across.",
         "fact2": "Distance: about 400–600 light-years; a 2020 study gives 548.",
         "fact3": "Surface temperature: about 3,600 K — cool enough to glow orange-red.",
-        "fact4": "Mass: roughly 10–20 times the Sun's; age under 10 million years.",
+        "fact4": "Mass: roughly 15–20 times the Sun's; age under 10 million years.",
         "fact5": "Expected to explode as a supernova within about 100,000 years.",
         "fact6": "In the Great Dimming of 2019–2020 it lost more than half its brightness — a change visible to the naked eye.",
         "fact7": "It probably has a small companion star, Siwarha, first seen in 2025.",
@@ -1732,7 +1732,7 @@
       "tagline": "A vast, unseen shell of icy bodies around the Sun — so far out that it reaches a good part of the way to the next star.",
       "body": "The Oort cloud is a theorised shell of icy planetesimals — leftover building blocks of the planets, flung outward by the giant planets — surrounding the Sun from roughly 2,000 to 100,000 astronomical units or more: about 1.6 light-years, and by some estimates twice that. No telescope has ever seen an object in it; the bodies are too small, dark and distant. Its existence is inferred from long-period comets, which fall towards the Sun from every direction of the sky, not just from the plane of the planets. Estonian astronomer Ernst Öpik suggested such a reservoir in 1932, and Dutch astronomer Jan Oort worked out the argument in detail in 1950.",
       "narrative": "Shrink the Sun–Earth distance to one metre and every planet fits within 30 metres of the Sun, while the Oort cloud's outer edge would be about 100 km away. Voyager 1, the most distant spacecraft, will not even reach the inner edge for about 300 years — and would need about 30,000 more to cross it.",
-      "funFact": "The cloud may hold trillions of icy bodies larger than a kilometre, yet all of them together might weigh only about five Earths. Every so often a passing star or the tug of the Milky Way nudges one inward, and it may arrive centuries later as a great comet — like Comet McNaught, pictured here in 2007.",
+      "funFact": "The cloud may hold trillions of icy bodies larger than a kilometre, yet all of them together might weigh only about five Earths. Every so often a passing star or the tug of the Milky Way nudges one inward, and it may arrive — perhaps a million years later — as a great comet — like Comet McNaught, pictured here in 2007.",
       "image": {
         "alt": "Comet McNaught's broad, feathered tail arching over the telescope domes of Paranal Observatory in the Chilean night sky, January 2007."
       },
@@ -1752,7 +1752,7 @@
       "name": "Red Blood Cell",
       "seoTitle": "How Big Is a Red Blood Cell? Size, Shape & Numbers",
       "tagline": "The body's oxygen courier — a squashed disc 7.5 micrometres wide, and the most numerous cell you own.",
-      "body": "Red blood cells (erythrocytes) carry oxygen from the lungs to every tissue and bring carbon dioxide back. A human one is a flexible biconcave disc — thick at the rim, thin in the middle — about 6.2–8.2 µm across and 2–2.5 µm thick. To make room for oxygen-carrying haemoglobin it throws out its nucleus as it matures, so it can neither divide nor repair itself; after about 100–120 days in circulation it is broken down and recycled. An adult has roughly 20–30 trillion of them, about 70% of all the cells in the body by number.",
+      "body": "Red blood cells (erythrocytes) carry oxygen from the lungs to every tissue and bring carbon dioxide back. A human one is a flexible biconcave disc — thick at the rim, thin in the middle — about 6.2–8.2 µm across and 2–2.5 µm thick. To make room for oxygen-carrying haemoglobin it throws out its nucleus as it matures, so it can neither divide nor repair itself; after about 100–120 days in circulation it is broken down and recycled. An adult has roughly 20–30 trillion of them, more than 80% of all the cells in the body by number.",
       "narrative": "Line up 130 red blood cells and they would just span a millimetre. The ones in your body, laid edge to edge, would wrap around Earth four to five times.",
       "funFact": "A red blood cell is wider than the narrowest capillaries it has to pass through, so it bends into a bullet or cigar shape and squeezes along in single file. It makes a full lap of your circulation in about a minute — and your bone marrow replaces them at roughly 2.4 million new cells every second.",
       "image": {
@@ -1761,7 +1761,7 @@
       "facts": {
         "fact1": "Diameter: about 6.2–8.2 µm; about 2–2.5 µm thick at the rim and under 1 µm in the centre.",
         "fact2": "Each one holds about 270 million haemoglobin molecules.",
-        "fact3": "An adult carries roughly 20–30 trillion — about 70% of all body cells by number.",
+        "fact3": "An adult carries roughly 20–30 trillion — more than 80% of all body cells by number.",
         "fact4": "Lifespan in the bloodstream: about 100–120 days.",
         "fact5": "No nucleus: it is expelled during development to make room for haemoglobin.",
         "fact6": "About 2.4 million new red blood cells are made every second, in the bone marrow.",
@@ -1817,7 +1817,7 @@
       "name": "Giraffe",
       "tagline": "The tallest animal alive — a neck nearly two metres long, built from just seven bones.",
       "body": "Giraffes are the tallest living animals: males reach about 5.5 metres, tall enough to look into a second-floor window, and females about 4.3 m. The neck alone can be close to 2 metres long, yet it has the same seven vertebrae as yours, each one simply stretched. Pumping blood that high takes a heart of around 11 kg and a blood pressure roughly twice a human's; tight skin on the legs works like a pilot's pressure suit so blood doesn't pool in the feet. Giraffes live in the savannas and open woodlands of Africa, where their height lets them browse acacia leaves no other grazer can reach.",
-      "narrative": "A tall male is more than three times your height — stand three adults on each other's shoulders and they'd only just look it in the eye.",
+      "narrative": "A tall male is more than three times your height — stand three adults on each other's shoulders and the top one would still be looking up at its eyes.",
       "funFact": "A giraffe's tongue is about 45–50 cm long and dark blue-black, probably to protect it from sunburn during hours of browsing — and tough enough to wrap around thorny acacia branches.",
       "seoTitle": "How Tall Is a Giraffe? The Tallest Animal Alive",
       "metaDescription": "Male giraffes stand about 5.5 m tall — the tallest living animals — with a 2 m neck made of just seven vertebrae. Height compared to a human.",
@@ -1835,7 +1835,7 @@
     },
     "sahara": {
       "name": "Sahara",
-      "tagline": "The largest hot desert on Earth — almost as wide as the United States, and green only 6,000 years ago.",
+      "tagline": "The largest hot desert on Earth — almost as big as the United States, and green only 6,000 years ago.",
       "body": "The Sahara covers about 9.2 million km² of North Africa, stretching some 4,800 km from the Atlantic to the Red Sea and reaching into eleven countries. Only about a quarter of it is sand dunes; most is bare rock plateau and gravel plain. Summer afternoons regularly pass 40 °C, yet the dry air lets nights fall close to freezing. It hasn't always been desert: during the African Humid Period, roughly 11,000 to 5,000 years ago, lakes, grassland and hippos covered much of it, and rock art from that time shows cattle herders where there is now only sand.",
       "narrative": "Lay the Sahara over Europe and it would stretch from Lisbon to beyond Moscow — Mercury, the smallest planet, is barely wider.",
       "funFact": "The desert feeds the rainforest: winds carry about 28 million tonnes of Saharan dust across the Atlantic to the Amazon basin every year, and its phosphorus helps replace what the rain washes out of the rainforest soil.",
@@ -1869,7 +1869,7 @@
         "fact1": "Length: about 6,400 km (some measurements give over 6,900 km).",
         "fact2": "Average flow: about 209,000 m³ of water a second.",
         "fact3": "Carries about 20% of all the river water that reaches the oceans.",
-        "fact4": "Drainage basin: about 7 million km², shared by nine countries.",
+        "fact4": "Drainage basin: about 7 million km², shared by eight countries and French Guiana.",
         "fact5": "No bridge crosses the main river anywhere along its length.",
         "fact6": "Home to more than 2,500 known species of fish."
       }
@@ -1938,7 +1938,7 @@
     "great_wall": {
       "name": "Great Wall of China",
       "tagline": "Not one wall but thousands of kilometres of them, built over 2,000 years — about 21,000 km in all.",
-      "body": "The Great Wall is a network of walls, trenches and natural barriers built across northern China from the 7th century BC to the 17th century AD. A 2012 survey counted 21,196 km of it, all dynasties and branches included; the best-known stone-and-brick sections, with their watchtowers, are the Ming wall of the 14th–17th centuries, about 8,850 km long. Rammed earth, stone, brick and even sticky rice mortar went into it, and it was manned by garrisons that signalled with smoke and fire. Despite the popular claim, it is not visible to the naked eye from orbit: it is only a few metres wide and much the same colour as the land around it.",
+      "body": "The Great Wall is a network of walls, trenches and natural barriers built across northern China from the 7th century BC to the 17th century AD. A 2012 survey counted 21,196 km of it, all dynasties and branches included; the best-known stone-and-brick sections, with their watchtowers, are the Ming wall of the 14th–17th centuries, about 8,850 km long. Rammed earth, stone, brick and even sticky rice mortar went into it, and it was manned by garrisons that signalled with smoke and fire. Despite the popular claim, astronauts can barely, if ever, pick it out with the naked eye from orbit: it is only a few metres wide and much the same colour as the land around it.",
       "narrative": "Counting every branch, the wall would stretch more than halfway around the Earth — about 1.7 times the planet's width.",
       "funFact": "Builders in the Ming dynasty mixed sticky rice soup into their lime mortar. The rice's amylopectin makes the mortar stronger and more water-resistant, which is part of why those sections have lasted 500 years.",
       "seoTitle": "How Long Is the Great Wall of China? Length Compared",
@@ -1951,14 +1951,14 @@
         "fact2": "The Ming-dynasty wall alone: about 8,850 km.",
         "fact3": "Built and rebuilt from the 7th century BC to the 17th century AD.",
         "fact4": "Ming sections are typically 6–8 m tall and 4–5 m wide on top.",
-        "fact5": "Not visible to the naked eye from orbit, as astronauts have confirmed.",
+        "fact5": "Practically invisible to the naked eye from orbit, and not visible at all from the Moon.",
         "fact6": "A UNESCO World Heritage Site since 1987."
       }
     },
     "great_red_spot": {
       "name": "Great Red Spot",
       "tagline": "A storm on Jupiter wider than the whole Earth — raging for at least 150 years.",
-      "body": "The Great Red Spot is a giant high-pressure storm in Jupiter's southern hemisphere: an oval about 16,350 km wide when NASA's Juno flew over it in 2017, roughly 1.3 times the width of Earth. Winds around its edge reach about 430 km/h, and the whole vortex turns once every six days or so. It has been watched continuously since 1878, and in the late 1800s it was about 40,000 km long — it has been shrinking and becoming rounder ever since. Juno's microwave measurements suggest its roots reach some 200–500 km down into the atmosphere; its red colour probably comes from chemicals in the cloud tops altered by sunlight.",
+      "body": "The Great Red Spot is a giant high-pressure storm in Jupiter's southern hemisphere: an oval about 16,350 km wide when NASA's Juno flew over it in 2017, roughly 1.3 times the width of Earth. Winds around its edge reach about 430 km/h, and the whole vortex turns once every four to six days. It has been watched continuously since 1878, and in the late 1800s it was about 40,000 km long — it has been shrinking and becoming rounder ever since. Juno's microwave measurements suggest its roots reach some 200–500 km down into the atmosphere; its red colour probably comes from chemicals in the cloud tops altered by sunlight.",
       "narrative": "Drop Earth into the Great Red Spot and it would fit with room to spare — and in the 1800s, three Earths would have fitted side by side.",
       "funFact": "A dark spot seen on Jupiter by Giovanni Cassini from 1665 to 1713 was long thought to be the same storm, which would make it over 350 years old. A 2024 study of old drawings concluded it was probably a different storm that faded away — today's spot was first recorded in 1831.",
       "seoTitle": "How Big Is the Great Red Spot? Jupiter's Giant Storm",
@@ -1970,7 +1970,7 @@
         "fact1": "Width: about 16,350 km (Juno, 2017) — about 1.3 times Earth.",
         "fact2": "In the late 1800s it was about 40,000 km long; it has been shrinking since.",
         "fact3": "Winds at its edge: about 430 km/h.",
-        "fact4": "Turns once about every 6 Earth days.",
+        "fact4": "Turns once every 4–6 Earth days.",
         "fact5": "Reaches roughly 200–500 km down into Jupiter's atmosphere.",
         "fact6": "Watched continuously since 1878; first recorded in 1831."
       }
@@ -2040,7 +2040,7 @@
       "name": "Pollen Grain",
       "tagline": "A plant's sperm carrier in an armoured shell — tough enough to last for millions of years.",
       "body": "A pollen grain carries a flowering plant's or conifer's male cells to another flower or cone. Most grains are 10 to 100 micrometres across — a typical one about 25 µm, a quarter the width of a human hair — though forget-me-not pollen is only about 5 µm and pumpkin pollen reaches about 200 µm. Each species has its own shape: spiky balls, smooth beads, grains with air sacs that let pine pollen drift for hundreds of kilometres. The outer wall is made of sporopollenin, one of the toughest natural materials known, so pollen survives in lake mud and rock for millions of years and lets scientists read past climates and even solve crimes.",
-      "narrative": "Three typical pollen grains side by side are about as wide as a single human hair.",
+      "narrative": "Three or four typical pollen grains side by side are about as wide as a single human hair.",
       "funFact": "A single ragweed plant can release up to a billion pollen grains in one season — and hay fever, the immune system's overreaction to them, affects roughly 10 to 30% of adults around the world.",
       "seoTitle": "How Big Is a Pollen Grain? Size Compared",
       "metaDescription": "Most pollen grains are 10–100 µm across, typically about 25 µm — a quarter the width of a human hair. Size, shapes and why pollen lasts for millions of years.",
@@ -2315,9 +2315,9 @@
       "title": "Tallest Buildings and Structures",
       "seoTitle": "Tallest Buildings in the World, Compared by Height",
       "tagline": "From the Great Pyramid to the Burj Khalifa — how the record for the tallest thing people have built kept climbing, and what stops it.",
-      "intro": "For nearly four thousand years the tallest thing people had ever built was a pile of limestone in Egypt. Then, in a little over a century, iron and steel took the record from 139 metres to 828. Here is how the height record climbed, how heights are actually measured, what limits a skyscraper, and how our tallest works compare with the tallest things nature grows — side by side on one scale.",
+      "intro": "For nearly four thousand years the tallest thing people had ever built was a pile of limestone in Egypt. Then, in a little over a century, iron and steel took the record from about 170 metres to 828. Here is how the height record climbed, how heights are actually measured, what limits a skyscraper, and how our tallest works compare with the tallest things nature grows — side by side on one scale.",
       "section1Heading": "How the record climbed",
-      "section1Body": "The Great Pyramid of Giza was finished around 2560 BC at about 146.6 m; it has since lost its top and casing and stands about 139 m today. Nothing built by people topped it until the spire of Lincoln Cathedral in England, around 1311, which reached about 160 m before it blew down in 1548. The **Eiffel Tower** of 1889 nearly doubled the record at 300 m — 330 m today with its antennas — and held it until New York's Chrysler Building passed it in 1930. Skyscrapers then raced upward: the Empire State Building (381 m) in 1931, Taipei 101 (508 m) in 2004 and the Burj Khalifa, 828 m, in 2010.",
+      "section1Body": "The Great Pyramid of Giza was finished around 2560 BC at about 146.6 m; it has since lost its top and casing and stands about 139 m today. Nothing built by people topped it until the spire of Lincoln Cathedral in England, around 1311, which reached about 160 m before it blew down in 1548. The **Eiffel Tower** of 1889 nearly doubled the record at 300 m — 330 m today with its antennas — and held it until New York's Chrysler Building passed it in 1930. The tallest-building record then raced upward — the Empire State Building (381 m) in 1931, Taipei 101 (508 m) in 2004 and the Burj Khalifa, 828 m, in 2010 — while for a few decades thin guyed radio masts were taller still, such as the 646 m Warsaw Radio Mast (1974–1991).",
       "section2Heading": "How tall is tall? The rules",
       "section2Body": "Heights sound simple until you have to decide where the top is. The Council on Tall Buildings and Urban Habitat measures a building to its architectural top — spires count, but antennas, flagpoles and signs do not. That is why spires are popular: they add height cheaply. The empty spire and top floors of the Burj Khalifa add about 244 m that nobody can live or work in, a so-called vanity height. Statues have their own conventions too: the Statue of Liberty is 46 m from heel to torch, but 93 m from the ground once you include its pedestal and foundation.",
       "section3Heading": "Why buildings can't just keep growing",
@@ -2333,11 +2333,11 @@
       "tagline": "From a 1.7-metre person down through 30 trillion cells to DNA two nanometres wide — and the bacteria and viruses that ride along.",
       "intro": "You are the most familiar object on the scale, and also one of the most crowded. A 1.7-metre human is built from about 30 trillion cells, each packed with molecules, and carries roughly as many bacteria again. Here is the body from the outside in — person, cells, molecules — and the microscopic passengers that live on and in us, each with a size you can compare.",
       "section1Heading": "You, at about 1.7 metres",
-      "section1Body": "Quantumaire uses 1.7 m for an adult **human** — about the world average across men and women. A typical adult body is around 60% water by mass, and it contains roughly 7 × 10²⁷ atoms, most of them hydrogen. Scale it all up and the numbers stay surprising: laid end to end, the blood vessels in one adult would stretch tens of thousands of kilometres, and the total surface of your lungs' air sacs is about half a tennis court.",
+      "section1Body": "Quantumaire uses 1.7 m for an adult **human** — a little above the world average across men and women. A typical adult body is around 60% water by mass, and it contains roughly 7 × 10²⁷ atoms, most of them hydrogen. Scale it all up and the numbers stay surprising: laid end to end, the blood vessels in one adult would stretch tens of thousands of kilometres, and the total surface of your lungs' air sacs is about half a tennis court.",
       "section2Heading": "Thirty trillion cells",
       "section2Body": "A 2016 census of the body counted about 30 trillion human cells — and about 84% of them are red blood cells, little discs about 7.5 µm wide that carry oxygen. A typical body cell is around 10 µm across, roughly a tenth of a hair's width. The extremes are far apart: an egg cell is about 0.1 mm, just visible to the naked eye, while some nerve cells run about a metre, from the base of the spine to the toes. Your body replaces billions of cells every day; red blood cells last about four months.",
       "section3Heading": "Inside a cell: DNA and molecules",
-      "section3Body": "Inside almost every cell's nucleus sit two full sets of your genome: 46 chromosomes holding about 6 billion base-pair 'letters' of DNA. The double helix is only about 2 nm wide, yet stretched out the DNA in a single cell would be about 2 metres long — packed into a nucleus a few micrometres across. Go smaller and you reach the molecules everything is made of: a water molecule, the most common one in your body, is about 0.28 nm across, and an atom is about 0.1 nm.",
+      "section3Body": "Inside the nucleus of every cell that has one sit two full sets of your genome: 46 chromosomes holding about 6 billion base-pair 'letters' of DNA. The double helix is only about 2 nm wide, yet stretched out the DNA in a single cell would be about 2 metres long — packed into a nucleus a few micrometres across. Go smaller and you reach the molecules everything is made of: a water molecule, the most common one in your body, is about 0.28 nm across, and an atom is about 0.1 nm.",
       "section4Heading": "The passengers: bacteria and viruses",
       "section4Body": "The same 2016 census estimated about 38 trillion bacteria living in and on us, mostly in the gut — slightly more than our own cells, but together weighing only about 0.2 kg because each is so small, typically 1–2 µm long. Viruses are smaller still, mostly 20–300 nm, below what a light microscope can show; the flu virus is about 100 nm across. Most of these passengers are harmless or helpful, digesting food we can't and crowding out the ones that would make us ill.",
       "keyNumber1Label": "Human cells in an adult body",
@@ -2737,7 +2737,7 @@
     },
     "vanity_height": {
       "term": "Vanity height",
-      "definition": "The part of a skyscraper above its highest usable floor — usually a spire that does nothing but make the building taller. Official height rankings count spires but not antennas, so spires decide records; Burj Khalifa's adds about 243 m."
+      "definition": "The part of a skyscraper above its highest usable floor — usually a spire that does nothing but make the building taller. Official height rankings count spires but not antennas, so spires decide records; Burj Khalifa's adds about 244 m."
     },
     "serotiny": {
       "term": "Serotiny",
@@ -3139,7 +3139,7 @@
       "short": "Landscapes",
       "title": "Earth's great landscapes, by size",
       "seoTitle": "Earth's Biggest Landscapes: Everest to the Sahara",
-      "intro": "The planet's own record-breakers, from the Grand Canyon's 1.9 km drop and the 11 km Mariana Trench to Mount Everest, the 6,400 km Amazon River and the Sahara, almost as wide as the United States.",
+      "intro": "The planet's own record-breakers, from the Grand Canyon's 1.9 km drop and the 11 km Mariana Trench to Mount Everest, the 6,400 km Amazon River and the Sahara, almost as big as the United States.",
       "metaDescription": "Mount Everest, the Mariana Trench, the Grand Canyon, the Amazon River and the Sahara compared by size — Earth's great landscapes on one scale."
     },
     "ancient": {

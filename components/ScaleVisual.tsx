@@ -4,6 +4,7 @@ import { m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { formatMeters } from "@/lib/scale";
 import { useUnits } from "@/lib/units";
+import { isRoundStop, sizeLabelKey } from "@/lib/references";
 import type { Stop } from "@/lib/types";
 
 interface ScaleVisualProps {
@@ -15,6 +16,10 @@ const VIEW = 600;
 const CENTER = VIEW / 2;
 const BIGGER_R = VIEW * 0.36; // 216
 const MIN_SMALLER_R = 3.5; // never disappear
+const BAR_X = 16;
+const BAR_W = VIEW - BAR_X * 2;
+const BAR_H = 56;
+const MIN_BAR_W = 2;
 
 /**
  * True-proportional size comparison between two stops.
@@ -24,6 +29,9 @@ const MIN_SMALLER_R = 3.5; // never disappear
  * the smaller circle would be smaller than `MIN_SMALLER_R` pixels we clamp
  * to the minimum and surface "not to scale" so the visual is never
  * misleading.
+ *
+ * Circles only when both things are round (planets, stars, cells…); a
+ * giraffe and a human are two true-scale bars from a common start line.
  *
  * If either side is abstract (no meters), we render a polite note instead.
  */
@@ -52,9 +60,11 @@ export function ScaleVisual({ a, b }: ScaleVisualProps) {
   const biggerSide: "A" | "B" = aSize >= bSize ? "A" : "B";
   const smallerSide: "A" | "B" = biggerSide === "A" ? "B" : "A";
 
+  const circles = isRoundStop(a) && isRoundStop(b);
   const trueSmallerR = BIGGER_R / ratio;
   const smallerR = Math.max(MIN_SMALLER_R, trueSmallerR);
-  const isToScale = trueSmallerR >= MIN_SMALLER_R;
+  const trueBarW = BAR_W / ratio;
+  const isToScale = circles ? trueSmallerR >= MIN_SMALLER_R : trueBarW >= MIN_BAR_W;
   const isSameSize = Math.abs(ratio - 1) < 0.001;
 
   // Smaller circle sits in the upper-centre area of the bigger one — close to
@@ -82,6 +92,41 @@ export function ScaleVisual({ a, b }: ScaleVisualProps) {
         <p className="mx-auto mt-5 max-w-md text-center text-sm leading-relaxed text-cosmos-star/70">
           {t("common.comparePage.tooExtreme")}
         </p>
+      ) : !circles ? (
+      <div className="mx-auto mt-5 w-full max-w-[520px]">
+        <svg
+          viewBox={`0 0 ${VIEW} 240`}
+          className="block h-auto w-full"
+          role="img"
+          aria-label={`${biggerName} vs ${smallerName}`}
+        >
+          <line x1={BAR_X} x2={BAR_X} y1={28} y2={212} stroke="rgba(255,255,255,0.35)" strokeWidth="2" />
+          <motion.rect
+            initial={{ width: 0 }}
+            animate={{ width: BAR_W }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
+            x={BAR_X}
+            y={48}
+            height={BAR_H}
+            rx={8}
+            fill="rgba(124,92,255,0.45)"
+            stroke="rgba(124,92,255,0.8)"
+            strokeWidth="2"
+          />
+          <motion.rect
+            initial={{ width: 0 }}
+            animate={{ width: trueBarW }}
+            transition={{ duration: 0.5, ease: "easeOut", delay: 0.15 }}
+            x={BAR_X}
+            y={136}
+            height={BAR_H}
+            rx={Math.min(8, trueBarW / 2)}
+            fill="#f0abfc"
+            stroke="rgba(255,255,255,0.85)"
+            strokeWidth="1.5"
+          />
+        </svg>
+      </div>
       ) : (
       <div className="mx-auto mt-5 w-full max-w-[480px]">
         <svg
@@ -161,6 +206,9 @@ export function ScaleVisual({ a, b }: ScaleVisualProps) {
             <span className="mt-0.5 block truncate font-display text-base text-cosmos-star">
               {biggerName}
             </span>
+            <span className="mt-0.5 block text-[9px] font-medium uppercase tracking-[0.22em] text-cosmos-star/50">
+              {t(sizeLabelKey(bigger))}
+            </span>
             <span className="mt-0.5 block font-mono text-xs text-cosmos-plasma">
               {formatMeters(bigger.sizeMeters, t, units)}
             </span>
@@ -177,6 +225,9 @@ export function ScaleVisual({ a, b }: ScaleVisualProps) {
             </span>
             <span className="mt-0.5 block truncate font-display text-base text-cosmos-star">
               {smallerName}
+            </span>
+            <span className="mt-0.5 block text-[9px] font-medium uppercase tracking-[0.22em] text-cosmos-star/50">
+              {t(sizeLabelKey(smaller))}
             </span>
             <span className="mt-0.5 block font-mono text-xs text-cosmos-plasma">
               {formatMeters(smaller.sizeMeters, t, units)}

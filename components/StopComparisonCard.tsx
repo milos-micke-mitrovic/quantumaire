@@ -8,6 +8,8 @@ import {
   isRoundReference,
   isRoundStop,
   pickReference,
+  referenceLabelKey,
+  sizeLabelKey,
   type Reference,
 } from "@/lib/references";
 import { formatMeters } from "@/lib/scale";
@@ -220,7 +222,7 @@ export function StopComparisonCard({ stop }: StopComparisonCardProps) {
                 {visual.stopIsBigger ? stopName : refNameNode}
               </span>
               <span className="mt-1 block text-[9px] font-medium uppercase tracking-[0.22em] text-cosmos-star/50">
-                {t("common.size")}
+                {t(visual.stopIsBigger ? sizeLabelKey(stop) : referenceLabelKey(visual.reference))}
               </span>
               <span className="mt-0.5 block whitespace-nowrap font-mono text-[11px] text-cosmos-plasma sm:text-xs">
                 {formatMeters(
@@ -243,7 +245,7 @@ export function StopComparisonCard({ stop }: StopComparisonCardProps) {
                 {visual.stopIsBigger ? refNameNode : stopName}
               </span>
               <span className="mt-1 block text-[9px] font-medium uppercase tracking-[0.22em] text-cosmos-star/50">
-                {t("common.size")}
+                {t(visual.stopIsBigger ? referenceLabelKey(visual.reference) : sizeLabelKey(stop))}
               </span>
               <span className="mt-0.5 block whitespace-nowrap font-mono text-[11px] text-cosmos-plasma sm:text-xs">
                 {formatMeters(
