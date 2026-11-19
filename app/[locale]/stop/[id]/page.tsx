@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/JsonLd";
 import { StopDetail } from "@/components/StopDetail";
+import { EverydayScale } from "@/components/EverydayScale";
 import { SpacecraftSpeeds } from "@/components/SpacecraftSpeeds";
 import { StopSizeFaq } from "@/components/StopSizeFaq";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -136,6 +137,7 @@ export default async function StopPage({ params }: PageProps) {
         related={related}
         lastUpdated={SITE_MODIFIED}
       >
+        <EverydayScale stop={stop} locale={typed} />
         <StopSizeFaq
           locale={typed}
           heading={tServer(typed, "sizeFaq.heading", {

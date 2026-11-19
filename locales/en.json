@@ -44,7 +44,7 @@
       "youAreHere": "You are here"
     },
     "abstract": "abstract",
-    "footer": "Crafted with curiosity. Truth-badged for honesty.",
+    "footer": "Every stop carries an honesty badge — Fact, Established theory, Probable theory or Speculative — so you always know how sure science is.",
     "glossary": "Glossary",
     "about": "About",
     "relatedStops": "Related stops",
@@ -226,28 +226,31 @@
       "favoritesDesc": "Stops you saved with the heart",
       "progressDesc": "How much of the journey you've seen",
       "categories": "Categories"
-    }
+    },
+    "heroCredit": "Background: Webb's First Deep Field — NASA, ESA, CSA, STScI"
   },
   "home": {
     "faq": {
+      "eyebrow": "FAQ",
       "heading": "Frequently asked",
-      "tagline": "Short answers to the questions Quantumaire gets most often.",
-      "q1": "What is Quantumaire?",
-      "a1": "An interactive educational journey from the smallest known particles to the observable universe, with the trustworthiness of every claim transparently labelled as Fact, Established Theory, Probable Theory, or Speculative.",
-      "q2": "How big is Earth compared to a quark?",
-      "a2": "Roughly 25 orders of magnitude. Earth's diameter is about 1.27 × 10⁷ metres, a quark is no larger than 10⁻¹⁸ metres. Quantumaire uses a 0.5 mm grain of sand as a stand-in for Earth so the rest of the universe becomes intuitive.",
-      "q3": "What is dark matter?",
-      "a3": "An invisible form of matter whose gravity holds galaxies together. It outweighs ordinary matter about five to one. We map it through gravitational lensing, but its particle nature is still unknown.",
-      "q4": "What is dark energy?",
-      "a4": "A still-unexplained energy that appears to be accelerating the expansion of the universe. It accounts for roughly 68% of the total mass-energy of the cosmos.",
-      "q5": "What is the largest known star?",
-      "a5": "Red supergiants and hypergiants such as UY Scuti and Stephenson 2-18 are among the largest stars known by radius — placed where the Sun is, UY Scuti's surface would reach past Mars, and the very largest might extend beyond Jupiter. They are also among the shortest-lived stars in the galaxy.",
-      "q6": "What is the largest known black hole?",
-      "a6": "TON 618 and Phoenix-A are leading candidates for the most massive known black holes, each weighing tens of billions of solar masses — roughly ten thousand times more than the supermassive black hole at the centre of our Milky Way (Sagittarius A*).",
-      "q7": "How far is the observable universe?",
-      "a7": "The cosmic horizon is roughly 46 billion light-years from Earth in every direction, making the full observable universe a sphere about 93 billion light-years across. Beyond it almost certainly lies more space we can never see.",
-      "q8": "What languages does Quantumaire support?",
-      "a8": "English and Serbian (Latin script). Every stop has equivalent canonical URLs in both languages, so each version can be discovered, cited, and translated independently by both humans and AI search engines."
+      "tagline": "Short answers to the big questions people ask about size and space.",
+      "readMore": "Read more",
+      "q1": "What is the smallest thing in the universe?",
+      "a1": "The smallest things we have measured — quarks and electrons — behave like points: no size has been detected down to about 10⁻¹⁸ m. Far below that, the Planck length (1.6 × 10⁻³⁵ m) marks where our best theories stop working. Whether anything smaller can exist is still unknown.",
+      "q2": "What is the largest known star?",
+      "a2": "Red supergiants and hypergiants such as UY Scuti and Stephenson 2-18 are among the largest stars known by radius — placed where the Sun is, UY Scuti's surface would reach past Mars, and the very largest might extend beyond Jupiter. They are also among the shortest-lived stars in the galaxy.",
+      "q3": "What is the largest known black hole?",
+      "a3": "TON 618 and Phoenix-A are leading candidates for the most massive known black holes, each weighing tens of billions of solar masses — roughly ten thousand times more than the supermassive black hole at the centre of our Milky Way (Sagittarius A*).",
+      "q4": "How far is the observable universe?",
+      "a4": "The cosmic horizon is roughly 46 billion light-years from Earth in every direction, making the full observable universe a sphere about 93 billion light-years across. Beyond it almost certainly lies more space we can never see.",
+      "q5": "What is dark matter?",
+      "a5": "An invisible form of matter whose gravity holds galaxies together. It outweighs ordinary matter about five to one. We map it through gravitational lensing, but its particle nature is still unknown.",
+      "q6": "What is dark energy?",
+      "a6": "A still-unexplained energy that appears to be accelerating the expansion of the universe. It accounts for roughly 68% of the total mass-energy of the cosmos.",
+      "q7": "Are wormholes real?",
+      "a7": "Not as far as anyone knows. Einstein's equations allow wormholes, but none has ever been observed, and keeping one open would need 'exotic matter' with negative energy that has never been found in usable amounts. They remain speculative — a fascinating possibility, not a discovery.",
+      "q8": "How long would it take to reach the nearest star?",
+      "a8": "Proxima Centauri is 4.24 light-years away, so light takes 4.24 years. Voyager 1, travelling at about 61,000 km/h, would need roughly 75,000 years; even Parker Solar Probe at its record 690,000 km/h would take about 6,650 years."
     }
   },
   "badges": {
@@ -1939,6 +1942,47 @@
         "name": "International Space Station",
         "status": "Orbiting Earth · circles the planet every ~92 minutes"
       }
+    }
+  },
+  "analogy": {
+    "heading": "At everyday scale",
+    "intro": "Shrink or enlarge everything by the same factor and the numbers turn into things you can picture.",
+    "enlarge": "Everything enlarged ×{factor}",
+    "shrink": "Everything shrunk ÷{factor}",
+    "fromEarth": "Earth → {name}",
+    "refs": {
+      "earthMoon": "Earth → Moon",
+      "earthSun": "Earth → Sun",
+      "lightYear": "1 light-year",
+      "proxima": "Earth → Proxima Centauri"
+    },
+    "items": {
+      "hair": "the width of a human hair",
+      "sand": "a grain of sand",
+      "ant": "an ant",
+      "marble": "a marble",
+      "golfBall": "a golf ball",
+      "football": "a football",
+      "car": "a car",
+      "bus": "a city bus",
+      "pitch": "a football pitch",
+      "eiffel": "the Eiffel Tower",
+      "burj": "the Burj Khalifa",
+      "manhattan": "Manhattan, end to end",
+      "london": "London, edge to edge",
+      "france": "France, edge to edge",
+      "usa": "the USA, coast to coast",
+      "earth": "planet Earth",
+      "earthMoon": "the Earth–Moon distance",
+      "sun": "the Sun",
+      "earthSun": "the Earth–Sun distance",
+      "step": "one step",
+      "room": "across a room",
+      "walk": "a 10-minute walk",
+      "marathon": "a marathon",
+      "londonParis": "London → Paris",
+      "nyLa": "New York → Los Angeles",
+      "aroundEarth": "once around the Earth"
     }
   }
 }

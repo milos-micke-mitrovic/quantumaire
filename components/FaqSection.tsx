@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { tServer } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/types";
 
@@ -6,6 +7,18 @@ interface FaqSectionProps {
 }
 
 const FAQ_INDICES = [1, 2, 3, 4, 5, 6, 7, 8] as const;
+
+/** Stop page each answer links to for the full story. */
+const FAQ_LINKS: Record<(typeof FAQ_INDICES)[number], string> = {
+  1: "planck_length",
+  2: "uy_scuti",
+  3: "ton_618",
+  4: "observable_universe",
+  5: "dark_matter",
+  6: "dark_energy",
+  7: "wormhole",
+  8: "proxima_centauri",
+};
 
 /**
  * Visible FAQ block, mirroring the same Q&A pairs that feed the FAQPage
@@ -22,7 +35,7 @@ export function FaqSection({ locale }: FaqSectionProps) {
     >
       <header className="mb-8 max-w-2xl">
         <p className="text-[10px] font-medium uppercase tracking-[0.28em] text-cosmos-star/55">
-          {tServer(locale, "home.faq.heading")}
+          {tServer(locale, "home.faq.eyebrow")}
         </p>
         <h2
           id="faq-heading"
@@ -63,7 +76,13 @@ export function FaqSection({ locale }: FaqSectionProps) {
                 </span>
               </summary>
               <dd className="px-5 pb-5 text-sm leading-relaxed text-cosmos-star/80 sm:text-[15px]">
-                {a}
+                {a}{" "}
+                <Link
+                  href={`/${locale}/stop/${FAQ_LINKS[i]}`}
+                  className="whitespace-nowrap text-cosmos-aurora underline-offset-4 hover:text-cosmos-plasma hover:underline"
+                >
+                  {tServer(locale, "home.faq.readMore")} →
+                </Link>
               </dd>
             </details>
           );

@@ -44,7 +44,7 @@
       "youAreHere": "Vi ste ovde"
     },
     "abstract": "apstraktno",
-    "footer": "Stvoreno sa radoznalošću. Označeno radi iskrenosti.",
+    "footer": "Svaka stanica nosi oznaku iskrenosti — Činjenica, Utvrđena teorija, Verovatna teorija ili Spekulacija — da uvek znaš koliko je nauka sigurna.",
     "glossary": "Rečnik pojmova",
     "about": "O projektu",
     "relatedStops": "Povezane stanice",
@@ -226,28 +226,31 @@
       "favoritesDesc": "Stanice koje si sačuvao srcem",
       "progressDesc": "Koliki deo putovanja si video",
       "categories": "Kategorije"
-    }
+    },
+    "heroCredit": "Pozadina: Vebovo prvo duboko polje — NASA, ESA, CSA, STScI"
   },
   "home": {
     "faq": {
+      "eyebrow": "Pitanja",
       "heading": "Često postavljana pitanja",
-      "tagline": "Kratki odgovori na pitanja koja Quantumaire najčešće dobija.",
-      "q1": "Šta je Quantumaire?",
-      "a1": "Interaktivno obrazovno putovanje od najmanjih poznatih čestica do vidljivog svemira, u kome je pouzdanost svake tvrdnje transparentno označena kao Činjenica, Utvrđena teorija, Verovatna teorija ili Spekulativno.",
-      "q2": "Koliko je Zemlja velika u poređenju sa kvarkom?",
-      "a2": "Otprilike 25 redova veličine. Prečnik Zemlje je oko 1,27 × 10⁷ metara, dok kvark nije veći od 10⁻¹⁸ metara. Quantumaire koristi zrno peska od 0,5 mm kao predstavnika Zemlje, kako bi ostatak svemira postao intuitivan.",
-      "q3": "Šta je tamna materija?",
-      "a3": "Nevidljivi oblik materije čija gravitacija drži galaksije na okupu. Nadmašuje običnu materiju otprilike pet prema jedan. Mapiramo je kroz gravitaciono sočivovanje, ali nam je njena čestična priroda i dalje nepoznata.",
-      "q4": "Šta je tamna energija?",
-      "a4": "Još uvek neobjašnjen oblik energije za koji se čini da ubrzava širenje svemira. Čini oko 68% ukupne mase-energije kosmosa.",
-      "q5": "Koja je najveća poznata zvezda?",
-      "a5": "Crveni supergiganti i hipergiganti poput UY Scuti i Stephenson 2-18 nalaze se među najvećim poznatim zvezdama po poluprečniku — kada bi bila na mestu Sunca, površina UY Scuti sezala bi dalje od Marsa, a one najveće možda i iza Jupitera. Takođe su među zvezdama najkraćeg veka u galaksiji.",
-      "q6": "Koja je najveća poznata crna rupa?",
-      "a6": "TON 618 i Phoenix-A su vodeći kandidati za najmasivnije poznate crne rupe, sa masama od po desetina milijardi solarnih masa — otprilike deset hiljada puta više od supermasivne crne rupe u centru našeg Mlečnog puta (Sagittarius A*).",
-      "q7": "Koliko je daleko vidljivi svemir?",
-      "a7": "Kosmički horizont je oko 46 milijardi svetlosnih godina od Zemlje u svim pravcima, što čitav vidljivi svemir čini sferom prečnika oko 93 milijarde svetlosnih godina. Iza nje gotovo sigurno leži još prostora koji nikada nećemo videti.",
-      "q8": "Koje jezike Quantumaire podržava?",
-      "a8": "Engleski i srpski (latinica). Svaka stanica ima svoje kanonske URL-ove na oba jezika, tako da svaku verziju mogu otkriti, citirati i prevesti nezavisno i ljudi i AI pretraživači."
+      "tagline": "Kratki odgovori na velika pitanja o veličinama i svemiru.",
+      "readMore": "Saznaj više",
+      "q1": "Šta je najmanja stvar u svemiru?",
+      "a1": "Najmanje što smo izmerili — kvarkovi i elektroni — ponašaju se kao tačke: nikakva veličina nije otkrivena sve do oko 10⁻¹⁸ m. Daleko ispod toga, Plankova dužina (1,6 × 10⁻³⁵ m) označava granicu na kojoj naše najbolje teorije prestaju da važe. Da li išta manje može da postoji, još uvek se ne zna.",
+      "q2": "Koja je najveća poznata zvezda?",
+      "a2": "Crveni supergiganti i hipergiganti poput UY Scuti i Stephenson 2-18 nalaze se među najvećim poznatim zvezdama po poluprečniku — kada bi bila na mestu Sunca, površina UY Scuti sezala bi dalje od Marsa, a one najveće možda i iza Jupitera. Takođe su među zvezdama najkraćeg veka u galaksiji.",
+      "q3": "Koja je najveća poznata crna rupa?",
+      "a3": "TON 618 i Phoenix-A su vodeći kandidati za najmasivnije poznate crne rupe, sa masama od po desetina milijardi solarnih masa — otprilike deset hiljada puta više od supermasivne crne rupe u centru našeg Mlečnog puta (Sagittarius A*).",
+      "q4": "Koliko je daleko vidljivi svemir?",
+      "a4": "Kosmički horizont je oko 46 milijardi svetlosnih godina od Zemlje u svim pravcima, što čitav vidljivi svemir čini sferom prečnika oko 93 milijarde svetlosnih godina. Iza nje gotovo sigurno leži još prostora koji nikada nećemo videti.",
+      "q5": "Šta je tamna materija?",
+      "a5": "Nevidljivi oblik materije čija gravitacija drži galaksije na okupu. Nadmašuje običnu materiju otprilike pet prema jedan. Mapiramo je kroz gravitaciono sočivovanje, ali nam je njena čestična priroda i dalje nepoznata.",
+      "q6": "Šta je tamna energija?",
+      "a6": "Još uvek neobjašnjen oblik energije za koji se čini da ubrzava širenje svemira. Čini oko 68% ukupne mase-energije kosmosa.",
+      "q7": "Da li crvotočine postoje?",
+      "a7": "Koliko je poznato — ne. Ajnštajnove jednačine ih dozvoljavaju, ali nijedna nikada nije uočena, a da bi ostala otvorena bila bi potrebna „egzotična materija“ sa negativnom energijom, koja nikada nije pronađena u upotrebljivim količinama. Ostaju spekulacija — fascinantna mogućnost, ne otkriće.",
+      "q8": "Koliko bi trajao put do najbliže zvezde?",
+      "a8": "Proksima Kentaur je udaljena 4,24 svetlosne godine, pa svetlosti treba 4,24 godine. Voyageru 1, pri oko 61.000 km/h, trebalo bi otprilike 75.000 godina; čak i Parker Solar Probe, pri rekordnih 690.000 km/h, putovala bi oko 6.650 godina."
     }
   },
   "badges": {
@@ -1899,6 +1902,47 @@
         "name": "Međunarodna svemirska stanica",
         "status": "Kruži oko Zemlje · jedan krug za ~92 minuta"
       }
+    }
+  },
+  "analogy": {
+    "heading": "U svakodnevnoj razmeri",
+    "intro": "Smanji ili uvećaj sve istim faktorom i brojevi postaju stvari koje možeš da zamisliš.",
+    "enlarge": "Sve uvećano ×{factor}",
+    "shrink": "Sve smanjeno ÷{factor}",
+    "fromEarth": "Zemlja → {name}",
+    "refs": {
+      "earthMoon": "Zemlja → Mesec",
+      "earthSun": "Zemlja → Sunce",
+      "lightYear": "1 svetlosna godina",
+      "proxima": "Zemlja → Proksima Kentaur"
+    },
+    "items": {
+      "hair": "debljina ljudske vlasi",
+      "sand": "zrno peska",
+      "ant": "mrav",
+      "marble": "kliker",
+      "golfBall": "loptica za golf",
+      "football": "fudbalska lopta",
+      "car": "automobil",
+      "bus": "gradski autobus",
+      "pitch": "fudbalski teren",
+      "eiffel": "Ajfelova kula",
+      "burj": "Burdž Kalifa",
+      "manhattan": "Menhetn, s kraja na kraj",
+      "london": "London, s kraja na kraj",
+      "france": "Francuska, s kraja na kraj",
+      "usa": "SAD, od obale do obale",
+      "earth": "planeta Zemlja",
+      "earthMoon": "rastojanje Zemlja–Mesec",
+      "sun": "Sunce",
+      "earthSun": "rastojanje Zemlja–Sunce",
+      "step": "jedan korak",
+      "room": "širina sobe",
+      "walk": "šetnja od 10 minuta",
+      "marathon": "maraton",
+      "londonParis": "London → Pariz",
+      "nyLa": "Njujork → Los Anđeles",
+      "aroundEarth": "jedan krug oko Zemlje"
     }
   }
 }

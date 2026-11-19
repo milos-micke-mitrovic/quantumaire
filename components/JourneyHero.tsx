@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 
@@ -8,17 +9,23 @@ export function JourneyHero() {
 
   return (
     <section className="relative isolate flex min-h-[80vh] items-center justify-center overflow-hidden px-5 py-24 sm:py-32">
-      <div
+      {/* Real sky: Webb's First Deep Field (NASA/ESA/CSA/STScI, public
+          domain) — every smudge in it is a galaxy. Darkened toward the
+          edges and behind the text so the headline stays readable. */}
+      <Image
+        src="/images/hero-deep-field.webp"
+        alt=""
         aria-hidden
-        className="pointer-events-none absolute inset-0 -z-10 bg-cosmic-gradient opacity-90"
+        fill
+        sizes="100vw"
+        className="pointer-events-none -z-20 object-cover opacity-70"
       />
-      {/* Soft static glow — no parallax transform, no blur-3xl. */}
       <div
         aria-hidden
-        className="pointer-events-none absolute left-1/2 top-[40%] -z-10 h-[420px] w-[420px] -translate-x-1/2 -translate-y-1/2 rounded-full opacity-[0.22]"
+        className="pointer-events-none absolute inset-0 -z-10"
         style={{
           background:
-            "radial-gradient(circle, rgba(124,92,255,0.55), rgba(192,132,252,0.18) 45%, transparent 70%)",
+            "radial-gradient(ellipse 60% 45% at 50% 48%, rgba(3,3,10,0.82), rgba(3,3,10,0.35) 70%, rgba(3,3,10,0.15)), linear-gradient(180deg, rgba(3,3,10,0.55) 0%, transparent 25%, transparent 70%, #03030a 100%)",
         }}
       />
 
@@ -31,13 +38,13 @@ export function JourneyHero() {
         >
           <span
             aria-hidden
-            className="h-1.5 w-1.5 rounded-full bg-cosmos-nova animate-pulse-soft"
+            className="h-1.5 w-1.5 rounded-full bg-cosmos-star animate-pulse-soft"
           />
           {t("common.title")}
         </motion.p>
 
         <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.05] tracking-tight text-cosmos-star sm:text-6xl">
-          <span className="bg-aurora-gradient bg-clip-text text-transparent">
+          <span className="bg-[linear-gradient(180deg,#ffffff_0%,#e0f2fe_45%,#c4b5fd_100%)] bg-clip-text text-transparent drop-shadow-[0_2px_24px_rgba(3,3,10,0.9)]">
             {t("common.tagline")}
           </span>
         </h1>
@@ -46,7 +53,7 @@ export function JourneyHero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.12 }}
-          className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-cosmos-star/75 sm:text-lg"
+          className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-cosmos-star/85 sm:text-lg"
         >
           {t("common.subtagline")}
         </motion.p>
@@ -71,6 +78,9 @@ export function JourneyHero() {
           </svg>
         </motion.a>
       </div>
+      <p className="absolute bottom-3 right-4 text-[10px] text-cosmos-star/35">
+        {t("common.heroCredit")}
+      </p>
     </section>
   );
 }

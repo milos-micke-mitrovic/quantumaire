@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n";
-import { VisitedCounter } from "./VisitedCounter";
 
 export function SiteFooter() {
   const { t, locale } = useI18n();
@@ -11,8 +10,7 @@ export function SiteFooter() {
       <div className="mx-auto mb-6 h-px max-w-3xl bg-gradient-to-r from-transparent via-white/15 to-transparent" />
       <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
         <div className="flex flex-col items-center gap-3 sm:flex-row sm:items-center">
-          <p className="text-center sm:text-left">{t("common.footer")}</p>
-          <VisitedCounter />
+          <p className="max-w-md text-center sm:text-left">{t("common.footer")}</p>
         </div>
         <nav className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 sm:justify-end">
           <Link
