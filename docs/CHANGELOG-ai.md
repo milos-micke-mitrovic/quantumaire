@@ -8,4 +8,4 @@
 - Tools: /tools/scale is now a space distance converter.
 
 ## Next / ideas
-- Full audit (2026-11-19, in progress): facts, Serbian, technical SEO, perf/a11y, page-by-page UX.
+- Full audit done 2026-11-19 → `docs/AUDIT-PLAN.md` (phases 1–6, nothing ticked yet).

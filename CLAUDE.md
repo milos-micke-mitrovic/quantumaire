@@ -94,6 +94,12 @@ IndexNow on deploy. Google Search Console: manual "Request indexing" ~10
 URLs/day via the Chrome extension — see the `gsc-indexing` skill and the
 log in `docs/indexing-log.md`.
 
+## Current work
+
+A full audit (2026-11-19) produced `docs/AUDIT-PLAN.md` — a phased
+checklist backed by the reports in `docs/audit/`. Continue from the first
+unticked box.
+
 ## Work log
 
 See `docs/CHANGELOG-ai.md` for what was done per session and what is next.
