@@ -82,6 +82,12 @@ export default async function TopicPage({ params }: PageProps) {
     })),
   };
 
+  const clientKeys = topic.keyNumbers.flatMap((kn) =>
+    "text" in kn
+      ? [`${topic.i18nKey}.keyNumber${kn.text}Label`, `${topic.i18nKey}.keyNumber${kn.text}Value`]
+      : []
+  );
+
   return (
     <>
       <JsonLd
@@ -94,8 +100,10 @@ export default async function TopicPage({ params }: PageProps) {
           ]),
         ]}
       />
-      <I18nExtend dictionary={pickDictionary(typed, [topic.i18nKey])}>
-        <TopicView topic={topic} />
+      {/* The guide text renders on the server; the client only needs the
+          hand-written key-number rows. */}
+      <I18nExtend dictionary={pickDictionary(typed, clientKeys)}>
+        <TopicView topic={topic} locale={typed} />
       </I18nExtend>
       <SiteFooter locale={typed} />
     </>

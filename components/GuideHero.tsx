@@ -29,6 +29,9 @@ export function GuideHero({ stop }: GuideHeroProps) {
             alt=""
             aria-hidden
             fill
+            // Same URL as the preloaded image below, so eager costs nothing
+            // extra — and this larger blurred copy is the page's LCP element.
+            loading="eager"
             sizes="(min-width: 768px) 704px, calc(100vw - 2.5rem)"
             className="scale-110 object-cover opacity-50 blur-2xl"
           />

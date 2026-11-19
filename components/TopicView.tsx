@@ -1,10 +1,9 @@
-"use client";
-
 import clsx from "clsx";
 import Link from "next/link";
-import { Fragment, useMemo } from "react";
-import { useI18n } from "@/lib/i18n";
+import { Fragment } from "react";
+import { tServer } from "@/lib/i18n-server";
 import type { Topic } from "@/lib/topics";
+import type { Locale } from "@/lib/types";
 import { STOPS } from "@/lib/content";
 import { getStopsByTag } from "@/lib/tags";
 import { parseInline, type Run } from "@/lib/inlineMarkdown";
@@ -17,10 +16,16 @@ import { StopCard } from "./StopCard";
 
 interface TopicViewProps {
   topic: Topic;
+  locale: Locale;
 }
 
-export function TopicView({ topic }: TopicViewProps) {
-  const { t, locale } = useI18n();
+/**
+ * Server component: the guide text, links and layout render to HTML and
+ * never hydrate; only the hero, key numbers, cards and scale are client
+ * islands.
+ */
+export function TopicView({ topic, locale }: TopicViewProps) {
+  const t = (key: string) => tServer(locale, key);
 
   const title = t(`${topic.i18nKey}.title`);
   const tagline = t(`${topic.i18nKey}.tagline`);
@@ -33,18 +38,14 @@ export function TopicView({ topic }: TopicViewProps) {
 
   // **bold** / *italic* runs first, then topic names inside each run link
   // to their topic pages, each name once per guide.
-  const linked = useMemo(() => {
-    const names = STOPS.map((s) => ({ id: s.id, name: t(`${s.i18nKey}.name`) }));
-    const seen = new Set<string>();
-    return [intro, ...sections.map((s) => s.body)].map((text) =>
-      parseInline(text).map((run) => ({
-        ...run,
-        segments: linkTopicNames(run.text, names, seen),
-      }))
-    );
-    // sections derive from t + topic, so these deps cover them.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [t, topic, intro]);
+  const names = STOPS.map((s) => ({ id: s.id, name: t(`${s.i18nKey}.name`) }));
+  const seen = new Set<string>();
+  const linked = [intro, ...sections.map((s) => s.body)].map((text) =>
+    parseInline(text).map((run) => ({
+      ...run,
+      segments: linkTopicNames(run.text, names, seen),
+    }))
+  );
   const renderSegments = (segments: Segment[]) =>
     segments.map((seg, k) =>
       typeof seg === "string" ? (
