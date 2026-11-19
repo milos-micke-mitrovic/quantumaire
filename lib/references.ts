@@ -51,6 +51,33 @@ export const REFERENCES: Reference[] = [
   { id: "andromedaDistance", meters: 2.4e22, kind: "distance" }, // ~2.5M ly — Andromeda galaxy
 ];
 
+/**
+ * Whether an object reads as round, so a true-scale drawing may show it as
+ * a circle. Everything else (a person, a pitch, a tower, a tree) is drawn
+ * as a length bar — a circle for a football pitch makes no sense.
+ */
+const ROUND_REFERENCE_IDS = new Set(["grainOfSand", "coin", "earthDiameter", "sun"]);
+const ROUND_TAGS = new Set([
+  "planet",
+  "dwarf-planet",
+  "gas-giant",
+  "satellite",
+  "star",
+  "red-dwarf",
+  "hypergiant",
+  "stellar-remnant",
+  "black-hole",
+]);
+const ROUND_STOP_IDS = new Set(["atom", "proton", "cell", "virus", "red_blood_cell"]);
+
+export function isRoundReference(id: string): boolean {
+  return ROUND_REFERENCE_IDS.has(id);
+}
+
+export function isRoundStop(stop: { id: string; tags?: string[] }): boolean {
+  return ROUND_STOP_IDS.has(stop.id) || (stop.tags ?? []).some((tag) => ROUND_TAGS.has(tag));
+}
+
 /** Look up a single reference by id. */
 export function getReference(id: string): Reference | undefined {
   return REFERENCES.find((r) => r.id === id);
