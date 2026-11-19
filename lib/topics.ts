@@ -72,7 +72,7 @@ export const TOPICS: Topic[] = [
     slug: "planets",
     i18nKey: "topics.planets",
     sectionCount: 4,
-    relatedStopIds: ["earth", "jupiter", "great_red_spot", "asteroid_belt", "solar_system"],
+    relatedStopIds: ["earth", "mars", "olympus_mons", "jupiter", "great_red_spot", "asteroid_belt", "ceres", "solar_system"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Planet" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Exoplanet" },
@@ -113,17 +113,21 @@ export const TOPICS: Topic[] = [
   },
   {
     slug: "nebulae",
+    tag: "nebula",
     i18nKey: "topics.nebulae",
     sectionCount: 4,
-    relatedStopIds: ["sun", "neutron_star"],
+    relatedStopIds: ["orion_nebula", "crab_nebula", "sun", "neutron_star"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Nebula" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Planetary_nebula" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Supernova_remnant" },
       { label: "Britannica", url: "https://www.britannica.com/science/nebula" },
     ],
-    heroStopId: "light_year",
+    heroStopId: "orion_nebula",
     keyNumbers: [
+      { stopId: "orion_nebula", value: "size" },
+      { stopId: "orion_nebula", value: "distance" },
+      { stopId: "crab_nebula", value: "size" },
       { text: 1 },
       { text: 2 },
       { text: 3 },
@@ -133,9 +137,10 @@ export const TOPICS: Topic[] = [
   },
   {
     slug: "moons",
+    tag: "satellite",
     i18nKey: "topics.moons",
     sectionCount: 4,
-    relatedStopIds: ["moon", "earth", "jupiter", "solar_system"],
+    relatedStopIds: ["moon", "titan", "europa", "earth", "jupiter", "solar_system"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Natural_satellite" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Ganymede_(moon)" },
@@ -146,6 +151,8 @@ export const TOPICS: Topic[] = [
       { stopId: "moon", value: "size" },
       { stopId: "moon", value: "distance" },
       { stopId: "moon", value: "temperature" },
+      { stopId: "titan", value: "size" },
+      { stopId: "europa", value: "size" },
       { stopId: "jupiter", value: "size" },
     ],
     accent: "text-cosmos-star",
@@ -175,7 +182,7 @@ export const TOPICS: Topic[] = [
     slug: "supernova",
     i18nKey: "topics.supernova",
     sectionCount: 4,
-    relatedStopIds: ["neutron_star", "supermassive_black_hole"],
+    relatedStopIds: ["crab_nebula", "large_magellanic_cloud", "betelgeuse", "neutron_star", "supermassive_black_hole"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Supernova" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Type_Ia_supernova" },
@@ -217,7 +224,7 @@ export const TOPICS: Topic[] = [
     slug: "distances",
     i18nKey: "topics.distances",
     sectionCount: 4,
-    relatedStopIds: ["light_year", "moon", "sun", "voyager1", "proxima_centauri", "sirius", "milky_way", "andromeda", "laniakea_supercluster", "observable_universe"],
+    relatedStopIds: ["light_year", "moon", "sun", "voyager1", "proxima_centauri", "sirius", "milky_way", "large_magellanic_cloud", "andromeda", "laniakea_supercluster", "observable_universe"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Cosmic_distance_ladder" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Proxima_Centauri" },
@@ -261,7 +268,7 @@ export const TOPICS: Topic[] = [
     tag: "planet",
     i18nKey: "topics.planetSizesCompared",
     sectionCount: 5,
-    relatedStopIds: ["mercury", "venus", "earth", "moon", "mars", "jupiter", "great_red_spot", "saturn", "uranus", "neptune", "pluto", "sun"],
+    relatedStopIds: ["mercury", "venus", "earth", "moon", "mars", "jupiter", "great_red_spot", "saturn", "uranus", "neptune", "pluto", "ceres", "sun"],
     sources: [
       { label: "NASA", url: "https://nssdc.gsfc.nasa.gov/planetary/factsheet/" },
       { label: "NASA", url: "https://science.nasa.gov/solar-system/" },

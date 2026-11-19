@@ -107,6 +107,8 @@ export const FAMILIAR_STOP_IDS = new Set([
   "bacterium",
   "cell",
   "red_blood_cell",
+  "ant",
+  "honeybee",
   "human",
   "african_elephant",
   "giraffe",
@@ -131,7 +133,15 @@ const SAME_AS_STOP: Record<string, string> = {
   sun: "sun",
   eiffel_tower: "eiffel",
   burj_khalifa: "burj",
+  ant: "ant",
 };
+
+/**
+ * Shrinking or enlarging by less than ×10 isn't an analogy: "everything
+ * enlarged 3× — the Statue of Liberty ≈ the Eiffel Tower" says nothing
+ * about the ant it is meant to explain.
+ */
+const MIN_SCALE_LOG = 1;
 
 function sizeAnalogy(
   stop: Stop & { sizeMeters: number },
@@ -147,6 +157,7 @@ function sizeAnalogy(
     for (const a of FAMILIAR_SIZES) {
       if (!START_IDS.has(a.id) || SAME_AS_STOP[stop.id] === a.id) continue;
       const factor = a.meters / stop.sizeMeters;
+      if (Math.abs(Math.log10(factor)) < MIN_SCALE_LOG) continue;
       const exclude = new Set([a.id]);
       if (SAME_AS_STOP[other.id]) exclude.add(SAME_AS_STOP[other.id]);
       const m = bestMatch(other.sizeMeters * factor, FAMILIAR_SIZES, exclude);

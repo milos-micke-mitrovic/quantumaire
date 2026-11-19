@@ -55,24 +55,58 @@ const MEASURE_SUFFIX = { height: "Height", depth: "Depth", length: "Length", siz
 
 /** Neighbours closer than this are only named when they are related. */
 const NEAR_EQUAL = 1.15;
+/** Same-kind neighbours further than this are "far" (see neighbour()). */
+const FAR_NEIGHBOUR = 10;
+/** Below this size, any two things can be pictured side by side. */
+const HUMAN_SCALE_MAX = 1e3;
 /** Below this, Earth-as-a-grain-of-sand shrinks things to invisible specks. */
 const MIN_GRAIN_METERS = 1e-5;
 /** Below this, "Earth is 600,000 times wider than X" says nothing. */
 const MIN_EARTH_COMPARE_METERS = 1e3;
 
+/** What a size measures: a whole shape, a vertical extent, or a length. */
+function measureKind(stop: Stop): "shape" | "vertical" | "length" {
+  const m = sizeMeasure(stop);
+  return m === "size" ? "shape" : m === "length" ? "length" : "vertical";
+}
+
 /**
- * The nearest topic below (`step = -1`) or above (`+1`) on the size scale,
- * skipping near-equal neighbours of an unrelated kind.
+ * The nearest topic below (`step = -1`) or above (`+1`) on the size scale
+ * that is worth naming next to this one: the same kind of measure (a moon's
+ * diameter next to a planet's, not next to a river's length; a volcano's
+ * height next to a mountain's, not next to a comet) or a shared tag.
+ * Near-equal neighbours of a different kind are skipped too.
  */
 function neighbour(rank: number, step: -1 | 1): Stop | null {
   const self = SIZED[rank];
+  const ratioTo = (other: Stop) =>
+    Math.max(other.sizeMeters!, self.sizeMeters!) / Math.min(other.sizeMeters!, self.sizeMeters!);
+  let nearest: Stop | null = null;
+  let preferred: Stop | null = null;
   for (let i = rank + step; i >= 0 && i < SIZED.length; i += step) {
     const other = SIZED[i];
-    const ratio =
-      Math.max(other.sizeMeters!, self.sizeMeters!) / Math.min(other.sizeMeters!, self.sizeMeters!);
-    if (ratio >= NEAR_EQUAL || areRelated(self, other)) return other;
+    const ratio = ratioTo(other);
+    if (!nearest && (ratio >= NEAR_EQUAL || areRelated(self, other))) nearest = other;
+    const sameKind = measureKind(self) === measureKind(other);
+    const sharedTag = (self.tags ?? []).some((tag) => (other.tags ?? []).includes(tag));
+    if (sharedTag || (sameKind && (ratio >= NEAR_EQUAL || areRelated(self, other)))) {
+      preferred = other;
+      break;
+    }
   }
-  return null;
+  // Things you could stand side by side (a giraffe and the Webb telescope,
+  // the Titanic and the Eiffel Tower) compare fine across kinds; fall back to
+  // the plain nearest one when the same-kind neighbour is far away.
+  const humanScale = (s: Stop) => s.sizeMeters! < HUMAN_SCALE_MAX;
+  if (
+    nearest &&
+    humanScale(self) &&
+    humanScale(nearest) &&
+    (!preferred || ratioTo(preferred) > FAR_NEIGHBOUR)
+  ) {
+    return nearest;
+  }
+  return preferred;
 }
 
 function numberFormat(locale: Locale): Intl.NumberFormat {
@@ -202,7 +236,9 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
       const ratio = bigger ? size / HUMAN_M : HUMAN_M / size;
       const measure = sizeMeasure(stop);
       const key = !bigger
-        ? "sizeFaq.a2smaller"
+        ? measure === "length"
+          ? "sizeFaq.a2smallerLong"
+          : "sizeFaq.a2smaller"
         : measure === "height"
           ? "sizeFaq.a2taller"
           : measure === "depth"
@@ -235,7 +271,7 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
         })
       );
       links.push({ id: smaller.id, name: sName });
-    } else {
+    } else if (rank === 0) {
       parts.push(t("sizeFaq.a3smallest", { name }));
     }
     if (larger) {
@@ -249,10 +285,10 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
         })
       );
       links.push({ id: larger.id, name: lName });
-    } else {
+    } else if (rank === SIZED.length - 1) {
       parts.push(t("sizeFaq.a3largest", { name }));
     }
-    items.push({ q: t("sizeFaq.q3", { name }), a: parts.join(" "), links });
+    if (parts.length > 0) items.push({ q: t("sizeFaq.q3", { name }), a: parts.join(" "), links });
 
     if (toGrainScale(size) >= MIN_GRAIN_METERS && stop.id !== "earth") {
       items.push({

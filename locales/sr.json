@@ -197,7 +197,10 @@
       "pairSizeTall": "{big}: oko {ratio} puta više nego {small}. Visina — {a}: {sizeA}; {b}: {sizeB}.",
       "pairDescriptionTall": "{big}: oko {ratio} puta više nego {small}. Uporedite visine na pravoj skali.",
       "pairFaqQTall": "{big} i {small} — kolika je razlika u visini?",
-      "pairDescriptionSize": "{big}: oko {ratio} puta veće nego {small}. Pogledajte ih jedno pored drugog na pravoj skali."
+      "pairDescriptionSize": "{big}: oko {ratio} puta veće nego {small}. Pogledajte ih jedno pored drugog na pravoj skali.",
+      "pairSizeDeepTall": "Dubina — {big}: {sizeBig}; visina — {small}: {sizeSmall}. Dubina je oko {ratio} puta veća nego visina.",
+      "pairDescriptionDeepTall": "Dubina nasuprot visini — {big} i {small}: dubina je oko {ratio} puta veća. Pogledajte ih jedno pored drugog na pravoj skali.",
+      "pairFaqQDeepTall": "{big} i {small} — koliko je dubina veća od visine?"
     },
     "tempSameInC": "≈ isto u °C",
     "numberLocale": "sr-Latn-RS",
@@ -523,7 +526,9 @@
     "landscape": "Predeo",
     "ship": "Brod",
     "storm": "Oluja",
-    "asteroid": "Asteroid"
+    "asteroid": "Asteroid",
+    "insect": "Insekt",
+    "nebula": "Maglina"
   },
   "stops": {
     "quark": {
@@ -2055,6 +2060,192 @@
         "fact5": "Spoljni zid, sporopolenin, može da opstane stotinama miliona godina.",
         "fact6": "Polen koji nosi vetar može da pređe stotine kilometara."
       }
+    },
+    "ant": {
+      "name": "Mrav",
+      "tagline": "Nekoliko milimetara životinje — a na Zemlji ih ima oko 20 bilijardi, koji su zajedno teži od svih divljih ptica i sisara.",
+      "body": "Mravi su društveni insekti koji žive u kolonijama okupljenim oko jedne ili više matica koje polažu jaja i hiljada radnica bez krila. Radnica neke obične baštenske vrste, kao što je crni baštenski mrav u Evropi, duga je oko 3–5 mm; među više od 13.800 poznatih vrsta radnice su duge od manje od milimetra do 3 cm, koliko ima mrav metak iz prašuma Srednje i Južne Amerike. Mravi se snalaze i dele posao uglavnom pomoću mirisa: radnica koja nađe hranu ostavlja feromonski trag do gnezda, a druge koje ga prate pojačavaju najbolji put. Crni baštenski mravi čak „gaje“ biljne vaši: štite ih od bubamara, a zauzvrat dobijaju njihovu slatku mednu rosu. Mravi žive na svim kontinentima osim Antarktika, a razvili su se od predaka nalik osama pre više od 100 miliona godina.",
+      "narrative": "Radnica od 5 mm duga je otprilike kao zrno pirinča i deset puta duža od tardigrada. Tek oko 340 mrava poređanih jedan za drugim dostiglo bi visinu odraslog čoveka.",
+      "funFact": "Prema proceni iz 2022. godine, na Zemlji živi oko 20 bilijardi mrava (20.000.000.000.000.000), otprilike 2,5 miliona na svakog čoveka. Ukupno sadrže više ugljenika nego sve divlje ptice i divlji sisari zajedno.",
+      "seoTitle": "Koliko je veliki mrav? Veličine mrava od 1 mm do 3 cm",
+      "metaDescription": "Radnica običnog baštenskog mrava duga je oko 3–5 mm, a vrste mrava se kreću od manje od 1 mm do 3 cm kod mrava metka. Veličina mrava u poređenju.",
+      "image": {
+        "alt": "Sjajni crni baštenski mrav obilazi grupu smeđih biljnih vaši na jarkozelenoj grančici tuje, snimljen izbliza."
+      },
+      "facts": {
+        "fact1": "Radnica crnog baštenskog mrava: oko 3–5 mm dužine; matica: do oko 9 mm.",
+        "fact2": "Najmanje radnice mrava: oko 0,75 mm; radnice mrava metka: 18–30 mm.",
+        "fact3": "Na Zemlji živi oko 20 bilijardi mrava (procena iz 2022. godine).",
+        "fact4": "Poznato je više od 13.800 vrsta, najviše u tropima.",
+        "fact5": "Radnice crnog baštenskog mrava žive nekoliko meseci, a matica najmanje 19 godina.",
+        "fact6": "Ubod mrava metka je na vrhu Šmitove skale bola od uboda; bol može da traje i do 24 sata."
+      }
+    },
+    "honeybee": {
+      "name": "Medonosna pčela",
+      "tagline": "Insekt od 13 mm koji plesom pokazuje put do cveća — jedan od desetina hiljada u jednoj košnici.",
+      "body": "Medonosna pčela je vrsta koju ljudi širom sveta drže u košnicama zbog meda i oprašivanja useva. Radilica (svaka medonosna pčela koju vidite na cvetu je ženka) duga je oko 12–15 mm, dok matica, jedina pčela u zajednici koja polaže jaja, dostiže 18–22 mm. Usred leta zdrava košnica može da ima od 40.000 do 80.000 pčela, gotovo sve radilice. Sakupljačice koje nađu dobro cveće vraćaju se i na saću izvode vrckavi ples: ugao plesa pokazuje pravac u odnosu na Sunce, a trajanje vrckanja koliko daleko treba leteti.",
+      "narrative": "Sa oko 13 mm, radilica bi taman prekrila nokat na palcu. Duga je kao dva i po baštenska mrava, a oko 130 pčela poređanih jedna za drugom dostiglo bi visinu odraslog čoveka.",
+      "massNarrative": "Radilica je teška oko 100 mg, pa deset pčela zajedno teži otprilike koliko jedna spajalica.",
+      "funFact": "Letnja sakupljačica živi samo nekoliko nedelja, a za to vreme preleti oko 800 km, otprilike koliko ima od Pariza do Berlina, dok joj se krila ne istroše.",
+      "seoTitle": "Koliko je velika medonosna pčela? Radilica i matica",
+      "metaDescription": "Radilica medonosne pčele duga je oko 12–15 mm i teška oko 100 mg, a matica dostiže 18–22 mm. Veličina pčele u poređenju sa poznatim stvarima.",
+      "image": {
+        "alt": "Radilica medonosne pčele, nogu posutih polenom, pije nektar iz žute sredine ljubičastog cveta astre."
+      },
+      "facts": {
+        "fact1": "Dužina tela radilice: oko 12–15 mm; matice: oko 18–22 mm.",
+        "fact2": "Radilica je teška oko 100 mg, a matica otprilike dvostruko više.",
+        "fact3": "Zdrava košnica usred leta: oko 40.000–80.000 pčela i samo jedna matica.",
+        "fact4": "Dok lebdi, krilima zamahne oko 230 puta u sekundi — to je zujanje koje čujete.",
+        "fact5": "Letnje radilice žive samo oko 15–38 dana; matica može da živi i do 3 godine.",
+        "fact6": "Karl fon Friš podelio je Nobelovu nagradu 1973, između ostalog za odgonetanje vrckavog plesa."
+      }
+    },
+    "ceres": {
+      "name": "Cerera",
+      "tagline": "Najveće telo u asteroidnom pojasu — patuljasta planeta koja pod korom krije slanu vodu.",
+      "body": "Cerera je patuljasta planeta prečnika oko 940 km koja kruži oko Sunca u asteroidnom pojasu, između Marsa i Jupitera. Uočio ju je Đuzepe Pjaci 1. januara 1801. i proglašena je novom planetom, kasnije je svrstana među asteroide, a od 2006. jedina je patuljasta planeta u unutrašnjem delu Sunčevog sistema. Sama nosi oko 40% mase celog asteroidnog pojasa. NASA-ina letelica Dawn kružila je oko nje od 2015. do 2018. i otkrila koru od stena, leda i soli, svetle naslage soli u krateru Occator i usamljeni ledeni vulkan visok oko 4 km, Ahuna Mons — znake da duboko ispod površine i dalje ima slane vode.",
+      "narrative": "Kada bi se cela površina Cerere razvila i položila ravno, prekrila bi oko 2,8 miliona km² — gotovo tačno koliko i Argentina. Njen prečnik, oko 940 km, otprilike je jednak razdaljini vazdušnom linijom od Londona do Berlina.",
+      "massNarrative": "Cerera sama nosi oko 40% mase asteroidnog pojasa, a ipak ima samo oko 1/78 mase našeg Meseca. Gravitacija joj je toliko slaba da bi osoba koja na Zemlji ima 70 kg tamo bila laka kao da ima 2 kg.",
+      "funFact": "Hemijski element cerijum, otkriven 1803, dobio je ime po Cereri — a Cerera je nazvana po rimskoj boginji zemljoradnje i žita, od čijeg imena potiče i reč „cerealije“.",
+      "seoTitle": "Kolika je Cerera? Patuljasta planeta asteroidnog pojasa",
+      "metaDescription": "Cerera je široka oko 940 km — četvrtina Mesečevog prečnika, a površina joj je velika kao Argentina — ipak nosi 40% mase asteroidnog pojasa.",
+      "image": {
+        "alt": "Cerera u prirodnim bojama, snimljena NASA-inom letelicom Dawn: siva kugla puna kratera, sa nekoliko sitnih svetlih mrlja."
+      },
+      "facts": {
+        "fact1": "Srednji prečnik oko 940 km (939,4 km prema merenjima letelice Dawn) — otprilike četvrtina Mesečevog.",
+        "fact2": "Od Sunca je u proseku udaljena oko 413 miliona km (2,8 AJ); jedna godina na njoj traje 4,6 zemaljskih godina.",
+        "fact3": "Nosi oko 40% ukupne mase asteroidnog pojasa.",
+        "fact4": "Gravitacija na površini iznosi oko 1/35 Zemljine.",
+        "fact5": "Otkrio ju je Đuzepe Pjaci 1. januara 1801; od 2006. svrstana je među patuljaste planete.",
+        "fact6": "Prosečna temperatura površine oko 170 K (oko −100 °C)."
+      },
+      "temperatureNote": "prosek na površini"
+    },
+    "olympus_mons": {
+      "name": "Olympus Mons",
+      "tagline": "Vulkan na Marsu dva i po puta viši od Everesta — koji zauzima skoro koliko i cela Italija.",
+      "body": "Olympus Mons (Olimp) je štitasti vulkan na Marsu i najviši poznati vulkan u Sunčevom sistemu. Vrh mu se uzdiže oko 22 km iznad okolnih ravnica — otprilike dva i po puta više od visine Mont Everesta iznad nivoa mora — a osnova mu je široka oko 600 km i zauzima površinu blizu površine Italije. Obod mu okružuju litice visoke do 8 km, a na vrhu je šest urušenih kratera jedan u drugom, zajedno oko 60 sa 80 km širine i do 3 km dubine. Narastao je toliko zato što Mars nema pokretne tektonske ploče: kora je stajala nad istom vrućom tačkom, pa se lava gomilala na jednom mestu, a slabija Marsova gravitacija dozvolila je da ta gomila bude viša.",
+      "narrative": "Putnički avioni lete na visini od oko 11 km; vrh ovog vulkana bio bi dvostruko više. Ipak, padine su mu toliko blage — u proseku oko 5% — da se na njima jedva primećuje da je reč o planini: vulkan je toliko širok da su mu vrh i veći deo padine iza horizonta.",
+      "funFact": "Astronomi su još u 19. veku na tom mestu videli svetlu mrlju i nazvali je Nix Olympica — „Olimpijski sneg“. Kada je sonda Mariner 9 stigla do Marsa 1971, usred prašinske oluje koja je prekrila celu planetu, vrh vulkana bio je jedno od retkih mesta koja su virila iznad prašine.",
+      "seoTitle": "Koliko je visok Olympus Mons? Vulkan na Marsu i Everest",
+      "metaDescription": "Olympus Mons na Marsu uzdiže se oko 22 km — 2,5 puta više od Everesta — a širok je 600 km, blizu površine Italije. Najviši vulkan Sunčevog sistema.",
+      "image": {
+        "alt": "Olympus Mons snimljen odozgo na mozaiku letelice Viking: širok, okrugao vulkan sa urušenim kraterom na vrhu, okružen strmim liticama."
+      },
+      "facts": {
+        "fact1": "Visina: oko 22 km iznad okolnih ravnica — oko 2,5 puta više od Everesta iznad nivoa mora.",
+        "fact2": "Osnova široka oko 600 km; zauzima oko 300.000 km², blizu površine Italije.",
+        "fact3": "Kaldera na vrhu: šest kratera jedan u drugom, oko 60 × 80 km, duboka do 3,2 km.",
+        "fact4": "Okružen liticama visokim do 8 km.",
+        "fact5": "Prosečan nagib padina samo oko 5% — blag štitasti vulkan, poput havajskih.",
+        "fact6": "Smatra se da su neki tokovi lave na njegovim padinama stari samo oko 25 miliona godina — mlado za Mars."
+      }
+    },
+    "titan": {
+      "name": "Titan",
+      "tagline": "Saturnov džinovski mesec — jedini drugi svet sa kišom, rekama i morima na površini.",
+      "body": "Titan je najveći Saturnov mesec, prečnika 5.150 km — veći od planete Merkur i oko jedan i po put širi od našeg Meseca; veći je samo Jupiterov Ganimed. Jedini je mesec sa gustom atmosferom: uglavnom od azota, sa pritiskom na površini oko jedan i po put većim od Zemljinog, obavijen narandžastom izmaglicom. Na −179 °C metan i etan preuzimaju ulogu vode — padaju kao kiša, dube rečna korita i pune jezera i mora blizu polova. U januaru 2005. evropska sonda Hajgens spustila se padobranom na njegovu površinu, što je i dalje najdalje sletanje ikada, a NASA-ina letelica sa rotorima Dragonfly trebalo bi da bude lansirana u julu 2028. i da posle dolaska 2034. leti s jedne lokacije na drugu.",
+      "narrative": "Najveće more na Titanu, Kraken Mare, nešto je veće od Kaspijskog jezera, najvećeg jezera na Zemlji. A vazduh je toliko gust, a gravitacija toliko slaba — slabija čak i od Mesečeve — da bi čovek sa krilima pričvršćenim za ruke, u principu, mogao da leti mašući njima.",
+      "massNarrative": "Titan je širi od Merkura, ali ima samo oko 40% njegove mase: Merkur je uglavnom od gvožđa i stena, a Titan uglavnom od leda.",
+      "funFact": "Saturn na Titanovom nebu izgleda više od deset puta širi nego Mesec na našem — ali bi ga sa tla gusta narandžasta izmaglica gotovo sigurno sakrila.",
+      "seoTitle": "Koliki je Titan? Saturnov mesec veći od Merkura",
+      "metaDescription": "Titan, najveći Saturnov mesec, širok je 5.150 km — veći od Merkura — sa gustom atmosferom azota i morima tečnog metana. Njegova veličina u poređenju.",
+      "image": {
+        "alt": "Titan u stvarnim bojama, snimljen NASA-inom letelicom Cassini: glatka narandžasta kugla obavijena gustom izmaglicom, bez vidljive površine."
+      },
+      "facts": {
+        "fact1": "Prečnik 5.150 km — veći od Merkura i oko 1,5 puta veći od našeg Meseca.",
+        "fact2": "Drugi po veličini mesec u Sunčevom sistemu, posle Jupiterovog Ganimeda.",
+        "fact3": "Pritisak na površini oko 1,5 puta veći od Zemljinog; atmosfera je uglavnom od azota.",
+        "fact4": "Temperatura površine oko 94 K (−179 °C).",
+        "fact5": "Sonda Hajgens sletela je 14. januara 2005 — najdalje sletanje do sada.",
+        "fact6": "NASA-in Dragonfly: lansiranje planirano za jul 2028, dolazak 2034."
+      },
+      "temperatureNote": "površina"
+    },
+    "europa": {
+      "name": "Evropa",
+      "tagline": "Jupiterov ledeni mesec — pod korom verovatno krije više tečne vode nego svi Zemljini okeani.",
+      "body": "Evropa je jedan od četiri velika Galilejeva meseca Jupitera, prečnika 3.122 km — nešto manja od našeg Meseca. Površina joj je od vodenog leda, ispresecana crvenkastosmeđim pukotinama i gotovo bez kratera, pa je Evropa najglađe poznato čvrsto telo u Sunčevom sistemu. Ispod ledene kore debele verovatno 15 do 25 km, magnetna merenja letelice Galileo ukazuju na globalni okean slane vode dubok 60 do 150 km, koji ostaje tečan zahvaljujući plimskom zagrevanju dok ga Jupiterova gravitacija gnječi. Zato je Evropa jedno od najboljih mesta za traženje života van Zemlje: NASA-ina letelica Europa Clipper lansirana je 14. oktobra 2024. i trebalo bi da stigne do Jupitera u aprilu 2030.",
+      "narrative": "Prečnik Evrope je samo oko četvrtine Zemljinog, a njen skriveni okean možda sadrži dvostruko više vode nego svi Zemljini okeani zajedno — jer može biti dubok i do 150 km, dok su Zemljini okeani u proseku duboki manje od 4 km.",
+      "funFact": "Svaki put kada Ganimed jednom obiđe Jupiter, Evropa ga obiđe tačno dvaput, a Io četiri puta. To stalno gravitaciono natezanje drži Evropinu putanju blago izduženom, pa je Jupiter neprestano savija — a upravo to savijanje greje njen okean.",
+      "seoTitle": "Kolika je Evropa? Jupiterov mesec sa okeanom",
+      "metaDescription": "Evropa, Jupiterov ledeni mesec, široka je 3.122 km — nešto manja od našeg Meseca — a njen skriveni okean možda ima dvostruko više vode od Zemljinih.",
+      "image": {
+        "alt": "Evropa u realističnim bojama, snimak NASA-ine letelice Galileo: bleda ledena kugla ispresecana crvenkastosmeđim pukotinama."
+      },
+      "facts": {
+        "fact1": "Prečnik 3.122 km — oko 90% Mesečevog.",
+        "fact2": "Ledena kora verovatno debela 15–25 km, iznad okeana dubokog 60–150 km.",
+        "fact3": "Kruži oko Jupitera na oko 671.000 km, jednom u 3,55 dana.",
+        "fact4": "Prosečna temperatura površine na ekvatoru oko 102 K (−171 °C).",
+        "fact5": "Otkrio ju je Galileo Galilej u januaru 1610.",
+        "fact6": "Letelica Europa Clipper lansirana je 14. oktobra 2024; dolazak do Jupitera planiran je za april 2030."
+      },
+      "temperatureNote": "površina, prosek na ekvatoru"
+    },
+    "orion_nebula": {
+      "name": "Orionova maglina",
+      "tagline": "Zvezdane jasle koje se vide golim okom — mutna srednja „zvezda“ Orionovog mača.",
+      "body": "Orionova maglina (M42) je svetleći oblak gasa i prašine širok oko 24 svetlosne godine, udaljen otprilike 1.300 svetlosnih godina. To je Zemlji najbliže mesto na kom se rađaju velike, masivne zvezde. Njene najsjajnije mlade zvezde, zbijena grupa po imenu Trapez, zasipaju okolni gas ultraljubičastom svetlošću i teraju ga da svetli — zato je ona klasičan primer emisione magline. Ispod Orionovog pojasa vidi se golim okom kao mutna srednja „zvezda“ mača, a kroz dvogled postaje jasna maglovita mrlja.",
+      "narrative": "Kad bi se centar Orionove magline nalazio u Suncu, ona bi se prostirala oko 12 svetlosnih godina u svim pravcima — i progutala bi Alfa Kentaura, Sirijus i sve druge naše najbliže zvezde. Svetlosti treba 24 godine samo da je pređe.",
+      "funFact": "Henri Drejper je 30. septembra 1880. eksponirao fotografsku ploču 51 minut i snimio Orionovu maglinu — prvu fotografiju neke magline u istoriji. Od tada je ona jedan od najčešće fotografisanih objekata na nebu.",
+      "seoTitle": "Kolika je Orionova maglina? Veličina i udaljenost M42",
+      "metaDescription": "Orionova maglina široka je oko 24 svetlosne godine i udaljena 1.300 svetlosnih godina — najbliže jasle masivnih zvezda, vidljive golim okom u Orionovom maču.",
+      "image": {
+        "alt": "Hablov mozaik srca Orionove magline: svetleći ružičasti, crveni i narandžasti oblaci gasa i tamne trake prašine, posuti hiljadama mladih zvezda."
+      },
+      "facts": {
+        "fact1": "Veličina: oko 24 svetlosne godine — na snimcima sa dugom ekspozicijom zauzima oko dve širine punog Meseca.",
+        "fact2": "Udaljenost: oko 1.300 svetlosnih godina (389 parseka, izmereno radio-paralaksom njenih mladih zvezda); starije knjige navode 1.344 ili 1.500.",
+        "fact3": "Zemlji najbliža oblast u kojoj nastaju masivne zvezde.",
+        "fact4": "Oko 2.800 mladih zvezda zbijeno je u jato široko oko 20 svetlosnih godina; četiri najsjajnije, Trapez, nalaze se unutar 1,5 svetlosne godine.",
+        "fact5": "Habl je tamo snimio diskove prašine oko novorođenih zvezda — planetarne sisteme u nastanku.",
+        "fact6": "Sa prividnom magnitudom 4 vidi se golim okom, čak i iz osvetljenih gradova."
+      }
+    },
+    "crab_nebula": {
+      "name": "Rakova maglina",
+      "tagline": "Ostaci zvezde koja je eksplodirala naočigled svih 1054. godine — i dalje se razleću, a u srcu im se vrti neutronska zvezda.",
+      "body": "Rakova maglina (M1) je ostatak supernove koju su astronomi u Kini, Japanu i arapskom svetu zabeležili u julu 1054. godine. To je ovalni oblak dug oko 11 svetlosnih godina, udaljen oko 6.500 svetlosnih godina u sazvežđu Bik, koji se i dalje širi brzinom od oko 1.500 km/s. U njegovom središtu vrti se Rakov pulsar, zgnječeno jezgro zvezde koja je eksplodirala — neutronska zvezda prečnika svega 28–30 km koja se okrene oko 30 puta u sekundi. Njegova energija i danas održava sjaj celog oblaka, skoro hiljadu godina posle eksplozije.",
+      "narrative": "Kad bi se centar Rakove magline nalazio u Suncu, ona bi se prostirala oko 5,5 svetlosne godine u svim pravcima — dalje od Alfa Kentaura, naše najbliže susedne zvezde. Širi se toliko brzo da bi njena ivica prešla put od Londona do Njujorka za manje od četiri sekunde.",
+      "funFact": "Kada je zvezda eksplodirala, videla se usred bela dana 23 dana, a na noćnom nebu skoro dve godine. Ipak, ni tada to nije bila sveža vest: njena svetlost putovala je oko 6.500 godina, pa je zvezda zapravo umrla hiljadama godina pre nego što je iko na Zemlji izmislio pismo.",
+      "seoTitle": "Kolika je Rakova maglina? Supernova iz 1054. godine",
+      "metaDescription": "Rakova maglina široka je oko 11 svetlosnih godina i udaljena 6.500 svetlosnih godina — ostatak supernove iz 1054, sa pulsarom koji se okrene 30 puta u sekundi.",
+      "image": {
+        "alt": "Hablov mozaik Rakove magline: ovalna mreža narandžastih i crvenih vlakana oko maglovitog plavog središta, na crnoj pozadini svemira."
+      },
+      "facts": {
+        "fact1": "Veličina: oko 11 svetlosnih godina po najdužoj osi — ovalna ljuska od svetlećih vlakana.",
+        "fact2": "Udaljenost: oko 6.500 svetlosnih godina, u sazvežđu Bik (uz moguće odstupanje od oko 1.600).",
+        "fact3": "Supernovu koja ju je stvorila, SN 1054, zabeležili su u julu 1054. kineski, japanski i arapski astronomi.",
+        "fact4": "I dalje se širi brzinom od oko 1.500 km/s — pola procenta brzine svetlosti.",
+        "fact5": "Rakov pulsar u njenom središtu prečnika je 28–30 km i okrene se oko 30 puta u sekundi — kao motor automobila na 1.800 obrtaja u minutu.",
+        "fact6": "Danas je preslaba za golo oko (magnituda 8,4), ali se dvogledom vidi sa tamnog mesta; prva je stavka, M1, u Mesjeovom katalogu."
+      }
+    },
+    "large_magellanic_cloud": {
+      "name": "Veliki Magelanov oblak",
+      "tagline": "Najveća galaksija pratilac Mlečnog puta — oblak od 20 milijardi zvezda na južnom nebu.",
+      "body": "Veliki Magelanov oblak je mala galaksija pratilac Mlečnog puta, udaljena oko 160.000 svetlosnih godina. Širok je otprilike 32.000 svetlosnih godina — oko trećine širine Mlečnog puta — i ima oko 20 milijardi zvezda. Sa južne polulopte izgleda kao otkinuti komad Mlečnog puta, bled oblak dug koliko 20 punih Meseci; ime je dobio po Ferdinandu Magelanu, čije ga je putovanje 1519. učinilo poznatim u Evropi, mada su ga ljudi na jugu oduvek poznavali. U njemu je maglina Tarantula, najveća fabrika zvezda u našem galaktičkom susedstvu, a 1987. u njemu je buknula najbliža supernova viđena za skoro 400 godina.",
+      "narrative": "Kad bi Mlečni put bio tanjir širok 27 cm, Veliki Magelanov oblak bio bi keks prečnika oko 9 cm, udaljen oko 40 cm — a Andromeda, sledeća velika galaksija, bila bi udaljena oko 6 metara.",
+      "funFact": "Svetlost koju vidimo iz Velikog Magelanovog oblaka krenula je pre oko 160.000 godina, kada je naša vrsta, Homo sapiens, živela gotovo isključivo u Africi.",
+      "seoTitle": "Koliki je Veliki Magelanov oblak? Galaksija pratilac",
+      "metaDescription": "Veliki Magelanov oblak širok je oko 32.000 svetlosnih godina i udaljen 160.000 svetlosnih godina — najveća galaksija pratilac Mlečnog puta, dom supernove 1987A.",
+      "image": {
+        "alt": "Veliki Magelanov oblak snimljen iz Čilea: bleda, nesimetrična traka zvezda sa ružičastim oblacima u kojima nastaju zvezde, na gustoj pozadini zvezda Mlečnog puta."
+      },
+      "facts": {
+        "fact1": "Veličina: oko 32.000 svetlosnih godina (do standardne granice sjaja) — otprilike trećina Mlečnog puta.",
+        "fact2": "Udaljenost: oko 160.000 svetlosnih godina (49,6 kiloparseka), izmereno s tačnošću od 1% pomoću pomračinskih dvojnih zvezda 2019.",
+        "fact3": "Ima oko 20 milijardi zvezda — i maglinu Tarantula, najaktivniju oblast stvaranja zvezda u Lokalnoj grupi.",
+        "fact4": "Supernova 1987A, viđena u njemu u februaru 1987, bila je najbliža supernova vidljiva golim okom za skoro 400 godina.",
+        "fact5": "Vidi se golim okom sa južne polulopte i severno sve do oko 20° severne geografske širine.",
+        "fact6": "Očekuje se da za otprilike 2,4 milijarde godina upadne u Mlečni put i stopi se s njim."
+      }
     }
   },
   "about": {
@@ -2806,6 +2997,38 @@
     "sporopollenin": {
       "term": "Sporopolenin",
       "definition": "Otporni polimer od kog je spoljni zid polena i spora. Toliko dobro podnosi toplotu, kiseline i raspadanje da polen kao fosil opstaje stotinama miliona godina."
+    },
+    "pheromone": {
+      "term": "Feromon",
+      "definition": "Hemijski signal koji životinja ispušta da bi promenila ponašanje drugih jedinki iste vrste. Mravi feromonima obeležavaju put do hrane i dižu uzbunu."
+    },
+    "eusociality": {
+      "term": "Eusocijalnost",
+      "definition": "Život u kolonijama u kojima se razmnožava samo nekoliko jedinki, a ostale, neplodne radnice, zajedno podižu mlade, skupljaju hranu i brane gnezdo."
+    },
+    "waggle_dance": {
+      "term": "Vrckavi ples",
+      "definition": "Ples u obliku osmice koji pčela izvodi na saću: ugao pravolinijskog dela, tokom kog vrcka zatkom, pokazuje pravac do hrane u odnosu na Sunce, a njegovo trajanje pokazuje udaljenost."
+    },
+    "cryovolcano": {
+      "term": "Kriovulkan",
+      "definition": "Ledeni vulkan: umesto rastopljenih stena izbacuje vodu, slanu vodu ili druge isparljive tečnosti koje se smrzavaju na hladnoj površini. Cerera ima jedan, Ahuna Mons; Enceladus izbacuje vodu u svemir, a možda ih imaju i Evropa i Titan."
+    },
+    "shield_volcano": {
+      "term": "Štitasti vulkan",
+      "definition": "Širok vulkan blagih padina, nastao od mnogo tokova retke lave koja se razlije daleko pre nego što se ohladi — oblika ratničkog štita položenog na zemlju. Primeri su Mauna Loa na Havajima i Olympus Mons na Marsu."
+    },
+    "tidal_heating": {
+      "term": "Plimsko zagrevanje",
+      "definition": "Toplota koja nastaje u unutrašnjosti meseca kada ga promenljiva gravitacija planete u svakom obilasku sabija i razvlači, kao loptica koja se zagreje dok se gnječi. Održava Evropin okean tečnim i pokreće vulkane na Iu."
+    },
+    "nebula": {
+      "term": "Maglina",
+      "definition": "Ogroman oblak gasa i prašine u svemiru — ili jasle u kojima nastaju nove zvezde, ili odbačeni ostaci zvezde koja umire."
+    },
+    "satellite_galaxy": {
+      "term": "Galaksija pratilac",
+      "definition": "Manja galaksija koju gravitacija veće galaksije drži u orbiti oko nje, kao što Mesec kruži oko Zemlje."
     }
   },
   "faq": {
@@ -2822,6 +3045,7 @@
     "q2": "{Name} u poređenju sa čovekom?",
     "a2bigger": "Čovek visine 1,7 m otprilike je {ratio} puta manji nego {name}.",
     "a2smaller": "Čovek visine 1,7 m otprilike je {ratio} puta veći nego {name}.",
+    "a2smallerLong": "Dužina: otprilike {ratio} puta manja nego visina čoveka od 1,7 m.",
     "q3": "Šta je odmah manje, a šta odmah veće nego {name}?",
     "a3smaller": "Korak niže: {other} ({otherSize}), oko {ratio} puta manje.",
     "a3larger": "Korak više: {other} ({otherSize}), oko {ratio} puta veće.",
@@ -2911,7 +3135,16 @@
       "sirius": "Sirijus",
       "asteroid_belt": "asteroidni pojas",
       "water_molecule": "molekul vode",
-      "pollen_grain": "polenovo zrno"
+      "pollen_grain": "polenovo zrno",
+      "ant": "mrav",
+      "honeybee": "medonosna pčela",
+      "ceres": "Cerera",
+      "olympus_mons": "Olympus Mons",
+      "titan": "Titan",
+      "europa": "Evropa",
+      "orion_nebula": "Orionova maglina",
+      "crab_nebula": "Rakova maglina",
+      "large_magellanic_cloud": "Veliki Magelanov oblak"
     },
     "a3smallerTall": "Korak niže: {other} ({otherSize}), oko {ratio} puta niže.",
     "a3largerTall": "Korak više: {other} ({otherSize}), oko {ratio} puta više.",
@@ -3098,7 +3331,7 @@
       "short": "Galaksije",
       "title": "Galaksije, poređene",
       "seoTitle": "Mlečni put i Andromeda: koliko su velike galaksije?",
-      "intro": "Naša galaksija, Mlečni put, i njen veliki sused Andromeda — dve spirale sa stotinama milijardi zvezda koje se približavaju jedna drugoj — mada je spajanje u narednih 10 milijardi godina sada otprilike pitanje bacanja novčića.",
+      "intro": "Naša galaksija, Mlečni put; njen najveći pratilac, Veliki Magelanov oblak, udaljen 160.000 svetlosnih godina; i njen veliki sused Andromeda — dve spirale sa stotinama milijardi zvezda koje se približavaju jedna drugoj, mada je spajanje u narednih 10 milijardi godina sada otprilike pitanje bacanja novčića.",
       "metaDescription": "Mlečni put i Andromeda: dve spirale sa stotinama milijardi zvezda, koliko su velike i da li će se zaista sudariti."
     },
     "unit": {
@@ -3111,7 +3344,7 @@
       "short": "Životinje",
       "title": "Životinje od najsitnijih do najvećih",
       "seoTitle": "Veličine životinja: od tardigrada do plavog kita",
-      "intro": "Vodeni medved od pola milimetra koji može da preživi vakuum svemira, afrički slon, žirafa — najviša živa životinja — i plavi kit, najteža poznata životinja.",
+      "intro": "Baštenski mrav od 5 mm i medonosna pčela od 13 mm, vodeni medved od pola milimetra koji može da preživi vakuum svemira, afrički slon, žirafa — najviša živa životinja — i plavi kit, najteža poznata životinja.",
       "metaDescription": "Tardigrad, afrički slon, žirafa i plavi kit upoređeni po veličini: od vodenog medveda od pola milimetra do najteže životinje koja je ikada živela."
     },
     "spacecraft": {
@@ -3148,6 +3381,34 @@
       "seoTitle": "Drevna čuda: piramida, Koloseum i Kineski zid",
       "intro": "Ono što su ljudi gradili snagom mišića, rampama i strpljenjem: Velika piramida od 139 metara, najviša građevina na Zemlji skoro četiri hiljade godina; Koloseum, arena duga 189 metara za oko 50.000 gledalaca; i Kineski zid, oko 21.000 km zidova podizanih tokom dve hiljade godina.",
       "metaDescription": "Velika piramida (139 m visine), Koloseum (189 m dužine) i Kineski zid (oko 21.196 km) upoređeni po veličini — najveće građevine drevnog sveta."
+    },
+    "insect": {
+      "short": "Insekti",
+      "title": "Insekti, po veličini",
+      "seoTitle": "Veličina insekata: mrav i medonosna pčela",
+      "intro": "Male životinje koje je svako posmatrao izbliza: baštenski mrav od 5 mm, jedan od oko 20 bilijardi na Zemlji, i medonosna pčela od 13 mm koja plesom pokazuje put do cveća.",
+      "metaDescription": "Baštenski mrav i medonosna pčela upoređeni po veličini: dva društvena insekta od nekoliko milimetara na istoj skali sa tardigradom, čovekom i kitom."
+    },
+    "asteroid": {
+      "short": "Asteroidi",
+      "title": "Asteroidni pojas i njegov najveći član",
+      "seoTitle": "Asteroidni pojas i Cerera: poređenje veličina",
+      "intro": "Ostaci između Marsa i Jupitera: pojas širok oko 960 miliona km, čiji najveći član, patuljasta planeta Cerera prečnika 940 km, nosi oko 40% njegove ukupne mase.",
+      "metaDescription": "Asteroidni pojas i Cerera upoređeni po veličini: prsten stenovitih ostataka između Marsa i Jupitera i patuljasta planeta sa 40% njegove mase."
+    },
+    "dwarf-planet": {
+      "short": "Patuljaste planete",
+      "title": "Patuljaste planete, po veličini",
+      "seoTitle": "Patuljaste planete: Pluton i Cerera",
+      "intro": "Okrugli svetovi koji nisu očistili svoje putanje: Pluton, prečnika 2.377 km, u Kajperovom pojasu, i Cerera, prečnika 940 km, u asteroidnom pojasu, sa slanom vodom pod korom.",
+      "metaDescription": "Pluton i Cerera upoređeni po veličini: dve patuljaste planete, jedna iza Neptuna, druga u asteroidnom pojasu, na istoj skali sa Mesecom i Zemljom."
+    },
+    "mountain": {
+      "short": "Planine",
+      "title": "Najviše planine, na Zemlji i na Marsu",
+      "seoTitle": "Najviše planine: Everest i Olympus Mons",
+      "intro": "Najviši vrh Zemlje, Mont Everest sa 8.849 m, pored Olympus Monsa na Marsu — vulkana visokog oko 22 km, dva i po Everesta, sa osnovom širokom kao Italija.",
+      "metaDescription": "Mont Everest i Olympus Mons upoređeni po visini: najviši vrh Zemlje i najviši vulkan u Sunčevom sistemu, 2,5 puta viši."
     }
   }
 }

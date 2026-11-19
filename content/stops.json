@@ -1954,6 +1954,231 @@
       "tags": [
         "biology"
       ]
+    },
+    {
+      "id": "ant",
+      "i18nKey": "stops.ant",
+      "sizeMeters": 0.005,
+      "order": 4.66,
+      "badge": "FACT",
+      "category": "EARTH",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/ant.webp",
+        "aspect": "wide",
+        "altKey": "stops.ant.image.alt",
+        "credit": "Carlos Delgado — CC BY-SA 3.0 (cropped)"
+      },
+      "glossary": [
+        "pheromone",
+        "eusociality"
+      ],
+      "tags": [
+        "biology",
+        "animal",
+        "insect"
+      ]
+    },
+    {
+      "id": "honeybee",
+      "i18nKey": "stops.honeybee",
+      "sizeMeters": 0.013,
+      "order": 4.67,
+      "badge": "FACT",
+      "category": "EARTH",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/honeybee.webp",
+        "aspect": "wide",
+        "altKey": "stops.honeybee.image.alt",
+        "credit": "John Severns — public domain"
+      },
+      "glossary": [
+        "waggle_dance",
+        "eusociality"
+      ],
+      "tags": [
+        "biology",
+        "animal",
+        "insect"
+      ]
+    },
+    {
+      "id": "ceres",
+      "i18nKey": "stops.ceres",
+      "sizeMeters": 939400,
+      "distanceFromEarthMeters": 413000000000,
+      "temperatureKelvin": 170,
+      "order": 7.58,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/ceres.webp",
+        "aspect": "square",
+        "altKey": "stops.ceres.image.alt",
+        "credit": "NASA / JPL-Caltech / UCLA / MPS / DLR / IDA / Dawn, processed by Justin Cowart — public domain"
+      },
+      "glossary": [
+        "dwarf_planet",
+        "cryovolcano"
+      ],
+      "tags": [
+        "dwarf-planet",
+        "asteroid"
+      ]
+    },
+    {
+      "id": "olympus_mons",
+      "i18nKey": "stops.olympus_mons",
+      "sizeMeters": 22000,
+      "distanceFromEarthMeters": 255000000000,
+      "order": 7.32,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "preferredReferenceId": "everest",
+      "image": {
+        "src": "/images/olympus-mons.webp",
+        "aspect": "square",
+        "altKey": "stops.olympus_mons.image.alt",
+        "credit": "NASA / Viking, mosaic edited by Seddon — public domain"
+      },
+      "glossary": [
+        "shield_volcano",
+        "plate_tectonics"
+      ],
+      "tags": [
+        "mountain"
+      ]
+    },
+    {
+      "id": "titan",
+      "i18nKey": "stops.titan",
+      "sizeMeters": 5150000,
+      "distanceFromEarthMeters": 1430000000000,
+      "temperatureKelvin": 94,
+      "order": 7.76,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/titan.webp",
+        "aspect": "square",
+        "altKey": "stops.titan.image.alt",
+        "credit": "NASA / JPL-Caltech / Space Science Institute / Cassini — public domain"
+      },
+      "glossary": [
+        "tidal_lock"
+      ],
+      "tags": [
+        "satellite"
+      ]
+    },
+    {
+      "id": "europa",
+      "i18nKey": "stops.europa",
+      "sizeMeters": 3121600,
+      "distanceFromEarthMeters": 778500000000,
+      "temperatureKelvin": 102,
+      "order": 7.72,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/europa.webp",
+        "aspect": "wide",
+        "altKey": "stops.europa.image.alt",
+        "credit": "NASA / JPL-Caltech / SETI Institute / Galileo — public domain"
+      },
+      "glossary": [
+        "tidal_heating",
+        "tidal_lock"
+      ],
+      "tags": [
+        "satellite"
+      ]
+    },
+    {
+      "id": "orion_nebula",
+      "i18nKey": "stops.orion_nebula",
+      "sizeMeters": 2.27e+17,
+      "distanceFromEarthMeters": 1.23e19,
+      "order": 10.8,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-plasma",
+      "accentGlow": "shadow-[0_0_80px_rgba(192,132,252,0.45)]",
+      "image": {
+        "src": "/images/orion-nebula.webp",
+        "aspect": "square",
+        "altKey": "stops.orion_nebula.image.alt",
+        "credit": "NASA, ESA, M. Robberto (STScI/ESA) and the Hubble Space Telescope Orion Treasury Project Team — public domain"
+      },
+      "glossary": [
+        "nebula",
+        "molecular_cloud",
+        "light_year"
+      ],
+      "tags": [
+        "nebula"
+      ]
+    },
+    {
+      "id": "crab_nebula",
+      "i18nKey": "stops.crab_nebula",
+      "sizeMeters": 1.04e+17,
+      "distanceFromEarthMeters": 6.149e19,
+      "order": 10.75,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-ember",
+      "accentGlow": "shadow-[0_0_80px_rgba(251,113,133,0.5)]",
+      "image": {
+        "src": "/images/crab-nebula.webp",
+        "aspect": "square",
+        "altKey": "stops.crab_nebula.image.alt",
+        "credit": "NASA, ESA, J. Hester and A. Loll (Arizona State University) — public domain"
+      },
+      "glossary": [
+        "nebula",
+        "supernova",
+        "pulsar"
+      ],
+      "tags": [
+        "nebula"
+      ]
+    },
+    {
+      "id": "large_magellanic_cloud",
+      "i18nKey": "stops.large_magellanic_cloud",
+      "sizeMeters": 3.04e+20,
+      "distanceFromEarthMeters": 1.514e21,
+      "order": 10.9,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-aurora",
+      "accentGlow": "shadow-[0_0_100px_rgba(124,92,255,0.45)]",
+      "image": {
+        "src": "/images/large-magellanic-cloud.webp",
+        "aspect": "wide",
+        "altKey": "stops.large_magellanic_cloud.image.alt",
+        "credit": "Zdeněk Bardon/ESO — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "satellite_galaxy",
+        "supernova",
+        "parsec"
+      ],
+      "tags": [
+        "galaxy"
+      ]
     }
   ]
 }

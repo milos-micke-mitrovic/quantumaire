@@ -24,10 +24,10 @@ Sorted by size, the biggest gaps a layperson would notice are 0.5 mm → 1.7 m
 → Pluto) and 3 ly → 100,000 ly (Oort cloud → Milky Way). The Nebulae guide has
 no nebula topic and the Moons guide has only the Moon.
 
-- [ ] Life & Earth: ant, honeybee (familiar small-animal sizes)
-- [ ] Cosmos, mid-size: Ceres, Olympus Mons (vs Everest), Titan, Europa
-- [ ] Cosmos, large: Orion Nebula, Crab Nebula, Large Magellanic Cloud
-- [ ] Wire them into guides (nebulae, moons, planets, supernova, smallest/
+- [x] Life & Earth: ant, honeybee (familiar small-animal sizes)
+- [x] Cosmos, mid-size: Ceres, Olympus Mons (vs Everest), Titan, Europa
+- [x] Cosmos, large: Orion Nebula, Crab Nebula, Large Magellanic Cloud
+- [x] Wire them into guides (nebulae, moons, planets, supernova, smallest/
       largest), collections, familiar/round lists; dump and read the new FAQ
       answers, analogies, real-scale cards.
 

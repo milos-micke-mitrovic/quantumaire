@@ -52,6 +52,8 @@ const nextConfig: NextConfig = {
       ["star", "stars"],
       ["black-hole", "black-holes"],
       ["planet", "planet-sizes-compared"],
+      ["nebula", "nebulae"],
+      ["satellite", "moons"],
     ].map(([tag, guide]) => ({
       source: `/:locale(en|sr)/tag/${tag}`,
       destination: `/:locale/topics/${guide}`,

@@ -92,6 +92,19 @@ describe("distance answers", () => {
     expect(text("ton_618")).not.toMatch(/years to reach us/);
   });
 
+  it("names neighbours of the same kind (no moon next to a river)", () => {
+    expect(text("titan")).toMatch(/One step up is Mars/);
+    expect(text("olympus_mons")).not.toMatch(/Halley|Gaia/);
+    expect(text("great_red_spot")).not.toMatch(/Great Wall/);
+    // Human-scale things still compare across kinds.
+    expect(text("james_webb")).toMatch(/One step down is a giraffe/);
+    expect(text("titanic")).toMatch(/One step up is the Eiffel Tower/);
+  });
+
+  it("says taller-than-long for small lengths", () => {
+    expect(text("ant")).toMatch(/340 times taller than an ant is long/);
+  });
+
   it("uses measure-specific wording for lengths", () => {
     expect(text("great_wall")).toMatch(/1\.7 times longer than Earth is wide/);
     expect(text("amazon_river")).toMatch(/is about 6,400 km long/);

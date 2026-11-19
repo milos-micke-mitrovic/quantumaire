@@ -19,6 +19,13 @@ export function describePair(locale: Locale, a: Stop, b: Stop) {
   let ratio = "1";
   // Two heights (Burj Khalifa vs Eiffel Tower) compare as "taller".
   const tall = sizeMeasure(a) === "height" && sizeMeasure(b) === "height";
+  // A depth against a height (Mariana Trench vs Everest) reads "deeper than
+  // … is tall"; only phrased that way when the depth is the bigger number.
+  const aBiggerSize = (a.sizeMeters ?? 0) >= (b.sizeMeters ?? 0);
+  const deepTall =
+    sizeMeasure(aBiggerSize ? a : b) === "depth" &&
+    sizeMeasure(aBiggerSize ? b : a) === "height";
+  const variant = tall ? "Tall" : deepTall ? "DeepTall" : "";
   if (a.sizeMeters && b.sizeMeters) {
     const aBigger = a.sizeMeters >= b.sizeMeters;
     big = aBigger ? aName : bName;
@@ -28,13 +35,15 @@ export function describePair(locale: Locale, a: Stop, b: Stop) {
       locale
     );
     lines.push(
-      capFirst(tServer(locale, tall ? "common.comparePage.pairSizeTall" : "common.comparePage.pairSize", {
+      capFirst(tServer(locale, `common.comparePage.pairSize${variant}`, {
         ...vars,
         big,
         small,
         ratio,
         sizeA: formatMeters(a.sizeMeters, tm),
         sizeB: formatMeters(b.sizeMeters, tm),
+        sizeBig: formatMeters(Math.max(a.sizeMeters, b.sizeMeters), tm),
+        sizeSmall: formatMeters(Math.min(a.sizeMeters, b.sizeMeters), tm),
       }))
     );
   }
@@ -79,8 +88,8 @@ export function describePair(locale: Locale, a: Stop, b: Stop) {
     description: capFirst(
       tServer(
         locale,
-        tall
-          ? "common.comparePage.pairDescriptionTall"
+        variant
+          ? `common.comparePage.pairDescription${variant}`
           : lines.length > 1
             ? "common.comparePage.pairDescription"
             : "common.comparePage.pairDescriptionSize",
@@ -88,7 +97,7 @@ export function describePair(locale: Locale, a: Stop, b: Stop) {
       )
     ),
     faqQ: capFirst(
-      tServer(locale, tall ? "common.comparePage.pairFaqQTall" : "common.comparePage.pairFaqQ", {
+      tServer(locale, `common.comparePage.pairFaqQ${variant}`, {
         big,
         small,
       })

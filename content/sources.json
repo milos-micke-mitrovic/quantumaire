@@ -1006,5 +1006,127 @@
       "label": "Wikipedia — Sporopollenin",
       "url": "https://en.wikipedia.org/wiki/Sporopollenin"
     }
+  ],
+  "ant": [
+    {
+      "label": "Wikipedia — Ant",
+      "url": "https://en.wikipedia.org/wiki/Ant"
+    },
+    {
+      "label": "Wikipedia — Black garden ant",
+      "url": "https://en.wikipedia.org/wiki/Black_garden_ant"
+    },
+    {
+      "label": "Wikipedia — Bullet ant",
+      "url": "https://en.wikipedia.org/wiki/Paraponera_clavata"
+    }
+  ],
+  "honeybee": [
+    {
+      "label": "Wikipedia — Western honey bee",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee"
+    },
+    {
+      "label": "PBS Nature — Honeybee animal guide",
+      "url": "https://www.pbs.org/wnet/nature/animal-guide-honeybee/499"
+    },
+    {
+      "label": "Altshuler et al. 2005, PNAS — honeybee wingbeat (Caltech)",
+      "url": "https://resolver.caltech.edu/CaltechAUTHORS:ALTpnas05"
+    }
+  ],
+  "ceres": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)"
+    },
+    {
+      "label": "NASA — Ceres: Facts",
+      "url": "https://science.nasa.gov/dwarf-planets/ceres/facts/"
+    },
+    {
+      "label": "NASA — Dawn mission",
+      "url": "https://science.nasa.gov/mission/dawn/"
+    }
+  ],
+  "olympus_mons": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Olympus_Mons"
+    },
+    {
+      "label": "ESA — Olympus Mons, the caldera in close-up",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Olympus_Mons_-_the_caldera_in_close-up"
+    }
+  ],
+  "titan": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)"
+    },
+    {
+      "label": "NASA — Titan: Facts",
+      "url": "https://science.nasa.gov/saturn/moons/titan/facts/"
+    },
+    {
+      "label": "NASA — Dragonfly mission",
+      "url": "https://science.nasa.gov/mission/dragonfly/"
+    }
+  ],
+  "europa": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Europa_(moon)"
+    },
+    {
+      "label": "NASA — Europa: Facts",
+      "url": "https://science.nasa.gov/jupiter/jupiter-moons/europa/europa-facts/"
+    },
+    {
+      "label": "NASA — Europa Clipper",
+      "url": "https://science.nasa.gov/mission/europa-clipper/"
+    }
+  ],
+  "orion_nebula": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Orion_Nebula"
+    },
+    {
+      "label": "NASA Hubble — Messier 42",
+      "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-42/"
+    },
+    {
+      "label": "ESA/Hubble — Orion Nebula mosaic",
+      "url": "https://esahubble.org/images/heic0601a/"
+    }
+  ],
+  "crab_nebula": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Crab_Nebula"
+    },
+    {
+      "label": "NASA Hubble — Messier 1",
+      "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-1/"
+    },
+    {
+      "label": "Wikipedia — SN 1054",
+      "url": "https://en.wikipedia.org/wiki/SN_1054"
+    }
+  ],
+  "large_magellanic_cloud": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Large_Magellanic_Cloud"
+    },
+    {
+      "label": "Pietrzyński et al. 2019, Nature",
+      "url": "https://www.nature.com/articles/s41586-019-0999-4"
+    },
+    {
+      "label": "Wikipedia — SN 1987A",
+      "url": "https://en.wikipedia.org/wiki/SN_1987A"
+    }
   ]
 }

@@ -197,7 +197,10 @@
       "pairSizeTall": "{big} is about {ratio} times taller than {small}: {a} stands {sizeA} tall, {b} {sizeB}.",
       "pairDescriptionTall": "{big} is about {ratio} times taller than {small}. Compare their heights on a true scale.",
       "pairFaqQTall": "How much taller is {big} than {small}?",
-      "pairDescriptionSize": "{big} is about {ratio} times bigger than {small}. See the two side by side on a true scale."
+      "pairDescriptionSize": "{big} is about {ratio} times bigger than {small}. See the two side by side on a true scale.",
+      "pairSizeDeepTall": "{big} is about {ratio} times deeper than {small} is tall: {big} goes down {sizeBig}, {small} rises {sizeSmall}.",
+      "pairDescriptionDeepTall": "{big} is about {ratio} times deeper than {small} is tall. See the depth and the height side by side on a true scale.",
+      "pairFaqQDeepTall": "How much deeper is {big} than {small} is tall?"
     },
     "tempSameInC": "≈ same in °C",
     "numberLocale": "en-US",
@@ -523,7 +526,9 @@
     "landscape": "Landscape",
     "ship": "Ship",
     "storm": "Storm",
-    "asteroid": "Asteroid"
+    "asteroid": "Asteroid",
+    "insect": "Insect",
+    "nebula": "Nebula"
   },
   "stops": {
     "quark": {
@@ -2055,6 +2060,192 @@
         "fact5": "Its outer wall, sporopollenin, can survive for hundreds of millions of years.",
         "fact6": "Wind-blown pollen can travel hundreds of kilometres."
       }
+    },
+    "ant": {
+      "name": "Ant",
+      "tagline": "A few millimetres of animal — and about 20 quadrillion of them, together outweighing all wild birds and mammals.",
+      "body": "Ants are social insects that live in colonies built around one or more egg-laying queens and thousands of wingless female workers. A worker of a common garden species, such as Europe's black garden ant, is about 3–5 mm long; across more than 13,800 known species, workers range from under a millimetre to the 3 cm bullet ant of Central and South American rainforests. Ants find their way and share out work mostly by smell: a forager that finds food lays a pheromone trail home, and nestmates that follow it reinforce the best route. Black garden ants even farm aphids, guarding them from ladybirds in exchange for their sugary honeydew. Ants live on every continent except Antarctica and evolved from wasp-like ancestors more than 100 million years ago.",
+      "narrative": "A 5 mm worker is about as long as a grain of rice, and ten times longer than a tardigrade. It would take about 340 of them, lined up nose to tail, to match the height of an adult.",
+      "funFact": "A 2022 estimate put the number of ants on Earth at about 20 quadrillion (20,000,000,000,000,000), roughly 2.5 million for every person alive. Together they contain more carbon than all wild birds and wild mammals combined.",
+      "seoTitle": "How Big Is an Ant? Ant Sizes From 1 mm to 3 cm",
+      "metaDescription": "A common garden ant worker is about 3–5 mm long, and ant species range from under 1 mm to the 3 cm bullet ant. See an ant's size compared to familiar things.",
+      "image": {
+        "alt": "A shiny black garden ant tending a group of brown aphids on a bright green thuja sprig, seen in close-up."
+      },
+      "facts": {
+        "fact1": "Black garden ant worker: about 3–5 mm long; its queen: up to about 9 mm.",
+        "fact2": "Smallest ant workers: about 0.75 mm; bullet ant workers: 18–30 mm.",
+        "fact3": "About 20 quadrillion ants live on Earth (2022 estimate).",
+        "fact4": "More than 13,800 species are known, most of them in the tropics.",
+        "fact5": "Black garden ant workers live a few months, but a queen can live at least 19 years.",
+        "fact6": "The bullet ant's sting tops the Schmidt sting pain index; the pain can last up to 24 hours."
+      }
+    },
+    "honeybee": {
+      "name": "Honey Bee",
+      "tagline": "A 13 mm insect that dances directions to flowers — one of tens of thousands in a single hive.",
+      "body": "The western honey bee is the bee kept in hives around the world for honey and crop pollination. A worker (every honey bee you see on a flower is female) has a body length of about 12–15 mm, while the queen, the colony's only egg-layer, reaches 18–22 mm. In midsummer a healthy hive can hold 40,000 to 80,000 bees, nearly all of them workers. Foragers that find good flowers come home and perform the waggle dance on the comb: the angle of the dance shows the direction relative to the Sun, and the length of each waggle run tells how far to fly.",
+      "narrative": "At about 13 mm, a worker bee would just about cover your thumbnail. She is as long as two and a half garden ants, and about 130 bees lined up nose to tail would reach the height of an adult.",
+      "massNarrative": "A worker weighs about 100 mg, so ten bees together weigh about as much as a paper clip.",
+      "funFact": "A summer forager lives only a few weeks, yet in that time she flies about 800 km, roughly the distance from Paris to Berlin, before her wings wear out.",
+      "seoTitle": "How Big Is a Honey Bee? Worker and Queen Size",
+      "metaDescription": "A western honey bee worker is about 12–15 mm long and weighs about 100 mg; the queen reaches 18–22 mm. See a honey bee's size compared to familiar things.",
+      "image": {
+        "alt": "A honey bee worker with pollen-dusted legs drinking nectar from the yellow centre of a purple aster flower."
+      },
+      "facts": {
+        "fact1": "Worker body length: about 12–15 mm; queen: about 18–22 mm.",
+        "fact2": "A worker weighs about 100 mg; a queen about twice as much.",
+        "fact3": "A healthy hive in midsummer: about 40,000–80,000 bees and a single queen.",
+        "fact4": "Its wings beat about 230 times a second while hovering — that is the buzz you hear.",
+        "fact5": "Summer workers live only about 15–38 days; a queen can live up to 3 years.",
+        "fact6": "Karl von Frisch shared the 1973 Nobel Prize, partly for decoding the waggle dance."
+      }
+    },
+    "ceres": {
+      "name": "Ceres",
+      "tagline": "The biggest thing in the asteroid belt — a dwarf planet with salty water hidden under its crust.",
+      "body": "Ceres is a dwarf planet about 940 km across, circling the Sun in the asteroid belt between Mars and Jupiter. Giuseppe Piazzi spotted it on 1 January 1801 and it was hailed as a new planet, later reclassed as an asteroid, and since 2006 it has been the only dwarf planet in the inner Solar System. On its own it holds about 40% of the mass of the entire asteroid belt. NASA's Dawn spacecraft orbited it from 2015 to 2018 and found a crust of rock, ice and salts, bright salt deposits in Occator Crater and a lone ice volcano about 4 km high, Ahuna Mons — signs that briny water still lies deep below.",
+      "narrative": "Peel off Ceres's whole surface and lay it flat, and it would cover about 2.8 million km² — almost exactly the area of Argentina. Its width, about 940 km, is roughly the straight-line distance from London to Berlin.",
+      "massNarrative": "Ceres alone holds about 40% of the asteroid belt's mass, yet it weighs only about 1/78 as much as our Moon. Its gravity is so weak that a person who weighs 70 kg on Earth would feel as light as 2 kg there.",
+      "funFact": "The chemical element cerium, discovered in 1803, was named after Ceres — and Ceres itself is named after the Roman goddess of farming and grain, the same name that gave us the word \"cereal\".",
+      "seoTitle": "How Big Is Ceres? The Asteroid Belt's Dwarf Planet",
+      "metaDescription": "Ceres is about 940 km across — a quarter of the Moon's width, with a surface as big as Argentina — yet it holds 40% of the asteroid belt's mass.",
+      "image": {
+        "alt": "Ceres in natural colour, photographed by NASA's Dawn spacecraft: a grey, cratered globe with a few small bright spots."
+      },
+      "facts": {
+        "fact1": "Mean diameter about 940 km (939.4 km, measured by Dawn) — roughly a quarter of the Moon's.",
+        "fact2": "Orbits the Sun about 413 million km out on average (2.8 AU); one year there lasts 4.6 Earth years.",
+        "fact3": "Holds about 40% of the total mass of the asteroid belt.",
+        "fact4": "Surface gravity is about 1/35 of Earth's.",
+        "fact5": "Discovered on 1 January 1801 by Giuseppe Piazzi; classed as a dwarf planet since 2006.",
+        "fact6": "Average surface temperature around 170 K (about −100 °C)."
+      },
+      "temperatureNote": "average at the surface"
+    },
+    "olympus_mons": {
+      "name": "Olympus Mons",
+      "tagline": "A volcano on Mars two and a half times taller than Everest — and covering nearly as much ground as Italy.",
+      "body": "Olympus Mons is a shield volcano on Mars and the tallest volcano known in the Solar System. Its summit stands about 22 km above the surrounding plains — roughly two and a half times the height of Mount Everest above sea level — and its base is about 600 km wide, covering an area close to that of Italy. Cliffs up to 8 km high ring its edge, and the top holds six collapsed craters nested together, about 60 by 80 km across and up to 3 km deep. It grew so big because Mars has no moving tectonic plates: the crust stayed put over the same hot spot, so lava kept piling up in one place, and Mars's weaker gravity let the pile stand taller.",
+      "narrative": "Airliners cruise about 11 km up; the summit of Olympus Mons would stand twice as high. Yet its slopes are so gentle — about 5% on average — that someone standing on them would hardly notice being on a mountain at all: the volcano is so wide that its summit and most of its slope lie beyond the horizon.",
+      "funFact": "Astronomers had seen a bright patch at this spot since the 19th century and called it Nix Olympica, \"the Snow of Olympus\". When Mariner 9 reached Mars in 1971, in the middle of a planet-wide dust storm, the volcano's summit was one of the few things poking up above the dust.",
+      "seoTitle": "How Tall Is Olympus Mons? Mars Volcano vs Everest",
+      "metaDescription": "Olympus Mons on Mars rises about 22 km — 2.5 times Mount Everest — and is 600 km wide, close to the area of Italy. The Solar System's tallest volcano.",
+      "image": {
+        "alt": "Olympus Mons seen from directly above in a Viking orbiter mosaic: a broad, round volcano with a collapsed summit crater, ringed by steep cliffs."
+      },
+      "facts": {
+        "fact1": "Height: about 22 km above the surrounding plains — about 2.5 times Everest's height above sea level.",
+        "fact2": "Base about 600 km wide; it covers about 300,000 km², close to the area of Italy.",
+        "fact3": "Summit caldera: six nested craters, about 60 × 80 km and up to 3.2 km deep.",
+        "fact4": "Ringed by cliffs up to 8 km high.",
+        "fact5": "Average slope only about 5% — a gentle shield volcano, like those of Hawaii.",
+        "fact6": "Some lava flows on its flanks are thought to be only about 25 million years old — young for Mars."
+      }
+    },
+    "titan": {
+      "name": "Titan",
+      "tagline": "Saturn's giant moon — the only other world with rain, rivers and seas on its surface.",
+      "body": "Titan is Saturn's largest moon, 5,150 km across — bigger than the planet Mercury and about one and a half times as wide as our Moon; only Jupiter's Ganymede is larger. It is the only moon with a thick atmosphere: mostly nitrogen, with a surface pressure about one and a half times Earth's, wrapped in an orange haze. At −179 °C, methane and ethane take the place of water — they fall as rain, carve river channels and fill lakes and seas near the poles. In January 2005 the European Huygens probe parachuted onto its surface, still the most distant landing ever made, and NASA's Dragonfly rotorcraft is set to launch in July 2028 and, after arriving in 2034, fly from site to site.",
+      "narrative": "Titan's biggest sea, Kraken Mare, is slightly larger than the Caspian Sea, the biggest lake on Earth. And the air is so thick and the gravity so weak — weaker even than the Moon's — that a person with wings strapped to their arms could, in principle, fly by flapping.",
+      "massNarrative": "Titan is wider than Mercury but has only about 40% of its mass: Mercury is mostly iron and rock, Titan mostly ice.",
+      "funFact": "Saturn hangs in Titan's sky looking more than ten times as wide as the Moon does from Earth — but from the ground the thick orange haze would almost certainly hide it.",
+      "seoTitle": "How Big Is Titan? Saturn's Moon Bigger Than Mercury",
+      "metaDescription": "Titan, Saturn's largest moon, is 5,150 km wide — bigger than Mercury — with a thick nitrogen atmosphere and seas of liquid methane. Its size compared.",
+      "image": {
+        "alt": "Titan in true colour from NASA's Cassini spacecraft: a smooth orange globe wrapped in thick haze, with no surface visible."
+      },
+      "facts": {
+        "fact1": "Diameter 5,150 km — larger than Mercury and about 1.5 times our Moon.",
+        "fact2": "Second-largest moon in the Solar System, after Jupiter's Ganymede.",
+        "fact3": "Surface pressure about 1.5 times Earth's; the atmosphere is mostly nitrogen.",
+        "fact4": "Surface temperature about 94 K (−179 °C).",
+        "fact5": "The Huygens probe landed on 14 January 2005 — the most distant landing so far.",
+        "fact6": "NASA's Dragonfly: launch planned for July 2028, arrival in 2034."
+      },
+      "temperatureNote": "surface"
+    },
+    "europa": {
+      "name": "Europa",
+      "tagline": "Jupiter's icy moon — probably hiding more liquid water under its shell than all of Earth's oceans.",
+      "body": "Europa is one of Jupiter's four large Galilean moons, 3,122 km across — a little smaller than our Moon. Its surface is water ice, criss-crossed by reddish-brown cracks and almost free of craters, which makes it the smoothest solid object known in the Solar System. Beneath an ice shell probably 15 to 25 km thick, magnetic measurements by the Galileo spacecraft point to a global ocean of salty water 60 to 150 km deep, kept liquid by tidal heating as Jupiter's gravity squeezes the moon. That makes Europa one of the best places to look for life beyond Earth: NASA's Europa Clipper launched on 14 October 2024 and is due to reach Jupiter in April 2030.",
+      "narrative": "Europa is only about a quarter as wide as Earth, yet its hidden ocean may hold about twice as much water as all of Earth's oceans put together — because it may be up to 150 km deep, while Earth's oceans average less than 4 km.",
+      "funFact": "Every time Ganymede goes once around Jupiter, Europa goes around exactly twice and Io four times. This steady gravitational tug-of-war keeps Europa's orbit slightly stretched, so Jupiter keeps flexing it — and that flexing is what heats its ocean.",
+      "seoTitle": "How Big Is Europa? Jupiter's Ocean Moon Compared",
+      "metaDescription": "Europa, Jupiter's icy moon, is 3,122 km wide — a little smaller than our Moon — yet its hidden ocean may hold twice the water of Earth's oceans.",
+      "image": {
+        "alt": "Europa in realistic colour from NASA's Galileo spacecraft: a pale icy globe criss-crossed by reddish-brown cracks."
+      },
+      "facts": {
+        "fact1": "Diameter 3,122 km — about 90% of our Moon's.",
+        "fact2": "Ice shell probably 15–25 km thick, over an ocean 60–150 km deep.",
+        "fact3": "Orbits Jupiter about 671,000 km out, once every 3.55 days.",
+        "fact4": "Average surface temperature at the equator about 102 K (−171 °C).",
+        "fact5": "Discovered by Galileo Galilei in January 1610.",
+        "fact6": "Europa Clipper launched on 14 October 2024; arrival at Jupiter planned for April 2030."
+      },
+      "temperatureNote": "surface, average at the equator"
+    },
+    "orion_nebula": {
+      "name": "Orion Nebula",
+      "tagline": "A star nursery you can see with your own eyes — the fuzzy middle \"star\" of Orion's sword.",
+      "body": "The Orion Nebula (M42) is a glowing cloud of gas and dust about 24 light-years across, lying roughly 1,300 light-years away. It is the nearest place to Earth where big, heavy stars are being born. Its brightest young stars, a tight group called the Trapezium, flood the surrounding gas with ultraviolet light and make it shine — which is why it is the classic example of an emission nebula. Below Orion's belt it shows up to the naked eye as the fuzzy middle \"star\" of the sword, and through binoculars it becomes an obvious misty patch.",
+      "narrative": "Centre the Orion Nebula on the Sun and it would reach about 12 light-years out in every direction — swallowing Alpha Centauri, Sirius and every other one of our nearest stars. Light needs 24 years just to cross it.",
+      "funFact": "On 30 September 1880 Henry Draper exposed a photographic plate for 51 minutes and caught the Orion Nebula — the first photograph ever taken of a nebula. Since then it has become one of the most photographed objects in the sky.",
+      "seoTitle": "How Big Is the Orion Nebula? Size and Distance of M42",
+      "metaDescription": "The Orion Nebula is about 24 light-years across and 1,300 light-years away — the nearest nursery of massive stars, visible to the naked eye in Orion's sword.",
+      "image": {
+        "alt": "Hubble mosaic of the heart of the Orion Nebula: glowing pink, red and orange clouds of gas and dark dust lanes, sprinkled with thousands of young stars."
+      },
+      "facts": {
+        "fact1": "Size: about 24 light-years across — in long-exposure photos it spans about twice the width of the full Moon.",
+        "fact2": "Distance: about 1,300 light-years (389 parsecs, measured by radio parallax of its young stars); older books say 1,344 or 1,500.",
+        "fact3": "The nearest region to Earth where massive stars are forming.",
+        "fact4": "About 2,800 young stars crowd into a cluster about 20 light-years wide; its four brightest, the Trapezium, sit within 1.5 light-years.",
+        "fact5": "Hubble has photographed dusty discs around newborn stars there — planetary systems still in the making.",
+        "fact6": "At magnitude 4 it is visible to the naked eye, even from light-polluted towns."
+      }
+    },
+    "crab_nebula": {
+      "name": "Crab Nebula",
+      "tagline": "The wreckage of a star that exploded in plain sight in 1054 — still flying apart, with a spinning neutron star at its heart.",
+      "body": "The Crab Nebula (M1) is the expanding debris of a supernova that astronomers in China, Japan and the Arab world recorded in July 1054. It is an oval cloud about 11 light-years long, lying some 6,500 light-years away in the constellation Taurus, and it is still flying outward at about 1,500 km/s. At its centre spins the Crab Pulsar, the crushed core of the star that exploded — a neutron star only 28–30 km across that turns about 30 times a second. Its energy keeps the whole cloud glowing, nearly a thousand years after the blast.",
+      "narrative": "Centre the Crab Nebula on the Sun and it would reach about 5.5 light-years in every direction — past Alpha Centauri, our nearest neighbouring star. It is growing so fast that its edge would cross from London to New York in under four seconds.",
+      "funFact": "When the star blew up, it stayed visible in broad daylight for 23 days and in the night sky for almost two years. Yet the explosion was old news even then: its light had been travelling for about 6,500 years, so the star actually died thousands of years before anyone on Earth had invented writing.",
+      "seoTitle": "How Big Is the Crab Nebula? The Supernova of 1054",
+      "metaDescription": "The Crab Nebula is about 11 light-years across and 6,500 light-years away — the debris of a supernova seen in 1054, with a pulsar spinning 30 times a second.",
+      "image": {
+        "alt": "Hubble mosaic of the Crab Nebula: an oval web of orange and red filaments around a hazy blue core, against black space."
+      },
+      "facts": {
+        "fact1": "Size: about 11 light-years along its longest axis — an oval shell of glowing filaments.",
+        "fact2": "Distance: about 6,500 light-years, in the constellation Taurus (give or take some 1,600).",
+        "fact3": "The supernova that made it, SN 1054, was recorded in July 1054 by Chinese, Japanese and Arab astronomers.",
+        "fact4": "Still expanding at about 1,500 km/s — half a percent of the speed of light.",
+        "fact5": "The Crab Pulsar at its centre is 28–30 km across and spins about 30 times a second — like a car engine at 1,800 rpm.",
+        "fact6": "Too faint for the naked eye today (magnitude 8.4), but binoculars show it from a dark site; it is the first entry, M1, in Messier's catalogue."
+      }
+    },
+    "large_magellanic_cloud": {
+      "name": "Large Magellanic Cloud",
+      "tagline": "The Milky Way's biggest companion galaxy — a cloud of 20 billion stars hanging in the southern sky.",
+      "body": "The Large Magellanic Cloud is a small companion galaxy of the Milky Way, about 160,000 light-years away. It is roughly 32,000 light-years across — about a third of the Milky Way's width — and holds some 20 billion stars. From the southern hemisphere it looks like a detached piece of the Milky Way, a faint cloud about 20 full Moons long; it is named after Ferdinand Magellan, whose voyage of 1519 made it known in Europe, though people in the south had always known it. It contains the Tarantula Nebula, the busiest star factory in our neighbourhood of galaxies, and in 1987 it produced the closest supernova seen in almost 400 years.",
+      "narrative": "If the Milky Way were a dinner plate 27 cm wide, the Large Magellanic Cloud would be a biscuit about 9 cm across lying some 40 cm away — while Andromeda, the next big galaxy, would be about 6 metres away.",
+      "funFact": "The light you see from the Large Magellanic Cloud set out about 160,000 years ago, when our own species, Homo sapiens, still lived almost entirely in Africa.",
+      "seoTitle": "How Big Is the Large Magellanic Cloud? Our Satellite Galaxy",
+      "metaDescription": "The Large Magellanic Cloud is about 32,000 light-years across and 160,000 light-years away — the Milky Way's largest satellite galaxy, home of SN 1987A.",
+      "image": {
+        "alt": "The Large Magellanic Cloud photographed from Chile: a pale, lopsided band of stars with pink star-forming clouds, against a dense field of Milky Way stars."
+      },
+      "facts": {
+        "fact1": "Size: about 32,000 light-years across (to a standard brightness limit) — roughly a third of the Milky Way.",
+        "fact2": "Distance: about 160,000 light-years (49.6 kiloparsecs), measured to 1% with eclipsing double stars in 2019.",
+        "fact3": "Holds about 20 billion stars — and the Tarantula Nebula, the most active star-forming region in the Local Group.",
+        "fact4": "Supernova 1987A, seen there in February 1987, was the closest naked-eye supernova in nearly 400 years.",
+        "fact5": "Visible to the naked eye from the southern hemisphere and as far north as about 20° N.",
+        "fact6": "Expected to fall into the Milky Way and merge with it in roughly 2.4 billion years."
+      }
     }
   },
   "about": {
@@ -2806,6 +2997,38 @@
     "sporopollenin": {
       "term": "Sporopollenin",
       "definition": "The tough polymer that forms the outer wall of pollen and spores. It resists heat, acids and decay so well that pollen survives as fossils for hundreds of millions of years."
+    },
+    "pheromone": {
+      "term": "Pheromone",
+      "definition": "A chemical signal an animal releases to change the behaviour of others of its species. Ants use pheromones to mark trails to food and to raise the alarm."
+    },
+    "eusociality": {
+      "term": "Eusociality",
+      "definition": "Living in colonies where only a few individuals reproduce and the rest, sterile workers, share the work of raising young, gathering food and defending the nest."
+    },
+    "waggle_dance": {
+      "term": "Waggle dance",
+      "definition": "A figure-of-eight dance a honey bee performs on the comb: the angle of its straight \"waggle run\" shows the direction of food relative to the Sun, and how long the run lasts shows the distance."
+    },
+    "cryovolcano": {
+      "term": "Cryovolcano",
+      "definition": "An ice volcano: instead of molten rock it erupts water, brine or other volatile liquids that freeze on the cold surface. Ceres has one, Ahuna Mons; Enceladus sprays water into space, and Europa and Titan may have them too."
+    },
+    "shield_volcano": {
+      "term": "Shield volcano",
+      "definition": "A broad volcano with gentle slopes, built up by many flows of runny lava that spread far before cooling — shaped like a warrior's shield lying on the ground. Hawaii's Mauna Loa and Mars's Olympus Mons are examples."
+    },
+    "tidal_heating": {
+      "term": "Tidal heating",
+      "definition": "Heat produced inside a moon when its planet's changing gravitational pull squeezes and stretches it on every orbit, the way a ball warms up as you knead it. It keeps Europa's ocean liquid and powers Io's volcanoes."
+    },
+    "nebula": {
+      "term": "Nebula",
+      "definition": "A huge cloud of gas and dust in space — either a nursery where new stars form or the cast-off remains of a dying star."
+    },
+    "satellite_galaxy": {
+      "term": "Satellite galaxy",
+      "definition": "A smaller galaxy held in orbit around a bigger one by its gravity, the way the Moon orbits Earth."
     }
   },
   "faq": {
@@ -2822,6 +3045,7 @@
     "q2": "How big is {name} compared to a human?",
     "a2bigger": "{Name} is roughly {ratio} times bigger than a 1.7 m human.",
     "a2smaller": "A 1.7 m human is roughly {ratio} times bigger than {name}.",
+    "a2smallerLong": "A 1.7 m human is roughly {ratio} times taller than {name} is long.",
     "q3": "What is just smaller and just bigger than {name}?",
     "a3smaller": "One step down is {other} ({otherSize}), about {ratio} times smaller.",
     "a3larger": "One step up is {other} ({otherSize}), about {ratio} times bigger.",
@@ -2906,7 +3130,16 @@
       "sirius": "Sirius",
       "asteroid_belt": "the asteroid belt",
       "water_molecule": "a water molecule",
-      "pollen_grain": "a pollen grain"
+      "pollen_grain": "a pollen grain",
+      "ant": "an ant",
+      "honeybee": "a honey bee",
+      "ceres": "Ceres",
+      "olympus_mons": "Olympus Mons",
+      "titan": "Titan",
+      "europa": "Europa",
+      "orion_nebula": "the Orion Nebula",
+      "crab_nebula": "the Crab Nebula",
+      "large_magellanic_cloud": "the Large Magellanic Cloud"
     },
     "a7where": "The typical temperature of {name} is about {temp} — {note}.",
     "a2taller": "{Name} is roughly {ratio} times taller than a 1.7 m human.",
@@ -3098,7 +3331,7 @@
       "short": "Galaxies",
       "title": "Galaxies, compared",
       "seoTitle": "Milky Way vs Andromeda: How Big Are Galaxies?",
-      "intro": "Our home galaxy, the Milky Way, and its big neighbour Andromeda — two spirals of hundreds of billions of stars, closing in on each other — though whether they merge within the next 10 billion years is now roughly a coin toss.",
+      "intro": "Our home galaxy, the Milky Way; its biggest companion, the Large Magellanic Cloud, 160,000 light-years away; and its big neighbour Andromeda — two spirals of hundreds of billions of stars closing in on each other, though whether they merge within the next 10 billion years is now roughly a coin toss.",
       "metaDescription": "The Milky Way and Andromeda: two spirals of hundreds of billions of stars, how big they are, and whether they will really collide."
     },
     "unit": {
@@ -3111,7 +3344,7 @@
       "short": "Animals",
       "title": "Animals from the tiniest to the biggest",
       "seoTitle": "Animal Sizes Compared: Tardigrade to Blue Whale",
-      "intro": "A half-millimetre water bear that can survive the vacuum of space, the African elephant, the giraffe — the tallest animal alive — and the blue whale, the heaviest animal ever known.",
+      "intro": "A 5 mm garden ant and a 13 mm honey bee, a half-millimetre water bear that can survive the vacuum of space, the African elephant, the giraffe — the tallest animal alive — and the blue whale, the heaviest animal ever known.",
       "metaDescription": "Tardigrade, African elephant, giraffe and blue whale compared by size: from a half-millimetre water bear to the heaviest animal that ever lived."
     },
     "spacecraft": {
@@ -3148,6 +3381,34 @@
       "seoTitle": "Ancient Wonders Compared: Pyramid, Colosseum, Great Wall",
       "intro": "What people built with muscle, ramps and patience: the 139-metre Great Pyramid, tallest building on Earth for nearly four thousand years; the Colosseum, an arena 189 metres long for some 50,000 spectators; and the Great Wall of China, about 21,000 km of walls raised over two thousand years.",
       "metaDescription": "The Great Pyramid (139 m tall), the Colosseum (189 m long) and the Great Wall of China (about 21,196 km) compared by size — the ancient world's biggest builds."
+    },
+    "insect": {
+      "short": "Insects",
+      "title": "Insects, by size",
+      "seoTitle": "Insect Sizes Compared: Ant vs Honey Bee",
+      "intro": "The small animals everyone has watched up close: a 5 mm garden ant, one of some 20 quadrillion on Earth, and a 13 mm honey bee that dances directions to flowers.",
+      "metaDescription": "A garden ant and a honey bee compared by size: two social insects, a few millimetres long, on the same scale as tardigrades, humans and whales."
+    },
+    "asteroid": {
+      "short": "Asteroids",
+      "title": "The asteroid belt and its biggest member",
+      "seoTitle": "Asteroid Belt and Ceres: Sizes Compared",
+      "intro": "The rubble left between Mars and Jupiter: a belt roughly 960 million km across whose largest member, the 940 km dwarf planet Ceres, holds about 40% of its total mass.",
+      "metaDescription": "The asteroid belt and Ceres compared by size: a ring of rocky leftovers between Mars and Jupiter, and the dwarf planet that holds 40% of its mass."
+    },
+    "dwarf-planet": {
+      "short": "Dwarf planets",
+      "title": "Dwarf planets, by size",
+      "seoTitle": "Dwarf Planets Compared: Pluto vs Ceres",
+      "intro": "Round worlds that never cleared their orbits: Pluto, 2,377 km across in the Kuiper Belt, and Ceres, 940 km across in the asteroid belt, with salty water under its crust.",
+      "metaDescription": "Pluto and Ceres compared by size: two dwarf planets, one beyond Neptune and one in the asteroid belt, on the same scale as the Moon and Earth."
+    },
+    "mountain": {
+      "short": "Mountains",
+      "title": "The tallest mountains, on Earth and Mars",
+      "seoTitle": "Tallest Mountains: Everest vs Olympus Mons",
+      "intro": "Earth's highest summit, Mount Everest at 8,849 m, next to Olympus Mons on Mars — a volcano about 22 km high, two and a half Everests, with a base as wide as Italy.",
+      "metaDescription": "Mount Everest and Olympus Mons compared by height: Earth's tallest peak against the tallest volcano in the Solar System, 2.5 times higher."
     }
   }
 }

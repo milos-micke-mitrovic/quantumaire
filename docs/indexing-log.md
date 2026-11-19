@@ -66,6 +66,19 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/stop/pollen_grain (new 2026-11-19)
 - https://quantumaire.space/en/topics/tallest-buildings-and-structures (new 2026-11-19)
 - https://quantumaire.space/en/topics/human-body-by-size (new 2026-11-19)
+- https://quantumaire.space/en/stop/ant (new 2026-11-19)
+- https://quantumaire.space/en/stop/honeybee (new 2026-11-19)
+- https://quantumaire.space/en/stop/ceres (new 2026-11-19)
+- https://quantumaire.space/en/stop/olympus_mons (new 2026-11-19)
+- https://quantumaire.space/en/stop/titan (new 2026-11-19)
+- https://quantumaire.space/en/stop/europa (new 2026-11-19)
+- https://quantumaire.space/en/stop/orion_nebula (new 2026-11-19)
+- https://quantumaire.space/en/stop/crab_nebula (new 2026-11-19)
+- https://quantumaire.space/en/stop/large_magellanic_cloud (new 2026-11-19)
+- https://quantumaire.space/en/tag/insect (new 2026-11-19)
+- https://quantumaire.space/en/tag/mountain (new 2026-11-19)
+- https://quantumaire.space/en/tag/dwarf-planet (new 2026-11-19)
+- https://quantumaire.space/en/tag/asteroid (new 2026-11-19)
 - remaining /en/stop/* pages, then /sr/* equivalents
 
 ## Done
