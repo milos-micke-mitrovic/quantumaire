@@ -32,7 +32,7 @@ export async function generateMetadata({
     locale: typed,
     path: "tools/scale",
     title: tServer(typed, "seo.scaleTool"),
-    description: tServer(typed, "common.converter.tagline"),
+    description: tServer(typed, "seo.scaleToolDescription"),
   });
 }
 

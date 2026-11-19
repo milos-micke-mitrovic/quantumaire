@@ -30,7 +30,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale: typed,
     path: "tools/between",
-    title: tServer(typed, "common.betweenTool.title"),
+    title: tServer(typed, "common.betweenTool.seoTitle"),
     description: tServer(typed, "common.betweenTool.tagline"),
   });
 }

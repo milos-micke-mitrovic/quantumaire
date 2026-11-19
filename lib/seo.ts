@@ -67,12 +67,14 @@ export function buildPageMetadata(input: PageSeoInput): Metadata {
     locale,
     path = "",
     title,
-    description,
+    description: rawDescription,
     image = defaultOgImage(locale),
     imageAlt = title,
     index = true,
     absoluteTitle = false,
   } = input;
+  // Whole sentences only, ≤160 chars (no mid-sentence "…" in snippets).
+  const description = fitDescription([rawDescription]);
 
   const canonical = absoluteUrl(locale, path);
 
@@ -436,7 +438,35 @@ export function clipDescription(text: string, max = 160): string {
   return `${clean.slice(0, clean.lastIndexOf(" ", max - 1))}…`;
 }
 
+/**
+ * Meta description from whole sentences: adds each piece's sentences in
+ * order while the total stays within `max`, so snippets never end
+ * mid-sentence. Falls back to a word clip when whole sentences would give
+ * a stub (under ~100 chars).
+ */
+export function fitDescription(pieces: string[], max = 160): string {
+  const sentences = pieces
+    .map((p) => p.replace(/\s+/g, " ").trim())
+    .filter(Boolean)
+    .flatMap((p) => {
+      const withStop = /[.!?…]$/.test(p) ? p : `${p}.`;
+      return withStop.split(/(?<=[.!?])\s+(?=[A-ZÀ-ŽČĆŠĐ„"(0-9])/);
+    });
+  let out = "";
+  for (const sentence of sentences) {
+    const next = out ? `${out} ${sentence}` : sentence;
+    if (next.length > max) break;
+    out = next;
+  }
+  // Too little fits as whole sentences: a longer, word-clipped snippet
+  // reads better than a stub.
+  if (out.length < Math.min(100, max * 0.6)) {
+    return clipDescription(sentences.join(" "), max);
+  }
+  return out;
+}
+
 /** Drop the "· Quantumaire" suffix when it would push a title past ~60 chars. */
 export function fitsWithBrand(title: string): boolean {
-  return title.length + ` · ${SITE_NAME}`.length <= 62;
+  return title.length + ` · ${SITE_NAME}`.length <= 60;
 }

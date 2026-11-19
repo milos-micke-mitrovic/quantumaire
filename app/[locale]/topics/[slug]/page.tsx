@@ -4,13 +4,13 @@ import { JsonLd } from "@/components/JsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 import { TopicView } from "@/components/TopicView";
 import { TOPICS, getTopic } from "@/lib/topics";
-import { pickDictionary, tServer } from "@/lib/i18n-server";
+import { pickDictionary, tServer, tServerOptional } from "@/lib/i18n-server";
 import {
   articleJsonLd,
   breadcrumbJsonLd,
   buildPageMetadata,
   LOCALES,
-  clipDescription,
+  fitDescription,
 } from "@/lib/seo";
 import type { Locale } from "@/lib/types";
 import { I18nExtend } from "@/lib/i18n";
@@ -43,10 +43,13 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale: typed,
     path: `topics/${slug}`,
-    title: tServer(typed, `${topic.i18nKey}.title`),
-    description: clipDescription(
-      `${tServer(typed, `${topic.i18nKey}.tagline`)} ${tServer(typed, `${topic.i18nKey}.intro`)}`
-    ),
+    title: tServer(typed, `${topic.i18nKey}.seoTitle`),
+    description:
+      tServerOptional(typed, `${topic.i18nKey}.metaDescription`) ??
+      fitDescription([
+        tServer(typed, `${topic.i18nKey}.tagline`),
+        tServer(typed, `${topic.i18nKey}.intro`),
+      ]),
   });
 }
 

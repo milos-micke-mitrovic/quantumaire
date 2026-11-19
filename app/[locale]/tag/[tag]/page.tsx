@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/JsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 import { TagView } from "@/components/TagView";
-import { tServer } from "@/lib/i18n-server";
+import { tServer, tServerOptional } from "@/lib/i18n-server";
 import {
   absoluteUrl,
   breadcrumbJsonLd,
@@ -33,7 +33,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     locale: typed,
     path: `tag/${tag}`,
     title: tServer(typed, `tagPages.${tag}.seoTitle`),
-    description: tServer(typed, `tagPages.${tag}.intro`),
+    description:
+      tServerOptional(typed, `tagPages.${tag}.metaDescription`) ??
+      tServer(typed, `tagPages.${tag}.intro`),
   });
 }
 

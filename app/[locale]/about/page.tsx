@@ -31,9 +31,9 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale: typed,
     path: "about",
-    title: tServer(typed, "about.title"),
+    title: tServer(typed, "about.seoTitle"),
     absoluteTitle: true,
-    description: tServer(typed, "about.intro").slice(0, 300),
+    description: tServer(typed, "about.intro"),
   });
 }
 

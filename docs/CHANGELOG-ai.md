@@ -26,5 +26,11 @@
 - `geminiPrompt` → `content/image-prompts.json` (archive), `sources` → `content/sources.json` (server-only `lib/sources.ts`).
 - Footer is a server component with links to every category, guide, tool, glossary and about; dropped the llms.txt link.
 
+## 2026-11-19 — audit Phase 4 part 2 (titles & descriptions)
+- `fitDescription` (lib/seo.ts): descriptions built from whole sentences ≤160; `buildPageMetadata` applies it everywhere. No self-comparison tail on earth/human.
+- Search-intent titles: `topics.*.seoTitle` (13 guides), `stops.*.seoTitle` (14 ideas: "What Is Gravity? …"), about/between/compare titles, long tag titles trimmed; titles ≥ 47 chars drop the brand suffix.
+- Hand-written `metaDescription` for ideas, tags and 5 guides (EN+SR); tests guard seoTitle length.
+- Check script: crawl all sitemap URLs on `next start` → 0 title/description issues (was 91).
+
 ## Next / ideas
 - Full audit done 2026-11-19 → `docs/AUDIT-PLAN.md` (phases 1–6, nothing ticked yet).

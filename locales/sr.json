@@ -117,7 +117,8 @@
       "tagline": "Izaberite dva objekta i pogledajte sve objekte koji po veličini staju između njih.",
       "from": "Od",
       "to": "Do",
-      "foundCount": "Objekata u ovom opsegu: {count}"
+      "foundCount": "Objekata u ovom opsegu: {count}",
+      "seoTitle": "Šta je između dve veličine? Alat za razmere"
     },
     "random": "Nasumična tema",
     "skipToContent": "Preskoči na glavni sadržaj",
@@ -183,7 +184,8 @@
       "timesColder": "{b}: {factor}× hladnije nego {a}",
       "sameTemperature": "{a} i {b} su na istoj temperaturi.",
       "noData": "Jedna strana nema podatke za ovo poređenje.",
-      "notEnoughStops": "Premalo objekata ima ovaj podatak — probajte drugi režim poređenja."
+      "notEnoughStops": "Premalo objekata ima ovaj podatak — probajte drugi režim poređenja.",
+      "seoTitle": "Alat za poređenje veličina: bilo koja dva objekta"
     },
     "tempSameInC": "≈ isto u °C",
     "numberLocale": "sr-Latn-RS",
@@ -571,6 +573,7 @@
     },
     "mpd": {
       "name": "Disocijativni poremećaj identiteta",
+      "seoTitle": "Šta je disocijativni poremećaj identiteta?",
       "tagline": "Kada isti mozak ugošćuje više od jednog ja.",
       "body": "DID — nekada zvan poremećaj višestruke ličnosti — je dokumentovano psihološko stanje u kome se različiti identiteti smenjuju u kontroli nad jednim telom. Čudnovatost ide dublje od ličnosti: lekari su opisali slučajeve — uglavnom pojedinačne prikaze — gde jedan alter ima merljive alergije, treba mu naočare ili pokazuje drugačiji krvni pritisak, dok drugi, u istom telu, nema ništa od toga. Um, na neki način, možda glasa o telu.",
       "narrative": "DID je fenomen uma, ne objekat sa merljivim dimenzijama — njegova razmera je psihološka, ne fizička.",
@@ -583,7 +586,8 @@
         "fact2": "Često prati težu traumu iz detinjstva.",
         "fact3": "Zabeleženo je da alteri mogu imati različite alergije, vid, čak i ruku kojom pišu.",
         "fact4": "Prosečno vreme do tačne dijagnoze: 5 do 12 godina."
-      }
+      },
+      "metaDescription": "Disocijativni poremećaj identiteta, nekada zvan poremećaj višestruke ličnosti: različiti identiteti u jednom telu. Šta kažu istraživanja i šta je sporno."
     },
     "pyramid": {
       "name": "Velika piramida",
@@ -691,6 +695,7 @@
     },
     "dark_matter": {
       "name": "Tamna materija",
+      "seoTitle": "Šta je tamna materija? Dokazi i šta znamo",
       "tagline": "Nevidljiva masa koja drži galaksije na okupu — a ne znamo šta je.",
       "body": "Galaksije rotiraju prebrzo da bi ih materija koju vidimo držala na okupu — trebalo bi da se razlete. Nešto nevidljivo pruža dodatnu gravitaciju. Možemo je mapirati pomoću efekta gravitacionog sočiva, i izgleda da nadmašuje običnu materiju u odnosu pet prema jedan. Samo ne znamo šta je.",
       "narrative": "Tamna materija nema oblik ni ivice koje možemo videti — vidljiva je samo njena gravitacija, koja oblikuje rotaciju gotovo svake galaksije koju smo izmerili.",
@@ -703,10 +708,12 @@
         "fact2": "Otprilike pet puta veća od mase sve obične materije.",
         "fact3": "Detektovana indirektno preko rotacionih krivih galaksija i efekta gravitacionog sočiva.",
         "fact4": "Nijedna čestica tamne materije još nije direktno detektovana."
-      }
+      },
+      "metaDescription": "Galaksije se okreću prebrzo za materiju koju vidimo. Tamna materija je nevidljiva masa koja ih drži na okupu — šta znamo, a šta ne."
     },
     "dark_energy": {
       "name": "Tamna energija",
+      "seoTitle": "Šta je tamna energija? Zašto se svemir ubrzava",
       "tagline": "Nešto — ne znamo šta — razvlači svemir sve brže i brže.",
       "body": "Širenje svemira ne samo da se nastavlja — ono se ubrzava. Tajanstveni oblik energije, prisutan u svakom kubnom metru praznog prostora, izgleda da ga gura ka spolja. Čini oko 68% svega što postoji, a gotovo nemamo predstavu od čega je sazdano.",
       "narrative": "Tamna energija ispunjava svaki kubni metar praznog prostora — uključujući i one oko vas upravo sada. Nema sopstvenu veličinu, samo pravac: ka spolja.",
@@ -719,7 +726,8 @@
         "fact2": "Otkrivena 1998. godine merenjem kosmičkog širenja pomoću supernova.",
         "fact3": "Najjednostavniji opis je Ajnštajnova kosmološka konstanta Λ — mada podaci pregleda DESI (2024–25) nagoveštavaju da možda slabi s vremenom.",
         "fact4": "Pokreće ubrzano širenje svemira."
-      }
+      },
+      "metaDescription": "Širenje svemira se ubrzava. Tamna energija je naziv za ono što ga pokreće — oko 68% svemira, a priroda joj je i dalje nepoznata."
     },
     "observable_universe": {
       "name": "Vidljivi svemir",
@@ -908,6 +916,7 @@
     },
     "voyager1": {
       "name": "Voyager 1",
+      "seoTitle": "Koliko je daleko Voyager 1? Jedan svetlosni dan",
       "tagline": "Najdalji objekat koji je čovek napravio — i još uvek se javlja.",
       "body": "Voyager 1 je lansiran sa Kejp Kanaverala u septembru 1977. u misiji da proleti pored Jupitera i Saturna. Skoro pola veka kasnije još uvek radi — sada u međuzvezdanom prostoru, više od 173 astronomske jedinice od Zemlje, šaljući tanak mlaz podataka o plazmenim talasima i magnetnim poljima oko sebe, sa poslednja dva instrumenta koja su još uključena. U novembru 2026. postao je prvi objekat ljudskih ruku udaljen jedan svetlosni dan od Zemlje: svakom signalu sada treba čitav dan da stigne.",
       "narrative": "Voyager 1 je toliko daleko da radio komandi sa Zemlje treba čitav dan da stigne do njega. Pa ipak, u razmerama zvezda jedva je izašao iz kuće: čak i pri 61.000 km/h treba mu oko 17.600 godina da pređe samo jednu svetlosnu godinu — a najbliža zvezda je udaljena više od četiri svetlosne godine.",
@@ -924,7 +933,8 @@
         "fact6": "Tom brzinom bi mu za samo jednu svetlosnu godinu trebalo oko 17.600 godina."
       },
       "massNarrative": "Voyager 1 teži oko 720 kg — otprilike koliko jedna muzna krava. On i njegov blizanac, Voyager 2, jedini su poznati objekti ljudskih ruku koji su prešli u međuzvezdani prostor.",
-      "funFact": "Voyager 1 nije usmeren ka nijednoj posebnoj zvezdi. Za oko 40.000 godina proći će na 1,6 svetlosne godine od Gliese 445 — ali će se do tada sazvežđa koja poznajemo već preurediti."
+      "funFact": "Voyager 1 nije usmeren ka nijednoj posebnoj zvezdi. Za oko 40.000 godina proći će na 1,6 svetlosne godine od Gliese 445 — ali će se do tada sazvežđa koja poznajemo već preurediti.",
+      "metaDescription": "Lansiran 1977, Voyager 1 je najudaljeniji objekat ljudskih ruku: u novembru 2026. dostigao je jedan svetlosni dan od Zemlje i još šalje podatke."
     },
     "laniakea_supercluster": {
       "name": "Laniakea superjato",
@@ -1179,6 +1189,7 @@
     },
     "higgs_boson": {
       "name": "Higsov bozon",
+      "seoTitle": "Šta je Higsov bozon? Čestica iza mase",
       "tagline": "Čestica koja je dokazala da nevidljivo polje ispunjava ceo prostor.",
       "body": "U julu 2012. eksperimenti ATLAS i CMS na CERN-ovom Velikom hadronskom sudaraču objavili su otkriće nove čestice mase oko 125 GeV — Higsovog bozona, predviđenog još 1964. godine. On je talasić u Higsovom polju, koje prožima čitav svemir i elementarnim česticama poput elektrona i kvarkova daje masu. Bez njega elektroni ne bi imali masu, a atomi kakve poznajemo ne bi mogli da nastanu. Higsov bozon živi samo oko 10⁻²² sekunde, pa se nikada ne vidi direktno — već samo kroz čestice u koje se raspada.",
       "narrative": "Higsov bozon nema smislenu veličinu — on je kratkotrajno pobuđenje polja koje ispunjava svaki kubni metar prostora, uključujući i onaj u kome upravo sedite.",
@@ -1192,10 +1203,12 @@
         "fact2": "Masa: oko 125 GeV — otprilike 133 puta više od protona.",
         "fact3": "Piter Higs i Fransoa Angler podelili su Nobelovu nagradu za fiziku 2013.",
         "fact4": "LHC proizvede otprilike jedan Higsov bozon na milijardu sudara protona."
-      }
+      },
+      "metaDescription": "Otkriven u CERN-u 2012, Higsov bozon potvrdio je nevidljivo polje koje elementarnim česticama daje masu. Šta je to, jednostavno objašnjeno."
     },
     "antimatter": {
       "name": "Antimaterija",
+      "seoTitle": "Šta je antimaterija? Blizanac materije u ogledalu",
       "tagline": "Ogledalski blizanac materije — i razlog zbog kog svemir skoro da ne bi trebalo da postoji.",
       "body": "Svaka čestica ima svoju antičesticu iste mase, ali suprotnog naelektrisanja. Na njih je ukazala Dirakova jednačina iz 1928, a 1932. Karl Anderson je u kosmičkim zracima uočio prvu — pozitron, antielektron. Kada se materija sretne sa antimaterijom, obe nestaju u blesku energije, tačno kako nalaže E = mc². Veliki prasak je trebalo da stvori jednake količine obe, a ipak je sve što vidimo napravljeno od materije — i niko još ne zna zašto.",
       "narrative": "Antimaterija nema sopstvenu veličinu — antiproton je tačno onoliki koliki je i proton. Ovde je bitna razmera zapravo odnos: na otprilike svaku milijardu parova materije i antimaterije u ranom svemiru preživela je po jedna čestica materije više. Taj ostatak je sve što postoji, uključujući i vas.",
@@ -1209,10 +1222,12 @@
         "fact2": "CERN je prve atome antivodonika napravio 1995.",
         "fact3": "Jedan gram antimaterije u susretu sa gramom materije oslobađa oko 1,8 × 10¹⁴ J — skoro tri bombe kao u Hirošimi.",
         "fact4": "Eksperiment ALPHA u CERN-u pokazao je 2023. da antivodonik pada nadole, baš kao materija."
-      }
+      },
+      "metaDescription": "Svaka čestica ima blizanca u ogledalu, suprotnog naelektrisanja. Kad se sretnu, nestaju u čistoj energiji — a zašto je materija pobedila, ne zna se."
     },
     "quantum_entanglement": {
       "name": "Kvantna spregnutost",
+      "seoTitle": "Šta je kvantna spregnutost? Jednostavno objašnjenje",
       "tagline": "Dve čestice, jedna zajednička priča — koliko god se udaljile.",
       "body": "Kada se dve čestice spregnu, one dele jedno kvantno stanje: izmerite jednu i istog trena znate šta će pokazati odgovarajuće merenje druge, čak i ako je na drugom kraju galaksije. Ajnštajnu je to bilo toliko uznemirujuće da je to nazvao „sablasnim delovanjem na daljinu“ i sumnjao je da čestice nose skrivena uputstva. Džon Bel je 1964. pokazao kako se ta ideja može proveriti, a eksperimenti od 1970-ih — sve do testova bez eksperimentalnih propusta (loophole-free) iz 2015. — kažu da takva skrivena uputstva ne mogu da postoje, sve dok ništa ne putuje između čestica brže od svetlosti. Ključno je da spregnutost ne može da prenese poruku: svaka strana vidi potpuno nasumične rezultate, a korelacija se pojavljuje tek kada se dva zapisa uporede običnim kanalima, ograničenim brzinom svetlosti.",
       "narrative": "Spregnutost nema sopstvenu veličinu — to je odnos među česticama, a ne objekat. Rastojanje je ne slabi: korelacije su jednako jake preko laboratorijskog stola kao i preko 1.200 km neba.",
@@ -1225,7 +1240,8 @@
         "fact2": "Belova teorema (1964) pretvorila ju je u proverljivo predviđanje.",
         "fact3": "Nobelova nagrada za fiziku 2022: Alen Aspe, Džon Klauzer i Anton Cajlinger.",
         "fact4": "Kineski satelit Micius razdelio je spregnute fotone između stanica udaljenih 1.203 km (2017)."
-      }
+      },
+      "metaDescription": "Izmerite jednu spregnutu česticu i odmah znate rezultat njenog para, ma koliko bili udaljeni — a ipak se tako ne može poslati nikakva poruka."
     },
     "tardigrade": {
       "name": "Tardigrad",
@@ -1278,6 +1294,7 @@
     },
     "gravity": {
       "name": "Gravitacija",
+      "seoTitle": "Šta je gravitacija? Od Njutna do zakrivljenog prostora",
       "tagline": "Najslabija sila u prirodi — i ona koja gradi kosmos.",
       "body": "Između dva protona gravitacija je oko 10³⁶ puta slabija od električne sile. Ali ona se nikad ne poništava i deluje na bilo kojoj udaljenosti, pa na velikim skalama pobeđuje: zaobljuje planete, pali zvezde i skuplja galaksije u jata. Njutn ju je 1687. opisao kao silu između masa; Ajnštajnova opšta teorija relativnosti (1915) opisala ju je kao zakrivljenost samog prostor-vremena. Kako gravitacija izgleda na kvantnom nivou, i dalje ne znamo — njena pretpostavljena čestica, graviton, nikada nije detektovana.",
       "narrative": "Gravitacija nema sopstvenu veličinu: domet joj je neograničen — slabi s kvadratom rastojanja, ali nikad sasvim ne nestaje. Ista sila koja vas drži na podu oblikuje strukture široke stotinama miliona svetlosnih godina.",
@@ -1290,10 +1307,12 @@
         "fact2": "Gravitaciono ubrzanje na površini Zemlje: oko 9,81 m/s².",
         "fact3": "Njutnov zakon gravitacije: 1687; Ajnštajnova opšta relativnost: 1915.",
         "fact4": "Nema potvrđene kvantne teorije gravitacije — graviton je i dalje hipotetičan."
-      }
+      },
+      "metaDescription": "Njutn je gravitaciju video kao silu, a Ajnštajn kao zakrivljenost prostor-vremena. Kako oblikuje jabuke koje padaju, orbite i crne rupe."
     },
     "time_dilation": {
       "name": "Dilatacija vremena",
+      "seoTitle": "Šta je dilatacija vremena? Satovi, brzina i gravitacija",
       "tagline": "Vreme teče različitom brzinom — a vaš telefon to mora da ispravlja.",
       "body": "Teorija relativnosti kaže da ne postoji univerzalni sat. Sat koji se brzo kreće otkucava sporije (specijalna relativnost), a sporije kuca i sat duboko u gravitacionom bunaru (opšta relativnost). Efekat je izmeren mnogo puta: 1971. Hafele i Kiting su obleteli svet sa atomskim satovima u putničkim avionima i zabeležili razlike od više stotina nanosekundi. Mioni nastali visoko u atmosferi trebalo bi da se raspadnu mnogo pre nego što stignu do tla — a ipak stižu u velikom broju, jer im vreme, pri brzini bliskoj brzini svetlosti, teče sporo.",
       "narrative": "Dilatacija vremena nema veličinu — to je razlika u brzini proticanja samog vremena. Merljiva je na skali planetarnih orbita, a današnjim najboljim atomskim satovima i kroz visinsku razliku od svega nekoliko centimetara.",
@@ -1306,10 +1325,12 @@
         "fact2": "Hafele–Kiting (1971): atomski satovi u avionima potvrdili su predviđanja relativnosti.",
         "fact3": "Šest meseci na MSS-u ostavi astronauta oko 0,005 s mlađim.",
         "fact4": "Optički satovi su 2010. izmerili efekat na visinskoj razlici od 33 cm."
-      }
+      },
+      "metaDescription": "Satovi u pokretu i satovi u jakoj gravitaciji kucaju sporije. Dilatacija vremena meri se svakodnevno: bez nje bi GPS sateliti odlutali 38 µs dnevno."
     },
     "gravitational_waves": {
       "name": "Gravitacioni talasi",
+      "seoTitle": "Šta su gravitacioni talasi? Talasi u prostor-vremenu",
       "tagline": "Talasanje samog prostor-vremena — prvi put uhvaćeno 2015.",
       "body": "Kada se masivna tela ubrzavaju, šalju talase kroz prostor-vreme koji rastežu i sabijaju sve kroz šta prolaze. Ajnštajn ih je predvideo 1916, ali je sumnjao da će ih iko ikada izmeriti. LIGO je 14. septembra 2015. uhvatio jedan: spajanje dve crne rupe od oko 36 i 29 Sunčevih masa, udaljenih 1,3 milijarde svetlosnih godina. Godine 2017. sudar neutronskih zvezda viđen je i u gravitacionim talasima i u svetlosti, a 2023. su mreže za precizno merenje vremena pulsara pronašle dokaze o sporom pozadinskom „brujanju“ iz celog kosmosa.",
       "narrative": "Gravitacioni talas nema stalnu veličinu — talasna dužina mu ide od kilometara do svetlosnih godina. Dok stigne do Zemlje, LIGO-ove krake duge 4 km promeni za oko desethiljaditi deo širine protona.",
@@ -1322,10 +1343,12 @@
         "fact2": "LIGO beleži promene dužine krakova od ~1/10.000 širine protona.",
         "fact3": "Nobelova nagrada za fiziku 2017: Rajner Vajs, Beri Beriš i Kip Torn.",
         "fact4": "GW170817 (2017): prvo spajanje neutronskih zvezda viđeno i u talasima i u svetlosti."
-      }
+      },
+      "metaDescription": "Talasi u prostor-vremenu koje je Ajnštajn predvideo 1916, a LIGO prvi put detektovao 2015, od spajanja dve crne rupe udaljene milijardu svetlosnih godina."
     },
     "wormhole": {
       "name": "Crvotočina",
+      "seoTitle": "Šta je crvotočina? Da li zaista mogu da postoje?",
       "tagline": "Prečica kroz prostor-vreme koju jednačine dozvoljavaju — a priroda možda ne.",
       "body": "Ajnštajn i Natan Rozen su 1935. otkrili da opšta teorija relativnosti dopušta „most“ koji povezuje dve udaljene oblasti prostor-vremena. Taj prvobitni most se zatvara prebrzo da bi bilo šta — čak ni svetlost — stiglo da ga pređe. Majkl Moris i Kip Torn su 1988. pokazali da je prohodna crvotočina moguća na papiru, ali samo ako je drži otvorenom egzotična materija negativne energije, koja nikada nije pronađena u upotrebljivim količinama. Nijedna crvotočina nije opažena; novija hipoteza ER = EPR sugeriše da su kvantna spregnutost i crvotočine možda dva lica iste stvari.",
       "narrative": "Crvotočina nema zadatu veličinu: jednačine dozvoljavaju grlo bilo koje širine, od subatomskog do galaktičkog. Ono što ne mogu da obezbede jeste negativna energija potrebna da ostane otvorena.",
@@ -1338,10 +1361,12 @@
         "fact2": "Naziv „crvotočina“ (wormhole) skovao je Džon Viler 1957.",
         "fact3": "Prohodni modeli zahtevaju „egzotičnu materiju“ negativne energije.",
         "fact4": "Nijedna crvotočina nikada nije opažena."
-      }
+      },
+      "metaDescription": "Opšta relativnost dozvoljava prečice kroz prostor-vreme, ali za njihovo održavanje treba egzotična materija koja možda ne postoji. Šta fizika zaista kaže."
     },
     "big_bang": {
       "name": "Veliki prasak",
+      "seoTitle": "Šta je bio Veliki prasak? Dokazi i izvesnost",
       "tagline": "Ne eksplozija u prostoru — početak širenja samog prostora.",
       "body": "Pre oko 13,8 milijardi godina svemir je bio izuzetno vruć i gust, i od tada se neprestano širi i hladi. Veliki prasak se nije dogodio u jednoj tački prostora; sam prostor se razvlači svuda istovremeno. Za nekoliko minuta nastala su prva laka jezgra, a posle oko 380.000 godina svemir se dovoljno ohladio da se formiraju atomi i da svetlost slobodno putuje. Ta svetlost i danas ispunjava nebo kao kosmičko mikrotalasno pozadinsko zračenje, slučajno otkriveno 1965.",
       "narrative": "Veliki prasak nema veličinu, jer nije imao „spolja“ — dogodio se svuda, uključujući i deo prostora u kom se sada nalazite. Danas se isto to širenje proteže kroz vidljivi svemir, širok oko 93 milijarde svetlosnih godina.",
@@ -1354,10 +1379,12 @@
         "fact2": "Kosmičko mikrotalasno pozadinsko zračenje: 2,725 K, otkriveno 1965.",
         "fact3": "Prvi atomi nastali su oko 380.000 godina posle Velikog praska.",
         "fact4": "Naziv je 1949. skovao Fred Hojl — skeptik prema samoj ideji."
-      }
+      },
+      "metaDescription": "Veliki prasak nije eksplozija u prostoru, već širenje samog prostora iz vrelog, gustog stanja pre 13,8 milijardi godina. Dokazi, objašnjeni."
     },
     "multiverse": {
       "name": "Multiverzum",
+      "seoTitle": "Šta je multiverzum? Nauka ili spekulacija?",
       "tagline": "Možda je naš svemir jedan od mnogih — a možda to pitanje nije za nauku.",
       "body": "Nekoliko ideja u fizici nagoveštava da naš svemir možda nije jedini. Po večitoj inflaciji, prostor se zauvek naduvava i iz sebe izbacuje „mehuraste svemire“ različitih svojstava. Teorija struna, izgleda, dozvoljava oko 10⁵⁰⁰ mogućih stanja vakuuma, od kojih bi svako bilo svemir sa sopstvenim zakonima. A mnogosvetska interpretacija kvantne mehanike sugeriše da se stvarnost grana pri svakom kvantnom merenju. Ništa od toga se trenutno ne može proveriti, i mnogi fizičari se pitaju da li je neopažljivi multiverzum uopšte nauka.",
       "narrative": "Multiverzum nema merljivu veličinu — po definiciji, ostali svemiri leže iza svakog horizonta koji možemo da vidimo. Čak bi i naš vidljivi svemir, širok 93 milijarde svetlosnih godina, bio samo jedan mehur među mnogima.",
@@ -1370,10 +1397,12 @@
         "fact2": "Mnogosvetsku interpretaciju predložio je Hju Everet 1957.",
         "fact3": "Potrage za tragovima „sudara mehurova“ u kosmičkom mikrotalasnom pozadinskom zračenju zasad nisu ništa našle.",
         "fact4": "Ne postoji nijedan posmatrački dokaz o drugom svemiru."
-      }
+      },
+      "metaDescription": "Da li je naš svemir samo jedan od mnogih? Inflacija, teorija struna i kvantna mehanika nagoveštavaju multiverzum, ali ništa od toga još ne može da se proveri."
     },
     "string_theory": {
       "name": "Teorija struna",
+      "seoTitle": "Šta je teorija struna? Jednostavno objašnjenje",
       "tagline": "Možda je sve sačinjeno od struna koje trepere — samo kad bismo mogli da to proverimo.",
       "body": "Teorija struna predlaže da najsitniji gradivni delovi prirode nisu tačke, nego sićušne strune koje trepere. Kao tonovi na violini, svaki obrazac treperenja pojavljivao bi se kao druga čestica — a jedan od tih obrazaca ima tačno svojstva gravitona, zbog čega je ova teorija vodeći kandidat za kvantnu gravitaciju. Kvaka je u tome što njena matematika funkcioniše samo u 10 dimenzija (11 u M-teoriji), pa dodatne dimenzije moraju biti uvijene u nešto previše sitno da bi se videlo — po klasičnoj slici, njih šest je savijeno u oblik koji se zove Kalabi–Jauova mnogostrukost. Posle više od 50 godina teorija struna nema nijednu eksperimentalnu potvrdu, a LHC nije našao nijednu od supersimetričnih čestica kojima su se mnoge njene verzije nadale. Ipak, ona je preoblikovala čistu matematiku i dala fizici AdS/CFT korespondenciju — most između gravitacije i kvantne teorije koji je Huan Maldasena predložio 1997.",
       "narrative": "Strune nemaju izmerenu veličinu: obično se zamišljaju blizu Plankove dužine, oko 10⁻³⁵ m — nekih 10²⁰ puta manje od protona. Ništa ni približno toliko malo nikada nije ispitano, pa je, ako strune postoje, njihova prava veličina i dalje nepoznata.",
@@ -1386,7 +1415,8 @@
         "fact2": "Njen „pejzaž“ dozvoljava oko 10⁵⁰⁰ mogućih vakuuma.",
         "fact3": "Viten je 1990. dobio Fildsovu medalju — jedini fizičar kome je ikada dodeljena.",
         "fact4": "Nema eksperimentalne potvrde; LHC zasad nije našao nijednog superpartnera."
-      }
+      },
+      "metaDescription": "Prema teoriji struna, najmanji gradivni delovi mogu biti sićušne strune koje vibriraju i spajaju gravitaciju sa kvantnom fizikom. Elegantno, ali neprovereno."
     }
   },
   "about": {
@@ -1405,7 +1435,8 @@
     "editorialBody": "Radije ćemo biti malo iza literature nego dramatično ispred dokaza. Kada otkrijemo grešku, ispravljamo je vidljivo. Tamo gde se razumni ljudi ne slažu, kažemo to. Koristimo izvore koje možemo odbraniti — recenzirane radove, priznate udžbenike, naučnike koji se time bave — radije nego pompezna saopštenja za štampu.",
     "languagesHeading": "Jezici",
     "languagesBody": "Svaka stranica postoji na engleskom i srpskom (latinica). Dve jezičke verzije imaju svoje kanonske URL-ove kako bi ih i ljudi i AI pretraživači mogli nezavisno da pronađu, citiraju i prevedu.",
-    "imageAlt": "Stilizovani kosmički dijagram koji prikazuje spektar pouzdanosti od činjenice do spekulacije."
+    "imageAlt": "Stilizovani kosmički dijagram koji prikazuje spektar pouzdanosti od činjenice do spekulacije.",
+    "seoTitle": "O Quantumaire-u: kako merimo svemir"
   },
   "topicsIndex": {
     "title": "Vodiči",
@@ -1415,6 +1446,7 @@
   "topics": {
     "stars": {
       "title": "Zvezde",
+      "seoTitle": "Zvezde: koliko su velike, vrele i daleke?",
       "tagline": "Nuklearne peći svemira.",
       "intro": "Zvezda je lopta plazme koju drži na okupu sopstvena gravitacija, dovoljno vrela i gusta u jezgru da spaja lakša atomska jezgra u teža — i da oslobađa energiju koja sprečava ostatak da kolapsira. Zvezde se veoma razlikuju po boji, veličini i temperaturi, ali sve rade istu suštinsku stvar: gore.",
       "section1Heading": "Boje, temperature i OBAFGKM skala",
@@ -1426,10 +1458,12 @@
       "section4Heading": "Kako zvezda umire",
       "section4Body": "Šta zvezda postaje kada umre zavisi od toga koliko je bila masivna. Zvezde veličine Sunca naduvaju se u crvene džinove, zbace spoljne slojeve i ostave belog patuljka koji se polako hladi. Veće zvezde — 8 do 25 Sunčevih masa — eksplodiraju kao supernove, dok im jezgra kolapsiraju u neutronske zvezde. Zaista masivne zvezde (iznad oko 25 Sunčevih masa) obično umesto toga ostavljaju crne rupe — ponekad posle slabije eksplozije, ponekad gotovo bez nje. Crne rupe su, u tom smislu, grobnice najmasivnijih zvezda.",
       "section5Heading": "Brojke i ekstremi",
-      "section5Body": "Procenjuje se da samo u Mlečnom putu ima 100 do 400 milijardi zvezda, a u vidljivom svemiru stotine milijardi galaksija — možda i do 2 biliona. Najmanje poznate zvezde su otprilike veličine Jupitera — neke i nešto manje. Najveći crveni superdžinovi, postavljeni na mesto Sunca, sezali bi dalje od Marsa, a možda i iza Jupitera. Najtoplije zvezde prelaze 200.000 K (≈ 200.000 °C) na površini; najhladniji crveni patuljci su oko 2.300 K (≈ 2.000 °C) — hladniji od plamena aparata za varenje."
+      "section5Body": "Procenjuje se da samo u Mlečnom putu ima 100 do 400 milijardi zvezda, a u vidljivom svemiru stotine milijardi galaksija — možda i do 2 biliona. Najmanje poznate zvezde su otprilike veličine Jupitera — neke i nešto manje. Najveći crveni superdžinovi, postavljeni na mesto Sunca, sezali bi dalje od Marsa, a možda i iza Jupitera. Najtoplije zvezde prelaze 200.000 K (≈ 200.000 °C) na površini; najhladniji crveni patuljci su oko 2.300 K (≈ 2.000 °C) — hladniji od plamena aparata za varenje.",
+      "metaDescription": "Koliko su zvezde velike, vrele i daleke: od crvenih patuljaka do superdžinova, boje i temperature, kako žive i umiru i koliko ih ima."
     },
     "planets": {
       "title": "Planete",
+      "seoTitle": "Planete: veličine, udaljenosti i činjenice",
       "tagline": "Svetovi vezani za zvezdu.",
       "intro": "Planeta je telo dovoljno masivno da ga sopstvena gravitacija učini okruglim, koje kruži oko zvezde i koje je očistilo susedstvo svoje orbite. Upravo zbog trećeg uslova — koji je Međunarodna astronomska unija dodala 2006. — Pluton je prekvalifikovan. Po toj definiciji naš Sunčev sistem ima osam planeta; po starijim definicijama imao je više.",
       "section1Heading": "Dve vrste, sa varijacijama",
@@ -1439,10 +1473,12 @@
       "section3Heading": "Gde se planeta završava, a zvezda počinje",
       "section3Body": "Granica između velike planete i male zvezde je mutna. Smeđi patuljci — neuspele zvezde dovoljno masivne da spajaju deuterijum, ali ne i vodonik — zauzimaju tu sivu zonu. Jupiter bi morao da postane oko 80 puta masivniji da bi zapalio fuziju vodonika i postao prava zvezda — pa uprkos nadimku „neuspela zvezda“, nikada nije bio ni blizu toga.",
       "section4Heading": "Uslovi za život",
-      "section4Body": "Planeti sposobnoj da ima tečnu vodu na površini potrebna je stabilna orbita u „nastanjivoj zoni“ oko svoje zvezde, značajnu atmosferu, magnetno polje koje odbija zvezdano zračenje i verovatno tektoniku ploča za recikliranje hranljivih materija. Zemlja ima sve četiri. Do sada nismo našli drugi svet za koji je dokazano da ih ima — iako nekoliko izgleda intrigantno."
+      "section4Body": "Planeti sposobnoj da ima tečnu vodu na površini potrebna je stabilna orbita u „nastanjivoj zoni“ oko svoje zvezde, značajnu atmosferu, magnetno polje koje odbija zvezdano zračenje i verovatno tektoniku ploča za recikliranje hranljivih materija. Zemlja ima sve četiri. Do sada nismo našli drugi svet za koji je dokazano da ih ima — iako nekoliko izgleda intrigantno.",
+      "metaDescription": "Šta planetu čini planetom, zašto je Pluton prekvalifikovan, osam planeta upoređenih po veličini i udaljenosti i hiljade otkrivenih izvan."
     },
     "blackHoles": {
       "title": "Crne rupe",
+      "seoTitle": "Crne rupe: koliko velike mogu da budu?",
       "tagline": "Oblasti prostor-vremena iz kojih ništa ne može pobeći.",
       "intro": "Crna rupa je oblast u kojoj je materija kolapsirala u gravitacioni bunar toliko dubok da čak ni svetlost koja se kreće kosmičkom granicom brzine ne može da se vrati. Jednom kada pređete njen horizont događaja, nema povratka. Ne možemo videti unutra direktno — postojanje crnih rupa zaključujemo iz toga kako savijaju svetlost, gutaju gas i povlače zvezde oko sebe.",
       "section1Heading": "Tri porodice po masi",
@@ -1454,10 +1490,12 @@
       "section4Heading": "Čudnovata fizika unutra",
       "section4Body": "Iza horizonta događaja, naše trenutne teorije se iscrpljuju. Opšta relativnost predviđa „singularitet“ — tačku beskonačne gustine — u centru svake crne rupe. Ali beskonačnosti u fizici obično su znak da je teorija nepotpuna, ne stvarno predviđanje. Buduća teorija kvantne gravitacije, kada je budemo imali, verovatno će zameniti singularitet nečim manje beskonačnim.",
       "section5Heading": "Hokingovo zračenje i sporo isparavanje",
-      "section5Body": "Stiven Hoking je 1974. pokazao da crne rupe zapravo nisu savršeno crne — zrače malu količinu toplotne energije sa same ivice horizonta događaja. Tokom nezamislivo dugih vremenskih razmera (najmanje 10⁶⁷ godina čak i za crnu rupu od samo jedne Sunčeve mase, daleko duže za teže) trebalo bi polako da ispare. Nikada to nismo posmatrali — preslabo je."
+      "section5Body": "Stiven Hoking je 1974. pokazao da crne rupe zapravo nisu savršeno crne — zrače malu količinu toplotne energije sa same ivice horizonta događaja. Tokom nezamislivo dugih vremenskih razmera (najmanje 10⁶⁷ godina čak i za crnu rupu od samo jedne Sunčeve mase, daleko duže za teže) trebalo bi polako da ispare. Nikada to nismo posmatrali — preslabo je.",
+      "metaDescription": "Crne rupe od nekoliko Sunaca do 66 milijardi: koliko velike mogu da budu, kako ih snimamo, Hokingovo zračenje i šta je još spekulacija."
     },
     "nebulae": {
       "title": "Magline",
+      "seoTitle": "Šta je maglina? Rađanje i smrt zvezda",
       "tagline": "Tamo gde se zvezde rađaju i gde idu da umru.",
       "intro": "Maglina je ogroman oblak gasa i prašine koji lebdi kroz međuzvezdani prostor. Neke su rasadnici u kojima se nove zvezde sažimaju pod gravitacijom. Druge su grobnice — naduvani ostaci zvezda koje su završile sa gorenjem. To su najupadljiviji, najlepši objekti u astrofotografiji dubokog neba, i najsporiji kosmički događaji koje ljudi mogu direktno posmatrati.",
       "section1Heading": "Četiri vrste maglina",
@@ -1471,6 +1509,7 @@
     },
     "bigBang": {
       "title": "Veliki prasak",
+      "seoTitle": "Veliki prasak: šta se desilo pre 13,8 milijardi godina",
       "tagline": "Vrelo, gusto poreklo vidljivog svemira.",
       "intro": "Naša najbolja trenutna slika kosmičke istorije kaže da je pre oko 13,8 milijardi godina sve u vidljivom svemiru bilo sabijeno u stanje toliko vrelo i gusto da su se obična materija, svetlost i sam prostor ponašali na načine koje naše teorije više ne mogu u potpunosti opisati. Iz tog stanja — to zovemo Veliki prasak — prostor se širio, hladio i stvorio materiju, zvezde i galaksije koje danas posmatramo. Veliki prasak nije eksplozija *u* prostoru; to je širenje *samog* prostora.",
       "section1Heading": "Širenje: galaksije se razdvajaju",
@@ -1480,10 +1519,12 @@
       "section3Heading": "Ubrzano širenje i tamna energija",
       "section3Body": "Godine 1998, dva nezavisna tima koja su merila udaljene supernove otkrila su da se širenje svemira ne usporava (kao što bi gravitacija sugerisala) — već ubrzava. Tajanstveni oblik energije ugrađen u sam prostor, nazvan *tamna energija*, izgleda da gura prostor sve brže i brže. Tokom narednih sto milijardi godina, ovo ubrzanje će na kraju odneti svaku galaksiju van naše lokalne grupe iza kosmičkog horizonta. Ubrzanje je **utvrđena teorija**; šta tamna energija zapravo *jeste* ostaje duboko otvoreno pitanje.",
       "section4Heading": "Pre Velikog praska? Samo spekulacija",
-      "section4Body": "Pitanje „šta se dogodilo pre Velikog praska?“ leži na samoj ivici fizike. Postoji nekoliko ideja — večita inflacija, gde je naš svemir jedan od mnogih mehurova u mnogo većem inflacijskom multiverzumu; ciklični modeli, gde se Veliki praskovi i Veliki krahovi ponavljaju; modeli odskakanja iz petljaste kvantne gravitacije. Nijedna nije posmatračno potvrđena; neke možda ne mogu ni u principu da se potvrde. **Cela ova oblast je spekulativna** — fascinantna, ali još uvek nije nauka kao ostatak ove strane."
+      "section4Body": "Pitanje „šta se dogodilo pre Velikog praska?“ leži na samoj ivici fizike. Postoji nekoliko ideja — večita inflacija, gde je naš svemir jedan od mnogih mehurova u mnogo većem inflacijskom multiverzumu; ciklični modeli, gde se Veliki praskovi i Veliki krahovi ponavljaju; modeli odskakanja iz petljaste kvantne gravitacije. Nijedna nije posmatračno potvrđena; neke možda ne mogu ni u principu da se potvrde. **Cela ova oblast je spekulativna** — fascinantna, ali još uvek nije nauka kao ostatak ove strane.",
+      "metaDescription": "Šta se desilo pre 13,8 milijardi godina i kako to znamo — širenje, kosmičko mikrotalasno pozadinsko zračenje, laki elementi — i šta je još otvoreno."
     },
     "supernova": {
       "title": "Supernove",
+      "seoTitle": "Šta je supernova? Kako umiru masivne zvezde",
       "tagline": "Kako masivne zvezde umiru — i šta ostavljaju za sobom.",
       "intro": "Supernova je eksplozivna smrt zvezde, koja nakratko može da zaseni celu galaksiju. Eksplozija seje svemir teškim elementima — veliki deo materije u vašem telu koja je teža od helijuma kovan je u zvezdama i raspršen događajima poput ovog. Teleskopi danas beleže hiljade supernova godišnje u drugim galaksijama, ali u našem Mlečnom putu jedna eksplodira tek otprilike dva puta u sto godina — a prašina je sakrila svaku od 1604. naovamo.",
       "section1Heading": "Dva potpuno različita mehanizma",
@@ -1497,6 +1538,7 @@
     },
     "time": {
       "title": "Vreme",
+      "seoTitle": "Da li je vreme relativno? Dilatacija vremena",
       "tagline": "Ne tako univerzalno kao što izgleda.",
       "intro": "Njutn je mislio da vreme teče istom brzinom svuda. Ajnštajn je pokazao drugačije. Vreme teče sporije kada se brzo krećete i sporije duboko unutar gravitacionog bunara. Efekti su sićušni u svakodnevnom životu, ali stvarni, merljivi i uračunati u rad GPS satelita na koje se oslanja vaš telefon. Ova strana se drži delova koji su **utvrđena teorija** — dobro testirani više od jednog veka.",
       "section1Heading": "Brzo kretanje usporava vaš sat (specijalna relativnost)",
@@ -1510,6 +1552,7 @@
     },
     "distances": {
       "title": "Udaljenosti",
+      "seoTitle": "Udaljenosti u svemiru: svetlosne godine, AJ, parseci",
       "tagline": "Od svetlosnih sekundi do kosmičkog horizonta.",
       "intro": "Čim napustite Zemlju, konvencionalne jedinice prestaju da budu korisne. Astronomi mere udaljenost u vremenu putovanja svetlosti (koliko je trebalo svetlosti da nas dostigne), u astronomskim jedinicama (rastojanje Zemlja–Sunce), ili u parsecima i svetlosnim godinama. Ispod je gruba lestvica udaljenosti, od najbližih mesta do kojih možemo doći do ivice onoga što ikada možemo videti.",
       "section1Heading": "Na dohvatu — udaljenosti u Sunčevom sistemu",
@@ -1523,6 +1566,7 @@
     },
     "moons": {
       "title": "Meseci",
+      "seoTitle": "Meseci Sunčevog sistema: veličine i činjenice",
       "tagline": "Prirodni sateliti planeta.",
       "intro": "Prirodni satelit, ili mesec, svako je telo koje kruži oko planete, patuljaste planete ili drugog malog tela u Sunčevom sistemu. Naš Sunčev sistem ima stotine potvrđenih meseci, od objekata veličine stene do svetova većih od Merkura. Neki imaju atmosfere, podzemne okeane ili aktivni vulkanizam. Nekoliko njih je među najverovatnijim mestima za pronalaženje života van Zemlje.",
       "section1Heading": "Zemljin Mesec",
@@ -1532,10 +1576,12 @@
       "section3Heading": "Brojanje: Jupiter i Saturn",
       "section3Body": "Jupiter ima 115 poznatih meseci, a Saturn 293 (od avgusta 2026), i brojke se i dalje penju kako veliki teleskopi pronalaze sve manja uhvaćena tela. Većina su tela široka nekoliko kilometara u nepravilnim orbitama — gotovo sigurno krš ranijih sudara, ne meseci koji su nastali zajedno sa planetom.",
       "section4Heading": "Egzomeseci",
-      "section4Body": "Meseci oko planeta u drugim zvezdanim sistemima — egzomeseci — teorijski se očekuju gotovo svuda, ali nijedan još nije definitivno potvrđen. Daleko ih je teže otkriti od egzoplaneta: mesec se javlja samo kao sitno periodično klaćenje unutar drugog sitnog periodičnog klaćenja. Postoji nekoliko kandidata, uključujući mogući egzomesec veličine Neptuna oko gasovitog džina Kepler-1625b."
+      "section4Body": "Meseci oko planeta u drugim zvezdanim sistemima — egzomeseci — teorijski se očekuju gotovo svuda, ali nijedan još nije definitivno potvrđen. Daleko ih je teže otkriti od egzoplaneta: mesec se javlja samo kao sitno periodično klaćenje unutar drugog sitnog periodičnog klaćenja. Postoji nekoliko kandidata, uključujući mogući egzomesec veličine Neptuna oko gasovitog džina Kepler-1625b.",
+      "metaDescription": "Sunčev sistem ima stotine meseci. Kako nastaju, najveći upoređeni — Ganimed je širi od Merkura — i koji možda kriju okeane."
     },
     "howBigIsTheUniverse": {
       "title": "Koliko je veliki svemir?",
+      "seoTitle": "Koliko je veliki svemir? Vidljivi svemir",
       "tagline": "Vidljivi svemir ima prečnik od oko 93 milijarde svetlosnih godina. Svemir u celini možda uopšte nema ivicu.",
       "intro": "Kratak odgovor: deo koji možemo da vidimo — vidljivi svemir — jeste sfera prečnika oko 93 milijarde svetlosnih godina, sa nama u središtu. To je otprilike 8,8 × 10²⁶ metara, ili oko 70 milijardi milijardi Zemalja poređanih jedna do druge. Svemir u celini veći je od toga, možda i mnogo veći, a može biti i beskonačan. To niko ne zna, a uz današnju fiziku možda nikada nećemo ni saznati. U nastavku: zašto je taj broj 93 milijarde, a ne 13,8 milijardi, šta je zapravo kosmički horizont, šta bi moglo da se nalazi iza njega i kako zamisliti ovoliku veličinu.",
       "section1Heading": "Zašto 93 milijarde svetlosnih godina, ako je svemir star samo 13,8 milijardi godina?",
@@ -1551,6 +1597,7 @@
     },
     "planetSizesCompared": {
       "title": "Poređenje veličina planeta",
+      "seoTitle": "Poređenje veličina planeta: od Merkura do Jupitera",
       "tagline": "Svih osam planeta, uz Pluton i Mesec, jedna pored druge — prečnici, zapremine i model u razmeri kroz koji možete da prošetate.",
       "intro": "Planete Sunčevog sistema razlikuju se po veličini mnogo više nego što to prikazuje većina ilustracija. Jupiter je oko 29 puta širi od Merkura, Sunce je oko deset puta šire od Jupitera, a četiri džinovske planete sadrže više od 99% ukupne mase svih planeta. U nastavku su brojevi — srednji prečnici iz NASA-inih tabela podataka o planetama — po redu, zatim poređenja zapremina za koja se ljudi najčešće pitaju, i model u razmeri koji čini da praznina između planeta deluje jednako stvarno kao i njihove veličine.",
       "section1Heading": "Sve planete, od najveće do najmanje",
@@ -1566,6 +1613,7 @@
     },
     "smallestThingsInTheUniverse": {
       "title": "Najmanje stvari u svemiru",
+      "seoTitle": "Najmanje stvari u svemiru",
       "tagline": "Od ćelija do kvarkova i Plankove dužine — šta je zaista malo, šta je tačkasto i kako to uopšte možemo da znamo.",
       "intro": "Pitajte šta je najmanja stvar u svemiru i odgovor zavisi od toga šta tačno mislite. Najmanje žive ćelije su bakterije široke nekoliko stotina nanometara. Najmanji objekti sa izmerenom veličinom su protoni i neutroni, široki manje od dva femtometra. Zaista fundamentalne čestice — kvarkovi i elektroni — uopšte nemaju izmerenu veličinu: svaki dosadašnji eksperiment pokazuje da su tačkaste, i postoje samo gornje granice. Ispod svega nalazi se Plankova dužina, teorijska razmera na kojoj današnja fizika prestaje da važi. Evo lestvice od vrha do dna, sa poštenom oznakom na svakoj prečki.",
       "section1Heading": "Živi svet: ćelije, bakterije i virusi",
@@ -1581,6 +1629,7 @@
     },
     "largestThingsInTheUniverse": {
       "title": "Najveće stvari u svemiru",
+      "seoTitle": "Najveće stvari u svemiru",
       "tagline": "Najveća zvezda, crna rupa, galaksija i kosmička struktura — sa poštenim marginama greške.",
       "intro": "„Najveće“ je u astronomiji klizava reč. Zvezde imaju mutne ivice, mase crnih rupa zaključuju se posredno, galaksije postepeno blede u tamu, a neke od najvećih prijavljenih struktura možda su delimično obrasci u šumu. Zato, umesto jednog samouverenog rekorda po kategoriji, evo vodećih kandidata i koliko smo u svaki od njih sigurni. Penjući se od zvezda do kosmičke mreže, svaki korak je otprilike hiljadu do milion puta veći od prethodnog.",
       "section1Heading": "Najveće zvezde",
@@ -1985,13 +2034,14 @@
   },
   "seo": {
     "home": "Razmere svemira — od kvarka do kosmosa | Quantumaire",
-    "scaleTool": "Konvertor svemirskih udaljenosti: km, AJ, svetlosne godine i parseci",
+    "scaleTool": "Konvertor udaljenosti: km, AJ, svetlosne godine, parseci",
     "glossary": "Rečnik svemira i fizike",
     "category": "{category} — veličine, činjenice i poređenja",
-    "compareDescription": "Uporedite bilo koje dve stvari — od kvarka do vidljivog svemira — po veličini, udaljenosti ili temperaturi i odmah vidite koliko puta je jedna veća od druge.",
-    "topicsDescription": "Vodiči kroz svemir jednostavnim jezikom: koliki je svemir, poređenje veličina planeta, najmanje i najveće stvari koje postoje, zvezde, crne rupe, Veliki prasak i još mnogo toga.",
-    "glossaryDescription": "Pojmovi iz svemira i fizike objašnjeni jednostavnim jezikom ({count}) — od kvarkova, gluona i horizonta događaja do crvenog pomaka, svetlosnih godina i tamne energije.",
-    "topicsTitle": "Vodiči kroz svemir: veličine i razmere, jasno objašnjene"
+    "compareDescription": "Uporedite bilo koja dva objekta u svemiru, od kvarka do vidljivog svemira, po veličini, udaljenosti ili temperaturi — i vidite koliko puta je veći.",
+    "topicsDescription": "Jasni vodiči: koliko je veliki svemir, veličine planeta, najmanje i najveće stvari, zvezde, crne rupe, Veliki prasak i još mnogo toga.",
+    "glossaryDescription": "Svaki stručni pojam sa sajta objašnjen u rečenici ili dve: od kvarka i parseka do tamne energije — poređan po abecedi i lak za pretragu.",
+    "topicsTitle": "Vodiči kroz svemir: veličine i razmere, jasno objašnjene",
+    "scaleToolDescription": "Pretvarajte svemirske udaljenosti između km, milja, AJ, svetlosnih godina i parseka i vidite koliko svetlosti treba da ih pređe — uz stvarne primere."
   },
   "spacecraft": {
     "heading": "Koliko su brze naše letelice?",
@@ -2085,44 +2135,49 @@
     "planet": {
       "short": "Planete",
       "title": "Planete, poređene po veličini",
-      "seoTitle": "Poređenje veličina planeta: svih 8 planeta, od najmanje do najveće",
+      "seoTitle": "Poređenje veličina planeta: od najmanje do najveće",
       "intro": "Svih osam planeta Sunčevog sistema jedna pored druge, od malog Merkura do Jupitera, u koji bi stalo više od hiljadu Zemalja. Otvorite bilo koju planetu i pogledajte njenu veličinu, udaljenost, temperaturu i činjenice koje je čine neobičnom."
     },
     "biology": {
       "short": "Život",
       "title": "Život, od DNK do plavog kita",
       "seoTitle": "Koliki je život? Od DNK i virusa do plavog kita",
-      "intro": "Živa bića obuhvataju više od deset redova veličine — od spirale DNK široke dva nanometra, preko virusa, bakterija i ćelija, do vas i najveće životinje koja je ikada živela."
+      "intro": "Živa bića obuhvataju više od deset redova veličine — od spirale DNK široke dva nanometra, preko virusa, bakterija i ćelija, do vas i najveće životinje koja je ikada živela.",
+      "metaDescription": "Život obuhvata više od deset redova veličine, od DNK heliksa širokog 2 nanometra, preko virusa, bakterija i ćelija, do najveće životinje ikada."
     },
     "phenomenon": {
       "short": "Fenomeni",
       "title": "Fenomeni svemira",
-      "seoTitle": "Kosmički fenomeni objašnjeni: tamna materija, tamna energija, Veliki prasak",
-      "intro": "Ne objekti, već pojave i skriveni sastojci: tamna materija i tamna energija, Veliki prasak, gravitacioni talasi i kvantna spregnutost — svaki s oznakom koliko je nauka u njega zaista sigurna."
+      "seoTitle": "Tamna materija, tamna energija i Veliki prasak",
+      "intro": "Ne objekti, već pojave i skriveni sastojci: tamna materija i tamna energija, Veliki prasak, gravitacioni talasi i kvantna spregnutost — svaki s oznakom koliko je nauka u njega zaista sigurna.",
+      "metaDescription": "Tamna materija, tamna energija, Veliki prasak, gravitacioni talasi i spregnutost — svaki sa oznakom koliko je nauka zaista sigurna."
     },
     "star": {
       "short": "Zvezde",
       "title": "Zvezde, poređene po veličini",
-      "seoTitle": "Poređenje veličina zvezda: neutronske zvezde, Sunce, Proksima i UY Scuti",
+      "seoTitle": "Poređenje veličina zvezda: od neutronske do UY Scuti",
       "intro": "Od neutronske zvezde veličine grada do UY Scuti, hiperdžina koji bi, na mestu Sunca, dosezao iza Marsa — raspon zvezda je širi nego što većina ljudi zamišlja."
     },
     "gas-giant": {
       "short": "Džinovske planete",
       "title": "Džinovske planete",
       "seoTitle": "Gasoviti i ledeni džinovi: Jupiter, Saturn, Uran i Neptun",
-      "intro": "Četiri spoljne planete — gasoviti džinovi Jupiter i Saturn, i Uran i Neptun, koje često zovu ledenim džinovima — sadrže više od 99% mase svih planeta zajedno."
+      "intro": "Četiri spoljne planete — gasoviti džinovi Jupiter i Saturn, i Uran i Neptun, koje često zovu ledenim džinovima — sadrže više od 99% mase svih planeta zajedno.",
+      "metaDescription": "Jupiter, Saturn, Uran i Neptun sadrže više od 99% mase svih planeta. Gasoviti i ledeni džinovi upoređeni po veličini, prstenovima i mesecima."
     },
     "spacetime": {
       "short": "Prostor-vreme",
       "title": "Prostor-vreme: vreme, gravitacija i prečice",
-      "seoTitle": "Prostor-vreme objašnjeno: dilatacija vremena, gravitacioni talasi, crvotočine",
-      "intro": "Ajnštajn je od prostora i vremena napravio jedno rastegljivo tkivo. Evo šta iz toga sledi — satovi koji se ne slažu, talasi koji prelaze svemir i spekulativnije ideje izgrađene na tome."
+      "seoTitle": "Prostor-vreme: dilatacija vremena, crvotočine i više",
+      "intro": "Ajnštajn je od prostora i vremena napravio jedno rastegljivo tkivo. Evo šta iz toga sledi — satovi koji se ne slažu, talasi koji prelaze svemir i spekulativnije ideje izgrađene na tome.",
+      "metaDescription": "Ajnštajn je spojio prostor i vreme u jedno rastegljivo tkivo. Posledice: satovi koji se ne slažu, talasi kroz svemir i spekulativne ideje."
     },
     "particle": {
       "short": "Čestice",
       "title": "Subatomske čestice",
-      "seoTitle": "Subatomske čestice objašnjene: kvarkovi, protoni i Higsov bozon",
-      "intro": "Gradivni blokovi ispod atoma: kvarkovi koji grade protone i neutrone, sam proton, i Higsov bozon koji je potvrdio polje koje česticama daje masu."
+      "seoTitle": "Subatomske čestice: kvarkovi, protoni i Higsov bozon",
+      "intro": "Gradivni blokovi ispod atoma: kvarkovi koji grade protone i neutrone, sam proton, i Higsov bozon koji je potvrdio polje koje česticama daje masu.",
+      "metaDescription": "Ispod atoma: kvarkovi od kojih su protoni i neutroni, sam proton i Higsov bozon koji stoji iza mase čestica — veličine i činjenice."
     },
     "black-hole": {
       "short": "Crne rupe",
@@ -2133,20 +2188,22 @@
     "hypothetical": {
       "short": "Hipotetičko",
       "title": "Hipotetičke ideje",
-      "seoTitle": "Spekulativna fizika: crvotočine, multiverzum i teorija struna",
+      "seoTitle": "Spekulativna fizika: crvotočine, multiverzum, strune",
       "intro": "Ideje koje matematika dozvoljava, ali koje nikada nisu uočene. Svaka je jasno označena kao spekulacija — fascinantne mogućnosti, ne otkrića."
     },
     "matter": {
       "short": "Materija",
       "title": "Materija i antimaterija",
       "seoTitle": "Materija i antimaterija: atomi i njihovi blizanci u ogledalu",
-      "intro": "Atom, osnovna jedinica svakog hemijskog elementa, i antimaterija, njegova slika u ogledalu — kad se sretnu, nestaju u čistoj energiji, a zašto je svemir izabrao materiju i dalje je nerešeno."
+      "intro": "Atom, osnovna jedinica svakog hemijskog elementa, i antimaterija, njegova slika u ogledalu — kad se sretnu, nestaju u čistoj energiji, a zašto je svemir izabrao materiju i dalje je nerešeno.",
+      "metaDescription": "Atom, gradivni deo svakog elementa, i antimaterija, njegova slika u ogledalu. Pri dodiru se poništavaju — a zašto je materija pobedila, nije rešeno."
     },
     "galaxy": {
       "short": "Galaksije",
       "title": "Galaksije, poređene",
       "seoTitle": "Mlečni put i Andromeda: koliko su velike galaksije?",
-      "intro": "Naša galaksija, Mlečni put, i njen veliki sused Andromeda — dve spirale sa stotinama milijardi zvezda koje se približavaju jedna drugoj — mada je spajanje u narednih 10 milijardi godina sada otprilike pitanje bacanja novčića."
+      "intro": "Naša galaksija, Mlečni put, i njen veliki sused Andromeda — dve spirale sa stotinama milijardi zvezda koje se približavaju jedna drugoj — mada je spajanje u narednih 10 milijardi godina sada otprilike pitanje bacanja novčića.",
+      "metaDescription": "Mlečni put i Andromeda: dve spirale sa stotinama milijardi zvezda, koliko su velike i da li će se zaista sudariti."
     },
     "unit": {
       "short": "Jedinice",
@@ -2157,8 +2214,9 @@
     "animal": {
       "short": "Životinje",
       "title": "Životinje na krajnostima veličine",
-      "seoTitle": "Tardigrad i plavi kit: najizdržljiviji mališan i najveća životinja ikada",
-      "intro": "Vodeni medved od pola milimetra koji može da preživi vakuum svemira, i plavi kit, najteža poznata životinja — život na oba kraja raspona veličina."
+      "seoTitle": "Tardigrad i plavi kit: najizdržljiviji i najveći",
+      "intro": "Vodeni medved od pola milimetra koji može da preživi vakuum svemira, i plavi kit, najteža poznata životinja — život na oba kraja raspona veličina.",
+      "metaDescription": "Tardigrad od pola milimetra koji preživljava vakuum svemira i plavi kit, najteža životinja ikada — život na oba kraja raspona veličina."
     }
   }
 }

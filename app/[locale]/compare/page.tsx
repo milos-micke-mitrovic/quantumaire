@@ -35,10 +35,12 @@ export async function generateMetadata({
   const aName = tServer(typed, `stops.${aId}.name`);
   const bName = tServer(typed, `stops.${bId}.name`);
 
-  const title = `${aName} vs ${bName} · ${tServer(
-    typed,
-    "common.comparePage.title"
-  )}`;
+  // The bare tool page gets a search-intent title; shared pair links keep
+  // "A vs B" (they canonicalise to /compare anyway).
+  const title =
+    sp.a || sp.b
+      ? `${aName} vs ${bName} · ${tServer(typed, "common.comparePage.title")}`
+      : tServer(typed, "common.comparePage.seoTitle");
 
   const ogImage = `${SITE_URL}/${typed}/compare/og?a=${encodeURIComponent(
     aId

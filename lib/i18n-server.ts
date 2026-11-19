@@ -67,6 +67,15 @@ export function tServer(
   return interpolate(resolved, vars);
 }
 
+/** Like tServer, but undefined when the key exists in neither locale. */
+export function tServerOptional(
+  locale: Locale,
+  key: string
+): string | undefined {
+  const dict = DICTIONARIES[locale] ?? DICTIONARIES[DEFAULT_LOCALE];
+  return resolveKey(dict, key) ?? resolveKey(DICTIONARIES[DEFAULT_LOCALE], key);
+}
+
 /** The full dictionary for a locale (server-side use only). */
 export function getDictionary(locale: Locale): Dictionary {
   return DICTIONARIES[locale] ?? DICTIONARIES[DEFAULT_LOCALE];

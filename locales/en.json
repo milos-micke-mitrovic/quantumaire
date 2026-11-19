@@ -117,7 +117,8 @@
       "tagline": "Pick any two objects and see every object that fits between them by size.",
       "from": "From",
       "to": "To",
-      "foundCount": "{count} objects fall in this range"
+      "foundCount": "{count} objects fall in this range",
+      "seoTitle": "What's Between Two Sizes? Scale Finder"
     },
     "random": "Random topic",
     "skipToContent": "Skip to main content",
@@ -183,7 +184,8 @@
       "timesColder": "{b} is {factor}× cooler than {a}",
       "sameTemperature": "{a} and {b} are at the same temperature.",
       "noData": "One side has no data for this comparison.",
-      "notEnoughStops": "Not enough objects have this data yet — try a different mode."
+      "notEnoughStops": "Not enough objects have this data yet — try a different mode.",
+      "seoTitle": "Size Comparison Tool: Compare Any Two Things in Space"
     },
     "tempSameInC": "≈ same in °C",
     "numberLocale": "en-US",
@@ -571,6 +573,7 @@
     },
     "mpd": {
       "name": "Dissociative Identity Disorder",
+      "seoTitle": "What Is Dissociative Identity Disorder (DID)?",
       "tagline": "When the same brain hosts more than one self.",
       "body": "DID — once called Multiple Personality Disorder — is a documented psychological condition where distinct identities take turns in control of one body. The strangeness goes deeper than personality: clinicians have reported cases — mostly individual case studies — where one alter has measurable allergies, requires glasses, or shows different blood pressure, while another, in the same body, does not. The mind, somehow, may be voting on the body.",
       "narrative": "DID is a phenomenon of the mind, not a measurable object — its scale is psychological, not physical.",
@@ -583,7 +586,8 @@
         "fact2": "Often follows severe childhood trauma.",
         "fact3": "Alters have been reported to show different allergies, eyesight, even handedness.",
         "fact4": "Average time to a correct diagnosis: 5 to 12 years."
-      }
+      },
+      "metaDescription": "Dissociative identity disorder, once called multiple personality disorder: distinct identities sharing one body. What research says, and what is debated."
     },
     "pyramid": {
       "name": "The Great Pyramid",
@@ -691,6 +695,7 @@
     },
     "dark_matter": {
       "name": "Dark Matter",
+      "seoTitle": "What Is Dark Matter? Evidence and What We Know",
       "tagline": "Invisible mass that holds galaxies together — and we don't know what it is.",
       "body": "Galaxies spin too fast for the matter we can see to hold them together — they should be flying apart. Something invisible is providing the extra gravity. We can map it through gravitational lensing, and it appears to outweigh ordinary matter five to one. We just don't know what it is.",
       "narrative": "Dark matter has no shape and no edges that we can see — only its gravity is visible, shaping the rotation of nearly every galaxy ever measured.",
@@ -703,10 +708,12 @@
         "fact2": "Roughly five times the mass of all ordinary matter combined.",
         "fact3": "Detected indirectly via galaxy rotation curves and lensing.",
         "fact4": "No particle of dark matter has ever been directly detected."
-      }
+      },
+      "metaDescription": "Galaxies spin too fast for the matter we can see. Dark matter is the invisible mass that holds them together — what we know and what we don't."
     },
     "dark_energy": {
       "name": "Dark Energy",
+      "seoTitle": "What Is Dark Energy? Why the Universe Speeds Up",
       "tagline": "Whatever is pulling the universe apart, faster and faster.",
       "body": "The expansion of the universe isn't just continuing — it's accelerating. A mysterious form of energy, present in every cubic metre of empty space, seems to be pushing it outward. It accounts for roughly 68% of everything there is, and we have almost no idea what it is made of.",
       "narrative": "Dark energy fills every cubic metre of empty space — including the metres around you right now. It has no size of its own, only a direction: outward.",
@@ -719,7 +726,8 @@
         "fact2": "Discovered in 1998 via supernova measurements of cosmic expansion.",
         "fact3": "Simplest description is Einstein's cosmological constant Λ — though DESI survey data (2024–25) hint it may be weakening over time.",
         "fact4": "Drives the universe's accelerating expansion."
-      }
+      },
+      "metaDescription": "The expansion of the universe is speeding up. Dark energy is the name for whatever drives it — about 68% of the cosmos, nature still unknown."
     },
     "observable_universe": {
       "name": "Observable Universe",
@@ -908,6 +916,7 @@
     },
     "voyager1": {
       "name": "Voyager 1",
+      "seoTitle": "How Far Away Is Voyager 1? One Light-Day from Earth",
       "tagline": "The farthest human-made object — and still calling home.",
       "body": "Voyager 1 launched from Cape Canaveral in September 1977 on a mission to fly past Jupiter and Saturn. Nearly half a century later it's still operating — now in interstellar space, more than 173 astronomical units from Earth, sending back a faint trickle of data on the plasma waves and magnetic fields around it, from the last two of its instruments still switched on. In November 2026 it became the first human-made object one light-day from Earth: every signal now takes a full day to arrive.",
       "narrative": "Voyager 1 is so far away that a radio command from Earth takes a full day to reach it. Yet on the scale of the stars it has barely left home: even at 61,000 km/h it needs about 17,600 years to cover a single light-year — and the nearest star is more than four light-years away.",
@@ -924,7 +933,8 @@
         "fact6": "At that speed, crossing a single light-year would take about 17,600 years."
       },
       "massNarrative": "Voyager 1 weighs about 720 kg — roughly as much as a dairy cow. It and its twin, Voyager 2, are the only human-made objects known to have crossed into interstellar space.",
-      "funFact": "Voyager 1 isn't aimed at any particular star. In about 40,000 years it will pass within 1.6 light-years of Gliese 445 — but by then the constellations we know will have rearranged themselves."
+      "funFact": "Voyager 1 isn't aimed at any particular star. In about 40,000 years it will pass within 1.6 light-years of Gliese 445 — but by then the constellations we know will have rearranged themselves.",
+      "metaDescription": "Launched in 1977, Voyager 1 is the farthest human-made object: in November 2026 it reached one light-day from Earth and is still sending data."
     },
     "laniakea_supercluster": {
       "name": "Laniakea Supercluster",
@@ -1179,6 +1189,7 @@
     },
     "higgs_boson": {
       "name": "Higgs Boson",
+      "seoTitle": "What Is the Higgs Boson? The Particle Behind Mass",
       "tagline": "The particle that proved an invisible field fills all of space.",
       "body": "In July 2012, the ATLAS and CMS experiments at CERN's Large Hadron Collider announced a new particle weighing about 125 GeV — the Higgs boson, predicted back in 1964. It is a ripple in the Higgs field, which pervades the entire universe and gives elementary particles such as electrons and quarks their mass. Without it, electrons would be massless, and atoms as we know them could not form. A Higgs boson lives for only about 10⁻²² seconds, so it is never seen directly — only through the particles it decays into.",
       "narrative": "The Higgs boson has no meaningful size — it is a brief excitation of a field that fills every cubic metre of space, including the one you're sitting in.",
@@ -1192,10 +1203,12 @@
         "fact2": "Mass: about 125 GeV — roughly 133 times a proton.",
         "fact3": "Peter Higgs and François Englert shared the 2013 Nobel Prize in Physics.",
         "fact4": "The LHC makes roughly one Higgs per billion proton collisions."
-      }
+      },
+      "metaDescription": "Found at CERN in 2012, the Higgs boson confirmed the invisible field that gives elementary particles their mass. What it is, simply explained."
     },
     "antimatter": {
       "name": "Antimatter",
+      "seoTitle": "What Is Antimatter? Matter's Mirror Twin",
       "tagline": "Matter's mirror twin — and the reason the universe almost shouldn't exist.",
       "body": "Every particle has an antiparticle with the same mass but opposite charge. Paul Dirac's 1928 equation pointed to them, and in 1932 Carl Anderson spotted the first one — the positron, an anti-electron — in cosmic rays. When matter meets antimatter, both vanish in a flash of energy, exactly as E = mc² dictates. The Big Bang should have made equal amounts of each, yet everything we see is made of matter, and nobody yet knows why.",
       "narrative": "Antimatter has no size of its own — an antiproton is exactly as big as a proton. The scale that matters is a ratio: for roughly every billion matter–antimatter pairs in the early universe, one extra particle of matter survived. That leftover is everything, including you.",
@@ -1209,10 +1222,12 @@
         "fact2": "CERN created the first antihydrogen atoms in 1995.",
         "fact3": "One gram of antimatter meeting one gram of matter releases about 1.8 × 10¹⁴ J — nearly three Hiroshima bombs.",
         "fact4": "In 2023, CERN's ALPHA experiment showed antihydrogen falls down, just like matter."
-      }
+      },
+      "metaDescription": "Every particle has a mirror twin with opposite charge. When they meet, both vanish in pure energy — and why matter won is still unsolved."
     },
     "quantum_entanglement": {
       "name": "Quantum Entanglement",
+      "seoTitle": "What Is Quantum Entanglement? Explained Simply",
       "tagline": "Two particles, one shared story — however far apart they drift.",
       "body": "When two particles become entangled, they share a single quantum state: measure one, and you instantly know what the matching measurement on the other will show, even if it is across a galaxy. Einstein found this so unsettling that he called it 'spooky action at a distance' and suspected the particles carried hidden instructions. John Bell showed in 1964 how to test that idea, and experiments since the 1970s — culminating in loophole-free tests in 2015 — say no such hidden instructions can exist as long as nothing travels between the particles faster than light. Crucially, entanglement cannot send messages: each side sees perfectly random results, and the correlation only appears when the two records are compared over ordinary, light-speed-limited channels.",
       "narrative": "Entanglement has no size of its own — it is a relationship between particles, not an object. Distance doesn't weaken it: the correlations are just as strong across a lab bench as across 1,200 km of sky.",
@@ -1225,7 +1240,8 @@
         "fact2": "Bell's theorem (1964) turned it into a testable prediction.",
         "fact3": "2022 Nobel Prize in Physics: Alain Aspect, John Clauser and Anton Zeilinger.",
         "fact4": "China's Micius satellite shared entangled photons between stations 1,203 km apart (2017)."
-      }
+      },
+      "metaDescription": "Measure one entangled particle and you instantly know its partner's result, however far apart they are — yet no message can travel that way."
     },
     "tardigrade": {
       "name": "Tardigrade",
@@ -1278,6 +1294,7 @@
     },
     "gravity": {
       "name": "Gravity",
+      "seoTitle": "What Is Gravity? From Newton to Curved Spacetime",
       "tagline": "The weakest force in nature — and the one that builds the cosmos.",
       "body": "Between two protons, gravity is about 10³⁶ times weaker than the electric force. Yet it never cancels out and reaches across any distance, so at large scales it wins: it rounds planets, ignites stars and herds galaxies into clusters. Newton described it in 1687 as a force between masses; Einstein's general relativity (1915) recast it as the curvature of spacetime itself. What gravity looks like at the quantum level is still unknown — its proposed particle, the graviton, has never been detected.",
       "narrative": "Gravity has no size of its own: its reach is unlimited, fading with the square of distance but never quite reaching zero. The same pull that keeps your feet on the floor shapes structures hundreds of millions of light-years across.",
@@ -1290,10 +1307,12 @@
         "fact2": "Surface gravity on Earth: about 9.81 m/s².",
         "fact3": "Newton's law of gravitation: 1687; Einstein's general relativity: 1915.",
         "fact4": "No confirmed quantum theory of gravity — the graviton remains hypothetical."
-      }
+      },
+      "metaDescription": "Newton saw gravity as a force; Einstein showed it is the curvature of spacetime. How it shapes falling apples, orbits and black holes."
     },
     "time_dilation": {
       "name": "Time Dilation",
+      "seoTitle": "What Is Time Dilation? Clocks, Speed and Gravity",
       "tagline": "Time runs at different speeds — and your phone has to correct for it.",
       "body": "Relativity says there is no universal clock. A clock that moves fast runs slow (special relativity), and a clock deep in a gravity well runs slow too (general relativity). The effect has been measured again and again: in 1971 Hafele and Keating flew atomic clocks around the world on airliners and saw them disagree by hundreds of nanoseconds. Muons created high in the atmosphere should decay long before reaching the ground — yet they arrive in large numbers, because their clocks tick slowly at nearly the speed of light.",
       "narrative": "Time dilation has no size — it's a difference in the rate of time itself. It is measurable across a whole planet's orbit and, with today's best atomic clocks, across a height difference of a few centimetres.",
@@ -1306,10 +1325,12 @@
         "fact2": "Hafele–Keating (1971): airborne atomic clocks confirmed relativity's predictions.",
         "fact3": "Six months on the ISS leaves an astronaut about 0.005 s younger.",
         "fact4": "In 2010, optical clocks detected the effect over a 33 cm height difference."
-      }
+      },
+      "metaDescription": "Moving clocks and clocks deep in gravity tick slower. Time dilation is measured every day: GPS satellites would drift 38 µs a day without it."
     },
     "gravitational_waves": {
       "name": "Gravitational Waves",
+      "seoTitle": "What Are Gravitational Waves? Ripples in Spacetime",
       "tagline": "Ripples in spacetime itself — heard for the first time in 2015.",
       "body": "When massive objects accelerate, they send ripples through spacetime that stretch and squeeze everything they pass. Einstein predicted them in 1916 but doubted they could ever be measured. On 14 September 2015, LIGO caught one: two black holes of about 36 and 29 solar masses merging 1.3 billion light-years away. In 2017, a neutron-star collision was seen in both gravitational waves and light, and in 2023 pulsar timing arrays found evidence of a slow background hum from across the cosmos.",
       "narrative": "A gravitational wave has no fixed size — its wavelength can range from kilometres to light-years. By the time one reaches Earth, it changes LIGO's 4 km arms by about 1/10,000 the width of a proton.",
@@ -1322,10 +1343,12 @@
         "fact2": "LIGO senses arm-length changes of ~1/10,000 the width of a proton.",
         "fact3": "2017 Nobel Prize in Physics: Rainer Weiss, Barry Barish and Kip Thorne.",
         "fact4": "GW170817 (2017): first neutron-star merger seen in both waves and light."
-      }
+      },
+      "metaDescription": "Ripples in spacetime predicted by Einstein in 1916 and first detected by LIGO in 2015, from two black holes merging over a billion light-years away."
     },
     "wormhole": {
       "name": "Wormhole",
+      "seoTitle": "What Is a Wormhole? Could They Really Exist?",
       "tagline": "A shortcut through spacetime that the equations allow — and nature may not.",
       "body": "In 1935 Einstein and Nathan Rosen found that general relativity permits a 'bridge' linking two distant regions of spacetime. That original bridge pinches shut too fast for anything — even light — to cross. In 1988 Michael Morris and Kip Thorne showed a traversable wormhole is possible on paper, but only if propped open by exotic matter with negative energy, something never found in usable amounts. No wormhole has ever been observed; more recently, the ER = EPR conjecture has proposed that quantum entanglement and wormholes may be two faces of the same thing.",
       "narrative": "A wormhole has no set size: the equations allow throats of any width, from subatomic to galactic. What they can't supply is the negative energy needed to keep one open.",
@@ -1338,10 +1361,12 @@
         "fact2": "The name 'wormhole' was coined by John Wheeler in 1957.",
         "fact3": "Traversable designs need negative-energy 'exotic matter'.",
         "fact4": "No wormhole has ever been observed."
-      }
+      },
+      "metaDescription": "General relativity allows shortcuts through spacetime, but keeping one open needs exotic matter that may not exist. What physics really says."
     },
     "big_bang": {
       "name": "The Big Bang",
+      "seoTitle": "What Was the Big Bang? Evidence and Certainty",
       "tagline": "Not an explosion in space — the beginning of space stretching.",
       "body": "About 13.8 billion years ago, the universe was extremely hot and dense, and it has been expanding and cooling ever since. The Big Bang didn't happen at a point in space; space itself has been stretching everywhere at once. Within minutes the first light nuclei formed, and after about 380,000 years the universe cooled enough for atoms to form and light to travel freely. That light still fills the sky as the cosmic microwave background, discovered by accident in 1965.",
       "narrative": "The Big Bang has no size because it had no outside — it happened everywhere, including the patch of space you occupy now. Today that same expansion stretches across the observable universe, about 93 billion light-years wide.",
@@ -1354,10 +1379,12 @@
         "fact2": "Cosmic microwave background: 2.725 K, discovered in 1965.",
         "fact3": "First atoms formed about 380,000 years after the Big Bang.",
         "fact4": "The name was coined in 1949 by Fred Hoyle — a sceptic of the idea."
-      }
+      },
+      "metaDescription": "The Big Bang wasn't an explosion in space but space itself expanding from a hot, dense state 13.8 billion years ago. The evidence, explained."
     },
     "multiverse": {
       "name": "Multiverse",
+      "seoTitle": "What Is the Multiverse? Science or Speculation?",
       "tagline": "Maybe our universe is one of many — maybe the question isn't science.",
       "body": "Several ideas in physics hint that our universe might not be the only one. In eternal inflation, space keeps inflating forever, budding off 'bubble universes' with different properties. String theory appears to allow around 10⁵⁰⁰ possible vacuum states, each a universe with its own laws. And the many-worlds interpretation of quantum mechanics suggests reality branches with every quantum measurement. None of these can currently be tested, and many physicists question whether an unobservable multiverse counts as science at all.",
       "narrative": "A multiverse has no measurable size — by definition, the other universes lie beyond any horizon we can see. Even our own observable universe, 93 billion light-years across, would be one bubble among many.",
@@ -1370,10 +1397,12 @@
         "fact2": "Many-worlds interpretation proposed by Hugh Everett in 1957.",
         "fact3": "Searches for 'bubble collision' marks in the CMB have found none so far.",
         "fact4": "No observational evidence for any other universe exists."
-      }
+      },
+      "metaDescription": "Could our universe be one of many? Inflation, string theory and quantum mechanics all hint at a multiverse, but none of it can be tested yet."
     },
     "string_theory": {
       "name": "String Theory",
+      "seoTitle": "What Is String Theory? Explained Simply",
       "tagline": "Everything might be made of vibrating strings — if only we could test it.",
       "body": "String theory proposes that nature's smallest building blocks are not points but tiny vibrating strings. Like notes on a violin, each vibration pattern would show up as a different particle — and one of those patterns has exactly the properties of the graviton, which makes the theory a leading candidate for quantum gravity. The catch is that its mathematics only works in 10 dimensions (11 in M-theory), so the extra ones must be curled up far too small to see — in the classic picture, six of them folded into a shape called a Calabi–Yau manifold. More than 50 years on, string theory has no experimental confirmation, and the LHC has found none of the supersymmetric particles many versions hoped for. Yet it has reshaped pure mathematics and given physics the AdS/CFT correspondence, a bridge between gravity and quantum theory that Juan Maldacena proposed in 1997.",
       "narrative": "Strings have no measured size: they are usually pictured near the Planck length, about 10⁻³⁵ m — some 10²⁰ times smaller than a proton. Nothing remotely that small has ever been probed, so if strings exist, their true scale is still unknown.",
@@ -1386,7 +1415,8 @@
         "fact2": "Its 'landscape' allows roughly 10⁵⁰⁰ possible vacua.",
         "fact3": "Witten won the 1990 Fields Medal — the only physicist ever to receive it.",
         "fact4": "No experimental confirmation; the LHC has found no superpartners so far."
-      }
+      },
+      "metaDescription": "String theory says the smallest building blocks may be tiny vibrating strings, uniting gravity with quantum physics. Elegant, but still untested."
     }
   },
   "about": {
@@ -1405,7 +1435,8 @@
     "editorialBody": "We would rather be slightly behind the literature than dramatically ahead of the evidence. When we discover a mistake we correct it visibly. Where reasonable people disagree, we say so. We use sources we can defend — peer-reviewed papers, established textbooks, working scientists — over flashy press releases.",
     "languagesHeading": "Languages",
     "languagesBody": "Every page exists in English and in Serbian (Latin script). The two language versions have their own canonical URLs so they can be discovered, cited, and translated independently — by people and by AI search engines alike.",
-    "imageAlt": "Stylised cosmic diagram showing the spectrum of confidence from fact to speculation."
+    "imageAlt": "Stylised cosmic diagram showing the spectrum of confidence from fact to speculation.",
+    "seoTitle": "About Quantumaire: How We Measure the Universe"
   },
   "topicsIndex": {
     "title": "Guides",
@@ -1415,6 +1446,7 @@
   "topics": {
     "stars": {
       "title": "Stars",
+      "seoTitle": "Stars Explained: How Big, Hot and Far Are They?",
       "tagline": "The nuclear furnaces of the universe.",
       "intro": "A star is a ball of plasma held together by its own gravity, hot and dense enough in its core to fuse light atomic nuclei into heavier ones — and to release the energy that keeps the rest of it from collapsing. Stars come in a huge range of colours, sizes, and temperatures, but every one is doing the same fundamental thing: burning.",
       "section1Heading": "Colours, temperatures, and the OBAFGKM scale",
@@ -1426,10 +1458,12 @@
       "section4Heading": "How a star dies",
       "section4Body": "What a star becomes when it dies depends on how massive it was. Sun-sized stars puff into red giants, shed their outer layers, and leave behind a slow-cooling white dwarf. Larger stars — 8 to 25 solar masses — end in supernova explosions, collapsing their cores into neutron stars. Truly massive stars (above ~25 solar masses) usually leave black holes instead — sometimes after a weaker explosion, sometimes with almost none. Black holes are, in this sense, the graveyards of the most massive stars.",
       "section5Heading": "Numbers and extremes",
-      "section5Body": "There are an estimated 100 to 400 billion stars in the Milky Way alone, and hundreds of billions of galaxies — perhaps up to 2 trillion — in the observable universe. The smallest known stars are about the size of Jupiter — some slightly smaller. The largest red supergiants, placed at the Sun's position, would reach past Mars and possibly beyond Jupiter. The hottest stars exceed 200,000 K (≈ 200,000 °C) at their surfaces; the coolest red dwarfs are around 2,300 K (≈ 2,000 °C) — cooler than a welding torch's flame."
+      "section5Body": "There are an estimated 100 to 400 billion stars in the Milky Way alone, and hundreds of billions of galaxies — perhaps up to 2 trillion — in the observable universe. The smallest known stars are about the size of Jupiter — some slightly smaller. The largest red supergiants, placed at the Sun's position, would reach past Mars and possibly beyond Jupiter. The hottest stars exceed 200,000 K (≈ 200,000 °C) at their surfaces; the coolest red dwarfs are around 2,300 K (≈ 2,000 °C) — cooler than a welding torch's flame.",
+      "metaDescription": "How big, hot and far stars are: from red dwarfs to supergiants, star colours and temperatures, how stars live and die, and how many exist."
     },
     "planets": {
       "title": "Planets",
+      "seoTitle": "The Planets: Sizes, Distances and Facts Compared",
       "tagline": "Worlds bound to a star.",
       "intro": "A planet is a body massive enough to be rounded by its own gravity, orbiting a star, and clearing the neighbourhood around its orbit. The third clause — added by the International Astronomical Union in 2006 — is what reclassified Pluto. By that definition our Solar System has eight planets; by older definitions it had more.",
       "section1Heading": "Two flavours, with variations",
@@ -1439,10 +1473,12 @@
       "section3Heading": "Where planet ends and star begins",
       "section3Body": "The line between large planet and small star is blurry. Brown dwarfs — failed stars massive enough to fuse deuterium but not hydrogen — occupy that grey zone. Jupiter would need to grow about 80 times more massive to ignite hydrogen fusion and become a true star — so despite the 'failed star' nickname, it never came close.",
       "section4Heading": "Conditions for life",
-      "section4Body": "A planet capable of liquid water at its surface needs a stable orbit in the \"habitable zone\" around its star, a substantial atmosphere, a magnetic field to deflect stellar radiation, and probably plate tectonics to recycle nutrients. Earth has all four. We have so far found no other world that demonstrably does — though several look intriguing."
+      "section4Body": "A planet capable of liquid water at its surface needs a stable orbit in the \"habitable zone\" around its star, a substantial atmosphere, a magnetic field to deflect stellar radiation, and probably plate tectonics to recycle nutrients. Earth has all four. We have so far found no other world that demonstrably does — though several look intriguing.",
+      "metaDescription": "What makes a planet a planet, why Pluto was reclassified, the eight planets compared by size and distance, and the thousands found beyond."
     },
     "blackHoles": {
       "title": "Black holes",
+      "seoTitle": "Black Holes: How Big Can They Get?",
       "tagline": "Regions of spacetime nothing can escape.",
       "intro": "A black hole is a region where matter has collapsed into a gravitational well so deep that not even light moving at the cosmic speed limit can climb back out. Once you cross its event horizon, you're committed. We can't see inside one directly — we infer their existence from how they bend light, swallow gas, and tug on the stars around them.",
       "section1Heading": "Three families by mass",
@@ -1454,10 +1490,12 @@
       "section4Heading": "Strange physics inside",
       "section4Body": "Past the event horizon, our current theories run out. General relativity predicts a \"singularity\" — a point of infinite density — at the centre of every black hole. But infinities in physics are usually a sign that the theory is incomplete, not a real prediction. A future theory of quantum gravity, when we have one, will probably replace the singularity with something less infinite.",
       "section5Heading": "Hawking radiation and slow evaporation",
-      "section5Body": "Stephen Hawking showed in 1974 that black holes are not actually perfectly black — they radiate a tiny amount of thermal energy from just outside their event horizon. Over inconceivably long timescales (at least 10⁶⁷ years even for a black hole of just one solar mass, far longer for heavier ones) they should slowly evaporate. We have never observed this happen — it's far too faint."
+      "section5Body": "Stephen Hawking showed in 1974 that black holes are not actually perfectly black — they radiate a tiny amount of thermal energy from just outside their event horizon. Over inconceivably long timescales (at least 10⁶⁷ years even for a black hole of just one solar mass, far longer for heavier ones) they should slowly evaporate. We have never observed this happen — it's far too faint.",
+      "metaDescription": "Black holes from a few Suns to 66 billion: how big they get, how we photograph them, Hawking radiation, and what is still speculation."
     },
     "nebulae": {
       "title": "Nebulae",
+      "seoTitle": "What Is a Nebula? Star Nurseries and Remnants",
       "tagline": "Where stars are born and where they go to die.",
       "intro": "A nebula is a vast cloud of gas and dust drifting through interstellar space. Some are nurseries where new stars are condensing under gravity. Others are graveyards — the puffed-out remains of stars that finished burning. They are the loudest, prettiest objects in deep-sky astrophotography, and the slowest-moving cosmic events humans can directly observe.",
       "section1Heading": "Four flavours of nebula",
@@ -1471,6 +1509,7 @@
     },
     "bigBang": {
       "title": "The Big Bang",
+      "seoTitle": "The Big Bang Explained: 13.8 Billion Years Ago",
       "tagline": "The hot, dense origin of the universe we can see.",
       "intro": "Our best current picture of cosmic history says that around 13.8 billion years ago, everything in the observable universe was packed into a state so hot and dense that ordinary matter, light and space behaved in ways our theories can no longer fully describe. From that state — call it the Big Bang — space expanded, cooled, and produced the matter, stars and galaxies we observe today. The Big Bang is not an explosion *inside* space; it is the expansion *of* space itself.",
       "section1Heading": "Expansion: galaxies moving apart",
@@ -1480,10 +1519,12 @@
       "section3Heading": "Accelerating expansion and dark energy",
       "section3Body": "In 1998, two independent teams measuring distant supernovae found that the universe's expansion isn't slowing down (as gravity would suggest) — it's speeding up. A mysterious form of energy embedded in space itself, called *dark energy*, appears to be pushing space apart faster and faster. Over the next hundred billion years, this acceleration will eventually carry every galaxy outside our local group beyond the cosmic horizon. The acceleration is **established theory**; what dark energy actually *is* remains a deep open question.",
       "section4Heading": "Before the Big Bang? Speculation only",
-      "section4Body": "Asking \"what happened before the Big Bang?\" sits at the very edge of physics. Several ideas exist — eternal inflation, where our universe is one of many bubbles in a much larger inflating multiverse; cyclic models, where Big Bangs and Big Crunches repeat; bouncing models from loop quantum gravity. None has been observationally confirmed; some may even be unconfirmable in principle. **This entire area is speculative** — fascinating, but not yet science the way the rest of this page is."
+      "section4Body": "Asking \"what happened before the Big Bang?\" sits at the very edge of physics. Several ideas exist — eternal inflation, where our universe is one of many bubbles in a much larger inflating multiverse; cyclic models, where Big Bangs and Big Crunches repeat; bouncing models from loop quantum gravity. None has been observationally confirmed; some may even be unconfirmable in principle. **This entire area is speculative** — fascinating, but not yet science the way the rest of this page is.",
+      "metaDescription": "What happened 13.8 billion years ago, how we know — expansion, the cosmic microwave background, light elements — and what is still open."
     },
     "supernova": {
       "title": "Supernovae",
+      "seoTitle": "What Is a Supernova? How Massive Stars Die",
       "tagline": "How massive stars die — and what they leave behind.",
       "intro": "A supernova is the explosive death of a star, which can briefly outshine an entire galaxy. The explosion seeds the universe with heavy elements — much of the matter in your body heavier than helium was forged inside stars and scattered by events like this. Telescopes now catch thousands of supernovae a year in other galaxies, but in our own Milky Way one goes off only about twice a century — and dust has hidden every one since 1604.",
       "section1Heading": "Two completely different mechanisms",
@@ -1497,6 +1538,7 @@
     },
     "time": {
       "title": "Time",
+      "seoTitle": "Is Time Relative? Time Dilation Explained",
       "tagline": "Not as universal as it feels.",
       "intro": "Newton thought time flowed at the same rate everywhere. Einstein showed otherwise. Time runs slower when you move fast, and slower deep inside a gravitational well. The effects are tiny in everyday life but real, measurable, and built into the satellites in your phone's GPS chip. This page sticks to the parts that are **established theory** — well-tested for over a century.",
       "section1Heading": "Moving fast slows your clock (special relativity)",
@@ -1510,6 +1552,7 @@
     },
     "distances": {
       "title": "Distances",
+      "seoTitle": "Space Distances Explained: Light-Years, AU, Parsecs",
       "tagline": "From light-seconds to the cosmic horizon.",
       "intro": "Once you leave Earth, conventional units stop being useful. Astronomers measure distance in light-time (how long it took the light to reach us), in astronomical units (the Earth-Sun distance), or in parsecs and light-years. Below is a rough distance ladder, from the closest places we can reach to the edge of what we can ever see.",
       "section1Heading": "Within reach — Solar System distances",
@@ -1523,6 +1566,7 @@
     },
     "moons": {
       "title": "Moons",
+      "seoTitle": "Moons of the Solar System: Sizes and Facts",
       "tagline": "The natural satellites of the planets.",
       "intro": "A moon — also called a natural satellite — is any body that orbits a planet, dwarf planet, or other small Solar System body. Our Solar System has hundreds of confirmed moons, ranging from boulder-sized objects to worlds larger than Mercury. Some have atmospheres, subsurface oceans, or active volcanism. A few are among the most likely places to find life beyond Earth.",
       "section1Heading": "Earth's Moon",
@@ -1532,10 +1576,12 @@
       "section3Heading": "Counting them: Jupiter and Saturn",
       "section3Body": "Jupiter has 115 known moons and Saturn 293 (as of August 2026), and the numbers keep climbing as large telescopes pick out ever-smaller captured objects. Most of these are bodies a few kilometres across in irregular orbits — almost certainly debris from earlier collisions, not moons that formed alongside the planet.",
       "section4Heading": "Exomoons",
-      "section4Body": "Moons around planets in other star systems — exomoons — are theoretically expected almost everywhere, but none has yet been definitively confirmed. They are far harder to detect than exoplanets: a moon shows up only as a tiny periodic wobble inside another tiny periodic wobble. A handful of candidates exist, including a possible Neptune-sized exomoon around the gas giant Kepler-1625b."
+      "section4Body": "Moons around planets in other star systems — exomoons — are theoretically expected almost everywhere, but none has yet been definitively confirmed. They are far harder to detect than exoplanets: a moon shows up only as a tiny periodic wobble inside another tiny periodic wobble. A handful of candidates exist, including a possible Neptune-sized exomoon around the gas giant Kepler-1625b.",
+      "metaDescription": "Our Solar System has hundreds of moons. How they form, the biggest ones compared — Ganymede is wider than Mercury — and which may hide oceans."
     },
     "howBigIsTheUniverse": {
       "title": "How Big Is the Universe?",
+      "seoTitle": "How Big Is the Universe? The Observable Universe",
       "tagline": "The observable universe is about 93 billion light-years across. The universe as a whole may have no edge at all.",
       "intro": "Short answer: the part we can see — the observable universe — is a sphere about 93 billion light-years in diameter, centred on us. That is roughly 8.8 × 10²⁶ metres, or about 70 billion billion Earths laid side by side. The universe as a whole is larger than that, possibly far larger, and it may be infinite. Nobody knows, and with current physics we may never be able to find out. Below: why the number is 93 billion and not 13.8 billion, what the cosmic horizon actually is, what might lie beyond it, and how to picture a size this large.",
       "section1Heading": "Why 93 billion light-years if the universe is only 13.8 billion years old?",
@@ -1551,6 +1597,7 @@
     },
     "planetSizesCompared": {
       "title": "Planet Sizes Compared",
+      "seoTitle": "Planet Sizes Compared: From Mercury to Jupiter",
       "tagline": "All eight planets, plus Pluto and the Moon, side by side — diameters, volumes, and a scale model you could walk.",
       "intro": "The planets of the Solar System differ in size far more than most illustrations let on. Jupiter is about 29 times wider than Mercury, the Sun is about ten times wider than Jupiter, and the four giant planets hold more than 99% of all planetary mass. Below are the numbers — mean diameters from NASA's planetary fact sheets — in order, followed by the volume comparisons people most often ask about and a scale model that makes the gaps between the planets feel as real as their sizes.",
       "section1Heading": "Every planet, largest to smallest",
@@ -1566,6 +1613,7 @@
     },
     "smallestThingsInTheUniverse": {
       "title": "The Smallest Things in the Universe",
+      "seoTitle": "The Smallest Things in the Universe",
       "tagline": "From cells to quarks to the Planck length — what is really small, what is point-like, and how we can possibly know.",
       "intro": "Ask what the smallest thing in the universe is and the answer depends on what you mean. The smallest living cells are bacteria a few hundred nanometres across. The smallest objects with a measured size are protons and neutrons, under two femtometres wide. The truly fundamental particles — quarks and electrons — have no measured size at all: every experiment so far finds them point-like, and only upper limits exist. Below everything sits the Planck length, a theoretical scale where today's physics stops working. Here is the ladder from top to bottom, with an honest label on each rung.",
       "section1Heading": "The living world: cells, bacteria and viruses",
@@ -1581,6 +1629,7 @@
     },
     "largestThingsInTheUniverse": {
       "title": "The Largest Things in the Universe",
+      "seoTitle": "The Largest Things in the Universe",
       "tagline": "The biggest star, black hole, galaxy and cosmic structure — with honest error bars.",
       "intro": "\"Largest\" is a slippery word in astronomy. Stars have fuzzy edges, black-hole masses are inferred indirectly, galaxies fade gradually into darkness, and some of the biggest claimed structures may be partly patterns in noise. So instead of one confident record per category, here are the leading contenders and how sure we are about each. Climbing from stars to the cosmic web, every step is roughly a thousand to a million times bigger than the one before.",
       "section1Heading": "The largest stars",
@@ -2028,10 +2077,11 @@
     "scaleTool": "Space Distance Converter: km, AU, Light-Years & Parsecs",
     "glossary": "Space & Physics Glossary — Plain-English Definitions",
     "category": "{category} — Sizes, Facts & Comparisons",
-    "compareDescription": "Compare any two things in the universe — from a quark to the observable universe — by size, distance or temperature, and see exactly how many times bigger one is.",
-    "topicsDescription": "Plain-English guides to the universe: how big it is, planet sizes compared, the smallest and largest things that exist, stars, black holes, the Big Bang and more.",
+    "compareDescription": "Compare any two things in the universe, from a quark to the observable universe, by size, distance or temperature — see how many times bigger.",
+    "topicsDescription": "Plain-English guides: how big the universe is, planet sizes, the smallest and largest things, stars, black holes, the Big Bang and more.",
     "glossaryDescription": "{count} space and physics terms explained in plain English — from quarks, gluons and event horizons to redshift, light-years and dark energy.",
-    "topicsTitle": "Guides to the Universe: Size, Scale & Space Explained"
+    "topicsTitle": "Guides to the Universe: Size, Scale & Space Explained",
+    "scaleToolDescription": "Convert space distances between km, miles, AU, light-years and parsecs, and see how long light takes to cross them — with real examples."
   },
   "spacecraft": {
     "heading": "How fast are our spacecraft?",
@@ -2132,73 +2182,81 @@
       "short": "Life",
       "title": "Life, from DNA to the blue whale",
       "seoTitle": "How Big Is Life? From DNA and Viruses to the Blue Whale",
-      "intro": "Living things span more than ten orders of magnitude — from the DNA helix two nanometres wide, through viruses, bacteria and cells, to you and the largest animal that has ever lived."
+      "intro": "Living things span more than ten orders of magnitude — from the DNA helix two nanometres wide, through viruses, bacteria and cells, to you and the largest animal that has ever lived.",
+      "metaDescription": "Life spans more than ten orders of magnitude, from the 2-nanometre DNA helix through viruses, bacteria and cells to the largest animal ever."
     },
     "phenomenon": {
       "short": "Phenomena",
       "title": "Phenomena of the universe",
-      "seoTitle": "Cosmic Phenomena Explained: Dark Matter, Dark Energy, Big Bang & More",
-      "intro": "Things that are not objects but happenings and hidden ingredients: dark matter and dark energy, the Big Bang, gravitational waves and quantum entanglement — each labelled with how sure science really is."
+      "seoTitle": "Dark Matter, Dark Energy and the Big Bang Explained",
+      "intro": "Things that are not objects but happenings and hidden ingredients: dark matter and dark energy, the Big Bang, gravitational waves and quantum entanglement — each labelled with how sure science really is.",
+      "metaDescription": "Dark matter, dark energy, the Big Bang, gravitational waves and entanglement — each labelled with how certain science really is."
     },
     "star": {
       "short": "Stars",
       "title": "Stars, compared by size",
-      "seoTitle": "Star Sizes Compared: Neutron Stars, the Sun, Proxima Centauri & UY Scuti",
+      "seoTitle": "Star Sizes Compared: From Neutron Stars to UY Scuti",
       "intro": "From a neutron star the size of a city to UY Scuti, a hypergiant that would reach past Mars if it replaced the Sun — the range of stars is wider than most people imagine."
     },
     "gas-giant": {
       "short": "Giant planets",
       "title": "The giant planets",
-      "seoTitle": "Gas and Ice Giants: Jupiter, Saturn, Uranus and Neptune Compared",
-      "intro": "The four outer planets — Jupiter and Saturn, the gas giants, and Uranus and Neptune, often called ice giants — hold more than 99% of the mass of all the planets put together."
+      "seoTitle": "Gas and Ice Giants: Jupiter, Saturn, Uranus, Neptune",
+      "intro": "The four outer planets — Jupiter and Saturn, the gas giants, and Uranus and Neptune, often called ice giants — hold more than 99% of the mass of all the planets put together.",
+      "metaDescription": "Jupiter, Saturn, Uranus and Neptune hold over 99% of all planetary mass. The gas and ice giants compared by size, rings and moons."
     },
     "spacetime": {
       "short": "Spacetime",
       "title": "Spacetime: time, gravity and shortcuts",
-      "seoTitle": "Spacetime Explained: Time Dilation, Gravitational Waves, Wormholes & String Theory",
-      "intro": "Einstein turned space and time into one stretchy fabric. Here is what follows from that — clocks that disagree, ripples that cross the universe, and the more speculative ideas built on top."
+      "seoTitle": "Spacetime Explained: Time Dilation, Wormholes and More",
+      "intro": "Einstein turned space and time into one stretchy fabric. Here is what follows from that — clocks that disagree, ripples that cross the universe, and the more speculative ideas built on top.",
+      "metaDescription": "Einstein made space and time one stretchy fabric. What follows: clocks that disagree, ripples across the universe, and speculative ideas."
     },
     "particle": {
       "short": "Particles",
       "title": "Subatomic particles",
-      "seoTitle": "Subatomic Particles Explained: Quarks, Protons and the Higgs Boson",
-      "intro": "The building blocks under the atom: the quarks that make protons and neutrons, the proton itself, and the Higgs boson that confirmed the field giving particles their mass."
+      "seoTitle": "Subatomic Particles: Quarks, Protons and the Higgs",
+      "intro": "The building blocks under the atom: the quarks that make protons and neutrons, the proton itself, and the Higgs boson that confirmed the field giving particles their mass.",
+      "metaDescription": "Below the atom: quarks that build protons and neutrons, the proton itself, and the Higgs boson behind particle mass — sizes and facts."
     },
     "black-hole": {
       "short": "Black holes",
       "title": "Black holes, compared by size",
-      "seoTitle": "The Biggest Black Holes: Sagittarius A*, Phoenix-A and TON 618 Compared",
+      "seoTitle": "The Biggest Black Holes: Sgr A*, Phoenix-A, TON 618",
       "intro": "From Sagittarius A* at the centre of our galaxy to TON 618 and Phoenix-A, among the most massive black holes known — each event horizon measured against things you know."
     },
     "hypothetical": {
       "short": "Hypothetical",
       "title": "Hypothetical ideas",
-      "seoTitle": "Speculative Physics: Wormholes, the Multiverse and String Theory",
+      "seoTitle": "Speculative Physics: Wormholes, Multiverse, Strings",
       "intro": "Ideas allowed by the mathematics but never observed. Each one is clearly labelled Speculative — fascinating possibilities, not discoveries."
     },
     "matter": {
       "short": "Matter",
       "title": "Matter and antimatter",
       "seoTitle": "Matter and Antimatter: Atoms and Their Mirror Twins",
-      "intro": "The atom, the basic unit of every chemical element, and antimatter, its mirror image — the two meet and vanish in pure energy, and why the universe chose matter is still unsolved."
+      "intro": "The atom, the basic unit of every chemical element, and antimatter, its mirror image — the two meet and vanish in pure energy, and why the universe chose matter is still unsolved.",
+      "metaDescription": "The atom, building block of every element, and antimatter, its mirror image. They annihilate on contact — and why matter won is unsolved."
     },
     "galaxy": {
       "short": "Galaxies",
       "title": "Galaxies, compared",
       "seoTitle": "Milky Way vs Andromeda: How Big Are Galaxies?",
-      "intro": "Our home galaxy, the Milky Way, and its big neighbour Andromeda — two spirals of hundreds of billions of stars, closing in on each other — though whether they merge within the next 10 billion years is now roughly a coin toss."
+      "intro": "Our home galaxy, the Milky Way, and its big neighbour Andromeda — two spirals of hundreds of billions of stars, closing in on each other — though whether they merge within the next 10 billion years is now roughly a coin toss.",
+      "metaDescription": "The Milky Way and Andromeda: two spirals of hundreds of billions of stars, how big they are, and whether they will really collide."
     },
     "unit": {
       "short": "Units",
       "title": "Units of length at the extremes",
-      "seoTitle": "The Planck Length and the Light-Year: The Extremes of Measuring Length",
+      "seoTitle": "Planck Length and Light-Year: The Extremes of Length",
       "intro": "Two units at opposite ends of the scale: the Planck length, where physics as we know it breaks down, and the light-year, the distance light travels in a year."
     },
     "animal": {
       "short": "Animals",
       "title": "Animals at the extremes of size",
-      "seoTitle": "Tardigrade vs Blue Whale: The Smallest Tough Animal and the Largest Ever",
-      "intro": "A half-millimetre water bear that can survive the vacuum of space, and the blue whale, the heaviest animal ever known — life at both ends of the animal size range."
+      "seoTitle": "Tardigrade vs Blue Whale: Toughest Small, Largest Ever",
+      "intro": "A half-millimetre water bear that can survive the vacuum of space, and the blue whale, the heaviest animal ever known — life at both ends of the animal size range.",
+      "metaDescription": "A half-millimetre tardigrade that survives the vacuum of space and the blue whale, the heaviest animal ever — life at both ends of the size range."
     }
   }
 }

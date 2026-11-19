@@ -12,7 +12,7 @@ import {
   getRelatedStops,
   getStop,
 } from "@/lib/content";
-import { pickDictionary, tServer } from "@/lib/i18n-server";
+import { pickDictionary, tServer, tServerOptional } from "@/lib/i18n-server";
 import {
   absoluteUrl,
   breadcrumbJsonLd,
@@ -20,7 +20,7 @@ import {
   LOCALES,
   SITE_MODIFIED,
   SITE_URL,
-  clipDescription,
+  fitDescription,
   faqJsonLd,
   stopJsonLd,
 } from "@/lib/seo";
@@ -64,17 +64,17 @@ export async function generateMetadata({
   if (!LOCALES.includes(locale as Locale)) return {};
   const typed = locale as Locale;
 
-  const name = tServer(typed, `${stop.i18nKey}.name`);
   const tagline = tServer(typed, `${stop.i18nKey}.tagline`);
   const body = tServer(typed, `${stop.i18nKey}.body`);
   const size = sizeSummary(stop, typed);
   const tail = tServer(typed, "sizeFaq.metaTail");
-  const description = clipDescription(
-    size
-      ? `${size} ${tagline} ${tail}`
-      : `${tagline} ${body}`,
-    160
-  );
+  // The "compare to a human, Earth…" tail is skipped on those two pages.
+  const withTail = stop.id !== "earth" && stop.id !== "human";
+  const description =
+    tServerOptional(typed, `${stop.i18nKey}.metaDescription`) ??
+    (size
+      ? fitDescription([size, tagline, ...(withTail ? [tail] : [])])
+      : fitDescription([tagline, body]));
 
   const title =
     stop.sizeMeters !== null
@@ -82,7 +82,7 @@ export async function generateMetadata({
           name: titleCase(subjectName(stop, typed)),
           Name: capFirst(subjectName(stop, typed)),
         })
-      : `${name} — ${tServer(typed, `categories.${stop.category}`)}`;
+      : tServer(typed, `${stop.i18nKey}.seoTitle`);
 
   return buildPageMetadata({
     locale: typed,
