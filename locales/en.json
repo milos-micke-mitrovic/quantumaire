@@ -423,9 +423,9 @@
     "HUMANKIND.intro": "Not everything worth knowing has a metre attached to it. Dissociative identity disorder is a property of the brain, not a measurable object, yet it belongs in any honest tour of what exists. The Great Pyramid, at 139 metres and 2.3 million blocks aligned to the cardinal directions, was the tallest thing humans built for nearly four thousand years; the Eiffel Tower more than doubled that in 1889, and the Burj Khalifa now reaches 828 metres — where the human scale starts to brush against the planetary. This is where Quantumaire keeps topics about people: the minds that measure the universe and the things they have built.",
     "EARTH": "Life & Earth",
     "PHYSICS": "Forces & Spacetime",
-    "EARTH.description": "Living things and landscapes on our own planet — from a half-millimetre water bear to the blue whale, the largest tree and the roof of the world.",
+    "EARTH.description": "Living things and landscapes on our own planet — from a half-millimetre water bear to the giraffe, the blue whale, the Grand Canyon and the Sahara.",
     "PHYSICS.description": "Gravity, time, ripples in spacetime and quantum links — the rules that every object on the site has to obey.",
-    "EARTH.intro": "The stretch of the scale you can actually touch. Animal life alone spans nearly five orders of magnitude — from a tardigrade barely visible to the naked eye, through a human being, to a blue whale longer than a basketball court — and the planet's own surface adds Mount Everest, almost nine kilometres of rock folded upward by colliding continents. The plant kingdom goes bigger still: General Sherman, a giant sequoia, stands 84 metres tall with a trunk holding nearly 1,500 cubic metres of wood. These topics anchor the cosmic numbers to things you already have a feel for.",
+    "EARTH.intro": "The stretch of the scale you can actually touch. Animal life alone spans nearly five orders of magnitude — from a tardigrade barely visible to the naked eye, through a human being, past an elephant and a giraffe to a blue whale longer than a basketball court — and the planet's own surface adds Mount Everest, almost nine kilometres of rock folded upward by colliding continents, the Grand Canyon, the 6,400 km Amazon River and the Sahara, almost as wide as the United States. The plant kingdom goes bigger still: General Sherman, a giant sequoia, stands 84 metres tall with a trunk holding nearly 1,500 cubic metres of wood. These topics anchor the cosmic numbers to things you already have a feel for.",
     "PHYSICS.intro": "Not objects but the rules behind them. Gravity, the weakest force, still decides the shape of everything from planets to galaxy clusters; time itself runs at different speeds depending on how fast you move and how deep you sit in a gravity well; spacetime can ripple, and on paper it can even fold into a wormhole. These topics have no size you could put on a ruler — what they have is reach: everything else on the site obeys them."
   },
   "comparison": {
@@ -516,7 +516,8 @@
     "hypothetical": "Hypothetical",
     "ocean": "Ocean",
     "alien-life": "Alien life",
-    "landmark": "Landmark"
+    "landmark": "Landmark",
+    "landscape": "Landscape"
   },
   "stops": {
     "quark": {
@@ -1784,6 +1785,108 @@
         "fact8": "The crown has 25 windows and seven rays."
       },
       "metaDescription": "The Statue of Liberty stands 93 m from the ground to the torch: a 46 m copper statue, its skin as thin as two pennies, on a framework by Gustave Eiffel's company."
+    },
+    "african_elephant": {
+      "name": "African Elephant",
+      "tagline": "The largest animal on land — a six-tonne giant that talks in rumbles too deep for us to hear.",
+      "body": "The African bush elephant is the biggest living land animal: a grown bull stands about 3.2 metres at the shoulder and weighs around 6 tonnes, and the largest on record reached roughly 4 metres and 10 tonnes. Its trunk is a fused nose and upper lip with tens of thousands of muscle bundles — strong enough to tear down branches, delicate enough to pick up a single peanut. Elephants keep in touch with low-frequency rumbles, part of it infrasound, that travel kilometres through air and ground. Ivory poaching and shrinking habitat have cut their numbers sharply; the species is listed as Endangered.",
+      "narrative": "A big bull is almost twice as tall as an adult human at the shoulder alone — and as heavy as about 80 people.",
+      "massNarrative": "A 6-tonne bull weighs about as much as four family cars, and it eats roughly 150 kg of plants a day to keep going.",
+      "funFact": "Those huge ears are radiators: blood flows through a dense web of vessels just under the thin skin, and flapping them on a hot day can cool that blood by several degrees before it returns to the body.",
+      "seoTitle": "How Big Is an African Elephant? Height & Weight",
+      "metaDescription": "An African bush elephant bull stands about 3.2 m at the shoulder and weighs around 6 tonnes — the largest land animal alive. Size compared to a human.",
+      "image": {
+        "alt": "An African elephant with long curved tusks grazing in tall green savanna grass."
+      },
+      "facts": {
+        "fact1": "Bull shoulder height: about 3.2 m; cows: about 2.6 m.",
+        "fact2": "Bull weight: around 6 tonnes; the record is roughly 10 tonnes.",
+        "fact3": "Pregnancy lasts about 22 months — the longest of any land mammal.",
+        "fact4": "Eats around 150 kg of grass, leaves and bark a day.",
+        "fact5": "Tusks are enlarged incisor teeth that keep growing throughout life.",
+        "fact6": "Listed as Endangered by the IUCN since 2021."
+      }
+    },
+    "giraffe": {
+      "name": "Giraffe",
+      "tagline": "The tallest animal alive — a neck nearly two metres long, built from just seven bones.",
+      "body": "Giraffes are the tallest living animals: males reach about 5.5 metres, tall enough to look into a second-floor window, and females about 4.3 m. The neck alone can be close to 2 metres long, yet it has the same seven vertebrae as yours, each one simply stretched. Pumping blood that high takes a heart of around 11 kg and a blood pressure roughly twice a human's; tight skin on the legs works like a pilot's pressure suit so blood doesn't pool in the feet. Giraffes live in the savannas and open woodlands of Africa, where their height lets them browse acacia leaves no other grazer can reach.",
+      "narrative": "A tall male is more than three times your height — stand three adults on each other's shoulders and they'd only just look it in the eye.",
+      "funFact": "A giraffe's tongue is about 45–50 cm long and dark blue-black, probably to protect it from sunburn during hours of browsing — and tough enough to wrap around thorny acacia branches.",
+      "seoTitle": "How Tall Is a Giraffe? The Tallest Animal Alive",
+      "metaDescription": "Male giraffes stand about 5.5 m tall — the tallest living animals — with a 2 m neck made of just seven vertebrae. Height compared to a human.",
+      "image": {
+        "alt": "A giraffe walking through dry golden grass in Nairobi National Park under a pale blue sky."
+      },
+      "facts": {
+        "fact1": "Males: about 5.5 m tall; females: about 4.3 m.",
+        "fact2": "Neck: up to about 2 m long, with only seven vertebrae — the same number as a human.",
+        "fact3": "Heart: around 11 kg, pumping at about twice human blood pressure.",
+        "fact4": "A newborn calf is already about 1.8 m tall and drops some 2 m at birth.",
+        "fact5": "The horn-like knobs on its head are ossicones — bone covered in skin and hair.",
+        "fact6": "Roughly 117,000 giraffes remain in the wild in Africa."
+      }
+    },
+    "sahara": {
+      "name": "Sahara",
+      "tagline": "The largest hot desert on Earth — almost as wide as the United States, and green only 6,000 years ago.",
+      "body": "The Sahara covers about 9.2 million km² of North Africa, stretching some 4,800 km from the Atlantic to the Red Sea and reaching into eleven countries. Only about a quarter of it is sand dunes; most is bare rock plateau and gravel plain. Summer afternoons regularly pass 40 °C, yet the dry air lets nights fall close to freezing. It hasn't always been desert: during the African Humid Period, roughly 11,000 to 5,000 years ago, lakes, grassland and hippos covered much of it, and rock art from that time shows cattle herders where there is now only sand.",
+      "narrative": "Lay the Sahara over Europe and it would stretch from Lisbon to beyond Moscow — Mercury, the smallest planet, is barely wider.",
+      "funFact": "The desert feeds the rainforest: winds carry about 28 million tonnes of Saharan dust across the Atlantic to the Amazon basin every year, and its phosphorus helps replace what the rain washes out of the rainforest soil.",
+      "seoTitle": "How Big Is the Sahara Desert? Size Compared",
+      "metaDescription": "The Sahara covers about 9.2 million km² and stretches some 4,800 km across North Africa — the largest hot desert on Earth. How big, how hot, and once green.",
+      "image": {
+        "alt": "Rippled orange sand dunes of Erg Chebbi in the Moroccan Sahara stretching to the horizon in evening light."
+      },
+      "temperatureNote": "typical summer afternoon",
+      "facts": {
+        "fact1": "Area: about 9.2 million km² — the largest hot desert on Earth.",
+        "fact2": "About 4,800 km from east to west and up to about 1,800 km from north to south.",
+        "fact3": "Only about 25% of it is sand dunes; the rest is rock, gravel and mountains.",
+        "fact4": "Highest point: Emi Koussi volcano in Chad, about 3,415 m.",
+        "fact5": "Summer days often top 40 °C, while desert nights can drop near freezing.",
+        "fact6": "Green with lakes and grassland roughly 11,000 to 5,000 years ago."
+      }
+    },
+    "amazon_river": {
+      "name": "Amazon River",
+      "tagline": "The river that carries a fifth of all the world's river water to the sea.",
+      "body": "The Amazon runs about 6,400 km from the Peruvian Andes to the Atlantic — whether it or the Nile is longest depends on where you decide the source is. By volume there is no contest: about 209,000 cubic metres of water a second pour from its mouth, around a fifth of all the river water reaching the world's oceans and more than the next seven largest rivers combined. Its basin, roughly 7 million km², holds the largest rainforest on Earth. In the wet season the river can spread tens of kilometres wide, and not a single bridge crosses its main channel.",
+      "narrative": "Stretched out straight, the Amazon would reach from New York to Berlin — about half the width of the whole Earth.",
+      "funFact": "Twice a month, around the new and full Moon, the Atlantic tide pushes upriver as a wave called the pororoca — up to 4 m high and heard long before it arrives — and surfers have ridden it for more than 10 km.",
+      "seoTitle": "How Long Is the Amazon River? Length & Size",
+      "metaDescription": "The Amazon River runs about 6,400 km and carries about a fifth of all river water reaching the oceans. Its length compared to a human, Earth and more.",
+      "image": {
+        "alt": "Satellite view of the Amazon's muddy brown mouth branching into channels and islands among green rainforest, with clouds dotting the sky."
+      },
+      "facts": {
+        "fact1": "Length: about 6,400 km (some measurements give over 6,900 km).",
+        "fact2": "Average flow: about 209,000 m³ of water a second.",
+        "fact3": "Carries about 20% of all the river water that reaches the oceans.",
+        "fact4": "Drainage basin: about 7 million km², shared by nine countries.",
+        "fact5": "No bridge crosses the main river anywhere along its length.",
+        "fact6": "Home to more than 2,500 known species of fish."
+      }
+    },
+    "grand_canyon": {
+      "name": "Grand Canyon",
+      "tagline": "Carved by the Colorado River: 447 km long, nearly 1.9 km deep, and 1.8 billion years of rock on show.",
+      "body": "The Grand Canyon in Arizona winds 447 km along the Colorado River, up to 29 km wide from rim to rim and nearly 1.9 km deep at its deepest. Its walls are a stack of rock layers like the pages of a book: limestone and sandstone near the rim are around 270 million years old, while the dark schist at the bottom is about 1.8 billion years old. The river began cutting its present course roughly 5 to 6 million years ago, helped by the slow uplift of the Colorado Plateau. It became a US national park in 1919 and now draws around 5 million visitors a year.",
+      "narrative": "Stack two Burj Khalifas on top of each other and they would still not reach the rim from the river at the deepest point.",
+      "funFact": "The canyon makes its own climate: the river at the bottom can be about 11 °C warmer than the rim above, so you can leave snow at the top in the morning and hike into desert heat by afternoon.",
+      "seoTitle": "How Deep Is the Grand Canyon? Size Compared",
+      "metaDescription": "The Grand Canyon is nearly 1.9 km deep, 447 km long and up to 29 km wide, with rocks 1.8 billion years old at the bottom. Its size compared to Everest and more.",
+      "image": {
+        "alt": "Evening light on layered red and orange cliffs of the Grand Canyon under clouds, seen from Powell Point."
+      },
+      "facts": {
+        "fact1": "Length: about 447 km along the Colorado River.",
+        "fact2": "Depth: about 1.6 km on average and up to about 1,860 m.",
+        "fact3": "Width: from about 180 m to 29 km rim to rim.",
+        "fact4": "Oldest rocks at the bottom: about 1.8 billion years old.",
+        "fact5": "The Colorado River set its present course about 5–6 million years ago.",
+        "fact6": "A US national park since 1919; about 5 million visitors a year."
+      }
     }
   },
   "about": {
@@ -2447,6 +2550,26 @@
     "red_supergiant": {
       "term": "Red supergiant",
       "definition": "A massive star near the end of its life that has used up the hydrogen in its core and swollen to hundreds of times the Sun's width, with a cool, red surface. Most end as core-collapse supernovae."
+    },
+    "infrasound": {
+      "term": "Infrasound",
+      "definition": "Sound below about 20 Hz — too low for human ears. It travels far with little loss, which is why elephants and whales use it to keep in touch over long distances."
+    },
+    "ossicone": {
+      "term": "Ossicone",
+      "definition": "The horn-like knobs on a giraffe's (and okapi's) head: bone covered in skin and hair, not true horn or antler."
+    },
+    "erg": {
+      "term": "Erg",
+      "definition": "A 'sea of sand': a broad area of wind-blown dunes. Ergs make up only about a quarter of the Sahara; the rest is rock and gravel."
+    },
+    "tidal_bore": {
+      "term": "Tidal bore",
+      "definition": "A wave that runs upriver against the current when a strong incoming tide meets a river mouth — the Amazon's pororoca is one of the largest."
+    },
+    "erosion": {
+      "term": "Erosion",
+      "definition": "The wearing away of rock and soil by water, wind and ice. Given millions of years, a river can cut a canyon more than a kilometre deep."
     }
   },
   "faq": {
@@ -2534,7 +2657,12 @@
       "gaia_bh1": "Gaia BH1",
       "mariana_trench": "the Mariana Trench",
       "iss": "the International Space Station",
-      "james_webb": "the James Webb Space Telescope"
+      "james_webb": "the James Webb Space Telescope",
+      "african_elephant": "an African elephant",
+      "giraffe": "a giraffe",
+      "sahara": "the Sahara",
+      "amazon_river": "the Amazon River",
+      "grand_canyon": "the Grand Canyon"
     },
     "a7where": "The typical temperature of {name} is about {temp} — {note}.",
     "a2taller": "{Name} is roughly {ratio} times taller than a 1.7 m human.",
@@ -2543,7 +2671,15 @@
     "a8deep": "Earth, 12,742 km across, is roughly {ratio} times wider than {name} is deep.",
     "a3smallerTall": "One step down is {other} ({otherSize}), about {ratio} times shorter.",
     "a3largerTall": "One step up is {other} ({otherSize}), about {ratio} times taller.",
-    "a1plain": "{Name} measures about {size}. On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size."
+    "a1plain": "{Name} measures about {size}. On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size.",
+    "a2longer": "{Name} is roughly {ratio} times longer than a 1.7 m human is tall.",
+    "a8long": "Earth, 12,742 km across, is roughly {ratio} times wider than {name} is long.",
+    "a1Height": "{Name} stands about {size} tall (≈ {sci} m). On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size.",
+    "a1Depth": "{Name} is about {size} deep (≈ {sci} m). On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size.",
+    "a1Length": "{Name} is about {size} long (≈ {sci} m). On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size.",
+    "a1plainHeight": "{Name} stands about {size} tall. On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size.",
+    "a1plainDepth": "{Name} is about {size} deep. On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size.",
+    "a1plainLength": "{Name} is about {size} long. On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size."
   },
   "seo": {
     "home": "Scale of the Universe — Quarks to the Cosmos | Quantumaire",
@@ -2726,10 +2862,10 @@
     },
     "animal": {
       "short": "Animals",
-      "title": "Animals at the extremes of size",
-      "seoTitle": "Tardigrade vs Blue Whale: Toughest Small, Largest Ever",
-      "intro": "A half-millimetre water bear that can survive the vacuum of space, and the blue whale, the heaviest animal ever known — life at both ends of the animal size range.",
-      "metaDescription": "A half-millimetre tardigrade that survives the vacuum of space and the blue whale, the heaviest animal ever — life at both ends of the size range."
+      "title": "Animals from the tiniest to the biggest",
+      "seoTitle": "Animal Sizes Compared: Tardigrade to Blue Whale",
+      "intro": "A half-millimetre water bear that can survive the vacuum of space, the African elephant, the giraffe — the tallest animal alive — and the blue whale, the heaviest animal ever known.",
+      "metaDescription": "Tardigrade, African elephant, giraffe and blue whale compared by size: from a half-millimetre water bear to the heaviest animal that ever lived."
     },
     "spacecraft": {
       "short": "Spacecraft",
@@ -2751,6 +2887,13 @@
       "seoTitle": "Comets: Halley's Comet and the Oort Cloud",
       "intro": "Dirty snowballs a few kilometres across, and the unseen reservoir they fall from: Halley's Comet, back every 76 years or so, and the Oort cloud, a shell of icy bodies thought to stretch more than a light-year from the Sun.",
       "metaDescription": "Halley's Comet is an 11 km ball of ice and dust; the Oort cloud, where long-period comets come from, may reach more than a light-year from the Sun."
+    },
+    "landscape": {
+      "short": "Landscapes",
+      "title": "Earth's great landscapes, by size",
+      "seoTitle": "Earth's Biggest Landscapes: Everest to the Sahara",
+      "intro": "The planet's own record-breakers, from the Grand Canyon's 1.9 km drop and the 11 km Mariana Trench to Mount Everest, the 6,400 km Amazon River and the Sahara, almost as wide as the United States.",
+      "metaDescription": "Mount Everest, the Mariana Trench, the Grand Canyon, the Amazon River and the Sahara compared by size — Earth's great landscapes on one scale."
     }
   }
 }

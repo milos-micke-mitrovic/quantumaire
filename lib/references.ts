@@ -282,12 +282,15 @@ function defaultTranslator(key: string): string {
 /**
  * What a topic's size measures. Most sizes are a diameter or length
  * ("bigger"), but for towers, trees, mountains and people it is a height
- * ("taller") and for the Mariana Trench a depth ("deeper") — generated
+ * ("taller"), for the Mariana Trench a depth ("deeper"), for a river a
+ * length ("longer") — generated
  * sentences pick their verb from this.
  */
-export type SizeMeasure = "height" | "depth" | "size";
+export type SizeMeasure = "height" | "depth" | "length" | "size";
 const HEIGHT_STOP_IDS = new Set([
   "human",
+  "african_elephant",
+  "giraffe",
   "general_sherman",
   "pyramid",
   "statue_of_liberty",
@@ -295,11 +298,13 @@ const HEIGHT_STOP_IDS = new Set([
   "burj_khalifa",
   "mount_everest",
 ]);
-const DEPTH_STOP_IDS = new Set(["mariana_trench"]);
+const DEPTH_STOP_IDS = new Set(["mariana_trench", "grand_canyon"]);
+const LENGTH_STOP_IDS = new Set(["amazon_river"]);
 
 export function sizeMeasure(stop: { id: string }): SizeMeasure {
   if (HEIGHT_STOP_IDS.has(stop.id)) return "height";
   if (DEPTH_STOP_IDS.has(stop.id)) return "depth";
+  if (LENGTH_STOP_IDS.has(stop.id)) return "length";
   return "size";
 }
 

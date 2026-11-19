@@ -872,5 +872,59 @@
       "label": "NIST",
       "url": "https://www.nist.gov/si-redefinition/meter"
     }
+  ],
+  "african_elephant": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/African_bush_elephant"
+    }
+  ],
+  "giraffe": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Giraffe"
+    },
+    {
+      "label": "Giraffe Conservation Foundation",
+      "url": "https://giraffeconservation.org/facts/"
+    }
+  ],
+  "sahara": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sahara"
+    },
+    {
+      "label": "Wikipedia — African Humid Period",
+      "url": "https://en.wikipedia.org/wiki/African_humid_period"
+    },
+    {
+      "label": "NASA — Saharan dust feeds the Amazon",
+      "url": "https://www.nasa.gov/missions/calipso/nasa-satellite-reveals-how-much-saharan-dust-feeds-amazons-plants/"
+    }
+  ],
+  "amazon_river": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amazon_River"
+    },
+    {
+      "label": "Wikipedia — Pororoca",
+      "url": "https://en.wikipedia.org/wiki/Pororoca"
+    }
+  ],
+  "grand_canyon": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grand_Canyon"
+    },
+    {
+      "label": "NPS — Park statistics",
+      "url": "https://www.nps.gov/grca/learn/management/statistics.htm"
+    },
+    {
+      "label": "NPS — Geology",
+      "url": "https://www.nps.gov/grca/learn/nature/grca-geology.htm"
+    }
   ]
 }

@@ -1282,7 +1282,8 @@
         "death_zone"
       ],
       "tags": [
-        "mountain"
+        "mountain",
+        "landscape"
       ],
       "temperatureKelvin": 237
     },
@@ -1558,7 +1559,8 @@
         "plate_tectonics"
       ],
       "tags": [
-        "ocean"
+        "ocean",
+        "landscape"
       ],
       "temperatureKelvin": 275
     },
@@ -1656,6 +1658,119 @@
       ],
       "tags": [
         "spacetime"
+      ]
+    },
+    {
+      "id": "african_elephant",
+      "i18nKey": "stops.african_elephant",
+      "sizeMeters": 3.2,
+      "order": 4.75,
+      "badge": "FACT",
+      "category": "EARTH",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/african-elephant.webp",
+        "aspect": "wide",
+        "altKey": "stops.african_elephant.image.alt",
+        "credit": "Charles J. Sharp — CC BY-SA 4.0 (cropped)"
+      },
+      "glossary": [
+        "infrasound"
+      ],
+      "tags": [
+        "biology",
+        "animal"
+      ]
+    },
+    {
+      "id": "giraffe",
+      "i18nKey": "stops.giraffe",
+      "sizeMeters": 5.5,
+      "order": 4.78,
+      "badge": "FACT",
+      "category": "EARTH",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/giraffe.webp",
+        "aspect": "wide",
+        "altKey": "stops.giraffe.image.alt",
+        "credit": "Jorge Láscar — CC BY 2.0 (cropped)"
+      },
+      "glossary": [
+        "ossicone"
+      ],
+      "tags": [
+        "biology",
+        "animal"
+      ]
+    },
+    {
+      "id": "sahara",
+      "i18nKey": "stops.sahara",
+      "sizeMeters": 4800000.0,
+      "order": 6.3,
+      "badge": "FACT",
+      "category": "EARTH",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "temperatureKelvin": 313,
+      "image": {
+        "src": "/images/sahara.webp",
+        "aspect": "wide",
+        "altKey": "stops.sahara.image.alt",
+        "credit": "Thomas Fuhrmann — CC BY-SA 4.0 (cropped)"
+      },
+      "glossary": [
+        "erg"
+      ],
+      "tags": [
+        "landscape"
+      ]
+    },
+    {
+      "id": "amazon_river",
+      "i18nKey": "stops.amazon_river",
+      "sizeMeters": 6400000.0,
+      "order": 6.32,
+      "badge": "FACT",
+      "category": "EARTH",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/amazon-river.webp",
+        "aspect": "square",
+        "altKey": "stops.amazon_river.image.alt",
+        "credit": "ESA (Copernicus Sentinel data) — CC BY-SA 3.0 IGO"
+      },
+      "glossary": [
+        "tidal_bore"
+      ],
+      "tags": [
+        "landscape"
+      ]
+    },
+    {
+      "id": "grand_canyon",
+      "i18nKey": "stops.grand_canyon",
+      "sizeMeters": 1857,
+      "order": 6.28,
+      "badge": "FACT",
+      "category": "EARTH",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/grand-canyon.webp",
+        "aspect": "wide",
+        "altKey": "stops.grand_canyon.image.alt",
+        "credit": "Tuxyso — CC BY-SA 3.0 (cropped)"
+      },
+      "glossary": [
+        "erosion"
+      ],
+      "tags": [
+        "landscape"
       ]
     }
   ]

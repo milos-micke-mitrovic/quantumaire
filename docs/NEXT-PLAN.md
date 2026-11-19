@@ -29,7 +29,7 @@ dump: a temporary vitest that writes to the scratchpad) and reading them:
 
 ## 2. New topics (use the `add-topic` skill; Humankind and Life & Earth are thin)
 
-- [ ] Life & Earth: African elephant, giraffe, Sahara, Amazon River, Grand Canyon
+- [x] Life & Earth: African elephant, giraffe, Sahara, Amazon River, Grand Canyon
 - [ ] Humankind: Titanic, Colosseum, Great Wall (length — check the "X times
       Earth" FAQ doesn't mislead; maybe skip the Earth comparison for lengths)
 - [ ] Cosmos: Great Red Spot, Sirius, Kuiper Belt, asteroid belt

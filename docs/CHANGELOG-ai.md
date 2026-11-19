@@ -118,3 +118,8 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Real-scale card: new `manhattan` reference (21.6 km); neutron star → "Manhattan, end to end" (city-sized, ×1.1), Everest pinned to the Eiffel Tower; Gaia BH1 vs Manhattan. Round-vs-bar stays bars.
 - Tests: `tests/generatedText.test.ts`.
 - Next: NEXT-PLAN block 2 (new topics).
+
+## 2026-11-19 — new topics: Life & Earth (NEXT-PLAN block 2, part 1)
+- African elephant (`african_elephant`, 3.2 m bull shoulder height; Charles J. Sharp, CC BY-SA 4.0), giraffe (`giraffe`, 5.5 m; Jorge Láscar, CC BY 2.0), Sahara (`sahara`, 4,800 km east–west, 40 °C "typical summer afternoon"; Thomas Fuhrmann, CC BY-SA 4.0), Amazon River (`amazon_river`, 6,400 km; ESA Sentinel image of the mouth, CC BY-SA 3.0 IGO, square), Grand Canyon (`grand_canyon`, 1,857 m deepest; Tuxyso, CC BY-SA 3.0). EN+SR text, seoTitle + metaDescription, 6 facts each, sources (Wikipedia, NPS statistics, NASA CALIPSO dust, Giraffe Conservation Foundation). Glossary: infrasound, ossicone, erg, tidal_bore, erosion.
+- New `landscape` tag → `/tag/landscape` (Grand Canyon, Everest, trench, Sahara, Amazon); animal collection and Life & Earth category texts mention the new topics. Compare pair giraffe-vs-human (26).
+- Generated text: `sizeMeasure` gains `length` (Amazon: "3.8 million times longer than a human is tall", "Earth … wider than the Amazon River is long"); elephant/giraffe are heights, Grand Canyon a depth. First FAQ answer is measure-aware: "The Eiffel Tower stands about 330 m tall", "The Mariana Trench is about 11 km deep", SR "Žirafa: visina je oko 5,5 m". Elephant + giraffe join `FAMILIAR_STOP_IDS`. Dumped all new FAQ answers, analogies and real-scale cards and read them.

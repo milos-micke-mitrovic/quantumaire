@@ -423,9 +423,9 @@
     "HUMANKIND.intro": "Nije sve što vredi znati moguće izmeriti metrom. Disocijativni poremećaj identiteta osobina je mozga, a ne merljiv objekat, ali mu je mesto u svakom poštenom pregledu onoga što postoji. Velika piramida, visoka 139 metara i sazidana od 2,3 miliona blokova poravnatih sa stranama sveta, bila je najviše što su ljudi sagradili skoro četiri hiljade godina; Ajfelova kula je 1889. tu visinu više nego udvostručila, a Burdž Kalifa danas doseže 828 metara — tamo gde ljudska razmera počinje da dotiče planetarnu. Ovde Quantumaire čuva teme o ljudima: o umovima koji mere svemir i o onome što su sagradili.",
     "EARTH": "Život i Zemlja",
     "PHYSICS": "Sile i prostor-vreme",
-    "EARTH.description": "Živa bića i predeli naše planete — od vodenog medveda od pola milimetra do plavog kita, najvećeg drveta i krova sveta.",
+    "EARTH.description": "Živa bića i predeli naše planete — od vodenog medveda od pola milimetra do žirafe, plavog kita, Velikog kanjona i Sahare.",
     "PHYSICS.description": "Gravitacija, vreme, talasi u prostor-vremenu i kvantne veze — pravila kojima se pokorava svaki objekat na ovom sajtu.",
-    "EARTH.intro": "Deo skale koji zaista možete da dodirnete. Već sam životinjski svet obuhvata skoro pet redova veličine — od tardigrada koji se golim okom jedva vidi, preko čoveka, do plavog kita dužeg od košarkaškog terena — a površina planete dodaje Mont Everest, skoro devet kilometara stena koje su sudari kontinenata izgurali naviše. Biljni svet ide i dalje: džinovska sekvoja General Šerman visoka je 84 metra, a u deblu ima skoro 1.500 kubnih metara drveta. Ove teme vezuju kosmičke brojeve za stvari za koje već imate osećaj.",
+    "EARTH.intro": "Deo skale koji zaista možete da dodirnete. Već sam životinjski svet obuhvata skoro pet redova veličine — od tardigrada koji se golim okom jedva vidi, preko čoveka, preko slona i žirafe do plavog kita dužeg od košarkaškog terena — a površina planete dodaje Mont Everest, skoro devet kilometara stena koje su sudari kontinenata izgurali naviše, Veliki kanjon, reku Amazon dugu 6.400 km i Saharu, široku skoro kao Sjedinjene Države. Biljni svet ide i dalje: džinovska sekvoja General Šerman visoka je 84 metra, a u deblu ima skoro 1.500 kubnih metara drveta. Ove teme vezuju kosmičke brojeve za stvari za koje već imate osećaj.",
     "PHYSICS.intro": "Ne objekti, već pravila iza njih. Gravitacija, najslabija sila, i dalje određuje oblik svega, od planeta do jata galaksija; samo vreme teče različitom brzinom u zavisnosti od toga koliko se brzo krećete i koliko ste duboko u gravitacionom polju; prostor-vreme može da se talasa, a na papiru čak i da se savije u crvotočinu. Ove teme nemaju veličinu koju biste stavili na lenjir — imaju domet: sve ostalo na sajtu im se pokorava."
   },
   "comparison": {
@@ -516,7 +516,8 @@
     "hypothetical": "Hipotetičko",
     "ocean": "Okean",
     "alien-life": "Vanzemaljski život",
-    "landmark": "Znamenitost"
+    "landmark": "Znamenitost",
+    "landscape": "Predeo"
   },
   "stops": {
     "quark": {
@@ -1784,6 +1785,108 @@
         "fact8": "Kruna ima 25 prozora i sedam zraka."
       },
       "metaDescription": "Kip slobode je visok 93 m od tla do baklje: bakarni kip od 46 m sa oplatom tankom kao dva novčića, na konstrukciji firme Gustava Ajfela."
+    },
+    "african_elephant": {
+      "name": "Afrički slon",
+      "tagline": "Najveća životinja na kopnu — div od šest tona koji razgovara bruktanjem previše dubokim da bismo ga čuli.",
+      "body": "Afrički savanski slon je najveća živa kopnena životinja: odrastao mužjak je visok oko 3,2 metra u ramenima i težak oko 6 tona, a najveći zabeleženi dostigao je oko 4 metra i 10 tona. Surla je srasli nos i gornja usna sa desetinama hiljada mišićnih snopova — dovoljno snažna da obori granu, a dovoljno precizna da podigne jedan kikiriki. Slonovi se sporazumevaju niskim bruktanjem, delom infrazvukom, koji putuje kilometrima kroz vazduh i tlo. Krivolov zbog slonovače i nestajanje staništa naglo su smanjili njihov broj; vrsta se vodi kao ugrožena.",
+      "narrative": "Veliki mužjak je samo do ramena skoro dvostruko viši od odraslog čoveka — a težak je kao oko 80 ljudi.",
+      "massNarrative": "Mužjak od 6 tona težak je otprilike kao četiri porodična automobila, a dnevno pojede oko 150 kg biljaka.",
+      "funFact": "Te ogromne uši su radijatori: krv teče kroz gustu mrežu sudova odmah ispod tanke kože, a mahanje njima po vrućini može da ohladi tu krv za nekoliko stepeni pre nego što se vrati u telo.",
+      "seoTitle": "Koliko je veliki afrički slon? Visina i težina",
+      "metaDescription": "Mužjak afričkog savanskog slona visok je oko 3,2 m u ramenima i težak oko 6 tona — najveća živa kopnena životinja. Veličina u poređenju sa čovekom.",
+      "image": {
+        "alt": "Afrički slon sa dugim zakrivljenim kljovama pase u visokoj zelenoj travi savane."
+      },
+      "facts": {
+        "fact1": "Visina mužjaka u ramenima: oko 3,2 m; ženke: oko 2,6 m.",
+        "fact2": "Težina mužjaka: oko 6 tona; rekord je oko 10 tona.",
+        "fact3": "Bremenitost traje oko 22 meseca — najduže od svih kopnenih sisara.",
+        "fact4": "Dnevno pojede oko 150 kg trave, lišća i kore.",
+        "fact5": "Kljove su uvećani sekutići koji rastu celog života.",
+        "fact6": "Na listi IUCN vodi se kao ugrožena vrsta od 2021."
+      }
+    },
+    "giraffe": {
+      "name": "Žirafa",
+      "tagline": "Najviša živa životinja — vrat dug skoro dva metra, sastavljen od samo sedam kostiju.",
+      "body": "Žirafe su najviše žive životinje: mužjaci dostižu oko 5,5 metara, dovoljno da gledaju kroz prozor na drugom spratu, a ženke oko 4,3 m. Sam vrat može biti dug blizu 2 metra, a ipak ima istih sedam pršljenova kao i vaš — svaki je samo izdužen. Da bi krv stigla toliko visoko, potrebno je srce od oko 11 kg i krvni pritisak otprilike dvostruko veći nego kod čoveka; zategnuta koža na nogama radi kao pilotsko odelo pod pritiskom, pa se krv ne skuplja u stopalima. Žirafe žive u savanama i retkim šumama Afrike, gde zahvaljujući visini brste lišće akacije do kog nijedan drugi biljojed ne dopire.",
+      "narrative": "Visok mužjak je više od tri puta viši od vas — tri odrasla čoveka jedan drugom na ramenima tek bi ga pogledala u oči.",
+      "funFact": "Jezik žirafe dug je oko 45–50 cm i tamnoplavo-crn, verovatno da bi se zaštitio od opekotina tokom sati brstenja — i dovoljno je čvrst da se obavije oko trnovitih grana akacije.",
+      "seoTitle": "Koliko je visoka žirafa? Najviša živa životinja",
+      "metaDescription": "Mužjaci žirafe visoki su oko 5,5 m — najviše žive životinje — sa vratom od 2 m od samo sedam pršljenova. Visina u poređenju sa čovekom.",
+      "image": {
+        "alt": "Žirafa hoda kroz suvu zlatnu travu u Nacionalnom parku Najrobi pod bledoplavim nebom."
+      },
+      "facts": {
+        "fact1": "Mužjaci: oko 5,5 m visine; ženke: oko 4,3 m.",
+        "fact2": "Vrat: do oko 2 m, sa samo sedam pršljenova — kao kod čoveka.",
+        "fact3": "Srce: oko 11 kg, pumpa pod otprilike dvostruko većim pritiskom nego kod čoveka.",
+        "fact4": "Mladunče je na rođenju već visoko oko 1,8 m i pri porođaju padne oko 2 m.",
+        "fact5": "Izbočine nalik rogovima na glavi su osikoni — kost prekrivena kožom i dlakom.",
+        "fact6": "U divljini Afrike ostalo je oko 117.000 žirafa."
+      }
+    },
+    "sahara": {
+      "name": "Sahara",
+      "tagline": "Najveća topla pustinja na Zemlji — široka skoro kao Sjedinjene Države, a zelena pre samo 6.000 godina.",
+      "body": "Sahara pokriva oko 9,2 miliona km² severne Afrike, proteže se oko 4.800 km od Atlantika do Crvenog mora i zahvata jedanaest država. Samo oko četvrtine nje čine peščane dine; najveći deo su gole kamene visoravni i šljunkovite ravnice. Letnja popodneva redovno prelaze 40 °C, a suv vazduh pušta da noći padnu skoro do nule. Nije uvek bila pustinja: tokom afričkog vlažnog perioda, pre oko 11.000 do 5.000 godina, veći deo su pokrivali jezera, travnjaci i nilski konji, a crteži na stenama iz tog doba prikazuju stočare tamo gde je danas samo pesak.",
+      "narrative": "Prebacite Saharu preko Evrope i protezala bi se od Lisabona do iza Moskve — Merkur, najmanja planeta, jedva je širi.",
+      "funFact": "Pustinja hrani prašumu: vetrovi svake godine prenesu oko 28 miliona tona saharske prašine preko Atlantika do basena Amazona, a njen fosfor nadoknađuje ono što kiša ispere iz tla prašume.",
+      "seoTitle": "Koliko je velika pustinja Sahara? Veličina u poređenju",
+      "metaDescription": "Sahara pokriva oko 9,2 miliona km² i proteže se oko 4.800 km kroz severnu Afriku — najveća topla pustinja na Zemlji. Koliko je velika, koliko vruća i nekad zelena.",
+      "image": {
+        "alt": "Talasaste narandžaste dine Erg Šebija u marokanskoj Sahari pružaju se do horizonta u večernjem svetlu."
+      },
+      "temperatureNote": "tipično letnje popodne",
+      "facts": {
+        "fact1": "Površina: oko 9,2 miliona km² — najveća topla pustinja na Zemlji.",
+        "fact2": "Oko 4.800 km od istoka do zapada i do oko 1.800 km od severa do juga.",
+        "fact3": "Samo oko 25% su peščane dine; ostalo su stene, šljunak i planine.",
+        "fact4": "Najviša tačka: vulkan Emi Kusi u Čadu, oko 3.415 m.",
+        "fact5": "Letnji dani često prelaze 40 °C, a pustinjske noći mogu pasti blizu nule.",
+        "fact6": "Bila je zelena, sa jezerima i travnjacima, pre oko 11.000 do 5.000 godina."
+      }
+    },
+    "amazon_river": {
+      "name": "Reka Amazon",
+      "tagline": "Reka koja u more odnese petinu sve rečne vode na svetu.",
+      "body": "Amazon teče oko 6.400 km od peruanskih Anda do Atlantika — da li je duži on ili Nil zavisi od toga gde se odluči da je izvor. Po količini vode nema takmaca: na ušću istekne oko 209.000 kubnih metara vode u sekundi, oko petine sve rečne vode koja stiže u svetska mora i više nego sledećih sedam najvećih reka zajedno. Njegov basen, oko 7 miliona km², obuhvata najveću prašumu na Zemlji. U kišnoj sezoni reka može da se razlije desetinama kilometara u širinu, a preko glavnog toka ne vodi nijedan most.",
+      "narrative": "Ispravljen, Amazon bi se pružao od Njujorka do Berlina — oko pola širine cele Zemlje.",
+      "funFact": "Dva puta mesečno, oko mladog i punog meseca, plima Atlantika gura uzvodno talas zvani pororoka — visok do 4 m i čuje se mnogo pre nego što stigne — a surferi su ga jahali više od 10 km.",
+      "seoTitle": "Koliko je duga reka Amazon? Dužina i veličina",
+      "metaDescription": "Reka Amazon duga je oko 6.400 km i nosi oko petine sve rečne vode koja stiže u mora. Njena dužina u poređenju sa čovekom, Zemljom i drugim.",
+      "image": {
+        "alt": "Satelitski snimak mutnog smeđeg ušća Amazona koje se grana u kanale i ostrva među zelenom prašumom, nebo prošarano oblacima."
+      },
+      "facts": {
+        "fact1": "Dužina: oko 6.400 km (neka merenja daju preko 6.900 km).",
+        "fact2": "Prosečan protok: oko 209.000 m³ vode u sekundi.",
+        "fact3": "Nosi oko 20% sve rečne vode koja stiže u mora.",
+        "fact4": "Rečni basen: oko 7 miliona km², deli ga devet država.",
+        "fact5": "Preko glavnog toka nigde ne vodi nijedan most.",
+        "fact6": "Dom više od 2.500 poznatih vrsta riba."
+      }
+    },
+    "grand_canyon": {
+      "name": "Veliki kanjon",
+      "tagline": "Izdubila ga je reka Kolorado: dug 447 km, dubok skoro 1,9 km, sa 1,8 milijardi godina stena na vidiku.",
+      "body": "Veliki kanjon u Arizoni vijuga 447 km duž reke Kolorado, širok do 29 km od ivice do ivice i dubok skoro 1,9 km na najdubljem mestu. Njegovi zidovi su naslagani slojevi stena kao stranice knjige: krečnjak i peščar blizu ivice stari su oko 270 miliona godina, a tamni škriljac na dnu oko 1,8 milijardi godina. Reka je počela da useca današnji tok pre oko 5 do 6 miliona godina, uz pomoć sporog izdizanja visoravni Kolorado. Nacionalni park SAD postao je 1919. i danas ga godišnje poseti oko 5 miliona ljudi.",
+      "narrative": "Stavite dve Burdž Kalife jednu na drugu i na najdubljem mestu i dalje ne bi stigle od reke do ivice.",
+      "funFact": "Kanjon ima sopstvenu klimu: reka na dnu može biti oko 11 °C toplija od ivice iznad, pa ujutru možete ostaviti sneg gore, a popodne se spustiti u pustinjsku vrućinu.",
+      "seoTitle": "Koliko je dubok Veliki kanjon? Veličina u poređenju",
+      "metaDescription": "Veliki kanjon dubok je skoro 1,9 km, dug 447 km i širok do 29 km, a stene na dnu stare su 1,8 milijardi godina. Veličina u poređenju sa Everestom i drugim.",
+      "image": {
+        "alt": "Večernje svetlo na slojevitim crvenim i narandžastim liticama Velikog kanjona pod oblacima, pogled sa Pauel Pointa."
+      },
+      "facts": {
+        "fact1": "Dužina: oko 447 km duž reke Kolorado.",
+        "fact2": "Dubina: prosečno oko 1,6 km, najviše oko 1.860 m.",
+        "fact3": "Širina: od oko 180 m do 29 km od ivice do ivice.",
+        "fact4": "Najstarije stene na dnu: oko 1,8 milijardi godina.",
+        "fact5": "Reka Kolorado usekla je današnji tok pre oko 5–6 miliona godina.",
+        "fact6": "Nacionalni park SAD od 1919; oko 5 miliona posetilaca godišnje."
+      }
     }
   },
   "about": {
@@ -2447,6 +2550,26 @@
     "red_supergiant": {
       "term": "Crveni superdžin",
       "definition": "Masivna zvezda pri kraju života koja je potrošila vodonik u jezgru i naduvala se na stotine Sunčevih prečnika, sa hladnom, crvenom površinom. Većina završava kao supernova kolapsa jezgra."
+    },
+    "infrasound": {
+      "term": "Infrazvuk",
+      "definition": "Zvuk ispod oko 20 Hz — previše dubok za ljudsko uho. Putuje daleko uz mali gubitak, pa ga slonovi i kitovi koriste da održavaju vezu na velikim udaljenostima."
+    },
+    "ossicone": {
+      "term": "Osikon",
+      "definition": "Izbočine nalik rogovima na glavi žirafe (i okapija): kost prekrivena kožom i dlakom, a ne pravi rog ili parožak."
+    },
+    "erg": {
+      "term": "Erg",
+      "definition": "„More peska“: široko područje dina koje nanosi vetar. Ergovi čine samo oko četvrtine Sahare; ostalo su stene i šljunak."
+    },
+    "tidal_bore": {
+      "term": "Plimni talas",
+      "definition": "Talas koji se uzvodno kreće uz reku, nasuprot toku, kada jaka plima naiđe na ušće — pororoka na Amazonu jedan je od najvećih."
+    },
+    "erosion": {
+      "term": "Erozija",
+      "definition": "Trošenje stena i tla vodom, vetrom i ledom. Za milione godina reka može da useče kanjon dubok više od kilometra."
     }
   },
   "faq": {
@@ -2539,11 +2662,24 @@
       "gaia_bh1": "Gaia BH1",
       "mariana_trench": "Marijanski rov",
       "iss": "Međunarodna svemirska stanica",
-      "james_webb": "teleskop Džejms Veb"
+      "james_webb": "teleskop Džejms Veb",
+      "african_elephant": "afrički slon",
+      "giraffe": "žirafa",
+      "sahara": "Sahara",
+      "amazon_river": "reka Amazon",
+      "grand_canyon": "Veliki kanjon"
     },
     "a3smallerTall": "Korak niže: {other} ({otherSize}), oko {ratio} puta niže.",
     "a3largerTall": "Korak više: {other} ({otherSize}), oko {ratio} puta više.",
-    "a1plain": "{Name}: veličina je oko {size}. Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini."
+    "a1plain": "{Name}: veličina je oko {size}. Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
+    "a2longer": "Dužina: otprilike {ratio} puta veća nego visina čoveka od 1,7 m.",
+    "a8long": "Prečnik Zemlje (12.742 km) otprilike je {ratio} puta veći od te dužine.",
+    "a1Height": "{Name}: visina je oko {size} (≈ {sci} m). Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
+    "a1Depth": "{Name}: dubina je oko {size} (≈ {sci} m). Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
+    "a1Length": "{Name}: dužina je oko {size} (≈ {sci} m). Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
+    "a1plainHeight": "{Name}: visina je oko {size}. Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
+    "a1plainDepth": "{Name}: dubina je oko {size}. Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
+    "a1plainLength": "{Name}: dužina je oko {size}. Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini."
   },
   "seo": {
     "home": "Razmere svemira — od kvarka do kosmosa | Quantumaire",
@@ -2726,10 +2862,10 @@
     },
     "animal": {
       "short": "Životinje",
-      "title": "Životinje na krajnostima veličine",
-      "seoTitle": "Tardigrad i plavi kit: najizdržljiviji i najveći",
-      "intro": "Vodeni medved od pola milimetra koji može da preživi vakuum svemira, i plavi kit, najteža poznata životinja — život na oba kraja raspona veličina.",
-      "metaDescription": "Tardigrad od pola milimetra koji preživljava vakuum svemira i plavi kit, najteža životinja ikada — život na oba kraja raspona veličina."
+      "title": "Životinje od najsitnijih do najvećih",
+      "seoTitle": "Veličine životinja: od tardigrada do plavog kita",
+      "intro": "Vodeni medved od pola milimetra koji može da preživi vakuum svemira, afrički slon, žirafa — najviša živa životinja — i plavi kit, najteža poznata životinja.",
+      "metaDescription": "Tardigrad, afrički slon, žirafa i plavi kit upoređeni po veličini: od vodenog medveda od pola milimetra do najteže životinje koja je ikada živela."
     },
     "spacecraft": {
       "short": "Letelice",
@@ -2751,6 +2887,13 @@
       "seoTitle": "Komete: Halejeva kometa i Ortov oblak",
       "intro": "Prljave grudve snega široke nekoliko kilometara i nevidljivi rezervoar iz kog padaju: Halejeva kometa, koja se vraća otprilike svakih 76 godina, i Ortov oblak, ljuska ledenih tela za koju se smatra da se proteže više od svetlosne godine od Sunca.",
       "metaDescription": "Halejeva kometa je kugla leda i prašine od 11 km; Ortov oblak, odakle dolaze dugoperiodične komete, možda se proteže više od svetlosne godine od Sunca."
+    },
+    "landscape": {
+      "short": "Predeli",
+      "title": "Veliki predeli Zemlje, po veličini",
+      "seoTitle": "Najveći predeli Zemlje: od Everesta do Sahare",
+      "intro": "Rekorderi same planete: od 1,9 km dubokog Velikog kanjona i 11 km dubokog Marijanskog rova do Mont Everesta, reke Amazon duge 6.400 km i Sahare, široke skoro kao Sjedinjene Države.",
+      "metaDescription": "Mont Everest, Marijanski rov, Veliki kanjon, reka Amazon i Sahara upoređeni po veličini — veliki predeli Zemlje na jednoj skali."
     }
   }
 }

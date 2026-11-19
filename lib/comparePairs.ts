@@ -30,6 +30,7 @@ export const COMPARE_PAIRS: Array<[string, string]> = [
   ["general_sherman", "blue_whale"],
   ["betelgeuse", "sun"],
   ["statue_of_liberty", "eiffel_tower"],
+  ["giraffe", "human"],
   ["bacterium", "virus"],
   ["atom", "proton"],
 ];

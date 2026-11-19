@@ -38,6 +38,9 @@ export interface SizeFaqItem {
 /** Stops with a physical size, smallest first. */
 const SIZED: Stop[] = SIZED_STOPS;
 
+/** Key suffix for measure-specific wording (a1Height, a1plainDepth…). */
+const MEASURE_SUFFIX = { height: "Height", depth: "Depth", length: "Length", size: "" } as const;
+
 /** Neighbours closer than this are only named when they are related. */
 const NEAR_EQUAL = 1.15;
 /** Below this, Earth-as-a-grain-of-sand shrinks things to invisible specks. */
@@ -172,7 +175,8 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
     const plain = size >= 1e-2 && size < 1e5;
     items.push({
       q: t("sizeFaq.q1", { name }),
-      a: t(plain ? "sizeFaq.a1plain" : "sizeFaq.a1", {
+      // "stands about 330 m tall", "is about 11 km deep", "measures about…"
+      a: t(`sizeFaq.${plain ? "a1plain" : "a1"}${MEASURE_SUFFIX[sizeMeasure(stop)]}`, {
         name,
         size: formatMeters(size, tm),
         sci: scientific(size, locale),
@@ -191,7 +195,9 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
           ? "sizeFaq.a2taller"
           : measure === "depth"
             ? "sizeFaq.a2deeper"
-            : "sizeFaq.a2bigger";
+            : measure === "length"
+              ? "sizeFaq.a2longer"
+              : "sizeFaq.a2bigger";
       items.push({
         q: t("sizeFaq.q2", { name }),
         a: t(key, {
@@ -256,7 +262,9 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
         ? "sizeFaq.a8tall"
         : measure === "depth"
           ? "sizeFaq.a8deep"
-          : "sizeFaq.a8smaller";
+          : measure === "length"
+            ? "sizeFaq.a8long"
+            : "sizeFaq.a8smaller";
     items.push({
       q: t("sizeFaq.q8", { name }),
       a: t(key, {
