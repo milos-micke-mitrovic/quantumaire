@@ -9,20 +9,17 @@ import { categorySlug } from "@/lib/content";
 import { useMarkVisited } from "@/lib/visited";
 import { Badge } from "./Badge";
 import { BookmarkButton } from "./BookmarkButton";
-import { ComparisonStrip } from "./ComparisonStrip";
-import { IfDistancePanel } from "./IfDistancePanel";
 import { GlossaryTerm } from "./GlossaryTerm";
 import { JourneyMinimap } from "./JourneyMinimap";
 import { LightboxImage } from "./LightboxImage";
 import { LinkedBody } from "./LinkedBody";
-import { FunFactPanel } from "./FunFactPanel";
 import { KeyboardNav } from "./KeyboardNav";
-import { MassStrip } from "./MassStrip";
 import { ShareBar } from "./ShareBar";
 import { QuickFacts } from "./QuickFacts";
 import { Sources } from "./Sources";
 import { StopCard } from "./StopCard";
 import { StopComparisonCard } from "./StopComparisonCard";
+import { StopHighlights } from "./StopHighlights";
 import { StopTags } from "./StopTags";
 import { StopValuesCard } from "./StopValuesCard";
 import { Fragment, type ReactNode } from "react";
@@ -187,6 +184,8 @@ export function StopDetail({
           className="text-base leading-relaxed text-cosmos-star/85 sm:text-[17px]"
         />
 
+        <StopHighlights stop={stop} />
+
         {stop.glossary.length > 0 && (
           <div className="mt-6 border-t border-white/10 pt-6">
             <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
@@ -208,16 +207,6 @@ export function StopDetail({
         )}
       </motion.section>
 
-      <div className="mt-6 space-y-3">
-        <ComparisonStrip
-          sizeMeters={stop.sizeMeters}
-          i18nKey={stop.i18nKey}
-        />
-        <IfDistancePanel i18nKey={stop.i18nKey} />
-        <MassStrip i18nKey={stop.i18nKey} />
-      </div>
-
-      <FunFactPanel i18nKey={stop.i18nKey} />
 
       <QuickFacts stop={stop} />
 
