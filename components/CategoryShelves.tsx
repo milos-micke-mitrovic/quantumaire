@@ -114,7 +114,7 @@ export function CategoryShelves() {
             {shelf.href && (
               <Link
                 href={shelf.href}
-                className="shrink-0 text-xs font-medium uppercase tracking-[0.18em] text-cosmos-aurora transition-colors hover:text-cosmos-plasma"
+                className="inline-flex shrink-0 items-center gap-1 rounded-full border border-cosmos-aurora/50 bg-cosmos-aurora/10 px-4 py-2 text-xs font-medium uppercase tracking-[0.16em] text-cosmos-plasma transition-colors hover:border-cosmos-plasma hover:bg-cosmos-aurora/20 hover:text-cosmos-nova"
               >
                 {t("common.shelves.seeAll", { count: shelf.stops.length })}{" "}
                 <span aria-hidden>→</span>
