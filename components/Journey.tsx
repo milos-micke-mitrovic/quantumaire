@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { STOPS } from "@/lib/content";
 import { DistanceScale } from "./DistanceScale";
-import { FilterableStopGrid } from "./FilterableStopGrid";
+import { CategoryShelves } from "./CategoryShelves";
 import { InteractiveScale } from "./InteractiveScale";
 import { TemperatureScale } from "./TemperatureScale";
 
@@ -15,7 +15,7 @@ type ScaleView = "size" | "distance" | "temperature";
  * Lean journey:
  * - heading
  * - a slider, viewable two ways: by size (default) or by distance from Earth
- * - a grid of all stop cards (filterable by trust badge)
+ * - one horizontally scrolling shelf of stop cards per category
  *
  * Detail content lives on `/[locale]/stop/[id]` — keeping it off the home
  * page avoids stacking dozens of `whileInView` motion elements and big
@@ -81,7 +81,7 @@ export function Journey() {
         )}
       </div>
 
-      <FilterableStopGrid stops={STOPS} />
+      <CategoryShelves />
     </section>
   );
 }

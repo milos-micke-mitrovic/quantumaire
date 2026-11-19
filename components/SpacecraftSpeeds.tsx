@@ -41,7 +41,73 @@ export function SpacecraftSpeeds({
         {t("spacecraft.intro")}
       </p>
 
-      <div className="-mx-2 mt-6 overflow-x-auto px-2">
+      <ul className="mt-6 divide-y divide-white/5 sm:hidden">
+        {[
+          ...SPACECRAFT.map((c) => ({
+            key: c.id,
+            name: t(`spacecraft.craft.${c.id}.name`),
+            status: t(`spacecraft.craft.${c.id}.status`),
+            year: c.launchYear,
+            speed: kmPerHour(c.speedKmS),
+            time: t("spacecraft.years", {
+              years: int(roundFriendly(yearsPerLightYear(c.speedKmS))),
+            }),
+            href: c.stopId && c.stopId !== highlightId ? c.stopId : null,
+            highlighted: !!c.stopId && c.stopId === highlightId,
+          })),
+          {
+            key: "light",
+            name: t("spacecraft.light.name"),
+            status: t("spacecraft.light.status"),
+            year: null,
+            speed: kmPerHour(SPEED_OF_LIGHT_KM_S),
+            time: t("spacecraft.oneYear"),
+            href: null,
+            highlighted: false,
+          },
+        ].map((row) => (
+          <li
+            key={row.key}
+            className={
+              row.highlighted
+                ? "-mx-3 grid grid-cols-[1fr_auto] gap-3 rounded-xl bg-cosmos-aurora/10 px-3 py-3"
+                : "grid grid-cols-[1fr_auto] gap-3 py-3"
+            }
+          >
+            <div className="min-w-0">
+              {row.href ? (
+                <Link
+                  href={`/${locale}/stop/${row.href}`}
+                  className="text-sm font-medium text-cosmos-star underline decoration-cosmos-aurora/40 decoration-dotted underline-offset-4"
+                >
+                  {row.name}
+                </Link>
+              ) : (
+                <span className="text-sm font-medium text-cosmos-star">
+                  {row.name}
+                </span>
+              )}
+              <span className="mt-0.5 block text-xs text-cosmos-star/55">
+                {row.year ? `${row.year} · ` : ""}
+                {row.status}
+              </span>
+            </div>
+            <div className="text-right font-mono">
+              <span className="block whitespace-nowrap text-sm text-cosmos-plasma">
+                {int(roundFriendly(row.speed))} km/h
+              </span>
+              <span className="mt-0.5 block whitespace-nowrap text-xs text-cosmos-nova">
+                {row.time}
+              </span>
+            </div>
+          </li>
+        ))}
+      </ul>
+      <p className="mt-2 text-[10px] uppercase tracking-[0.16em] text-cosmos-star/45 sm:hidden">
+        {t("spacecraft.colSpeed")} · {t("spacecraft.colLightYear")}
+      </p>
+
+      <div className="-mx-2 mt-6 hidden overflow-x-auto px-2 sm:block">
         <table className="w-full min-w-[34rem] border-collapse text-left text-sm">
           <thead>
             <tr className="border-b border-white/10 text-[10px] uppercase tracking-[0.18em] text-cosmos-star/55">

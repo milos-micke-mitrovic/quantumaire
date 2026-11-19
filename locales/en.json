@@ -2,7 +2,7 @@
   "common": {
     "title": "Quantumaire",
     "tagline": "From the smallest spark to the edge of everything.",
-    "subtagline": "A guided journey across 45 orders of magnitude — from quarks to the observable universe — with the truth-status of every stop labelled honestly.",
+    "subtagline": "A guided journey across more than 60 orders of magnitude — from the Planck length to the observable universe — with the truth-status of every stop labelled honestly.",
     "begin": "Begin the journey",
     "back": "Back",
     "next": "Next stop",
@@ -21,7 +21,7 @@
     "returnHome": "Return to the journey",
     "moreSoon": "More to explore",
     "here": "Here",
-    "scaleLegend": "Tap a dot to preview it. Use the Open stop link to read its full page. Stops are arranged from smallest on the left to largest on the right.",
+    "scaleLegend": "Real log scale, smallest to largest — tap a dot or use ← → to step through.",
     "awayFromEarth": "{value} from Earth",
     "distance": "Distance",
     "distanceFromEarth": "Distance from Earth",
@@ -34,11 +34,11 @@
       "fartherLabel": "farther from Earth",
       "closerLabel": "closer to Earth"
     },
-    "distanceLegend": "Tap a dot to preview it. Use the Open stop link to read its full page. Stops are arranged from Earth on the left, outward toward the edge of the observable universe.",
+    "distanceLegend": "Real log scale from Earth outward — tap a dot or use ← → to step through.",
     "viewBySize": "By size",
     "viewByDistance": "By distance",
     "viewByTemperature": "By temperature",
-    "temperatureLegend": "Tap a dot to preview it. Use the Open stop link to read its full page. Stops are arranged from coldest on the left to hottest on the right.",
+    "temperatureLegend": "Real log scale, coldest to hottest — tap a dot or use ← → to step through.",
     "journeyMinimap": {
       "heading": "Where this stop sits in each journey",
       "youAreHere": "You are here"
@@ -195,7 +195,24 @@
       "day": "≈ {value} light-days",
       "hint": "How long light takes to cover this distance"
     },
-    "temperatureUnit": "Temperature"
+    "temperatureUnit": "Temperature",
+    "explorer": {
+      "stepSize": "{factor}× bigger than {name}",
+      "stepSizeSame": "About the same size as {name}",
+      "stepDistance": "{factor}× farther than {name}",
+      "stepDistanceSame": "About as far as {name}",
+      "stepTemp": "{factor}× hotter than {name} (in kelvin)",
+      "stepTempSame": "About as hot as {name}",
+      "lightSecond": "1 light-second",
+      "lightMinute": "1 light-minute",
+      "lightHour": "1 light-hour",
+      "lightDay": "1 light-day",
+      "gapHint": "Empty stretch shortened to fit — this many times bigger in reality"
+    },
+    "shelves": {
+      "moreTitle": "More curiosities",
+      "seeAll": "See all {count}"
+    }
   },
   "home": {
     "faq": {
@@ -251,7 +268,7 @@
   },
   "comparison": {
     "title": "From quark to the observable universe",
-    "subtitle": "Every stop with a measurable size, across 45 orders of magnitude. Tap a dot below to preview a stop, then use the Open stop link to read its page.",
+    "subtitle": "Every stop with a measurable size, on a true logarithmic scale spanning more than 60 orders of magnitude — then browse them all by category below.",
     "equal": "About the size of a grain of sand.",
     "times": "{factor}× a grain of sand",
     "fraction": "1 / {factor} of a grain of sand",
@@ -1204,6 +1221,22 @@
         "fact3": "Searches for 'bubble collision' marks in the CMB have found none so far.",
         "fact4": "No observational evidence for any other universe exists."
       }
+    },
+    "string_theory": {
+      "name": "String Theory",
+      "tagline": "Everything might be made of vibrating strings — if only we could test it.",
+      "body": "String theory proposes that nature's smallest building blocks are not points but tiny vibrating strings. Like notes on a violin, each vibration pattern would show up as a different particle — and one of those patterns has exactly the properties of the graviton, which makes the theory a leading candidate for quantum gravity. The catch is that its mathematics only works in 10 dimensions (11 in M-theory), so the extra ones must be curled up far too small to see — in the classic picture, six of them folded into a shape called a Calabi–Yau manifold. More than 50 years on, string theory has no experimental confirmation, and the LHC has found none of the supersymmetric particles many versions hoped for. Yet it has reshaped pure mathematics and given physics the AdS/CFT correspondence, a bridge between gravity and quantum theory that Juan Maldacena proposed in 1997.",
+      "narrative": "Strings have no measured size: they are usually pictured near the Planck length, about 10⁻³⁵ m — some 10²⁰ times smaller than a proton. Nothing remotely that small has ever been probed, so if strings exist, their true scale is still unknown.",
+      "funFact": "String theory began as a theory of the wrong thing. In 1968 Gabriele Veneziano found a formula that fit data on the strong force, and physicists soon realised it described vibrating strings. When quantum chromodynamics won out as the theory of the strong force, strings looked like a dead end — until in 1974 Joël Scherk and John Schwarz noticed that the theory unavoidably contained a graviton.",
+      "image": {
+        "alt": "A twisted, many-lobed surface in pastel orange, pink and blue — a slice of a six-dimensional Calabi–Yau shape."
+      },
+      "facts": {
+        "fact1": "Needs 10 dimensions — 11 in M-theory, proposed by Edward Witten in 1995.",
+        "fact2": "Its 'landscape' allows roughly 10⁵⁰⁰ possible vacua.",
+        "fact3": "Witten won the 1990 Fields Medal — the only physicist ever to receive it.",
+        "fact4": "No experimental confirmation; the LHC has found no superpartners so far."
+      }
     }
   },
   "about": {
@@ -1763,6 +1796,14 @@
     "many_worlds": {
       "term": "Many-worlds interpretation",
       "definition": "Hugh Everett's 1957 reading of quantum mechanics in which every possible measurement outcome happens, each in its own branch of reality."
+    },
+    "extra_dimensions": {
+      "term": "Extra dimensions",
+      "definition": "Spatial dimensions beyond the familiar three, required by string theory. They would be curled up so small — or hidden in other ways — that no experiment has detected them."
+    },
+    "supersymmetry": {
+      "term": "Supersymmetry",
+      "definition": "A proposed symmetry that pairs every known particle with a heavier 'superpartner'. Built into most versions of string theory; the LHC has found no superpartners so far."
     }
   },
   "faq": {

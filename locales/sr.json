@@ -2,7 +2,7 @@
   "common": {
     "title": "Quantumaire",
     "tagline": "Od najmanje iskre do ivice svega.",
-    "subtagline": "Vođeno putovanje kroz 45 redova veličine — od kvarkova do vidljivog svemira — gde svaka stanica nosi iskreno označen status istine.",
+    "subtagline": "Vođeno putovanje kroz više od 60 redova veličine — od Plankove dužine do vidljivog svemira — gde svaka stanica nosi iskreno označen status istine.",
     "begin": "Započni putovanje",
     "back": "Nazad",
     "next": "Sledeća stanica",
@@ -21,7 +21,7 @@
     "returnHome": "Nazad na putovanje",
     "moreSoon": "Još za istražiti",
     "here": "Ovde",
-    "scaleLegend": "Dodirni tačku da je pregledaš. Klikni na link Otvori stanicu za celu stranicu. Stanice su poređane od najmanjih levo ka najvećim desno.",
+    "scaleLegend": "Stvarna logaritamska skala, od najmanjeg do najvećeg — dodirni tačku ili koristi ← →.",
     "awayFromEarth": "{value} od Zemlje",
     "distance": "Udaljenost",
     "distanceFromEarth": "Udaljenost od Zemlje",
@@ -34,11 +34,11 @@
       "fartherLabel": "dalje od Zemlje",
       "closerLabel": "bliže Zemlji"
     },
-    "distanceLegend": "Dodirni tačku da je pregledaš. Klikni na link Otvori stanicu za celu stranicu. Stanice su poređane od Zemlje levo, ka ivici vidljivog svemira desno.",
+    "distanceLegend": "Stvarna logaritamska skala od Zemlje naviše — dodirni tačku ili koristi ← →.",
     "viewBySize": "Po veličini",
     "viewByDistance": "Po udaljenosti",
     "viewByTemperature": "Po temperaturi",
-    "temperatureLegend": "Dodirni tačku da je pregledaš. Klikni na link Otvori stanicu za celu stranicu. Stanice su poređane od najhladnijih levo ka najtoplijim desno.",
+    "temperatureLegend": "Stvarna logaritamska skala, od najhladnijeg do najtoplijeg — dodirni tačku ili koristi ← →.",
     "journeyMinimap": {
       "heading": "Gde se ova stanica nalazi na svakom putovanju",
       "youAreHere": "Vi ste ovde"
@@ -195,7 +195,24 @@
       "day": "svetlost: ≈ {value} dana",
       "hint": "Koliko je svetlosti potrebno da pređe ovu udaljenost"
     },
-    "temperatureUnit": "Temperatura"
+    "temperatureUnit": "Temperatura",
+    "explorer": {
+      "stepSize": "{factor}× veće od: {name}",
+      "stepSizeSame": "Otprilike iste veličine kao: {name}",
+      "stepDistance": "{factor}× dalje od: {name}",
+      "stepDistanceSame": "Otprilike jednako daleko kao: {name}",
+      "stepTemp": "{factor}× toplije od: {name} (u kelvinima)",
+      "stepTempSame": "Otprilike jednako toplo kao: {name}",
+      "lightSecond": "1 svetlosna sekunda",
+      "lightMinute": "1 svetlosni minut",
+      "lightHour": "1 svetlosni sat",
+      "lightDay": "1 svetlosni dan",
+      "gapHint": "Prazan deo skraćen da stane — u stvarnosti je ovoliko puta veći"
+    },
+    "shelves": {
+      "moreTitle": "Još zanimljivosti",
+      "seeAll": "Sve ({count})"
+    }
   },
   "home": {
     "faq": {
@@ -251,7 +268,7 @@
   },
   "comparison": {
     "title": "Od kvarka do vidljivog svemira",
-    "subtitle": "Sve stanice merljive veličine, kroz 45 redova veličine. Dodirni tačku ispod da pregledaš stanicu, pa otvori njenu stranicu linkom Otvori stanicu.",
+    "subtitle": "Sve stanice merljive veličine, na pravoj logaritamskoj skali kroz više od 60 redova veličine — a ispod ih pregledaj po kategorijama.",
     "equal": "Otprilike veličine zrna peska.",
     "times": "{factor}× zrno peska",
     "fraction": "1 / {factor} zrna peska",
@@ -1204,6 +1221,22 @@
         "fact3": "Potrage za tragovima „sudara mehurova” u CMB-u zasad nisu ništa našle.",
         "fact4": "Ne postoji nijedan posmatrački dokaz o drugom svemiru."
       }
+    },
+    "string_theory": {
+      "name": "Teorija struna",
+      "tagline": "Možda je sve sačinjeno od struna koje trepere — samo kad bismo mogli da to proverimo.",
+      "body": "Teorija struna predlaže da najsitniji gradivni delovi prirode nisu tačke, nego sićušne strune koje trepere. Kao tonovi na violini, svaki obrazac treperenja pojavljivao bi se kao druga čestica — a jedan od tih obrazaca ima tačno svojstva gravitona, zbog čega je ova teorija vodeći kandidat za kvantnu gravitaciju. Kvaka je u tome što njena matematika funkcioniše samo u 10 dimenzija (11 u M-teoriji), pa dodatne dimenzije moraju biti uvijene u nešto previše sitno da bi se videlo — po klasičnoj slici, njih šest je savijeno u oblik koji se zove Kalabi–Jauova mnogostrukost. Posle više od 50 godina teorija struna nema nijednu eksperimentalnu potvrdu, a LHC nije našao nijednu od supersimetričnih čestica kojima su se mnoge njene verzije nadale. Ipak, ona je preoblikovala čistu matematiku i dala fizici AdS/CFT korespondenciju — most između gravitacije i kvantne teorije koji je Huan Maldasena predložio 1997.",
+      "narrative": "Strune nemaju izmerenu veličinu: obično se zamišljaju blizu Plankove dužine, oko 10⁻³⁵ m — nekih 10²⁰ puta manje od protona. Ništa ni približno toliko malo nikada nije ispitano, pa je, ako strune postoje, njihova prava veličina i dalje nepoznata.",
+      "funFact": "Teorija struna je nastala kao teorija pogrešne stvari. Gabriele Venecijano je 1968. pronašao formulu koja se slagala sa podacima o jakoj sili, a fizičari su ubrzo shvatili da ona opisuje strune koje trepere. Kada je kvantna hromodinamika pobedila kao teorija jake sile, strune su izgledale kao ćorsokak — sve dok 1974. Žoel Šerk i Džon Švarc nisu primetili da teorija neizbežno sadrži graviton.",
+      "image": {
+        "alt": "Uvijena površina sa mnogo režnjeva u pastelnim nijansama narandžaste, ružičaste i plave — presek šestodimenzionalnog Kalabi–Jauovog oblika."
+      },
+      "facts": {
+        "fact1": "Zahteva 10 dimenzija — 11 u M-teoriji, koju je Edvard Viten predložio 1995.",
+        "fact2": "Njen „pejzaž” dozvoljava oko 10⁵⁰⁰ mogućih vakuuma.",
+        "fact3": "Viten je 1990. dobio Fildsovu medalju — jedini fizičar kome je ikada dodeljena.",
+        "fact4": "Nema eksperimentalne potvrde; LHC zasad nije našao nijednog superpartnera."
+      }
     }
   },
   "about": {
@@ -1763,6 +1796,14 @@
     "many_worlds": {
       "term": "Mnogosvetska interpretacija",
       "definition": "Tumačenje kvantne mehanike Hjua Everta iz 1957, po kome se svaki mogući ishod merenja ostvaruje, svaki u svojoj grani stvarnosti."
+    },
+    "extra_dimensions": {
+      "term": "Dodatne dimenzije",
+      "definition": "Prostorne dimenzije pored poznate tri, koje zahteva teorija struna. Bile bi uvijene u nešto toliko sitno — ili skrivene na neki drugi način — da ih nijedan eksperiment nije otkrio."
+    },
+    "supersymmetry": {
+      "term": "Supersimetrija",
+      "definition": "Predložena simetrija koja svakoj poznatoj čestici pridružuje težeg „superpartnera”. Ugrađena je u većinu verzija teorije struna; LHC zasad nije našao nijednog superpartnera."
     }
   },
   "faq": {

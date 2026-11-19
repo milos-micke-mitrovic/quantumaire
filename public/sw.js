@@ -1,6 +1,6 @@
 /* Quantumaire service worker. Hand-rolled — keep this file small and obvious. */
 
-const VERSION = "quantumaire-v1";
+const VERSION = "quantumaire-v2";
 const SHELL_CACHE = `${VERSION}-shell`;
 const RUNTIME_CACHE = `${VERSION}-runtime`;
 const IMG_CACHE = `${VERSION}-img`;
@@ -85,6 +85,21 @@ self.addEventListener("fetch", (event) => {
         const isImg = /\.(?:png|jpe?g|webp|avif|gif|svg)$/i.test(url.pathname);
         const cacheName = isImg ? IMG_CACHE : RUNTIME_CACHE;
         const cached = await caches.match(req);
+        // Images keep their file name when replaced, so refresh them in the
+        // background (stale-while-revalidate); hashed /_next/static files
+        // never change and stay cache-first.
+        if (cached && isImg) {
+          event.waitUntil(
+            fetch(req)
+              .then((fresh) =>
+                fresh.ok
+                  ? caches.open(cacheName).then((c) => c.put(req, fresh))
+                  : undefined,
+              )
+              .catch(() => {}),
+          );
+          return cached;
+        }
         if (cached) return cached;
         try {
           const fresh = await fetch(req);

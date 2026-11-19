@@ -1,0 +1,154 @@
+"use client";
+
+import clsx from "clsx";
+import Link from "next/link";
+import { useMemo, useRef } from "react";
+import { useI18n } from "@/lib/i18n";
+import { CATEGORIES, categorySlug, getStopsByCategory } from "@/lib/content";
+import type { Category, Stop } from "@/lib/types";
+import { CATEGORY_DOT } from "./ScaleExplorer";
+import { StopCard } from "./StopCard";
+
+/** Categories with fewer stops than this share one "more" shelf. */
+const MIN_SHELF = 3;
+
+/** Shelf order: follow the journey from small to large, then the extras. */
+const SHELF_ORDER: Category[] = [
+  "MICRO_WORLD",
+  "EARTH",
+  "PHYSICS",
+  "COSMOS",
+  "HUMAN_MIND",
+  "ANCIENT_HISTORY",
+];
+
+interface Shelf {
+  key: string;
+  title: string;
+  description: string;
+  href?: string;
+  categories: Category[];
+  stops: Stop[];
+}
+
+/**
+ * Home-page catalogue: one horizontally scrollable row per category
+ * instead of a single 50-card wall. Every stop is still linked from the
+ * page; the rows just give it structure and keep the page short.
+ */
+export function CategoryShelves() {
+  const { t, locale } = useI18n();
+
+  const shelves = useMemo<Shelf[]>(() => {
+    const ordered = SHELF_ORDER.filter((c) => CATEGORIES.includes(c));
+    const big = ordered.filter((c) => getStopsByCategory(c).length >= MIN_SHELF);
+    const small = ordered.filter((c) => getStopsByCategory(c).length < MIN_SHELF);
+    const out: Shelf[] = big.map((c) => ({
+      key: c,
+      title: t(`categories.${c}`),
+      description: t(`categories.${c}.description`),
+      href: `/${locale}/category/${categorySlug(c)}`,
+      categories: [c],
+      stops: getStopsByCategory(c),
+    }));
+    if (small.length > 0) {
+      out.push({
+        key: "more",
+        title: t("common.shelves.moreTitle"),
+        description: small.map((c) => t(`categories.${c}`)).join(" · "),
+        categories: small,
+        stops: small.flatMap((c) => getStopsByCategory(c)),
+      });
+    }
+    return out;
+  }, [t, locale]);
+
+  return (
+    <div className="space-y-12">
+      {shelves.map((shelf) => (
+        <section key={shelf.key} aria-labelledby={`shelf-${shelf.key}`}>
+          <div className="mb-4 flex flex-wrap items-end justify-between gap-x-6 gap-y-2">
+            <div className="min-w-0 max-w-2xl">
+              <h3
+                id={`shelf-${shelf.key}`}
+                className="flex items-center gap-2.5 font-display text-xl font-semibold tracking-tight text-cosmos-star sm:text-2xl"
+              >
+                <span className="flex gap-1" aria-hidden>
+                  {shelf.categories.map((c) => (
+                    <span
+                      key={c}
+                      className={clsx("h-2.5 w-2.5 rounded-full", CATEGORY_DOT[c])}
+                    />
+                  ))}
+                </span>
+                {shelf.title}
+                <span className="font-mono text-sm font-normal text-cosmos-star/40">
+                  {shelf.stops.length}
+                </span>
+              </h3>
+              <p className="mt-1 text-sm text-cosmos-star/65">
+                {shelf.description}
+              </p>
+            </div>
+            {shelf.href && (
+              <Link
+                href={shelf.href}
+                className="shrink-0 text-xs font-medium uppercase tracking-[0.18em] text-cosmos-aurora transition-colors hover:text-cosmos-plasma"
+              >
+                {t("common.shelves.seeAll", { count: shelf.stops.length })}{" "}
+                <span aria-hidden>→</span>
+              </Link>
+            )}
+          </div>
+
+          <ShelfRow stops={shelf.stops} />
+        </section>
+      ))}
+    </div>
+  );
+}
+
+function ShelfRow({ stops }: { stops: Stop[] }) {
+  const { t } = useI18n();
+  const ref = useRef<HTMLUListElement>(null);
+  const scroll = (dir: -1 | 1) => {
+    const el = ref.current;
+    if (!el) return;
+    el.scrollBy({ left: dir * el.clientWidth * 0.85, behavior: "smooth" });
+  };
+  const arrow =
+    "absolute top-[38%] z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-cosmos-deep/90 text-cosmos-star shadow-glow backdrop-blur transition-colors hover:bg-cosmos-nebula sm:flex";
+  return (
+    <div className="relative">
+      <button
+        type="button"
+        onClick={() => scroll(-1)}
+        aria-label={t("common.prev")}
+        className={clsx(arrow, "-left-3")}
+      >
+        <span aria-hidden>←</span>
+      </button>
+      <ul
+        ref={ref}
+        className="-mx-5 flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-px-5 px-5 pb-4 [scrollbar-width:thin] sm:-mx-8 sm:scroll-px-8 sm:px-8"
+      >
+        {stops.map((stop, i) => (
+          <li
+            key={stop.id}
+            className="w-[78%] max-w-[300px] shrink-0 snap-start sm:w-[300px]"
+          >
+            <StopCard stop={stop} index={i} />
+          </li>
+        ))}
+      </ul>
+      <button
+        type="button"
+        onClick={() => scroll(1)}
+        aria-label={t("common.next")}
+        className={clsx(arrow, "-right-3")}
+      >
+        <span aria-hidden>→</span>
+      </button>
+    </div>
+  );
+}

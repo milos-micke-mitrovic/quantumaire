@@ -190,3 +190,9 @@ describe("formatTemperature in a chosen unit", () => {
     expect(formatTemperature(1.57e7, undefined, "C")).toBe("15.7 million °C");
   });
 });
+
+describe("formatMeters below an attometre", () => {
+  it("switches to scientific notation", () => {
+    expect(formatMeters(1.616e-35)).toBe("1.62 × 10⁻³⁵ m");
+  });
+});

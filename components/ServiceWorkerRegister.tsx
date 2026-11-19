@@ -8,7 +8,15 @@ import { useEffect } from "react";
  */
 export function ServiceWorkerRegister() {
   useEffect(() => {
-    if (process.env.NODE_ENV !== "production") return;
+    if (process.env.NODE_ENV !== "production") {
+      // A production preview on localhost may have left a worker behind;
+      // in dev it would serve stale (unhashed) chunks, so remove it.
+      navigator.serviceWorker
+        ?.getRegistrations()
+        .then((regs) => regs.forEach((r) => r.unregister()))
+        .catch(() => {});
+      return;
+    }
     if (typeof window === "undefined" || !("serviceWorker" in navigator)) {
       return;
     }

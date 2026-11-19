@@ -1995,6 +1995,47 @@
         "hypothetical",
         "cosmos"
       ]
+    },
+    {
+      "id": "string_theory",
+      "i18nKey": "stops.string_theory",
+      "sizeMeters": null,
+      "order": 0.6,
+      "badge": "SPECULATIVE",
+      "category": "PHYSICS",
+      "accent": "text-badge-speculative",
+      "accentGlow": "shadow-[0_0_80px_rgba(251,113,133,0.4)]",
+      "image": {
+        "src": "/images/string-theory.webp",
+        "aspect": "square",
+        "altKey": "stops.string_theory.image.alt",
+        "geminiPrompt": "A twisted, many-lobed surface in pastel orange, pink and blue — a slice of a six-dimensional Calabi–Yau shape.",
+        "credit": "Lunch (English Wikipedia) — Calabi–Yau manifold rendering — CC BY-SA 2.5 (cropped)"
+      },
+      "glossary": [
+        "quantum_gravity",
+        "graviton",
+        "extra_dimensions",
+        "supersymmetry"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/String_theory"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/M-theory"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/AdS/CFT_correspondence"
+        }
+      ],
+      "tags": [
+        "hypothetical",
+        "spacetime"
+      ]
     }
   ]
 }

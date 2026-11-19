@@ -63,6 +63,12 @@ export function formatMeters(
   const loc = numberLocale(tr);
 
   // Sub-metre: SI prefixes are universal across both systems.
+  if (abs < 1e-18) {
+    // Below an attometre (the Planck length) prefixes stop helping.
+    const exp = Math.floor(Math.log10(abs));
+    const sup = String(exp).replace(/[-0-9]/g, (c) => "⁻⁰¹²³⁴⁵⁶⁷⁸⁹"["-0123456789".indexOf(c)]);
+    return `${sig(meters / 10 ** exp, loc)} × 10${sup} m`;
+  }
   if (abs < 1e-12) return `${sig(meters * 1e15, loc)} fm`;
   if (abs < 1e-9) return `${sig(meters * 1e12, loc)} pm`;
   if (abs < 1e-6) return `${sig(meters * 1e9, loc)} nm`;
