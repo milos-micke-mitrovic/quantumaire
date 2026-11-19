@@ -16,6 +16,7 @@ import {
   buildPageMetadata,
   categoryFaqJsonLd,
   LOCALES,
+  ogImageUrl,
   SITE_NAME,
 } from "@/lib/seo";
 import type { Locale } from "@/lib/types";
@@ -52,6 +53,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale: typed,
     path: `category/${slug}`,
+    image: ogImageUrl(typed, `category/${slug}`, slug),
     title: tServer(typed, "seo.category", { category: name }),
     description,
   });

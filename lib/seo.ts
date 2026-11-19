@@ -445,6 +445,11 @@ export function clipDescription(text: string, max = 160): string {
  * mid-sentence. Falls back to a word clip when whole sentences would give
  * a stub (under ~100 chars).
  */
+/** URL of a file-based OG card (`opengraph-image.tsx` + generateImageMetadata). */
+export function ogImageUrl(locale: Locale, path: string, id: string): string {
+  return `${SITE_URL}/${locale}/${path}/opengraph-image/${id}`;
+}
+
 export function fitDescription(pieces: string[], max = 160): string {
   const sentences = pieces
     .map((p) => p.replace(/\s+/g, " ").trim())

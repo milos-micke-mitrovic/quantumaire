@@ -10,6 +10,7 @@ import {
   buildPageMetadata,
   faqJsonLd,
   LOCALES,
+  ogImageUrl,
   SITE_NAME,
 } from "@/lib/seo";
 import type { Locale } from "@/lib/types";
@@ -31,6 +32,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale: typed,
     path: "tools/scale",
+    image: ogImageUrl(typed, "tools/scale", typed),
     title: tServer(typed, "seo.scaleTool"),
     description: tServer(typed, "seo.scaleToolDescription"),
   });

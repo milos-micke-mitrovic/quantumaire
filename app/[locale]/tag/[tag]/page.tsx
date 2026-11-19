@@ -9,6 +9,7 @@ import {
   breadcrumbJsonLd,
   buildPageMetadata,
   LOCALES,
+  ogImageUrl,
   SITE_NAME,
 } from "@/lib/seo";
 import { getStopsByTag, hasTagPage, TAG_PAGES } from "@/lib/tags";
@@ -32,6 +33,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return buildPageMetadata({
     locale: typed,
     path: `tag/${tag}`,
+    image: ogImageUrl(typed, `tag/${tag}`, tag),
     title: tServer(typed, `tagPages.${tag}.seoTitle`),
     description:
       tServerOptional(typed, `tagPages.${tag}.metaDescription`) ??

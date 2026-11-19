@@ -39,5 +39,8 @@
 ## 2026-11-19 — audit Phase 4 part 4 (compare pairs)
 - 20 static pair pages `/[locale]/compare/<a>-vs-<b>` (`lib/comparePairs.ts`): server H1 + size/distance/temperature sentences, FAQ + breadcrumb JSON-LD, links to both topics, the interactive tool preset below (changes hand off to `/compare?…`). "Popular comparisons" links on `/compare` and every pair page; pairs in the sitemap (216 URLs, crawl: 0 issues).
 
+## 2026-11-19 — audit Phase 4 part 5 (OG cards)
+- `lib/ogCard.tsx` shared card; `opengraph-image.tsx` for every guide, category, tag, plus topics index, glossary, about and both tools (EN+SR). Pages point og:image at their own card (`ogImageUrl`), guide Article JSON-LD has `image`. Note: Next 16 calls `generateImageMetadata` once with empty params during build — fall back to id "default".
+
 ## Next / ideas
 - Full audit done 2026-11-19 → `docs/AUDIT-PLAN.md` (phases 1–6, nothing ticked yet).

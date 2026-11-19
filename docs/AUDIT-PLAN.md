@@ -71,7 +71,7 @@ browser (desktop + 390 px) after UI changes.
 - [x] Meta descriptions cut mid-sentence (73): rebuild stop descriptions so
       they end on a full sentence ≤160 chars; drop the self-comparison tail on
       earth/human.
-- [ ] ~~Guide titles too short → descriptive `seo` titles per guide~~ (done: `topics.*.seoTitle`); per-guide
+- [x] ~~Guide titles too short → descriptive `seo` titles per guide~~ (done: `topics.*.seoTitle`); per-guide
       OG image (generated like stop OG) + `image` in Article JSON-LD;
       category/tag/tool pages get their own OG images.
 - [x] `dateModified`: use a real content date (e.g. git commit date at build

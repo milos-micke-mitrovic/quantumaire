@@ -9,8 +9,9 @@ import {
   articleJsonLd,
   breadcrumbJsonLd,
   buildPageMetadata,
-  LOCALES,
   fitDescription,
+  LOCALES,
+  ogImageUrl,
 } from "@/lib/seo";
 import type { Locale } from "@/lib/types";
 import { I18nExtend } from "@/lib/i18n";
@@ -43,6 +44,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale: typed,
     path: `topics/${slug}`,
+    image: ogImageUrl(typed, `topics/${slug}`, slug),
     title: tServer(typed, `${topic.i18nKey}.seoTitle`),
     description:
       tServerOptional(typed, `${topic.i18nKey}.metaDescription`) ??
@@ -70,6 +72,7 @@ export default async function TopicPage({ params }: PageProps) {
       description: tagline,
       body: intro,
       section: tServer(typed, "topicsIndex.title"),
+      image: ogImageUrl(typed, `topics/${slug}`, slug),
     }),
     citation: topic.sources.map((s) => ({
       "@type": "CreativeWork",

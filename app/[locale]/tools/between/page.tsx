@@ -9,6 +9,7 @@ import {
   breadcrumbJsonLd,
   buildPageMetadata,
   LOCALES,
+  ogImageUrl,
   SITE_NAME,
 } from "@/lib/seo";
 import type { Locale } from "@/lib/types";
@@ -30,6 +31,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale: typed,
     path: "tools/between",
+    image: ogImageUrl(typed, "tools/between", typed),
     title: tServer(typed, "common.betweenTool.seoTitle"),
     description: tServer(typed, "common.betweenTool.tagline"),
   });

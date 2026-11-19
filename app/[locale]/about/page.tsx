@@ -9,6 +9,7 @@ import {
   breadcrumbJsonLd,
   buildPageMetadata,
   LOCALES,
+  ogImageUrl,
   SITE_NAME,
 } from "@/lib/seo";
 import type { Locale } from "@/lib/types";
@@ -31,6 +32,7 @@ export async function generateMetadata({
   return buildPageMetadata({
     locale: typed,
     path: "about",
+    image: ogImageUrl(typed, "about", typed),
     title: tServer(typed, "about.seoTitle"),
     absoluteTitle: true,
     description: tServer(typed, "about.intro"),
