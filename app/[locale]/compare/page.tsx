@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { ComparePage } from "@/components/ComparePage";
+import { ComparePairLinks } from "@/components/ComparePairLinks";
 import { SiteFooter } from "@/components/SiteFooter";
 import { JsonLd } from "@/components/JsonLd";
 import { tServer } from "@/lib/i18n-server";
@@ -92,6 +93,7 @@ export default async function ComparePageRoute({ params }: PageProps) {
       <Suspense fallback={null}>
         <ComparePage />
       </Suspense>
+      <ComparePairLinks locale={typed} />
       <SiteFooter locale={typed} />
     </>
   );

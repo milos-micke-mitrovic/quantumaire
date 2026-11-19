@@ -96,3 +96,18 @@ describe("stop lookups", () => {
     }
   });
 });
+
+import { COMPARE_PAIRS, getPair, pairSlug } from "@/lib/comparePairs";
+
+describe("compare pairs", () => {
+  it("every curated pair resolves to two sized topics, no duplicates", () => {
+    const slugs = COMPARE_PAIRS.map(pairSlug);
+    expect(new Set(slugs).size).toBe(slugs.length);
+    for (const slug of slugs) {
+      const pair = getPair(slug);
+      expect(pair, slug).not.toBeNull();
+      expect(pair![0].sizeMeters, slug).toBeGreaterThan(0);
+      expect(pair![1].sizeMeters, slug).toBeGreaterThan(0);
+    }
+  });
+});

@@ -185,7 +185,15 @@
       "sameTemperature": "{a} and {b} are at the same temperature.",
       "noData": "One side has no data for this comparison.",
       "notEnoughStops": "Not enough objects have this data yet — try a different mode.",
-      "seoTitle": "Size Comparison Tool: Compare Any Two Things in Space"
+      "seoTitle": "Size Comparison Tool: Compare Any Two Things in Space",
+      "pairTitle": "{a} vs {b}: Size Comparison",
+      "pairSize": "{big} is about {ratio} times bigger than {small}: {a} measures {sizeA}, {b} {sizeB}.",
+      "pairDistance": "From Earth, {a} is about {distA} away and {b} about {distB}.",
+      "pairTemp": "Typical temperatures: {a} about {tempA}, {b} about {tempB}.",
+      "pairFaqQ": "How much bigger is {big} than {small}?",
+      "pairDescription": "{big} is about {ratio} times bigger than {small}. Compare their sizes, distances and temperatures on a true scale.",
+      "popular": "Popular comparisons",
+      "pairTry": "Change either side below to compare anything else."
     },
     "tempSameInC": "≈ same in °C",
     "numberLocale": "en-US",

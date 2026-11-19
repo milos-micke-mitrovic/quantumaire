@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { CATEGORIES, STOPS, categorySlug } from "@/lib/content";
 import { TAG_PAGES } from "@/lib/tags";
 import { TOPICS } from "@/lib/topics";
+import { COMPARE_PAIRS, pairSlug } from "@/lib/comparePairs";
 import { DEFAULT_LOCALE, LOCALES, SITE_MODIFIED, SITE_URL } from "@/lib/seo";
 
 function alternates(path: string) {
@@ -114,6 +115,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
         priority: 0.85,
         alternates: alternates(`stop/${stop.id}`),
+      });
+    }
+  }
+
+  for (const locale of LOCALES) {
+    for (const pair of COMPARE_PAIRS) {
+      const path = `compare/${pairSlug(pair)}`;
+      entries.push({
+        url: `${SITE_URL}/${locale}/${path}`,
+        lastModified: SITE_MODIFIED,
+        changeFrequency: "monthly",
+        priority: 0.6,
+        alternates: alternates(path),
       });
     }
   }

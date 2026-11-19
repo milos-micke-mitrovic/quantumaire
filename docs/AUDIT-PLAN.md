@@ -81,7 +81,7 @@ browser (desktop + 390 px) after UI changes.
       how-big-is-the-universe): differentiate titles/intent, cross-link.
 - [x] FAQ for distance/temperature: "How far is X from Earth?", "How hot is X?",
       "X compared to Earth" (lib/sizeFaq.ts).
-- [ ] Indexable compare pairs: `/compare/[a]-vs-[b]` for ~20 curated pairs
+- [x] Indexable compare pairs: `/compare/[a]-vs-[b]` for ~20 curated pairs
       (jupiter-vs-earth, sun-vs-earth, moon-vs-earth, uy-scuti-vs-sun,
       milky-way-vs-andromeda, …) with real titles; keep the interactive page.
 - [ ] Smaller: ~~titles >60 / descriptions >160~~ (done — local crawl of all 176 sitemap URLs: 0 issues; `metaDescription` keys + `fitDescription`); ~~robots.txt keep `Disallow: /api/`

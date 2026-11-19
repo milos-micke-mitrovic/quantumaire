@@ -3,7 +3,7 @@
 import clsx from "clsx";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useCallback, useMemo } from "react";
+import { useCallback, useMemo, type ReactNode } from "react";
 import { m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { StopCombobox } from "./StopCombobox";
@@ -150,7 +150,22 @@ const RATIO_LINE_KEYS: Record<
   },
 };
 
-export function ComparePage() {
+interface ComparePageProps {
+  /** Pair pages (/compare/jupiter-vs-earth) preset the pair server-side. */
+  initialA?: string;
+  initialB?: string;
+  /** Where pair changes navigate to (pair pages hand off to /compare). */
+  basePath?: string;
+  /** Pair pages pass their own server-rendered heading and summary. */
+  header?: ReactNode;
+}
+
+export function ComparePage({
+  initialA,
+  initialB,
+  basePath = "",
+  header,
+}: ComparePageProps = {}) {
   const router = useRouter();
   const params = useSearchParams();
   const { t } = useI18n();
@@ -161,8 +176,8 @@ export function ComparePage() {
 
   // If the stop chosen for the current mode lacks the relevant data, fall
   // back to the mode's default rather than render a broken comparison.
-  const requestedA = params.get("a") ?? defaultA;
-  const requestedB = params.get("b") ?? defaultB;
+  const requestedA = params.get("a") ?? initialA ?? defaultA;
+  const requestedB = params.get("b") ?? initialB ?? defaultB;
   const a = useMemo(() => {
     const s = getStop(requestedA);
     if (s && valueOf(s, mode) !== null) return s;
@@ -180,9 +195,9 @@ export function ComparePage() {
       sp.set("a", nextA);
       sp.set("b", nextB);
       sp.set("mode", nextMode);
-      router.replace(`?${sp.toString()}`, { scroll: false });
+      router.replace(`${basePath}?${sp.toString()}`, { scroll: false });
     },
-    [router, mode]
+    [router, mode, basePath]
   );
 
   const swap = useCallback(() => setPair(b.id, a.id), [a.id, b.id, setPair]);
@@ -237,6 +252,7 @@ export function ComparePage() {
 
   return (
     <main className="relative mx-auto w-full max-w-5xl px-5 pb-24 pt-12 sm:px-8 sm:pt-16">
+      {header ?? (
       <motion.header
         initial={{ opacity: 0, y: 12 }}
         animate={{ opacity: 1, y: 0 }}
@@ -257,6 +273,7 @@ export function ComparePage() {
           {t("common.comparePage.intro")}
         </p>
       </motion.header>
+      )}
 
       {/* Mode selector — Size / Distance / Temperature. */}
       <section className="mt-8">

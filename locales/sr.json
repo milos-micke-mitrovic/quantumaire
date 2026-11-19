@@ -185,7 +185,15 @@
       "sameTemperature": "{a} i {b} su na istoj temperaturi.",
       "noData": "Jedna strana nema podatke za ovo poređenje.",
       "notEnoughStops": "Premalo objekata ima ovaj podatak — probajte drugi režim poređenja.",
-      "seoTitle": "Alat za poređenje veličina: bilo koja dva objekta"
+      "seoTitle": "Alat za poređenje veličina: bilo koja dva objekta",
+      "pairTitle": "{a} i {b}: poređenje veličina",
+      "pairSize": "{big}: oko {ratio} puta veće nego {small}. Veličina — {a}: {sizeA}; {b}: {sizeB}.",
+      "pairDistance": "Udaljenost od Zemlje — {a}: oko {distA}; {b}: oko {distB}.",
+      "pairTemp": "Tipična temperatura — {a}: oko {tempA}; {b}: oko {tempB}.",
+      "pairFaqQ": "{big} i {small} — kolika je razlika u veličini?",
+      "pairDescription": "{big}: oko {ratio} puta veće nego {small}. Uporedite veličine, udaljenosti i temperature na pravoj skali.",
+      "popular": "Popularna poređenja",
+      "pairTry": "Promenite bilo koju stranu ispod da uporedite nešto drugo."
     },
     "tempSameInC": "≈ isto u °C",
     "numberLocale": "sr-Latn-RS",
