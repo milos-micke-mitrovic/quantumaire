@@ -81,6 +81,14 @@ Use the `add-topic` skill (`.claude/skills/add-topic/SKILL.md`).
 - Satori (OG images) lacks superscript glyphs — use `ogSafe()`.
 - framer-motion `whileInView` on cards uses `amount: 0` (horizontal shelves
   otherwise leave partly visible cards invisible).
+- Home shelf images use `ImagePlaceholder defer` (load near the viewport) —
+  without it ~30 card images fight the hero for bandwidth (LCP).
+- Generated sentences: `sizeMeasure()` in lib/references.ts (height / depth /
+  length / size) picks "taller", "deeper", "longer", "Height" labels — add
+  new tall/deep/long topics to its id sets. `areRelated()` decides which
+  near-equal neighbours are worth naming. Compare-pair sentences live in
+  `lib/comparePairText.ts`. Every sized topic needs `sizeFaq.subjects.<id>`
+  in BOTH locales (Serbian: lower-case common nouns).
 
 ## Key components
 

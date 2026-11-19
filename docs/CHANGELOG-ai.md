@@ -146,3 +146,10 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Size labels follow the measure: "Height" (Eiffel, Everest, giraffe), "Depth" (trench, Grand Canyon), "Length" (Amazon, Titanic, Great Wall) in the Numbers card and guide key numbers (`sizeLabelKey`).
 - Client bundle: collection intros/meta (`tagPages`) no longer ship on every page — base keeps `tagPages.*.short/title`, the tag page adds its intro via `I18nExtend` (base dictionary was over the 60 KB budget test after 17 new topics).
 - Next: NEXT-PLAN block 4 (Lighthouse/performance).
+
+## 2026-11-19 — performance + accessibility (NEXT-PLAN block 4)
+- Lighthouse mobile before: home 59 (LCP 8.8 s, TBT 330 ms), topic ~78, guide 81. The home LCP is the decorative Webb hero; ~31 shelf images (800 KiB) and gtag (180 KiB) competed with it on simulated slow 4G.
+- `ImagePlaceholder defer` (IntersectionObserver, 300 px margin; hydration-safe) — home shelf cards load their images only near the viewport, also when a shelf is scrolled sideways; initial home load now requests 1 card-free image instead of ~31. GA scripts `lazyOnload`.
+- Accessibility: home FAQ no longer nests `<dt>/<dd>` in `<details>` (invalid `<dl>`), tag chips use `text-cosmos-plasma` (contrast), StopCard links lose the "Open — X" aria-label that mismatched their visible text.
+- After: home 81 (LCP 4.6 s, TBT 90 ms), Jupiter 79, guides 75–79 (TBT ~250 ms; one 1.6 s TBT reading was noise), accessibility/best practices/SEO 100 everywhere. Follow-up (fonts + JS weight) added to NEXT-PLAN.
+- Block 5 (Search Console CTR) waits for indexing data.
