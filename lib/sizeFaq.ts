@@ -177,7 +177,7 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
       const sName = t(`${smaller.i18nKey}.name`);
       parts.push(
         t("sizeFaq.a3smaller", {
-          other: sName,
+          other: subjectName(smaller, locale),
           otherSize: formatMeters(smaller.sizeMeters, tm),
           ratio: formatRatio(size / (smaller.sizeMeters as number), locale),
         })
@@ -190,7 +190,7 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
       const lName = t(`${larger.i18nKey}.name`);
       parts.push(
         t("sizeFaq.a3larger", {
-          other: lName,
+          other: subjectName(larger, locale),
           otherSize: formatMeters(larger.sizeMeters, tm),
           ratio: formatRatio((larger.sizeMeters as number) / size, locale),
         })

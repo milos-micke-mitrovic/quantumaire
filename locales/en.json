@@ -412,15 +412,15 @@
     "HUMANKIND": "Humankind",
     "COSMOS.description": "Galaxies, stars, neutron-dense corpses, and the dark side of the universe — the largest scales we can observe.",
     "MICRO_WORLD.description": "Quarks, atoms, and molecules — the building blocks underneath everything you can see or touch.",
-    "HUMANKIND.description": "People and what they make: how one brain can house more than one self, and monuments whose building still resists complete explanation.",
+    "HUMANKIND.description": "People and what they make: how one brain can house more than one self, and the tallest things we have built — from the Great Pyramid to the Burj Khalifa.",
     "COSMOS.intro": "The universe at every scale beyond the ground beneath your feet — planets, stars, galaxies, and the largest gravitationally bound structures we know how to find. More than half of the topics on Quantumaire live here, because the cosmos is where orders of magnitude start to do real work. The Cosmos category also collects the abstractions that hold it all together: dark matter, dark energy, the cosmic horizon.",
     "MICRO_WORLD.intro": "Everything smaller than the cell. Quarks and gluons inside the proton; the proton inside the atom; the atom inside the DNA helix; the helix inside the virus; the virus, in turn, dwarfed by a bacterium. Each step down this ladder is anywhere from ten to a hundred thousand times smaller than the last, so the human-scale intuition that 'small things differ by a bit' breaks completely. The micro-world is where you watch that intuition snap.",
-    "HUMANKIND.intro": "Not everything worth knowing has a metre attached to it. Dissociative identity disorder is a property of the brain, not a measurable object, yet it belongs in any honest tour of what exists. The Great Pyramid, at 139 metres and 2.3 million blocks aligned to the cardinal directions, sits right where the human scale meets the planetary. This is where Quantumaire keeps topics about people: the minds that measure the universe and the things they have built.",
+    "HUMANKIND.intro": "Not everything worth knowing has a metre attached to it. Dissociative identity disorder is a property of the brain, not a measurable object, yet it belongs in any honest tour of what exists. The Great Pyramid, at 139 metres and 2.3 million blocks aligned to the cardinal directions, was the tallest thing humans built for nearly four thousand years; the Eiffel Tower more than doubled that in 1889, and the Burj Khalifa now reaches 828 metres — where the human scale starts to brush against the planetary. This is where Quantumaire keeps topics about people: the minds that measure the universe and the things they have built.",
     "EARTH": "Life & Earth",
     "PHYSICS": "Forces & Spacetime",
-    "EARTH.description": "Living things and landscapes on our own planet — from a half-millimetre water bear to the blue whale and the roof of the world.",
+    "EARTH.description": "Living things and landscapes on our own planet — from a half-millimetre water bear to the blue whale, the largest tree and the roof of the world.",
     "PHYSICS.description": "Gravity, time, ripples in spacetime and quantum links — the rules that every object on the site has to obey.",
-    "EARTH.intro": "The stretch of the scale you can actually touch. Animal life alone spans nearly five orders of magnitude — from a tardigrade barely visible to the naked eye, through a human being, to a blue whale longer than a basketball court — and the planet's own surface adds Mount Everest, almost nine kilometres of rock folded upward by colliding continents. These topics anchor the cosmic numbers to things you already have a feel for.",
+    "EARTH.intro": "The stretch of the scale you can actually touch. Animal life alone spans nearly five orders of magnitude — from a tardigrade barely visible to the naked eye, through a human being, to a blue whale longer than a basketball court — and the planet's own surface adds Mount Everest, almost nine kilometres of rock folded upward by colliding continents. The plant kingdom goes bigger still: General Sherman, a giant sequoia, stands 84 metres tall with a trunk holding nearly 1,500 cubic metres of wood. These topics anchor the cosmic numbers to things you already have a feel for.",
     "PHYSICS.intro": "Not objects but the rules behind them. Gravity, the weakest force, still decides the shape of everything from planets to galaxy clusters; time itself runs at different speeds depending on how fast you move and how deep you sit in a gravity well; spacetime can ripple, and on paper it can even fold into a wormhole. These topics have no size you could put on a ruler — what they have is reach: everything else on the site obeys them."
   },
   "comparison": {
@@ -508,7 +508,8 @@
     "spacetime": "Spacetime",
     "hypothetical": "Hypothetical",
     "ocean": "Ocean",
-    "alien-life": "Alien life"
+    "alien-life": "Alien life",
+    "landmark": "Landmark"
   },
   "stops": {
     "quark": {
@@ -1603,6 +1604,72 @@
         "fact8": "Distant galaxies can recede faster than light because space itself expands — locally, nothing outruns light."
       },
       "metaDescription": "Light travels at exactly 299,792,458 m/s — the cosmic speed limit. Why the number is exact, why nothing can beat it, and how long light takes to reach us."
+    },
+    "eiffel_tower": {
+      "name": "Eiffel Tower",
+      "seoTitle": "How Tall Is the Eiffel Tower? 330 m of Iron",
+      "tagline": "330 metres of wrought iron, built in two years as a temporary fairground arch — and never taken down.",
+      "body": "The Eiffel Tower was built in 1887–1889 as the entrance arch to the Exposition Universelle in Paris, the world's fair that marked the centenary of the French Revolution. It was designed by Maurice Koechlin and Émile Nouguier, engineers at Gustave Eiffel's company, and assembled from 18,038 wrought-iron parts held together by 2.5 million rivets. At 330 metres including its antennas, it was by far the tallest structure in the world for 41 years, until the Chrysler Building overtook it in 1930. It was supposed to be dismantled in 1909; it survived because its height made it the perfect mast for the new technology of radio.",
+      "narrative": "Stand a person beside it and the tower is almost 200 times taller. Yet it is astonishingly light for its size: melt its 7,300 tonnes of iron down and the metal would cover its 125-metre-square base only about 6 cm deep.",
+      "funFact": "The tower never stands perfectly still. On a hot day the iron on the sunny side expands more than the shaded side, so the top leans away from the sun by up to 18 cm — then straightens again as the evening cools.",
+      "image": {
+        "alt": "The Eiffel Tower seen from the Champ de Mars on a clear day, its iron lattice rising from four arched legs into a deep blue sky."
+      },
+      "facts": {
+        "fact1": "Height: 330 m to the tip of its antennas — about as tall as an 81-storey building.",
+        "fact2": "Base: a square 125 m on each side.",
+        "fact3": "Iron structure: 7,300 tonnes; about 10,100 tonnes with lifts, shops and antennas.",
+        "fact4": "18,038 iron parts joined by 2.5 million rivets.",
+        "fact5": "Built in just over two years for the 1889 World's Fair (Exposition Universelle).",
+        "fact6": "Tallest structure in the world from 1889 until the Chrysler Building in 1930.",
+        "fact7": "On hot days the top shifts away from the sun by up to 18 cm.",
+        "fact8": "5.9 million visitors in 2022 — the most-visited paid monument in the world."
+      },
+      "metaDescription": "The Eiffel Tower is 330 m tall: 7,300 tonnes of wrought iron and 2.5 million rivets, built in two years for 1889. How it compares with people, pyramids and peaks."
+    },
+    "burj_khalifa": {
+      "name": "Burj Khalifa",
+      "seoTitle": "How Tall Is the Burj Khalifa? The 828 m Skyscraper",
+      "tagline": "The tallest building ever made — 828 metres, so high that the sun sets later at the top.",
+      "body": "Burj Khalifa in Dubai, United Arab Emirates, has been the tallest building in the world since it opened on 4 January 2010. Designed by Skidmore, Owings & Merrill, it rises 828 m to the top of its spire (829.8 m to the tip of the antenna) and has 163 floors above ground. Its Y-shaped plan — three wings braced around a central core — keeps it steady in desert winds, and the tower steps back 27 times in a spiral as it climbs, so the wind cannot organise itself into rhythmic, shaking vortices. Building it took about 330,000 m³ of concrete and 55,000 tonnes of steel reinforcement.",
+      "narrative": "You would need 487 people standing on each other's heads to reach its top, or two and a half Eiffel Towers stacked end to end. About 243 m of that height is spire, though — without it the building would be 585 m tall.",
+      "funFact": "The building is tall enough to stretch the sunset. On its upper floors the sun stays visible for a few minutes after it has set at street level — so during Ramadan, residents above the 80th floor wait two extra minutes to break their fast, and those above the 150th floor wait three.",
+      "image": {
+        "alt": "Burj Khalifa's silver, tapering spire rising far above the surrounding towers of downtown Dubai under a clear blue sky."
+      },
+      "facts": {
+        "fact1": "Height: 828 m to the top of the spire; 829.8 m to the antenna tip.",
+        "fact2": "163 floors above ground — more than any other building.",
+        "fact3": "Opened on 4 January 2010 after six years of construction.",
+        "fact4": "About 330,000 m³ of concrete and 55,000 tonnes of steel rebar.",
+        "fact5": "The spire alone is about 243 m — taller than the Great Pyramid.",
+        "fact6": "Foundation: 192 piles, each 1.5 m wide and 43 m long.",
+        "fact7": "57 lifts; 2,909 stairs from the ground floor to the 160th.",
+        "fact8": "At its highest point the tower sways about 1.5 m."
+      },
+      "metaDescription": "The Burj Khalifa is 828 m tall with 163 floors — the tallest building on Earth since 2010. See how it compares with the Eiffel Tower, Everest and you."
+    },
+    "general_sherman": {
+      "name": "General Sherman Tree",
+      "seoTitle": "How Big Is the General Sherman Tree? Largest on Earth",
+      "tagline": "The largest living tree on Earth — 1,487 cubic metres of wood, still growing after more than two thousand years.",
+      "body": "General Sherman is a giant sequoia (Sequoiadendron giganteum) in the Giant Forest of Sequoia National Park, California. It is not the tallest tree — that is Hyperion, a coast redwood about 116 m high — nor the widest, but by volume it is the largest single-stem tree known: its trunk holds about 1,487 m³ of wood. It stands 83.8 m tall, its trunk is 7.7 m across near the base, and it is estimated to be 2,300–2,700 years old. Giant sequoias owe their long lives partly to fire: spongy bark up to about 90 cm thick shields the living wood, and the heat of a blaze helps their cones open and drop seeds onto freshly cleared ground.",
+      "narrative": "Its trunk alone would fill more than half an Olympic swimming pool. To match its height you would need 49 people standing on each other's heads — or three blue whales, the largest animals ever, balanced nose to tail.",
+      "funFact": "In January 2006 the tree's largest branch — over 2 m thick and 30 m long, bigger than the trunks of most trees — snapped off on its own and smashed the fence and part of the path below. Nobody saw it fall. In 2021, as a wildfire approached, firefighters wrapped the base of the tree in protective foil; it came through unharmed.",
+      "image": {
+        "alt": "Looking up the enormous red-brown trunk of the General Sherman tree, from its buttressed base to its small green crown high above the surrounding forest."
+      },
+      "facts": {
+        "fact1": "Height: 83.8 m.",
+        "fact2": "Trunk volume: about 1,487 m³ — the largest of any known single-stem tree.",
+        "fact3": "Diameter near the base: about 7.7 m.",
+        "fact4": "Estimated age: 2,300–2,700 years.",
+        "fact5": "A giant sequoia — a species that grows wild only on the western slopes of California's Sierra Nevada.",
+        "fact6": "Not the tallest tree: Hyperion, a coast redwood, reaches about 116 m.",
+        "fact7": "Named in 1879 after the American Civil War general William Tecumseh Sherman.",
+        "fact8": "Its largest branch, over 2 m thick and 30 m long, broke off in 2006."
+      },
+      "metaDescription": "General Sherman, a giant sequoia in California, is the largest living tree: 83.8 m tall, 1,487 m³ of wood and over 2,000 years old. See how it compares."
     }
   },
   "about": {
@@ -2238,6 +2305,22 @@
     "drake_equation": {
       "term": "Drake equation",
       "definition": "Frank Drake's 1961 formula for estimating how many civilisations in our galaxy we might detect, by multiplying factors such as the rate of star formation, the share of stars with planets and how long civilisations last."
+    },
+    "thermal_expansion": {
+      "term": "Thermal expansion",
+      "definition": "Most materials grow slightly when they warm up, because their atoms jiggle harder and push each other further apart. Engineers leave room for it in bridges, rails and towers — the Eiffel Tower's iron moves by centimetres between a cold night and a hot afternoon."
+    },
+    "wrought_iron": {
+      "term": "Wrought iron",
+      "definition": "Iron with very little carbon, shaped by hammering rather than cast in moulds. Tough and easy to rivet, it was the structural metal of the 19th century until cheap steel replaced it."
+    },
+    "vanity_height": {
+      "term": "Vanity height",
+      "definition": "The part of a skyscraper above its highest usable floor — usually a spire that does nothing but make the building taller. Official height rankings count spires but not antennas, so spires decide records; Burj Khalifa's adds about 243 m."
+    },
+    "serotiny": {
+      "term": "Serotiny",
+      "definition": "Keeping seeds locked in closed cones until something — usually the heat of a fire — releases them. Giant sequoia cones open after fires, dropping seeds onto sunlit soil cleared by the flames, where seedlings stand a chance."
     }
   },
   "faq": {
@@ -2318,7 +2401,10 @@
       "gaia_bh1": "Gaia BH1",
       "mariana_trench": "the Mariana Trench",
       "iss": "the International Space Station",
-      "james_webb": "the James Webb Space Telescope"
+      "james_webb": "the James Webb Space Telescope",
+      "eiffel_tower": "the Eiffel Tower",
+      "burj_khalifa": "the Burj Khalifa",
+      "general_sherman": "the General Sherman tree"
     }
   },
   "seo": {
@@ -2431,7 +2517,7 @@
       "short": "Life",
       "title": "Life, from DNA to the blue whale",
       "seoTitle": "How Big Is Life? From DNA and Viruses to the Blue Whale",
-      "intro": "Living things span more than ten orders of magnitude — from the DNA helix two nanometres wide, through viruses, bacteria and cells, to you and the largest animal that has ever lived.",
+      "intro": "Living things span more than ten orders of magnitude — from the DNA helix two nanometres wide, through viruses, bacteria and cells, to you, the largest animal that has ever lived and the largest tree on Earth.",
       "metaDescription": "Life spans more than ten orders of magnitude, from the 2-nanometre DNA helix through viruses, bacteria and cells to the largest animal ever."
     },
     "phenomenon": {
@@ -2513,6 +2599,13 @@
       "seoTitle": "Spacecraft: ISS, James Webb and Voyager 1 Compared",
       "intro": "The machines we have sent beyond the sky: the International Space Station circling 400 km up, the James Webb Space Telescope 1.5 million km away, and Voyager 1, now a full light-day out in interstellar space.",
       "metaDescription": "From the ISS 400 km above Earth to Webb at 1.5 million km and Voyager 1 a light-day away: our spacecraft, their sizes, speeds and distances."
+    },
+    "landmark": {
+      "short": "Landmarks",
+      "title": "Landmarks, from the Great Pyramid to the Burj Khalifa",
+      "seoTitle": "How Tall Are Famous Landmarks? Pyramid, Eiffel, Burj",
+      "intro": "The tallest things people have built, each a record-holder in its day: the Great Pyramid, tallest for nearly four thousand years, the 330-metre Eiffel Tower, and the 828-metre Burj Khalifa — six Great Pyramids stacked on top of each other.",
+      "metaDescription": "From the 139 m Great Pyramid to the 330 m Eiffel Tower and the 828 m Burj Khalifa: the tallest things humans have built, compared with each other and with you."
     }
   }
 }

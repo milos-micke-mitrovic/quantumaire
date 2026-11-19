@@ -412,15 +412,15 @@
     "HUMANKIND": "Čovečanstvo",
     "COSMOS.description": "Galaksije, zvezde, zvezdani leševi gušći od atomskog jezgra i tamna strana svemira — najveće razmere koje možemo posmatrati.",
     "MICRO_WORLD.description": "Kvarkovi, atomi i molekuli — gradivni blokovi ispod svega što možete videti ili dotaći.",
-    "HUMANKIND.description": "Ljudi i ono što stvaraju: kako jedan mozak može ugostiti više od jednog ja i spomenici čija se gradnja i dalje opire potpunom objašnjenju.",
+    "HUMANKIND.description": "Ljudi i ono što stvaraju: kako jedan mozak može ugostiti više od jednog ja i najviše što smo sagradili — od Velike piramide do Burdž Kalife.",
     "COSMOS.intro": "Svemir na svim razmerama van tla pod vašim nogama — planete, zvezde, galaksije i najveće gravitaciono vezane strukture koje umemo da pronađemo. Više od polovine tema na Quantumaire-u nalazi se ovde, jer kosmos je tamo gde redovi veličine počinju zaista da nešto znače. Kategorija Kosmos takođe okuplja apstrakcije koje sve to drže na okupu: tamnu materiju, tamnu energiju, kosmički horizont.",
     "MICRO_WORLD.intro": "Sve manje od ćelije. Kvarkovi i gluoni unutar protona; proton unutar atoma; atom unutar DNK heliksa; heliks unutar virusa; virus, sa svoje strane, patuljast u poređenju sa bakterijom. Svaki korak naniže po ovoj lestvici je od deset do sto hiljada puta manji od prethodnog, pa intuicija ljudske razmere da se „male stvari razlikuju tek malo“ potpuno puca. Mikrosvet je mesto na kome posmatrate kako se ta intuicija lomi.",
-    "HUMANKIND.intro": "Nije sve što vredi znati moguće izmeriti metrom. Disocijativni poremećaj identiteta osobina je mozga, a ne merljiv objekat, ali mu je mesto u svakom poštenom pregledu onoga što postoji. Velika piramida, visoka 139 metara i sazidana od 2,3 miliona blokova poravnatih sa stranama sveta, stoji baš tamo gde se ljudska razmera susreće sa planetarnom. Ovde Quantumaire čuva teme o ljudima: o umovima koji mere svemir i o onome što su sagradili.",
+    "HUMANKIND.intro": "Nije sve što vredi znati moguće izmeriti metrom. Disocijativni poremećaj identiteta osobina je mozga, a ne merljiv objekat, ali mu je mesto u svakom poštenom pregledu onoga što postoji. Velika piramida, visoka 139 metara i sazidana od 2,3 miliona blokova poravnatih sa stranama sveta, bila je najviše što su ljudi sagradili skoro četiri hiljade godina; Ajfelova kula je 1889. tu visinu više nego udvostručila, a Burdž Kalifa danas doseže 828 metara — tamo gde ljudska razmera počinje da dotiče planetarnu. Ovde Quantumaire čuva teme o ljudima: o umovima koji mere svemir i o onome što su sagradili.",
     "EARTH": "Život i Zemlja",
     "PHYSICS": "Sile i prostor-vreme",
-    "EARTH.description": "Živa bića i predeli naše planete — od vodenog medveda od pola milimetra do plavog kita i krova sveta.",
+    "EARTH.description": "Živa bića i predeli naše planete — od vodenog medveda od pola milimetra do plavog kita, najvećeg drveta i krova sveta.",
     "PHYSICS.description": "Gravitacija, vreme, talasi u prostor-vremenu i kvantne veze — pravila kojima se pokorava svaki objekat na ovom sajtu.",
-    "EARTH.intro": "Deo skale koji zaista možete da dodirnete. Već sam životinjski svet obuhvata skoro pet redova veličine — od tardigrada koji se golim okom jedva vidi, preko čoveka, do plavog kita dužeg od košarkaškog terena — a površina planete dodaje Mont Everest, skoro devet kilometara stena koje su sudari kontinenata izgurali naviše. Ove teme vezuju kosmičke brojeve za stvari za koje već imate osećaj.",
+    "EARTH.intro": "Deo skale koji zaista možete da dodirnete. Već sam životinjski svet obuhvata skoro pet redova veličine — od tardigrada koji se golim okom jedva vidi, preko čoveka, do plavog kita dužeg od košarkaškog terena — a površina planete dodaje Mont Everest, skoro devet kilometara stena koje su sudari kontinenata izgurali naviše. Biljni svet ide i dalje: džinovska sekvoja General Šerman visoka je 84 metra, a u deblu ima skoro 1.500 kubnih metara drveta. Ove teme vezuju kosmičke brojeve za stvari za koje već imate osećaj.",
     "PHYSICS.intro": "Ne objekti, već pravila iza njih. Gravitacija, najslabija sila, i dalje određuje oblik svega, od planeta do jata galaksija; samo vreme teče različitom brzinom u zavisnosti od toga koliko se brzo krećete i koliko ste duboko u gravitacionom polju; prostor-vreme može da se talasa, a na papiru čak i da se savije u crvotočinu. Ove teme nemaju veličinu koju biste stavili na lenjir — imaju domet: sve ostalo na sajtu im se pokorava."
   },
   "comparison": {
@@ -508,7 +508,8 @@
     "spacetime": "Prostor-vreme",
     "hypothetical": "Hipotetičko",
     "ocean": "Okean",
-    "alien-life": "Vanzemaljski život"
+    "alien-life": "Vanzemaljski život",
+    "landmark": "Znamenitost"
   },
   "stops": {
     "quark": {
@@ -1603,6 +1604,72 @@
         "fact8": "Daleke galaksije mogu se udaljavati brže od svetlosti jer se širi sam prostor — lokalno, ništa ne pretiče svetlost."
       },
       "metaDescription": "Svetlost putuje tačno 299.792.458 m/s — kosmičko ograničenje brzine. Zašto je broj tačan, zašto je niko ne može prestići i koliko joj treba do nas."
+    },
+    "eiffel_tower": {
+      "name": "Ajfelova kula",
+      "seoTitle": "Koliko je visoka Ajfelova kula? 330 m gvožđa",
+      "tagline": "330 metara kovanog gvožđa, podignutih za dve godine kao privremena kapija sajma — i nikad srušenih.",
+      "body": "Ajfelova kula sagrađena je 1887–1889. kao ulazna kapija Svetske izložbe u Parizu, kojom je obeležena stogodišnjica Francuske revolucije. Projektovali su je Moris Kešlen i Emil Nugje, inženjeri firme Gustava Ajfela, a sklopljena je od 18.038 delova od kovanog gvožđa, spojenih sa 2,5 miliona zakivaka. Sa 330 metara, računajući antene, bila je daleko najviša građevina na svetu punu 41 godinu, sve dok je 1930. nije nadvisila zgrada Krajsler. Trebalo je da bude rastavljena 1909; spasla ju je upravo visina, zbog koje je bila savršen stub za novu tehnologiju — radio.",
+      "narrative": "Postavite čoveka pored nje i kula je skoro 200 puta viša. A ipak je zapanjujuće laka za svoju veličinu: kad biste pretopili njenih 7.300 tona gvožđa, metal bi kvadratnu osnovu od 125 metara prekrio slojem debelim tek oko 6 cm.",
+      "funFact": "Kula nikad ne stoji savršeno mirno. Tokom vrelog dana gvožđe na sunčanoj strani širi se više nego na strani u senci, pa se vrh nagne od sunca i do 18 cm — i ponovo se ispravi kad se uveče ohladi.",
+      "image": {
+        "alt": "Ajfelova kula viđena sa Marsovog polja po vedrom danu: gvozdena rešetka uzdiže se sa četiri zasvođene noge u tamnoplavo nebo."
+      },
+      "facts": {
+        "fact1": "Visina: 330 m do vrha antena — otprilike kao zgrada od 81 sprata.",
+        "fact2": "Osnova: kvadrat sa stranicom od 125 m.",
+        "fact3": "Gvozdena konstrukcija: 7.300 tona; sa liftovima, prodavnicama i antenama oko 10.100 tona.",
+        "fact4": "18.038 gvozdenih delova spojenih sa 2,5 miliona zakivaka.",
+        "fact5": "Izgrađena za nešto više od dve godine, za Svetsku izložbu 1889.",
+        "fact6": "Najviša građevina na svetu od 1889. do zgrade Krajsler 1930.",
+        "fact7": "Vrelim danima vrh se pomera od sunca i do 18 cm.",
+        "fact8": "5,9 miliona posetilaca u 2022. — najposećeniji spomenik sa ulaznicom na svetu."
+      },
+      "metaDescription": "Ajfelova kula je visoka 330 m: 7.300 tona kovanog gvožđa i 2,5 miliona zakivaka, sagrađena za dve godine za 1889. Poređenje sa ljudima, piramidama i vrhovima."
+    },
+    "burj_khalifa": {
+      "name": "Burdž Kalifa",
+      "seoTitle": "Koliko je visok Burdž Kalifa? Neboder od 828 m",
+      "tagline": "Najviša zgrada ikada sagrađena — 828 metara, toliko visoka da na vrhu sunce zalazi kasnije.",
+      "body": "Burdž Kalifa u Dubaiju, u Ujedinjenim Arapskim Emiratima, najviša je zgrada na svetu otkako je otvoren 4. januara 2010. Projektovao ga je biro Skidmore, Owings & Merrill; do vrha tornja visok je 828 m (829,8 m do vrha antene) i ima 163 sprata iznad zemlje. Osnova u obliku slova Y — tri krila oslonjena na centralno jezgro — drži ga stabilnim na pustinjskom vetru, a zgrada se dok raste 27 puta spiralno stepenasto sužava, kako vetar ne bi stvarao ritmične vrtloge koji je ljuljaju. Za gradnju je utrošeno oko 330.000 m³ betona i 55.000 tona čelične armature.",
+      "narrative": "Da biste dosegli vrh, 487 ljudi moralo bi da stane jedno drugom na glavu — ili dve i po Ajfelove kule jedna na drugu. Ipak, oko 243 m te visine otpada na toranj — bez njega bi zgrada bila visoka 585 m.",
+      "funFact": "Zgrada je dovoljno visoka da produži zalazak sunca. Na gornjim spratovima sunce se vidi još nekoliko minuta pošto je zašlo na ulici — zato za vreme ramazana stanari iznad 80. sprata prekidaju post dva minuta kasnije, a oni iznad 150. sprata tri minuta kasnije.",
+      "image": {
+        "alt": "Srebrni, sve tanji toranj Burdž Kalife uzdiže se visoko iznad okolnih zgrada centra Dubaija, pod vedrim plavim nebom."
+      },
+      "facts": {
+        "fact1": "Visina: 828 m do vrha tornja; 829,8 m do vrha antene.",
+        "fact2": "163 sprata iznad zemlje — više od bilo koje druge zgrade.",
+        "fact3": "Otvoren 4. januara 2010, posle šest godina gradnje.",
+        "fact4": "Oko 330.000 m³ betona i 55.000 tona čelične armature.",
+        "fact5": "Sam toranj ima oko 243 m — viši je od Velike piramide.",
+        "fact6": "Temelj: 192 šipa, svaki širok 1,5 m i dug 43 m.",
+        "fact7": "57 liftova; 2.909 stepenika od prizemlja do 160. sprata.",
+        "fact8": "Na najvišoj tački zgrada se njiše oko 1,5 m."
+      },
+      "metaDescription": "Burdž Kalifa je visok 828 m i ima 163 sprata — najviša zgrada na Zemlji od 2010. Pogledajte poređenje sa Ajfelovom kulom, Everestom i vama."
+    },
+    "general_sherman": {
+      "name": "Drvo General Šerman",
+      "seoTitle": "Koliko je veliko drvo General Šerman? Najveće na Zemlji",
+      "tagline": "Najveće živo drvo na Zemlji — 1.487 kubnih metara drveta, i dalje raste posle više od dve hiljade godina.",
+      "body": "General Šerman je džinovska sekvoja (Sequoiadendron giganteum) u Džinovskoj šumi Nacionalnog parka Sekvoja, u Kaliforniji. Nije najviše drvo — to je Hiperion, obalska sekvoja visoka oko 116 m — niti najšire, ali je po zapremini najveće poznato drvo sa jednim stablom: u njegovom deblu ima oko 1.487 m³ drveta. Visoko je 83,8 m, deblo mu je pri dnu široko 7,7 m, a staro je, prema procenama, 2.300–2.700 godina. Za tako dug život džinovske sekvoje delom mogu da zahvale vatri: sunđerasta kora, debela i do oko 90 cm, štiti živo drvo, a vrelina požara pomaže šišarkama da se otvore i rasprše seme po tek raščišćenom tlu.",
+      "narrative": "Samo deblo napunilo bi više od pola olimpijskog bazena. Da biste dostigli njegovu visinu, 49 ljudi moralo bi da stane jedno drugom na glavu — ili tri plava kita, najveće životinje ikada, jedan iznad drugog.",
+      "funFact": "U januaru 2006. najveća grana drveta — debela preko 2 m i duga preko 30 m, veća od debla većine drveća — sama se odlomila i razbila ogradu i deo staze ispod. Niko nije video kako pada. Godine 2021, kad se približio šumski požar, vatrogasci su podnožje drveta obmotali zaštitnom folijom; prošlo je bez oštećenja.",
+      "image": {
+        "alt": "Pogled naviše uz ogromno crvenkastosmeđe deblo drveta General Šerman, od razgranatog podnožja do male zelene krošnje visoko iznad okolne šume."
+      },
+      "facts": {
+        "fact1": "Visina: 83,8 m.",
+        "fact2": "Zapremina debla: oko 1.487 m³ — najveća od svih poznatih stabala sa jednim deblom.",
+        "fact3": "Prečnik pri dnu: oko 7,7 m.",
+        "fact4": "Procenjena starost: 2.300–2.700 godina.",
+        "fact5": "Džinovska sekvoja — vrsta koja u divljini raste samo na zapadnim padinama kalifornijske Sijera Nevade.",
+        "fact6": "Nije najviše drvo: Hiperion, obalska sekvoja, doseže oko 116 m.",
+        "fact7": "Ime je dobilo 1879, po generalu iz Američkog građanskog rata Vilijamu Tekamsi Šermanu.",
+        "fact8": "Najveća grana, debela preko 2 m i duga preko 30 m, odlomila se 2006."
+      },
+      "metaDescription": "General Šerman, džinovska sekvoja u Kaliforniji, najveće je živo drvo: 83,8 m visine, 1.487 m³ drveta i preko 2.000 godina starosti. Pogledajte poređenje."
     }
   },
   "about": {
@@ -2238,6 +2305,22 @@
     "drake_equation": {
       "term": "Drejkova jednačina",
       "definition": "Formula Frenka Drejka iz 1961. kojom se procenjuje koliko bismo civilizacija u našoj galaksiji mogli da otkrijemo, množenjem činilaca kao što su brzina nastanka zvezda, udeo zvezda sa planetama i koliko dugo civilizacije traju."
+    },
+    "thermal_expansion": {
+      "term": "Toplotno širenje",
+      "definition": "Većina materijala se pri zagrevanju malo širi, jer njihovi atomi jače trepere i razmiču se. Inženjeri za to ostavljaju prostor kod mostova, šina i tornjeva — gvožđe Ajfelove kule pomera se za nekoliko centimetara između hladne noći i vrelog popodneva."
+    },
+    "wrought_iron": {
+      "term": "Kovano gvožđe",
+      "definition": "Gvožđe sa vrlo malo ugljenika, oblikovano kovanjem umesto livenjem u kalupe. Žilavo i lako za zakivanje, bilo je glavni konstrukcioni metal 19. veka, dok ga jeftin čelik nije zamenio."
+    },
+    "vanity_height": {
+      "term": "Ukrasna visina (vanity height)",
+      "definition": "Deo nebodera iznad najvišeg upotrebljivog sprata — najčešće toranj koji zgradu samo čini višom. Zvanične liste visine ubrajaju tornjeve, ali ne i antene, pa tornjevi odlučuju o rekordima; Burdž Kalifi toranj dodaje oko 243 m."
+    },
+    "serotiny": {
+      "term": "Serotinija",
+      "definition": "Čuvanje semena u zatvorenim šišarkama dok ga nešto — najčešće vrelina požara — ne oslobodi. Šišarke džinovske sekvoje otvaraju se posle požara i spuštaju seme na osunčano tlo koje je vatra raščistila, gde mladice imaju šanse."
     }
   },
   "faq": {
@@ -2386,7 +2469,7 @@
       "short": "Život",
       "title": "Život, od DNK do plavog kita",
       "seoTitle": "Koliki je život? Od DNK i virusa do plavog kita",
-      "intro": "Živa bića obuhvataju više od deset redova veličine — od spirale DNK široke dva nanometra, preko virusa, bakterija i ćelija, do vas i najveće životinje koja je ikada živela.",
+      "intro": "Živa bića obuhvataju više od deset redova veličine — od spirale DNK široke dva nanometra, preko virusa, bakterija i ćelija, do vas, najveće životinje koja je ikada živela i najvećeg drveta na Zemlji.",
       "metaDescription": "Život obuhvata više od deset redova veličine, od DNK heliksa širokog 2 nanometra, preko virusa, bakterija i ćelija, do najveće životinje ikada."
     },
     "phenomenon": {
@@ -2468,6 +2551,13 @@
       "seoTitle": "Svemirske letelice: MSS, Džejms Veb i Voyager 1",
       "intro": "Mašine koje smo poslali iznad neba: Međunarodna svemirska stanica, koja kruži na 400 km visine, teleskop Džejms Veb, 1,5 miliona km daleko, i Voyager 1, sada čitav svetlosni dan daleko, u međuzvezdanom prostoru.",
       "metaDescription": "Od MSS, 400 km iznad Zemlje, preko teleskopa Veb na 1,5 miliona km, do Voyagera 1, udaljenog svetlosni dan: naše letelice, veličine, brzine i udaljenosti."
+    },
+    "landmark": {
+      "short": "Znamenitosti",
+      "title": "Znamenitosti, od Velike piramide do Burdž Kalife",
+      "seoTitle": "Koliko su visoke znamenitosti? Piramida, Ajfel, Burdž",
+      "intro": "Najviše što su ljudi sagradili, svaka u svoje vreme rekorder: Velika piramida, najviša skoro četiri hiljade godina, Ajfelova kula od 330 metara i Burdž Kalifa od 828 metara — šest Velikih piramida jedna na drugoj.",
+      "metaDescription": "Od Velike piramide (139 m) preko Ajfelove kule (330 m) do Burdž Kalife (828 m): najviše građevine koje su ljudi podigli, u poređenju jedna sa drugom i sa vama."
     }
   }
 }

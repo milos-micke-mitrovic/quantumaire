@@ -25,6 +25,9 @@ export const COMPARE_PAIRS: Array<[string, string]> = [
   ["blue_whale", "human"],
   ["human", "tardigrade"],
   ["mount_everest", "human"],
+  ["burj_khalifa", "eiffel_tower"],
+  ["eiffel_tower", "pyramid"],
+  ["general_sherman", "blue_whale"],
   ["bacterium", "virus"],
   ["atom", "proton"],
 ];

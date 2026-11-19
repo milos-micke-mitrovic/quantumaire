@@ -16,7 +16,7 @@ import {
   LOCALES,
   SITE_URL,
 } from "@/lib/seo";
-import { formatRatio } from "@/lib/sizeFaq";
+import { capFirst, formatRatio, subjectName } from "@/lib/sizeFaq";
 import type { Locale, Stop } from "@/lib/types";
 
 export const dynamicParams = false;
@@ -35,8 +35,10 @@ interface PageProps {
 function describePair(locale: Locale, a: Stop, b: Stop) {
   const tm = (key: string) => tServer(locale, key);
   const name = (s: Stop) => tServer(locale, `${s.i18nKey}.name`);
-  const aName = name(a);
-  const bName = name(b);
+  // Titles use the bare names ("Burj Khalifa vs Eiffel Tower"); sentences
+  // use the article-bearing subject ("the Eiffel Tower", "a blue whale").
+  const aName = subjectName(a, locale);
+  const bName = subjectName(b, locale);
   const vars = { a: aName, b: bName };
   const lines: string[] = [];
   let big = aName;
@@ -51,14 +53,14 @@ function describePair(locale: Locale, a: Stop, b: Stop) {
       locale
     );
     lines.push(
-      tServer(locale, "common.comparePage.pairSize", {
+      capFirst(tServer(locale, "common.comparePage.pairSize", {
         ...vars,
         big,
         small,
         ratio,
         sizeA: formatMeters(a.sizeMeters, tm),
         sizeB: formatMeters(b.sizeMeters, tm),
-      })
+      }))
     );
   }
   const distA = a.id === "earth" ? null : a.distanceFromEarthMeters;
@@ -82,12 +84,10 @@ function describePair(locale: Locale, a: Stop, b: Stop) {
     );
   }
   return {
-    title: tServer(locale, "common.comparePage.pairTitle", vars),
-    description: tServer(locale, "common.comparePage.pairDescription", {
-      big,
-      small,
-      ratio,
-    }),
+    title: tServer(locale, "common.comparePage.pairTitle", { a: name(a), b: name(b) }),
+    description: capFirst(
+      tServer(locale, "common.comparePage.pairDescription", { big, small, ratio })
+    ),
     faqQ: tServer(locale, "common.comparePage.pairFaqQ", { big, small }),
     lines,
   };

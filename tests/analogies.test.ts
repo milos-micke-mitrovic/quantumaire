@@ -18,6 +18,22 @@ describe("buildAnalogies", () => {
     }
   });
 
+  it("never pairs a topic with itself as the familiar object", () => {
+    const self: Record<string, string> = {
+      earth: "earth",
+      sun: "sun",
+      eiffel_tower: "eiffel",
+      burj_khalifa: "burj",
+    };
+    for (const s of STOPS) {
+      for (const a of buildAnalogies(s, STOPS)) {
+        if (a.kind !== "size") continue;
+        expect(a.fromObject.id).not.toBe(self[a.fromId]);
+        expect(a.toObject.id).not.toBe(self[a.toId]);
+      }
+    }
+  });
+
   it("adds a distance comparison for Voyager 1", () => {
     const v = STOPS.find((s) => s.id === "voyager1")!;
     expect(buildAnalogies(v, STOPS).some((a) => a.kind === "distance")).toBe(true);

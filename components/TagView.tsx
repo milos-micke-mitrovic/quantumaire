@@ -19,7 +19,7 @@ export function TagView({ tag, stops }: { tag: string; stops: Stop[] }) {
           {t("common.title")}
         </Link>
         <span aria-hidden>/</span>
-        <span className="text-cosmos-star/80">{t(`tags.${tag}`)}</span>
+        <span className="text-cosmos-star/80">{t(`tagPages.${tag}.short`)}</span>
       </nav>
 
       <header className="max-w-3xl">

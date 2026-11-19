@@ -142,7 +142,75 @@
         "khufu"
       ],
       "tags": [
-        "ancient"
+        "ancient",
+        "landmark"
+      ]
+    },
+    {
+      "id": "eiffel_tower",
+      "i18nKey": "stops.eiffel_tower",
+      "sizeMeters": 330,
+      "order": 6.05,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/eiffel-tower.webp",
+        "aspect": "square",
+        "altKey": "stops.eiffel_tower.image.alt",
+        "credit": "Benh LIEU SONG — public domain"
+      },
+      "glossary": [
+        "wrought_iron",
+        "thermal_expansion"
+      ],
+      "tags": [
+        "landmark"
+      ]
+    },
+    {
+      "id": "burj_khalifa",
+      "i18nKey": "stops.burj_khalifa",
+      "sizeMeters": 828,
+      "order": 6.1,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/burj-khalifa.webp",
+        "aspect": "wide",
+        "altKey": "stops.burj_khalifa.image.alt",
+        "credit": "Laika ac — CC BY-SA 2.0 (cropped)"
+      },
+      "glossary": [
+        "vanity_height"
+      ],
+      "tags": [
+        "landmark"
+      ]
+    },
+    {
+      "id": "general_sherman",
+      "i18nKey": "stops.general_sherman",
+      "sizeMeters": 83.8,
+      "order": 4.85,
+      "badge": "FACT",
+      "category": "EARTH",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/general-sherman.webp",
+        "aspect": "square",
+        "altKey": "stops.general_sherman.image.alt",
+        "credit": "Jim Bahn — CC BY 2.0 (cropped)"
+      },
+      "glossary": [
+        "serotiny"
+      ],
+      "tags": [
+        "biology"
       ]
     },
     {

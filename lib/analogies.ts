@@ -98,6 +98,8 @@ function bestMatch(target: number, pool: Familiar[], exclude: Set<string>) {
 const SAME_AS_STOP: Record<string, string> = {
   earth: "earth",
   sun: "sun",
+  eiffel_tower: "eiffel",
+  burj_khalifa: "burj",
 };
 
 function sizeAnalogy(

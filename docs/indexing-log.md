@@ -39,6 +39,10 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/category/forces-and-spacetime
 - https://quantumaire.space/en/category/life-and-earth
 - remaining /en/compare/* pairs (added 2026-11-19, see lib/comparePairs.ts)
+- https://quantumaire.space/en/stop/eiffel_tower (new 2026-11-19)
+- https://quantumaire.space/en/stop/burj_khalifa (new 2026-11-19)
+- https://quantumaire.space/en/stop/general_sherman (new 2026-11-19)
+- https://quantumaire.space/en/tag/landmark (new 2026-11-19)
 - remaining /en/stop/* pages, then /sr/* equivalents
 
 ## Done

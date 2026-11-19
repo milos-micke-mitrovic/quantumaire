@@ -65,6 +65,44 @@
       "url": "https://www.britannica.com/science/dissociative-identity-disorder"
     }
   ],
+  "eiffel_tower": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eiffel_Tower"
+    },
+    {
+      "label": "Tour Eiffel (official)",
+      "url": "https://www.toureiffel.paris/en/the-monument/key-figures"
+    }
+  ],
+  "burj_khalifa": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+    },
+    {
+      "label": "CTBUH Skyscraper Center",
+      "url": "https://www.skyscrapercenter.com/building/burj-khalifa/3"
+    },
+    {
+      "label": "SOM",
+      "url": "https://www.som.com/projects/burj-khalifa/"
+    }
+  ],
+  "general_sherman": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/General_Sherman_(tree)"
+    },
+    {
+      "label": "National Park Service",
+      "url": "https://www.nps.gov/seki/learn/nature/sherman.htm"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sequoiadendron_giganteum"
+    }
+  ],
   "pyramid": [
     {
       "label": "Wikipedia",
