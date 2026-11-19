@@ -70,7 +70,8 @@
       "title": "Rečnik pojmova",
       "tagline": "Pojmova korišćenih na sajtu: {count} — svi definisani na jednom mestu.",
       "intro": "Svaka stručna reč koju koristimo na sajtu živi ovde, poređana po abecedi i pretraživa. Svaka stranica teme povezuje šačicu pojmova najvažnijih baš za nju — ali ako ste naišli na nešto nepoznato čitajući bilo koju stranicu, ovo je strana za sletanje. Definicije su namerno kratke; radije biste pročitali tri kraće nego prelistali jednu dugu.",
-      "filterPlaceholder": "Filtriraj pojmove…"
+      "filterPlaceholder": "Filtriraj pojmove…",
+      "usedIn": "Koristi se u"
     },
     "tools": "Alati",
     "scaleTool": {

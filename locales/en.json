@@ -70,7 +70,8 @@
       "title": "Glossary",
       "tagline": "{count} terms used across the site, defined in one place.",
       "intro": "Every technical word we use across the site lives here, alphabetised and searchable. Each topic's page links the handful of glossary terms most relevant to it — but if you ran into something unfamiliar reading any page, this is the page to land on. Definitions are deliberately short; we'd rather you read three of them than skim one long one.",
-      "filterPlaceholder": "Filter terms…"
+      "filterPlaceholder": "Filter terms…",
+      "usedIn": "Used in"
     },
     "tools": "Tools",
     "scaleTool": {

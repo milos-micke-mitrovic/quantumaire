@@ -1,6 +1,8 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import Link from "next/link";
+import { useEffect, useMemo, useState } from "react";
+import { STOPS } from "@/lib/content";
 import { m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 
@@ -9,8 +11,40 @@ function normalize(s: string): string {
 }
 
 export function GlossaryView({ keys }: { keys: string[] }) {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
+
+  // Reverse index: which topics use each term (glossary → topics links).
+  const usedIn = useMemo(() => {
+    const map = new Map<string, typeof STOPS>();
+    for (const s of STOPS) {
+      for (const g of s.glossary) map.set(g, [...(map.get(g) ?? []), s]);
+    }
+    return map;
+  }, []);
   const [query, setQuery] = useState("");
+  // Term the visitor arrived at (#g-<key>). Read from the hash ourselves:
+  // CSS :target doesn't update on client-side (pushState) navigation.
+  const [focusKey, setFocusKey] = useState<string | null>(null);
+  useEffect(() => {
+    const read = () => {
+      const m = /^#g-(.+)$/.exec(window.location.hash);
+      const key = m ? decodeURIComponent(m[1]) : null;
+      setFocusKey(key);
+      if (key) {
+        requestAnimationFrame(() =>
+          document
+            .getElementById(`g-${key}`)
+            ?.scrollIntoView({ block: "center", behavior: "smooth" })
+        );
+      }
+    };
+    const raf = requestAnimationFrame(read);
+    window.addEventListener("hashchange", read);
+    return () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener("hashchange", read);
+    };
+  }, []);
 
   const entries = useMemo(() => {
     return keys.map((key) => ({
@@ -91,7 +125,11 @@ export function GlossaryView({ keys }: { keys: string[] }) {
             <div
               key={entry.key}
               id={`g-${entry.key}`}
-              className="rounded-2xl border border-white/10 bg-white/[0.025] p-4 backdrop-blur-sm scroll-mt-24"
+              className={
+                entry.key === focusKey
+                  ? "scroll-mt-24 rounded-2xl border border-cosmos-plasma/70 bg-cosmos-aurora/[0.12] p-4 shadow-glow transition-colors"
+                  : "scroll-mt-24 rounded-2xl border border-white/10 bg-white/[0.025] p-4 backdrop-blur-sm transition-colors"
+              }
             >
               <dt className="font-display text-base font-semibold tracking-tight text-cosmos-plasma">
                 {entry.term}
@@ -99,6 +137,22 @@ export function GlossaryView({ keys }: { keys: string[] }) {
               <dd className="mt-1.5 text-sm leading-relaxed text-cosmos-star/80">
                 {entry.definition}
               </dd>
+              {(usedIn.get(entry.key)?.length ?? 0) > 0 && (
+                <dd className="mt-3 flex flex-wrap items-center gap-1.5">
+                  <span className="text-[10px] uppercase tracking-[0.18em] text-cosmos-star/45">
+                    {t("common.glossaryPage.usedIn")}
+                  </span>
+                  {usedIn.get(entry.key)!.map((s) => (
+                    <Link
+                      key={s.id}
+                      href={`/${locale}/stop/${s.id}`}
+                      className="rounded-full border border-white/10 px-2 py-0.5 text-xs text-cosmos-star/75 transition-colors hover:border-white/25 hover:text-cosmos-star"
+                    >
+                      {t(`${s.i18nKey}.name`)}
+                    </Link>
+                  ))}
+                </dd>
+              )}
             </div>
           ))
         )}
