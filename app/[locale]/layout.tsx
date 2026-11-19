@@ -39,14 +39,20 @@ export function generateStaticParams() {
 
 export const dynamicParams = false;
 
+/*
+ * `subsets` only decides which files are preloaded: every subset stays in the
+ * CSS (unicode-range), so Serbian č/ć/š/ž/đ still load latin-ext on demand.
+ * Preloading only latin saves ~100 KiB of high-priority requests that
+ * competed with the LCP image.
+ */
 const display = Space_Grotesk({
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
   variable: "--font-display",
   display: "swap",
 });
 
 const body = Inter({
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
   variable: "--font-body",
   display: "swap",
 });
