@@ -56,5 +56,8 @@
 - Between tool defaults to Human → Earth; StopCombobox reserves room for the detail so long names truncate; "cosmos" tag removed.
 - Code health: `lib/distance.ts` (StopDistanceCard deleted), `lib/text.ts normalize`, `SIZED_STOPS`, client dictionary falls back to English like tServer.
 
+## 2026-11-19 — categories merged
+- Human Mind + Ancient History (one topic each) → **Humankind** / „Čovečanstvo“ (`HUMANKIND`, `/category/humankind`); `/category/human-mind` and `/category/ancient-history` 308 there (next.config.ts). Test: every category has ≥ 2 topics.
+
 ## Next / ideas
-- Full audit done 2026-11-19 → `docs/AUDIT-PLAN.md` (phases 1–6, nothing ticked yet).
+- Audit plan: phases 1–5 done; Phase 6 left: 8 new topics, guide hero image + key-numbers table, dedupe toggle UIs. Daily GSC indexing (queue starts with compare pairs).

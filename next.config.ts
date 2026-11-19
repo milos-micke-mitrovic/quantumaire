@@ -40,7 +40,15 @@ const nextConfig: NextConfig = {
   },
   // Tags now covered by a guide: their short-lived /tag/ pages redirect.
   async redirects() {
+    // Human Mind + Ancient History were merged into Humankind.
+    const merged = ["human-mind", "ancient-history"].map((slug) => ({
+      source: `/:locale(en|sr)/category/${slug}`,
+      destination: "/:locale/category/humankind",
+      permanent: true,
+    }));
     return [
+      ...merged,
+      ...[
       ["star", "stars"],
       ["black-hole", "black-holes"],
       ["planet", "planet-sizes-compared"],
@@ -48,7 +56,8 @@ const nextConfig: NextConfig = {
       source: `/:locale(en|sr)/tag/${tag}`,
       destination: `/:locale/topics/${guide}`,
       permanent: true,
-    }));
+    })),
+    ];
   },
   experimental: {
     // app/global-not-found.tsx: there is one root layout per locale.

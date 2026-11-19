@@ -7,8 +7,7 @@ export type TrustBadge =
 export type Category =
   | "COSMOS"
   | "MICRO_WORLD"
-  | "HUMAN_MIND"
-  | "ANCIENT_HISTORY"
+  | "HUMANKIND"
   | "EARTH"
   | "PHYSICS";
 

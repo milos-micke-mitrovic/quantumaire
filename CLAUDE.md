@@ -39,7 +39,8 @@ autonomy: improve UI/UX/content/SEO/speed proactively, deploy yourself.
   facts.fact1..fact8, optional massNarrative, ifDistance, distanceName,
   insideNote. English size-FAQ phrases live in `sizeFaq.subjects`.
 - Categories (`lib/content.ts`): MICRO_WORLD, EARTH ("Life & Earth"),
-  HUMAN_MIND, ANCIENT_HISTORY, PHYSICS ("Forces & Spacetime"), COSMOS.
+  HUMANKIND (merged from Human Mind + Ancient History; old URLs 308),
+  PHYSICS ("Forces & Spacetime"), COSMOS.
 - Tags → `/tag/[tag]` collection pages (`lib/tags.ts`) for tags with ≥2
   topics, except tags a guide covers (`Topic.tag` in `lib/topics.ts`) —
   those link to the guide and `/tag/x` 308-redirects (next.config.ts).

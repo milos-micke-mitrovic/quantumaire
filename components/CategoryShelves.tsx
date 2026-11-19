@@ -18,8 +18,7 @@ const SHELF_ORDER: Category[] = [
   "EARTH",
   "PHYSICS",
   "COSMOS",
-  "HUMAN_MIND",
-  "ANCIENT_HISTORY",
+  "HUMANKIND",
 ];
 
 interface Shelf {

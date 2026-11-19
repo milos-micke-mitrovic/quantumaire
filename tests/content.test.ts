@@ -16,8 +16,11 @@ describe("content registry", () => {
     expect(STOPS.length).toBeGreaterThanOrEqual(20);
   });
 
-  it("has 6 categories defined", () => {
-    expect(CATEGORIES).toHaveLength(6);
+  it("has 5 categories, none of them a single-topic hub", () => {
+    expect(CATEGORIES).toHaveLength(5);
+    for (const c of CATEGORIES) {
+      expect(STOPS.filter((s) => s.category === c).length, c).toBeGreaterThanOrEqual(2);
+    }
   });
 
   it("sorts stops by ascending order field", () => {

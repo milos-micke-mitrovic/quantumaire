@@ -17,16 +17,14 @@ export const COMPARISON: ScaleComparison = content.comparison;
 export const CATEGORIES: Category[] = [
   "MICRO_WORLD",
   "EARTH",
-  "HUMAN_MIND",
-  "ANCIENT_HISTORY",
+  "HUMANKIND",
   "PHYSICS",
   "COSMOS",
 ];
 
 const SLUG_BY_CATEGORY: Record<Category, string> = {
   MICRO_WORLD: "micro-world",
-  HUMAN_MIND: "human-mind",
-  ANCIENT_HISTORY: "ancient-history",
+  HUMANKIND: "humankind",
   EARTH: "life-and-earth",
   PHYSICS: "forces-and-spacetime",
   COSMOS: "cosmos",

@@ -43,8 +43,7 @@ interface ScaleExplorerProps {
 export const CATEGORY_DOT: Record<Category, string> = {
   MICRO_WORLD: "bg-cyan-300",
   EARTH: "bg-emerald-300",
-  HUMAN_MIND: "bg-violet-300",
-  ANCIENT_HISTORY: "bg-amber-300",
+  HUMANKIND: "bg-amber-300",
   PHYSICS: "bg-pink-300",
   COSMOS: "bg-cosmos-plasma",
 };
