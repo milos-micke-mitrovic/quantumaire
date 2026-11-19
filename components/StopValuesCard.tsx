@@ -25,8 +25,17 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
     typeof stop.distanceFromEarthMeters === "number" &&
     stop.distanceFromEarthMeters > 0;
   const hasTemp = typeof stop.temperatureKelvin === "number";
+  const insideNote =
+    !hasDistance && stop.insideNoteKey ? t(stop.insideNoteKey) : null;
+  // Things we sit inside (Solar System, Laniakea, …) carry a positional
+  // label like "Edge of the Solar System" — clearer than "from Earth".
+  const distanceLabel = stop.distanceNameKey
+    ? t(stop.distanceNameKey)
+    : t("common.distanceFromEarth");
   const statCount =
-    (hasSize ? 1 : 0) + (hasDistance ? 1 : 0) + (hasTemp ? 1 : 0);
+    (hasSize ? 1 : 0) +
+    (hasDistance || insideNote ? 1 : 0) +
+    (hasTemp ? 1 : 0);
 
   if (statCount === 0) return null;
 
@@ -52,10 +61,20 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
             </dd>
           </div>
         )}
-        {hasDistance && (
+        {insideNote && (
           <div>
             <dt className="text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
               {t("common.distanceFromEarth")}
+            </dt>
+            <dd className="mt-2 text-sm leading-snug text-cosmos-plasma sm:text-base">
+              {insideNote}
+            </dd>
+          </div>
+        )}
+        {hasDistance && (
+          <div>
+            <dt className="text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
+              {distanceLabel}
             </dt>
             <dd className="mt-2 whitespace-nowrap font-mono text-base text-cosmos-plasma sm:text-lg">
               {formatMeters(stop.distanceFromEarthMeters!, t, units)}

@@ -1,19 +1,13 @@
 "use client";
 
 import clsx from "clsx";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 import { AnimatePresence, m as motion } from "framer-motion";
 import { SUPPORTED_LOCALES, useI18n } from "@/lib/i18n";
 import { useUnits, type UnitSystem } from "@/lib/units";
 import { TempUnitSwitcher } from "./TempUnitSwitcher";
 import type { Locale } from "@/lib/types";
-
-interface NavItem {
-  href: string;
-  label: string;
-}
+import { NavGroups } from "./NavGroups";
 
 const LOCALE_LABELS: Record<Locale, string> = {
   en: "EN",
@@ -36,7 +30,6 @@ const UNIT_OPTIONS: Array<{ value: UnitSystem; labelKey: string }> = [
 export function MobileNav() {
   const { t, locale, setLocale } = useI18n();
   const { units, setUnits } = useUnits();
-  const pathname = usePathname() ?? "";
   const [open, setOpen] = useState(false);
   const close = useCallback(() => setOpen(false), []);
 
@@ -53,17 +46,6 @@ export function MobileNav() {
     };
   }, [open, close]);
 
-  const items: NavItem[] = [
-    { href: `/${locale}/about`, label: t("common.about") },
-    { href: `/${locale}/topics`, label: t("topicsIndex.title") },
-    { href: `/${locale}/glossary`, label: t("common.glossary") },
-    { href: `/${locale}/tools/scale`, label: t("common.scaleTool.title") },
-    { href: `/${locale}/tools/between`, label: t("common.betweenTool.title") },
-    { href: `/${locale}/compare`, label: t("common.compare") },
-    { href: `/${locale}/favorites`, label: t("common.bookmarksTitle") },
-    { href: `/${locale}/progress`, label: t("common.progress.title") },
-    { href: `/${locale}/random`, label: t("common.random") },
-  ];
 
   return (
     <>
@@ -134,36 +116,7 @@ export function MobileNav() {
               </div>
 
               <nav className="flex-1 overflow-y-auto p-2">
-                {items.map((item) => {
-                  const isActive = pathname === item.href;
-                  return (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      onClick={close}
-                      className={clsx(
-                        "flex items-center justify-between rounded-xl px-3 py-3 text-sm transition-colors",
-                        isActive
-                          ? "bg-white/[0.08] text-cosmos-star"
-                          : "text-cosmos-star/85 hover:bg-white/[0.05] hover:text-cosmos-star"
-                      )}
-                    >
-                      {item.label}
-                      <svg
-                        aria-hidden
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className="h-3.5 w-3.5 opacity-40"
-                      >
-                        <path d="M9 6l6 6-6 6" />
-                      </svg>
-                    </Link>
-                  );
-                })}
+                <NavGroups variant="drawer" onNavigate={close} />
               </nav>
 
               <div className="border-t border-white/10 p-4 space-y-4">

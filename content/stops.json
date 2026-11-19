@@ -395,8 +395,7 @@
       "id": "milky_way",
       "i18nKey": "stops.milky_way",
       "sizeMeters": 1E+21,
-      "distanceFromEarthMeters": 500000000000000000000,
-      "distanceNameKey": "stops.milky_way.distanceName",
+      "insideNoteKey": "stops.milky_way.insideNote",
       "order": 11,
       "badge": "FACT",
       "category": "COSMOS",
@@ -1648,7 +1647,7 @@
       "sizeMeters": 0.0005,
       "order": 4.65,
       "badge": "FACT",
-      "category": "MICRO_WORLD",
+      "category": "EARTH",
       "accent": "text-badge-fact",
       "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
       "image": {

@@ -212,6 +212,20 @@
     "shelves": {
       "moreTitle": "Još zanimljivosti",
       "seeAll": "Sve ({count})"
+    },
+    "nav": {
+      "explore": "Istraži",
+      "tools": "Alati",
+      "yours": "Tvoje",
+      "topicsDesc": "Vođena čitanja: koliki je svemir, veličine planeta…",
+      "glossaryDesc": "Svaki pojam objašnjen u rečenici-dve",
+      "randomDesc": "Skoči na nasumičnu stanicu",
+      "compareDesc": "Uporedi bilo koje dve stanice",
+      "scaleDesc": "Smanji Zemlju na zrno peska — vidi ostalo",
+      "betweenDesc": "Pronađi šta staje između dve veličine",
+      "favoritesDesc": "Stanice koje si sačuvao srcem",
+      "progressDesc": "Koliki deo putovanja si video",
+      "categories": "Kategorije"
     }
   },
   "home": {
@@ -524,7 +538,6 @@
     },
     "milky_way": {
       "name": "Mlečni put",
-      "distanceName": "Preko Mlečnog puta",
       "tagline": "Spirala sa prečkom od stotina milijardi zvezda — uključujući našu.",
       "body": "Mlečni put je spiralna galaksija sa prečnikom od oko 100.000 svetlosnih godina. Naše Sunce je jedna od stotina milijardi zvezda u njoj, jaše tihim krakom zvanim Orion. U samom centru je Sagittarius A* — supermasivna crna rupa četiri miliona puta masivnija od Sunca.",
       "narrative": "Kada bi Mlečni put bio sveden na veličinu Francuske, čitav naš Sunčev sistem stao bi u jedan novčić.",
@@ -538,7 +551,8 @@
         "fact2": "Sadrži procenjenih 100 do 400 milijardi zvezda.",
         "fact3": "Sagittarius A* u centru je crna rupa od 4 miliona solarnih masa.",
         "fact4": "Naše Sunce obilazi galaktički centar otprilike svakih 230 miliona godina."
-      }
+      },
+      "insideNote": "Mi smo u njemu — oko 26.000 svetlosnih godina od centra"
     },
     "dark_matter": {
       "name": "Tamna materija",

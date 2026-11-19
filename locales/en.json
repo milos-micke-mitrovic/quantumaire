@@ -212,6 +212,20 @@
     "shelves": {
       "moreTitle": "More curiosities",
       "seeAll": "See all {count}"
+    },
+    "nav": {
+      "explore": "Explore",
+      "tools": "Tools",
+      "yours": "Yours",
+      "topicsDesc": "Guided reads: how big is the universe, planet sizes…",
+      "glossaryDesc": "Every term explained in a sentence or two",
+      "randomDesc": "Jump to a surprise stop",
+      "compareDesc": "Put any two stops side by side",
+      "scaleDesc": "Shrink Earth to a grain of sand — see the rest",
+      "betweenDesc": "Find what fits between two sizes",
+      "favoritesDesc": "Stops you saved with the heart",
+      "progressDesc": "How much of the journey you've seen",
+      "categories": "Categories"
     }
   },
   "home": {
@@ -524,7 +538,6 @@
     },
     "milky_way": {
       "name": "Milky Way",
-      "distanceName": "Across the Milky Way",
       "tagline": "A barred spiral of hundreds of billions of stars — including ours.",
       "body": "The Milky Way is a barred spiral galaxy about 100,000 light-years across. Our Sun is one of hundreds of billions of stars in it, riding a quiet arm called Orion. At the very centre is Sagittarius A* — a supermassive black hole four million times the mass of the Sun.",
       "narrative": "If the Milky Way were shrunk to the size of France, the entire Solar System would fit inside a coin.",
@@ -538,7 +551,8 @@
         "fact2": "Contains an estimated 100 to 400 billion stars.",
         "fact3": "Sagittarius A* at the centre is a 4-million-solar-mass black hole.",
         "fact4": "Our Sun orbits the galactic centre roughly every 230 million years."
-      }
+      },
+      "insideNote": "We're inside it — about 26,000 light-years from its centre"
     },
     "dark_matter": {
       "name": "Dark Matter",

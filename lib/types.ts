@@ -89,6 +89,11 @@ export interface Stop {
    */
   distanceNameKey?: string;
   /**
+   * For things we live inside (the Milky Way), a sentence shown instead of
+   * a "distance from Earth" number, e.g. "We're inside it — …".
+   */
+  insideNoteKey?: string;
+  /**
    * Override the auto-picked reference for the "real scale" visual on the
    * stop detail page. `pickReference` chooses by nearest log-size, which is
    * sometimes wrong conceptually (e.g. UY Scuti is best compared to the

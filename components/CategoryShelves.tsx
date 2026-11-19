@@ -81,13 +81,34 @@ export function CategoryShelves() {
                     />
                   ))}
                 </span>
-                {shelf.title}
+                {shelf.href ? (
+                  <Link
+                    href={shelf.href}
+                    className="transition-colors hover:text-cosmos-plasma"
+                  >
+                    {shelf.title}
+                  </Link>
+                ) : (
+                  shelf.title
+                )}
                 <span className="font-mono text-sm font-normal text-cosmos-star/40">
                   {shelf.stops.length}
                 </span>
               </h3>
               <p className="mt-1 text-sm text-cosmos-star/65">
-                {shelf.description}
+                {shelf.href
+                  ? shelf.description
+                  : shelf.categories.map((c, i) => (
+                      <span key={c}>
+                        {i > 0 && " · "}
+                        <Link
+                          href={`/${locale}/category/${categorySlug(c)}`}
+                          className="underline decoration-white/20 underline-offset-4 transition-colors hover:text-cosmos-star"
+                        >
+                          {t(`categories.${c}`)}
+                        </Link>
+                      </span>
+                    ))}
               </p>
             </div>
             {shelf.href && (
