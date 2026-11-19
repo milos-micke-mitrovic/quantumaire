@@ -16,7 +16,7 @@ interface StopDistanceCardProps {
 }
 
 /** Distance references that correspond to a real journey stop. */
-const REFERENCE_TO_STOP_ID: Record<string, string> = {
+export const DISTANCE_REFERENCE_TO_STOP_ID: Record<string, string> = {
   moonDistance: "moon",
   au: "sun",
   proximaCentauri: "proxima_centauri",
@@ -29,7 +29,7 @@ interface DistanceVisual {
   stopFarther: boolean;
 }
 
-function computeDistance(stop: Stop): DistanceVisual | null {
+export function computeDistance(stop: Stop): DistanceVisual | null {
   if (
     typeof stop.distanceFromEarthMeters !== "number" ||
     stop.distanceFromEarthMeters <= 0
@@ -87,7 +87,7 @@ export function StopDistanceCard({ stop }: StopDistanceCardProps) {
 
   const stopName = t(`${stop.i18nKey}.name`);
   const refName = t(`referenceLabels.${visual.reference.id}`);
-  const refStopId = REFERENCE_TO_STOP_ID[visual.reference.id];
+  const refStopId = DISTANCE_REFERENCE_TO_STOP_ID[visual.reference.id];
   const refStopHref = refStopId ? `/${locale}/stop/${refStopId}` : null;
   const ratioFactor = formatFactor(visual.ratio, t);
   const ratioLabelKey = visual.stopFarther

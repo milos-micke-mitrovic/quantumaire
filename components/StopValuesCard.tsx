@@ -1,7 +1,13 @@
 "use client";
 
 import clsx from "clsx";
+import Link from "next/link";
 import { useI18n } from "@/lib/i18n";
+import { formatFactor } from "@/lib/references";
+import {
+  DISTANCE_REFERENCE_TO_STOP_ID,
+  computeDistance,
+} from "./StopDistanceCard";
 import { formatLightTime, formatMeters, formatTemperature } from "@/lib/scale";
 import { useTempUnit, useUnits } from "@/lib/units";
 import type { Stop } from "@/lib/types";
@@ -16,7 +22,7 @@ interface StopValuesCardProps {
  * of these axes (abstract phenomena like dark matter, dark energy, DID).
  */
 export function StopValuesCard({ stop }: StopValuesCardProps) {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const { units } = useUnits();
   const { tempUnit } = useTempUnit();
 
@@ -41,7 +47,7 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
 
   return (
     <section
-      aria-label={t("common.quickFacts")}
+      aria-label={t("common.keyNumbers")}
       className="mt-8 rounded-3xl border border-white/10 bg-white/[0.03] px-5 py-6 sm:px-8 sm:py-7"
     >
       <dl
@@ -86,6 +92,7 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
                   {formatLightTime(stop.distanceFromEarthMeters, t)}
                 </span>
               )}
+              <DistanceCompare stop={stop} t={t} locale={locale} />
             </dd>
           </div>
         )}
@@ -101,5 +108,42 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
         )}
       </dl>
     </section>
+  );
+}
+
+/** "2.7× closer than Proxima Centauri →" — the distance put in context. */
+function DistanceCompare({
+  stop,
+  t,
+  locale,
+}: {
+  stop: Stop;
+  t: (key: string, vars?: Record<string, string | number>) => string;
+  locale: string;
+}) {
+  const visual = computeDistance(stop);
+  if (!visual) return null;
+  const refName = t(`referenceLabels.${visual.reference.id}`);
+  const refStopId = DISTANCE_REFERENCE_TO_STOP_ID[visual.reference.id];
+  const text = t(
+    visual.stopFarther
+      ? "common.distanceCompare.fartherThan"
+      : "common.distanceCompare.closerThan",
+    { factor: formatFactor(visual.ratio, t) }
+  );
+  return (
+    <span className="mt-1 block whitespace-normal font-sans text-xs text-cosmos-star/60">
+      {text}{" "}
+      {refStopId ? (
+        <Link
+          href={`/${locale}/stop/${refStopId}`}
+          className="text-cosmos-star/80 underline decoration-cosmos-aurora/40 decoration-dotted underline-offset-4 hover:text-cosmos-aurora"
+        >
+          {refName}
+        </Link>
+      ) : (
+        refName
+      )}
+    </span>
   );
 }

@@ -32,7 +32,9 @@
       "farther": "{stop} is roughly {factor}× farther from Earth than {reference}.",
       "closer": "{stop} is roughly {factor}× closer to Earth than {reference}.",
       "fartherLabel": "farther from Earth",
-      "closerLabel": "closer to Earth"
+      "closerLabel": "closer to Earth",
+      "fartherThan": "{factor}× farther than",
+      "closerThan": "{factor}× closer than"
     },
     "distanceLegend": "Real log scale from Earth outward — tap a dot or use ← → to step through.",
     "viewBySize": "By size",
@@ -227,7 +229,8 @@
       "progressDesc": "How much of the journey you've seen",
       "categories": "Categories"
     },
-    "heroCredit": "Background: Webb's First Deep Field — NASA, ESA, CSA, STScI"
+    "heroCredit": "Background: Webb's First Deep Field — NASA, ESA, CSA, STScI",
+    "keyNumbers": "Key numbers"
   },
   "home": {
     "faq": {

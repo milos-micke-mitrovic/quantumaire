@@ -1,4 +1,8 @@
 import { ImageResponse } from "next/og";
+import { logoSvg } from "@/lib/logo";
+
+const LOGO_PX = 56;
+const LOGO_DATA_URI = `data:image/svg+xml;utf8,${encodeURIComponent(logoSvg())}`;
 import { LOCALES } from "@/lib/seo";
 import { tServer } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/types";
@@ -50,24 +54,17 @@ export default async function Image({
             color: "#c084fc",
           }}
         >
-          <div
-            style={{
-              width: 12,
-              height: 12,
-              borderRadius: 9999,
-              background: "linear-gradient(135deg,#7c5cff,#f0abfc)",
-            }}
-          />
+          <img src={LOGO_DATA_URI} width={LOGO_PX} height={LOGO_PX} alt="" />
           {title}
         </div>
 
         <div
           style={{
             marginTop: 32,
-            fontSize: 88,
+            fontSize: 72,
             lineHeight: 1.05,
             fontWeight: 600,
-            background: "linear-gradient(135deg,#7c5cff,#c084fc,#f0abfc)",
+            background: "linear-gradient(180deg,#ffffff 0%,#e0f2fe 45%,#c4b5fd 100%)",
             backgroundClip: "text",
             color: "transparent",
             maxWidth: 980,

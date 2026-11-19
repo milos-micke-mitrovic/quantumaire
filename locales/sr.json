@@ -32,7 +32,9 @@
       "farther": "{stop} je otprilike {factor}× dalje od Zemlje nego {reference}.",
       "closer": "{stop} je otprilike {factor}× bliže Zemlji nego {reference}.",
       "fartherLabel": "dalje od Zemlje",
-      "closerLabel": "bliže Zemlji"
+      "closerLabel": "bliže Zemlji",
+      "fartherThan": "{factor}× dalje od:",
+      "closerThan": "{factor}× bliže od:"
     },
     "distanceLegend": "Stvarna logaritamska skala od Zemlje naviše — dodirni tačku ili koristi ← →.",
     "viewBySize": "Po veličini",
@@ -227,7 +229,8 @@
       "progressDesc": "Koliki deo putovanja si video",
       "categories": "Kategorije"
     },
-    "heroCredit": "Pozadina: Vebovo prvo duboko polje — NASA, ESA, CSA, STScI"
+    "heroCredit": "Pozadina: Vebovo prvo duboko polje — NASA, ESA, CSA, STScI",
+    "keyNumbers": "Ključni brojevi"
   },
   "home": {
     "faq": {

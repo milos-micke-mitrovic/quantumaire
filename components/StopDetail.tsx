@@ -23,7 +23,6 @@ import { QuickFacts } from "./QuickFacts";
 import { Sources } from "./Sources";
 import { StopCard } from "./StopCard";
 import { StopComparisonCard } from "./StopComparisonCard";
-import { StopDistanceCard } from "./StopDistanceCard";
 import { StopTags } from "./StopTags";
 import { StopValuesCard } from "./StopValuesCard";
 import { Fragment, type ReactNode } from "react";
@@ -172,16 +171,6 @@ export function StopDetail({
 
       <StopValuesCard stop={stop} />
       <StopComparisonCard stop={stop} />
-      <StopDistanceCard stop={stop} />
-
-      <div className="mt-6 space-y-3">
-        <ComparisonStrip
-          sizeMeters={stop.sizeMeters}
-          i18nKey={stop.i18nKey}
-        />
-        <IfDistancePanel i18nKey={stop.i18nKey} />
-        <MassStrip i18nKey={stop.i18nKey} />
-      </div>
 
       <motion.section
         initial={{ opacity: 0, y: 16 }}
@@ -218,6 +207,15 @@ export function StopDetail({
           </div>
         )}
       </motion.section>
+
+      <div className="mt-6 space-y-3">
+        <ComparisonStrip
+          sizeMeters={stop.sizeMeters}
+          i18nKey={stop.i18nKey}
+        />
+        <IfDistancePanel i18nKey={stop.i18nKey} />
+        <MassStrip i18nKey={stop.i18nKey} />
+      </div>
 
       <FunFactPanel i18nKey={stop.i18nKey} />
 

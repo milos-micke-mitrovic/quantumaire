@@ -1,4 +1,17 @@
 import { ImageResponse } from "next/og";
+import { logoSvg } from "@/lib/logo";
+
+/** The OG font has no superscript minus; spell powers of ten as "10^-35". */
+function ogSafe(text: string): string {
+  const sup = "⁻⁰¹²³⁴⁵⁶⁷⁸⁹";
+  const plain = "-0123456789";
+  return text.replace(/[⁻⁰¹²³⁴⁵⁶⁷⁸⁹]+/g, (m) =>
+    "^" + [...m].map((c) => plain[sup.indexOf(c)]).join("")
+  );
+}
+
+const LOGO_PX = 48;
+const LOGO_DATA_URI = `data:image/svg+xml;utf8,${encodeURIComponent(logoSvg())}`;
 import { STOPS, getStop } from "@/lib/content";
 import { LOCALES } from "@/lib/seo";
 import { tServer } from "@/lib/i18n-server";
@@ -69,14 +82,7 @@ export default async function Image({
             color: "rgba(224,242,254,0.7)",
           }}
         >
-          <div
-            style={{
-              width: 12,
-              height: 12,
-              borderRadius: 9999,
-              background: "linear-gradient(135deg,#7c5cff,#f0abfc)",
-            }}
-          />
+          <img src={LOGO_DATA_URI} width={LOGO_PX} height={LOGO_PX} alt="" />
           Quantumaire · {category}
         </div>
 
@@ -114,7 +120,7 @@ export default async function Image({
               fontSize: 96,
               lineHeight: 1.05,
               fontWeight: 600,
-              background: "linear-gradient(135deg,#7c5cff,#c084fc,#f0abfc)",
+              background: "linear-gradient(180deg,#ffffff 0%,#e0f2fe 45%,#c4b5fd 100%)",
               backgroundClip: "text",
               color: "transparent",
               maxWidth: 1040,
@@ -146,9 +152,9 @@ export default async function Image({
             color: "rgba(224,242,254,0.55)",
           }}
         >
-          <span>
+          <span style={{ textTransform: "none", letterSpacing: 1 }}>
             {stop.sizeMeters !== null
-              ? formatMeters(stop.sizeMeters, (k) => tServer(locale, k))
+              ? ogSafe(formatMeters(stop.sizeMeters, (k) => tServer(locale, k)))
               : tServer(locale, "common.abstract")}
           </span>
           <span>quantumaire · {locale.toUpperCase()}</span>
