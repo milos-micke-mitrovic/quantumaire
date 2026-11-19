@@ -195,7 +195,8 @@
       "hour": "≈ {value} light-hours",
       "dayOne": "≈ {value} light-day",
       "day": "≈ {value} light-days",
-      "hint": "How long light takes to cover this distance"
+      "hint": "How long light takes to cover this distance",
+      "sizeHint": "How long light takes to cross it"
     },
     "temperatureUnit": "Temperature",
     "explorer": {
@@ -230,7 +231,8 @@
       "categories": "Categories"
     },
     "heroCredit": "Background: Webb's First Deep Field — NASA, ESA, CSA, STScI",
-    "keyNumbers": "Key numbers"
+    "keyNumbers": "Key numbers",
+    "measuredTo": "measured to: {place}"
   },
   "home": {
     "faq": {

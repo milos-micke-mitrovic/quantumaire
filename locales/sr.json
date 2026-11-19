@@ -195,7 +195,8 @@
       "hour": "svetlost: ≈ {value} h",
       "dayOne": "svetlost: ≈ {value} dan",
       "day": "svetlost: ≈ {value} dana",
-      "hint": "Koliko je svetlosti potrebno da pređe ovu udaljenost"
+      "hint": "Koliko je svetlosti potrebno da pređe ovu udaljenost",
+      "sizeHint": "Koliko je svetlosti potrebno da ga pređe"
     },
     "temperatureUnit": "Temperatura",
     "explorer": {
@@ -230,7 +231,8 @@
       "categories": "Kategorije"
     },
     "heroCredit": "Pozadina: Vebovo prvo duboko polje — NASA, ESA, CSA, STScI",
-    "keyNumbers": "Ključni brojevi"
+    "keyNumbers": "Ključni brojevi",
+    "measuredTo": "mereno do: {place}"
   },
   "home": {
     "faq": {

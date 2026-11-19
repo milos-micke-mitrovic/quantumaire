@@ -33,11 +33,13 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
   const hasTemp = typeof stop.temperatureKelvin === "number";
   const insideNote =
     !hasDistance && stop.insideNoteKey ? t(stop.insideNoteKey) : null;
-  // Things we sit inside (Solar System, Laniakea, …) carry a positional
-  // label like "Edge of the Solar System" — clearer than "from Earth".
-  const distanceLabel = stop.distanceNameKey
-    ? t(stop.distanceNameKey)
-    : t("common.distanceFromEarth");
+  // Things we sit inside (Solar System, Laniakea, …) are measured to a
+  // specific point; say which, under the plain "Distance from Earth".
+  const measuredTo = stop.distanceNameKey
+    ? t("common.measuredTo", {
+        place: lowerFirst(t(stop.distanceNameKey)),
+      })
+    : null;
   const statCount =
     (hasSize ? 1 : 0) +
     (hasDistance || insideNote ? 1 : 0) +
@@ -64,6 +66,14 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
             </dt>
             <dd className="mt-2 whitespace-nowrap font-mono text-base text-cosmos-plasma sm:text-lg">
               {formatMeters(stop.sizeMeters!, t, units)}
+              {formatLightTime(stop.sizeMeters, t) && (
+                <span
+                  title={t("common.lightTime.sizeHint")}
+                  className="mt-1 block font-sans text-xs text-cosmos-star/55"
+                >
+                  {formatLightTime(stop.sizeMeters, t)}
+                </span>
+              )}
             </dd>
           </div>
         )}
@@ -80,7 +90,7 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
         {hasDistance && (
           <div>
             <dt className="text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
-              {distanceLabel}
+              {t("common.distanceFromEarth")}
             </dt>
             <dd className="mt-2 whitespace-nowrap font-mono text-base text-cosmos-plasma sm:text-lg">
               {formatMeters(stop.distanceFromEarthMeters!, t, units)}
@@ -90,6 +100,11 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
                   className="mt-1 block font-sans text-xs text-cosmos-star/55"
                 >
                   {formatLightTime(stop.distanceFromEarthMeters, t)}
+                </span>
+              )}
+              {measuredTo && (
+                <span className="mt-1 block font-sans text-xs text-cosmos-star/55">
+                  {measuredTo}
                 </span>
               )}
               <DistanceCompare stop={stop} t={t} locale={locale} />
@@ -146,4 +161,8 @@ function DistanceCompare({
       )}
     </span>
   );
+}
+
+function lowerFirst(text: string): string {
+  return text.charAt(0).toLocaleLowerCase() + text.slice(1);
 }
