@@ -87,6 +87,6 @@ export const config = {
   matcher: [
     // Run on every page request; exclude static assets, Next.js internals,
     // and any path with a file extension we don't render through Next.
-    "/((?!_next/|api/|.*\\.(?:ico|svg|png|jpg|jpeg|webp|gif|avif|woff2?|ttf|eot|css|js|json|map|txt|xml)$).*)",
+    "/((?!_next/|api/|.*\\.(?:ico|svg|png|jpg|jpeg|webp|gif|avif|woff2?|ttf|eot|css|js|json|map|txt|xml|webmanifest)$).*)",
   ],
 };
