@@ -13,7 +13,9 @@ import {
 import { AnimatePresence, m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { BodyPortal } from "./BodyPortal";
-import { STOPS, categorySlug } from "@/lib/content";
+import { CATEGORIES, STOPS, categorySlug } from "@/lib/content";
+import { TAG_PAGES } from "@/lib/tags";
+import { TOPICS } from "@/lib/topics";
 import type { Stop } from "@/lib/types";
 import { formatMeters } from "@/lib/scale";
 import { useUnits } from "@/lib/units";
@@ -28,6 +30,15 @@ interface IndexedStop {
   name: string;
   tagline: string;
   category: string;
+}
+
+interface ExtraEntry {
+  kind: "category" | "collection" | "guide" | "tool";
+  href: string;
+  title: string;
+  subtitle: string;
+  name: string;
+  haystack: string;
 }
 
 function scoreStop(item: IndexedStop, q: string): number {
@@ -81,6 +92,83 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
       .map((r) => r.item);
   }, [indexed, query]);
 
+  // Non-topic pages: categories, tag collections, guides and tools.
+  const extras = useMemo<ExtraEntry[]>(() => {
+    const out: ExtraEntry[] = [];
+    for (const c of CATEGORIES) {
+      const title = t(`categories.${c}`);
+      out.push({
+        kind: "category",
+        href: `/${locale}/category/${categorySlug(c)}`,
+        title,
+        subtitle: t(`categories.${c}.description`),
+        name: normalize(title),
+        haystack: normalize(`${title} ${t(`categories.${c}.description`)}`),
+      });
+    }
+    for (const tag of TAG_PAGES) {
+      const title = t(`tagPages.${tag}.short`);
+      out.push({
+        kind: "collection",
+        href: `/${locale}/tag/${tag}`,
+        title,
+        subtitle: t(`tagPages.${tag}.title`),
+        name: normalize(title),
+        haystack: normalize(`${title} ${t(`tags.${tag}`)} ${t(`tagPages.${tag}.title`)}`),
+      });
+    }
+    for (const g of TOPICS) {
+      const title = t(`${g.i18nKey}.title`);
+      out.push({
+        kind: "guide",
+        href: `/${locale}/topics/${g.slug}`,
+        title,
+        subtitle: t(`${g.i18nKey}.tagline`),
+        name: normalize(title),
+        haystack: normalize(`${title} ${t(`${g.i18nKey}.tagline`)}`),
+      });
+    }
+    const tools: Array<[string, string, string, string]> = [
+      ["tools/scale", "common.converter.title", "common.converter.tagline", "convert converter au km mile light-year parsec megaparsec astronomical unit distance"],
+      ["compare", "common.comparePage.title", "common.nav.compareDesc", "compare versus vs"],
+      ["tools/between", "common.betweenTool.title", "common.betweenTool.tagline", "between range"],
+    ];
+    for (const [path, titleKey, subKey, keywords] of tools) {
+      const title = t(titleKey);
+      out.push({
+        kind: "tool",
+        href: `/${locale}/${path}`,
+        title,
+        subtitle: t(subKey),
+        name: normalize(title),
+        haystack: normalize(`${title} ${t(subKey)} ${keywords}`),
+      });
+    }
+    return out;
+  }, [t, locale]);
+
+  const extraResults = useMemo(() => {
+    const q = normalize(query.trim());
+    if (!q) return [];
+    return extras
+      .map((e) => ({
+        e,
+        score:
+          e.name === q ? 100 : e.name.startsWith(q) ? 80 : e.name.includes(q) ? 60 : e.haystack.includes(q) ? 25 : 0,
+      }))
+      .filter((r) => r.score > 0)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 5)
+      .map((r) => r.e);
+  }, [extras, query]);
+
+  // One flat list for keyboard navigation: pages first, then topics.
+  const total = extraResults.length + results.length;
+  const hrefAt = (i: number) =>
+    i < extraResults.length
+      ? extraResults[i].href
+      : `/${locale}/stop/${results[i - extraResults.length].stop.id}`;
+
   useEffect(() => {
     const id = window.setTimeout(() => inputRef.current?.focus(), 30);
     document.body.style.overflow = "hidden";
@@ -101,15 +189,14 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
   const onKeyDownInput = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "ArrowDown") {
       e.preventDefault();
-      setActiveIndex((i) => Math.min(results.length - 1, i + 1));
+      setActiveIndex((i) => Math.min(total - 1, i + 1));
     } else if (e.key === "ArrowUp") {
       e.preventDefault();
       setActiveIndex((i) => Math.max(0, i - 1));
     } else if (e.key === "Enter") {
-      const target = results[activeIndex];
-      if (target) {
+      if (activeIndex < total) {
         e.preventDefault();
-        router.push(`/${locale}/stop/${target.stop.id}`);
+        router.push(hrefAt(activeIndex));
         onClose();
       }
     }
@@ -156,7 +243,8 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
           </svg>
           <input
             ref={inputRef}
-            type="search"
+            type="text"
+            enterKeyHint="search"
             value={query}
             onChange={onQueryChange}
             onKeyDown={onKeyDownInput}
@@ -185,13 +273,55 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
         </div>
 
         <div className="max-h-[60vh] overflow-y-auto p-2">
-          {results.length === 0 ? (
+          {total === 0 ? (
             <p className="px-4 py-8 text-center text-sm text-cosmos-star/55">
               {t("common.searchEmpty")}
             </p>
           ) : (
             <ul ref={listRef} role="listbox" aria-label={t("common.search")}>
-              {results.map((item, i) => {
+              {extraResults.length > 0 && (
+                <li
+                  role="presentation"
+                  className="px-4 pb-1 pt-2 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/45"
+                >
+                  {t("common.searchPages")}
+                </li>
+              )}
+              {extraResults.map((e, i) => (
+                <li key={e.href} data-idx={i} role="option" aria-selected={i === activeIndex}>
+                  <Link
+                    href={e.href}
+                    onMouseEnter={() => setActiveIndex(i)}
+                    onClick={onClose}
+                    className={clsx(
+                      "flex items-center gap-4 rounded-2xl px-4 py-2.5 transition-colors",
+                      i === activeIndex ? "bg-white/[0.08]" : "hover:bg-white/[0.04]"
+                    )}
+                  >
+                    <span className="min-w-0 flex-1">
+                      <span className="block truncate text-sm font-medium text-cosmos-star sm:text-[15px]">
+                        {e.title}
+                      </span>
+                      <span className="mt-0.5 block truncate text-xs text-cosmos-star/60">
+                        {e.subtitle}
+                      </span>
+                    </span>
+                    <span className="shrink-0 rounded-full border border-cosmos-aurora/30 bg-cosmos-aurora/10 px-2 py-0.5 text-[10px] uppercase tracking-[0.16em] text-cosmos-plasma">
+                      {t(`common.searchKinds.${e.kind}`)}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+              {extraResults.length > 0 && results.length > 0 && (
+                <li
+                  role="presentation"
+                  className="px-4 pb-1 pt-3 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/45"
+                >
+                  {t("common.searchTopics")}
+                </li>
+              )}
+              {results.map((item, j) => {
+                const i = j + extraResults.length;
                 const isActive = i === activeIndex;
                 return (
                   <li
@@ -251,15 +381,15 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
         <div className="flex items-center justify-between border-t border-white/10 px-4 py-2 text-[10px] uppercase tracking-[0.18em] text-cosmos-star/45 sm:px-5">
           <span className="flex items-center gap-2">
             <kbd className="rounded bg-white/10 px-1.5 py-0.5 text-cosmos-star/65">↵</kbd>
-            open
+            {t("common.searchKeys.open")}
           </span>
           <span className="flex items-center gap-2">
             <kbd className="rounded bg-white/10 px-1.5 py-0.5 text-cosmos-star/65">↑↓</kbd>
-            navigate
+            {t("common.searchKeys.navigate")}
           </span>
           <span className="flex items-center gap-2">
             <kbd className="rounded bg-white/10 px-1.5 py-0.5 text-cosmos-star/65">esc</kbd>
-            close
+            {t("common.searchKeys.close")}
           </span>
         </div>
       </motion.div>

@@ -18,7 +18,7 @@ export function GET() {
   lines.push("# Quantumaire");
   lines.push("");
   lines.push(
-    "> An interactive educational journey from the smallest subatomic particles to the largest structures in the observable universe. Every stop carries a transparent trust badge (Fact, Established Theory, Probable Theory, Speculative)."
+    "> An interactive guide to scale, from the Planck length to the largest structures in the observable universe. Every topic carries a transparent trust badge (Fact, Established Theory, Probable Theory, Speculative)."
   );
   lines.push("");
   lines.push(
@@ -30,7 +30,7 @@ export function GET() {
     const langLabel = locale === "en" ? "English" : "Serbian";
     lines.push(`## ${langLabel} (${locale})`);
     lines.push("");
-    lines.push(`- [Journey home](${SITE_URL}/${locale})`);
+    lines.push(`- [Home](${SITE_URL}/${locale})`);
     lines.push(
       `- [About Quantumaire](${SITE_URL}/${locale}/about) — methodology, trust badges, and editorial stance`
     );

@@ -17,7 +17,7 @@ export function GET() {
   lines.push("# Quantumaire — full text");
   lines.push("");
   lines.push(
-    "> Complete body text of every journey stop, in both English and Serbian (Latin), with size / distance / temperature / trust-badge metadata. Designed for LLM answer engines."
+    "> Complete body text of every topic, in both English and Serbian (Latin), with size / distance / temperature / trust-badge metadata. Designed for LLM answer engines."
   );
   lines.push("");
   lines.push(

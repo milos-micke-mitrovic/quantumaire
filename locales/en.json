@@ -2,8 +2,8 @@
   "common": {
     "title": "Quantumaire",
     "tagline": "From the smallest spark to the edge of everything.",
-    "subtagline": "A guided journey across more than 60 orders of magnitude — from the Planck length to the observable universe — with the truth-status of every topic labelled honestly.",
-    "begin": "Begin the journey",
+    "subtagline": "Everything from the Planck length to the observable universe — more than 60 orders of magnitude, with the truth-status of every topic labelled honestly.",
+    "begin": "Explore the scale",
     "back": "Back",
     "next": "Next",
     "prev": "Previous",
@@ -343,7 +343,20 @@
         }
       ]
     },
-    "browseTopics": "Browse all topics"
+    "browseTopics": "Browse all topics",
+    "searchPages": "Pages",
+    "searchTopics": "Topics",
+    "searchKinds": {
+      "category": "Category",
+      "collection": "Collection",
+      "guide": "Guide",
+      "tool": "Tool"
+    },
+    "searchKeys": {
+      "open": "open",
+      "navigate": "navigate",
+      "close": "close"
+    }
   },
   "home": {
     "faq": {

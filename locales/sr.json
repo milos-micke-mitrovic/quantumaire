@@ -2,8 +2,8 @@
   "common": {
     "title": "Quantumaire",
     "tagline": "Od najmanje iskre do ivice svega.",
-    "subtagline": "Vođeno putovanje kroz više od 60 redova veličine — od Plankove dužine do vidljivog svemira — gde svaka tema nosi iskreno označen status istine.",
-    "begin": "Započni putovanje",
+    "subtagline": "Sve od Plankove dužine do vidljivog svemira — više od 60 redova veličine, a svaka tema nosi iskreno označen status istine.",
+    "begin": "Istraži skalu",
     "back": "Nazad",
     "next": "Sledeće",
     "prev": "Prethodno",
@@ -343,7 +343,20 @@
         }
       ]
     },
-    "browseTopics": "Pregledaj sve teme"
+    "browseTopics": "Pregledaj sve teme",
+    "searchPages": "Stranice",
+    "searchTopics": "Teme",
+    "searchKinds": {
+      "category": "Kategorija",
+      "collection": "Kolekcija",
+      "guide": "Vodič",
+      "tool": "Alat"
+    },
+    "searchKeys": {
+      "open": "otvori",
+      "navigate": "kretanje",
+      "close": "zatvori"
+    }
   },
   "home": {
     "faq": {

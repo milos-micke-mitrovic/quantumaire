@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     template: `%s · ${SITE_NAME}`,
   },
   description:
-    "An interactive educational journey from the smallest subatomic particles to the largest structures in the universe — with the truth-status of every claim labelled honestly.",
+    "Everything from the Planck length to the observable universe, compared by size — with the truth-status of every claim labelled honestly.",
   applicationName: SITE_NAME,
   authors: [{ name: SITE_NAME }],
   creator: SITE_NAME,

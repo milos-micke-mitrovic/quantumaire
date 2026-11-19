@@ -6,7 +6,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: `${SITE_NAME} — From quarks to the observable universe`,
     short_name: SITE_NAME,
     description:
-      "Interactive educational journey across 44 orders of magnitude — quantum to cosmic — with truth-status labels.",
+      "Everything from the Planck length to the observable universe — more than 60 orders of magnitude — with truth-status labels.",
     start_url: "/",
     scope: "/",
     display: "standalone",
