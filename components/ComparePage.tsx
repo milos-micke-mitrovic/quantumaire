@@ -8,7 +8,7 @@ import { m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { STOPS, getStop } from "@/lib/content";
 import { formatMeters, formatTemperature } from "@/lib/scale";
-import { useUnits } from "@/lib/units";
+import { useTempUnit, useUnits } from "@/lib/units";
 import { formatFactor } from "@/lib/references";
 import type { Stop } from "@/lib/types";
 import { Badge } from "./Badge";
@@ -51,6 +51,7 @@ interface PickerProps {
 function StopPicker({ label, selectedId, mode, onChange }: PickerProps) {
   const { t } = useI18n();
   const { units } = useUnits();
+  const { tempUnit } = useTempUnit();
   const stops = useMemo(() => eligibleStops(mode), [mode]);
   return (
     <label className="block">
@@ -67,7 +68,7 @@ function StopPicker({ label, selectedId, mode, onChange }: PickerProps) {
             const v = valueOf(s, mode)!;
             const valueText =
               mode === "temperature"
-                ? formatTemperature(v, t)
+                ? formatTemperature(v, t, tempUnit)
                 : formatMeters(v, t, units);
             return (
               <option key={s.id} value={s.id}>
@@ -102,12 +103,13 @@ interface CompareCardProps {
 function CompareCard({ stop, label, mode }: CompareCardProps) {
   const { t, locale } = useI18n();
   const { units } = useUnits();
+  const { tempUnit } = useTempUnit();
   const v = valueOf(stop, mode);
   const valueText =
     v === null
       ? t("common.abstract")
       : mode === "temperature"
-        ? formatTemperature(v, t)
+        ? formatTemperature(v, t, tempUnit)
         : formatMeters(v, t, units);
   return (
     <Link

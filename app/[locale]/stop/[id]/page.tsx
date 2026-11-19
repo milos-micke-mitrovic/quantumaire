@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/JsonLd";
 import { StopDetail } from "@/components/StopDetail";
+import { SpacecraftSpeeds } from "@/components/SpacecraftSpeeds";
 import { StopSizeFaq } from "@/components/StopSizeFaq";
 import { SiteFooter } from "@/components/SiteFooter";
 import {
@@ -35,6 +36,9 @@ interface PageProps {
   params: Promise<{ locale: string; id: string }>;
 }
 
+
+/** Stops that show the "how fast are our spacecraft?" table. */
+const SPACECRAFT_STOPS = new Set(["voyager1", "light_year"]);
 export function generateStaticParams() {
   const out: Array<{ locale: string; id: string }> = [];
   for (const locale of LOCALES) {
@@ -139,6 +143,9 @@ export default async function StopPage({ params }: PageProps) {
           })}
           items={sizeFaq}
         />
+        {SPACECRAFT_STOPS.has(stop.id) && (
+          <SpacecraftSpeeds locale={typed} highlightId={stop.id} />
+        )}
       </StopDetail>
       <SiteFooter />
     </>

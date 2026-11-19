@@ -116,6 +116,43 @@ export function formatMeters(
   return `${sig(ly / 1e12, loc)} ${tr("common.numberTrillion")} ${tr("common.unitLightYear")}`;
 }
 
+const SPEED_OF_LIGHT = 299_792_458;
+
+/**
+ * Light-travel time for a distance, as a human-friendly hint shown next to
+ * the distance itself: "≈ 1.28 light-seconds" (Moon), "≈ 8.32 light-minutes"
+ * (Sun), "≈ 1 light-day" (Voyager 1). Returns null below one light-second
+ * (no intuition gained) and from 1e15 m upward, where formatMeters already
+ * speaks in light-years.
+ */
+export function formatLightTime(
+  meters: number | null | undefined,
+  t?: (key: string) => string
+): string | null {
+  if (typeof meters !== "number" || !Number.isFinite(meters)) return null;
+  if (meters >= 1e15) return null;
+  const seconds = Math.abs(meters) / SPEED_OF_LIGHT;
+  if (seconds < 1) return null;
+  const tr = t ?? defaultMetersTranslator;
+  const loc = numberLocale(tr);
+
+  let unit: "second" | "minute" | "hour" | "day";
+  let value: number;
+  if (seconds < 60) [unit, value] = ["second", seconds];
+  else if (seconds < 3600) [unit, value] = ["minute", seconds / 60];
+  else if (seconds < 86400 * 0.95) [unit, value] = ["hour", seconds / 3600];
+  else [unit, value] = ["day", seconds / 86400];
+
+  // Two significant figures is plenty for a "roughly" hint.
+  const rounded = Number(value.toPrecision(2));
+  const text = rounded.toLocaleString(loc, { maximumFractionDigits: 1 });
+  const one = text === "1";
+  return tr(`common.lightTime.${unit}${one ? "One" : ""}`).replace(
+    "{value}",
+    text
+  );
+}
+
 /**
  * Format a temperature given in kelvin. Returns a string in the form
  * `5,772 K (≈ 5,500 °C)`. Below 1,000 K, both numbers are shown with the
@@ -126,7 +163,8 @@ export function formatMeters(
  */
 export function formatTemperature(
   kelvin: number | null | undefined,
-  t?: (key: string) => string
+  t?: (key: string) => string,
+  unit?: "C" | "F" | "K"
 ): string {
   const tr = t ?? defaultMetersTranslator;
   const loc = numberLocale(tr);
@@ -138,6 +176,7 @@ export function formatTemperature(
   ) {
     return "—";
   }
+  if (unit) return formatTemperatureIn(kelvin, unit, tr, loc);
   const celsius = kelvin - 273.15;
   const k = kelvin;
 
@@ -166,6 +205,35 @@ export function formatTemperature(
   return `${sig(bK, loc)} ${tr("common.numberBillion")} K (${tr("common.tempSameInC")})`;
 }
 
+/**
+ * Single-unit temperature in the visitor's preferred scale. Values under
+ * 1,000 are exact to the degree; up to a million they round to the nearest
+ * hundred; beyond that they switch to "million" / "billion" wording.
+ */
+function formatTemperatureIn(
+  kelvin: number,
+  unit: "C" | "F" | "K",
+  tr: (key: string) => string,
+  loc: string
+): string {
+  const value =
+    unit === "K"
+      ? kelvin
+      : unit === "C"
+        ? kelvin - 273.15
+        : (kelvin - 273.15) * 1.8 + 32;
+  const symbol = unit === "K" ? "K" : `°${unit}`;
+  const abs = Math.abs(value);
+  if (abs < 1000) return `${Math.round(value).toLocaleString(loc)} ${symbol}`;
+  if (abs < 1e6) {
+    return `${(Math.round(value / 100) * 100).toLocaleString(loc)} ${symbol}`;
+  }
+  if (abs < 1e9) {
+    return `${sig(value / 1e6, loc)} ${tr("common.numberMillion")} ${symbol}`;
+  }
+  return `${sig(value / 1e9, loc)} ${tr("common.numberBillion")} ${symbol}`;
+}
+
 const DEFAULT_METERS_LABELS: Record<string, string> = {
   "common.numberMillion": "million",
   "common.numberBillion": "billion",
@@ -173,6 +241,14 @@ const DEFAULT_METERS_LABELS: Record<string, string> = {
   "common.unitLightYear": "ly",
   "common.tempSameInC": "≈ same in °C",
   "common.numberLocale": "en-US",
+  "common.lightTime.secondOne": "≈ {value} light-second",
+  "common.lightTime.second": "≈ {value} light-seconds",
+  "common.lightTime.minuteOne": "≈ {value} light-minute",
+  "common.lightTime.minute": "≈ {value} light-minutes",
+  "common.lightTime.hourOne": "≈ {value} light-hour",
+  "common.lightTime.hour": "≈ {value} light-hours",
+  "common.lightTime.dayOne": "≈ {value} light-day",
+  "common.lightTime.day": "≈ {value} light-days",
 };
 
 function defaultMetersTranslator(key: string): string {

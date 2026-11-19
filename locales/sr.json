@@ -183,7 +183,19 @@
       "notEnoughStops": "Premalo stanica ima ovaj podatak — probaj drugi režim poređenja."
     },
     "tempSameInC": "≈ isto u °C",
-    "numberLocale": "sr-Latn-RS"
+    "numberLocale": "sr-Latn-RS",
+    "lightTime": {
+      "secondOne": "svetlost: ≈ {value} s",
+      "second": "svetlost: ≈ {value} s",
+      "minuteOne": "svetlost: ≈ {value} min",
+      "minute": "svetlost: ≈ {value} min",
+      "hourOne": "svetlost: ≈ {value} h",
+      "hour": "svetlost: ≈ {value} h",
+      "dayOne": "svetlost: ≈ {value} dan",
+      "day": "svetlost: ≈ {value} dana",
+      "hint": "Koliko je svetlosti potrebno da pređe ovu udaljenost"
+    },
+    "temperatureUnit": "Temperatura"
   },
   "home": {
     "faq": {
@@ -226,10 +238,16 @@
     "MICRO_WORLD.description": "Kvarkovi, atomi i molekuli — gradivni blokovi ispod svega što možete videti ili dotaći.",
     "HUMAN_MIND.description": "Dokumentovane neobičnosti kako jedan mozak — i jedno telo — može ugostiti više od jednog ja.",
     "ANCIENT_HISTORY.description": "Spomenici i misterije čija gradnja se i dalje opire potpunom objašnjenju.",
-    "COSMOS.intro": "Svemir na svim razmerama van tla pod vašim nogama — planete, zvezde, galaksije i najveće gravitaciono vezane strukture koje umemo da pronađemo. Otprilike dve trećine svih stanica na Quantumaire-u nalazi se ovde, jer kosmos je tamo gde redovi veličine počinju zaista da nešto znače. Kategorija Kosmos takođe okuplja apstrakcije koje sve to drže na okupu: tamnu materiju, tamnu energiju, kosmički horizont.",
+    "COSMOS.intro": "Svemir na svim razmerama van tla pod vašim nogama — planete, zvezde, galaksije i najveće gravitaciono vezane strukture koje umemo da pronađemo. Više od polovine stanica na Quantumaire-u nalazi se ovde, jer kosmos je tamo gde redovi veličine počinju zaista da nešto znače. Kategorija Kosmos takođe okuplja apstrakcije koje sve to drže na okupu: tamnu materiju, tamnu energiju, kosmički horizont.",
     "MICRO_WORLD.intro": "Sve manje od ćelije. Kvarkovi i gluoni unutar protona; proton unutar atoma; atom unutar DNK heliksa; heliks unutar virusa; virus, sa svoje strane, patuljast u poređenju sa bakterijom. Svaki korak naniže po ovoj lestvici je otprilike hiljadu puta manji od prethodnog, pa intuicija ljudske razmere da se 'male stvari razlikuju za poneki deo' potpuno puca. Mikrosvet je mesto na kome posmatrate kako se ta intuicija lomi.",
     "HUMAN_MIND.intro": "Fenomeni koji uopšte ne staju na osu veličine, jer su osobine mozga, a ne mereljivi objekti. Quantumaire uključuje jednu takvu stanicu — disocijativni poremećaj identiteta — da prizna da nije sve što značajno postoji moguće izmeriti metrom. Um pripada putovanju kroz razmeru čak i kada sedi van lenjira.",
-    "ANCIENT_HISTORY.intro": "Građevine i artefakti čija inženjerija i dalje poziva na pažljivo objašnjenje, a ne na olako odbacivanje. Velika piramida je za sada jedina stanica ovde — ali sa 139 metara visine, 2,3 miliona blokova poređanih u skladu sa stranama sveta, ona stoji baš na onoj razmeri koja premošćuje ljudsko i planetarno."
+    "ANCIENT_HISTORY.intro": "Građevine i artefakti čija inženjerija i dalje poziva na pažljivo objašnjenje, a ne na olako odbacivanje. Velika piramida je za sada jedina stanica ovde — ali sa 139 metara visine, 2,3 miliona blokova poređanih u skladu sa stranama sveta, ona stoji baš na onoj razmeri koja premošćuje ljudsko i planetarno.",
+    "EARTH": "Život i Zemlja",
+    "PHYSICS": "Sile i prostor-vreme",
+    "EARTH.description": "Živa bića i predeli naše planete — od vodenog medveda od pola milimetra do plavog kita i krova sveta.",
+    "PHYSICS.description": "Gravitacija, vreme, talasi u prostor-vremenu i kvantne veze — pravila kojima se pokorava svaki objekat na ovom putovanju.",
+    "EARTH.intro": "Deo skale koji zaista možete da dodirnete. Život na Zemlji obuhvata više od sedam redova veličine — od tardigrada za koga vam treba mikroskop, preko čoveka, do plavog kita dužeg od košarkaškog terena — a površina planete dodaje Mont Everest, skoro devet kilometara stena koje su sudari kontinenata izgurali naviše. Ove stanice vezuju kosmičke brojeve za stvari koje već osećate.",
+    "PHYSICS.intro": "Ne objekti, već pravila iza njih. Gravitacija, najslabija sila, i dalje određuje oblik svega, od planeta do jata galaksija; samo vreme teče različitom brzinom u zavisnosti od toga koliko se brzo krećete i koliko ste duboko u gravitacionom polju; prostor-vreme može da talasa, a na papiru čak i da se savije u crvotočinu. Ove stanice nemaju veličinu koju biste stavili na lenjir — imaju domet: svaka druga stanica na putovanju im se pokorava."
   },
   "comparison": {
     "title": "Od kvarka do vidljivog svemira",
@@ -309,7 +327,12 @@
     "spacecraft": "Svemirska letelica",
     "unit": "Jedinica rastojanja",
     "phenomenon": "Fenomen",
-    "cosmos": "Kosmos"
+    "cosmos": "Kosmos",
+    "animal": "Životinja",
+    "mountain": "Planina",
+    "force": "Sila",
+    "spacetime": "Prostor-vreme",
+    "hypothetical": "Hipotetičko"
   },
   "stops": {
     "quark": {
@@ -721,7 +744,7 @@
       "name": "Voyager 1",
       "tagline": "Najdalji objekat koji je čovek napravio — i još uvek se javlja.",
       "body": "Voyager 1 je lansiran sa Kejp Kanaverala u septembru 1977. u misiji da proleti pored Jupitera i Saturna. Četrdeset devet godina kasnije, još uvek radi — sada u međuzvezdanom prostoru, više od 173 astronomske jedinice od Zemlje, šaljući tanak mlaz podataka o česticama i magnetnim poljima oko sebe. U novembru 2026. postao je prvi objekat ljudskih ruku udaljen jedan svetlosni dan od Zemlje: svakom signalu sada treba čitav dan da stigne.",
-      "narrative": "Voyager 1 je toliko daleko da radio komandi sa Zemlje treba čitav dan da stigne do njega. Pa ipak, u razmerama zvezda jedva je izašao iz kuće: najbliža zvezda je i dalje više od 1.500 puta dalje.",
+      "narrative": "Voyager 1 je toliko daleko da radio komandi sa Zemlje treba čitav dan da stigne do njega. Pa ipak, u razmerama zvezda jedva je izašao iz kuće: čak i pri 61.000 km/h treba mu oko 17.600 godina da pređe samo jednu svetlosnu godinu — a najbliža zvezda je udaljena više od četiri svetlosne godine.",
       "ifDistance": "Radio signalu sa Zemlje sada treba čitav dan da stigne do Voyagera 1. Da to rastojanje svedete na dužinu fudbalskog terena (105 m), rastojanje Zemlja–Sunce u istoj razmeri bilo bi oko 60 centimetara — a najbliža zvezda i dalje bi bila više od 160 kilometara daleko.",
       "image": {
         "alt": "Sonda Voyager 1 u kosmičkom vakuumu, sa antenom okrenutom ka udaljenoj Zemlji."
@@ -730,7 +753,9 @@
         "fact1": "Lansiran 5. septembra 1977. — pre više od 49 godina.",
         "fact2": "Oko 26 milijardi km od Zemlje — više od 173 astronomske jedinice.",
         "fact3": "Radio signali putuju oko 24 sata u jednom pravcu — jedan svetlosni dan od Zemlje dostigao je 18. novembra 2026.",
-        "fact4": "Nosi Zlatnu ploču — zvuke i slike Zemlje, za bilo koga ko bi je jednog dana mogao naći."
+        "fact4": "Nosi Zlatnu ploču — zvuke i slike Zemlje, za bilo koga ko bi je jednog dana mogao naći.",
+        "fact5": "Brzina: oko 17 km/s — otprilike 61.000 km/h u odnosu na Sunce.",
+        "fact6": "Tom brzinom bi mu za samo jednu svetlosnu godinu trebalo oko 17.600 godina."
       },
       "massNarrative": "Voyager 1 teži oko 720 kg — otprilike koliko jedna muzna krava. On i njegov blizanac, Voyager 2, jedini su poznati objekti ljudskih ruku koji su prešli u međuzvezdani prostor.",
       "funFact": "Voyager 1 nije usmeren ka nijednoj posebnoj zvezdi. Za oko 40.000 godina proći će na 1,6 svetlosnih godina od Gliese 445 — ali će se do tada sazvežđa koja poznajemo već preurediti."
@@ -967,6 +992,217 @@
         "fact3": "Vetrovi dostižu 2.100 km/h — najbrži u Sunčevom sistemu.",
         "fact4": "Temperatura vrha oblaka oko -201 °C, ali zrači više toplote nego što prima.",
         "fact5": "Otkriven 1846. predviđanjem, ne posmatranjem — trijumf Njutnove gravitacije."
+      }
+    },
+    "planck_length": {
+      "name": "Plankova dužina",
+      "tagline": "Razmera na kojoj naše najbolje teorije prestaju da imaju smisla.",
+      "body": "Plankova dužina — oko 1,6 × 10⁻³⁵ metara — sastavljena je od tri prirodne konstante: gravitacione konstante G, brzine svetlosti c i Plankove konstante ħ. Sam broj je čista aritmetika; njegovo značenje nije. Na ovoj skali i kvantni efekti i gravitacija trebalo bi da budu važni istovremeno, a nijedna proverena teorija ne ume da izađe na kraj sa tom kombinacijom. Često je zovu najmanjom mogućom dužinom, ali to je očekivanje kandidatskih teorija kvantne gravitacije — niko nije izmerio ništa ni približno toliko malo.",
+      "narrative": "Kada bi se jedan atom naduvao do veličine vidljivog svemira, Plankova dužina bi narasla na oko 140 metara — otprilike visinu Velike piramide.",
+      "funFact": "Maks Plank ju je definisao 1899. godine — godinu dana pre nego što je uveo kvant i 16 godina pre Ajnštajnove opšte teorije relativnosti — kao jedinicu koju bi svaka civilizacija, čak i vanzemaljska, mogla da rekonstruiše samo iz prirode. Da je to mesto gde se sudaraju gravitacija i kvantna mehanika, shvatilo se tek decenijama kasnije.",
+      "image": {
+        "alt": "Penasta, treperava rešetka prostor-vremena na najmanjoj zamislivoj skali."
+      },
+      "facts": {
+        "fact1": "Vrednost: oko 1,616 × 10⁻³⁵ m.",
+        "fact2": "Otprilike 10²⁰ puta manja od protona.",
+        "fact3": "Svetlost je pređe za jedno Plankovo vreme: oko 5,4 × 10⁻⁴⁴ s.",
+        "fact4": "Za direktno ispitivanje trebalo bi oko 10¹⁵ puta više energije od sudara u LHC-u."
+      }
+    },
+    "higgs_boson": {
+      "name": "Higsov bozon",
+      "tagline": "Čestica koja je dokazala da nevidljivo polje ispunjava ceo prostor.",
+      "body": "U julu 2012. eksperimenti ATLAS i CMS na CERN-ovom Velikom hadronskom sudaraču objavili su otkriće nove čestice mase oko 125 GeV — Higsovog bozona, predviđenog još 1964. godine. On je talasić u Higsovom polju, koje prožima čitav svemir i elementarnim česticama poput elektrona i kvarkova daje masu. Bez njega elektroni ne bi imali masu, a atomi kakve poznajemo ne bi mogli da nastanu. Higsov bozon živi samo oko 10⁻²² sekunde, pa se nikada ne vidi direktno — već samo kroz čestice u koje se raspada.",
+      "narrative": "Higsov bozon nema smislenu veličinu — on je kratkotrajno pobuđenje polja koje ispunjava svaki kubni metar prostora, uključujući i onaj u kome upravo sedite.",
+      "massNarrative": "Jedan Higsov bozon težak je otprilike kao ceo atom cezijuma — 55 protona, 78 neutrona i 55 elektrona — a ipak, koliko iko zna, u sebi nema nikakve delove.",
+      "funFact": "Higsovo polje daje masu elektronima i kvarkovima — ali od njega potiče samo oko 1% mase vašeg tela. Ostalih 99% je energija: kretanje i vezivanje kvarkova i gluona unutar vaših protona i neutrona, pretvoreno u masu po formuli E = mc².",
+      "image": {
+        "alt": "Tragovi čestica koji izleću iz tačke sudara unutar detektora, crtajući raspad Higsovog bozona."
+      },
+      "facts": {
+        "fact1": "Otkriće objavljeno u CERN-u 4. jula 2012.",
+        "fact2": "Masa: oko 125 GeV — otprilike 133 puta više od protona.",
+        "fact3": "Piter Higs i Fransoa Angler podelili su Nobelovu nagradu za fiziku 2013.",
+        "fact4": "LHC proizvede otprilike jedan Higsov bozon na milijardu sudara protona."
+      }
+    },
+    "antimatter": {
+      "name": "Antimaterija",
+      "tagline": "Ogledalski blizanac materije — i razlog zbog kog svemir skoro da ne bi trebalo da postoji.",
+      "body": "Svaka čestica ima svoju antičesticu iste mase, ali suprotnog naelektrisanja. Na njih je ukazala Dirakova jednačina iz 1928, a 1932. Karl Anderson je u kosmičkim zracima uočio prvu — pozitron, antielektron. Kada se materija sretne sa antimaterijom, obe nestaju u blesku energije, tačno kako nalaže E = mc². Veliki prasak je trebalo da stvori jednake količine obe, a ipak je sve što vidimo napravljeno od materije — i niko još ne zna zašto.",
+      "narrative": "Antimaterija nema sopstvenu veličinu — antiproton je tačno onoliki koliki je i proton. Ovde je važna razmera jedan odnos: na otprilike svaku milijardu parova materije i antimaterije u ranom svemiru preživela je jedna čestica materije viška. Taj ostatak je sve što postoji, uključujući i vas.",
+      "massNarrative": "Sva antimaterija ikada napravljena u CERN-u, anihilirana odjednom, napajala bi jednu sijalicu svega nekoliko minuta.",
+      "funFact": "Banana je sićušni izvor antimaterije. Kalijum-40 u njoj se veoma retko raspada emitujući pozitron — otprilike jedan na svakih sat-dva — koji se gotovo istog trena anihilira. Bolnice istu fiziku koriste namerno: PET skeneri snimaju telo hvatajući gama zrake iz anihilacije pozitrona.",
+      "image": {
+        "alt": "Čestica i njena ogledalska antičestica susreću se u prasku svetlosti."
+      },
+      "facts": {
+        "fact1": "Pozitron je otkrio Karl Anderson 1932. godine.",
+        "fact2": "CERN je prve atome antivodonika napravio 1995.",
+        "fact3": "Jedan gram antimaterije u susretu sa gramom materije oslobađa oko 1,8 × 10¹⁴ J — skoro tri bombe kao u Hirošimi.",
+        "fact4": "Eksperiment ALPHA u CERN-u pokazao je 2023. da antivodonik pada nadole, baš kao materija."
+      }
+    },
+    "quantum_entanglement": {
+      "name": "Kvantna spregnutost",
+      "tagline": "Dve čestice, jedna zajednička priča — koliko god se udaljile.",
+      "body": "Kada se dve čestice spregnu, one dele jedno kvantno stanje: izmerite jednu i istog trena znate šta će pokazati odgovarajuće merenje druge, čak i ako je na drugom kraju galaksije. Ajnštajnu je to bilo toliko uznemirujuće da je to nazvao 'sablasnim delovanjem na daljinu' i sumnjao je da čestice nose skrivena uputstva. Džon Bel je 1964. pokazao kako se ta ideja može proveriti, a eksperimenti od 1970-ih — sve do testova bez rupa u logici iz 2015. — kažu da takva skrivena uputstva ne postoje. Ključno je da spregnutost ne može da prenese poruku: svaka strana vidi potpuno nasumične rezultate, a korelacija se pojavljuje tek kada se dva zapisa uporede običnim kanalima, ograničenim brzinom svetlosti.",
+      "narrative": "Spregnutost nema sopstvenu veličinu — to je odnos među česticama, a ne objekat. Rastojanje je ne slabi: korelacije su jednako jake preko laboratorijskog stola kao i preko 1.200 km neba.",
+      "funFact": "U 'kosmičkom Belovom testu' iz 2018. fizičari su pustili da svetlost dva daleka kvazara — emitovana pre 7,8 i 12,2 milijarde godina — odluči kako će se meriti parovi spregnutih fotona. Čak i kada je podešavanja izabrao svemir mnogo pre nego što je Zemlja postojala, kvantne korelacije su opstale.",
+      "image": {
+        "alt": "Dve svetleće čestice daleko jedna od druge, povezane bledom svetlosnom niti."
+      },
+      "facts": {
+        "fact1": "Ajnštajn, Podolski i Rozen postavili su zagonetku 1935.",
+        "fact2": "Belova teorema (1964) pretvorila ju je u proverljivo predviđanje.",
+        "fact3": "Nobelova nagrada za fiziku 2022: Alen Aspe, Džon Klauzer i Anton Cajlinger.",
+        "fact4": "Kineski satelit Micius razdelio je spregnute fotone između stanica udaljenih 1.203 km (2017)."
+      }
+    },
+    "tardigrade": {
+      "name": "Tardigrad",
+      "tagline": "Pola milimetra životinje koja može da preživi svemir — ako se prethodno osuši.",
+      "body": "Tardigradi, ili vodeni medvedići, su mikroskopske životinje sa osam nogu, duge oko pola milimetra, koje žive u mahovini, zemljištu, okeanima i ledu na svakom kontinentu. Njihov trik je kriptobioza: dok se suše, sklupčaju se u bure zvano 'tun', izgube gotovo svu vodu i uspore metabolizam skoro do nule. U tom stanju su izdržali temperature blizu apsolutne nule, kratko i skoro 150 °C, pa čak i vakuum svemira. Budni i hidrirani, međutim, iznenađujuće su krhki — dan u vodi od oko 37 °C ubije otprilike polovinu jedne dobro proučene vrste.",
+      "narrative": "Sa 0,5 mm, tardigrad je tačno veličine Quantumaire-ovog referentnog zrna peska — onoga na šta se Zemlja smanji u našoj razmeri.",
+      "funFact": "Nisu neuništivi. Godine 2019. osušeni tardigradi su se srušili na Mesec u izraelskoj letelici Berešit; laboratorijski testovi u kojima su ispaljivani iz puške kasnije su pokazali da ginu pri brzinama iznad oko 900 m/s, pa istraživači smatraju da gotovo sigurno nisu preživeli. Ni potvrđeni rekord oživljavanja nije vek — već oko 30 godina, iz antarktičke mahovine zamrznute od 1983.",
+      "image": {
+        "alt": "Debeljuškasti tardigrad sa osam nogu priljubljen uz vlakno mahovine pod mikroskopom."
+      },
+      "facts": {
+        "fact1": "Obično do oko 0,5 mm dužine; najveće vrste dostižu oko 1,3 mm.",
+        "fact2": "Oko 1.500 poznatih vrsta, prvi put opisani 1773. godine.",
+        "fact3": "Podnose doze zračenja oko hiljadu puta veće od onih koje bi ubile čoveka.",
+        "fact4": "Osušeni tardigradi preživeli su 10 dana izloženi otvorenom svemiru na misiji FOTON-M3 2007."
+      }
+    },
+    "blue_whale": {
+      "name": "Plavi kit",
+      "tagline": "Najveća životinja za koju znamo da je ikada živela — izgrađena na ishrani od krila.",
+      "body": "Plavi kitovi mogu da dostignu oko 30 metara i do otprilike 190 tona, što ih čini najtežom životinjom poznatom nauci, živom ili izumrlom. Toliko narastu jedući kril, račiće nalik škampima dugačke svega nekoliko centimetara, koje na tone procede iz morske vode kroz ploče od kitove kosti. Njihovi duboki, niskofrekventni zvuci mogu da putuju stotinama kilometara kroz okean. Kitolov u 20. veku ubio ih je na stotine hiljada; lov je zabranjen 1966, a oporavljaju se tek polako.",
+      "narrative": "Tipičan odrasli primerak od 25 metara dug je kao petnaestak ljudi poleglih glavu uz stopala — a veliki je duži od košarkaškog terena.",
+      "massNarrative": "Veliki plavi kit teži koliko tridesetak slonova, a njegovo tek rođeno mladunče već je teško kao mali slon.",
+      "funFact": "Srce mu je ogromno, ali nije veličine automobila: ono koje je sačuvao kanadski Kraljevski muzej Ontarija teško je oko 180 kg i visoko otprilike 1,5 m. I ne, dete ne bi moglo da pliva kroz njegove arterije — aorta je široka otprilike kao tanjir.",
+      "image": {
+        "alt": "Plavi kit klizi kroz suncem obasjan otvoreni okean, a ronilac pored njega deluje sićušno."
+      },
+      "facts": {
+        "fact1": "Najduži pouzdano izmereni primerak: 29,9 m.",
+        "fact2": "Srce: oko 180 kg — najveće poznato kod bilo koje životinje.",
+        "fact3": "Pri dubokom ronjenju puls mu može pasti na 2 otkucaja u minuti.",
+        "fact4": "Zaštićen širom sveta od 1966, ali se i dalje vodi kao ugrožena vrsta."
+      }
+    },
+    "mount_everest": {
+      "name": "Mont Everest",
+      "tagline": "Najviša tačka iznad nivoa mora — ali ne i najviša planina, niti najbliža zvezdama.",
+      "body": "Mont Everest se uzdiže 8.848,86 metara iznad nivoa mora, prema zajedničkom kinesko-nepalskom merenju iz 2020. Postoji zato što se Indija već nekih 50 miliona godina zabija u Aziju, gužvajući koru u Himalaje — i još uvek raste otprilike 2 mm godišnje. Mereno od podnožja do vrha, havajska Mauna Kea je viša, sa preko 10.000 m, od kojih je veći deo pod vodom. A pošto je Zemlja ispupčena na ekvatoru, vrh ekvadorskog Čimboraza nalazi se oko 2 km dalje od Zemljinog središta nego vrh Everesta.",
+      "narrative": "Smanjite Zemlju na globus od 30 cm i Everest postaje ispupčenje visoko samo 0,2 mm — otprilike debljine dva lista papira.",
+      "funFact": "Stena na samom krovu sveta je morski krečnjak, pun ostataka trilobita, morskih ljiljana i drugih morskih stvorenja koja su živela na dnu okeana pre oko 450 miliona godina.",
+      "image": {
+        "alt": "Snegom okićen vrh Mont Everesta naspram tamnoplavog visinskog neba."
+      },
+      "facts": {
+        "fact1": "Visina: 8.848,86 m (kinesko-nepalsko merenje, 2020).",
+        "fact2": "Prvi su se na vrh popeli Tenzing Norgej i Edmund Hilari, 29. maja 1953.",
+        "fact3": "Vazdušni pritisak na vrhu je samo oko trećine onog na nivou mora.",
+        "fact4": "Prosečna temperatura na vrhu u januaru: oko −36 °C."
+      }
+    },
+    "gravity": {
+      "name": "Gravitacija",
+      "tagline": "Najslabija sila u prirodi — i ona koja gradi kosmos.",
+      "body": "Između dva protona gravitacija je oko 10³⁶ puta slabija od električne sile. Ali ona se nikad ne poništava i deluje na bilo kojoj udaljenosti, pa na velikim skalama pobeđuje: zaobljuje planete, pali zvezde i skuplja galaksije u jata. Njutn ju je 1687. opisao kao silu između masa; Ajnštajnova opšta teorija relativnosti (1915) pretvorila ju je u zakrivljenost samog prostor-vremena. Kako gravitacija izgleda na kvantnom nivou, i dalje ne znamo — njena pretpostavljena čestica, graviton, nikada nije detektovana.",
+      "narrative": "Gravitacija nema sopstvenu veličinu: domet joj je neograničen — slabi s kvadratom rastojanja, ali nikad sasvim ne nestaje. Ista sila koja vas drži na podu oblikuje strukture široke stotinama miliona svetlosnih godina.",
+      "funFact": "Mali magnet za frižider može da podigne spajalicu sa stola — nadjačavajući gravitaciju cele Zemlje, svih 6 × 10²⁴ kg. Toliko je gravitacija slaba, dok ne skupite masu jedne planete.",
+      "image": {
+        "alt": "Mreža prostor-vremena koja se uvija u dubok bunar oko masivne užarene sfere."
+      },
+      "facts": {
+        "fact1": "Oko 10³⁶ puta slabija od elektromagnetizma između dva protona.",
+        "fact2": "Gravitaciono ubrzanje na površini Zemlje: oko 9,81 m/s².",
+        "fact3": "Njutnov zakon gravitacije: 1687; Ajnštajnova opšta relativnost: 1915.",
+        "fact4": "Nema potvrđene kvantne teorije gravitacije — graviton je i dalje hipotetičan."
+      }
+    },
+    "time_dilation": {
+      "name": "Dilatacija vremena",
+      "tagline": "Vreme teče različitom brzinom — a vaš telefon to mora da ispravlja.",
+      "body": "Teorija relativnosti kaže da ne postoji univerzalni sat. Sat koji se brzo kreće otkucava sporije (specijalna relativnost), a sporije kuca i sat duboko u gravitacionom bunaru (opšta relativnost). Efekat je izmeren mnogo puta: 1971. Hafele i Kiting su obleteli svet sa atomskim satovima u putničkim avionima i zabeležili razlike od više stotina nanosekundi. Mioni nastali visoko u atmosferi trebalo bi da se raspadnu mnogo pre nego što stignu do tla — a ipak stižu u velikom broju, jer im vreme, pri brzini bliskoj brzini svetlosti, teče sporo.",
+      "narrative": "Dilatacija vremena nema veličinu — to je razlika u brzini proticanja samog vremena. Merljiva je na skali planetarnih orbita, a današnjim najboljim atomskim satovima i kroz visinsku razliku od svega nekoliko centimetara.",
+      "funFact": "Satovi na GPS satelitima dnevno odu napred oko 38 mikrosekundi u odnosu na tlo — 7 izgube zbog brzine, a 45 dobiju zbog slabije gravitacije. Bez korekcije, vaša lokacija bi svakog dana odlutala za desetak kilometara.",
+      "image": {
+        "alt": "Dva sata koja otkucavaju različitim tempom, jedan kraj Zemlje, a drugi u orbiti, na pozadini zakrivljenog prostor-vremena."
+      },
+      "facts": {
+        "fact1": "GPS satovi: −7 µs/dan zbog brzine, +45 µs/dan zbog gravitacije, ukupno ≈ +38 µs/dan.",
+        "fact2": "Hafele–Kiting (1971): atomski satovi u avionima potvrdili su predviđanja relativnosti.",
+        "fact3": "Šest meseci na ISS-u ostavi astronauta oko 0,005 s mlađim.",
+        "fact4": "Optički satovi su 2010. izmerili efekat na visinskoj razlici od 33 cm."
+      }
+    },
+    "gravitational_waves": {
+      "name": "Gravitacioni talasi",
+      "tagline": "Talasanje samog prostor-vremena — prvi put uhvaćeno 2015.",
+      "body": "Kada se masivna tela ubrzavaju, šalju talase kroz prostor-vreme koji rastežu i sabijaju sve kroz šta prolaze. Ajnštajn ih je predvideo 1916, ali je sumnjao da će ih iko ikada izmeriti. LIGO je 14. septembra 2015. uhvatio jedan: spajanje dve crne rupe od oko 36 i 29 solarnih masa, udaljenih 1,3 milijarde svetlosnih godina. Godine 2017. sudar neutronskih zvezda viđen je i u gravitacionim talasima i u svetlosti, a 2023. su mreže za merenje pulsara pronašle dokaze o sporom pozadinskom „brujanju” iz celog kosmosa.",
+      "narrative": "Gravitacioni talas nema stalnu veličinu — talasna dužina mu ide od kilometara do svetlosnih godina. Dok stigne do Zemlje, LIGO-ove krake duge 4 km promeni za oko desethiljaditi deo širine protona.",
+      "funFact": "U poslednjem deliću sekunde, spajanje iz 2015. pretvorilo je masu od oko tri Sunca u gravitacione talase — nakratko zračeći snagom većom od svih zvezda u vidljivom svemiru zajedno. A ništa od toga nije bila svetlost.",
+      "image": {
+        "alt": "Dve crne rupe se spiralno približavaju i šalju koncentrične talase kroz mrežu prostor-vremena."
+      },
+      "facts": {
+        "fact1": "Prva detekcija: GW150914, 14. septembra 2015, LIGO.",
+        "fact2": "LIGO beleži promene dužine krakova od ~1/10.000 širine protona.",
+        "fact3": "Nobelova nagrada za fiziku 2017: Rajner Vajs, Beri Beriš i Kip Torn.",
+        "fact4": "GW170817 (2017): prvo spajanje neutronskih zvezda viđeno i u talasima i u svetlosti."
+      }
+    },
+    "wormhole": {
+      "name": "Crvotočina",
+      "tagline": "Prečica kroz prostor-vreme koju jednačine dozvoljavaju — a priroda možda ne.",
+      "body": "Ajnštajn i Natan Rozen su 1935. otkrili da opšta teorija relativnosti dopušta „most” koji povezuje dve udaljene oblasti prostor-vremena. Taj prvobitni most se zatvara prebrzo da bi bilo šta — čak ni svetlost — stiglo da ga pređe. Majkl Moris i Kip Torn su 1988. pokazali da je prohodna crvotočina moguća na papiru, ali samo ako je drži otvorenom egzotična materija negativne energije, koja nikada nije pronađena u upotrebljivim količinama. Nijedna crvotočina nije opažena; novija hipoteza ER = EPR sugeriše da su kvantna spregnutost i crvotočine možda dva lica iste stvari.",
+      "narrative": "Crvotočina nema zadatu veličinu: jednačine dozvoljavaju grlo bilo koje širine, od subatomskog do galaktičkog. Ono što ne mogu da obezbede jeste negativna energija potrebna da ostane otvorena.",
+      "funFact": "Moderna fizika prohodnih crvotočina počela je pitanjem jednog pisca. Karl Sejgan je zamolio prijatelja Kipa Torna za naučno uverljiv način da junakinju romana „Kontakt” pošalje preko galaksije — a Tornov odgovor postao je rad Morisa i Torna iz 1988. Decenijama kasnije, Torn je pomogao u oblikovanju crvotočine u filmu „Interstelar”.",
+      "image": {
+        "alt": "Sferni prolaz u svemiru kroz koji se vidi izobličen prizor udaljenog zvezdanog polja."
+      },
+      "facts": {
+        "fact1": "Ajnštajn–Rozenov most prvi put opisan 1935.",
+        "fact2": "Naziv „crvotočina” (wormhole) skovao je Džon Viler 1957.",
+        "fact3": "Prohodni modeli zahtevaju „egzotičnu materiju” negativne energije.",
+        "fact4": "Nijedna crvotočina nikada nije opažena."
+      }
+    },
+    "big_bang": {
+      "name": "Veliki prasak",
+      "tagline": "Ne eksplozija u prostoru — početak širenja samog prostora.",
+      "body": "Pre oko 13,8 milijardi godina svemir je bio izuzetno vruć i gust, i od tada se neprestano širi i hladi. Veliki prasak se nije dogodio u jednoj tački prostora; sam prostor se razvlači svuda istovremeno. Za nekoliko minuta nastala su prva laka jezgra, a posle oko 380.000 godina svemir se dovoljno ohladio da se formiraju atomi i da svetlost slobodno putuje. Ta svetlost i danas ispunjava nebo kao kosmičko mikrotalasno pozadinsko zračenje, slučajno otkriveno 1965.",
+      "narrative": "Veliki prasak nema veličinu, jer nije imao „spolja” — dogodio se svuda, uključujući i deo prostora u kom se sada nalazite. Danas se isto to širenje proteže kroz vidljivi svemir, širok oko 93 milijarde svetlosnih godina.",
+      "funFact": "Kada su Arno Penzijas i Robert Vilson 1964. uhvatili uporno šuštanje u svojoj levkastoj anteni, prvo su okrivili golubove koji su se u njoj gnezdili — i očistili njihov izmet. Šum je ostao: bio je to zaostali sjaj Velikog praska, koji im je doneo Nobelovu nagradu 1978. Oko 1% „snega” na starim analognim televizorima poticalo je upravo od tog sjaja.",
+      "image": {
+        "alt": "Nalet svetlosti i materije koji se širi u galaksije dok se sam prostor razvlači."
+      },
+      "facts": {
+        "fact1": "Starost svemira: oko 13,8 milijardi godina.",
+        "fact2": "Kosmičko mikrotalasno pozadinsko zračenje: 2,725 K, otkriveno 1965.",
+        "fact3": "Prvi atomi nastali su oko 380.000 godina posle Velikog praska.",
+        "fact4": "Naziv je 1949. skovao Fred Hojl — skeptik prema samoj ideji."
+      }
+    },
+    "multiverse": {
+      "name": "Multiverzum",
+      "tagline": "Možda je naš svemir jedan od mnogih — a možda to pitanje nije za nauku.",
+      "body": "Nekoliko ideja u fizici nagoveštava da naš svemir možda nije jedini. Po večitoj inflaciji, prostor se zauvek naduvava i iz sebe izbacuje „mehuraste svemire” različitih svojstava. Teorija struna, izgleda, dozvoljava oko 10⁵⁰⁰ mogućih stanja vakuuma, od kojih bi svako bilo svemir sa sopstvenim zakonima. A mnogosvetska interpretacija kvantne mehanike sugeriše da se stvarnost grana pri svakom kvantnom merenju. Ništa od toga se trenutno ne može proveriti, i mnogi fizičari se pitaju da li je neopažljivi multiverzum uopšte nauka.",
+      "narrative": "Multiverzum nema merljivu veličinu — po definiciji, ostali svemiri leže iza svakog horizonta koji možemo da vidimo. Čak bi i naš vidljivi svemir, širok 93 milijarde svetlosnih godina, bio samo jedan mehur među mnogima.",
+      "funFact": "Neki od najoštrijih kritičara multiverzuma pomogli su da se izgradi teorija iz koje je potekao. Pol Stajnhart, jedan od tvoraca kosmičke inflacije, danas tvrdi da večita inflacija negde predviđa svaki mogući ishod — a time, kaže on, ne predviđa ništa.",
+      "image": {
+        "alt": "Bezbroj prelivajućih mehurastih svemira lebdi u tamnoj praznini, a neki se dodiruju ivicama."
+      },
+      "facts": {
+        "fact1": "„Pejzaž” teorije struna dozvoljava oko 10⁵⁰⁰ mogućih vakuuma.",
+        "fact2": "Mnogosvetsku interpretaciju predložio je Hju Everet 1957.",
+        "fact3": "Potrage za tragovima „sudara mehurova” u CMB-u zasad nisu ništa našle.",
+        "fact4": "Ne postoji nijedan posmatrački dokaz o drugom svemiru."
       }
     }
   },
@@ -1439,6 +1675,94 @@
     "type_ia": {
       "term": "Supernova Tipa Ia",
       "definition": "Termonuklearna supernova koja nastaje kada beli patuljak u binarnom sistemu prikupi dovoljno materije da pokrene lančanu fuziju ugljenika. Njihova dosledna vršna sjajnost čini ih kosmičkim merilima udaljenosti."
+    },
+    "planck_units": {
+      "term": "Plankove jedinice",
+      "definition": "Prirodne jedinice dužine, vremena, mase i temperature sastavljene samo od fundamentalnih konstanti — G, c i ħ — bez ikakvih ljudskih dogovora."
+    },
+    "quantum_gravity": {
+      "term": "Kvantna gravitacija",
+      "definition": "Još nezavršena potraga za teorijom koja gravitaciju opisuje pravilima kvantne mehanike. Teorija struna i petljasta kvantna gravitacija su vodeći kandidati; nijedna nije potvrđena."
+    },
+    "higgs_field": {
+      "term": "Higsovo polje",
+      "definition": "Energetsko polje koje ispunjava ceo prostor. Elementarne čestice koje interaguju sa njim dobijaju masu; njegovi talasići su Higsovi bozoni."
+    },
+    "standard_model": {
+      "term": "Standardni model",
+      "definition": "Najbolje proverena teorija fizike o fundamentalnim česticama i tri od četiri sile — svemu osim gravitacije."
+    },
+    "positron": {
+      "term": "Pozitron",
+      "definition": "Antičestica elektrona: iste mase, pozitivnog naelektrisanja. Prva otkrivena čestica antimaterije, 1932. godine."
+    },
+    "annihilation": {
+      "term": "Anihilacija",
+      "definition": "Ono što se dešava kada čestica sretne svoju antičesticu: obe nestaju, a njihova masa se pretvara u energiju, obično u vidu gama zraka."
+    },
+    "superposition": {
+      "term": "Superpozicija",
+      "definition": "Sposobnost kvantnog sistema da bude u kombinaciji više stanja istovremeno, sve dok se ne izmeri."
+    },
+    "bell_test": {
+      "term": "Belov test",
+      "definition": "Eksperiment koji proverava da li se ponašanje spregnutih čestica može objasniti skrivenim, unapred zadatim uputstvima. Svaki dosadašnji test kaže da ne može."
+    },
+    "cryptobiosis": {
+      "term": "Kriptobioza",
+      "definition": "Povratno stanje u kome se metabolizam organizma uspori do gotovo nemerljivog nivoa, što mu omogućava da preživi sušu, hladnoću ili nedostatak kiseonika."
+    },
+    "tun_state": {
+      "term": "Tun",
+      "definition": "Osušeni, sklupčani oblik nalik buretu koji tardigrad poprima tokom kriptobioze."
+    },
+    "extremophile": {
+      "term": "Ekstremofil",
+      "definition": "Organizam koji napreduje u ekstremnim uslovima, poput ključalih izvora ili kiseline. Tardigrade je preciznije zvati ekstremnim preživljavačima: takve uslove podnose, ali u njima ne napreduju."
+    },
+    "baleen": {
+      "term": "Kitova kost (usi)",
+      "definition": "Ploče od keratina nalik češlju — istog proteina od kog su vam nokti — kojima neki kitovi umesto zuba proceđuju hranu iz morske vode."
+    },
+    "krill": {
+      "term": "Kril",
+      "definition": "Mali račići nalik škampima, dugački nekoliko centimetara, koji se roje u ogromnom broju i hrane veliki deo okeanskog lanca ishrane."
+    },
+    "equatorial_bulge": {
+      "term": "Ekvatorijalno ispupčenje",
+      "definition": "Blago proširenje Zemlje na ekvatoru izazvano njenom rotacijom: ekvatorijalni prečnik je oko 43 km veći od prečnika između polova."
+    },
+    "death_zone": {
+      "term": "Zona smrti",
+      "definition": "Visine iznad otprilike 8.000 m, gde vazduh sadrži premalo kiseonika da bi ljudsko telo dugo preživelo."
+    },
+    "general_relativity": {
+      "term": "Opšta teorija relativnosti",
+      "definition": "Ajnštajnova teorija gravitacije iz 1915, po kojoj masa i energija zakrivljuju prostor-vreme, a ta zakrivljenost određuje kako se materija kreće."
+    },
+    "special_relativity": {
+      "term": "Specijalna teorija relativnosti",
+      "definition": "Ajnštajnova teorija iz 1905. koja pokazuje da merenja vremena i dužine zavise od relativnog kretanja, dok je brzina svetlosti ista za svakog posmatrača."
+    },
+    "spacetime": {
+      "term": "Prostor-vreme",
+      "definition": "Jedinstvena četvorodimenzionalna tkanina od tri prostorne dimenzije i jedne vremenske, koju gravitacija savija."
+    },
+    "graviton": {
+      "term": "Graviton",
+      "definition": "Hipotetička čestica koja bi u kvantnoj teoriji prenosila gravitaciju — predviđena, ali nikada detektovana."
+    },
+    "interferometer": {
+      "term": "Interferometar",
+      "definition": "Instrument koji deli svetlost na snopove i ponovo ih spaja, otkrivajući sićušne promene rastojanja po tome kako se talasi poklapaju."
+    },
+    "exotic_matter": {
+      "term": "Egzotična materija",
+      "definition": "Hipotetička materija negativne gustine energije, teorijski potrebna da bi crvotočina ostala otvorena. Sićušni efekti negativne energije postoje, ali nikad u upotrebljivim količinama."
+    },
+    "many_worlds": {
+      "term": "Mnogosvetska interpretacija",
+      "definition": "Tumačenje kvantne mehanike Hjua Everta iz 1957, po kome se svaki mogući ishod merenja ostvaruje, svaki u svojoj grani stvarnosti."
     }
   },
   "faq": {
@@ -1476,5 +1800,50 @@
     "compareDescription": "Uporedite bilo koje dve stanice — od kvarka do vidljivog svemira — po veličini, udaljenosti ili temperaturi i odmah vidite koliko puta je jedna veća od druge.",
     "topicsDescription": "Vodiči kroz svemir jednostavnim jezikom: koliki je svemir, poređenje veličina planeta, najmanje i najveće stvari koje postoje, zvezde, crne rupe, Veliki prasak i još mnogo toga.",
     "glossaryDescription": "Pojmovi iz svemira i fizike objašnjeni jednostavnim jezikom ({count}) — od kvarkova, gluona i horizonta događaja do crvenog pomaka, svetlosnih godina i tamne energije."
+  },
+  "spacecraft": {
+    "heading": "Koliko su brze naše letelice?",
+    "intro": "Voyager 1 je jedan od najbržih objekata koje smo ikada poslali od Sunca — a zvezde su i dalje gotovo nedostižne. Evo kako se porede naši rekorderi i koliko bi svakom trebalo da pređe samo jednu svetlosnu godinu sadašnjom brzinom.",
+    "colCraft": "Letelica",
+    "colLaunched": "Lansirana",
+    "colSpeed": "Brzina",
+    "colLightYear": "Vreme za 1 svetlosnu godinu",
+    "years": "{years} god.",
+    "oneYear": "1 godina",
+    "footnote": "Brzine su u odnosu na Sunce (Parker Solar Probe: najveća brzina pri najbližem prolasku pored Sunca; MSS: orbitalna brzina oko Zemlje). Vremena pretpostavljaju stalnu brzinu.",
+    "light": {
+      "name": "Svetlost",
+      "status": "Za poređenje — kosmičko ograničenje brzine"
+    },
+    "craft": {
+      "parker": {
+        "name": "Parker Solar Probe",
+        "status": "Najbrži objekat koji smo ikada napravili (dec. 2024), prolazi kroz Sunčevu koronu"
+      },
+      "voyager1": {
+        "name": "Voyager 1",
+        "status": "Aktivan · u međuzvezdanom prostoru od 2012. · najdalji od Zemlje"
+      },
+      "voyager2": {
+        "name": "Voyager 2",
+        "status": "Aktivan · u međuzvezdanom prostoru od 2018."
+      },
+      "newHorizons": {
+        "name": "New Horizons",
+        "status": "Aktivna · proletela pored Plutona 2015, sada u Kajperovom pojasu"
+      },
+      "pioneer10": {
+        "name": "Pioneer 10",
+        "status": "Bez signala od 2003. · putuje ka Aldebaranu"
+      },
+      "pioneer11": {
+        "name": "Pioneer 11",
+        "status": "Bez signala od 1995."
+      },
+      "iss": {
+        "name": "Međunarodna svemirska stanica",
+        "status": "Kruži oko Zemlje · jedan krug za ~92 minuta"
+      }
+    }
   }
 }

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { STOPS } from "@/lib/content";
-import { formatMeters } from "@/lib/scale";
+import { formatLightTime, formatMeters } from "@/lib/scale";
 import { useUnits } from "@/lib/units";
 import type { Stop } from "@/lib/types";
 
@@ -63,6 +63,9 @@ export function DistanceScale({ highlightStopId }: DistanceScaleProps = {}) {
   const activeDistanceLabel = active.isOrigin
     ? t("common.here")
     : formatMeters(active.stop.distanceFromEarthMeters as number, t, units);
+  const activeLightTime = active.isOrigin
+    ? null
+    : formatLightTime(active.stop.distanceFromEarthMeters, t);
   const activeName = t(
     active.stop.distanceNameKey ?? `${active.stop.i18nKey}.name`
   );
@@ -92,6 +95,14 @@ export function DistanceScale({ highlightStopId }: DistanceScaleProps = {}) {
             <p className="mt-1 font-mono text-sm text-cosmos-plasma">
               {activeDistanceLabel}
             </p>
+            {activeLightTime && (
+              <p
+                title={t("common.lightTime.hint")}
+                className="mt-0.5 text-[11px] text-cosmos-star/50"
+              >
+                {activeLightTime}
+              </p>
+            )}
           </div>
           <Link
             href={`/${locale}/stop/${active.stop.id}`}

@@ -7,7 +7,7 @@ import {
   pickReference,
   type Reference,
 } from "@/lib/references";
-import { formatMeters } from "@/lib/scale";
+import { formatLightTime, formatMeters } from "@/lib/scale";
 import { useUnits } from "@/lib/units";
 import type { Stop } from "@/lib/types";
 
@@ -49,6 +49,25 @@ function computeDistance(stop: Stop): DistanceVisual | null {
     ? distance / reference.meters
     : reference.meters / distance;
   return { reference, ratio, stopFarther };
+}
+
+function LightTime({
+  meters,
+  t,
+}: {
+  meters: number;
+  t: (key: string) => string;
+}) {
+  const text = formatLightTime(meters, t);
+  if (!text) return null;
+  return (
+    <p
+      title={t("common.lightTime.hint")}
+      className="mt-0.5 text-[11px] text-cosmos-star/50"
+    >
+      {text}
+    </p>
+  );
 }
 
 /**
@@ -121,6 +140,7 @@ export function StopDistanceCard({ stop }: StopDistanceCardProps) {
           <p className="mt-1 whitespace-nowrap font-mono text-sm text-cosmos-plasma sm:text-[15px]">
             {formatMeters(visual.reference.meters, t, units)}
           </p>
+          <LightTime meters={visual.reference.meters} t={t} />
         </div>
 
         {/* Ratio (the actual visual hook) */}
@@ -151,6 +171,7 @@ export function StopDistanceCard({ stop }: StopDistanceCardProps) {
           <p className="mt-1 whitespace-nowrap font-mono text-sm text-cosmos-plasma sm:text-[15px]">
             {formatMeters(stop.distanceFromEarthMeters!, t, units)}
           </p>
+          <LightTime meters={stop.distanceFromEarthMeters!} t={t} />
         </div>
       </div>
 

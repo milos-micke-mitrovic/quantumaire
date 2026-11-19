@@ -6,6 +6,7 @@ import { LanguageSwitcher } from "./LanguageSwitcher";
 import { MobileNav } from "./MobileNav";
 import { NavMenu } from "./NavMenu";
 import { Search } from "./Search";
+import { TempUnitSwitcher } from "./TempUnitSwitcher";
 import { UnitSwitcher } from "./UnitSwitcher";
 
 export function SiteHeader() {
@@ -37,6 +38,7 @@ export function SiteHeader() {
           <div className="hidden sm:flex sm:items-center sm:gap-3">
             <NavMenu />
             <UnitSwitcher />
+            <TempUnitSwitcher className="hidden lg:inline-flex" />
             <LanguageSwitcher />
           </div>
           <div className="sm:hidden">

@@ -2,6 +2,8 @@ import { describe, expect, it } from "vitest";
 import {
   SCALE_FACTOR,
   compareToGrain,
+  formatLightTime,
+  formatTemperature,
   formatMeters,
   logPosition,
   toGrainScale,
@@ -148,5 +150,43 @@ describe("locale-aware numbers", () => {
     expect(formatMeters(12742000, sr)).toBe("12.742 km");
     expect(formatMeters(1.39e9, sr)).toBe("1,39 miliona km");
     expect(formatMeters(12742000)).toBe("12,742 km");
+  });
+});
+
+describe("formatLightTime", () => {
+  const sr = (k: string) =>
+    ({
+      "common.numberLocale": "sr-Latn-RS",
+      "common.lightTime.minute": "svetlost: ≈ {value} min",
+      "common.lightTime.dayOne": "svetlost: ≈ {value} dan",
+    })[k] ?? k;
+
+  it("skips distances under a light-second and in the light-year regime", () => {
+    expect(formatLightTime(1e6)).toBeNull();
+    expect(formatLightTime(4e16)).toBeNull();
+    expect(formatLightTime(null)).toBeNull();
+  });
+
+  it("picks a readable unit", () => {
+    expect(formatLightTime(384_400_000)).toBe("≈ 1.3 light-seconds");
+    expect(formatLightTime(1.496e11)).toBe("≈ 8.3 light-minutes");
+    expect(formatLightTime(4.5e12)).toBe("≈ 4.2 light-hours");
+    expect(formatLightTime(2.59e13)).toBe("≈ 1 light-day");
+  });
+
+  it("formats Serbian numbers", () => {
+    expect(formatLightTime(1.496e11, sr)).toBe("svetlost: ≈ 8,3 min");
+    expect(formatLightTime(2.59e13, sr)).toBe("svetlost: ≈ 1 dan");
+  });
+});
+
+describe("formatTemperature in a chosen unit", () => {
+  it("formats Celsius, Fahrenheit and kelvin", () => {
+    expect(formatTemperature(5772, undefined, "C")).toBe("5,500 °C");
+    expect(formatTemperature(5772, undefined, "F")).toBe("9,900 °F");
+    expect(formatTemperature(5772, undefined, "K")).toBe("5,800 K");
+    expect(formatTemperature(288, undefined, "C")).toBe("15 °C");
+    expect(formatTemperature(288, undefined, "F")).toBe("59 °F");
+    expect(formatTemperature(1.57e7, undefined, "C")).toBe("15.7 million °C");
   });
 });

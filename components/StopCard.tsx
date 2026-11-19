@@ -6,8 +6,8 @@ import { m as motion } from "framer-motion";
 import type { Stop } from "@/lib/types";
 import { useI18n } from "@/lib/i18n";
 import { categorySlug } from "@/lib/content";
-import { formatMeters, formatTemperature } from "@/lib/scale";
-import { useUnits } from "@/lib/units";
+import { formatLightTime, formatMeters, formatTemperature } from "@/lib/scale";
+import { useTempUnit, useUnits } from "@/lib/units";
 import { useVisited } from "@/lib/visited";
 import { BookmarkButton } from "./BookmarkButton";
 import { ImagePlaceholder } from "./ImagePlaceholder";
@@ -21,6 +21,7 @@ interface StopCardProps {
 export function StopCard({ stop, index }: StopCardProps) {
   const { t, locale } = useI18n();
   const { units } = useUnits();
+  const { tempUnit } = useTempUnit();
   const { visited } = useVisited();
   const isVisited = visited.has(stop.id);
 
@@ -91,6 +92,12 @@ export function StopCard({ stop, index }: StopCardProps) {
                   </span>
                   <span className="text-cosmos-star/85">
                     {formatMeters(stop.distanceFromEarthMeters, t, units)}
+                    {formatLightTime(stop.distanceFromEarthMeters, t) && (
+                      <span className="text-cosmos-star/45">
+                        {" "}
+                        ({formatLightTime(stop.distanceFromEarthMeters, t)})
+                      </span>
+                    )}
                   </span>
                 </span>
               )}
@@ -100,7 +107,7 @@ export function StopCard({ stop, index }: StopCardProps) {
                   {t("common.temperatureShort")}
                 </span>
                 <span className="text-cosmos-star/85">
-                  {formatTemperature(stop.temperatureKelvin, t)}
+                  {formatTemperature(stop.temperatureKelvin, t, tempUnit)}
                 </span>
               </span>
             )}

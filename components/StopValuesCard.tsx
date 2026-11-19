@@ -2,8 +2,8 @@
 
 import clsx from "clsx";
 import { useI18n } from "@/lib/i18n";
-import { formatMeters, formatTemperature } from "@/lib/scale";
-import { useUnits } from "@/lib/units";
+import { formatLightTime, formatMeters, formatTemperature } from "@/lib/scale";
+import { useTempUnit, useUnits } from "@/lib/units";
 import type { Stop } from "@/lib/types";
 
 interface StopValuesCardProps {
@@ -18,6 +18,7 @@ interface StopValuesCardProps {
 export function StopValuesCard({ stop }: StopValuesCardProps) {
   const { t } = useI18n();
   const { units } = useUnits();
+  const { tempUnit } = useTempUnit();
 
   const hasSize = stop.sizeMeters !== null && stop.sizeMeters > 0;
   const hasDistance =
@@ -58,6 +59,14 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
             </dt>
             <dd className="mt-2 whitespace-nowrap font-mono text-base text-cosmos-plasma sm:text-lg">
               {formatMeters(stop.distanceFromEarthMeters!, t, units)}
+              {formatLightTime(stop.distanceFromEarthMeters, t) && (
+                <span
+                  title={t("common.lightTime.hint")}
+                  className="mt-1 block font-sans text-xs text-cosmos-star/55"
+                >
+                  {formatLightTime(stop.distanceFromEarthMeters, t)}
+                </span>
+              )}
             </dd>
           </div>
         )}
@@ -67,7 +76,7 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
               {t("common.temperature")}
             </dt>
             <dd className="mt-2 whitespace-nowrap font-mono text-base text-cosmos-plasma sm:text-lg">
-              {formatTemperature(stop.temperatureKelvin!, t)}
+              {formatTemperature(stop.temperatureKelvin!, t, tempUnit)}
             </dd>
           </div>
         )}

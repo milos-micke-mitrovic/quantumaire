@@ -796,7 +796,7 @@
       "sizeMeters": 1.7,
       "order": 4.7,
       "badge": "FACT",
-      "category": "HUMAN_MIND",
+      "category": "EARTH",
       "accent": "text-cosmos-aurora",
       "accentGlow": "shadow-[0_0_60px_rgba(124,92,255,0.4)]",
       "image": {
@@ -1485,6 +1485,516 @@
       ],
       "distanceFromEarthMeters": 4500000000000,
       "temperatureKelvin": 72
+    },
+    {
+      "id": "planck_length",
+      "i18nKey": "stops.planck_length",
+      "sizeMeters": 1.616e-35,
+      "order": 0.5,
+      "badge": "ESTABLISHED_THEORY",
+      "category": "MICRO_WORLD",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/planck-length.webp",
+        "aspect": "wide",
+        "altKey": "stops.planck_length.image.alt",
+        "geminiPrompt": "A foamy, flickering lattice of spacetime at the smallest conceivable scale.",
+        "credit": "Alex Sukontsev — “Quantum foam” (abstract art) — CC BY-SA 2.0 (cropped)"
+      },
+      "glossary": [
+        "quantum",
+        "planck_units",
+        "quantum_gravity"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Planck_length"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Planck_units"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quantum_gravity"
+        }
+      ],
+      "tags": [
+        "unit"
+      ]
+    },
+    {
+      "id": "higgs_boson",
+      "i18nKey": "stops.higgs_boson",
+      "sizeMeters": null,
+      "order": 1.5,
+      "badge": "FACT",
+      "category": "MICRO_WORLD",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/higgs-boson.webp",
+        "aspect": "wide",
+        "altKey": "stops.higgs_boson.image.alt",
+        "geminiPrompt": "Particle tracks bursting from a collision point inside a detector, tracing a Higgs decay.",
+        "credit": "CERN / CMS Collaboration (T. McCauley, L. Taylor) — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "higgs_field",
+        "standard_model",
+        "strong_force"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Higgs_boson"
+        },
+        {
+          "label": "CERN",
+          "url": "https://home.cern/science/physics/higgs-boson"
+        },
+        {
+          "label": "Britannica",
+          "url": "https://www.britannica.com/science/Higgs-boson"
+        }
+      ],
+      "tags": [
+        "particle"
+      ]
+    },
+    {
+      "id": "antimatter",
+      "i18nKey": "stops.antimatter",
+      "sizeMeters": null,
+      "order": 2.5,
+      "badge": "FACT",
+      "category": "MICRO_WORLD",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/antimatter.webp",
+        "aspect": "square",
+        "altKey": "stops.antimatter.image.alt",
+        "geminiPrompt": "A particle and its mirror-image antiparticle meeting in a burst of light.",
+        "credit": "Carl D. Anderson (1932), first positron track — public domain"
+      },
+      "glossary": [
+        "positron",
+        "annihilation",
+        "big_bang"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Antimatter"
+        },
+        {
+          "label": "CERN",
+          "url": "https://home.cern/science/physics/antimatter"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Positron"
+        }
+      ],
+      "tags": [
+        "matter"
+      ]
+    },
+    {
+      "id": "quantum_entanglement",
+      "i18nKey": "stops.quantum_entanglement",
+      "sizeMeters": null,
+      "order": 3.5,
+      "badge": "FACT",
+      "category": "PHYSICS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/quantum-entanglement.webp",
+        "aspect": "wide",
+        "altKey": "stops.quantum_entanglement.image.alt",
+        "geminiPrompt": "Two glowing particles far apart, linked by a faint luminous thread.",
+        "credit": "NIST — entangled photon-pair source — public domain"
+      },
+      "glossary": [
+        "quantum",
+        "superposition",
+        "bell_test"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quantum_entanglement"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bell_test"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/EPR_paradox"
+        }
+      ],
+      "tags": [
+        "phenomenon"
+      ]
+    },
+    {
+      "id": "tardigrade",
+      "i18nKey": "stops.tardigrade",
+      "sizeMeters": 0.0005,
+      "order": 4.65,
+      "badge": "FACT",
+      "category": "MICRO_WORLD",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/tardigrade.webp",
+        "aspect": "square",
+        "altKey": "stops.tardigrade.image.alt",
+        "geminiPrompt": "A plump, eight-legged tardigrade clinging to a strand of moss under the microscope.",
+        "credit": "Schokraie E. et al. (2012), PLoS ONE, SEM of Milnesium tardigradum — CC BY 2.5 (cropped)"
+      },
+      "glossary": [
+        "cryptobiosis",
+        "tun_state",
+        "extremophile",
+        "grain_of_sand"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tardigrade"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cryptobiosis"
+        },
+        {
+          "label": "Britannica",
+          "url": "https://www.britannica.com/animal/tardigrade"
+        }
+      ],
+      "tags": [
+        "biology",
+        "animal"
+      ]
+    },
+    {
+      "id": "blue_whale",
+      "i18nKey": "stops.blue_whale",
+      "sizeMeters": 25,
+      "order": 4.8,
+      "badge": "FACT",
+      "category": "EARTH",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/blue-whale.webp",
+        "aspect": "wide",
+        "altKey": "stops.blue_whale.image.alt",
+        "geminiPrompt": "A blue whale gliding through sunlit open ocean, dwarfing a diver beside it.",
+        "credit": "NOAA Photo Library — public domain"
+      },
+      "glossary": [
+        "baleen",
+        "krill"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blue_whale"
+        },
+        {
+          "label": "Britannica",
+          "url": "https://www.britannica.com/animal/blue-whale"
+        }
+      ],
+      "tags": [
+        "biology",
+        "animal"
+      ]
+    },
+    {
+      "id": "mount_everest",
+      "i18nKey": "stops.mount_everest",
+      "sizeMeters": 8849,
+      "order": 6.2,
+      "badge": "FACT",
+      "category": "EARTH",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/mount-everest.webp",
+        "aspect": "wide",
+        "altKey": "stops.mount_everest.image.alt",
+        "geminiPrompt": "The snow-plumed summit pyramid of Mount Everest against a deep blue high-altitude sky.",
+        "credit": "Nir B. Gurung — CC BY-SA 4.0 (cropped)"
+      },
+      "glossary": [
+        "plate_tectonics",
+        "equatorial_bulge",
+        "death_zone"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mount_Everest"
+        },
+        {
+          "label": "Britannica",
+          "url": "https://www.britannica.com/place/Mount-Everest"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chimborazo"
+        }
+      ],
+      "tags": [
+        "mountain"
+      ],
+      "temperatureKelvin": 237
+    },
+    {
+      "id": "gravity",
+      "i18nKey": "stops.gravity",
+      "sizeMeters": null,
+      "order": 7.1,
+      "badge": "FACT",
+      "category": "PHYSICS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/gravity.webp",
+        "aspect": "square",
+        "altKey": "stops.gravity.image.alt",
+        "geminiPrompt": "A grid of spacetime curving into a deep well around a massive glowing sphere.",
+        "credit": "NASA — Gravity Probe B artist’s concept — public domain"
+      },
+      "glossary": [
+        "general_relativity",
+        "spacetime",
+        "graviton"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gravity"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_relativity"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Graviton"
+        }
+      ],
+      "tags": [
+        "force"
+      ]
+    },
+    {
+      "id": "time_dilation",
+      "i18nKey": "stops.time_dilation",
+      "sizeMeters": null,
+      "order": 7.2,
+      "badge": "FACT",
+      "category": "PHYSICS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/time-dilation.webp",
+        "aspect": "square",
+        "altKey": "stops.time_dilation.image.alt",
+        "geminiPrompt": "Two clocks ticking at different rates, one near Earth and one in orbit, against curved spacetime.",
+        "credit": "U.S. Air Force — GPS Block IIIA satellite — public domain"
+      },
+      "glossary": [
+        "special_relativity",
+        "general_relativity",
+        "spacetime"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Time_dilation"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hafele%E2%80%93Keating_experiment"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Error_analysis_for_the_Global_Positioning_System"
+        }
+      ],
+      "tags": [
+        "spacetime"
+      ]
+    },
+    {
+      "id": "gravitational_waves",
+      "i18nKey": "stops.gravitational_waves",
+      "sizeMeters": null,
+      "order": 10.35,
+      "badge": "FACT",
+      "category": "PHYSICS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/gravitational-waves.webp",
+        "aspect": "wide",
+        "altKey": "stops.gravitational_waves.image.alt",
+        "geminiPrompt": "Two black holes spiralling together, sending concentric ripples across a grid of spacetime.",
+        "credit": "SXS Lensing (Simulating eXtreme Spacetimes) — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "interferometer",
+        "spacetime",
+        "general_relativity",
+        "event_horizon"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gravitational_wave"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves"
+        },
+        {
+          "label": "LIGO Caltech",
+          "url": "https://www.ligo.caltech.edu/page/what-are-gw"
+        }
+      ],
+      "tags": [
+        "phenomenon",
+        "spacetime"
+      ]
+    },
+    {
+      "id": "wormhole",
+      "i18nKey": "stops.wormhole",
+      "sizeMeters": null,
+      "order": 10.45,
+      "badge": "SPECULATIVE",
+      "category": "PHYSICS",
+      "accent": "text-badge-speculative",
+      "accentGlow": "shadow-[0_0_80px_rgba(251,113,133,0.4)]",
+      "image": {
+        "src": "/images/wormhole.webp",
+        "aspect": "wide",
+        "altKey": "stops.wormhole.image.alt",
+        "geminiPrompt": "A spherical gateway in space showing a distorted view of a distant star field.",
+        "credit": "Les Bossinas (Cortez III Service Corp.) for NASA — public domain"
+      },
+      "glossary": [
+        "exotic_matter",
+        "spacetime",
+        "general_relativity",
+        "event_horizon"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wormhole"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ER_%3D_EPR"
+        }
+      ],
+      "tags": [
+        "spacetime",
+        "hypothetical"
+      ]
+    },
+    {
+      "id": "big_bang",
+      "i18nKey": "stops.big_bang",
+      "sizeMeters": null,
+      "order": 13.5,
+      "badge": "ESTABLISHED_THEORY",
+      "category": "COSMOS",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/big-bang.webp",
+        "aspect": "wide",
+        "altKey": "stops.big_bang.image.alt",
+        "geminiPrompt": "A burst of light and matter expanding outward into galaxies as space itself stretches.",
+        "credit": "ESA / Planck Collaboration — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "big_bang",
+        "cmb",
+        "expansion",
+        "inflation"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Big_Bang"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cosmic_microwave_background"
+        },
+        {
+          "label": "NASA",
+          "url": "https://science.nasa.gov/universe/overview/"
+        }
+      ],
+      "tags": [
+        "phenomenon",
+        "cosmos"
+      ]
+    },
+    {
+      "id": "multiverse",
+      "i18nKey": "stops.multiverse",
+      "sizeMeters": null,
+      "order": 15,
+      "badge": "SPECULATIVE",
+      "category": "COSMOS",
+      "accent": "text-badge-speculative",
+      "accentGlow": "shadow-[0_0_80px_rgba(251,113,133,0.4)]",
+      "image": {
+        "src": "/images/multiverse.webp",
+        "aspect": "wide",
+        "altKey": "stops.multiverse.image.alt",
+        "geminiPrompt": "Countless iridescent bubble universes floating in a dark void, a few touching at their edges.",
+        "credit": "NASA / ESA / CSA / STScI — Webb’s First Deep Field — public domain"
+      },
+      "glossary": [
+        "multiverse",
+        "inflation",
+        "many_worlds",
+        "cmb"
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Multiverse"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eternal_inflation"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Many-worlds_interpretation"
+        }
+      ],
+      "tags": [
+        "hypothetical",
+        "cosmos"
+      ]
     }
   ]
 }

@@ -7,6 +7,7 @@ import { useCallback, useEffect, useState } from "react";
 import { AnimatePresence, m as motion } from "framer-motion";
 import { SUPPORTED_LOCALES, useI18n } from "@/lib/i18n";
 import { useUnits, type UnitSystem } from "@/lib/units";
+import { TempUnitSwitcher } from "./TempUnitSwitcher";
 import type { Locale } from "@/lib/types";
 
 interface NavItem {
@@ -191,6 +192,13 @@ export function MobileNav() {
                       </button>
                     ))}
                   </div>
+                </div>
+
+                <div>
+                  <p className="mb-2 text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/50">
+                    {t("common.temperatureUnit")}
+                  </p>
+                  <TempUnitSwitcher className="w-full" />
                 </div>
 
                 <div>

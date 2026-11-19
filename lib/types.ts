@@ -8,7 +8,9 @@ export type Category =
   | "COSMOS"
   | "MICRO_WORLD"
   | "HUMAN_MIND"
-  | "ANCIENT_HISTORY";
+  | "ANCIENT_HISTORY"
+  | "EARTH"
+  | "PHYSICS";
 
 export type Locale = "en" | "sr";
 

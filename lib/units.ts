@@ -67,3 +67,56 @@ export function useUnits(): {
   );
   return { units, setUnits, toggleUnits };
 }
+
+// ── Temperature unit ────────────────────────────────────────────────────
+
+export type TempUnit = "C" | "F" | "K";
+
+const TEMP_KEY = "quantumaire.tempUnit";
+const TEMP_EVENT = "quantumaire:temp-unit-changed";
+const TEMP_DEFAULT: TempUnit = "C";
+
+function readTemp(): TempUnit {
+  if (typeof window === "undefined") return TEMP_DEFAULT;
+  try {
+    const raw = window.localStorage.getItem(TEMP_KEY);
+    if (raw === "C" || raw === "F" || raw === "K") return raw;
+  } catch {
+    /* ignore */
+  }
+  return TEMP_DEFAULT;
+}
+
+function subscribeTemp(callback: () => void): () => void {
+  const handler = () => callback();
+  window.addEventListener(TEMP_EVENT, handler);
+  window.addEventListener("storage", handler);
+  return () => {
+    window.removeEventListener(TEMP_EVENT, handler);
+    window.removeEventListener("storage", handler);
+  };
+}
+
+/**
+ * Reactive hook for the preferred temperature unit (°C / °F / K). Same
+ * persistence model as `useUnits`: localStorage, SSR renders the default.
+ */
+export function useTempUnit(): {
+  tempUnit: TempUnit;
+  setTempUnit: (value: TempUnit) => void;
+} {
+  const tempUnit = useSyncExternalStore(
+    subscribeTemp,
+    readTemp,
+    () => TEMP_DEFAULT
+  );
+  const setTempUnit = useCallback((value: TempUnit) => {
+    try {
+      window.localStorage.setItem(TEMP_KEY, value);
+      window.dispatchEvent(new CustomEvent(TEMP_EVENT));
+    } catch {
+      /* ignore */
+    }
+  }, []);
+  return { tempUnit, setTempUnit };
+}

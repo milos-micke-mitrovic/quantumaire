@@ -183,7 +183,19 @@
       "notEnoughStops": "Not enough stops have this data yet — try a different mode."
     },
     "tempSameInC": "≈ same in °C",
-    "numberLocale": "en-US"
+    "numberLocale": "en-US",
+    "lightTime": {
+      "secondOne": "≈ {value} light-second",
+      "second": "≈ {value} light-seconds",
+      "minuteOne": "≈ {value} light-minute",
+      "minute": "≈ {value} light-minutes",
+      "hourOne": "≈ {value} light-hour",
+      "hour": "≈ {value} light-hours",
+      "dayOne": "≈ {value} light-day",
+      "day": "≈ {value} light-days",
+      "hint": "How long light takes to cover this distance"
+    },
+    "temperatureUnit": "Temperature"
   },
   "home": {
     "faq": {
@@ -226,10 +238,16 @@
     "MICRO_WORLD.description": "Quarks, atoms, and molecules — the building blocks underneath everything you can see or touch.",
     "HUMAN_MIND.description": "Documented oddities of how a single brain — and a single body — can house more than one self.",
     "ANCIENT_HISTORY.description": "Monuments and mysteries whose construction still resists complete explanation.",
-    "COSMOS.intro": "The universe at every scale beyond the ground beneath your feet — planets, stars, galaxies, and the largest gravitationally bound structures we know how to find. About two-thirds of every stop on Quantumaire lives here, because the cosmos is where orders of magnitude start to do real work. The Cosmos category also collects the abstractions that hold it all together: dark matter, dark energy, the cosmic horizon.",
+    "COSMOS.intro": "The universe at every scale beyond the ground beneath your feet — planets, stars, galaxies, and the largest gravitationally bound structures we know how to find. More than half of the stops on Quantumaire live here, because the cosmos is where orders of magnitude start to do real work. The Cosmos category also collects the abstractions that hold it all together: dark matter, dark energy, the cosmic horizon.",
     "MICRO_WORLD.intro": "Everything smaller than the cell. Quarks and gluons inside the proton; the proton inside the atom; the atom inside the DNA helix; the helix inside the virus; the virus, in turn, dwarfed by a bacterium. Each step down this ladder is roughly a thousand times smaller than the last, so the human-scale intuition that 'small things differ by a bit' breaks completely. The micro-world is where you watch that intuition snap.",
     "HUMAN_MIND.intro": "Phenomena that don't fit on the size axis at all because they're properties of the brain rather than measurable objects. Quantumaire includes one such stop — dissociative identity disorder — to acknowledge that not everything which meaningfully exists has a metre attached to it. The mind belongs on a journey through scale even when it sits outside the ruler.",
-    "ANCIENT_HISTORY.intro": "Structures and artifacts whose engineering still invites careful explanation rather than easy dismissal. The Great Pyramid is the only stop here so far — but at 139 metres, with 2.3 million blocks aligned to the cardinal directions, it sits at exactly the right scale to bridge the human and the planetary."
+    "ANCIENT_HISTORY.intro": "Structures and artifacts whose engineering still invites careful explanation rather than easy dismissal. The Great Pyramid is the only stop here so far — but at 139 metres, with 2.3 million blocks aligned to the cardinal directions, it sits at exactly the right scale to bridge the human and the planetary.",
+    "EARTH": "Life & Earth",
+    "PHYSICS": "Forces & Spacetime",
+    "EARTH.description": "Living things and landscapes on our own planet — from a half-millimetre water bear to the blue whale and the roof of the world.",
+    "PHYSICS.description": "Gravity, time, ripples in spacetime and quantum links — the rules that every object on the journey has to obey.",
+    "EARTH.intro": "The stretch of the scale you can actually touch. Life on Earth spans more than seven orders of magnitude — from a tardigrade you'd need a microscope to see, through a human being, to a blue whale longer than a basketball court — and the planet's own surface adds Mount Everest, almost nine kilometres of rock folded upward by colliding continents. These stops anchor the cosmic numbers to things you already have a feel for.",
+    "PHYSICS.intro": "Not objects but the rules behind them. Gravity, the weakest force, still decides the shape of everything from planets to galaxy clusters; time itself runs at different speeds depending on how fast you move and how deep you sit in a gravity well; spacetime can ripple, and on paper it can even fold into a wormhole. These stops have no size you could put on a ruler — what they have is reach: every other stop on the journey obeys them."
   },
   "comparison": {
     "title": "From quark to the observable universe",
@@ -309,7 +327,12 @@
     "spacecraft": "Spacecraft",
     "unit": "Unit of distance",
     "phenomenon": "Phenomenon",
-    "cosmos": "Cosmos"
+    "cosmos": "Cosmos",
+    "animal": "Animal",
+    "mountain": "Mountain",
+    "force": "Force",
+    "spacetime": "Spacetime",
+    "hypothetical": "Hypothetical"
   },
   "stops": {
     "quark": {
@@ -721,7 +744,7 @@
       "name": "Voyager 1",
       "tagline": "The farthest human-made object — and still calling home.",
       "body": "Voyager 1 launched from Cape Canaveral in September 1977 on a mission to fly past Jupiter and Saturn. Forty-nine years later it's still operating — now in interstellar space, more than 173 astronomical units from Earth, sending back a faint trickle of data on the particles and magnetic fields around it. In November 2026 it became the first human-made object one light-day from Earth: every signal now takes a full day to arrive.",
-      "narrative": "Voyager 1 is so far away that a radio command from Earth takes a full day to reach it. Yet on the scale of the stars it has barely left home: the nearest star is still more than 1,500 times farther away.",
+      "narrative": "Voyager 1 is so far away that a radio command from Earth takes a full day to reach it. Yet on the scale of the stars it has barely left home: even at 61,000 km/h it needs about 17,600 years to cover a single light-year — and the nearest star is more than four light-years away.",
       "ifDistance": "A radio signal from Earth now takes a full day to reach Voyager 1. If you shrank that gap to the length of a football pitch (105 m), the Earth–Sun distance would be about 60 centimetres — and the nearest star would still be more than 160 kilometres away.",
       "image": {
         "alt": "Voyager 1 spacecraft against the cosmic void, dish antenna pointing back toward a distant Earth."
@@ -730,7 +753,9 @@
         "fact1": "Launched 5 September 1977 — over 49 years ago.",
         "fact2": "About 26 billion km from Earth — more than 173 astronomical units.",
         "fact3": "Radio signals take about 24 hours each way — it passed one light-day from Earth on 18 November 2026.",
-        "fact4": "Carries the Golden Record — sounds and images of Earth, for any future finder."
+        "fact4": "Carries the Golden Record — sounds and images of Earth, for any future finder.",
+        "fact5": "Speed: about 17 km/s — roughly 61,000 km/h relative to the Sun.",
+        "fact6": "At that speed, crossing a single light-year would take about 17,600 years."
       },
       "massNarrative": "Voyager 1 weighs about 720 kg — roughly as much as a dairy cow. It and its twin, Voyager 2, are the only human-made objects known to have crossed into interstellar space.",
       "funFact": "Voyager 1 isn't aimed at any particular star. In about 40,000 years it will pass within 1.6 light-years of Gliese 445 — but by then the constellations we know will have rearranged themselves."
@@ -967,6 +992,217 @@
         "fact3": "Winds reach 2,100 km/h — the fastest in the Solar System.",
         "fact4": "Cloud-top temperature around -201 °C, but radiates more heat than it receives.",
         "fact5": "Discovered in 1846 by prediction, not observation — a triumph of Newtonian gravity."
+      }
+    },
+    "planck_length": {
+      "name": "Planck Length",
+      "tagline": "The scale where our best theories stop making sense.",
+      "body": "The Planck length — about 1.6 × 10⁻³⁵ metres — is built from three constants of nature: the gravitational constant G, the speed of light c and Planck's constant ħ. The number itself is exact arithmetic; what it means is not. At this scale quantum effects and gravity should both matter at once, and no tested theory can handle that combination. It is often called the smallest possible length, but that is an expectation from candidate theories of quantum gravity — nobody has measured anything remotely this small.",
+      "narrative": "If a single atom were inflated to the size of the observable universe, the Planck length would grow to about 140 metres — roughly the height of the Great Pyramid.",
+      "funFact": "Max Planck defined it in 1899 — a year before he introduced the quantum, and 16 years before Einstein's general relativity — as a unit any civilisation, even an alien one, could rebuild from nature alone. Its role as the place where gravity and quantum mechanics collide was only understood decades later.",
+      "image": {
+        "alt": "A foamy, flickering lattice of spacetime at the smallest conceivable scale."
+      },
+      "facts": {
+        "fact1": "Value: about 1.616 × 10⁻³⁵ m.",
+        "fact2": "Roughly 10²⁰ times smaller than a proton.",
+        "fact3": "Light crosses it in one Planck time: about 5.4 × 10⁻⁴⁴ s.",
+        "fact4": "Probing it directly would take about 10¹⁵ times the LHC's collision energy."
+      }
+    },
+    "higgs_boson": {
+      "name": "Higgs Boson",
+      "tagline": "The particle that proved an invisible field fills all of space.",
+      "body": "In July 2012, the ATLAS and CMS experiments at CERN's Large Hadron Collider announced a new particle weighing about 125 GeV — the Higgs boson, predicted back in 1964. It is a ripple in the Higgs field, which pervades the entire universe and gives elementary particles such as electrons and quarks their mass. Without it, electrons would be massless, and atoms as we know them could not form. A Higgs boson lives for only about 10⁻²² seconds, so it is never seen directly — only through the particles it decays into.",
+      "narrative": "The Higgs boson has no meaningful size — it is a brief excitation of a field that fills every cubic metre of space, including the one you're sitting in.",
+      "massNarrative": "A single Higgs boson weighs about as much as an entire caesium atom — 55 protons, 78 neutrons and 55 electrons — yet as far as anyone can tell, it has no parts inside at all.",
+      "funFact": "The Higgs field gives mass to electrons and quarks — yet only about 1% of your body's mass comes from it. The other 99% is energy: quarks and gluons moving and binding inside your protons and neutrons, turned into mass through E = mc².",
+      "image": {
+        "alt": "Particle tracks bursting from a collision point inside a detector, tracing a Higgs decay."
+      },
+      "facts": {
+        "fact1": "Discovery announced at CERN on 4 July 2012.",
+        "fact2": "Mass: about 125 GeV — roughly 133 times a proton.",
+        "fact3": "Peter Higgs and François Englert shared the 2013 Nobel Prize in Physics.",
+        "fact4": "The LHC makes roughly one Higgs per billion proton collisions."
+      }
+    },
+    "antimatter": {
+      "name": "Antimatter",
+      "tagline": "Matter's mirror twin — and the reason the universe almost shouldn't exist.",
+      "body": "Every particle has an antiparticle with the same mass but opposite charge. Paul Dirac's 1928 equation pointed to them, and in 1932 Carl Anderson spotted the first one — the positron, an anti-electron — in cosmic rays. When matter meets antimatter, both vanish in a flash of energy, exactly as E = mc² dictates. The Big Bang should have made equal amounts of each, yet everything we see is made of matter, and nobody yet knows why.",
+      "narrative": "Antimatter has no size of its own — an antiproton is exactly as big as a proton. The scale that matters is a ratio: for roughly every billion matter–antimatter pairs in the early universe, one extra particle of matter survived. That leftover is everything, including you.",
+      "massNarrative": "All the antimatter ever made at CERN, annihilated at once, would light a single light bulb for only a few minutes.",
+      "funFact": "A banana is a tiny antimatter source. Its potassium-40 very occasionally decays by emitting a positron — roughly one every hour or two — which annihilates almost instantly. Hospitals use the same physics on purpose: PET scanners image the body by catching the gamma rays from positron annihilations.",
+      "image": {
+        "alt": "A particle and its mirror-image antiparticle meeting in a burst of light."
+      },
+      "facts": {
+        "fact1": "The positron was discovered by Carl Anderson in 1932.",
+        "fact2": "CERN created the first antihydrogen atoms in 1995.",
+        "fact3": "One gram of antimatter meeting one gram of matter releases about 1.8 × 10¹⁴ J — nearly three Hiroshima bombs.",
+        "fact4": "In 2023, CERN's ALPHA experiment showed antihydrogen falls down, just like matter."
+      }
+    },
+    "quantum_entanglement": {
+      "name": "Quantum Entanglement",
+      "tagline": "Two particles, one shared story — however far apart they drift.",
+      "body": "When two particles become entangled, they share a single quantum state: measure one, and you instantly know what the matching measurement on the other will show, even if it is across a galaxy. Einstein found this so unsettling that he called it 'spooky action at a distance' and suspected the particles carried hidden instructions. John Bell showed in 1964 how to test that idea, and experiments since the 1970s — culminating in loophole-free tests in 2015 — say no such hidden instructions exist. Crucially, entanglement cannot send messages: each side sees perfectly random results, and the correlation only appears when the two records are compared over ordinary, light-speed-limited channels.",
+      "narrative": "Entanglement has no size of its own — it is a relationship between particles, not an object. Distance doesn't weaken it: the correlations are just as strong across a lab bench as across 1,200 km of sky.",
+      "funFact": "In a 2018 'cosmic Bell test', physicists let light from two distant quasars — emitted 7.8 and 12.2 billion years ago — decide how to measure pairs of entangled photons. Even with the settings chosen by the universe long before Earth existed, the quantum correlations held.",
+      "image": {
+        "alt": "Two glowing particles far apart, linked by a faint luminous thread."
+      },
+      "facts": {
+        "fact1": "Einstein, Podolsky and Rosen raised the puzzle in 1935.",
+        "fact2": "Bell's theorem (1964) turned it into a testable prediction.",
+        "fact3": "2022 Nobel Prize in Physics: Alain Aspect, John Clauser and Anton Zeilinger.",
+        "fact4": "China's Micius satellite shared entangled photons between stations 1,203 km apart (2017)."
+      }
+    },
+    "tardigrade": {
+      "name": "Tardigrade",
+      "tagline": "Half a millimetre of animal that can survive space — as long as it's dried out first.",
+      "body": "Tardigrades, or water bears, are eight-legged micro-animals about half a millimetre long, living in moss, soil, oceans and ice on every continent. Their trick is cryptobiosis: as they dry out, they curl into a barrel-shaped 'tun', lose almost all their water and slow their metabolism to nearly zero. In that state they have endured near absolute zero, close to 150 °C for short periods, and the vacuum of space. Awake and hydrated, though, they are surprisingly fragile — a day in water at about 37 °C kills around half of one well-studied species.",
+      "narrative": "At 0.5 mm, a tardigrade is exactly the size of Quantumaire's reference grain of sand — the size Earth shrinks to on our scale.",
+      "funFact": "They aren't indestructible. In 2019, dried tardigrades crash-landed on the Moon aboard Israel's Beresheet lander; lab tests firing them from a gun later showed they die above about 900 m/s, so researchers think they very likely didn't survive. The confirmed revival record isn't a century, either — it is about 30 years, from Antarctic moss kept frozen since 1983.",
+      "image": {
+        "alt": "A plump, eight-legged tardigrade clinging to a strand of moss under the microscope."
+      },
+      "facts": {
+        "fact1": "Usually up to about 0.5 mm long; the largest species reach about 1.3 mm.",
+        "fact2": "About 1,500 known species, first described in 1773.",
+        "fact3": "Can tolerate radiation doses around a thousand times what would kill a human.",
+        "fact4": "Dried tardigrades survived 10 days exposed to open space on FOTON-M3 in 2007."
+      }
+    },
+    "blue_whale": {
+      "name": "Blue Whale",
+      "tagline": "The largest animal known to have ever lived — built on a diet of krill.",
+      "body": "Blue whales can reach about 30 metres and up to roughly 190 tonnes, making them the heaviest animal known to science, living or extinct. They grow that big on krill, shrimp-like crustaceans just a few centimetres long, filtered from seawater through baleen plates by the tonne. Their deep, low-frequency calls can carry for hundreds of kilometres through the ocean. Twentieth-century whaling killed hundreds of thousands of them; hunting was banned in 1966, and they are recovering only slowly.",
+      "narrative": "A typical 25-metre adult is as long as about fifteen people lying head to toe — and a big one is longer than a basketball court.",
+      "massNarrative": "A large blue whale outweighs about 30 elephants, and its newborn calf already weighs as much as a small elephant.",
+      "funFact": "Its heart is huge, but not car-sized: the one preserved by Canada's Royal Ontario Museum weighs about 180 kg and stands roughly 1.5 m tall. And no, a child couldn't swim through its arteries — the aorta is only about as wide as a dinner plate.",
+      "image": {
+        "alt": "A blue whale gliding through sunlit open ocean, dwarfing a diver beside it."
+      },
+      "facts": {
+        "fact1": "Longest reliably measured: 29.9 m.",
+        "fact2": "Heart: about 180 kg — the largest known in any animal.",
+        "fact3": "On deep dives its heart rate can drop to 2 beats per minute.",
+        "fact4": "Protected worldwide since 1966, but still listed as Endangered."
+      }
+    },
+    "mount_everest": {
+      "name": "Mount Everest",
+      "tagline": "The highest point above sea level — but not the tallest mountain, nor the closest to the stars.",
+      "body": "Mount Everest rises 8,848.86 metres above sea level, a figure fixed by a joint China–Nepal survey in 2020. It exists because India has been ploughing into Asia for some 50 million years, crumpling the crust into the Himalaya — and it is still rising by roughly 2 mm a year. Measured from base to peak, Hawaii's Mauna Kea is taller, at over 10,000 m, most of it underwater. And because Earth bulges at the equator, the summit of Ecuador's Chimborazo sits about 2 km farther from Earth's centre than Everest's.",
+      "narrative": "Shrink Earth to a 30 cm desk globe and Everest becomes a bump just 0.2 mm high — about the thickness of two sheets of paper.",
+      "funFact": "The rock at the very top of the world is marine limestone, packed with fragments of trilobites, crinoids and other sea creatures that lived on an ocean floor around 450 million years ago.",
+      "image": {
+        "alt": "The snow-plumed summit pyramid of Mount Everest against a deep blue high-altitude sky."
+      },
+      "facts": {
+        "fact1": "Height: 8,848.86 m (China–Nepal survey, 2020).",
+        "fact2": "First summited on 29 May 1953 by Tenzing Norgay and Edmund Hillary.",
+        "fact3": "Air pressure at the summit is only about a third of that at sea level.",
+        "fact4": "Average summit temperature in January: around −36 °C."
+      }
+    },
+    "gravity": {
+      "name": "Gravity",
+      "tagline": "The weakest force in nature — and the one that builds the cosmos.",
+      "body": "Between two protons, gravity is about 10³⁶ times weaker than the electric force. Yet it never cancels out and reaches across any distance, so at large scales it wins: it rounds planets, ignites stars and herds galaxies into clusters. Newton described it in 1687 as a force between masses; Einstein's general relativity (1915) recast it as the curvature of spacetime itself. What gravity looks like at the quantum level is still unknown — its proposed particle, the graviton, has never been detected.",
+      "narrative": "Gravity has no size of its own: its reach is unlimited, fading with the square of distance but never quite reaching zero. The same pull that keeps your feet on the floor shapes structures hundreds of millions of light-years across.",
+      "funFact": "A small fridge magnet can lift a paperclip off the table — out-pulling the gravity of the entire Earth, all 6 × 10²⁴ kg of it. That's how feeble gravity is, until you gather a planet's worth of mass.",
+      "image": {
+        "alt": "A grid of spacetime curving into a deep well around a massive glowing sphere."
+      },
+      "facts": {
+        "fact1": "About 10³⁶ times weaker than electromagnetism between two protons.",
+        "fact2": "Surface gravity on Earth: about 9.81 m/s².",
+        "fact3": "Newton's law of gravitation: 1687; Einstein's general relativity: 1915.",
+        "fact4": "No confirmed quantum theory of gravity — the graviton remains hypothetical."
+      }
+    },
+    "time_dilation": {
+      "name": "Time Dilation",
+      "tagline": "Time runs at different speeds — and your phone has to correct for it.",
+      "body": "Relativity says there is no universal clock. A clock that moves fast runs slow (special relativity), and a clock deep in a gravity well runs slow too (general relativity). The effect has been measured again and again: in 1971 Hafele and Keating flew atomic clocks around the world on airliners and saw them disagree by hundreds of nanoseconds. Muons created high in the atmosphere should decay long before reaching the ground — yet they arrive in large numbers, because their clocks tick slowly at nearly the speed of light.",
+      "narrative": "Time dilation has no size — it's a difference in the rate of time itself. It is measurable across a whole planet's orbit and, with today's best atomic clocks, across a height difference of a few centimetres.",
+      "funFact": "GPS satellites' clocks gain about 38 microseconds a day relative to the ground — losing 7 to their speed but gaining 45 from weaker gravity. Uncorrected, your position fix would drift by roughly 10 km every day.",
+      "image": {
+        "alt": "Two clocks ticking at different rates, one near Earth and one in orbit, against curved spacetime."
+      },
+      "facts": {
+        "fact1": "GPS clocks: −7 µs/day from speed, +45 µs/day from gravity, net ≈ +38 µs/day.",
+        "fact2": "Hafele–Keating (1971): airborne atomic clocks confirmed relativity's predictions.",
+        "fact3": "Six months on the ISS leaves an astronaut about 0.005 s younger.",
+        "fact4": "In 2010, optical clocks detected the effect over a 33 cm height difference."
+      }
+    },
+    "gravitational_waves": {
+      "name": "Gravitational Waves",
+      "tagline": "Ripples in spacetime itself — heard for the first time in 2015.",
+      "body": "When massive objects accelerate, they send ripples through spacetime that stretch and squeeze everything they pass. Einstein predicted them in 1916 but doubted they could ever be measured. On 14 September 2015, LIGO caught one: two black holes of about 36 and 29 solar masses merging 1.3 billion light-years away. In 2017, a neutron-star collision was seen in both gravitational waves and light, and in 2023 pulsar timing arrays found evidence of a slow background hum from across the cosmos.",
+      "narrative": "A gravitational wave has no fixed size — its wavelength can range from kilometres to light-years. By the time one reaches Earth, it changes LIGO's 4 km arms by about 1/10,000 the width of a proton.",
+      "funFact": "In its final fraction of a second, the 2015 merger turned about three Suns' worth of mass into gravitational waves — briefly radiating more power than all the stars in the observable universe combined. Yet none of it was light.",
+      "image": {
+        "alt": "Two black holes spiralling together, sending concentric ripples across a grid of spacetime."
+      },
+      "facts": {
+        "fact1": "First detection: GW150914, 14 September 2015, by LIGO.",
+        "fact2": "LIGO senses arm-length changes of ~1/10,000 the width of a proton.",
+        "fact3": "2017 Nobel Prize in Physics: Rainer Weiss, Barry Barish and Kip Thorne.",
+        "fact4": "GW170817 (2017): first neutron-star merger seen in both waves and light."
+      }
+    },
+    "wormhole": {
+      "name": "Wormhole",
+      "tagline": "A shortcut through spacetime that the equations allow — and nature may not.",
+      "body": "In 1935 Einstein and Nathan Rosen found that general relativity permits a 'bridge' linking two distant regions of spacetime. That original bridge pinches shut too fast for anything — even light — to cross. In 1988 Michael Morris and Kip Thorne showed a traversable wormhole is possible on paper, but only if propped open by exotic matter with negative energy, something never found in usable amounts. No wormhole has ever been observed; more recently, the ER = EPR conjecture has proposed that quantum entanglement and wormholes may be two faces of the same thing.",
+      "narrative": "A wormhole has no set size: the equations allow throats of any width, from subatomic to galactic. What they can't supply is the negative energy needed to keep one open.",
+      "funFact": "The modern physics of traversable wormholes began with a novelist's question. Carl Sagan asked his friend Kip Thorne for a scientifically plausible way to send his heroine across the galaxy in 'Contact' — and Thorne's answer became the 1988 Morris–Thorne paper. Decades later, Thorne helped shape the wormhole in 'Interstellar'.",
+      "image": {
+        "alt": "A spherical gateway in space showing a distorted view of a distant star field."
+      },
+      "facts": {
+        "fact1": "Einstein–Rosen bridge first described in 1935.",
+        "fact2": "The name 'wormhole' was coined by John Wheeler in 1957.",
+        "fact3": "Traversable designs need negative-energy 'exotic matter'.",
+        "fact4": "No wormhole has ever been observed."
+      }
+    },
+    "big_bang": {
+      "name": "The Big Bang",
+      "tagline": "Not an explosion in space — the beginning of space stretching.",
+      "body": "About 13.8 billion years ago, the universe was extremely hot and dense, and it has been expanding and cooling ever since. The Big Bang didn't happen at a point in space; space itself has been stretching everywhere at once. Within minutes the first light nuclei formed, and after about 380,000 years the universe cooled enough for atoms to form and light to travel freely. That light still fills the sky as the cosmic microwave background, discovered by accident in 1965.",
+      "narrative": "The Big Bang has no size because it had no outside — it happened everywhere, including the patch of space you occupy now. Today that same expansion stretches across the observable universe, about 93 billion light-years wide.",
+      "funFact": "When Arno Penzias and Robert Wilson found a stubborn hiss in their horn antenna in 1964, they first blamed the pigeons nesting inside it — and cleaned out their droppings. The hiss stayed: it was the afterglow of the Big Bang, and it won them the 1978 Nobel Prize. About 1% of the static on an old analogue TV came from that same glow.",
+      "image": {
+        "alt": "A burst of light and matter expanding outward into galaxies as space itself stretches."
+      },
+      "facts": {
+        "fact1": "Age of the universe: about 13.8 billion years.",
+        "fact2": "Cosmic microwave background: 2.725 K, discovered in 1965.",
+        "fact3": "First atoms formed about 380,000 years after the Big Bang.",
+        "fact4": "The name was coined in 1949 by Fred Hoyle — a sceptic of the idea."
+      }
+    },
+    "multiverse": {
+      "name": "Multiverse",
+      "tagline": "Maybe our universe is one of many — maybe the question isn't science.",
+      "body": "Several ideas in physics hint that our universe might not be the only one. In eternal inflation, space keeps inflating forever, budding off 'bubble universes' with different properties. String theory appears to allow around 10⁵⁰⁰ possible vacuum states, each a universe with its own laws. And the many-worlds interpretation of quantum mechanics suggests reality branches with every quantum measurement. None of these can currently be tested, and many physicists question whether an unobservable multiverse counts as science at all.",
+      "narrative": "A multiverse has no measurable size — by definition, the other universes lie beyond any horizon we can see. Even our own observable universe, 93 billion light-years across, would be one bubble among many.",
+      "funFact": "Some of the multiverse's sharpest critics helped build the theory behind it. Paul Steinhardt, one of the founders of cosmic inflation, now argues that eternal inflation predicts every possible outcome somewhere — and so, he says, predicts nothing.",
+      "image": {
+        "alt": "Countless iridescent bubble universes floating in a dark void, a few touching at their edges."
+      },
+      "facts": {
+        "fact1": "String theory's 'landscape' allows roughly 10⁵⁰⁰ possible vacua.",
+        "fact2": "Many-worlds interpretation proposed by Hugh Everett in 1957.",
+        "fact3": "Searches for 'bubble collision' marks in the CMB have found none so far.",
+        "fact4": "No observational evidence for any other universe exists."
       }
     }
   },
@@ -1439,6 +1675,94 @@
     "type_ia": {
       "term": "Type Ia supernova",
       "definition": "A thermonuclear supernova produced when a white dwarf in a binary system gathers enough matter to ignite runaway carbon fusion. Their consistent peak brightness makes them cosmic distance rulers."
+    },
+    "planck_units": {
+      "term": "Planck units",
+      "definition": "Natural units of length, time, mass and temperature built only from fundamental constants — G, c and ħ — with no human conventions involved."
+    },
+    "quantum_gravity": {
+      "term": "Quantum gravity",
+      "definition": "The still-unfinished search for a theory that describes gravity with the rules of quantum mechanics. String theory and loop quantum gravity are leading candidates; none has been confirmed."
+    },
+    "higgs_field": {
+      "term": "Higgs field",
+      "definition": "An energy field filling all of space. Elementary particles that interact with it gain mass; its ripples are Higgs bosons."
+    },
+    "standard_model": {
+      "term": "Standard Model",
+      "definition": "Physics' best-tested theory of the fundamental particles and three of the four forces — everything except gravity."
+    },
+    "positron": {
+      "term": "Positron",
+      "definition": "The antiparticle of the electron: same mass, positive charge. The first antimatter particle ever discovered, in 1932."
+    },
+    "annihilation": {
+      "term": "Annihilation",
+      "definition": "What happens when a particle meets its antiparticle: both disappear and their mass turns into energy, usually as gamma rays."
+    },
+    "superposition": {
+      "term": "Superposition",
+      "definition": "A quantum system's ability to be in a combination of states at once until it is measured."
+    },
+    "bell_test": {
+      "term": "Bell test",
+      "definition": "An experiment checking whether entangled particles could be explained by hidden pre-set instructions. Every test so far says they cannot."
+    },
+    "cryptobiosis": {
+      "term": "Cryptobiosis",
+      "definition": "A reversible state in which an organism's metabolism slows to nearly undetectable levels, letting it wait out drought, cold or lack of oxygen."
+    },
+    "tun_state": {
+      "term": "Tun",
+      "definition": "The dried, curled-up, barrel-shaped form a tardigrade takes on during cryptobiosis."
+    },
+    "extremophile": {
+      "term": "Extremophile",
+      "definition": "An organism that thrives in extreme conditions, like boiling springs or acid. Tardigrades are better called extreme survivors: they endure such conditions rather than thrive in them."
+    },
+    "baleen": {
+      "term": "Baleen",
+      "definition": "Comb-like plates of keratin — the same protein as your fingernails — that some whales use instead of teeth to filter food from seawater."
+    },
+    "krill": {
+      "term": "Krill",
+      "definition": "Small, shrimp-like crustaceans a few centimetres long that swarm in vast numbers and feed much of the ocean's food web."
+    },
+    "equatorial_bulge": {
+      "term": "Equatorial bulge",
+      "definition": "Earth's slight widening at the equator caused by its spin: the equatorial diameter is about 43 km larger than the pole-to-pole one."
+    },
+    "death_zone": {
+      "term": "Death zone",
+      "definition": "Altitudes above roughly 8,000 m, where the air holds too little oxygen for a human body to survive for long."
+    },
+    "general_relativity": {
+      "term": "General relativity",
+      "definition": "Einstein's 1915 theory of gravity, in which mass and energy curve spacetime and that curvature tells matter how to move."
+    },
+    "special_relativity": {
+      "term": "Special relativity",
+      "definition": "Einstein's 1905 theory showing that measurements of time and length depend on relative motion, with the speed of light the same for every observer."
+    },
+    "spacetime": {
+      "term": "Spacetime",
+      "definition": "The single four-dimensional fabric of three dimensions of space and one of time, which gravity bends."
+    },
+    "graviton": {
+      "term": "Graviton",
+      "definition": "The hypothetical particle that would carry gravity in a quantum theory — predicted but never detected."
+    },
+    "interferometer": {
+      "term": "Interferometer",
+      "definition": "An instrument that splits light into beams and recombines them, revealing tiny changes in distance from how the waves line up."
+    },
+    "exotic_matter": {
+      "term": "Exotic matter",
+      "definition": "Hypothetical matter with negative energy density, needed in theory to hold a wormhole open. Tiny negative-energy effects exist, but never in usable amounts."
+    },
+    "many_worlds": {
+      "term": "Many-worlds interpretation",
+      "definition": "Hugh Everett's 1957 reading of quantum mechanics in which every possible measurement outcome happens, each in its own branch of reality."
     }
   },
   "faq": {
@@ -1501,7 +1825,11 @@
       "andromeda": "the Andromeda Galaxy",
       "galaxy_cluster": "the Virgo Cluster",
       "laniakea_supercluster": "the Laniakea Supercluster",
-      "observable_universe": "the observable universe"
+      "observable_universe": "the observable universe",
+      "planck_length": "the Planck length",
+      "tardigrade": "a tardigrade",
+      "blue_whale": "a blue whale",
+      "mount_everest": "Mount Everest"
     }
   },
   "seo": {
@@ -1512,5 +1840,50 @@
     "compareDescription": "Compare any two things in the universe — from a quark to the observable universe — by size, distance or temperature, and see exactly how many times bigger one is.",
     "topicsDescription": "Plain-English guides to the universe: how big it is, planet sizes compared, the smallest and largest things that exist, stars, black holes, the Big Bang and more.",
     "glossaryDescription": "{count} space and physics terms explained in plain English — from quarks, gluons and event horizons to redshift, light-years and dark energy."
+  },
+  "spacecraft": {
+    "heading": "How fast are our spacecraft?",
+    "intro": "Voyager 1 is one of the fastest objects we have ever sent away from the Sun — and still, the stars are almost out of reach. Here is how our record-holders compare, and how long each would need to cover just one light-year at its current speed.",
+    "colCraft": "Spacecraft",
+    "colLaunched": "Launched",
+    "colSpeed": "Speed",
+    "colLightYear": "Time for 1 light-year",
+    "years": "{years} years",
+    "oneYear": "1 year",
+    "footnote": "Speeds are relative to the Sun (Parker Solar Probe: peak speed at closest approach to the Sun; ISS: orbital speed around Earth). Times assume the speed stays constant.",
+    "light": {
+      "name": "Light",
+      "status": "For comparison — the cosmic speed limit"
+    },
+    "craft": {
+      "parker": {
+        "name": "Parker Solar Probe",
+        "status": "Fastest object ever built (Dec 2024), diving through the Sun's corona"
+      },
+      "voyager1": {
+        "name": "Voyager 1",
+        "status": "Active · interstellar space since 2012 · farthest from Earth"
+      },
+      "voyager2": {
+        "name": "Voyager 2",
+        "status": "Active · interstellar space since 2018"
+      },
+      "newHorizons": {
+        "name": "New Horizons",
+        "status": "Active · flew past Pluto in 2015, now in the Kuiper Belt"
+      },
+      "pioneer10": {
+        "name": "Pioneer 10",
+        "status": "Silent since 2003 · drifting toward Aldebaran"
+      },
+      "pioneer11": {
+        "name": "Pioneer 11",
+        "status": "Silent since 1995"
+      },
+      "iss": {
+        "name": "International Space Station",
+        "status": "Orbiting Earth · circles the planet every ~92 minutes"
+      }
+    }
   }
 }

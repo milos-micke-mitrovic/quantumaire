@@ -15,8 +15,8 @@ describe("content registry", () => {
     expect(STOPS.length).toBeGreaterThanOrEqual(20);
   });
 
-  it("has 4 categories defined", () => {
-    expect(CATEGORIES).toHaveLength(4);
+  it("has 6 categories defined", () => {
+    expect(CATEGORIES).toHaveLength(6);
   });
 
   it("sorts stops by ascending order field", () => {
