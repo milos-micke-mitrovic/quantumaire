@@ -1445,6 +1445,28 @@
         "fact7": "Astronomi su 2023. otkrili da se njen mlaz klati u ciklusu od oko 11 godina — dokaz da se crna rupa okreće."
       },
       "metaDescription": "M87* je prva snimljena crna rupa (2019): 6,5 milijardi Sunaca, horizont događaja širok 38 milijardi km, 55 miliona svetlosnih godina od nas."
+    },
+    "gaia_bh1": {
+      "name": "Gaia BH1",
+      "seoTitle": "Gaia BH1: najbliža poznata crna rupa Zemlji",
+      "tagline": "Najbliža poznata crna rupa — tiha, odala ju je samo zvezda koja kruži oko nje.",
+      "body": "Gaia BH1 je crna rupa od oko 9,6 Sunčevih masa, udaljena oko 1.560 svetlosnih godina, u sazvežđu Zmijonoša — najbliža poznata crna rupa. Za razliku od crnih rupa koje blistaju u rendgenskom zračenju, ona miruje: ništa ne guta, pa ne odaje nikakvu svetlost. Astronomi su je otkrili 2022, kada je svemirski teleskop Gaia Evropske svemirske agencije uočio da obična zvezda nalik Suncu opisuje malu elipsu na nebu, kružeći oko nevidljivog pratioca svakih 186 dana. Nešto toliko teško i toliko tamno ne može biti ništa drugo nego crna rupa. Njen horizont događaja širok je samo oko 57 km — koliko i jedan veliki grad.",
+      "narrative": "Gaia BH1 sabija skoro deset Sunaca u kuglu preko koje biste autoputem prešli za pola sata. Njena prateća zvezda kruži oko nje na oko 1,4 rastojanja Zemlja–Sunce — malo bliže nego što je Mars od našeg Sunca.",
+      "massNarrative": "Gaia BH1 je teška oko 9,6 Sunaca. Neutronska zvezda ne može biti mnogo teža od oko 2 Sunca, pa nešto ovako teško i ovako tamno mora biti crna rupa.",
+      "funFact": "Gaia BH1 ima dve rekordne sestre: Gaia BH2 (2023), oko koje kruži crveni džin, udaljenu oko 3.800 svetlosnih godina, i Gaia BH3 (2024), koja je sa 33 Sunčeve mase najteža poznata zvezdana crna rupa u Mlečnom putu — uočena po klaćenju jedne zvezde u podacima teleskopa Gaia, još pre nego što su ti podaci uopšte objavljeni.",
+      "image": {
+        "alt": "Umetnička predstava Gaia BH1: užarena zvezda nalik Suncu pored crne rupe čija gravitacija savija svetlost zvezda iza nje u prsten."
+      },
+      "facts": {
+        "fact1": "Masa: oko 9,6 Sunčevih masa (merenja iz 2023).",
+        "fact2": "Udaljenost: oko 1.560 svetlosnih godina, u sazvežđu Zmijonoša.",
+        "fact3": "Horizont događaja: oko 57 km u prečniku.",
+        "fact4": "Prateća zvezda nalik Suncu obiđe je svakih 186 dana, na oko 1,4 rastojanja Zemlja–Sunce.",
+        "fact5": "Otkrivena 2022. iz preciznih položaja zvezda koje meri Gaia, a zatim potvrđena teleskopima sa Zemlje.",
+        "fact6": "Miruje: ne emituje ni rendgenske ni radio-talase — ne hrani se svojom pratećom zvezdom.",
+        "fact7": "Prethodna najbliža poznata crna rupa, A0620-00, oko dva puta je dalja (oko 3.300 svetlosnih godina)."
+      },
+      "metaDescription": "Gaia BH1 je najbliža poznata crna rupa: 9,6 Sunčevih masa, 1.560 svetlosnih godina od nas, otkrivena 2022. po zvezdi koja kruži oko nečeg nevidljivog."
     }
   },
   "about": {

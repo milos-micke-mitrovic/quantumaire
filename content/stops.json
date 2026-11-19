@@ -1321,6 +1321,31 @@
       "tags": [
         "black-hole"
       ]
+    },
+    {
+      "id": "gaia_bh1",
+      "i18nKey": "stops.gaia_bh1",
+      "sizeMeters": 57000,
+      "distanceFromEarthMeters": 14760000000000000000,
+      "order": 10.25,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-ember",
+      "accentGlow": "shadow-[0_0_80px_rgba(251,113,133,0.4)]",
+      "image": {
+        "src": "/images/gaia-bh1.webp",
+        "aspect": "wide",
+        "altKey": "stops.gaia_bh1.image.alt",
+        "credit": "International Gemini Observatory/NOIRLab/NSF/AURA/J. da Silva/Spaceengine/M. Zamani — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "event_horizon",
+        "schwarzschild_radius",
+        "supernova"
+      ],
+      "tags": [
+        "black-hole"
+      ]
     }
   ]
 }

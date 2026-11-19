@@ -1445,6 +1445,28 @@
         "fact7": "In 2023 astronomers found that its jet wobbles on a roughly 11-year cycle — evidence that the black hole spins."
       },
       "metaDescription": "M87* was the first black hole ever photographed (2019): 6.5 billion Suns, an event horizon 38 billion km wide, 55 million light-years away."
+    },
+    "gaia_bh1": {
+      "name": "Gaia BH1",
+      "seoTitle": "Gaia BH1: The Closest Known Black Hole to Earth",
+      "tagline": "The nearest known black hole — a silent one, given away only by the star circling it.",
+      "body": "Gaia BH1 is a black hole of about 9.6 solar masses some 1,560 light-years away in the constellation Ophiuchus — the closest black hole known. Unlike the black holes that blaze in X-rays, it is dormant: it isn't swallowing anything, so it gives off no light at all. Astronomers found it in 2022 because ESA's Gaia spacecraft saw an ordinary Sun-like star tracing a small ellipse on the sky, circling an invisible partner every 186 days. Nothing that heavy and that dark can be anything but a black hole. Its event horizon is only about 57 km across — the width of a big city.",
+      "narrative": "Gaia BH1 packs nearly ten Suns into a sphere you could drive across in half an hour on a motorway. Its companion star circles it at about 1.4 times the Earth–Sun distance — a little closer than Mars is to our Sun.",
+      "massNarrative": "Gaia BH1 weighs about 9.6 Suns. A neutron star can't be much heavier than about 2 Suns, so anything this heavy and this dark has to be a black hole.",
+      "funFact": "Gaia BH1 has two record-setting siblings: Gaia BH2 (2023), circled by a red giant about 3,800 light-years away, and Gaia BH3 (2024), which at 33 solar masses is the heaviest stellar black hole known in the Milky Way — spotted from a star's wobble in Gaia's data before that data was even released.",
+      "image": {
+        "alt": "Artist's impression of Gaia BH1: a glowing Sun-like star beside a black hole whose gravity bends the starlight behind it into a ring."
+      },
+      "facts": {
+        "fact1": "Mass: about 9.6 times the Sun (El-Badry et al., 2023).",
+        "fact2": "Distance: about 1,560 light-years, in the constellation Ophiuchus.",
+        "fact3": "Event horizon: roughly 57 km across.",
+        "fact4": "Its Sun-like companion orbits every 186 days, at about 1.4 times the Earth–Sun distance.",
+        "fact5": "Discovered in 2022 from Gaia's precise star positions, then confirmed with telescopes on the ground.",
+        "fact6": "Dormant: no X-rays or radio waves — it isn't feeding on its companion.",
+        "fact7": "The previous closest known black hole, A0620-00, is about twice as far away (~3,300 light-years)."
+      },
+      "metaDescription": "Gaia BH1 is the closest known black hole: 9.6 solar masses, 1,560 light-years away, found in 2022 from a Sun-like star circling something invisible."
     }
   },
   "about": {
@@ -2106,7 +2128,8 @@
       "tardigrade": "a tardigrade",
       "blue_whale": "a blue whale",
       "mount_everest": "Mount Everest",
-      "m87_black_hole": "M87*"
+      "m87_black_hole": "M87*",
+      "gaia_bh1": "Gaia BH1"
     }
   },
   "seo": {

@@ -696,5 +696,19 @@
       "label": "NASA",
       "url": "https://science.nasa.gov/resource/first-image-of-a-black-hole/"
     }
+  ],
+  "gaia_bh1": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gaia_BH1"
+    },
+    {
+      "label": "NOIRLab",
+      "url": "https://noirlab.edu/public/news/noirlab2227/"
+    },
+    {
+      "label": "ESO",
+      "url": "https://www.eso.org/public/news/eso2408/"
+    }
   ]
 }
