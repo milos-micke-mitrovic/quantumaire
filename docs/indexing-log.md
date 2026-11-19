@@ -4,6 +4,11 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 
 ## Queue (next first)
 
+- https://quantumaire.space/en/compare/jupiter-vs-earth
+- https://quantumaire.space/en/compare/sun-vs-earth
+- https://quantumaire.space/en/compare/earth-vs-moon
+- https://quantumaire.space/en/compare/uy-scuti-vs-sun
+- https://quantumaire.space/en/compare/milky-way-vs-andromeda
 - https://quantumaire.space/en/stop/string_theory
 - https://quantumaire.space/en/stop/gravity
 - https://quantumaire.space/en/stop/wormhole
@@ -25,6 +30,7 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/tag/biology
 - https://quantumaire.space/en/category/forces-and-spacetime
 - https://quantumaire.space/en/category/life-and-earth
+- remaining /en/compare/* pairs (added 2026-11-19, see lib/comparePairs.ts)
 - remaining /en/stop/* pages, then /sr/* equivalents
 
 ## Done
