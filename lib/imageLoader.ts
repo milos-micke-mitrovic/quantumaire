@@ -6,7 +6,7 @@
  */
 
 // Keep in sync with WIDTHS in scripts/resize-images.mjs.
-export const IMAGE_WIDTHS = [384, 640, 828, 1080] as const;
+export const IMAGE_WIDTHS = [128, 384, 640, 828, 1080] as const;
 
 export default function imageLoader({
   src,

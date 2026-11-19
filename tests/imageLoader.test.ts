@@ -5,6 +5,8 @@ import imageLoader, { IMAGE_WIDTHS } from "@/lib/imageLoader";
 
 describe("imageLoader", () => {
   it("picks the smallest variant covering the requested width", () => {
+    expect(imageLoader({ src: "/images/atom.webp", width: 64 })).toBe("/images/w128/atom.webp");
+    expect(imageLoader({ src: "/images/atom.webp", width: 128 })).toBe("/images/w128/atom.webp");
     expect(imageLoader({ src: "/images/atom.webp", width: 300 })).toBe("/images/w384/atom.webp");
     expect(imageLoader({ src: "/images/atom.webp", width: 640 })).toBe("/images/w640/atom.webp");
     expect(imageLoader({ src: "/images/atom.webp", width: 1200 })).toBe("/images/atom.webp");

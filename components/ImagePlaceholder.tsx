@@ -44,7 +44,7 @@ export function ImagePlaceholder({
   return (
     <div
       className={clsx(
-        "relative w-full overflow-hidden rounded-2xl border border-white/10 bg-cosmos-night/40 backdrop-blur-sm",
+        "relative w-full overflow-hidden rounded-2xl border border-white/10 bg-cosmos-night/40",
         ASPECTS[aspectKey],
         className
       )}
@@ -54,11 +54,10 @@ export function ImagePlaceholder({
           src={image.src}
           alt={alt}
           fill
-          priority={priority}
+          preload={priority}
+          fetchPriority={priority ? "high" : undefined}
           sizes={sizes}
           className="object-cover"
-          placeholder="blur"
-          blurDataURL="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxIDEiPjxyZWN0IGZpbGw9IiMwYTA4MTUiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48L3N2Zz4="
           onError={() => setMissing(true)}
         />
       )}

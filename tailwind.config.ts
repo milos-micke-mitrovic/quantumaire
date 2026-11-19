@@ -42,6 +42,11 @@ const config: Config = {
         "twinkle": "twinkle 4s ease-in-out infinite",
         "float": "float 8s ease-in-out infinite",
         "pulse-soft": "pulse-soft 3s ease-in-out infinite",
+        // CSS-only entrance (no JS needed, content never stays hidden).
+        "fade-up": "fade-up 0.6s ease-out both",
+        // Movement only: for above-the-fold/LCP content that must be
+        // visible from the first paint.
+        rise: "rise 0.5s ease-out both",
       },
       keyframes: {
         drift: {
@@ -59,6 +64,14 @@ const config: Config = {
         "pulse-soft": {
           "0%, 100%": { opacity: "0.55" },
           "50%": { opacity: "0.95" },
+        },
+        "fade-up": {
+          "0%": { opacity: "0", transform: "translateY(16px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        rise: {
+          "0%": { transform: "translateY(12px)" },
+          "100%": { transform: "translateY(0)" },
         },
       },
       boxShadow: {

@@ -17,9 +17,17 @@ export function KeyboardNav({ prevHref, nextHref }: KeyboardNavProps) {
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
+      if (e.defaultPrevented) return;
       if (e.metaKey || e.ctrlKey || e.altKey || e.shiftKey) return;
-      const tag = (e.target as HTMLElement | null)?.tagName;
+      const target = e.target as HTMLElement | null;
+      const tag = target?.tagName;
       if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
+      if (target?.isContentEditable) return;
+      // Widgets with their own arrow-key handling (scale dots, pickers).
+      if (target?.closest?.('[role="listbox"],[role="slider"],[role="tablist"],[role="radiogroup"]'))
+        return;
+      // An open dialog (search, lightbox, shortcuts, mobile menu) owns the keys.
+      if (document.querySelector('[aria-modal="true"]')) return;
 
       if (e.key === "ArrowLeft" && prevHref) {
         e.preventDefault();

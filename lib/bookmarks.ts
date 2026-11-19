@@ -32,7 +32,11 @@ function writeSet(set: Set<string>) {
 
 function getSnapshot(): string {
   if (typeof window === "undefined") return "[]";
-  return window.localStorage.getItem(STORAGE_KEY) ?? "[]";
+  try {
+    return window.localStorage.getItem(STORAGE_KEY) ?? "[]";
+  } catch {
+    return "[]"; // storage blocked (Safari private mode, sandboxed iframe)
+  }
 }
 
 function subscribe(callback: () => void): () => void {

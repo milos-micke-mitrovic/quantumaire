@@ -2,7 +2,6 @@
 
 import clsx from "clsx";
 import Link from "next/link";
-import { m as motion } from "framer-motion";
 import type { Stop } from "@/lib/types";
 import { useI18n } from "@/lib/i18n";
 import { categorySlug } from "@/lib/content";
@@ -16,20 +15,21 @@ import { StopTags } from "./StopTags";
 interface StopCardProps {
   stop: Stop;
   index: number;
+  /** `sizes` for the card image; shelves pass their fixed card width. */
+  sizes?: string;
 }
 
-export function StopCard({ stop, index }: StopCardProps) {
+const GRID_SIZES =
+  "(min-width: 1024px) 300px, (min-width: 640px) 45vw, calc(100vw - 4.5rem)";
+
+export function StopCard({ stop, index, sizes = GRID_SIZES }: StopCardProps) {
   const { t, locale } = useI18n();
   const { tempUnit } = useTempUnit();
   const { visited } = useVisited();
   const isVisited = visited.has(stop.id);
 
   return (
-    <motion.article
-      initial={{ opacity: 0, y: 16 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0 }}
-      transition={{ duration: 0.3, ease: "easeOut", delay: (index % 6) * 0.02 }}
+    <article
       className={clsx(
         "group relative flex h-full flex-col overflow-hidden rounded-3xl border border-white/10",
         "bg-gradient-to-br from-white/[0.05] via-white/[0.02] to-transparent",
@@ -47,7 +47,7 @@ export function StopCard({ stop, index }: StopCardProps) {
             image={stop.image}
             aspect="square"
             className="mb-4"
-            sizes="(min-width: 1024px) 360px, (min-width: 640px) 50vw, 100vw"
+            sizes={sizes}
           />
           {isVisited && (
             <span
@@ -129,7 +129,7 @@ export function StopCard({ stop, index }: StopCardProps) {
           {t(`categories.${stop.category}`)}
         </Link>
       </div>
-    </motion.article>
+    </article>
   );
 }
 

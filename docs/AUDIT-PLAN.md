@@ -16,25 +16,25 @@ browser (desktop + 390 px) after UI changes.
 
 ## Phase 1 — Quick, high-impact (performance & correctness)
 
-- [ ] `public/_headers`: `/_next/static/*` → `public, max-age=31536000, immutable`;
+- [x] `public/_headers`: `/_next/static/*` → `public, max-age=31536000, immutable`;
       `/images/*`, icons, `/logo.svg` → long max-age (e.g. 30 days + stale-while-revalidate);
       add HSTS (`Strict-Transport-Security: max-age=31536000; includeSubDomains`).
       Verify with curl -I through `--resolve` after deploy. (seo #1, #10; code #1)
-- [ ] Bugs (code.md §8): KeyboardNav must ignore events already handled
+- [x] Bugs (code.md §8): KeyboardNav must ignore events already handled
       (`e.defaultPrevented`), focus inside inputs/listboxes, and open dialogs;
       wrap localStorage reads in `lib/visited.ts` + `lib/bookmarks.ts`
       `getSnapshot` in try/catch; footer outside `<main>` on home;
       single shared body-scroll-lock (ref-counted).
-- [ ] Reduced motion: `MotionConfig reducedMotion="user"` in MotionProvider;
+- [x] Reduced motion: `MotionConfig reducedMotion="user"` in MotionProvider;
       Starfield static (single frame) when `prefers-reduced-motion`.
-- [ ] Content hidden until JS: remove `initial={{opacity:0}}` from above-the-fold
+- [x] Content hidden until JS: remove `initial={{opacity:0}}` from above-the-fold
       elements (stop header, home hero text) or use CSS animations; home hero
       image must not be lazy (eager + fetchPriority high); stop hero image
       `priority` should emit a preload (check LightboxImage/ImagePlaceholder).
-- [ ] Images: add a `w128` variant (scripts/resize-images.mjs + lib/imageLoader.ts
+- [x] Images: add a `w128` variant (scripts/resize-images.mjs + lib/imageLoader.ts
       IMAGE_WIDTHS + tests) and fix `sizes` on StopCard (cards are ~260–360 px),
       thumbnails (32–112 px) in ScaleExplorer, StopCombobox, NavCard.
-- [ ] Service worker: cap image cache size, don't cache non-OK responses,
+- [x] Service worker: cap image cache size, don't cache non-OK responses,
       don't re-fetch images on every view (only when stale); bump VERSION.
 
 ## Phase 2 — Facts (docs/audit/facts.md)

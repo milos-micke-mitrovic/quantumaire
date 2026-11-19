@@ -35,15 +35,24 @@ export function Starfield({
     let width = 0;
     let height = 0;
     let lastT = performance.now();
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
     function resize() {
       if (!canvas) return;
       const rect = canvas.getBoundingClientRect();
+      // Mobile URL-bar show/hide only changes the height a little — keep the
+      // existing stars instead of regenerating (they would visibly jump).
+      const onlyHeightNudge =
+        stars.length > 0 && rect.width === width && Math.abs(rect.height - height) < 160;
       width = rect.width;
       height = rect.height;
       canvas.width = Math.floor(width * dpr);
       canvas.height = Math.floor(height * dpr);
       ctx?.setTransform(dpr, 0, 0, dpr, 0, 0);
+      if (onlyHeightNudge) {
+        if (reduced) drawStatic();
+        return;
+      }
 
       const target = Math.min(maxStars, Math.floor(width * height * density));
       stars = Array.from({ length: target }, () => ({
@@ -93,7 +102,24 @@ export function Starfield({
       rafRef.current = requestAnimationFrame(draw);
     }
 
+    // Reduced motion: one still frame, no animation loop.
+    function drawStatic() {
+      if (!ctx) return;
+      ctx.clearRect(0, 0, width, height);
+      for (const s of stars) {
+        const alpha = 0.35 + 0.45 * (0.5 + 0.5 * Math.sin(s.twinkle));
+        ctx.beginPath();
+        ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(224, 242, 254, ${alpha.toFixed(3)})`;
+        ctx.fill();
+      }
+    }
+
     function start() {
+      if (reduced) {
+        drawStatic();
+        return;
+      }
       if (rafRef.current !== null) return;
       lastT = performance.now();
       rafRef.current = requestAnimationFrame(draw);
@@ -110,14 +136,24 @@ export function Starfield({
       else start();
     }
 
+    let resizeTimer: number | undefined;
+    function onResize() {
+      window.clearTimeout(resizeTimer);
+      resizeTimer = window.setTimeout(() => {
+        resize();
+        if (reduced) drawStatic();
+      }, 150);
+    }
+
     resize();
     start();
-    window.addEventListener("resize", resize);
+    window.addEventListener("resize", onResize);
     document.addEventListener("visibilitychange", onVisibility);
 
     return () => {
       stop();
-      window.removeEventListener("resize", resize);
+      window.clearTimeout(resizeTimer);
+      window.removeEventListener("resize", onResize);
       document.removeEventListener("visibilitychange", onVisibility);
     };
   }, [density, maxStars]);

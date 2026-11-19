@@ -9,6 +9,7 @@ import { TempUnitSwitcher } from "./TempUnitSwitcher";
 import type { Locale } from "@/lib/types";
 import { NavGroups } from "./NavGroups";
 import { BodyPortal } from "./BodyPortal";
+import { lockBodyScroll } from "@/lib/scrollLock";
 
 const LOCALE_LABELS: Record<Locale, string> = {
   en: "EN",
@@ -39,11 +40,11 @@ export function MobileNav() {
     function onKey(e: KeyboardEvent) {
       if (e.key === "Escape") close();
     }
-    document.body.style.overflow = "hidden";
+    const unlock = lockBodyScroll();
     window.addEventListener("keydown", onKey);
     return () => {
       window.removeEventListener("keydown", onKey);
-      document.body.style.overflow = "";
+      unlock();
     };
   }, [open, close]);
 

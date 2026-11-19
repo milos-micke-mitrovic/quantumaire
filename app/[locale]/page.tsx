@@ -47,14 +47,16 @@ export default async function LocaleHome({ params }: PageProps) {
   }));
 
   return (
-    <main className="relative">
-      <JsonLd
-        data={[itemListJsonLd(typed), faqJsonLd(faqItems)]}
-      />
-      <JourneyHero />
-      <Journey />
-      <FaqSection locale={typed} />
+    <>
+      <main className="relative">
+        <JsonLd
+          data={[itemListJsonLd(typed), faqJsonLd(faqItems)]}
+        />
+        <JourneyHero />
+        <Journey />
+        <FaqSection locale={typed} />
+      </main>
       <SiteFooter />
-    </main>
+    </>
   );
 }

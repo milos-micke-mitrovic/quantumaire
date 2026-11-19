@@ -15,7 +15,7 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 // Keep in sync with IMAGE_WIDTHS in lib/imageLoader.ts.
-const WIDTHS = [384, 640, 828, 1080];
+const WIDTHS = [128, 384, 640, 828, 1080];
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const dir = join(root, "public/images");

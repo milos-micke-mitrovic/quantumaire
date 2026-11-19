@@ -5,6 +5,7 @@ import { AnimatePresence, m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import type { ImagePlaceholder as ImagePlaceholderType } from "@/lib/types";
 import { ImagePlaceholder } from "./ImagePlaceholder";
+import { lockBodyScroll } from "@/lib/scrollLock";
 
 interface LightboxImageProps {
   image: ImagePlaceholderType;
@@ -30,11 +31,11 @@ export function LightboxImage({
     function onKey(e: KeyboardEvent) {
       if (e.key === "Escape") close();
     }
-    document.body.style.overflow = "hidden";
+    const unlock = lockBodyScroll();
     window.addEventListener("keydown", onKey);
     return () => {
       window.removeEventListener("keydown", onKey);
-      document.body.style.overflow = "";
+      unlock();
     };
   }, [open, close]);
 
@@ -52,6 +53,7 @@ export function LightboxImage({
           image={image}
           priority={priority}
           className={className}
+          sizes="(min-width: 1024px) 440px, calc(100vw - 5.5rem)"
         />
         <span
           aria-hidden
@@ -100,7 +102,7 @@ export function LightboxImage({
               onClick={(e) => e.stopPropagation()}
               className="relative w-full max-w-4xl"
             >
-              <ImagePlaceholder image={image} priority />
+              <ImagePlaceholder image={image} priority sizes="100vw" />
               <button
                 type="button"
                 onClick={close}

@@ -8,6 +8,7 @@ import { useI18n } from "@/lib/i18n";
 import { formatFactor } from "@/lib/references";
 import { assignLanes, buildAxis, gapLabel, thinTicks } from "@/lib/scaleAxis";
 import type { Category, Stop } from "@/lib/types";
+import { prefersReducedMotion } from "@/lib/motion";
 
 export interface ExplorerItem {
   stop: Stop;
@@ -126,7 +127,7 @@ export function ScaleExplorer({
     const x = positions[idx] * track.offsetWidth;
     scroller.scrollTo({
       left: x - scroller.clientWidth / 2,
-      behavior: "smooth",
+      behavior: prefersReducedMotion() ? "auto" : "smooth",
     });
   }, [idx, positions]);
 

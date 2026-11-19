@@ -19,6 +19,7 @@ import { TOPICS } from "@/lib/topics";
 import type { Stop } from "@/lib/types";
 import { formatMeters } from "@/lib/scale";
 import { useUnits } from "@/lib/units";
+import { lockBodyScroll } from "@/lib/scrollLock";
 
 function normalize(s: string): string {
   return s.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
@@ -171,10 +172,10 @@ function SearchDialog({ onClose }: { onClose: () => void }) {
 
   useEffect(() => {
     const id = window.setTimeout(() => inputRef.current?.focus(), 30);
-    document.body.style.overflow = "hidden";
+    const unlock = lockBodyScroll();
     return () => {
       window.clearTimeout(id);
-      document.body.style.overflow = "";
+      unlock();
     };
   }, []);
 

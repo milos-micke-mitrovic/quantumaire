@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { m as motion } from "framer-motion";
 import clsx from "clsx";
 import type { Stop } from "@/lib/types";
 import { useI18n } from "@/lib/i18n";
@@ -109,12 +108,9 @@ export function StopDetail({
         </Link>
       </div>
 
-      <motion.header
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
+      <header
         className={clsx(
-          "relative overflow-hidden rounded-3xl border border-white/10 bg-cosmos-deep/55 p-6 backdrop-blur-sm sm:p-10",
+          "animate-rise relative overflow-hidden rounded-3xl border border-white/10 bg-cosmos-deep/55 p-6 backdrop-blur-sm sm:p-10",
           stop.accentGlow
         )}
       >
@@ -179,18 +175,15 @@ export function StopDetail({
             <LightboxImage image={stop.image} priority />
           </div>
         </div>
-      </motion.header>
+      </header>
 
       <StopSectionNav key={stop.id} />
       <StopValuesCard stop={stop} />
       <StopComparisonCard stop={stop} />
 
-      <motion.section
+      <section
         id="story"
         data-section
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.05 }}
         className="mt-8 rounded-3xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-sm sm:p-10"
       >
         <div className="mb-4">
@@ -223,7 +216,7 @@ export function StopDetail({
             </div>
           </div>
         )}
-      </motion.section>
+      </section>
 
 
       <QuickFacts stop={stop} />

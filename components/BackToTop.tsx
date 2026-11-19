@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
+import { prefersReducedMotion } from "@/lib/motion";
 
 export function BackToTop() {
   const { t } = useI18n();
@@ -31,7 +32,7 @@ export function BackToTop() {
         <motion.button
           type="button"
           onClick={() =>
-            window.scrollTo({ top: 0, behavior: "smooth" })
+            window.scrollTo({ top: 0, behavior: prefersReducedMotion() ? "auto" : "smooth" })
           }
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}

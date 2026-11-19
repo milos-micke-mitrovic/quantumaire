@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 
 export function JourneyHero() {
@@ -17,6 +16,8 @@ export function JourneyHero() {
         alt=""
         aria-hidden
         fill
+        preload
+        fetchPriority="high"
         sizes="100vw"
         className="pointer-events-none -z-20 object-cover opacity-70"
       />
@@ -30,18 +31,15 @@ export function JourneyHero() {
       />
 
       <div className="mx-auto max-w-3xl text-center">
-        <motion.p
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-4 py-1.5 text-[11px] font-medium uppercase tracking-[0.28em] text-cosmos-star/70 backdrop-blur"
+        <p
+          className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-4 py-1.5 text-[11px] font-medium uppercase tracking-[0.28em] text-cosmos-star/70 backdrop-blur"
         >
           <span
             aria-hidden
             className="h-1.5 w-1.5 rounded-full bg-cosmos-star animate-pulse-soft"
           />
           {t("common.title")}
-        </motion.p>
+        </p>
 
         <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.05] tracking-tight text-cosmos-star sm:text-6xl">
           <span className="bg-[linear-gradient(180deg,#ffffff_0%,#e0f2fe_45%,#c4b5fd_100%)] bg-clip-text text-transparent drop-shadow-[0_2px_24px_rgba(3,3,10,0.9)]">
@@ -49,21 +47,15 @@ export function JourneyHero() {
           </span>
         </h1>
 
-        <motion.p
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.12 }}
-          className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-cosmos-star/85 sm:text-lg"
+        <p
+          className="animate-rise mx-auto mt-5 max-w-2xl text-base leading-relaxed text-cosmos-star/85 sm:text-lg"
         >
           {t("common.subtagline")}
-        </motion.p>
+        </p>
 
-        <motion.a
+        <a
           href="#journey"
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.2 }}
-          className="mt-9 inline-flex items-center gap-2 rounded-full bg-aurora-gradient px-6 py-3 text-sm font-medium text-cosmos-void shadow-glow transition-transform hover:-translate-y-0.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-cosmos-nova/70"
+          className="animate-fade-up [animation-delay:200ms] mt-9 inline-flex items-center gap-2 rounded-full bg-aurora-gradient px-6 py-3 text-sm font-medium text-cosmos-void shadow-glow transition-transform hover:-translate-y-0.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-cosmos-nova/70"
         >
           {t("common.begin")}
           <svg
@@ -76,7 +68,7 @@ export function JourneyHero() {
           >
             <path d="M12 5v14M6 13l6 6 6-6" strokeLinecap="round" />
           </svg>
-        </motion.a>
+        </a>
       </div>
       <p className="absolute bottom-3 right-4 text-[10px] text-cosmos-star/35">
         {t("common.heroCredit")}

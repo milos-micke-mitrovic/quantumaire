@@ -1,9 +1,29 @@
 /* Quantumaire service worker. Hand-rolled — keep this file small and obvious. */
 
-const VERSION = "quantumaire-v2";
+const VERSION = "quantumaire-v3";
 const SHELL_CACHE = `${VERSION}-shell`;
 const RUNTIME_CACHE = `${VERSION}-runtime`;
 const IMG_CACHE = `${VERSION}-img`;
+
+// Caches are trimmed (oldest first) so they can't grow forever.
+const LIMITS = { [RUNTIME_CACHE]: 120, [IMG_CACHE]: 150 };
+// Cached images older than this are refreshed in the background.
+const IMG_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
+
+async function putTrimmed(cacheName, req, res) {
+  if (!res || !res.ok || res.type === "opaque") return;
+  const cache = await caches.open(cacheName);
+  await cache.put(req, res);
+  const limit = LIMITS[cacheName];
+  if (!limit) return;
+  const keys = await cache.keys();
+  for (let i = 0; i < keys.length - limit; i++) await cache.delete(keys[i]);
+}
+
+function isStale(res) {
+  const date = Date.parse(res.headers.get("date") || "");
+  return !date || Date.now() - date > IMG_MAX_AGE_MS;
+}
 
 // Pre-cached "shell" URLs. The locale roots fall back to the offline shell
 // when the network is unavailable.
@@ -59,8 +79,7 @@ self.addEventListener("fetch", (event) => {
       (async () => {
         try {
           const fresh = await fetch(req);
-          const cache = await caches.open(RUNTIME_CACHE);
-          cache.put(req, fresh.clone());
+          event.waitUntil(putTrimmed(RUNTIME_CACHE, req, fresh.clone()));
           return fresh;
         } catch {
           const cached = await caches.match(req);
@@ -86,16 +105,12 @@ self.addEventListener("fetch", (event) => {
         const cacheName = isImg ? IMG_CACHE : RUNTIME_CACHE;
         const cached = await caches.match(req);
         // Images keep their file name when replaced, so refresh them in the
-        // background (stale-while-revalidate); hashed /_next/static files
+        // background once they are a week old; hashed /_next/static files
         // never change and stay cache-first.
-        if (cached && isImg) {
+        if (cached && isImg && isStale(cached)) {
           event.waitUntil(
             fetch(req)
-              .then((fresh) =>
-                fresh.ok
-                  ? caches.open(cacheName).then((c) => c.put(req, fresh))
-                  : undefined,
-              )
+              .then((fresh) => putTrimmed(cacheName, req, fresh))
               .catch(() => {}),
           );
           return cached;
@@ -103,8 +118,7 @@ self.addEventListener("fetch", (event) => {
         if (cached) return cached;
         try {
           const fresh = await fetch(req);
-          const cache = await caches.open(cacheName);
-          cache.put(req, fresh.clone());
+          event.waitUntil(putTrimmed(cacheName, req, fresh.clone()));
           return fresh;
         } catch {
           return cached || Response.error();

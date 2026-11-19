@@ -3,6 +3,7 @@
 import { AnimatePresence, m as motion } from "framer-motion";
 import { useCallback, useEffect, useState } from "react";
 import { useI18n } from "@/lib/i18n";
+import { lockBodyScroll } from "@/lib/scrollLock";
 
 interface Shortcut {
   keys: string[];
@@ -39,6 +40,11 @@ export function ShortcutsOverlay() {
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [open, close]);
+
+  useEffect(() => {
+    if (!open) return;
+    return lockBodyScroll();
+  }, [open]);
 
   return (
     <AnimatePresence>
