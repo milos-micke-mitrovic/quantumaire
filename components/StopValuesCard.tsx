@@ -49,6 +49,8 @@ export function StopValuesCard({ stop }: StopValuesCardProps) {
 
   return (
     <section
+      id="numbers"
+      data-section
       aria-label={t("common.keyNumbers")}
       className="mt-8 rounded-3xl border border-white/10 bg-white/[0.03] px-5 py-6 sm:px-8 sm:py-7"
     >

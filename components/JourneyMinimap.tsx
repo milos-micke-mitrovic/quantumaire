@@ -49,6 +49,8 @@ export function JourneyMinimap({ stopId }: JourneyMinimapProps) {
 
   return (
     <section
+      id="journey-map"
+      data-section
       aria-labelledby={`journey-minimap-${stopId}-heading`}
       className="mt-12"
     >

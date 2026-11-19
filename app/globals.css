@@ -123,3 +123,8 @@ body::before {
     display: none !important;
   }
 }
+
+/* Stop-page sections land below the sticky header + section bar. */
+[data-section] {
+  scroll-margin-top: 7.5rem;
+}

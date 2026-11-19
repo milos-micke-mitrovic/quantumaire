@@ -17,6 +17,8 @@ export function StopSizeFaq({ locale, heading, items }: StopSizeFaqProps) {
   if (items.length === 0) return null;
   return (
     <section
+      id="qa"
+      data-section
       aria-labelledby="size-faq-heading"
       className="mt-8 rounded-3xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-sm sm:p-10"
     >

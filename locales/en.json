@@ -232,7 +232,19 @@
     },
     "heroCredit": "Background: Webb's First Deep Field — NASA, ESA, CSA, STScI",
     "keyNumbers": "Key numbers",
-    "measuredTo": "measured to: {place}"
+    "measuredTo": "measured to: {place}",
+    "sections": {
+      "label": "On this page",
+      "numbers": "Numbers",
+      "story": "Story",
+      "facts": "Facts",
+      "everyday": "Everyday scale",
+      "spacecraft": "Spacecraft",
+      "qa": "Q&A",
+      "sources": "Sources",
+      "journey-map": "Journey map",
+      "related": "Related"
+    }
   },
   "home": {
     "faq": {

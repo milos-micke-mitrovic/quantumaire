@@ -232,7 +232,19 @@
     },
     "heroCredit": "Pozadina: Vebovo prvo duboko polje — NASA, ESA, CSA, STScI",
     "keyNumbers": "Ključni brojevi",
-    "measuredTo": "mereno do: {place}"
+    "measuredTo": "mereno do: {place}",
+    "sections": {
+      "label": "Na ovoj stranici",
+      "numbers": "Brojevi",
+      "story": "Priča",
+      "facts": "Činjenice",
+      "everyday": "Svakodnevna razmera",
+      "spacecraft": "Letelice",
+      "qa": "Pitanja",
+      "sources": "Izvori",
+      "journey-map": "Mapa putovanja",
+      "related": "Povezano"
+    }
   },
   "home": {
     "faq": {

@@ -24,6 +24,8 @@ export function EverydayScale({ stop, locale }: { stop: Stop; locale: Locale }) 
 
   return (
     <section
+      id="everyday"
+      data-section
       aria-labelledby="everyday-heading"
       className="mt-6 rounded-3xl border border-white/10 bg-white/[0.03] p-6 sm:p-8"
     >

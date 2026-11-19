@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { m as motion } from "framer-motion";
 import clsx from "clsx";
 import type { Stop } from "@/lib/types";
@@ -20,6 +21,7 @@ import { Sources } from "./Sources";
 import { StopCard } from "./StopCard";
 import { StopComparisonCard } from "./StopComparisonCard";
 import { StopHighlights } from "./StopHighlights";
+import { StopSectionNav } from "./StopSectionNav";
 import { StopTags } from "./StopTags";
 import { StopValuesCard } from "./StopValuesCard";
 import { Fragment, type ReactNode } from "react";
@@ -44,7 +46,17 @@ export function StopDetail({
   children,
 }: StopDetailProps) {
   const { t, locale } = useI18n();
+  const router = useRouter();
   useMarkVisited(stop.id);
+
+  // Carry the current section (#everyday, #qa, …) over to the prev/next
+  // stop, so a reader following one section can hop stop to stop.
+  const keepSectionHash = (e: React.MouseEvent, href: string) => {
+    const hash = window.location.hash;
+    if (!hash || e.metaKey || e.ctrlKey || e.shiftKey) return;
+    e.preventDefault();
+    router.push(href + hash);
+  };
 
   return (
     <main className="relative mx-auto w-full max-w-5xl px-5 pb-32 pt-10 sm:px-8">
@@ -166,10 +178,13 @@ export function StopDetail({
         </div>
       </motion.header>
 
+      <StopSectionNav key={stop.id} />
       <StopValuesCard stop={stop} />
       <StopComparisonCard stop={stop} />
 
       <motion.section
+        id="story"
+        data-section
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.05 }}
@@ -223,7 +238,7 @@ export function StopDetail({
       <JourneyMinimap stopId={stop.id} />
 
       {related.length > 0 && (
-        <section className="mt-12 print:hidden">
+        <section id="related" data-section className="mt-12 print:hidden">
           <h2 className="font-display text-xl font-semibold tracking-tight text-cosmos-star sm:text-2xl">
             {t("common.relatedStops")}
           </h2>
@@ -239,6 +254,7 @@ export function StopDetail({
         {prev ? (
           <Link
             href={`/${locale}/stop/${prev.id}`}
+            onClick={(e) => keepSectionHash(e, `/${locale}/stop/${prev.id}`)}
             className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-left transition-colors hover:border-white/20"
           >
             <svg
@@ -267,6 +283,7 @@ export function StopDetail({
         {next ? (
           <Link
             href={`/${locale}/stop/${next.id}`}
+            onClick={(e) => keepSectionHash(e, `/${locale}/stop/${next.id}`)}
             className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-right transition-colors hover:border-white/20"
           >
             <span className="min-w-0 flex-1">

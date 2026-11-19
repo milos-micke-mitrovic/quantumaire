@@ -20,7 +20,6 @@ interface StopCardProps {
 
 export function StopCard({ stop, index }: StopCardProps) {
   const { t, locale } = useI18n();
-  const { units } = useUnits();
   const { tempUnit } = useTempUnit();
   const { visited } = useVisited();
   const isVisited = visited.has(stop.id);
@@ -78,7 +77,7 @@ export function StopCard({ stop, index }: StopCardProps) {
               <span className="inline-flex items-baseline gap-2">
                 <span className="text-cosmos-star/45">{t("common.size")}</span>
                 <span className="text-cosmos-star/85">
-                  {formatMeters(stop.sizeMeters, t, units)}
+                  <CardLength meters={stop.sizeMeters} />
                 </span>
               </span>
             ) : (
@@ -91,13 +90,7 @@ export function StopCard({ stop, index }: StopCardProps) {
                     {t("common.distanceShort")}
                   </span>
                   <span className="text-cosmos-star/85">
-                    {formatMeters(stop.distanceFromEarthMeters, t, units)}
-                    {formatLightTime(stop.distanceFromEarthMeters, t) && (
-                      <span className="text-cosmos-star/45">
-                        {" "}
-                        ({formatLightTime(stop.distanceFromEarthMeters, t)})
-                      </span>
-                    )}
+                    <CardLength meters={stop.distanceFromEarthMeters} />
                   </span>
                 </span>
               )}
@@ -138,4 +131,17 @@ export function StopCard({ stop, index }: StopCardProps) {
       </div>
     </motion.article>
   );
+}
+
+/**
+ * Length on a card. From a billion km up to the light-year range, light-time
+ * ("≈ 5.8 light-days") is easier to picture than "150 billion km"; the exact
+ * figure stays in the tooltip and on the stop page.
+ */
+function CardLength({ meters }: { meters: number }) {
+  const { t } = useI18n();
+  const { units } = useUnits();
+  const exact = formatMeters(meters, t, units);
+  const light = meters >= 1e12 ? formatLightTime(meters, t) : null;
+  return light ? <span title={exact}>{light}</span> : <>{exact}</>;
 }
