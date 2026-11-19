@@ -24,11 +24,7 @@ export function AboutContent() {
 
   return (
     <main className="relative mx-auto w-full max-w-3xl px-5 pb-24 pt-12 sm:px-8 sm:pt-16">
-      <motion.header
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-      >
+      <header className="animate-rise">
         <p className="text-[10px] font-medium uppercase tracking-[0.28em] text-cosmos-star/55">
           {t("common.about")}
         </p>
@@ -40,7 +36,7 @@ export function AboutContent() {
         <p className="mt-3 text-lg text-cosmos-star/80">
           {t("about.tagline")}
         </p>
-      </motion.header>
+      </header>
 
       <motion.section
         initial={{ opacity: 0, y: 16 }}

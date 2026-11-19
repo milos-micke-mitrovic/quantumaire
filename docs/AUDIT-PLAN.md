@@ -104,19 +104,19 @@ browser (desktop + 390 px) after UI changes.
 
 ## Phase 6 — UX & content (docs/audit/ux-notes.md + ideas)
 
-- [ ] About page: rewrite the grain-of-sand section to describe today's tools
+- [x] About page: rewrite the grain-of-sand section to describe today's tools
       (log-scale explorer, light-time, everyday analogies, unit switches).
-- [ ] Guides index: drop repeated "GUIDES" eyebrow; feature search-intent guides
+- [x] Guides index: drop repeated "GUIDES" eyebrow; feature search-intent guides
       first; clearer intro.
-- [ ] Guide pages: auto-link topic names in guide text to /stop/ pages; hero
+- [ ] Guide pages: ~~auto-link topic names in guide text to /stop/ pages~~ (done, `lib/topicLinks.ts`); hero
       image per guide; key-numbers mini table.
-- [ ] StopCombobox closed state: long name + detail overlap; Between tool default
+- [x] StopCombobox closed state: long name + detail overlap; Between tool default
       range (e.g. human → earth).
-- [ ] Remove "cosmos" tag from stops (duplicates category chip).
-- [ ] Footer: drop visible llms.txt link.
-- [ ] Code health: delete dead StopDistanceCard component (move
+- [x] Remove "cosmos" tag from stops (duplicates category chip).
+- [x] Footer: drop visible llms.txt link.
+- [ ] Code health: ~~delete dead StopDistanceCard component (move
       computeDistance + mapping to lib/), unused `LIGHT_YEAR_KM`, dedupe
-      `normalize()`, sized-stop sorting, toggle UIs; client i18n EN fallback.
+      `normalize()`, sized-stop sorting~~, toggle UIs; ~~client i18n EN fallback~~.
 - [ ] New topic candidates: M87*, Gaia BH1, neutrino, Mariana Trench, ISS,
       James Webb, Fermi paradox, speed of light (use the `add-topic` skill).
 - [ ] Daily: `gsc-indexing` skill (queue in docs/indexing-log.md).

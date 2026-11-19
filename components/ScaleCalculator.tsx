@@ -3,11 +3,10 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { useI18n } from "@/lib/i18n";
-import { STOPS } from "@/lib/content";
 import { describePosition, formatFactor } from "@/lib/references";
 import { formatLightTime, numberLocale } from "@/lib/scale";
-import type { Stop } from "@/lib/types";
 import { StopCombobox } from "./StopCombobox";
+import { SIZED_STOPS } from "@/lib/content";
 
 interface Unit {
   id: string;
@@ -63,11 +62,7 @@ function fmtNum(n: number, loc: string): string {
   return `${mant.toLocaleString(loc, { maximumSignificantDigits: 3 })} × 10${sup}`;
 }
 
-function sizedStops(): Array<Stop & { sizeMeters: number }> {
-  return STOPS.filter(
-    (s): s is Stop & { sizeMeters: number } => s.sizeMeters !== null && s.sizeMeters > 0
-  ).sort((a, b) => a.sizeMeters - b.sizeMeters);
-}
+const sizedStops = () => SIZED_STOPS;
 
 export function ScaleCalculator() {
   const { t, locale } = useI18n();

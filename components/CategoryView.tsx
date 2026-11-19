@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { m as motion } from "framer-motion";
 import type { Category, Stop } from "@/lib/types";
 import { useI18n } from "@/lib/i18n";
 import { FilterableStopGrid } from "./FilterableStopGrid";
@@ -35,11 +34,7 @@ export function CategoryView({ category, stops }: CategoryViewProps) {
         </Link>
       </div>
 
-      <motion.header
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-      >
+      <header className="animate-rise">
         <p className="text-[10px] font-medium uppercase tracking-[0.28em] text-cosmos-star/55">
           {t("common.category")}
         </p>
@@ -57,7 +52,7 @@ export function CategoryView({ category, stops }: CategoryViewProps) {
         <p className="mt-4 text-[11px] font-mono uppercase tracking-[0.22em] text-cosmos-star/55">
           {t("common.stopsInCategory", { count: stops.length })}
         </p>
-      </motion.header>
+      </header>
 
       <div className="mt-10">
         <FilterableStopGrid stops={stops} />

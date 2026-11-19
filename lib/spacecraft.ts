@@ -7,7 +7,7 @@
  * ISS. Sources: NASA/JPL mission pages, Wikipedia.
  */
 
-export const LIGHT_YEAR_KM = 9.4607304725808e12;
+const LIGHT_YEAR_KM = 9.4607304725808e12;
 const SECONDS_PER_YEAR = 365.25 * 86400;
 export const SPEED_OF_LIGHT_KM_S = 299_792.458;
 

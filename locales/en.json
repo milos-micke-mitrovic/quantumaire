@@ -1432,8 +1432,8 @@
     "title": "About Quantumaire",
     "tagline": "A small, careful map of everything.",
     "intro": "Quantumaire is an interactive educational tour of scale from the smallest known particles to the largest structures in the observable universe. The premise is simple: most explanations of scale either over-simplify (planets compared to fruit) or over-complicate (raw scientific notation with no anchor). We try for a third way — one reference object, one clear gradient of confidence, and an honest label on every claim.",
-    "scaleHeading": "Earth as a grain of sand",
-    "scaleBody": "Every length on this site is rescaled to a single 0.5 mm grain of sand standing in for Earth. At that scale the Sun is a billiard ball about six metres away. The Moon is a smaller speck about 1.5 cm from Earth. UY Scuti — one of the largest known stars — becomes a ball roughly as tall as a fifteen-storey building. The Milky Way at the same scale spans about a hundred real Earth-Moon distances. This is the only mental conversion you need to do; we handle the rest.",
+    "scaleHeading": "How we make the numbers graspable",
+    "scaleBody": "Sizes on this site span more than 60 orders of magnitude, so every scale is logarithmic: each step along the track is ten times bigger than the last, which lets a quark and the observable universe share one line. You can switch the explorer between size, distance from Earth and temperature. Long distances also show how long light takes to cross them, from light-seconds to light-years. Every topic page translates its size into everyday terms — hairs, football pitches, the Eiffel Tower — and the classic reference still runs through it all: shrink Earth to a 0.5 mm grain of sand and the Sun becomes a billiard ball six metres away. Units switch between metric and imperial, and temperatures between °C, °F and kelvin.",
     "badgesHeading": "How we label confidence",
     "badgesIntro": "Not every claim in science carries the same weight. A measurement is not a theory; a theory is not a hunch. Every topic on Quantumaire wears one of four badges so you always know what you are reading.",
     "badgeFactBody": "Directly measured or directly observed. Atoms exist. The Sun fuses hydrogen. Earth is round. We may refine the precision, but the existence of the thing is not in question.",
@@ -1450,7 +1450,7 @@
   "topicsIndex": {
     "title": "Guides",
     "tagline": "Concept pages that put the individual objects on Quantumaire in context.",
-    "intro": "Where an object page tells you about a specific object — UY Scuti, the Moon, the supermassive black hole at our galactic centre — a concept page tells you about the class. What stars are. How planets form. Why black holes have an event horizon. Read one when you want context for several objects at once, or when you want the broader picture before zooming in to a single one."
+    "intro": "Each topic page covers one object: UY Scuti, the Moon, the black hole at the centre of our galaxy. A guide covers the bigger picture: what stars are, how planets are defined, why black holes have an event horizon. Start with one when you want context for several objects at once."
   },
   "topics": {
     "stars": {

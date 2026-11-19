@@ -62,3 +62,12 @@ describe("client dictionary", () => {
     expect(has(d, "glossary.quark.definition")).toBe(false);
   });
 });
+
+describe("client dictionary fallback", () => {
+  it("fills a key missing in Serbian with the English text", () => {
+    // sizeFaq.subjects exists only in English (see lib/sizeFaq.ts).
+    const d = pickDictionary("sr", ["sizeFaq.subjects.atom", "stops.atom.name"]);
+    expect(has(d, "sizeFaq.subjects.atom")).toBe(true);
+    expect((d.stops as Record<string, Record<string, string>>).atom.name).toBe("Atom");
+  });
+});

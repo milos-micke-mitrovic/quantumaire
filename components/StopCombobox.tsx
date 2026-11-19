@@ -4,6 +4,7 @@ import clsx from "clsx";
 import Image from "next/image";
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { useI18n } from "@/lib/i18n";
+import { normalize } from "@/lib/text";
 
 export interface ComboOption {
   id: string;
@@ -11,10 +12,6 @@ export interface ComboOption {
   /** Right-aligned detail, e.g. the size. */
   detail?: string;
   image?: string;
-}
-
-function normalize(s: string): string {
-  return s.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
 }
 
 /**
@@ -147,11 +144,18 @@ export function StopCombobox({
           className={clsx(
             "w-full truncate rounded-2xl border border-white/10 bg-cosmos-night/40 py-3 text-base text-cosmos-star placeholder:text-cosmos-star/55 focus:border-cosmos-aurora/60 focus:outline-none focus:ring-2 focus:ring-cosmos-aurora/40",
             selected?.image && !open ? "pl-12" : "pl-4",
-            showSelectedDetail ? "pr-24" : "pr-10"
+            "pr-10"
           )}
+          // Reserve exactly the room the detail needs, so a long name
+          // truncates instead of running under it.
+          style={
+            !open && showSelectedDetail && selected?.detail
+              ? { paddingRight: `${2.75 + selected.detail.length * 0.47}rem` }
+              : undefined
+          }
         />
         {!open && showSelectedDetail && selected?.detail && (
-          <span className="pointer-events-none absolute right-9 top-1/2 -translate-y-1/2 font-mono text-xs text-cosmos-star/50">
+          <span className="pointer-events-none absolute right-9 top-1/2 -translate-y-1/2 whitespace-nowrap font-mono text-xs text-cosmos-star/55">
             {selected.detail}
           </span>
         )}

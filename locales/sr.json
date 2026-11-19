@@ -1432,8 +1432,8 @@
     "title": "O Quantumaire-u",
     "tagline": "Mala, pažljiva mapa svega.",
     "intro": "Quantumaire je interaktivni obrazovni pregled razmera od najmanjih poznatih čestica do najvećih struktura u vidljivom svemiru. Premisa je jednostavna: većina objašnjenja razmere ili pojednostavljuje preterano (planete poređene sa voćem) ili komplikuje preterano (sirova naučna notacija bez sidra). Mi pokušavamo treći put — jedan referentni objekat, jedan jasan gradijent pouzdanosti, i iskrena oznaka na svakoj tvrdnji.",
-    "scaleHeading": "Zemlja kao zrno peska",
-    "scaleBody": "Svaka dužina na sajtu je preskalirana na jedno zrno peska od 0,5 mm koje predstavlja Zemlju. U toj razmeri Sunce je bilijarska kugla na oko šest metara udaljenosti. Mesec je manja tačka oko 1,5 cm od Zemlje. UY Scuti — jedna od najvećih poznatih zvezda — postaje lopta otprilike visine zgrade od petnaestak spratova. Mlečni put u istoj razmeri prostire se oko sto stvarnih rastojanja Zemlja–Mesec. Ovo je jedina mentalna konverzija koju treba da uradite; o ostalom brinemo mi.",
+    "scaleHeading": "Kako brojeve činimo opipljivim",
+    "scaleBody": "Veličine na ovom sajtu obuhvataju više od 60 redova veličine, pa je svaka skala logaritamska: svaki korak duž skale deset puta je veći od prethodnog, zbog čega kvark i vidljivi svemir mogu da stanu na istu liniju. Prikaz možete da prebacite između veličine, udaljenosti od Zemlje i temperature. Uz velike udaljenosti stoji i koliko je vremena potrebno svetlosti da ih pređe, od svetlosnih sekundi do svetlosnih godina. Svaka tema svoju veličinu prevodi u svakodnevne pojmove — vlasi kose, fudbalske terene, Ajfelovu kulu — a kroz sve se i dalje provlači klasična referenca: smanjite Zemlju na zrno peska od 0,5 mm i Sunce postaje bilijarska kugla na šest metara. Jedinice se menjaju između metričkih i anglosaksonskih, a temperature između °C, °F i kelvina.",
     "badgesHeading": "Kako označavamo pouzdanost",
     "badgesIntro": "Nemaju sve tvrdnje u nauci istu težinu. Merenje nije teorija; teorija nije nagađanje. Svaka tema na Quantumaire-u nosi jednu od četiri oznake, tako da uvek znate šta čitate.",
     "badgeFactBody": "Direktno izmereno ili direktno posmatrano. Atomi postoje. Sunce vrši fuziju vodonika. Zemlja je okrugla. Možemo poboljšati preciznost, ali postojanje stvari nije pod znakom pitanja.",
@@ -1450,7 +1450,7 @@
   "topicsIndex": {
     "title": "Vodiči",
     "tagline": "Pregledne strane koje pojedinačne objekte na Quantumaire-u stavljaju u širi kontekst.",
-    "intro": "Tamo gde strana objekta govori o jednom konkretnom objektu — UY Scuti, Mesec, supermasivna crna rupa u centru naše galaksije — pregledna strana govori o klasi. Šta su zvezde. Kako planete nastaju. Zašto crne rupe imaju horizont događaja. Pročitajte je kada želite kontekst za više objekata odjednom, ili kada želite širu sliku pre nego što se približite jednoj konkretnoj."
+    "intro": "Svaka tema opisuje jedan objekat: UY Scuti, Mesec, crnu rupu u središtu naše galaksije. Vodič daje širu sliku: šta su zvezde, kako se definišu planete, zašto crne rupe imaju horizont događaja. Počnite od vodiča kada želite kontekst za više objekata odjednom."
   },
   "topics": {
     "stars": {

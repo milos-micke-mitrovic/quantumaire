@@ -87,7 +87,26 @@ export function getDictionary(locale: Locale): Dictionary {
  * ends on an object copies the whole subtree.
  */
 export function pickDictionary(locale: Locale, paths: string[]): Dictionary {
-  const src = getDictionary(locale);
+  const picked = pickFrom(getDictionary(locale), paths);
+  if (locale === DEFAULT_LOCALE) return picked;
+  // Same fallback as tServer: a string missing in this locale shows the
+  // English one instead of its raw key.
+  return mergeUnder(pickFrom(DICTIONARIES[DEFAULT_LOCALE], paths), picked);
+}
+
+function mergeUnder(base: Dictionary, over: Dictionary): Dictionary {
+  const out: Dictionary = { ...base };
+  for (const [k, v] of Object.entries(over)) {
+    const b = out[k];
+    out[k] =
+      v && typeof v === "object" && b && typeof b === "object" && !Array.isArray(v)
+        ? mergeUnder(b as Dictionary, v as Dictionary)
+        : v;
+  }
+  return out;
+}
+
+function pickFrom(src: Dictionary, paths: string[]): Dictionary {
   const out: Dictionary = {};
   const put = (parts: string[], value: unknown) => {
     let cur = out;

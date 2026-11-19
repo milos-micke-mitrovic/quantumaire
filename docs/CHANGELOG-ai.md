@@ -49,5 +49,12 @@
 - Contrast: `/35–/45` text → `/55`, aurora links → plasma; outline-based focus ring for links/buttons/inputs/options; glossary filter and pickers show focus.
 - Touch targets ≥ 40 px (search trigger, burger/close, dialog close, explorer arrows, drawer pills), 36 px bookmark/switch pills; Tooltip closes on Escape; skip target focusable; `lang` on language buttons.
 
+## 2026-11-19 — audit Phase 6 part 1 (UX & code health)
+- About: scale section rewritten for today's tools (log scale, three views, light-time, everyday analogies, unit switches).
+- Guides index: "start here" guides first, topic counts instead of the repeated eyebrow, plainer intro; cards no longer JS-hidden.
+- Guide pages auto-link topic names (first mention, inflection-aware, `lib/topicLinks.ts` + tests); sections and all page headers (topics, guides, glossary, category, compare, about, progress) render visible without JS (`animate-rise`).
+- Between tool defaults to Human → Earth; StopCombobox reserves room for the detail so long names truncate; "cosmos" tag removed.
+- Code health: `lib/distance.ts` (StopDistanceCard deleted), `lib/text.ts normalize`, `SIZED_STOPS`, client dictionary falls back to English like tServer.
+
 ## Next / ideas
 - Full audit done 2026-11-19 → `docs/AUDIT-PLAN.md` (phases 1–6, nothing ticked yet).

@@ -2,11 +2,12 @@
 
 import clsx from "clsx";
 import Link from "next/link";
-import { m as motion } from "framer-motion";
+import { Fragment, useMemo } from "react";
 import { useI18n } from "@/lib/i18n";
 import type { Topic } from "@/lib/topics";
 import { STOPS } from "@/lib/content";
 import { getStopsByTag } from "@/lib/tags";
+import { linkTopicNames, type Segment } from "@/lib/topicLinks";
 import { DistanceScale } from "./DistanceScale";
 import { Sources } from "./Sources";
 import { StopCard } from "./StopCard";
@@ -26,6 +27,31 @@ export function TopicView({ topic }: TopicViewProps) {
     heading: t(`${topic.i18nKey}.section${i + 1}Heading`),
     body: t(`${topic.i18nKey}.section${i + 1}Body`),
   }));
+
+  // Topic names in the guide text link to their topic pages, each once.
+  const linked = useMemo(() => {
+    const names = STOPS.map((s) => ({ id: s.id, name: t(`${s.i18nKey}.name`) }));
+    const seen = new Set<string>();
+    return [intro, ...sections.map((s) => s.body)].map((text) =>
+      linkTopicNames(text, names, seen)
+    );
+    // sections derive from t + topic, so these deps cover them.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [t, topic, intro]);
+  const renderLinked = (segments: Segment[]) =>
+    segments.map((seg, k) =>
+      typeof seg === "string" ? (
+        <Fragment key={k}>{seg}</Fragment>
+      ) : (
+        <Link
+          key={k}
+          href={`/${locale}/stop/${seg.id}`}
+          className="text-cosmos-star underline decoration-cosmos-plasma/50 decoration-dotted underline-offset-4 transition-colors hover:text-cosmos-plasma"
+        >
+          {seg.text}
+        </Link>
+      )
+    );
 
   // Guides that cover a tag list every topic with it (that guide *is* the
   // tag's page), then any extra hand-picked related topics.
@@ -55,11 +81,7 @@ export function TopicView({ topic }: TopicViewProps) {
         <span className="text-cosmos-star/80">{title}</span>
       </nav>
 
-      <motion.header
-        initial={{ opacity: 0, y: 12 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-      >
+      <header className="animate-rise">
         <p className="text-[10px] font-medium uppercase tracking-[0.28em] text-cosmos-star/55">
           {t("topicsIndex.title")}
         </p>
@@ -76,14 +98,14 @@ export function TopicView({ topic }: TopicViewProps) {
         <p className="mt-3 max-w-2xl text-base text-cosmos-star/80 sm:text-lg">
           {tagline}
         </p>
-      </motion.header>
+      </header>
 
       <section className="mt-8 rounded-3xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-sm sm:p-8">
         <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
           {t("topicView.intro")}
         </p>
         <p className="mt-3 text-base leading-relaxed text-cosmos-star/85 sm:text-[17px]">
-          {intro}
+          {renderLinked(linked[0])}
         </p>
       </section>
 
@@ -97,21 +119,17 @@ export function TopicView({ topic }: TopicViewProps) {
 
       <div className="mt-6 flex flex-col gap-6">
         {sections.map((section, i) => (
-          <motion.section
+          <section
             key={i}
-            initial={{ opacity: 0, y: 12 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.2 }}
-            transition={{ duration: 0.4, ease: "easeOut" }}
             className="rounded-3xl border border-white/10 bg-white/[0.025] p-6 backdrop-blur-sm sm:p-8"
           >
             <h2 className="font-display text-xl font-semibold tracking-tight text-cosmos-star sm:text-2xl">
               {section.heading}
             </h2>
             <p className="mt-3 text-base leading-relaxed text-cosmos-star/85 sm:text-[17px]">
-              {section.body}
+              {renderLinked(linked[i + 1])}
             </p>
-          </motion.section>
+          </section>
         ))}
       </div>
 

@@ -7,7 +7,7 @@ import { formatFactor } from "@/lib/references";
 import {
   DISTANCE_REFERENCE_TO_STOP_ID,
   computeDistance,
-} from "./StopDistanceCard";
+} from "@/lib/distance";
 import { formatLightTime, formatMeters, formatTemperature } from "@/lib/scale";
 import { useTempUnit, useUnits } from "@/lib/units";
 import type { Stop } from "@/lib/types";

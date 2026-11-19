@@ -4,29 +4,25 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { StopCombobox } from "./StopCombobox";
-import { STOPS } from "@/lib/content";
 import { formatMeters } from "@/lib/scale";
 import { useUnits } from "@/lib/units";
-import type { Stop } from "@/lib/types";
-
-type SizedStop = Stop & { sizeMeters: number };
-
-function isSized(s: Stop): s is SizedStop {
-  return typeof s.sizeMeters === "number" && s.sizeMeters > 0;
-}
+import { SIZED_STOPS } from "@/lib/content";
 
 export function BetweenFinder() {
   const { t, locale } = useI18n();
   const { units } = useUnits();
 
-  const sizedSorted = useMemo(
-    () => STOPS.filter(isSized).sort((a, b) => a.sizeMeters - b.sizeMeters),
-    []
-  );
+  const sizedSorted = SIZED_STOPS;
 
-  const [a, setA] = useState<string>(sizedSorted[0]?.id ?? "");
+  // Human → Earth: a short, familiar range (the full Planck → universe span
+  // just lists everything).
+  const [a, setA] = useState<string>(
+    sizedSorted.find((s) => s.id === "human")?.id ?? sizedSorted[0]?.id ?? ""
+  );
   const [b, setB] = useState<string>(
-    sizedSorted[sizedSorted.length - 1]?.id ?? ""
+    sizedSorted.find((s) => s.id === "earth")?.id ??
+      sizedSorted[sizedSorted.length - 1]?.id ??
+      ""
   );
 
   const between = useMemo(() => {

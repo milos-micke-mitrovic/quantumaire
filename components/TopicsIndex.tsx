@@ -2,20 +2,36 @@
 
 import clsx from "clsx";
 import Link from "next/link";
-import { m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
-import { TOPICS } from "@/lib/topics";
+import { TOPICS, type Topic } from "@/lib/topics";
+import { getStopsByTag } from "@/lib/tags";
+
+// The broad "how big / how small" guides answer the most common searches,
+// so they lead; the subject guides follow in their usual order.
+const START_HERE = [
+  "how-big-is-the-universe",
+  "planet-sizes-compared",
+  "smallest-things-in-the-universe",
+  "largest-things-in-the-universe",
+];
+const ORDERED = [
+  ...START_HERE.map((slug) => TOPICS.find((t) => t.slug === slug)!).filter(Boolean),
+  ...TOPICS.filter((t) => !START_HERE.includes(t.slug)),
+];
+
+/** Same list the guide page shows: its tag's topics plus hand-picked ones. */
+function topicCount(topic: Topic): number {
+  const ids = new Set(topic.tag ? getStopsByTag(topic.tag).map((s) => s.id) : []);
+  topic.relatedStopIds.forEach((id) => ids.add(id));
+  return ids.size;
+}
 
 export function TopicsIndex() {
   const { t, locale } = useI18n();
 
   return (
     <main className="relative mx-auto w-full max-w-5xl px-5 pb-24 pt-12 sm:px-8 sm:pt-16">
-      <motion.header
-        initial={{ opacity: 0, y: 12 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-      >
+      <header className="animate-rise">
         <p className="text-[10px] font-medium uppercase tracking-[0.28em] text-cosmos-star/55">
           {t("topicsIndex.title")}
         </p>
@@ -30,17 +46,11 @@ export function TopicsIndex() {
         <p className="mt-5 max-w-2xl text-base leading-relaxed text-cosmos-star/70">
           {t("topicsIndex.intro")}
         </p>
-      </motion.header>
+      </header>
 
       <section className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        {TOPICS.map((topic, i) => (
-          <motion.article
-            key={topic.slug}
-            initial={{ opacity: 0, y: 16 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.15 }}
-            transition={{ duration: 0.35, ease: "easeOut", delay: i * 0.04 }}
-          >
+        {ORDERED.map((topic) => (
+          <article key={topic.slug}>
             <Link
               href={`/${locale}/topics/${topic.slug}`}
               className={clsx(
@@ -50,7 +60,7 @@ export function TopicsIndex() {
               )}
             >
               <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-cosmos-star/55">
-                {t("topicsIndex.title")}
+                {t("common.stopsInCategory", { count: topicCount(topic) })}
               </p>
               <h3
                 className={clsx(
@@ -64,7 +74,7 @@ export function TopicsIndex() {
                 {t(`${topic.i18nKey}.tagline`)}
               </p>
             </Link>
-          </motion.article>
+          </article>
         ))}
       </section>
     </main>

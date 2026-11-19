@@ -4,7 +4,6 @@ import clsx from "clsx";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback, useMemo, type ReactNode } from "react";
-import { m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 import { StopCombobox } from "./StopCombobox";
 import { STOPS, getStop } from "@/lib/content";
@@ -253,11 +252,7 @@ export function ComparePage({
   return (
     <main className="relative mx-auto w-full max-w-5xl px-5 pb-24 pt-12 sm:px-8 sm:pt-16">
       {header ?? (
-      <motion.header
-        initial={{ opacity: 0, y: 12 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-      >
+      <header className="animate-rise">
         <p className="text-[10px] font-medium uppercase tracking-[0.28em] text-cosmos-star/55">
           {t("common.compare")}
         </p>
@@ -272,7 +267,7 @@ export function ComparePage({
         <p className="mt-5 max-w-2xl text-base leading-relaxed text-cosmos-star/70">
           {t("common.comparePage.intro")}
         </p>
-      </motion.header>
+      </header>
       )}
 
       {/* Mode selector — Size / Distance / Temperature. */}

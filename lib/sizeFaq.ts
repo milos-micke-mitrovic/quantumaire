@@ -1,4 +1,4 @@
-import { STOPS } from "./content";
+import { SIZED_STOPS } from "./content";
 import {
   formatLightTime,
   formatMeters,
@@ -33,9 +33,7 @@ export interface SizeFaqItem {
 }
 
 /** Stops with a physical size, smallest first. */
-const SIZED: Stop[] = STOPS.filter(
-  (s): s is Stop & { sizeMeters: number } => s.sizeMeters !== null
-).sort((a, b) => (a.sizeMeters as number) - (b.sizeMeters as number));
+const SIZED: Stop[] = SIZED_STOPS;
 
 function numberFormat(locale: Locale): Intl.NumberFormat {
   return new Intl.NumberFormat(locale === "sr" ? "sr-Latn-RS" : "en-US", {

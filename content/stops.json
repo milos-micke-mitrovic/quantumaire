@@ -347,9 +347,7 @@
         "redshift",
         "inflation"
       ],
-      "tags": [
-        "cosmos"
-      ]
+      "tags": []
     },
     {
       "id": "virus",
@@ -1244,8 +1242,7 @@
         "inflation"
       ],
       "tags": [
-        "phenomenon",
-        "cosmos"
+        "phenomenon"
       ]
     },
     {
@@ -1270,8 +1267,7 @@
         "cmb"
       ],
       "tags": [
-        "hypothetical",
-        "cosmos"
+        "hypothetical"
       ]
     },
     {

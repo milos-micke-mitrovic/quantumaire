@@ -3,12 +3,8 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { STOPS } from "@/lib/content";
-import { m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
-
-function normalize(s: string): string {
-  return s.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
-}
+import { normalize } from "@/lib/text";
 
 export function GlossaryView({ keys }: { keys: string[] }) {
   const { t, locale } = useI18n();
@@ -65,11 +61,7 @@ export function GlossaryView({ keys }: { keys: string[] }) {
 
   return (
     <main className="relative mx-auto w-full max-w-3xl px-5 pb-24 pt-12 sm:px-8 sm:pt-16">
-      <motion.header
-        initial={{ opacity: 0, y: 12 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-      >
+      <header className="animate-rise">
         <p className="text-[10px] font-medium uppercase tracking-[0.28em] text-cosmos-star/55">
           {t("common.glossary")}
         </p>
@@ -84,7 +76,7 @@ export function GlossaryView({ keys }: { keys: string[] }) {
         <p className="mt-5 max-w-2xl text-base leading-relaxed text-cosmos-star/70">
           {t("common.glossaryPage.intro")}
         </p>
-      </motion.header>
+      </header>
 
       <div className="mt-8">
         <label htmlFor="glossary-filter" className="sr-only">

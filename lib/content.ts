@@ -60,10 +60,15 @@ export function getStop(id: string): Stop | undefined {
  * field slots ideas between objects, which made "next" jump from Atom to
  * Quantum entanglement to DNA.)
  */
+export type SizedStop = Stop & { sizeMeters: number };
+
+/** Topics with a physical size, smallest first (shared by every scale tool). */
+export const SIZED_STOPS: SizedStop[] = STOPS.filter(
+  (s): s is SizedStop => s.sizeMeters !== null && s.sizeMeters > 0
+).sort((a, b) => a.sizeMeters - b.sizeMeters);
+
 export const NAV_ORDER: Stop[] = (() => {
-  const sized = STOPS.filter((s) => s.sizeMeters !== null && s.sizeMeters > 0)
-    .slice()
-    .sort((a, b) => (a.sizeMeters as number) - (b.sizeMeters as number));
+  const sized = SIZED_STOPS;
   const rank = (c: Category) => CATEGORIES.indexOf(c);
   const ideas = STOPS.filter((s) => !(s.sizeMeters !== null && s.sizeMeters > 0))
     .slice()

@@ -50,11 +50,7 @@ export function ProgressView() {
 
   return (
     <main className="relative mx-auto w-full max-w-3xl px-5 pb-24 pt-12 sm:px-8 sm:pt-16">
-      <motion.header
-        initial={{ opacity: 0, y: 12 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4 }}
-      >
+      <header className="animate-rise">
         <p className="text-[10px] font-medium uppercase tracking-[0.28em] text-cosmos-star/55">
           {t("common.title")}
         </p>
@@ -69,7 +65,7 @@ export function ProgressView() {
         <p className="mt-5 max-w-2xl text-base leading-relaxed text-cosmos-star/70">
           {t("common.progress.intro")}
         </p>
-      </motion.header>
+      </header>
 
       <section
         aria-label={t("common.progress.tagline", { count, total })}

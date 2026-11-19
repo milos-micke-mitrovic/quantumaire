@@ -22,10 +22,7 @@ import { formatMeters } from "@/lib/scale";
 import { useUnits } from "@/lib/units";
 import { lockBodyScroll } from "@/lib/scrollLock";
 import { useDialog } from "@/lib/useDialog";
-
-function normalize(s: string): string {
-  return s.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
-}
+import { normalize } from "@/lib/text";
 
 interface IndexedStop {
   stop: Stop;
