@@ -100,9 +100,10 @@ log in `docs/indexing-log.md`.
 
 ## Current work
 
-A full audit (2026-11-19) produced `docs/AUDIT-PLAN.md` — a phased
-checklist backed by the reports in `docs/audit/`. Continue from the first
-unticked box.
+The 2026-11-19 audit (`docs/AUDIT-PLAN.md`, reports in `docs/audit/`) is
+done except blocked items. Current work: `docs/NEXT-PLAN.md` — continue from
+the first unticked box. Generated comparisons must make sense to a layperson,
+not just be numerically right: dump and read them after any change.
 
 ## Work log
 
