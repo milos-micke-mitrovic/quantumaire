@@ -39,7 +39,7 @@ export function FavoritesView() {
             href={`/${locale}`}
             className="mt-5 inline-flex items-center gap-2 rounded-full bg-aurora-gradient px-5 py-2 text-sm font-medium text-cosmos-void shadow-glow transition-transform hover:-translate-y-0.5"
           >
-            {t("common.begin")}
+            {t("common.browseTopics")}
           </Link>
         </div>
       ) : (
