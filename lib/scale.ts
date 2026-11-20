@@ -207,6 +207,15 @@ export function formatTemperature(
   t?: (key: string) => string,
   unit?: "C" | "F" | "K"
 ): string {
+  // toLocaleString writes negatives with a hyphen ("-271.3"); use a real minus.
+  return formatTemperatureRaw(kelvin, t, unit).replace(/(^|[\s(≈])-(?=\d)/g, "$1\u2212");
+}
+
+function formatTemperatureRaw(
+  kelvin: number | null | undefined,
+  t?: (key: string) => string,
+  unit?: "C" | "F" | "K"
+): string {
   const tr = t ?? defaultMetersTranslator;
   const loc = numberLocale(tr);
   if (
