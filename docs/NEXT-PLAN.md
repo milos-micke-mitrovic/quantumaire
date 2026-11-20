@@ -1,4 +1,63 @@
-# Next plan (round 4, written 2026-11-20)
+# Next plan (round 5, written 2026-11-20)
+
+Round 4 (scale gaps, Humankind topics, animals guide, physics ideas, alt
+texts) is done — see "Done: round 4" below. Same rules: work top to bottom,
+tick boxes, commit + deploy each block, desktop + mobile check
+(`pnpm check:mobile`), dump and read every generated sentence for new topics,
+log in `docs/CHANGELOG-ai.md`.
+
+## 1. Review round 4's 9 topics + animals guide (quality before quantity)
+
+House cat, Omega Centauri, Local Group, Sloan Great Wall, Saturn V, LHC,
+Stonehenge, absolute zero, uncertainty principle, `/topics/animals-by-size`,
+plus today's water/gold additions — drafted by agents, never fact/Serbian-audited.
+
+- [ ] Facts: every number vs sources.json; fix or source anything unsupported.
+- [ ] Serbian: terminology table (docs/audit/serbian.md), „…“, decimal comma,
+      genitive after decimals, vi-forms, count phrases.
+- [ ] Desktop + mobile pass on these pages in both locales.
+
+## 2. Next upgrade 16.2.6 → 16.4.x (unblocks the 404 SSR item)
+
+- [ ] Upgrade next (+ eslint-config-next), run checks, OpenNext build, smoke
+      test locally (`pnpm preview` / wrangler dev): topic, guide, pair, 404,
+      redirects, middleware locale redirect, OG images, sitemap.
+- [ ] Re-test: does a 404 now render its body server-side? If yes, tick the
+      AUDIT-PLAN Phase 4 item; if not, note the version and leave it.
+
+## 3. Last big gaps on the size scale
+
+Sorted by size: Omega Centauri 150 ly → LMC 32,000 ly (2.3 orders, the biggest
+empty stretch), honeybee 13 mm → house cat 46 cm (1.5), Andromeda → Local
+Group (1.7), Sloan Great Wall → observable universe (1.8).
+
+- [ ] Cosmos: Tarantula Nebula (~600–1,000 ly — check sources agree) and/or
+      the Small Magellanic Cloud (~19,000 ly); pair with LMC.
+- [ ] Life & Earth: house mouse (~8 cm) or bee hummingbird (~5 cm) — whichever
+      has a good free photo and a size people quote.
+- [ ] Wire into guides/collections/familiar lists; dump FAQ, analogies,
+      neighbours, real-scale cards in both locales and read them.
+
+## 4. Physics + micro-world ideas (PHYSICS has 9 topics, MICRO_WORLD 14)
+
+- [ ] Electron (idea or ~point-like — decide honestly), photon / light as
+      particle-and-wave, entropy & the arrow of time, E = mc² — sourced,
+      both locales, glossary links; only ones that add something the
+      existing topics (speed of light, antimatter, Higgs) don't already say.
+
+## 5. Compare pairs for the newest topics
+
+- [ ] Candidates that are real searches and read well (stonehenge-vs-
+      colosseum?, saturn-v-vs-burj? tarantula/smc-vs-lmc after block 3);
+      dump EN+SR and read before keeping.
+
+## 6. Search Console data (blocked until enough pages are indexed)
+
+- [ ] Pages with impressions but low CTR → rewrite titles/descriptions.
+
+---
+
+# Done: round 4 (written 2026-11-20)
 
 Round 3 (review of the newest topics, 9 scale-gap topics, 9 compare pairs) is
 done — see "Done: round 3" below. Still blocked: daily GSC indexing (quota
