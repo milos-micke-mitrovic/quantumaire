@@ -1,10 +1,52 @@
-# Next plan (round 3, written 2026-11-19)
+# Next plan (round 4, written 2026-11-20)
 
-Round 2 (generated-text audit, 17 new topics, 2 guides, performance) is done —
-see "Done: round 2" below. Still blocked: daily GSC indexing (`gsc-indexing`
-skill, ~10 URLs/day), the 404 SSR body (Next upgrade) and the Search Console
-CTR pass (needs data). Work top to bottom, tick boxes, commit + deploy each
-block, test desktop + mobile, log in `docs/CHANGELOG-ai.md`.
+Round 3 (review of the newest topics, 9 scale-gap topics, 9 compare pairs) is
+done — see "Done: round 3" below. Still blocked: daily GSC indexing (quota
+seems to be a rolling ~24 h window), the 404 SSR body (Next upgrade) and the
+Search Console CTR pass (needs data). Work top to bottom, tick boxes, commit +
+deploy each block, test desktop + mobile (`pnpm check:mobile`), dump and read
+every generated sentence for new topics, log in `docs/CHANGELOG-ai.md`.
+
+## 1. Remaining gaps on the size scale (things people actually picture)
+
+Biggest jumps a layperson notices: honeybee 13 mm → human 1.7 m (2 orders),
+Orion Nebula 24 ly → LMC 32,000 ly (3), Andromeda → galaxy cluster (2),
+Laniakea → observable universe (2). (Planck → quark and proton → atom are
+empty in nature too; leave them.)
+
+- [ ] Life & Earth: house cat (or dog) — the pet-sized step between bee and human
+- [ ] Cosmos: a globular cluster (Omega Centauri, ~150 ly), the Local Group
+      (~10 million ly), a cosmic "great wall" (Hercules–Corona Borealis or
+      Sloan Great Wall) — only if sources agree on a size a layperson can use
+- [ ] Wire into guides/collections/familiar lists; dump FAQ, analogies,
+      neighbours, real-scale cards in both locales and read them
+
+## 2. Humankind is the thinnest category (8 topics)
+
+- [ ] Saturn V rocket (110.6 m), Large Hadron Collider (27 km ring — links
+      the Higgs topic), Stonehenge (or another well-known ancient site) —
+      pick measures that make honest comparisons (height / ring length / width)
+- [ ] Compare pairs that people search and read well (e.g. saturn-v-vs-
+      statue-of-liberty?), dumped and read
+
+## 3. A guide people search for: animals by size
+
+- [ ] `/topics/animals-by-size`: tardigrade → ant → honeybee → cat → human →
+      giraffe → African elephant → blue whale (+ General Sherman as the
+      biggest living thing); key numbers, cross-links, both locales
+
+## 4. Physics ideas (7 topics, all abstract)
+
+- [ ] Absolute zero (ties into the temperature scale), the uncertainty
+      principle — idea topics (sizeMeters null), sourced, both locales
+
+## 5. Search Console data (blocked until enough pages are indexed)
+
+- [ ] Pages with impressions but low CTR → rewrite titles/descriptions.
+
+---
+
+# Done: round 3
 
 ## 1. Review today's 17 topics + 2 guides (quality before quantity)
 
@@ -40,9 +82,7 @@ no nebula topic and the Moons guide has only the Moon.
       2026-11-19: 9 added (35 total); blue-whale-vs-african-elephant dropped —
       whale length vs elephant shoulder height reads as "7.8× bigger", misleading.
 
-## 4. Search Console data (blocked until enough pages are indexed)
-
-- [ ] Pages with impressions but low CTR → rewrite titles/descriptions.
+## 4. Search Console data — moved to round 4, block 5.
 
 ---
 
