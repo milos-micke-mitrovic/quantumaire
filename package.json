@@ -17,7 +17,7 @@
   "dependencies": {
     "clsx": "2.1.1",
     "framer-motion": "12.38.0",
-    "next": "16.2.6",
+    "next": "16.4.6",
     "react": "19.2.6",
     "react-dom": "19.2.6"
   },
@@ -29,7 +29,7 @@
     "@vitest/coverage-v8": "^4.1.5",
     "autoprefixer": "10.4.20",
     "eslint": "9.18.0",
-    "eslint-config-next": "16.2.6",
+    "eslint-config-next": "16.4.6",
     "happy-dom": "^20.9.0",
     "playwright": "^1.65.1",
     "postcss": "8.5.1",
