@@ -202,7 +202,9 @@
       "pairDescriptionSize": "{big} is about {ratio} times bigger than {small}. See the two side by side on a true scale.",
       "pairSizeDeepTall": "{big} is about {ratio} times deeper than {small} is tall: {big} goes down {sizeBig}, {small} rises {sizeSmall}.",
       "pairDescriptionDeepTall": "{big} is about {ratio} times deeper than {small} is tall. See the depth and the height side by side on a true scale.",
-      "pairFaqQDeepTall": "How much deeper is {big} than {small} is tall?"
+      "pairFaqQDeepTall": "How much deeper is {big} than {small} is tall?",
+      "pairDescriptionDistance": "{big} is about {ratio} times bigger than {small}. Compare their sizes and distances on a true scale.",
+      "pairDescriptionTemp": "{big} is about {ratio} times bigger than {small}. Compare their sizes and temperatures on a true scale."
     },
     "tempSameInC": "≈ same in °C",
     "numberLocale": "en-US",
@@ -2444,6 +2446,67 @@
         "fact7": "'Virtual particles' that briefly borrow energy are a picture used in quantum field theory calculations, not something seen popping in and out.",
         "fact8": "Heisenberg received the 1932 Nobel Prize in Physics (awarded in 1933) for creating quantum mechanics."
       }
+    },
+    "house_mouse": {
+      "name": "House Mouse",
+      "tagline": "About 8 cm of whiskers and fur that followed people from the first grain stores to every corner of the world.",
+      "body": "The house mouse (Mus musculus) is a small rodent that has lived alongside people for so long that it is now found almost everywhere humans live. An adult measures about 7.5–10 cm from nose to the base of the tail, with a nearly hairless tail about as long again, and weighs only 11–30 g. The species is native to the Indian subcontinent; it reached the eastern Mediterranean about 15,000 years ago, feeding on the food stores of the first settled villages, and has since travelled with people around the globe. A female can raise 5 to 10 litters a year of 5 or 6 pups each, which is why a few mice can become many so quickly. Bred in laboratories, the same species has become a mainstay of medical research, because its genes are remarkably close to ours.",
+      "narrative": "Measured from nose to the base of the tail, an 8 cm mouse is a little shorter than a bank card (8.6 cm) and as long as about six honey bees lined up nose to tail. A house cat's body is nearly six mice long, and about 21 mice stacked nose to tail would reach the height of an adult person.",
+      "massNarrative": "A mid-sized adult of about 20 g weighs as much as about 200 worker honey bees, or four sheets of ordinary printer paper. It would take roughly 200–250 mice to balance one house cat.",
+      "funFact": "Male mice sing. When they smell a female, they produce songs of repeated phrases built from several kinds of syllables, at 30–110 kHz — far above the 20 kHz limit of human hearing. A cat, which hears up to about 79 kHz, can pick up much of the serenade that we never hear.",
+      "seoTitle": "How Big Is a House Mouse? Length, Tail and Weight",
+      "metaDescription": "An adult house mouse is about 7.5–10 cm long plus a tail about as long again, and weighs 11–30 g. See a mouse's size compared to familiar things.",
+      "image": {
+        "alt": "A grey-brown house mouse with large rounded ears, black eyes and a pink nose crouching on bright snow, its long pink tail curled beside it."
+      },
+      "facts": {
+        "fact1": "Head-and-body length (nose to the base of the tail): about 7.5–10 cm; the tail adds another 5–10 cm.",
+        "fact2": "Adult weight: typically 11–30 g — a few large coins' worth.",
+        "fact3": "It can squeeze under a door gap only 6 mm (¼ inch) tall — about the width of a pencil — and through openings about 1 cm wide.",
+        "fact4": "At rest its heart beats about 550–725 times a minute, roughly eight times faster than a resting human heart.",
+        "fact5": "Mice and humans share virtually the same set of genes; on average, the protein-coding parts of the two genomes are 85% identical.",
+        "fact6": "Wild house mice usually live less than a year; in protected settings they often reach 2–3 years."
+      }
+    },
+    "tarantula_nebula": {
+      "name": "Tarantula Nebula",
+      "tagline": "The biggest, brightest star factory near the Milky Way — a glowing web of gas in a neighbouring galaxy, home of the heaviest star known.",
+      "body": "The Tarantula Nebula, also called 30 Doradus, is a vast glowing cloud of gas and dust in the Large Magellanic Cloud, about 160,000 light-years away. It is nearly 1,000 light-years across, and its bright filaments stretch out like the legs of a spider — hence the name. It is the largest and brightest star-forming region in the Local Group, the family of galaxies that includes our own. At its heart sits a cluster of young stars only 2 to 3 million years old, including R136a1, the most massive star known. Even from a neighbouring galaxy it is visible to the naked eye from the southern hemisphere as a fuzzy patch.",
+      "narrative": "Centre the Tarantula Nebula on the Sun and it would reach about 500 light-years out in every direction — swallowing the Pleiades and millions of other stars. Some 40 Orion Nebulae would fit side by side across it, and light needs about 1,000 years to cross it from edge to edge.",
+      "funFact": "The Tarantula shines so fiercely that if it were as close to us as the Orion Nebula, it would cover an area of the sky as big as 60 full Moons — and its glow would cast shadows on the ground at night.",
+      "seoTitle": "How Big Is the Tarantula Nebula? Size of 30 Doradus",
+      "metaDescription": "The Tarantula Nebula is nearly 1,000 light-years across and 160,000 light-years away — the brightest star factory near the Milky Way, home of R136a1.",
+      "image": {
+        "alt": "Webb infrared mosaic of the heart of the Tarantula Nebula: a cavity of bright blue young stars surrounded by pale, wispy gas filaments and rust-red clouds of dust, against a dark star field."
+      },
+      "facts": {
+        "fact1": "Size: nearly 1,000 light-years across — the width of its glowing gas in wide photographs, worked out from its size in the sky and its distance. Because its faint edges fade gradually, published figures range from about 650 to 1,860 light-years.",
+        "fact2": "Distance: about 160,000 light-years, in the Large Magellanic Cloud, a satellite galaxy of the Milky Way; sources quote 160,000 to 170,000.",
+        "fact3": "The largest and brightest star-forming region in the Local Group of galaxies.",
+        "fact4": "R136a1, in the central cluster R136, is the most massive star known: estimates range from about 200 to 300 times the Sun's mass, and it shines millions of times brighter than the Sun.",
+        "fact5": "In 2022 the James Webb Space Telescope photographed a 340-light-year-wide patch of it and found tens of thousands of young stars that dust had hidden from earlier telescopes.",
+        "fact6": "Supernova 1987A, the closest supernova seen since the invention of the telescope, exploded on its outskirts in February 1987."
+      }
+    },
+    "small_magellanic_cloud": {
+      "name": "Small Magellanic Cloud",
+      "tagline": "The Milky Way's smaller companion galaxy — the faint cloud where astronomers found their ruler for the universe.",
+      "body": "The Small Magellanic Cloud is a dwarf galaxy orbiting the Milky Way, about 200,000 light-years away and roughly 18,900 light-years across — a little more than half the width of its bigger neighbour, the Large Magellanic Cloud. From the southern hemisphere it looks like a faint, detached wisp of the Milky Way, about eight full Moons wide; Europe learned of it from Magellan's voyage of 1519–1522, but Aboriginal Australians and Pacific islanders had known it long before. In 1912 Henrietta Leavitt used pulsating stars in this cloud to discover the rule that lets astronomers measure the distances to other galaxies. The two Clouds tug at each other: a bridge of gas and young stars, the Magellanic Bridge, joins them, and a long trail of gas, the Magellanic Stream, follows them across more than 100° of the sky. Recent studies suggest the larger Cloud is slowly pulling the smaller one apart — and that what we see may really be two separate structures, one behind the other.",
+      "narrative": "If the Milky Way were a dinner plate 27 cm wide, the Small Magellanic Cloud would be a hazy biscuit about 5 cm across lying some 55 cm away — a little beyond the 9 cm Large Magellanic Cloud, while Andromeda would be almost 7 metres away.",
+      "funFact": "The ruler for measuring the universe was found here. In 1912 Henrietta Leavitt noticed that, among 25 pulsating stars in the Small Magellanic Cloud, the brighter ones took longer to pulse. Since they all lie at about the same distance, any such star became a distance marker — the method Edwin Hubble later used to show that other galaxies lie far beyond our own.",
+      "seoTitle": "How Big Is the Small Magellanic Cloud? Size & Distance",
+      "metaDescription": "The Small Magellanic Cloud is about 18,900 light-years across and 200,000 light-years away — the dwarf galaxy where Leavitt found the key to cosmic distances.",
+      "image": {
+        "alt": "The Small Magellanic Cloud photographed through a telephoto lens from Cerro Pachón in Chile: a pale bluish-white cloud of stars dotted with pink star-forming regions, with the bright globular star cluster 47 Tucanae to its left, against a dense field of stars."
+      },
+      "facts": {
+        "fact1": "Size: about 18,900 light-years across (5.78 kiloparsecs), measured to a standard brightness limit — a little more than half the width of the Large Magellanic Cloud.",
+        "fact2": "Distance: about 200,000 light-years (62.4 kiloparsecs), measured to about 2% with eclipsing double stars in 2020.",
+        "fact3": "Total mass about 7 billion times the Sun's, counting stars, gas and dark matter.",
+        "fact4": "Henrietta Leavitt catalogued 1,777 variable stars in the Magellanic Clouds (1908) and in 1912 found the period–luminosity rule from 25 of them in this cloud.",
+        "fact5": "Visible to the naked eye (magnitude 2.7) in the constellation Tucana — about 4° across, eight times the Moon's width — from anywhere south of about 15° N.",
+        "fact6": "A 2024 study found two star-forming structures about 5 kiloparsecs (16,000 light-years) apart along our line of sight; a 2025 study of 7,426 stars suggests the Large Magellanic Cloud is pulling it apart."
+      }
     }
   },
   "about": {
@@ -2526,7 +2589,7 @@
       "tagline": "Where stars are born and where they go to die.",
       "intro": "A nebula is a vast cloud of gas and dust drifting through interstellar space. Some are nurseries where new stars are condensing under gravity. Others are graveyards — the puffed-out remains of stars that finished burning. They are the loudest, prettiest objects in deep-sky astrophotography, and the slowest-moving cosmic events humans can directly observe.",
       "section1Heading": "Four flavours of nebula",
-      "section1Body": "Astronomers usually sort nebulae into four kinds. Emission nebulae glow because hot young stars ionise their gas — the Orion Nebula is the classic example. Reflection nebulae merely scatter light from nearby stars, with no light of their own. Planetary nebulae are the shed outer layers of dying Sun-like stars — the Ring Nebula and the Cat's Eye are famous examples (the misleading name comes from their round, planet-like appearance through small 18th-century telescopes). Supernova remnants are the violent debris of dying massive stars — the Crab Nebula was created by a supernova observed from Earth in 1054 CE.",
+      "section1Body": "Astronomers usually sort nebulae into four kinds. Emission nebulae glow because hot young stars ionise their gas — the Orion Nebula is the classic example, and the Tarantula Nebula in the Large Magellanic Cloud, nearly 1,000 light-years across, is the biggest one near us. Reflection nebulae merely scatter light from nearby stars, with no light of their own. Planetary nebulae are the shed outer layers of dying Sun-like stars — the Ring Nebula and the Cat's Eye are famous examples (the misleading name comes from their round, planet-like appearance through small 18th-century telescopes). Supernova remnants are the violent debris of dying massive stars — the Crab Nebula was created by a supernova observed from Earth in 1054 CE.",
       "section2Heading": "Star nurseries",
       "section2Body": "Most stars form inside cold, dense molecular clouds. Gravity collapses pockets of gas into protostars; nearby young stars then heat and ionise the leftover gas, lighting up the region. The Pillars of Creation in the Eagle Nebula — that Hubble image you've seen — are a stellar nursery in progress. Our Sun was almost certainly born in a similar nursery; its siblings have long since drifted apart across the galaxy.",
       "section3Heading": "Sun-sized deaths leave planetary nebulae",
@@ -2744,7 +2807,7 @@
       "section1Heading": "Small: water bears, ants and bees",
       "section1Body": "The smallest animal here is a **tardigrade**, about 0.5 mm long — an eight-legged micro-animal that can survive drying out, freezing and even the vacuum of space. A garden **ant** worker is about 5 mm, and a **honey bee** about 13 mm. Insects breathe through a network of tiny tubes rather than lungs, which works well only over short distances; that is one long-standing explanation for why insects stay small. When the air held more oxygen, around 290 million years ago, the griffinfly Meganeuropsis reached a wingspan of about 70 cm — though how much oxygen alone explains is still debated.",
       "section2Heading": "Pet-sized to people-sized: the cat and you",
-      "section2Body": "A **house cat** is about 46 cm from nose to the base of its tail (some 35 honey bees in a row), and an adult **human** stands about 1.7 m tall — some 3.7 cats laid nose to tail. Size changes more than you might think. Make an animal twice as long and its weight grows about eight times, but the cross-section of its bones and muscles only four times. Galileo described this square–cube law in 1638, and it is why a mouse can fall from a table unhurt while a horse cannot, and why big animals need proportionally thicker legs.",
+      "section2Body": "A **house mouse** is about 8 cm from nose to the base of its tail, six honey bees in a row. A **house cat** is about 46 cm from nose to the base of its tail (some 35 honey bees in a row), and an adult **human** stands about 1.7 m tall — some 3.7 cats laid nose to tail. Size changes more than you might think. Make an animal twice as long and its weight grows about eight times, but the cross-section of its bones and muscles only four times. Galileo described this square–cube law in 1638, and it is why a mouse can fall from a table unhurt while a horse cannot, and why big animals need proportionally thicker legs.",
       "section3Heading": "Giants on land: elephant and giraffe",
       "section3Body": "The **African elephant** is the biggest land animal alive: a grown bull stands about 3.2 m at the shoulder and weighs around 6 tonnes, on legs like pillars. The **giraffe** is the tallest — about 5.5 m for a male, most of it legs and a neck with the same seven vertebrae as yours. They are small next to the past: long-necked sauropod dinosaurs such as Argentinosaurus were about 30–35 m long and probably weighed 65–80 tonnes, though they are known only from fragments and the estimates vary.",
       "section4Heading": "The biggest of all: the blue whale",
@@ -3297,6 +3360,10 @@
     "zero_point_energy": {
       "term": "Zero-point energy",
       "definition": "The lowest energy a quantum system can have. It is never zero: even at absolute zero, particles keep a small, unavoidable jiggle."
+    },
+    "commensal": {
+      "term": "Commensal",
+      "definition": "An animal that lives alongside another species and feeds off it — on its scraps, stores or leftovers — without helping or seriously harming it. House mice, house sparrows and pigeons are commensals of people."
     }
   },
   "faq": {
@@ -3414,7 +3481,10 @@
       "sloan_great_wall": "the Sloan Great Wall",
       "saturn_v": "the Saturn V rocket",
       "large_hadron_collider": "the Large Hadron Collider",
-      "stonehenge": "Stonehenge"
+      "stonehenge": "Stonehenge",
+      "house_mouse": "a house mouse",
+      "tarantula_nebula": "the Tarantula Nebula",
+      "small_magellanic_cloud": "the Small Magellanic Cloud"
     },
     "a7where": "The typical temperature of {name} is about {temp} — {note}.",
     "a2taller": "{Name} is roughly {ratio} times taller than a 1.7 m human.",
@@ -3606,7 +3676,7 @@
       "short": "Galaxies",
       "title": "Galaxies, compared",
       "seoTitle": "Milky Way vs Andromeda: How Big Are Galaxies?",
-      "intro": "Our home galaxy, the Milky Way; its biggest companion, the Large Magellanic Cloud, 160,000 light-years away; and its big neighbour Andromeda — two spirals of hundreds of billions of stars closing in on each other, though whether they merge within the next 10 billion years is now roughly a coin toss.",
+      "intro": "Our home galaxy, the Milky Way; its biggest companion, the Large Magellanic Cloud, 160,000 light-years away, and the Small Magellanic Cloud a little beyond it; and its big neighbour Andromeda — two spirals of hundreds of billions of stars closing in on each other, though whether they merge within the next 10 billion years is now roughly a coin toss.",
       "metaDescription": "The Milky Way and Andromeda: two spirals of hundreds of billions of stars, how big they are, and whether they will really collide."
     },
     "unit": {

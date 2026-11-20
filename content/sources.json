@@ -1298,5 +1298,59 @@
       "label": "NIST (CODATA ħ)",
       "url": "https://physics.nist.gov/cgi-bin/cuu/Value?hbar"
     }
+  ],
+  "house_mouse": [
+    {
+      "label": "Wikipedia — House mouse",
+      "url": "https://en.wikipedia.org/wiki/House_mouse"
+    },
+    {
+      "label": "UC IPM (University of California) — House mouse pest note",
+      "url": "https://ipm.ucanr.edu/PMG/PESTNOTES/pn7483.html"
+    },
+    {
+      "label": "NHGRI — Why mouse matters",
+      "url": "https://www.genome.gov/10001345/importance-of-mouse-genome"
+    },
+    {
+      "label": "Kaese & Verheule 2012, Frontiers in Physiology — Cardiac electrophysiology in mice: a matter of size",
+      "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2012.00345/full"
+    }
+  ],
+  "tarantula_nebula": [
+    {
+      "label": "ESA/Hubble — On the origin of massive stars (Tarantula Nebula)",
+      "url": "https://esahubble.org/news/heic2004/"
+    },
+    {
+      "label": "NASA — A Cosmic Tarantula, Caught by NASA's Webb",
+      "url": "https://science.nasa.gov/missions/webb/a-cosmic-tarantula-caught-by-nasas-webb/"
+    },
+    {
+      "label": "NOIRLab (NOAO) — Neighbor galaxy caught stealing stars",
+      "url": "https://noirlab.edu/public/news/noao1102/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tarantula_Nebula"
+    }
+  ],
+  "small_magellanic_cloud": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Small_Magellanic_Cloud"
+    },
+    {
+      "label": "Wikipedia — Henrietta Swan Leavitt",
+      "url": "https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt"
+    },
+    {
+      "label": "AAS Nova — Two Small Magellanic Clouds Are Better than One (2024)",
+      "url": "https://aasnova.org/2024/01/30/two-small-magellanic-clouds-are-better-than-one/"
+    },
+    {
+      "label": "EarthSky — Small Magellanic Cloud is being destroyed by its larger neighbor (2025)",
+      "url": "https://earthsky.org/space/small-magellanic-cloud-is-being-destroyed-by-larger-neighbor/"
+    }
   ]
 }

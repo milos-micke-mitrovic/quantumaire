@@ -116,7 +116,7 @@ export const TOPICS: Topic[] = [
     tag: "nebula",
     i18nKey: "topics.nebulae",
     sectionCount: 4,
-    relatedStopIds: ["orion_nebula", "crab_nebula", "sun", "neutron_star"],
+    relatedStopIds: ["orion_nebula", "tarantula_nebula", "crab_nebula", "sun", "neutron_star"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Nebula" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Planetary_nebula" },
@@ -128,6 +128,7 @@ export const TOPICS: Topic[] = [
       { stopId: "orion_nebula", value: "size" },
       { stopId: "orion_nebula", value: "distance" },
       { stopId: "crab_nebula", value: "size" },
+      { stopId: "tarantula_nebula", value: "size" },
       { text: 1 },
       { text: 2 },
       { text: 3 },
@@ -182,7 +183,7 @@ export const TOPICS: Topic[] = [
     slug: "supernova",
     i18nKey: "topics.supernova",
     sectionCount: 4,
-    relatedStopIds: ["crab_nebula", "large_magellanic_cloud", "betelgeuse", "neutron_star", "supermassive_black_hole"],
+    relatedStopIds: ["crab_nebula", "large_magellanic_cloud", "tarantula_nebula", "betelgeuse", "neutron_star", "supermassive_black_hole"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Supernova" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Type_Ia_supernova" },
@@ -224,7 +225,7 @@ export const TOPICS: Topic[] = [
     slug: "distances",
     i18nKey: "topics.distances",
     sectionCount: 4,
-    relatedStopIds: ["light_year", "moon", "sun", "voyager1", "proxima_centauri", "sirius", "omega_centauri", "milky_way", "large_magellanic_cloud", "andromeda", "local_group", "laniakea_supercluster", "observable_universe"],
+    relatedStopIds: ["light_year", "moon", "sun", "voyager1", "proxima_centauri", "sirius", "omega_centauri", "milky_way", "large_magellanic_cloud", "small_magellanic_cloud", "andromeda", "local_group", "laniakea_supercluster", "observable_universe"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Cosmic_distance_ladder" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Proxima_Centauri" },
@@ -378,7 +379,7 @@ export const TOPICS: Topic[] = [
     i18nKey: "topics.animalsBySize",
     sectionCount: 4,
     tag: "animal",
-    relatedStopIds: ["tardigrade", "ant", "honeybee", "house_cat", "human", "african_elephant", "giraffe", "blue_whale", "general_sherman"],
+    relatedStopIds: ["tardigrade", "ant", "honeybee", "house_mouse", "house_cat", "human", "african_elephant", "giraffe", "blue_whale", "general_sherman"],
     sources: [
       { label: "Wikipedia — Largest organisms", url: "https://en.wikipedia.org/wiki/Largest_organisms" },
       { label: "Wikipedia — Square–cube law", url: "https://en.wikipedia.org/wiki/Square%E2%80%93cube_law" },
@@ -390,6 +391,7 @@ export const TOPICS: Topic[] = [
       { stopId: "tardigrade", value: "size" },
       { stopId: "ant", value: "size" },
       { stopId: "honeybee", value: "size" },
+      { stopId: "house_mouse", value: "size" },
       { stopId: "house_cat", value: "size" },
       { stopId: "human", value: "size" },
       { stopId: "african_elephant", value: "size" },

@@ -19,7 +19,7 @@ export function toGrainScale(meters: number): number {
 /**
  * Format an arbitrary length in meters into a human-readable string.
  *
- * Sub-metre values use SI prefixes (fm, pm, nm, µm, mm, cm from 10 cm).
+ * Sub-metre values use SI prefixes (fm, pm, nm, µm, mm, cm from 5 cm).
  * Earth-and-up uses kilometres with comma grouping, then "million km" /
  * "billion km" once kilometres become unwieldy, then light-years for
  * anything bigger. Scientific notation is avoided in the UI.
@@ -102,8 +102,8 @@ export function formatMeters(
   if (abs < 1e-9) return `${sig(meters * 1e12, loc)} pm`;
   if (abs < 1e-6) return `${sig(meters * 1e9, loc)} nm`;
   if (abs < 1e-3) return `${sig(meters * 1e6, loc)} µm`;
-  if (abs < 0.1) return `${sig(meters * 1e3, loc)} mm`;
-  // A cat or a football reads as "46 cm", not "460 mm".
+  if (abs < 0.05) return `${sig(meters * 1e3, loc)} mm`;
+  // A mouse, a cat or a football reads as "8 cm" / "46 cm", not "80 mm".
   if (abs < 1) return `${sig(meters * 1e2, loc)} cm`;
 
   if (units === "imperial") {

@@ -2006,6 +2006,30 @@
       ]
     },
     {
+      "id": "house_mouse",
+      "i18nKey": "stops.house_mouse",
+      "sizeMeters": 0.08,
+      "order": 4.675,
+      "badge": "FACT",
+      "category": "EARTH",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/house-mouse.webp",
+        "aspect": "wide",
+        "altKey": "stops.house_mouse.image.alt",
+        "credit": "Dion Art — CC BY-SA 4.0 (cropped)"
+      },
+      "glossary": [
+        "commensal",
+        "genome"
+      ],
+      "tags": [
+        "biology",
+        "animal"
+      ]
+    },
+    {
       "id": "ceres",
       "i18nKey": "stops.ceres",
       "sizeMeters": 939400,
@@ -2226,6 +2250,56 @@
       ],
       "tags": [
         "star-cluster"
+      ]
+    },
+    {
+      "id": "tarantula_nebula",
+      "i18nKey": "stops.tarantula_nebula",
+      "sizeMeters": 9.461e+18,
+      "distanceFromEarthMeters": 1.514e+21,
+      "order": 10.87,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-ember",
+      "accentGlow": "shadow-[0_0_80px_rgba(251,113,133,0.5)]",
+      "image": {
+        "src": "/images/tarantula-nebula.webp",
+        "aspect": "wide",
+        "altKey": "stops.tarantula_nebula.image.alt",
+        "credit": "NASA, ESA, CSA, STScI, Webb ERO Production Team — public domain"
+      },
+      "glossary": [
+        "nebula",
+        "molecular_cloud",
+        "light_year"
+      ],
+      "tags": [
+        "nebula"
+      ]
+    },
+    {
+      "id": "small_magellanic_cloud",
+      "i18nKey": "stops.small_magellanic_cloud",
+      "sizeMeters": 1.788e+20,
+      "distanceFromEarthMeters": 1.8921e+21,
+      "order": 10.88,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-aurora",
+      "accentGlow": "shadow-[0_0_80px_rgba(124,92,255,0.4)]",
+      "image": {
+        "src": "/images/small-magellanic-cloud.webp",
+        "aspect": "wide",
+        "altKey": "stops.small_magellanic_cloud.image.alt",
+        "credit": "P. Horálek/NOIRLab/NSF/AURA — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "satellite_galaxy",
+        "standard_candle",
+        "light_year"
+      ],
+      "tags": [
+        "galaxy"
       ]
     },
     {

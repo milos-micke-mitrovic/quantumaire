@@ -202,7 +202,9 @@
       "pairDescriptionSize": "{big}: oko {ratio} puta veće nego {small}. Pogledajte ih jedno pored drugog na pravoj skali.",
       "pairSizeDeepTall": "Dubina — {big}: {sizeBig}; visina — {small}: {sizeSmall}. Dubina je oko {ratio} puta veća nego visina.",
       "pairDescriptionDeepTall": "Dubina nasuprot visini — {big} i {small}: dubina je oko {ratio} puta veća. Pogledajte ih jedno pored drugog na pravoj skali.",
-      "pairFaqQDeepTall": "{big} i {small} — koliko je dubina veća od visine?"
+      "pairFaqQDeepTall": "{big} i {small} — koliko je dubina veća od visine?",
+      "pairDescriptionDistance": "{big}: oko {ratio} puta veće nego {small}. Uporedite veličine i udaljenosti na pravoj skali.",
+      "pairDescriptionTemp": "{big}: oko {ratio} puta veće nego {small}. Uporedite veličine i temperature na pravoj skali."
     },
     "tempSameInC": "≈ isto u °C",
     "numberLocale": "sr-Latn-RS",
@@ -2444,6 +2446,67 @@
         "fact7": "„Virtuelne čestice“ koje nakratko pozajmljuju energiju slika su iz proračuna kvantne teorije polja, a ne nešto što se vidi kako iskače i nestaje.",
         "fact8": "Hajzenberg je dobio Nobelovu nagradu za fiziku za 1932. (uručenu 1933.) za stvaranje kvantne mehanike."
       }
+    },
+    "house_mouse": {
+      "name": "Domaći miš",
+      "tagline": "Oko 8 cm brkova i krzna koji su pratili ljude od prvih ambara do svih krajeva sveta.",
+      "body": "Domaći miš (Mus musculus) je mali glodar koji živi uz ljude toliko dugo da se danas sreće gotovo svuda gde ima ljudi. Odrastao miš dug je oko 7,5–10 cm od nosa do korena repa, a gotovo goli rep dug je otprilike još toliko; težak je samo 11–30 g. Potiče sa Indijskog potkontinenta, do istočnog Sredozemlja stigao je pre oko 15.000 godina, hraneći se zalihama hrane u prvim stalnim naseljima, i otada je sa ljudima obišao ceo svet. Ženka godišnje može da othrani od 5 do 10 legala sa po 5 ili 6 mladunaca, pa se od nekoliko miševa vrlo brzo napravi mnogo. Odgajan u laboratorijama, isti ovaj miš postao je jedan od glavnih oslonaca medicinskih istraživanja, jer su njegovi geni izuzetno slični našima.",
+      "narrative": "Meren od nosa do korena repa, miš od 8 cm nešto je kraći od platne kartice (8,6 cm) i dug je kao oko šest medonosnih pčela poređanih jedna za drugom. Telo domaće mačke dugo je skoro šest miševa, a oko 21 miš poređan jedan za drugim dostigao bi visinu odraslog čoveka.",
+      "massNarrative": "Odrastao miš srednje veličine, težak oko 20 g, teži koliko oko 200 pčela radilica ili četiri lista običnog papira za štampač. Za jednu domaću mačku trebalo bi otprilike 200–250 miševa.",
+      "funFact": "Mužjaci miševa pevaju. Kada osete miris ženke, ispuštaju pesme od ponovljenih fraza sastavljenih od nekoliko vrsta slogova, na 30–110 kHz — daleko iznad granice ljudskog sluha od 20 kHz. Mačka, koja čuje do oko 79 kHz, može da uhvati veći deo te serenade koju mi nikada ne čujemo.",
+      "seoTitle": "Koliko je veliki domaći miš? Dužina, rep i težina",
+      "metaDescription": "Odrastao domaći miš dug je oko 7,5–10 cm, uz rep otprilike iste dužine, i težak 11–30 g. Veličina miša u poređenju sa poznatim stvarima.",
+      "image": {
+        "alt": "Sivosmeđi domaći miš velikih zaobljenih ušiju, crnih očiju i ružičastog nosa čuči na blistavom snegu, a pored njega je savijen dugačak ružičast rep."
+      },
+      "facts": {
+        "fact1": "Dužina glave i tela (od nosa do korena repa): oko 7,5–10 cm; rep dodaje još 5–10 cm.",
+        "fact2": "Težina odraslog miša: obično 11–30 g — koliko nekoliko većih kovanica.",
+        "fact3": "Može da se provuče ispod vrata kroz procep visok samo 6 mm — otprilike debljina olovke — i kroz otvore široke oko 1 cm.",
+        "fact4": "U mirovanju mu srce kuca oko 550–725 puta u minuti, otprilike osam puta brže nego ljudsko srce u mirovanju.",
+        "fact5": "Miševi i ljudi imaju gotovo isti skup gena; delovi dva genoma koji kodiraju proteine u proseku su 85% identični.",
+        "fact6": "Divlji domaći miševi obično žive kraće od godinu dana; u zaštićenim uslovima često dožive 2–3 godine."
+      }
+    },
+    "tarantula_nebula": {
+      "name": "Maglina Tarantula",
+      "tagline": "Najveća i najsjajnija fabrika zvezda u blizini Mlečnog puta — svetleća mreža gasa u susednoj galaksiji, dom najmasivnije poznate zvezde.",
+      "body": "Maglina Tarantula, poznata i kao 30 Doradus, ogroman je svetleći oblak gasa i prašine u Velikom Magelanovom oblaku, udaljen oko 160.000 svetlosnih godina. Široka je skoro 1.000 svetlosnih godina, a njena sjajna vlakna pružaju se na sve strane kao noge pauka — otud i ime. To je najveća i najsjajnija oblast stvaranja zvezda u Lokalnoj grupi, porodici galaksija kojoj pripada i naša. U njenom srcu je jato mladih zvezda starih samo 2 do 3 miliona godina, među kojima je i R136a1, najmasivnija poznata zvezda. Iako je u drugoj galaksiji, sa južne polulopte vidi se golim okom kao mutna mrlja.",
+      "narrative": "Kad bi se centar magline Tarantula nalazio u Suncu, ona bi se prostirala oko 500 svetlosnih godina u svim pravcima — i progutala bi Plejade i milione drugih zvezda. U njenu širinu stalo bi oko 40 Orionovih maglina poređanih jedna do druge, a svetlosti treba oko 1.000 godina da je pređe s kraja na kraj.",
+      "funFact": "Tarantula sija toliko jako da bi, kad bi bila blizu kao Orionova maglina, zauzimala deo neba velik kao 60 punih Meseci — a njena svetlost bi noću bacala senke na tlo.",
+      "seoTitle": "Kolika je maglina Tarantula? Veličina 30 Doradus",
+      "metaDescription": "Maglina Tarantula široka je skoro 1.000 svetlosnih godina i udaljena 160.000 svetlosnih godina — najsjajnija fabrika zvezda blizu Mlečnog puta i dom R136a1.",
+      "image": {
+        "alt": "Vebov infracrveni mozaik srca magline Tarantula: šupljina puna sjajnih plavih mladih zvezda, okružena bledim, paperjastim vlaknima gasa i rđastocrvenim oblacima prašine, na tamnoj pozadini zvezda."
+      },
+      "facts": {
+        "fact1": "Veličina: skoro 1.000 svetlosnih godina — širina njenog svetlećeg gasa na širokim snimcima, izračunata iz njene veličine na nebu i udaljenosti. Pošto njene blede ivice postepeno iščezavaju, objavljene vrednosti kreću se od oko 650 do 1.860 svetlosnih godina.",
+        "fact2": "Udaljenost: oko 160.000 svetlosnih godina, u Velikom Magelanovom oblaku, galaksiji pratiocu Mlečnog puta; izvori navode od 160.000 do 170.000.",
+        "fact3": "Najveća i najsjajnija oblast stvaranja zvezda u Lokalnoj grupi galaksija.",
+        "fact4": "R136a1, u središnjem jatu R136, najmasivnija je poznata zvezda: procene se kreću od oko 200 do 300 Sunčevih masa, a sija milionima puta jače od Sunca.",
+        "fact5": "Svemirski teleskop Džejms Veb snimio je 2022. njen deo širok 340 svetlosnih godina i otkrio desetine hiljada mladih zvezda koje je prašina skrivala od ranijih teleskopa.",
+        "fact6": "Supernova 1987A, najbliža supernova viđena od izuma teleskopa, eksplodirala je na njenom obodu u februaru 1987."
+      }
+    },
+    "small_magellanic_cloud": {
+      "name": "Mali Magelanov oblak",
+      "tagline": "Manja galaksija pratilac Mlečnog puta — bledi oblak u kojem su astronomi pronašli lenjir za merenje svemira.",
+      "body": "Mali Magelanov oblak je patuljasta galaksija pratilac Mlečnog puta, udaljena oko 200.000 svetlosnih godina i široka otprilike 18.900 svetlosnih godina — nešto više od polovine širine njenog većeg suseda, Velikog Magelanovog oblaka. Sa južne polulopte izgleda kao bled, otkinuti pramen Mlečnog puta, širok koliko osam punih Meseci; Evropa je za njega saznala sa Magelanovog putovanja 1519–1522, ali su ga australijski Aboridžini i pacifički ostrvljani poznavali mnogo ranije. Godine 1912. Henrijeta Livit je pomoću pulsirajućih zvezda u ovom oblaku otkrila pravilo koje astronomima omogućava da mere udaljenosti do drugih galaksija. Dva oblaka privlače jedan drugog: spaja ih Magelanov most od gasa i mladih zvezda, a za njima se preko više od 100° neba vuče dugačak trag gasa, Magelanova struja. Novija istraživanja ukazuju na to da veći oblak polako razvlači manji — i da je ono što vidimo možda zapravo dve odvojene celine, jedna iza druge.",
+      "narrative": "Kad bi Mlečni put bio tanjir širok 27 cm, Mali Magelanov oblak bio bi magloviti keks prečnika oko 5 cm, udaljen oko 55 cm — malo iza Velikog Magelanovog oblaka od 9 cm, dok bi Andromeda bila udaljena skoro 7 metara.",
+      "funFact": "Lenjir za merenje svemira pronađen je baš ovde. Henrijeta Livit je 1912. primetila da kod 25 pulsirajućih zvezda u Malom Magelanovom oblaku one sjajnije sporije pulsiraju. Pošto su sve otprilike podjednako udaljene, svaka takva zvezda postala je putokaz za merenje udaljenosti — metod kojim je Edvin Habl kasnije pokazao da druge galaksije leže daleko izvan naše.",
+      "seoTitle": "Koliki je Mali Magelanov oblak? Veličina i udaljenost",
+      "metaDescription": "Mali Magelanov oblak širok je oko 18.900, a udaljen 200.000 svetlosnih godina — patuljasta galaksija u kojoj je otkriven ključ kosmičkih udaljenosti.",
+      "image": {
+        "alt": "Mali Magelanov oblak snimljen teleobjektivom sa planine Ćero Pačon u Čileu: bled, plavičastobeo oblak zvezda posut ružičastim oblastima u kojima nastaju zvezde, levo od njega sjajno globularno jato 47 Tukana, na gustoj pozadini zvezda."
+      },
+      "facts": {
+        "fact1": "Veličina: oko 18.900 svetlosnih godina (5,78 kiloparseka), mereno do standardne granice sjaja — nešto više od polovine širine Velikog Magelanovog oblaka.",
+        "fact2": "Udaljenost: oko 200.000 svetlosnih godina (62,4 kiloparseka), izmereno s tačnošću od oko 2% pomoću pomračinskih dvojnih zvezda 2020.",
+        "fact3": "Ukupna masa oko 7 milijardi Sunčevih masa, računajući zvezde, gas i tamnu materiju.",
+        "fact4": "Henrijeta Livit je 1908. popisala 1.777 promenljivih zvezda u Magelanovim oblacima, a 1912. iz 25 njih u ovom oblaku otkrila vezu između perioda i sjaja.",
+        "fact5": "Vidi se golim okom (magnituda 2,7) u sazvežđu Tukan — širok je oko 4°, osam puta više od Meseca — sa svakog mesta južno od oko 15° severne geografske širine.",
+        "fact6": "Studija iz 2024. otkrila je dve celine u kojima nastaju zvezde, udaljene oko 5 kiloparseka (16.000 svetlosnih godina) duž našeg pravca gledanja; studija 7.426 zvezda iz 2025. ukazuje na to da ga Veliki Magelanov oblak razvlači."
+      }
     }
   },
   "about": {
@@ -2526,7 +2589,7 @@
       "tagline": "Tamo gde se zvezde rađaju i gde idu da umru.",
       "intro": "Maglina je ogroman oblak gasa i prašine koji lebdi kroz međuzvezdani prostor. Neke su rasadnici u kojima se nove zvezde sažimaju pod gravitacijom. Druge su grobnice — naduvani ostaci zvezda koje su završile sa gorenjem. To su najupadljiviji, najlepši objekti u astrofotografiji dubokog neba, i najsporiji kosmički događaji koje ljudi mogu direktno posmatrati.",
       "section1Heading": "Četiri vrste maglina",
-      "section1Body": "Astronomi obično dele magline na četiri vrste. Emisione magline sijaju jer vrele mlade zvezde jonizuju njihov gas — Orionova maglina je klasičan primer. Refleksione magline samo rasipaju svetlost obližnjih zvezda, bez sopstvenog sjaja. Planetarne magline su zbačeni spoljni slojevi umirućih zvezda nalik Suncu — Prstenasta maglina i Mačje oko su poznati primeri (varljivo ime potiče od njihovog okruglog izgleda, nalik planetama, kroz male teleskope iz 18. veka). Ostaci supernove su nasilni krš umrlih masivnih zvezda — Rakovu maglinu stvorila je supernova posmatrana sa Zemlje 1054. godine.",
+      "section1Body": "Astronomi obično dele magline na četiri vrste. Emisione magline sijaju jer vrele mlade zvezde jonizuju njihov gas — Orionova maglina je klasičan primer, a maglina Tarantula u Velikom Magelanovom oblaku, široka skoro 1.000 svetlosnih godina, najveća je takva maglina u našoj blizini. Refleksione magline samo rasipaju svetlost obližnjih zvezda, bez sopstvenog sjaja. Planetarne magline su zbačeni spoljni slojevi umirućih zvezda nalik Suncu — Prstenasta maglina i Mačje oko su poznati primeri (varljivo ime potiče od njihovog okruglog izgleda, nalik planetama, kroz male teleskope iz 18. veka). Ostaci supernove su nasilni krš umrlih masivnih zvezda — Rakovu maglinu stvorila je supernova posmatrana sa Zemlje 1054. godine.",
       "section2Heading": "Zvezdane jasle",
       "section2Body": "Većina zvezda nastaje unutar hladnih, gustih molekularnih oblaka. Gravitacija sažima džepove gasa u protozvezde; obližnje mlade zvezde zatim greju i jonizuju ostatak gasa, osvetljavajući oblast. Stubovi stvaranja u Orlovoj maglini — Hablov snimak koji ste sigurno videli — su zvezdane jasle u nastanku. Naše Sunce je gotovo sigurno rođeno u sličnim jaslama; njegova braća i sestre odavno su se razišli po galaksiji.",
       "section3Heading": "Zvezde poput Sunca za sobom ostavljaju planetarne magline",
@@ -2744,7 +2807,7 @@
       "section1Heading": "Mali: vodeni medvedi, mravi i pčele",
       "section1Body": "Najmanja životinja ovde je **tardigrad**, dug oko 0,5 mm — osmonoga mikroživotinja koja može da preživi isušivanje, smrzavanje, pa čak i vakuum svemira. Radnica baštenskog **mrava** duga je oko 5 mm, a **medonosna pčela** oko 13 mm. Insekti ne dišu plućima, već mrežom sićušnih cevčica, koja dobro radi samo na kratkim razdaljinama; to je jedno od starih objašnjenja zašto insekti ostaju mali. Kad je vazduh pre oko 290 miliona godina sadržao više kiseonika, Meganeuropsis, praistorijski srodnik vilinskih konjica, imao je raspon krila od oko 70 cm — mada se i dalje raspravlja koliko tu objašnjava sam kiseonik.",
       "section2Heading": "Od kućnog ljubimca do čoveka: mačka i vi",
-      "section2Body": "**Domaća mačka** duga je oko 46 cm od nosa do korena repa (kao oko 35 medonosnih pčela u nizu), a odrastao **čovek** visok je oko 1,7 m — kao 3,7 mačke poređane od nosa do repa. Promena veličine menja više nego što biste pomislili. Ako životinju udvostručite po dužini, njena težina poraste oko osam puta, a presek kostiju i mišića samo četiri puta. Galilej je ovaj zakon kvadrata i kuba opisao 1638. i zbog njega miš može bez povrede da padne sa stola, a konj ne može, i zato velike životinje moraju da imaju srazmerno deblje noge.",
+      "section2Body": "**Domaći miš** dug je oko 8 cm od nosa do korena repa, kao šest medonosnih pčela u nizu. **Domaća mačka** duga je oko 46 cm od nosa do korena repa (kao oko 35 medonosnih pčela u nizu), a odrastao **čovek** visok je oko 1,7 m — kao 3,7 mačke poređane od nosa do repa. Promena veličine menja više nego što biste pomislili. Ako životinju udvostručite po dužini, njena težina poraste oko osam puta, a presek kostiju i mišića samo četiri puta. Galilej je ovaj zakon kvadrata i kuba opisao 1638. i zbog njega miš može bez povrede da padne sa stola, a konj ne može, i zato velike životinje moraju da imaju srazmerno deblje noge.",
       "section3Heading": "Džinovi na kopnu: slon i žirafa",
       "section3Body": "**Afrički slon** je najveća živa kopnena životinja: odrastao mužjak visok je oko 3,2 m u ramenima i težak oko 6 tona, na nogama poput stubova. **Žirafa** je najviša — mužjak oko 5,5 m, najvećim delom noge i vrat sa istih sedam pršljenova kao vaš. Ipak, mali su u poređenju sa izumrlim džinovima: dugovrati dinosaurusi sauropodi, poput argentinosaurusa, bili su dugi oko 30–35 m i verovatno teški 65–80 tona, mada su poznati samo po delovima kostura, pa se procene razlikuju.",
       "section4Heading": "Najveći od svih: plavi kit",
@@ -3297,6 +3360,10 @@
     "zero_point_energy": {
       "term": "Energija nulte tačke",
       "definition": "Najniža energija koju kvantni sistem može da ima. Nikada nije nula: čak i na apsolutnoj nuli čestice zadržavaju malo, neizbežno podrhtavanje."
+    },
+    "commensal": {
+      "term": "Komensal",
+      "definition": "Životinja koja živi uz drugu vrstu i hrani se na njen račun — ostacima, zalihama ili otpacima — a da joj pritom ne pomaže niti joj ozbiljno šteti. Domaći miševi, vrapci pokućari i golubovi su komensali čoveka."
     }
   },
   "faq": {
@@ -3419,7 +3486,10 @@
       "sloan_great_wall": "Veliki zid Sloan",
       "saturn_v": "raketa Saturn V",
       "large_hadron_collider": "Veliki hadronski sudarač",
-      "stonehenge": "Stounhendž"
+      "stonehenge": "Stounhendž",
+      "house_mouse": "domaći miš",
+      "tarantula_nebula": "maglina Tarantula",
+      "small_magellanic_cloud": "Mali Magelanov oblak"
     },
     "a3smallerTall": "Korak niže: {other} ({otherSize}), oko {ratio} puta niže.",
     "a3largerTall": "Korak više: {other} ({otherSize}), oko {ratio} puta više.",
@@ -3606,7 +3676,7 @@
       "short": "Galaksije",
       "title": "Galaksije, poređene",
       "seoTitle": "Mlečni put i Andromeda: koliko su velike galaksije?",
-      "intro": "Naša galaksija, Mlečni put; njen najveći pratilac, Veliki Magelanov oblak, udaljen 160.000 svetlosnih godina; i njen veliki sused Andromeda — dve spirale sa stotinama milijardi zvezda koje se približavaju jedna drugoj, mada je spajanje u narednih 10 milijardi godina sada otprilike pitanje bacanja novčića.",
+      "intro": "Naša galaksija, Mlečni put; njen najveći pratilac, Veliki Magelanov oblak, udaljen 160.000 svetlosnih godina, i Mali Magelanov oblak nešto dalje od njega; i njen veliki sused Andromeda — dve spirale sa stotinama milijardi zvezda koje se približavaju jedna drugoj, mada je spajanje u narednih 10 milijardi godina sada otprilike pitanje bacanja novčića.",
       "metaDescription": "Mlečni put i Andromeda: dve spirale sa stotinama milijardi zvezda, koliko su velike i da li će se zaista sudariti."
     },
     "unit": {

@@ -90,9 +90,13 @@ export function describePair(locale: Locale, a: Stop, b: Stop) {
         locale,
         variant
           ? `common.comparePage.pairDescription${variant}`
-          : lines.length > 1
+          : lines.length > 2
             ? "common.comparePage.pairDescription"
-            : "common.comparePage.pairDescriptionSize",
+            : lines.length > 1
+              ? a.temperatureKelvin && b.temperatureKelvin
+                ? "common.comparePage.pairDescriptionTemp"
+                : "common.comparePage.pairDescriptionDistance"
+              : "common.comparePage.pairDescriptionSize",
         { big, small, ratio }
       )
     ),

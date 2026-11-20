@@ -90,6 +90,10 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/stop/absolute_zero (new 2026-11-20)
 - https://quantumaire.space/en/stop/uncertainty_principle (new 2026-11-20)
 - https://quantumaire.space/en/compare/saturn-v-vs-statue-of-liberty (new 2026-11-20)
+- https://quantumaire.space/en/stop/house_mouse
+- https://quantumaire.space/en/stop/tarantula_nebula
+- https://quantumaire.space/en/stop/small_magellanic_cloud
+- https://quantumaire.space/en/compare/large-magellanic-cloud-vs-small-magellanic-cloud
 
 ## Done
 
