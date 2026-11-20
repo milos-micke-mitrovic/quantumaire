@@ -4,17 +4,6 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 
 ## Queue (next first)
 
-- https://quantumaire.space/en/stop/james_webb
-- https://quantumaire.space/en/stop/iss
-- https://quantumaire.space/en/stop/mariana_trench
-- https://quantumaire.space/en/stop/neutrino
-- https://quantumaire.space/en/stop/gaia_bh1
-- https://quantumaire.space/en/stop/m87_black_hole
-- https://quantumaire.space/en/tag/spacecraft
-- https://quantumaire.space/en/compare/jupiter-vs-earth
-- https://quantumaire.space/en/compare/sun-vs-earth
-- https://quantumaire.space/en/compare/earth-vs-moon
-- https://quantumaire.space/en/compare/uy-scuti-vs-sun
 - https://quantumaire.space/en/compare/milky-way-vs-andromeda
 - https://quantumaire.space/en/stop/string_theory
 - https://quantumaire.space/en/stop/gravity
@@ -109,3 +98,5 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - 2026-11-19: /en/stop/{supermassive_black_hole,moon,light_year,uy_scuti,neutron_star,mars,jupiter,quark,dark_matter}
 - 2026-11-19 (later): /en/stop/speed_of_light — then "Quota Exceeded" (≈10/day incl. the morning batch); resume tomorrow with fermi_paradox.
 - 2026-11-20: /en/stop/fermi_paradox — then "Quota Exceeded" on james_webb (quota looks like a rolling ~24 h window, not a calendar day); resume with james_webb.
+- 2026-11-20 (~10:45): /en/stop/{james_webb,iss,mariana_trench,neutrino,gaia_bh1,m87_black_hole}; /en/tag/spacecraft;
+  /en/compare/{jupiter-vs-earth,sun-vs-earth,earth-vs-moon,uy-scuti-vs-sun} — then "Quota Exceeded" on milky-way-vs-andromeda (11 accepted); resume with milky-way-vs-andromeda.
