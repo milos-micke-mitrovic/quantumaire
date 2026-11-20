@@ -212,3 +212,8 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 ## 2026-11-20 — image alt-text audit (round 4, block 5)
 - All 98 topic images compared with their alt text (agent read every image; spot-checked). 31 alts still described the old AI pictures replaced in 27bc49b ("real public-domain images"): e.g. human (now the Vitruvian Man), time dilation (a GPS satellite), Jupiter ("four Galilean moons" not in the photo), dark matter (Bullet Cluster), big bang (Planck CMB map), Voyager 1 (no Earth in frame). Rewritten in EN and SR; six of them are guide heroes too.
 - Next: only GSC CTR (blocked on indexing data) remains in the round-4 plan.
+
+## 2026-11-20 — origin of water and gold; indexing
+- Owner request: where water and gold come from. water_molecule body + fact7/fact8 (H from Big Bang, O from stars, up to half of Earth's water older than the Sun; asteroid delivery = leading idea, still debated), neutron_star fact5 (merger gold, GW170817), earth fact5 (mined gold arrived on meteorites; original sank to the core). EN + SR, sources added.
+- GSC: 11 URLs requested; resume with /en/compare/milky-way-vs-andromeda.
+- Next: owner will ask "propose the next plan" → round 5.
