@@ -94,6 +94,7 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/stop/sloan_great_wall (new 2026-11-20)
 - https://quantumaire.space/en/tag/galaxy-cluster (new 2026-11-20)
 - https://quantumaire.space/en/tag/supercluster (new 2026-11-20)
+- https://quantumaire.space/en/topics/animals-by-size (new 2026-11-20)
 
 ## Done
 

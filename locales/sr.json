@@ -2623,6 +2623,24 @@
       "keyNumber2Value": "oko 38 biliona",
       "keyNumber3Label": "DNK iz jedne ćelije, ispravljena",
       "keyNumber3Value": "oko 2 m"
+    },
+    "animalsBySize": {
+      "title": "Životinje po veličini",
+      "seoTitle": "Veličine životinja: od tardigrada do plavog kita",
+      "tagline": "Od vodenog medveda od pola milimetra, preko mrava, pčela i mačaka, do slona, žirafe i plavog kita — i zašto se životinje ne mogu tek tako uvećati.",
+      "intro": "Životinje se po dužini razlikuju oko 50.000 puta, od tardigrada koji se jedva vidi do plavog kita dugog otprilike kao košarkaški teren. Evo ih poređanih po veličini, uz razlog zašto svaka grupa izgleda baš tako: zašto insekti ostaju mali, zašto velike kopnene životinje imaju debele noge i zašto najveća životinja od svih živi u moru.",
+      "section1Heading": "Mali: vodeni medvedi, mravi i pčele",
+      "section1Body": "Najmanja životinja ovde je **tardigrad**, dug oko 0,5 mm — osmonoga mikroživotinja koja može da preživi isušivanje, smrzavanje, pa čak i vakuum svemira. Radnica baštenskog **mrava** duga je oko 5 mm, a **medonosna pčela** oko 13 mm. Insekti ne dišu plućima, već mrežom sićušnih cevčica, koja dobro radi samo na kratkim razdaljinama; to je jedno od starih objašnjenja zašto insekti ostaju mali. Kad je vazduh pre oko 300 miliona godina sadržao više kiseonika, vilinski konjic Meganeuropsis imao je raspon krila od oko 70 cm — mada se i dalje raspravlja koliko tu objašnjava sam kiseonik.",
+      "section2Heading": "Od kućnog ljubimca do čoveka: mačka i vi",
+      "section2Body": "**Domaća mačka** duga je oko 46 cm od nosa do korena repa — kao oko 35 medonosnih pčela u nizu — a odrastao **čovek** visok je oko 1,7 m, 3,7 puta više od dužine mačke. Veličina menja više nego što biste pomislili. Ako životinju produžite dva puta, njena težina poraste oko osam puta, a presek kostiju i mišića samo četiri puta. Galilej je ovaj zakon kvadrata i kuba opisao 1638. i zbog njega miš može bez povrede da padne sa stola, a konj ne može, i zato velike životinje moraju da imaju srazmerno deblje noge.",
+      "section3Heading": "Džinovi na kopnu: slon i žirafa",
+      "section3Body": "**Afrički slon** je najveća živa kopnena životinja: odrastao mužjak visok je oko 3,2 m u ramenima i težak oko 6 tona, na nogama poput stubova. **Žirafa** je najviša — mužjak oko 5,5 m, najvećim delom noge i vrat sa istih sedam pršljenova kao vaš. Pored prošlosti su ipak mali: dugovrati dinosaurusi sauropodi, poput argentinosaurusa, bili su dugi oko 30–35 m i verovatno teški 65–80 tona, mada su poznati samo po delovima kostura, pa se procene razlikuju.",
+      "section4Heading": "Najveći od svih: plavi kit",
+      "section4Body": "**Plavi kit** dostiže oko 30 m — najduži pouzdano izmeren imao je 29,9 m — i do otprilike 190 tona, više od ijednog poznatog dinosaurusa. Voda nosi njegovu težinu, pa izmiče granici zakona kvadrata i kuba koja ograničava kopnene životinje, a hrani se krilom dugim tek nekoliko centimetara. Najveće živo biće uopšte nije životinja: **drvo General Šerman**, džinovska sekvoja visoka 83,8 m, sa oko 1.487 kubnih metara drveta.",
+      "keyNumber1Label": "Najteža životinja ikada",
+      "keyNumber1Value": "plavi kit, do oko 190 t",
+      "keyNumber2Label": "Najveći dinosaurusi (procene)",
+      "keyNumber2Value": "oko 30–35 m, 65–80 t"
     }
   },
   "topicView": {

@@ -373,6 +373,33 @@ export const TOPICS: Topic[] = [
     ],
     accent: "text-cosmos-aurora",
   },
+  {
+    slug: "animals-by-size",
+    i18nKey: "topics.animalsBySize",
+    sectionCount: 4,
+    tag: "animal",
+    relatedStopIds: ["tardigrade", "ant", "honeybee", "house_cat", "human", "african_elephant", "giraffe", "blue_whale", "general_sherman"],
+    sources: [
+      { label: "Wikipedia — Largest organisms", url: "https://en.wikipedia.org/wiki/Largest_organisms" },
+      { label: "Wikipedia — Square–cube law", url: "https://en.wikipedia.org/wiki/Square%E2%80%93cube_law" },
+      { label: "Wikipedia — Argentinosaurus", url: "https://en.wikipedia.org/wiki/Argentinosaurus" },
+      { label: "Wikipedia — Meganeuropsis", url: "https://en.wikipedia.org/wiki/Meganeuropsis" },
+    ],
+    heroStopId: "blue_whale",
+    keyNumbers: [
+      { stopId: "tardigrade", value: "size" },
+      { stopId: "ant", value: "size" },
+      { stopId: "honeybee", value: "size" },
+      { stopId: "house_cat", value: "size" },
+      { stopId: "human", value: "size" },
+      { stopId: "african_elephant", value: "size" },
+      { stopId: "giraffe", value: "size" },
+      { stopId: "blue_whale", value: "size" },
+      { text: 1 },
+      { text: 2 },
+    ],
+    accent: "text-badge-fact",
+  },
 ];
 
 export function getTopic(slug: string): Topic | undefined {

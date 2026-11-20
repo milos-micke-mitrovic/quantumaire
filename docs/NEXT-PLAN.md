@@ -32,9 +32,10 @@ empty in nature too; leave them.)
 
 ## 3. A guide people search for: animals by size
 
-- [ ] `/topics/animals-by-size`: tardigrade → ant → honeybee → cat → human →
+- [x] `/topics/animals-by-size`: tardigrade → ant → honeybee → cat → human →
       giraffe → African elephant → blue whale (+ General Sherman as the
       biggest living thing); key numbers, cross-links, both locales
+      2026-11-20: covers tag `animal` (/tag/animal 308s to it); hero blue whale.
 
 ## 4. Physics ideas (7 topics, all abstract)
 

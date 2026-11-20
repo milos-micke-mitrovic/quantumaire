@@ -2623,6 +2623,24 @@
       "keyNumber2Value": "about 38 trillion",
       "keyNumber3Label": "DNA in one cell, stretched out",
       "keyNumber3Value": "about 2 m"
+    },
+    "animalsBySize": {
+      "title": "Animals by Size",
+      "seoTitle": "Animal Sizes Compared: From Tardigrade to Blue Whale",
+      "tagline": "From a half-millimetre water bear through ants, bees and cats to the elephant, the giraffe and the blue whale — and why animals can't simply be scaled up.",
+      "intro": "Animals span a factor of about 50,000 in length, from a tardigrade you can barely see to a blue whale about as long as a basketball court. Here they are in order of size, with the reason each size class looks the way it does: why insects stay small, why big land animals have thick legs, and why the very largest animal of all lives in the sea.",
+      "section1Heading": "Small: water bears, ants and bees",
+      "section1Body": "The smallest animal here is a **tardigrade**, about 0.5 mm long — an eight-legged micro-animal that can survive drying out, freezing and even the vacuum of space. A garden **ant** worker is about 5 mm, and a **honey bee** about 13 mm. Insects breathe through a network of tiny tubes rather than lungs, which works well only over short distances; that is one long-standing explanation for why insects stay small. When the air held more oxygen, about 300 million years ago, the griffinfly Meganeuropsis reached a wingspan of about 70 cm — though how much oxygen alone explains is still debated.",
+      "section2Heading": "Pet-sized to people-sized: the cat and you",
+      "section2Body": "A **house cat** is about 46 cm from nose to the base of its tail — some 35 honey bees in a row — and an adult **human** is about 1.7 m tall, 3.7 times longer than the cat. Size changes more than you might think. Make an animal twice as long and its weight grows about eight times, but the cross-section of its bones and muscles only four times. Galileo described this square–cube law in 1638, and it is why a mouse can fall from a table unhurt while a horse cannot, and why big animals need proportionally thicker legs.",
+      "section3Heading": "Giants on land: elephant and giraffe",
+      "section3Body": "The **African elephant** is the biggest land animal alive: a grown bull stands about 3.2 m at the shoulder and weighs around 6 tonnes, on legs like pillars. The **giraffe** is the tallest — about 5.5 m for a male, most of it legs and a neck with the same seven vertebrae as yours. They are small next to the past: long-necked sauropod dinosaurs such as Argentinosaurus were about 30–35 m long and probably weighed 65–80 tonnes, though they are known only from fragments and the estimates vary.",
+      "section4Heading": "The biggest of all: the blue whale",
+      "section4Body": "The **blue whale** reaches about 30 m — the longest reliably measured was 29.9 m — and up to roughly 190 tonnes, more than any dinosaur known. Water carries its weight, so it escapes the square–cube limit that caps land animals, and it feeds on krill only a few centimetres long. The biggest living thing of all is not an animal: the **General Sherman** tree, a giant sequoia 83.8 m tall with about 1,487 cubic metres of wood.",
+      "keyNumber1Label": "Heaviest animal ever",
+      "keyNumber1Value": "blue whale, up to about 190 t",
+      "keyNumber2Label": "Largest dinosaurs (estimates)",
+      "keyNumber2Value": "about 30–35 m, 65–80 t"
     }
   },
   "topicView": {

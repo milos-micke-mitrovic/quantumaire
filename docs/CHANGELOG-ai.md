@@ -194,3 +194,8 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
   - Light-year scale words are chosen after rounding: "1 billion ly", not "1,000 million ly".
   - Serbian decimals take the genitive singular: „1,06 milijarde km“, „6,1 milijarde puta“ (was „milijardi“ in ~20 FAQ answers: planet distances, Betelgeuse, UY Scuti, ratios).
   - "One step up/down" no longer skips past closer topics to a same-kind one more than 10⁶× away (the Great Wall of China named the Sloan Great Wall, 10¹⁸×); the directly adjacent topic is still always named (Planck length → quark).
+
+## 2026-11-20 — animals-by-size guide (round 4, block 3)
+- `/topics/animals-by-size` (hero blue whale): tardigrade → ant → honey bee → house cat → human → elephant → giraffe → blue whale, + General Sherman as the biggest living thing. Sections explain why insects stay small (tracheae; Meganeuropsis ~70 cm wingspan in high-oxygen times, hedged as debated), the square–cube law (Galileo 1638), sauropods (Argentinosaurus 30–35 m, 65–80 t, "estimates vary"), why the largest animal lives in water. Key numbers: 8 topic sizes + heaviest animal + largest dinosaurs.
+- The guide covers tag `animal`, so `/tag/animal` 308s to it (next.config.ts) and animal tag chips link there.
+- Tardigrade and blue whale are now `length` measures: "A 1.7 m human is roughly 3,400 times taller than a tardigrade is long", key numbers say "Length"; the whale's size neighbour is now the giraffe (shared tag), the ISS's the Webb telescope.

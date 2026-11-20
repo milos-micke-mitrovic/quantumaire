@@ -54,6 +54,7 @@ const nextConfig: NextConfig = {
       ["planet", "planet-sizes-compared"],
       ["nebula", "nebulae"],
       ["satellite", "moons"],
+      ["animal", "animals-by-size"],
     ].map(([tag, guide]) => ({
       source: `/:locale(en|sr)/tag/${tag}`,
       destination: `/:locale/topics/${guide}`,
