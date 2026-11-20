@@ -12,18 +12,21 @@ House cat, Omega Centauri, Local Group, Sloan Great Wall, Saturn V, LHC,
 Stonehenge, absolute zero, uncertainty principle, `/topics/animals-by-size`,
 plus today's water/gold additions — drafted by agents, never fact/Serbian-audited.
 
-- [ ] Facts: every number vs sources.json; fix or source anything unsupported.
-- [ ] Serbian: terminology table (docs/audit/serbian.md), „…“, decimal comma,
+- [x] Facts: every number vs sources.json; fix or source anything unsupported.
+- [x] Serbian: terminology table (docs/audit/serbian.md), „…“, decimal comma,
       genitive after decimals, vi-forms, count phrases.
-- [ ] Desktop + mobile pass on these pages in both locales.
+- [x] Desktop + mobile pass on these pages in both locales.
+      2026-11-20: see CHANGELOG-ai.md.
 
 ## 2. Next upgrade 16.2.6 → 16.4.x (unblocks the 404 SSR item)
 
-- [ ] Upgrade next (+ eslint-config-next), run checks, OpenNext build, smoke
+- [x] Upgrade next (+ eslint-config-next), run checks, OpenNext build, smoke
       test locally (`pnpm preview` / wrangler dev): topic, guide, pair, 404,
       redirects, middleware locale redirect, OG images, sitemap.
 - [ ] Re-test: does a 404 now render its body server-side? If yes, tick the
       AUDIT-PLAN Phase 4 item; if not, note the version and leave it.
+      2026-11-20: 16.4.6 still serves the `__next_error__` shell (status 404,
+      body only after JS). Left open.
 
 ## 3. Last big gaps on the size scale
 

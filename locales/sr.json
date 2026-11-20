@@ -670,7 +670,7 @@
         "fact2": "Površinska gravitacija je oko 10¹¹ × Zemljina.",
         "fact3": "Najbrži poznati pulsar rotira 716 puta u sekundi.",
         "fact4": "Nastaje kada se zvezda od otprilike 8 do 25 Sunčevih masa uruši u supernovi.",
-        "fact5": "Veliki deo zlata u svemiru verovatno je nastao u sudarima dve neutronske zvezde; spajanje GW170817 iz 2017. stvorilo je, po procenama, nekoliko Zemljinih masa zlata i platine."
+        "fact5": "Veliki deo zlata u svemiru verovatno je nastao u sudarima neutronskih zvezda (drugi izvori, poput bljeskova magnetara, mogu da dodaju deo); spajanje GW170817 iz 2017. stvorilo je, po procenama, nekoliko Zemljinih masa zlata i platine."
       },
       "temperatureNote": "površina tipične neutronske zvezde"
     },
@@ -866,7 +866,7 @@
         "fact1": "Udaljena oko 2,5 miliona svetlosnih godina — vidljiva golim okom.",
         "fact2": "Sadrži oko bilion zvezda (više nego Mlečni put).",
         "fact3": "Približava nam se brzinom od oko 110 km/s.",
-        "fact4": "Šansa za spajanje sa Mlečnim putem u narednih 10 milijardi godina: oko 50% (studija iz 2025, podaci Habla i Gaie)."
+        "fact4": "Šansa za spajanje sa Mlečnim putem u narednih 10 milijardi godina: oko 50% (studija iz 2025. godine, podaci teleskopa Habl i satelita Gaia)."
       }
     },
     "cell": {
@@ -1452,10 +1452,10 @@
     "string_theory": {
       "name": "Teorija struna",
       "seoTitle": "Šta je teorija struna? Jednostavno objašnjenje",
-      "tagline": "Možda je sve sačinjeno od struna koje trepere — samo kad bismo mogli da to proverimo.",
-      "body": "Teorija struna predlaže da najsitniji gradivni delovi prirode nisu tačke, nego sićušne strune koje trepere. Kao tonovi na violini, svaki obrazac treperenja pojavljivao bi se kao druga čestica — a jedan od tih obrazaca ima tačno svojstva gravitona, zbog čega je ova teorija vodeći kandidat za kvantnu gravitaciju. Kvaka je u tome što njena matematika funkcioniše samo u 10 dimenzija (11 u M-teoriji), pa dodatne dimenzije moraju biti uvijene u nešto previše sitno da bi se videlo — po klasičnoj slici, njih šest je savijeno u oblik koji se zove Kalabi–Jauova mnogostrukost. Posle više od 50 godina teorija struna nema nijednu eksperimentalnu potvrdu, a LHC nije našao nijednu od supersimetričnih čestica kojima su se mnoge njene verzije nadale. Ipak, ona je preoblikovala čistu matematiku i dala fizici AdS/CFT korespondenciju — most između gravitacije i kvantne teorije koji je Huan Maldasena predložio 1997.",
+      "tagline": "Možda je sve sačinjeno od struna koje titraju — samo kad bismo mogli da to proverimo.",
+      "body": "Teorija struna predlaže da najsitniji gradivni delovi prirode nisu tačke, nego sićušne strune koje titraju. Kao tonovi na violini, svaki obrazac treperenja pojavljivao bi se kao druga čestica — a jedan od tih obrazaca ima tačno svojstva gravitona, zbog čega je ova teorija vodeći kandidat za kvantnu gravitaciju. Kvaka je u tome što njena matematika funkcioniše samo u 10 dimenzija (11 u M-teoriji), pa dodatne dimenzije moraju biti uvijene u nešto previše sitno da bi se videlo — po klasičnoj slici, njih šest je savijeno u oblik koji se zove Kalabi–Jauova mnogostrukost. Posle više od 50 godina teorija struna nema nijednu eksperimentalnu potvrdu, a LHC nije našao nijednu od supersimetričnih čestica kojima su se mnoge njene verzije nadale. Ipak, ona je preoblikovala čistu matematiku i dala fizici AdS/CFT korespondenciju — most između gravitacije i kvantne teorije koji je Huan Maldasena predložio 1997.",
       "narrative": "Strune nemaju izmerenu veličinu: obično se zamišljaju blizu Plankove dužine, oko 10⁻³⁵ m — nekih 10²⁰ puta manje od protona. Ništa ni približno toliko malo nikada nije ispitano, pa je, ako strune postoje, njihova prava veličina i dalje nepoznata.",
-      "funFact": "Teorija struna je nastala kao teorija pogrešne stvari. Gabriele Venecijano je 1968. pronašao formulu koja se slagala sa podacima o jakoj sili, a fizičari su ubrzo shvatili da ona opisuje strune koje trepere. Kada je kvantna hromodinamika pobedila kao teorija jake sile, strune su izgledale kao ćorsokak — sve dok 1974. Žoel Šerk i Džon Švarc nisu primetili da teorija neizbežno sadrži graviton.",
+      "funFact": "Teorija struna je nastala kao teorija pogrešne stvari. Gabriele Venecijano je 1968. pronašao formulu koja se slagala sa podacima o jakoj sili, a fizičari su ubrzo shvatili da ona opisuje strune koje titraju. Kada je kvantna hromodinamika pobedila kao teorija jake sile, strune su izgledale kao ćorsokak — sve dok 1974. Žoel Šerk i Džon Švarc nisu primetili da teorija neizbežno sadrži graviton.",
       "image": {
         "alt": "Uvijena površina sa mnogo režnjeva u pastelnim nijansama narandžaste, ružičaste i plave — presek šestodimenzionalnog Kalabi–Jauovog oblika."
       },
@@ -2029,7 +2029,7 @@
     "water_molecule": {
       "name": "Molekul vode",
       "tagline": "Dva atoma vodonika i jedan atom kiseonika, savijeni pod 104,5° — mali, nesimetrični molekul koji omogućava život.",
-      "body": "Molekul vode je jedan atom kiseonika koji drži dva atoma vodonika pod uglom od oko 104,5°, a ceo je širok otprilike 0,28 nanometra. Kiseonik privlači zajedničke elektrone ka sebi, pa molekul ima jedan blago negativan kraj i dva blago pozitivna. Zbog te nesimetričnosti susedni molekuli se drže zajedno vodoničnim vezama — zato je voda tečna na sobnoj temperaturi dok su mnogo teži molekuli gasovi, zato upija toliko toplote i zato se u njoj rastvara toliko supstanci. Zbog toga je i led rastresit: voda se pri smrzavanju širi za oko 9%, pa led pluta. Njegovi atomi su prastari: vodonik potiče iz Velikog praska, kiseonik je iskovan u zvezdama, a moguće je da je čak polovina vode na Zemlji starija od samog Sunca. Kako je voda stigla na Zemlju još se raspravlja — vodeća ideja je da su veliki deo doneli asteroidi bogati vodom iz spoljašnjeg dela Sunčevog sistema, iako je deo verovatno od početka bio zarobljen u stenama same Zemlje.",
+      "body": "Molekul vode je jedan atom kiseonika koji drži dva atoma vodonika pod uglom od oko 104,5°, a ceo je širok otprilike 0,28 nanometra. Kiseonik privlači zajedničke elektrone ka sebi, pa molekul ima jedan blago negativan kraj i dva blago pozitivna. Zbog te nesimetričnosti susedni molekuli se drže zajedno vodoničnim vezama — zato je voda tečna na sobnoj temperaturi dok su mnogo teži molekuli gasovi, zato upija toliko toplote i zato se u njoj rastvara toliko supstanci. Zbog toga je i led rastresit: voda se pri smrzavanju širi za oko 9%, pa led pluta. Atomi vode su prastari: vodonik potiče iz Velikog praska, kiseonik je iskovan u zvezdama, a moguće je da je čak polovina vode na Zemlji starija od samog Sunca. O tome kako je voda stigla na Zemlju još se raspravlja — vodeća ideja je da su veliki deo doneli asteroidi bogati vodom iz spoljašnjeg dela Sunčevog sistema, iako je deo verovatno od početka bio zarobljen u stenama same Zemlje.",
       "narrative": "Potrebno je oko 3,6 miliona molekula vode poređanih jedan do drugog da bi se prekrio jedan milimetar.",
       "funFact": "U jednoj čaši vode ima više molekula vode — oko 8 kvadriliona — nego što ima čaša vode u svim okeanima sveta, i to više od hiljadu puta.",
       "seoTitle": "Koliko je veliki molekul vode? Veličina u poređenju",
@@ -2279,7 +2279,7 @@
       "name": "Omega Kentaura",
       "tagline": "Najveća lopta zvezda Mlečnog puta — oko 10 miliona sunaca, toliko dalekih da su ih vekovima smatrali jednom zvezdom.",
       "body": "Omega Kentaura (NGC 5139) je najveće i najmasivnije globularno jato Mlečnog puta: lopta od otprilike 10 miliona starih zvezda, široka oko 150 svetlosnih godina, udaljena oko 17.000 svetlosnih godina u južnom sazvežđu Kentaur. Njene zvezde stare su oko 12 milijardi godina, ali nisu sve nastale odjednom — a jato se okreće brže i spljoštenije je od običnog globularnog jata. Zato mnogi astronomi misle da je ona zapravo ogoljeno jezgro male galaksije koju je Mlečni put davno progutao. Sa tamnog mesta na južnoj polulopti vidi se golim okom kao mutna „zvezda“ široka skoro kao pun Mesec.",
-      "narrative": "Kad bi se centar jata Omega Kentaura nalazio u Suncu, jato bi se prostiralo oko 75 svetlosnih godina u svim pravcima. U njenom gustom jezgru zvezde su u proseku udaljene samo oko 0,1 svetlosne godine — oko 40 puta bliže nego što je Proksima Kentaura nama. Svetlosti treba oko 150 godina da pređe celo jato.",
+      "narrative": "Kad bi središte jata Omega Kentaura bilo u Suncu, jato bi se prostiralo oko 75 svetlosnih godina u svim pravcima. U gustom jezgru jata zvezde su u proseku udaljene samo oko 0,1 svetlosne godine — oko 40 puta bliže nego što je Proksima Kentaura nama. Svetlosti treba oko 150 godina da pređe celo jato.",
       "funFact": "Kaptajnova zvezda, bled crveni patuljak udaljen od Zemlje samo 13 svetlosnih godina, verovatno potiče iz jata Omega Kentaura — begunac iz izgubljene galaksije tog jata, koji sada prolazi kroz naše susedstvo.",
       "seoTitle": "Kolika je Omega Kentaura? Najveće jato Mlečnog puta",
       "metaDescription": "Omega Kentaura široka je oko 150 svetlosnih godina i udaljena 17.000 svetlosnih godina — najveće globularno jato Mlečnog puta, sa oko 10 miliona zvezda.",
@@ -2289,7 +2289,7 @@
       "facts": {
         "fact1": "Veličina: oko 150 svetlosnih godina — uobičajeno navođen prečnik njenog sjajnog dela; blede spoljne zvezde sežu mnogo dalje, pa NASA navodi oko 450 svetlosnih godina.",
         "fact2": "Udaljenost: oko 17.000 svetlosnih godina; objavljene procene kreću se od oko 15.800 do 17.700.",
-        "fact3": "Otprilike 10 miliona zvezda ukupne mase oko 4 miliona Sunaca — oko 10 puta masivnija od drugih velikih globularnih jata.",
+        "fact3": "Otprilike 10 miliona zvezda ukupne mase oko 4 miliona Sunaca — oko 10 puta veća masa nego kod drugih velikih globularnih jata.",
         "fact4": "Habl je 2024. pronašao sedam zvezda u središtu koje se kreću prebrzo da bi ostale u jatu, osim ako ih ne drži crna rupa od najmanje 8.200 Sunaca — najjači dokaz do sada za crnu rupu „srednje mase“, ali nije potvrđen i kasniji radovi ga osporavaju.",
         "fact5": "Njene zvezde stare su oko 12 milijardi godina, ali su nastale u više generacija — nagoveštaj da je nekada bila srce male galaksije.",
         "fact6": "Ptolemej ju je pre skoro 2.000 godina upisao kao zvezdu, a Johan Bajer joj je 1603. dao ime Omega Kentaura; Edmond Halej je 1677. uočio da to uopšte nije zvezda."
@@ -2309,27 +2309,27 @@
       },
       "facts": {
         "fact1": "Veličina: oko 10 miliona svetlosnih godina — ali granica je nejasna, pa objavljene procene idu i do oko 17 miliona (5,1 megaparseka).",
-        "fact2": "Članovi: 134 poznate galaksije unutar oko 3 miliona svetlosnih godina od središta (popis iz 2025) — gotovo sve patuljaste.",
+        "fact2": "Članovi: 134 poznate galaksije unutar oko 3 miliona svetlosnih godina od središta (popis iz 2025.) — gotovo sve patuljaste.",
         "fact3": "Tri spiralne galaksije: Andromeda, Mlečni put i Trougao (M33); ostale su patuljaste.",
         "fact4": "Ukupna masa: otprilike 2 biliona Sunaca, gotovo sva u Mlečnom putu i Andromedi.",
         "fact5": "Središte mase nalazi se između dve velike spirale, oko 1,5 miliona svetlosnih godina od nas — nešto bliže Andromedi.",
-        "fact6": "Budućnost: studija iz 2025, zasnovana na podacima Habla i Gaie, daje Mlečnom putu i Andromedi oko 50% šanse da se stope u narednih 10 milijardi godina."
+        "fact6": "Budućnost: studija iz 2025. godine, zasnovana na podacima teleskopa Habl i satelita Gaia, daje Mlečnom putu i Andromedi oko 50% šanse da se stope u narednih 10 milijardi godina."
       },
       "insideNote": "Mi smo u njoj — njeno središte je oko 1,5 miliona svetlosnih godina od nas, u pravcu Andromede"
     },
     "sloan_great_wall": {
       "name": "Veliki zid Sloan",
-      "tagline": "Lanac galaksija i superjata dug oko 1,4 milijarde svetlosnih godina — jedan od najvećih obrazaca ikad mapiranih.",
-      "body": "Veliki zid Sloan jedan je od najvećih obrazaca ikad mapiranih u svemiru: traka galaksija, grupa galaksija i nekoliko superjata nalik zidu, duga oko 1,37 milijarde svetlosnih godina i udaljena od nas oko milijardu svetlosnih godina, u pravcu sazvežđa Hidra, Gavran i Kentaur. Otkriće su 2003. objavili Dž. Ričard Got III, Mario Jurić i saradnici sa Prinstona, koji su ga uočili u podacima pregleda neba Sloan (SDSS); po njihovom merenju duži je za oko 80% od Velikog zida otkrivenog 1989, dotadašnjeg rekordera. Uprkos imenu, to nije jedan objekat koji drži gravitacija, već labav lanac superjata koje kosmičko širenje polako razvlači — neki astronomi čak tvrde da je reč o slučajnom poravnanju odvojenih struktura. Na razmerama većim od oko 1,2 milijarde svetlosnih godina svemir bi trebalo da izgleda ujednačeno („kraj veličine“), a i veće prijavljene strukture, poput Džinovskog luka dugog 3,3 milijarde svetlosnih godina, još su sporne.",
+      "tagline": "Lanac galaksija i superjata dug oko 1,4 milijarde svetlosnih godina — jedna od najvećih struktura ikad mapiranih.",
+      "body": "Veliki zid Sloan jedan je od najvećih obrazaca ikad mapiranih u svemiru: traka galaksija, grupa galaksija i nekoliko superjata nalik zidu, duga oko 1,37 milijarde svetlosnih godina i udaljena od nas oko milijardu svetlosnih godina, u pravcu sazvežđa Hidra, Gavran i Kentaur. Otkriće su 2003. objavili Dž. Ričard Got III, Mario Jurić i saradnici sa Prinstona, koji su ga uočili u podacima pregleda neba Sloan (SDSS); po njihovom merenju duži je za oko 80% od Velikog zida otkrivenog 1989. godine, dotadašnjeg rekordera. Uprkos imenu, to nije jedan objekat koji drži gravitacija, već labav lanac superjata koje kosmičko širenje polako razvlači — neki astronomi čak tvrde da je reč o slučajnom poravnanju odvojenih struktura. Na razmerama većim od oko 1,2 milijarde svetlosnih godina svemir bi trebalo da izgleda ujednačeno („kraj veličine“), a i veće prijavljene strukture, poput Džinovskog luka dugog 3,3 milijarde svetlosnih godina, još su sporne.",
       "narrative": "Kad bi Mlečni put bio tanjir širok 27 cm, Veliki zid Sloan bio bi rastresita, isprekidana traka tanjira duga oko 3,5 km — više nego dvostruko duža od našeg superjata Laniakea u istoj razmeri (oko 1,4 km), a ipak sitna pored vidljivog svemira, sfere prečnika oko 240 km.",
-      "funFact": "Svetlost koju vidimo iz Velikog zida Sloan krenula je pre oko milijardu godina — nekih 400 miliona godina pre nego što su se u Zemljinim morima pojavile prve krupne životinje.",
+      "funFact": "Svetlost koja do nas stiže od Velikog zida Sloan krenula je pre oko milijardu godina — nekih 400 miliona godina pre nego što su se u Zemljinim morima pojavile prve krupne životinje.",
       "seoTitle": "Koliki je Veliki zid Sloan? Zid od galaksija",
-      "metaDescription": "Veliki zid Sloan je lanac galaksija dug oko 1,37 milijarde svetlosnih godina, udaljen milijardu svetlosnih godina — otkriven 2003, nije gravitaciono vezan.",
+      "metaDescription": "Veliki zid Sloan je lanac galaksija dug oko 1,37 milijarde svetlosnih godina, udaljen milijardu svetlosnih godina — otkriven 2003. godine, nije gravitaciono vezan.",
       "image": {
         "alt": "Trodimenzionalna mapa galaksija iz pregleda neba 2dF: dva bleda klina grudvastih filamenata na tamnoj pozadini, a Veliki zid Sloan označen je kao duga traka niz levi klin."
       },
       "facts": {
-        "fact1": "Dužina: oko 1,37 milijarde svetlosnih godina po merenju otkrivača — bliže 1,5 milijarde u današnjim, raširenim koordinatama.",
+        "fact1": "Dužina: oko 1,37 milijarde svetlosnih godina po merenju otkrivača.",
         "fact2": "Udaljenost: oko milijardu svetlosnih godina (crveni pomak 0,073), u pravcu sazvežđa Hidra, Gavran i Kentaur.",
         "fact3": "Otkrili su ga 2003. Dž. Ričard Got III i Mario Jurić u podacima pregleda neba Sloan — bio je najupadljiviji detalj njihove logaritamske „Mape svemira“.",
         "fact4": "Duži je za oko 80% od Velikog zida CfA2 iz 1989. (Geler i Hukra), dotadašnjeg rekordera; druga poređenja navode da je 1,8 do 2,7 puta duži.",
@@ -2341,7 +2341,7 @@
       "name": "Saturn V",
       "seoTitle": "Koliko je bio visok Saturn V? Raketa od 111 m",
       "tagline": "111 metara rakete i skoro 3.000 tona pri poletanju — mašina koja je odnela astronaute na Mesec.",
-      "body": "Saturn V je raketa koju je NASA napravila da pošalje astronaute na Mesec. Sa letelicom „Apolo“ na vrhu bila je visoka oko 111 m (363 stope) i široka 10 m, a puna goriva težila je otprilike 2.800–2.970 tona — gotovo sve to bilo je pogonsko gorivo. Imala je tri stepena: prvi, sa pet motora F-1, goreo je oko dva i po minuta i gurao potiskom od oko 34,5 meganjutna, a zatim se odvajao da bi lakši gornji stepeni nastavili put. Između 1967. i 1973. poletelo je trinaest raketa Saturn V; devet ih je ka Mesecu ponelo 24 astronauta, od „Apola 8“ do „Apola 17“, uključujući „Apolo 11“, lansiran 16. jula 1969. Tek nekoliko raketa ikada je poletelo sa većim potiskom, među njima NASA-in SLS i SpaceX-ov Starship, koji gura više nego dvostruko jače.",
+      "body": "Saturn V je raketa koju je NASA napravila da pošalje astronaute na Mesec. Sa letelicom „Apolo“ na vrhu bila je visoka oko 111 m (363 stope) i široka 10 m, a puna goriva težila je otprilike 2.800–2.970 tona — gotovo sve to bilo je pogonsko gorivo. Imala je tri stepena: prvi, sa pet motora F-1, goreo je oko dva i po minuta i gurao potiskom od oko 34–35 meganjutna, a zatim se odvajao da bi lakši gornji stepeni nastavili put. Između 1967. i 1973. poletelo je trinaest raketa Saturn V; devet ih je ka Mesecu ponelo 24 astronauta, od „Apola 8“ do „Apola 17“, uključujući „Apolo 11“, lansiran 16. jula 1969. Tek nekoliko raketa ikada je poletelo sa većim potiskom, među njima NASA-in SLS i SpaceX-ov Starship, koji gura više nego dvostruko jače.",
       "narrative": "Postavite Saturn V pored Kipa slobode i raketa je viša za oko 18 m — računajući i postolje i baklju. Uspravna je bila visoka kao zgrada od 36 spratova; položena na bok, bila bi dugačka otprilike kao fudbalski teren.",
       "massNarrative": "Puna goriva, raketa Saturn V težila je oko 2.800 tona — koliko otprilike 450 slonova. Samo njen prvi stepen nosio je više od 2 miliona litara kerozina i tečnog kiseonika i potrošio gotovo sve to za oko dva i po minuta.",
       "funFact": "Poslednji Saturn V imao je samo dva stepena: 14. maja 1973. lansirao je Skajlab, prvu američku svemirsku stanicu, prepravljenu od trećeg stepena rakete Saturn V. A od „Apola 13“ nadalje istrošeni treći stepeni namerno su obarani na Mesec, da bi seizmometri koje su ostavile ranije posade osetili udare i pomogli da se mapira unutrašnjost Meseca.",
@@ -2351,9 +2351,9 @@
       "facts": {
         "fact1": "Visina: oko 111 m (363 stope) sa letelicom „Apolo“ na vrhu; prečnik 10 m.",
         "fact2": "Masa pri poletanju: oko 2.800–2.970 tona, zavisno od misije.",
-        "fact3": "Potisak pri poletanju: oko 34,5 meganjutna (7,6 miliona funti sile), iz pet motora F-1.",
-        "fact4": "13 lansiranja od 1967. do 1973; 24 astronauta poslata ka Mesecu u devet misija.",
-        "fact5": "Mogla je da pošalje oko 43,5 tona do Meseca.",
+        "fact3": "Potisak pri poletanju: oko 34–35 meganjutna (7,5–7,9 miliona funti sile, zavisno od leta), iz pet motora F-1.",
+        "fact4": "13 lansiranja od 1967. do 1973.; 24 astronauta poslata ka Mesecu u devet misija.",
+        "fact5": "Mogla je da pošalje oko 43,5 tone do Meseca.",
         "fact6": "Izložene su tri kompletne rakete Saturn V: u Hantsvilu, Hjustonu i u Svemirskom centru Kenedi."
       },
       "metaDescription": "Saturn V je bio visok oko 111 m — 18 m više od Kipa slobode — i težak skoro 3.000 tona. Raketa programa „Apolo“ koja je odnela ljude na Mesec, u brojkama."
@@ -2375,20 +2375,20 @@
         "fact2": "Dubina: 50–175 m pod zemljom, u proseku oko 100 m; prsten prelazi granicu između Francuske i Švajcarske.",
         "fact3": "1.232 superprovodna dipolna magneta, svaki dug 15 m i težak 35 tona, savijaju snopove duž prstena.",
         "fact4": "Magneti rade na 1,9 K (−271,3 °C), hladnije od svemirskog prostora; hladi ih oko 96 tona superfluidnog helijuma.",
-        "fact5": "Energija sudara: 13,6 TeV (dva snopa od po 6,8 TeV), od 2022.",
+        "fact5": "Energija sudara: 13,6 TeV (dva snopa od po 6,8 TeV), tokom Run 3 (2022–2026).",
         "fact6": "Protoni dostižu oko 99,999999% brzine svetlosti — samo oko 3 m/s sporije od svetlosti — i obiđu prsten 11.245 puta u sekundi.",
-        "fact7": "Prvi snop: 10. septembra 2008. Njegovi eksperimenti ATLAS i CMS otkrili su 2012. Higsov bozon.",
-        "fact8": "Od jula 2026. isključen je zbog najveće nadogradnje do sada, High-Luminosity LHC (oko 10 puta više sudara), koja bi trebalo da proradi oko sredine 2030."
+        "fact7": "Prvi snop: 10. septembar 2008. Njegovi eksperimenti ATLAS i CMS otkrili su 2012. Higsov bozon.",
+        "fact8": "Od kraja juna 2026. isključen je zbog najveće nadogradnje do sada, LHC-a visoke luminoznosti (High-Luminosity LHC; oko 10 puta više sudara), koji bi po planu trebalo da proradi oko sredine 2030."
       }
     },
     "stonehenge": {
       "name": "Stounhendž",
       "tagline": "Prsten od džinovskog kamenja širok oko 30 metara, podignut na Solsberijskoj ravnici pre oko 4.500 godina i okrenut ka izlasku sunca o letnjoj dugodnevici.",
-      "body": "Stounhendž, na Solsberijskoj ravnici u južnoj Engleskoj, gradio se i pregrađivao tokom oko 1.500 godina. Oko 3000. godine p.n.e. ljudi su iskopali kružni jarak i nasip prečnika otprilike 100–110 metara i u njemu sahranjivali spaljene ostatke svojih mrtvih; oko 2500. godine p.n.e. podigli su kamenje u središtu: krug od 30 uspravnih sarsena prečnika oko 30 metara, pokriven prstenom nadvratnika, oko potkovice od pet ogromnih trilita. Sarseni, teški u proseku oko 25 tona, doneti su iz šume Vest Vuds, oko 25 km severnije, dok je manje „plavo kamenje“ dopremljeno sa oko 225 km udaljenih brda Preseli u Velsu. Glavna osa spomenika usmerena je ka izlasku sunca o letnjoj dugodnevici i zalasku o zimskoj kratkodnevici, pa su ti dani graditeljima očigledno bili važni, ali čemu je služio — hram, spomenik mrtvima, mesto okupljanja — i dalje je predmet rasprave, a tvrdnje da je bio precizan astronomski „kalkulator“ su spekulacija.",
-      "narrative": "Krug od sarsena širok je oko 30 metara, pa bi plavi kit dug 25 metara mogao da stane preko njega, uz malo prostora viška. Zemljani prsten oko njega više je nego tri puta širi, a najviši trilit bio je visok oko 7,3 metra, više od dvospratne kuće.",
+      "body": "Stounhendž, na Solsberijskoj ravnici u južnoj Engleskoj, gradio se i prepravljao tokom oko 1.500 godina. Oko 3000. godine p.n.e. ljudi su iskopali kružni jarak, nasuli nasip prečnika otprilike 100–110 metara i u njemu sahranjivali spaljene ostatke svojih mrtvih; oko 2500. godine p.n.e. podigli su kamenje u središtu: krug od 30 uspravnih sarsena prečnika oko 30 metara, pokriven prstenom nadvratnika, oko potkovice od pet ogromnih trilita. Sarseni, teški u proseku oko 25 tona, doneti su iz šume Vest Vuds, oko 25 km severnije, dok je manje „plavo kamenje“ dopremljeno sa oko 225 km udaljenih brda Preseli u Velsu. Glavna osa spomenika usmerena je ka izlasku sunca o letnjoj dugodnevici i zalasku o zimskoj kratkodnevici, pa su ti dani graditeljima očigledno bili važni, ali čemu je služio — hram, spomenik mrtvima, mesto okupljanja — i dalje je predmet rasprave, a tvrdnje da je bio precizan astronomski „kalkulator“ su spekulacija.",
+      "narrative": "Krug od sarsena širok je oko 30 metara, pa bi plavi kit dug 25 metara stao bi u njega od jednog kraja do drugog, i još bi ostalo malo mesta. Zemljani prsten oko njega više je nego tri puta širi, a najviši trilit bio je visok oko 7,3 metra, više od dvospratne kuće.",
       "funFact": "Graditelji su kamen oblikovali onako kako stolar obrađuje drvo: svaki nadvratnik leži na ispupčenjima isklesanim na vrhu uspravnog kamenja (spoj „čep i rupa“), a susedni nadvratnici uklapaju se jedan u drugi spojem na pero i žleb. Čak su i strane nadvratnika blago zakrivljene, da bi prsten izgledao kao jedna neprekinuta kamena traka.",
       "seoTitle": "Koliko je veliki Stounhendž? Veličina kamenog kruga",
-      "metaDescription": "Krug od sarsena u Stounhendžu širok je oko 30 m, unutar zemljanog prstena širokog 100–110 m, a sarseni su teški oko 25 tona. Veličina u poređenju.",
+      "metaDescription": "Krug od sarsena u Stounhendžu širok je oko 30 m, unutar zemljanog prstena širokog 100–110 m, a sarseni su teški oko 25 tona. Uporedite veličine.",
       "image": {
         "alt": "Polurušeni krug od sarsena u Stounhendžu na zelenoj travi pod plavim nebom sa belim oblacima; niz nadvratnika još leži na uspravnom kamenju."
       },
@@ -2398,36 +2398,36 @@
         "fact3": "Sarseni: u proseku oko 25 tona; najviši trilit bio je visok oko 7,3 m.",
         "fact4": "„Plavo kamenje“: 2–5 tona po komadu, doneto sa oko 225 km udaljenih brda Preseli u Velsu.",
         "fact5": "Oltarski kamen: ploča od peščara teška 6 tona; studija iz 2024. povezala ga je sa severoistočnom Škotskom, ali je studija iz 2026. zaključila da mu tačno poreklo još nije poznato.",
-        "fact6": "Od 1986. deo UNESCO svetske baštine, zajedno sa Ejvberijem."
+        "fact6": "Na UNESCO listi svetske baštine od 1986, zajedno sa Ejvberijem."
       }
     },
     "absolute_zero": {
       "name": "Apsolutna nula",
       "seoTitle": "Šta je apsolutna nula? −273,15 °C i zašto je nedostižna",
-      "tagline": "Najhladnije što išta uopšte može da bude: −273,15 °C — dno kojem se možemo približiti, ali ga nikada ne dodirnuti.",
-      "body": "Temperatura je mera toga koliko snažno trepere atomi i molekuli u nekom telu: kada ih hladite, usporavaju. Apsolutna nula, 0 kelvina, tačka je u kojoj ne bi imali više nikakve energije da predaju — tačno −273,15 °C, odnosno −459,67 °F. Taj broj je tačan zato što je od 20. maja 2019. sam kelvin definisan fiksiranjem Bolcmanove konstante. Čak i tada kvantna fizika atomima ostavlja sićušno kretanje koje se nikako ne može ukloniti, takozvano kretanje nulte tačke. A treći zakon termodinamike kaže da se to dno zapravo nikada ne može dostići: svaki korak hlađenja oduzima sve manji deo onoga što je preostalo, pa bi za tačnu nulu trebalo beskonačno mnogo koraka.",
-      "narrative": "Svemir nije najhladnije mesto. Odsjaj Velikog praska drži ceo univerzum na oko 2,7 K, a magneti Velikog hadronskog sudarača rade na još nižih 1,9 K. Najhladnije poznato prirodno mesto, maglina Bumerang udaljena oko 5.000 svetlosnih godina, ima otprilike 1 K. Laboratorije ih sve nadmašuju oko sto milijardi puta: 2026. atomi na kineskoj svemirskoj stanici Tiangong dostigli su oko 10 bilionitih delova stepena iznad apsolutne nule.",
-      "funFact": "Helijum odbija da se smrzne. Njegovi atomi su toliko laki i tako slabo se privlače da ih samo treperenje nulte tačke sprečava da se slože u kristal — pri normalnom pritisku helijum ostaje tečan sve do apsolutne nule. Vilem Kesom je prvi napravio čvrsti helijum 1926, i to samo tako što ga je sabio pod pritiskom.",
+      "tagline": "Najhladnije što išta uopšte može da bude: −273,15 °C — dno kojem se možemo približavati, ali ga nikada ne možemo dodirnuti.",
+      "body": "Temperatura je mera toga koliko snažno podrhtavaju atomi i molekuli u nekom telu: kada ih hladite, usporavaju. Apsolutna nula, 0 kelvina, tačka je u kojoj ne bi imali više nikakve energije da predaju — tačno −273,15 °C, odnosno −459,67 °F. Taj broj je tačan zato što je Celzijusova skala definisana kao kelvinova pomerena za tačno 273,15; od 20. maja 2019. sam kelvin je definisan fiksiranjem Bolcmanove konstante. Čak i tada kvantna fizika atomima ostavlja sićušno podrhtavanje koje se nikako ne može ukloniti, takozvano podrhtavanje nulte tačke. A treći zakon termodinamike kaže da se to dno zapravo nikada ne može dostići: svaki korak hlađenja oduzima sve manji deo onoga što je preostalo, pa bi za tačnu nulu trebalo beskonačno mnogo koraka.",
+      "narrative": "Svemir nije najhladnije mesto. Odsjaj Velikog praska drži ceo univerzum na oko 2,7 K, a magneti Velikog hadronskog sudarača rade na još nižih 1,9 K. Najhladnije poznato prirodno mesto, maglina Bumerang udaljena oko 5.000 svetlosnih godina, ima otprilike 1 K. Laboratorije ih sve nadmašuju oko sto milijardi puta: 2026. atomi na kineskoj svemirskoj stanici Tiangong dostigli su efektivnu temperaturu od oko 10 bilionitih delova stepena iznad apsolutne nule.",
+      "funFact": "Helijum odbija da se smrzne. Njegovi atomi su toliko laki i tako se slabo privlače da ih samo podrhtavanje nulte tačke sprečava da se slože u kristal — pri normalnom pritisku helijum ostaje tečan sve do apsolutne nule. Vilem Kesom je prvi napravio čvrsti helijum 1926. godine, i to samo tako što ga je sabio pod pritiskom.",
       "image": {
         "alt": "Trodimenzionalni grafikon u lažnim bojama sa tri oblaka atoma: širok crveno-žuti brežuljak levo, zatim oštri plavo-beli vrhovi koji rastu dok gas prelazi u Boze–Ajnštajnov kondenzat."
       },
       "facts": {
-        "fact1": "0 K = −273,15 °C = −459,67 °F — tačno po definiciji od 20. maja 2019.",
+        "fact1": "0 K = −273,15 °C = −459,67 °F — tačno po definiciji (Celzijusova skala je kelvinova umanjena za 273,15).",
         "fact2": "Treći zakon termodinamike (Valter Nernst, 1912): nijedan postupak ne može dostići apsolutnu nulu u konačnom broju koraka.",
         "fact3": "Kosmičko mikrotalasno pozadinsko zračenje drži prazan svemir na oko 2,7 K (−270,5 °C).",
         "fact4": "Maglina Bumerang, oko 5.000 svetlosnih godina daleko u sazvežđu Kentaur, ima oko 1 K — najhladnije poznato prirodno mesto.",
         "fact5": "Magneti Velikog hadronskog sudarača rade na 1,9 K (−271,3 °C), a hladi ih superfluidni helijum.",
-        "fact6": "Prvi Boze–Ajnštajnov kondenzat: 5. jun 1995 — oko 2.000 atoma rubidijuma ispod 170 milijarditih delova kelvina (Erik Kornel i Karl Viman, JILA).",
-        "fact7": "Laboratorijski rekord: ekvivalentna temperatura od oko 10 bilionitih delova kelvina (oko 10 pK) na svemirskoj stanici Tiangong, objavljeno 2026; prethodni rekord, 38 pK, postignut je u tornju za slobodan pad u Bremenu 2021.",
+        "fact6": "Prvi Boze–Ajnštajnov kondenzat: 5. jun 1995. — oko 2.000 atoma rubidijuma ispod 170 milijarditih delova kelvina (Erik Kornel i Karl Viman, JILA).",
+        "fact7": "Laboratorijski rekord: ekvivalentna temperatura od oko 10 bilionitih delova kelvina (oko 10 pK) na svemirskoj stanici Tiangong, (rezultat objavljen 2026.); prethodni rekord, 38 pK, postignut je u tornju za slobodan pad u Bremenu 2021.",
         "fact8": "Gijom Amonton je 1703. naslutio da postoji najniža temperatura; Vilijam Tomson, kasnije lord Kelvin, 1848. je predložio skalu koja počinje od nje."
       },
-      "metaDescription": "Apsolutna nula je tačno −273,15 °C, gde bi atomi prestali da trepere. Zašto je nijedna laboratorija ne dostiže, koliko joj se približimo i gde je najhladnije."
+      "metaDescription": "Apsolutna nula je tačno −273,15 °C, gde bi atomi prestali da podrhtavaju. Zašto je nijedna laboratorija ne dostiže, koliko smo joj se približili i gde je najhladnije."
     },
     "uncertainty_principle": {
       "name": "Princip neodređenosti",
       "seoTitle": "Šta je Hajzenbergov princip neodređenosti?",
       "tagline": "Odredite tačno gde je čestica i njeno kretanje se zamuti — ne zato što smo nespretni, već zato što je ona talas.",
-      "body": "Verner Hajzenberg je 1927. otkrio da položaj i impuls čestice (masa puta brzina) nikada ne mogu oba istovremeno biti oštro određeni: rasipanje jednog pomnoženo rasipanjem drugog nikad nije manje od sićušnog stalnog iznosa, što se piše Δx·Δp ≥ ħ/2. Često se objašnjava nespretnim merenjem — svetlost kojom gledamo elektron gurne ga u stranu — i sam Hajzenberg je isprva tako rezonovao, ali ta slika zavarava: ni savršeni instrumenti ne bi mogli da probiju tu granicu. Ona potiče od toga što se čestice ponašaju kao talasi. Talas sabijen u kratak paket mora biti sastavljen od mnogo različitih talasnih dužina, a talas sa jednom čistom talasnom dužinom mora se prostirati daleko, pa čestica jednostavno nema tačan položaj i tačan impuls u isto vreme. Isto pravilo sprečava atome da se uruše: elektron sabijen bliže jezgru morao bi da se kreće sve divljije, a energija koju to košta drži ga na odstojanju.",
+      "body": "Verner Hajzenberg je 1927. otkrio da položaj i impuls čestice (masa puta brzina) nikada ne mogu oba istovremeno biti oštro određeni: neodređenost jednog pomnožena neodređenošću drugog nikad nije manje od sićušnog stalnog iznosa, što se piše Δx·Δp ≥ ħ/2. Često se objašnjava nespretnim merenjem — svetlost kojom gledamo elektron gurne ga u stranu — i sam Hajzenberg je isprva tako rezonovao, ali ta slika zavarava: ni savršeni instrumenti ne bi mogli da probiju tu granicu. Ona potiče od toga što se čestice ponašaju kao talasi. Talas sabijen u kratak paket mora biti sastavljen od mnogo različitih talasnih dužina, a talas sa jednom čistom talasnom dužinom mora se prostirati daleko, pa čestica jednostavno nema tačan položaj i tačan impuls u isto vreme. Isto pravilo sprečava atome da se uruše: elektron sabijen bliže jezgru morao bi da se kreće sve brže i nemirnije, a energija koju to košta drži ga na odstojanju.",
       "narrative": "Princip neodređenosti nema sopstvenu veličinu — to je pravilo o tome koliko oštro priroda dopušta da stvari budu određene. Njegova granica je stalna i sićušna, pa se oseća samo u mikrosvetu: zatvorite elektron u prostor širine atoma i njegova brzina postaje neodređena za stotine kilometara u sekundi, dok je za fudbalsku loptu ista granica previše mala da bi se ikad primetila.",
       "funFact": "Odredite položaj fudbalske lopte od 430 grama na hiljaditi deo milimetra i princip neodređenosti nameće neodređenost njene brzine od oko 10⁻²⁸ m/s. Tim tempom lopta bi se za čitavih 13,8 milijardi godina, koliko je svemir star, pomerila manje od širine jednog atoma.",
       "metaDescription": "Zašto čestica ne može istovremeno imati tačan položaj i brzinu — ne zbog nespretnog merenja, već zbog talasa — i kako to čuva atome od urušavanja.",
@@ -2435,14 +2435,14 @@
         "alt": "Čuvena crno-bela fotografija 29 fizičara sa Solvejeve konferencije 1927. u Briselu — Ajnštajn i Marija Kiri sede u prvom redu, a mladi Hajzenberg stoji pozadi, treći zdesna."
       },
       "facts": {
-        "fact1": "Δx·Δp ≥ ħ/2, gde je ħ, redukovana Plankova konstanta, oko 1,055 × 10⁻³⁴ džul-sekundi.",
-        "fact2": "Hajzenberg je ideju objavio 1927; Erl Kenard je iste godine dokazao njen tačan matematički oblik.",
+        "fact1": "Δx·Δp ≥ ħ/2, gde je ħ, redukovana Plankova konstanta, oko 1,055 × 10⁻³⁴ džul-sekunde.",
+        "fact2": "Hajzenberg je ideju objavio 1927.; Erl Kenard je iste godine dokazao njen tačan matematički oblik.",
         "fact3": "Važi za svaku vrstu talasa, ne samo za kvantne: ni vrlo kratak zvučni ili radio-impuls ne može imati jednu tačnu visinu tona.",
-        "fact4": "Zatvorenom u atom širok oko 0,1 nm, elektronu je brzina neodređena za nekoliko stotina kilometara u sekundi.",
+        "fact4": "Kad je zatvoren u atom širok oko 0,1 nm, elektron ima brzinu neodređenu za nekoliko stotina kilometara u sekundi.",
         "fact5": "Ništa ne može biti savršeno mirno: čak i na apsolutnoj nuli čestice zadržavaju podrhtavanje „nulte tačke“ — zato helijum ostaje tečan i na apsolutnoj nuli, osim ako se ne stisne pod visokim pritiskom.",
         "fact6": "Srodna relacija energije i vremena znači da kratkoživeća stanja imaju razmazanu energiju: pobuđeni atomi zrače malo razlivene boje, a čestice koje se brzo raspadaju imaju nejasnu masu.",
         "fact7": "„Virtuelne čestice“ koje nakratko pozajmljuju energiju slika su iz proračuna kvantne teorije polja, a ne nešto što se vidi kako iskače i nestaje.",
-        "fact8": "Hajzenberg je dobio Nobelovu nagradu za fiziku za 1932. (uručenu 1933) za stvaranje kvantne mehanike."
+        "fact8": "Hajzenberg je dobio Nobelovu nagradu za fiziku za 1932. (uručenu 1933.) za stvaranje kvantne mehanike."
       }
     }
   },
@@ -2696,7 +2696,7 @@
       "section4Heading": "Jata, superjata i Laniakea",
       "section4Body": "Jata galaksija su najveće tvorevine u svemiru koje drži na okupu sopstvena gravitacija. Široka su od nekoliko miliona do oko 15 miliona svetlosnih godina i mogu sadržati hiljade galaksija; najbliže veliko jato, Virgo, ima oko 1.500 galaksija i udaljeno je oko 54 miliona svetlosnih godina. Iznad te razmere strukture nisu vezane — kosmičko širenje ih polako razvlači. Superjata se mapiraju prema tome kako se galaksije kreću. Laniakeu, naše superjato, definisali su 2014. Brent Tali i saradnici na osnovu kretanja hiljada galaksija. Prostire se na otprilike 500 miliona svetlosnih godina i sadrži oko 100.000 galaksija, koje sve teku ka gravitacionom basenu nazvanom Veliki atraktor. Pošto je definisana tokovima, njene tačne granice zavise od metode. Između superjata leže praznine: Volarova praznina (Boötes), na primer, gotovo je prazna oblast široka oko 330 miliona svetlosnih godina.",
       "section5Heading": "Zidovi, prstenovi i lukovi: rekordi koji možda nisu stvarni",
-      "section5Body": "Iznad superjata, astronomi su prijavili niz džinovskih obrazaca. Veliki zid Sloan (otkriven 2003) i Zid Južnog pola (2020) protežu se po oko 1,4 milijarde svetlosnih godina. Quipu, opisan 2025, jeste lanac jata galaksija slične veličine i nazvan je najvećom poznatom strukturom u bližem svemiru. Dalje, Veliki prsten (2024) je prsten galaksija prečnika oko 1,3 milijarde svetlosnih godina, a Džinovski luk (2021) srp dug oko 3,3 milijarde svetlosnih godina. Najekstremnija tvrdnja je Veliki zid Herkul–Severna kruna, uočen 2013–2014. na osnovu prividnog grupisanja gama-bljeskova i procenjen na oko 10 milijardi svetlosnih godina dužine. Oslanja se na mali broj bljeskova, a druge analize tvrde da bi mogao biti statistička slučajnost ili posledica toga gde su teleskopi gledali; smatrajte ga spornim. Kosmolozi očekuju da svemir izgleda ujednačeno na razmerama većim od otprilike 1,2 milijarde svetlosnih godina. Neke od ovih struktura dovode to očekivanje u pitanje, ali simulacije standardne kosmologije takođe slučajno proizvode ovoliko velike obrasce, pa nijedna ga još nije oborila.",
+      "section5Body": "Iznad superjata, astronomi su prijavili niz džinovskih struktura. Veliki zid Sloan (otkriven 2003) i Zid Južnog pola (2020) protežu se po oko 1,4 milijarde svetlosnih godina. Quipu, opisan 2025, jeste lanac jata galaksija slične veličine i nazvan je najvećom poznatom strukturom u bližem svemiru. Dalje, Veliki prsten (2024) je prsten galaksija prečnika oko 1,3 milijarde svetlosnih godina, a Džinovski luk (2021) srp dug oko 3,3 milijarde svetlosnih godina. Najekstremnija tvrdnja je Veliki zid Herkul–Severna kruna, uočen 2013–2014. na osnovu prividnog grupisanja gama-bljeskova i procenjen na oko 10 milijardi svetlosnih godina dužine. Oslanja se na mali broj bljeskova, a druge analize tvrde da bi mogao biti statistička slučajnost ili posledica toga gde su teleskopi gledali; smatrajte ga spornim. Kosmolozi očekuju da svemir izgleda ujednačeno na razmerama većim od otprilike 1,2 milijarde svetlosnih godina. Neke od ovih struktura dovode to očekivanje u pitanje, ali simulacije standardne kosmologije takođe slučajno proizvode ovoliko velike obrasce, pa nijedna ga još nije oborila.",
       "section6Heading": "Najveće od svega: vidljivi svemir",
       "section6Body": "Sve navedeno staje u vidljivi svemir, sferu prečnika oko 93 milijarde svetlosnih godina — oblast iz koje je svetlost imala vremena da stigne do nas tokom 13,8 milijardi godina kosmičkog širenja. On sadrži stotine milijardi galaksija, možda i do 2 biliona. Širok je oko 930.000 Mlečnih puteva, blizu 190 Laniakea i otprilike 700 biliona zvezda veličine UY Scuti. Da li je svemir u celini veći — konačan ali ogroman, ili beskonačan — otvoreno je pitanje. Zato je vidljivi svemir najveća stvar koju zaista možemo da izmerimo, a ne nužno najveća stvar koja postoji."
     },
@@ -2739,18 +2739,18 @@
     "animalsBySize": {
       "title": "Životinje po veličini",
       "seoTitle": "Veličine životinja: od tardigrada do plavog kita",
-      "tagline": "Od vodenog medveda od pola milimetra, preko mrava, pčela i mačaka, do slona, žirafe i plavog kita — i zašto se životinje ne mogu tek tako uvećati.",
+      "tagline": "Od polumilimetarskog vodenog medveda, preko mrava, pčela i mačaka, do slona, žirafe i plavog kita — i zašto se životinje ne mogu tek tako uvećati.",
       "intro": "Životinje se po dužini razlikuju oko 50.000 puta, od tardigrada koji se jedva vidi do plavog kita dugog otprilike kao košarkaški teren. Evo ih poređanih po veličini, uz razlog zašto svaka grupa izgleda baš tako: zašto insekti ostaju mali, zašto velike kopnene životinje imaju debele noge i zašto najveća životinja od svih živi u moru.",
       "section1Heading": "Mali: vodeni medvedi, mravi i pčele",
-      "section1Body": "Najmanja životinja ovde je **tardigrad**, dug oko 0,5 mm — osmonoga mikroživotinja koja može da preživi isušivanje, smrzavanje, pa čak i vakuum svemira. Radnica baštenskog **mrava** duga je oko 5 mm, a **medonosna pčela** oko 13 mm. Insekti ne dišu plućima, već mrežom sićušnih cevčica, koja dobro radi samo na kratkim razdaljinama; to je jedno od starih objašnjenja zašto insekti ostaju mali. Kad je vazduh pre oko 300 miliona godina sadržao više kiseonika, vilinski konjic Meganeuropsis imao je raspon krila od oko 70 cm — mada se i dalje raspravlja koliko tu objašnjava sam kiseonik.",
+      "section1Body": "Najmanja životinja ovde je **tardigrad**, dug oko 0,5 mm — osmonoga mikroživotinja koja može da preživi isušivanje, smrzavanje, pa čak i vakuum svemira. Radnica baštenskog **mrava** duga je oko 5 mm, a **medonosna pčela** oko 13 mm. Insekti ne dišu plućima, već mrežom sićušnih cevčica, koja dobro radi samo na kratkim razdaljinama; to je jedno od starih objašnjenja zašto insekti ostaju mali. Kad je vazduh pre oko 290 miliona godina sadržao više kiseonika, Meganeuropsis, praistorijski srodnik vilinskih konjica, imao je raspon krila od oko 70 cm — mada se i dalje raspravlja koliko tu objašnjava sam kiseonik.",
       "section2Heading": "Od kućnog ljubimca do čoveka: mačka i vi",
-      "section2Body": "**Domaća mačka** duga je oko 46 cm od nosa do korena repa (kao oko 35 medonosnih pčela u nizu), a odrastao **čovek** visok je oko 1,7 m — kao 3,7 mačaka poređanih od nosa do repa. Veličina menja više nego što biste pomislili. Ako životinju produžite dva puta, njena težina poraste oko osam puta, a presek kostiju i mišića samo četiri puta. Galilej je ovaj zakon kvadrata i kuba opisao 1638. i zbog njega miš može bez povrede da padne sa stola, a konj ne može, i zato velike životinje moraju da imaju srazmerno deblje noge.",
+      "section2Body": "**Domaća mačka** duga je oko 46 cm od nosa do korena repa (kao oko 35 medonosnih pčela u nizu), a odrastao **čovek** visok je oko 1,7 m — kao 3,7 mačke poređane od nosa do repa. Promena veličine menja više nego što biste pomislili. Ako životinju udvostručite po dužini, njena težina poraste oko osam puta, a presek kostiju i mišića samo četiri puta. Galilej je ovaj zakon kvadrata i kuba opisao 1638. i zbog njega miš može bez povrede da padne sa stola, a konj ne može, i zato velike životinje moraju da imaju srazmerno deblje noge.",
       "section3Heading": "Džinovi na kopnu: slon i žirafa",
-      "section3Body": "**Afrički slon** je najveća živa kopnena životinja: odrastao mužjak visok je oko 3,2 m u ramenima i težak oko 6 tona, na nogama poput stubova. **Žirafa** je najviša — mužjak oko 5,5 m, najvećim delom noge i vrat sa istih sedam pršljenova kao vaš. Pored prošlosti su ipak mali: dugovrati dinosaurusi sauropodi, poput argentinosaurusa, bili su dugi oko 30–35 m i verovatno teški 65–80 tona, mada su poznati samo po delovima kostura, pa se procene razlikuju.",
+      "section3Body": "**Afrički slon** je najveća živa kopnena životinja: odrastao mužjak visok je oko 3,2 m u ramenima i težak oko 6 tona, na nogama poput stubova. **Žirafa** je najviša — mužjak oko 5,5 m, najvećim delom noge i vrat sa istih sedam pršljenova kao vaš. Ipak, mali su u poređenju sa izumrlim džinovima: dugovrati dinosaurusi sauropodi, poput argentinosaurusa, bili su dugi oko 30–35 m i verovatno teški 65–80 tona, mada su poznati samo po delovima kostura, pa se procene razlikuju.",
       "section4Heading": "Najveći od svih: plavi kit",
-      "section4Body": "**Plavi kit** dostiže oko 30 m — najduži pouzdano izmeren imao je 29,9 m — i do otprilike 190 tona, više od ijednog poznatog dinosaurusa. Voda nosi njegovu težinu, pa izmiče granici zakona kvadrata i kuba koja ograničava kopnene životinje, a hrani se krilom dugim tek nekoliko centimetara. Najveće živo biće uopšte nije životinja: **drvo General Šerman**, džinovska sekvoja visoka 83,8 m, sa oko 1.487 kubnih metara drveta.",
-      "keyNumber1Label": "Najteža životinja ikada",
-      "keyNumber1Value": "plavi kit, do oko 190 t",
+      "section4Body": "**Plavi kit** obično je dug oko 25 m, a može da dostigne oko 30 m — najduži pouzdano izmeren imao je 29,9 m — i do otprilike 190 tona, više od ijednog pouzdano poznatog dinosaurusa. Voda nosi njegovu težinu, pa izmiče granici zakona kvadrata i kuba koja ograničava kopnene životinje, a hrani se krilom — račićima dugim tek nekoliko centimetara. Najveće pojedinačno drvo uopšte nije životinja: **General Šerman**, džinovska sekvoja visoka 83,8 m, sa oko 1.487 kubnih metara drveta. (Klonske kolonije, poput šumarka jasika Pando ili medenjače raširene pod jednom šumom u Oregonu, još su veće.)",
+      "keyNumber1Label": "Najteža poznata životinja",
+      "keyNumber1Value": "plavi kit, oko 190 t (izmereni rekord)",
       "keyNumber2Label": "Najveći dinosaurusi (procene)",
       "keyNumber2Value": "oko 30–35 m, 65–80 t"
     }
@@ -3260,7 +3260,7 @@
     },
     "cosmic_web": {
       "term": "Kosmička mreža",
-      "definition": "Najkrupniji obrazac u svemiru: galaksije okupljene u jata, filamente i zidove, razdvojene ogromnim, gotovo praznim oblastima. Nastala je iz sićušnih talasanja gustine ranog svemira, koja je gravitacija polako zgušnjavala."
+      "definition": "Najveća struktura u svemiru: galaksije okupljene u jata, filamente i zidove, razdvojene ogromnim, gotovo praznim oblastima. Nastala je iz sićušnih talasanja gustine ranog svemira, koja je gravitacija polako zgušnjavala."
     },
     "rocket_stage": {
       "term": "Stepen rakete",
@@ -3268,7 +3268,7 @@
     },
     "thrust": {
       "term": "Potisak",
-      "definition": "Sila kojom raketni motor gura raketu izbacujući vrele gasove kroz mlaznicu velikom brzinom. Da bi poletela, potisak rakete mora biti veći od njene težine."
+      "definition": "Sila kojom raketni motor gura raketu izbacujući vrele gasove kroz mlaznicu velikom brzinom. Da bi raketa poletela, njen potisak mora biti veći od njene težine."
     },
     "particle_accelerator": {
       "term": "Akcelerator čestica",
@@ -3288,7 +3288,7 @@
     },
     "bose_einstein_condensate": {
       "term": "Boze–Ajnštajnov kondenzat",
-      "definition": "Gas ohlađen nadomak apsolutne nule, u kojem hiljade atoma padnu u isto stanje najniže energije i ponašaju se kao jedan džinovski „superatom“."
+      "definition": "Gas ohlađen nadomak apsolutne nule, u kojem hiljade atoma prelaze u isto stanje najniže energije najniže energije i ponašaju se kao jedan džinovski „superatom“."
     },
     "wave_function": {
       "term": "Talasna funkcija",
@@ -3625,9 +3625,9 @@
     "spacecraft": {
       "short": "Letelice",
       "title": "Svemirske letelice i rakete",
-      "seoTitle": "Letelice i rakete: Saturn V, ISS, Veb i Voyager 1",
+      "seoTitle": "Letelice i rakete: Saturn V, MSS, Veb i Voyager 1",
       "intro": "Mašine koje smo poslali iznad neba: raketa Saturn V visoka 111 metara, koja je astronaute poslala na Mesec, Međunarodna svemirska stanica, koja kruži na 400 km visine, teleskop Džejms Veb, 1,5 miliona km daleko, i Voyager 1, sada čitav svetlosni dan daleko, u međuzvezdanom prostoru.",
-      "metaDescription": "Od MSS, 400 km iznad Zemlje, preko teleskopa Veb na 1,5 miliona km, do Voyagera 1, udaljenog svetlosni dan: naše letelice, veličine, brzine i udaljenosti."
+      "metaDescription": "Od MSS-a, 400 km iznad Zemlje, preko teleskopa Veb na 1,5 miliona km, do Voyagera 1, udaljenog svetlosni dan: naše letelice, veličine, brzine i udaljenosti."
     },
     "landmark": {
       "short": "Znamenitosti",
@@ -3654,7 +3654,7 @@
       "short": "Drevna čuda",
       "title": "Drevna čuda, po veličini",
       "seoTitle": "Drevna čuda: Stounhendž, piramida i Koloseum",
-      "intro": "Ono što su ljudi gradili snagom mišića, rampama i strpljenjem: kameni krug Stounhendža širok 30 metara, podignut oko 2500. godine p.n.e. delom od kamenja dovučenog čak iz Velsa, sa oko 225 km udaljenosti; Velika piramida od 139 metara, najviša građevina na Zemlji skoro četiri hiljade godina; Koloseum, arena duga 189 metara za oko 50.000 gledalaca; i Kineski zid, oko 21.000 km zidova podizanih tokom dve hiljade godina.",
+      "intro": "Ono što su ljudi gradili snagom mišića, rampama i strpljenjem: kameni krug Stounhendža širok 30 metara, podignut oko 2500. godine p.n.e. delom od kamenja dovučenog čak iz Velsa, udaljenog oko 225 km; Velika piramida od 139 metara, najviša građevina na Zemlji skoro četiri hiljade godina; Koloseum, arena duga 189 metara za oko 50.000 gledalaca; i Kineski zid, oko 21.000 km zidova podizanih tokom dve hiljade godina.",
       "metaDescription": "Stounhendž (30 m u prečniku), Velika piramida (139 m visine), Koloseum (189 m dužine) i Kineski zid (oko 21.196 km) upoređeni po veličini."
     },
     "insect": {
@@ -3696,7 +3696,7 @@
       "short": "Superjata",
       "title": "Superjata i veliki zidovi",
       "seoTitle": "Laniakea i Veliki zid Sloan: najveće strukture",
-      "intro": "Najveći obrasci koje galaksije prave: Laniakea, superjato široko oko 500 miliona svetlosnih godina kom pripada i Mlečni put, i Veliki zid Sloan, lanac superjata dug oko 1,4 milijarde svetlosnih godina. Nijedno od njih kao celinu ne drži gravitacija.",
+      "intro": "Najveće strukture koje galaksije grade: Laniakea, superjato široko oko 500 miliona svetlosnih godina kom pripada i Mlečni put, i Veliki zid Sloan, lanac superjata dug oko 1,4 milijarde svetlosnih godina. Nijedno od njih kao celinu ne drži gravitacija.",
       "metaDescription": "Laniakea i Veliki zid Sloan upoređeni: naše superjato od 500 miliona svetlosnih godina i zid galaksija dug 1,4 milijarde svetlosnih godina."
     }
   }

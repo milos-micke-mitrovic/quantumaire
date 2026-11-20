@@ -670,7 +670,7 @@
         "fact2": "Surface gravity is roughly 10¹¹ × Earth's.",
         "fact3": "The fastest known pulsar spins 716 times every second.",
         "fact4": "Forms when a star of roughly 8 to 25 solar masses collapses in a supernova.",
-        "fact5": "Much of the universe's gold was probably made when two neutron stars collided; the 2017 merger GW170817 forged an estimated several Earth-masses of gold and platinum."
+        "fact5": "Much of the universe's gold was probably made when neutron stars collided (other sources, such as magnetar flares, may add some); the 2017 merger GW170817 forged an estimated several Earth-masses of gold and platinum."
       },
       "temperatureNote": "surface of a typical one"
     },
@@ -2329,7 +2329,7 @@
         "alt": "A 3D map of galaxies from the 2dF Galaxy Redshift Survey: two pale wedges of clumpy filaments on a dark background, with the Sloan Great Wall labelled as a long band down the left wedge."
       },
       "facts": {
-        "fact1": "Length: about 1.37 billion light-years as measured by its discoverers — closer to 1.5 billion in today's expanded coordinates.",
+        "fact1": "Length: about 1.37 billion light-years as measured by its discoverers.",
         "fact2": "Distance: about 1 billion light-years (redshift 0.073), in the direction of Hydra, Corvus and Centaurus.",
         "fact3": "Found in 2003 by J. Richard Gott III and Mario Jurić in Sloan Digital Sky Survey data — the most prominent feature of their logarithmic \"Map of the Universe\".",
         "fact4": "About 80% longer than the CfA2 Great Wall of 1989 (Geller and Huchra), the previous record holder; other comparisons put it at 1.8 to 2.7 times as long.",
@@ -2341,7 +2341,7 @@
       "name": "Saturn V",
       "seoTitle": "How Tall Was the Saturn V? The 111 m Moon Rocket",
       "tagline": "111 metres of rocket, nearly 3,000 tonnes at liftoff — the machine that carried astronauts to the Moon.",
-      "body": "The Saturn V was the rocket NASA built to send astronauts to the Moon. Stacked with the Apollo spacecraft on top, it stood about 111 m (363 ft) tall and 10 m wide, and weighed roughly 2,800–2,970 tonnes fully fuelled — almost all of it propellant. It had three stages: the first, with five F-1 engines, burned for about two and a half minutes and pushed with some 34.5 meganewtons of thrust, then dropped away so the lighter upper stages could carry on. Thirteen Saturn Vs flew between 1967 and 1973; nine of them launched 24 astronauts toward the Moon, from Apollo 8 to Apollo 17, including Apollo 11 on 16 July 1969. Only a handful of rockets have ever lifted off with more thrust, among them NASA's SLS and SpaceX's Starship, which pushes more than twice as hard.",
+      "body": "The Saturn V was the rocket NASA built to send astronauts to the Moon. Stacked with the Apollo spacecraft on top, it stood about 111 m (363 ft) tall and 10 m wide, and weighed roughly 2,800–2,970 tonnes fully fuelled — almost all of it propellant. It had three stages: the first, with five F-1 engines, burned for about two and a half minutes and pushed with some 34–35 meganewtons of thrust, then dropped away so the lighter upper stages could carry on. Thirteen Saturn Vs flew between 1967 and 1973; nine of them launched 24 astronauts toward the Moon, from Apollo 8 to Apollo 17, including Apollo 11 on 16 July 1969. Only a handful of rockets have ever lifted off with more thrust, among them NASA's SLS and SpaceX's Starship, which pushes more than twice as hard.",
       "narrative": "Stand a Saturn V next to the Statue of Liberty and the rocket is about 18 m taller — pedestal and torch included. Stood on end it matched a 36-storey building; laid on its side, it would be about as long as a football pitch.",
       "massNarrative": "Fully fuelled, a Saturn V weighed about 2,800 tonnes — as much as roughly 450 elephants. Its first stage alone held more than 2 million litres of kerosene and liquid oxygen, and burned through nearly all of it in about two and a half minutes.",
       "funFact": "The last Saturn V had only two stages: on 14 May 1973 it launched Skylab, America's first space station, which had been converted from a Saturn V third stage. And from Apollo 13 onwards, the spent third stages were deliberately crashed into the Moon so that seismometers left by earlier crews could feel the impacts and help map the Moon's interior.",
@@ -2351,7 +2351,7 @@
       "facts": {
         "fact1": "Height: about 111 m (363 ft) with the Apollo spacecraft on top; diameter 10 m.",
         "fact2": "Mass at liftoff: about 2,800–2,970 tonnes, depending on the mission.",
-        "fact3": "Liftoff thrust: about 34.5 meganewtons (7.6 million pounds-force), from five F-1 engines.",
+        "fact3": "Liftoff thrust: about 34–35 meganewtons (7.5–7.9 million pounds-force, depending on the flight), from five F-1 engines.",
         "fact4": "13 launches from 1967 to 1973; 24 astronauts sent toward the Moon on nine missions.",
         "fact5": "Could send about 43.5 tonnes to the Moon.",
         "fact6": "Three complete Saturn Vs are on display: in Huntsville, Houston and at the Kennedy Space Center."
@@ -2375,10 +2375,10 @@
         "fact2": "Depth: 50–175 m underground, about 100 m on average; the ring crosses the border between France and Switzerland.",
         "fact3": "1,232 superconducting dipole magnets, each 15 m long and weighing 35 tonnes, bend the beams around the ring.",
         "fact4": "The magnets run at 1.9 K (−271.3 °C), colder than outer space, cooled by about 96 tonnes of superfluid helium.",
-        "fact5": "Collision energy: 13.6 TeV (two beams of 6.8 TeV each), since 2022.",
+        "fact5": "Collision energy: 13.6 TeV (two beams of 6.8 TeV each), during Run 3 (2022–2026).",
         "fact6": "Protons reach about 99.999999% of the speed of light — only about 3 m/s slower than light — and lap the ring 11,245 times a second.",
         "fact7": "First beam: 10 September 2008. In 2012 its ATLAS and CMS experiments discovered the Higgs boson.",
-        "fact8": "Switched off since July 2026 for its biggest upgrade, the High-Luminosity LHC (about 10 times more collisions), due to start running around mid-2030."
+        "fact8": "Switched off since the end of June 2026 for its biggest upgrade, the High-Luminosity LHC (about 10 times more collisions), planned to start running around mid-2030."
       }
     },
     "stonehenge": {
@@ -2405,14 +2405,14 @@
       "name": "Absolute Zero",
       "seoTitle": "What Is Absolute Zero? −273.15 °C and Why It's Out of Reach",
       "tagline": "The coldest anything could ever be: −273.15 °C — a floor we can creep towards but never touch.",
-      "body": "Temperature is a measure of how hard the atoms and molecules in something are jiggling: cool them and they slow down. Absolute zero, 0 kelvin, is the point where they would have no energy left to give — exactly −273.15 °C, or −459.67 °F. The number is exact because since 20 May 2019 the kelvin itself has been defined by fixing the Boltzmann constant. Even there, quantum physics leaves atoms a tiny motion that can never be removed, called zero-point motion. And the third law of thermodynamics says the floor can never actually be reached: each cooling step takes away a smaller share of what is left, so getting to exactly zero would take infinitely many steps.",
-      "narrative": "Space is not the coldest it gets. The afterglow of the Big Bang keeps the whole universe at about 2.7 K, and the magnets of the Large Hadron Collider run colder still, at 1.9 K. The coldest natural place known, the Boomerang Nebula about 5,000 light-years away, sits at roughly 1 K. Laboratories beat all of them about a hundred billion times over: in 2026 atoms on China's Tiangong space station reached about 10 trillionths of a degree above absolute zero.",
+      "body": "Temperature is a measure of how hard the atoms and molecules in something are jiggling: cool them and they slow down. Absolute zero, 0 kelvin, is the point where they would have no energy left to give — exactly −273.15 °C, or −459.67 °F. The number is exact because the Celsius scale is defined as the kelvin scale shifted by exactly 273.15; since 20 May 2019 the kelvin itself has been defined by fixing the Boltzmann constant. Even there, quantum physics leaves atoms a tiny motion that can never be removed, called zero-point motion. And the third law of thermodynamics says the floor can never actually be reached: each cooling step takes away a smaller share of what is left, so getting to exactly zero would take infinitely many steps.",
+      "narrative": "Space is not the coldest it gets. The afterglow of the Big Bang keeps the whole universe at about 2.7 K, and the magnets of the Large Hadron Collider run colder still, at 1.9 K. The coldest natural place known, the Boomerang Nebula about 5,000 light-years away, sits at roughly 1 K. Laboratories beat all of them about a hundred billion times over: in 2026 atoms on China's Tiangong space station reached an effective temperature of about 10 trillionths of a degree above absolute zero.",
       "funFact": "Helium refuses to freeze. Its atoms are so light and so weakly attracted to each other that their zero-point jiggling alone keeps them from locking into a crystal — at normal pressure helium stays liquid all the way down to absolute zero. Willem Keesom first made solid helium in 1926, and only by squeezing it.",
       "image": {
         "alt": "A 3D false-colour graph of three clouds of atoms: a broad red-and-yellow mound on the left, then sharp blue-and-white peaks rising as the gas turns into a Bose–Einstein condensate."
       },
       "facts": {
-        "fact1": "0 K = −273.15 °C = −459.67 °F — exact by definition since 20 May 2019.",
+        "fact1": "0 K = −273.15 °C = −459.67 °F — exact by definition (the Celsius scale is the kelvin minus 273.15).",
         "fact2": "Third law of thermodynamics (Walther Nernst, 1912): no process can reach absolute zero in a finite number of steps.",
         "fact3": "The cosmic microwave background keeps empty space at about 2.7 K (−270.5 °C).",
         "fact4": "The Boomerang Nebula, about 5,000 light-years away in Centaurus, is about 1 K — the coldest natural place known.",
@@ -2742,15 +2742,15 @@
       "tagline": "From a half-millimetre water bear through ants, bees and cats to the elephant, the giraffe and the blue whale — and why animals can't simply be scaled up.",
       "intro": "Animals span a factor of about 50,000 in length, from a tardigrade you can barely see to a blue whale about as long as a basketball court. Here they are in order of size, with the reason each size class looks the way it does: why insects stay small, why big land animals have thick legs, and why the very largest animal of all lives in the sea.",
       "section1Heading": "Small: water bears, ants and bees",
-      "section1Body": "The smallest animal here is a **tardigrade**, about 0.5 mm long — an eight-legged micro-animal that can survive drying out, freezing and even the vacuum of space. A garden **ant** worker is about 5 mm, and a **honey bee** about 13 mm. Insects breathe through a network of tiny tubes rather than lungs, which works well only over short distances; that is one long-standing explanation for why insects stay small. When the air held more oxygen, about 300 million years ago, the griffinfly Meganeuropsis reached a wingspan of about 70 cm — though how much oxygen alone explains is still debated.",
+      "section1Body": "The smallest animal here is a **tardigrade**, about 0.5 mm long — an eight-legged micro-animal that can survive drying out, freezing and even the vacuum of space. A garden **ant** worker is about 5 mm, and a **honey bee** about 13 mm. Insects breathe through a network of tiny tubes rather than lungs, which works well only over short distances; that is one long-standing explanation for why insects stay small. When the air held more oxygen, around 290 million years ago, the griffinfly Meganeuropsis reached a wingspan of about 70 cm — though how much oxygen alone explains is still debated.",
       "section2Heading": "Pet-sized to people-sized: the cat and you",
       "section2Body": "A **house cat** is about 46 cm from nose to the base of its tail (some 35 honey bees in a row), and an adult **human** stands about 1.7 m tall — some 3.7 cats laid nose to tail. Size changes more than you might think. Make an animal twice as long and its weight grows about eight times, but the cross-section of its bones and muscles only four times. Galileo described this square–cube law in 1638, and it is why a mouse can fall from a table unhurt while a horse cannot, and why big animals need proportionally thicker legs.",
       "section3Heading": "Giants on land: elephant and giraffe",
       "section3Body": "The **African elephant** is the biggest land animal alive: a grown bull stands about 3.2 m at the shoulder and weighs around 6 tonnes, on legs like pillars. The **giraffe** is the tallest — about 5.5 m for a male, most of it legs and a neck with the same seven vertebrae as yours. They are small next to the past: long-necked sauropod dinosaurs such as Argentinosaurus were about 30–35 m long and probably weighed 65–80 tonnes, though they are known only from fragments and the estimates vary.",
       "section4Heading": "The biggest of all: the blue whale",
-      "section4Body": "The **blue whale** reaches about 30 m — the longest reliably measured was 29.9 m — and up to roughly 190 tonnes, more than any dinosaur known. Water carries its weight, so it escapes the square–cube limit that caps land animals, and it feeds on krill only a few centimetres long. The biggest living thing of all is not an animal: the **General Sherman** tree, a giant sequoia 83.8 m tall with about 1,487 cubic metres of wood.",
-      "keyNumber1Label": "Heaviest animal ever",
-      "keyNumber1Value": "blue whale, up to about 190 t",
+      "section4Body": "The **blue whale** is typically about 25 m long and can reach about 30 m — the longest reliably measured was 29.9 m — and up to roughly 190 tonnes, more than any dinosaur reliably known. Water carries its weight, so it escapes the square–cube limit that caps land animals, and it feeds on krill only a few centimetres long. The biggest single tree is not an animal at all: the **General Sherman**, a giant sequoia 83.8 m tall with about 1,487 cubic metres of wood. (Clonal colonies, such as the Pando aspen grove or a honey fungus spread under an Oregon forest, are bigger still.)",
+      "keyNumber1Label": "Heaviest animal known",
+      "keyNumber1Value": "blue whale, about 190 t (weighed record)",
       "keyNumber2Label": "Largest dinosaurs (estimates)",
       "keyNumber2Value": "about 30–35 m, 65–80 t"
     }

@@ -217,3 +217,11 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Owner request: where water and gold come from. water_molecule body + fact7/fact8 (H from Big Bang, O from stars, up to half of Earth's water older than the Sun; asteroid delivery = leading idea, still debated), neutron_star fact5 (merger gold, GW170817), earth fact5 (mined gold arrived on meteorites; original sank to the core). EN + SR, sources added.
 - GSC: 11 URLs requested; resume with /en/compare/milky-way-vs-andromeda.
 - Next: owner will ask "propose the next plan" → round 5.
+
+## 2026-11-20 — round 5 plan; review of round 4 (block 1); Next 16.4.6 (block 2)
+- New plan (round 5) in `docs/NEXT-PLAN.md`: review → Next upgrade → last scale gaps (Tarantula/SMC, mouse/hummingbird) → physics/micro ideas → compare pairs → GSC CTR.
+- Facts (agent-checked against Wikipedia/CERN/NASA/papers): −273.15 °C is exact because Celsius is defined as kelvin − 273.15 (the 2019 SI change redefined the kelvin, not the offset); the animals guide no longer calls General Sherman "the biggest living thing" (biggest single tree; Pando / honey fungus bigger), blue whale "typically 25 m, up to 30 m", "heaviest animal known … (weighed record)", Meganeuropsis ~290 Myr; LHC off since end of June 2026, 13.6 TeV "during Run 3 (2022–2026)"; Saturn V thrust 34–35 MN (7.5–7.9 Mlbf) — the two units disagreed; Sloan Great Wall unsourced "1.5 billion comoving" dropped; Tiangong record is an effective temperature; neutron-star gold mentions magnetar flares.
+- Serbian: genitive after decimals (43,5 tone, džul-sekunde, 3,7 mačke), ordinal years with a period („1973.;“, „2025. godine,“), MSS/MSS-a, „struktura“ not „obrazac“ for cosmic structures, „podrhtavanje nulte tačke“ consistently, strings „titraju“ (not „trepere“), Gaia uninflected, ~20 style fixes (Stonehenge, Omega Centauri, uncertainty principle, animals guide, glossary thrust / BEC).
+- Temperatures use a real minus sign everywhere ("−271.3 °C"; `toLocaleString` gave a hyphen).
+- Mobile check of 14 new pages (live): no overflow.
+- Next 16.2.6 → 16.4.6 (+ eslint-config-next): checks, OpenNext build and a local Worker smoke test (pages, 308s, sitemap, OG, 404 status) all fine; the 404 body is still not server-rendered.
