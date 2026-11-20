@@ -34,12 +34,14 @@ Sorted by size: Omega Centauri 150 ly → LMC 32,000 ly (2.3 orders, the biggest
 empty stretch), honeybee 13 mm → house cat 46 cm (1.5), Andromeda → Local
 Group (1.7), Sloan Great Wall → observable universe (1.8).
 
-- [ ] Cosmos: Tarantula Nebula (~600–1,000 ly — check sources agree) and/or
+- [x] Cosmos: Tarantula Nebula (~600–1,000 ly — check sources agree) and/or
       the Small Magellanic Cloud (~19,000 ly); pair with LMC.
-- [ ] Life & Earth: house mouse (~8 cm) or bee hummingbird (~5 cm) — whichever
+- [x] Life & Earth: house mouse (~8 cm) or bee hummingbird (~5 cm) — whichever
       has a good free photo and a size people quote.
-- [ ] Wire into guides/collections/familiar lists; dump FAQ, analogies,
+- [x] Wire into guides/collections/familiar lists; dump FAQ, analogies,
       neighbours, real-scale cards in both locales and read them.
+      2026-11-20: Tarantula Nebula, Small Magellanic Cloud, house mouse;
+      pair large-magellanic-cloud-vs-small-magellanic-cloud.
 
 ## 4. Physics + micro-world ideas (PHYSICS has 9 topics, MICRO_WORLD 14)
 

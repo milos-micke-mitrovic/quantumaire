@@ -225,3 +225,9 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Temperatures use a real minus sign everywhere ("−271.3 °C"; `toLocaleString` gave a hyphen).
 - Mobile check of 14 new pages (live): no overflow.
 - Next 16.2.6 → 16.4.6 (+ eslint-config-next): checks, OpenNext build and a local Worker smoke test (pages, 308s, sitemap, OG, 404 status) all fine; the 404 body is still not server-rendered.
+
+## 2026-11-20 — last scale gaps (round 5, block 3)
+- Three topics drafted by research agents (sources fetched, Commons licences from extmetadata), then read and edited: Tarantula Nebula (`tarantula_nebula`, "nearly 1,000 ly" as ESA/Hubble and ESO say, 650–1,860 ly range explained; 160,000 ly like the LMC; R136a1 "about 200 to 300 Suns"; shadows-at-Orion-distance claim from NOAO 2011; Webb NIRCam PD), Small Magellanic Cloud (`small_magellanic_cloud`, 18,900 ly, 200,000 ly; Leavitt's period–luminosity rule; 2024 "two structures" / 2025 "torn apart" hedged; P. Horálek/NOIRLab CC BY 4.0), house mouse (`house_mouse`, 8 cm head-and-body as a `length`, like the cat; 6 mm gap, 85% protein-coding identity; Dion Art CC BY-SA 4.0; glossary `commensal`; "most used mammal in research" softened to "a mainstay" — unsourced).
+- The scale now steps Omega Centauri 150 → Tarantula 1,000 → SMC 18,900 → LMC 32,000 ly and honey bee 13 mm → mouse 8 cm → cat 46 cm.
+- Wired: nebulae guide (text + key number), distances and supernova guides, animals guide (text + key number), galaxies collection intro, FAMILIAR_STOP_IDS + LENGTH_STOP_IDS (mouse). Pair large-magellanic-cloud-vs-small-magellanic-cloud (38 pairs). New URLs appended to the GSC queue.
+- Generated text: 5–10 cm now reads in centimetres ("8 cm", was "80 mm"); pair descriptions only promise what the page shows — "sizes and distances" / "sizes and temperatures" (sun/planet pairs without a distance line used to promise distances).
