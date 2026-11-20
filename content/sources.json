@@ -173,6 +173,10 @@
     {
       "label": "Britannica",
       "url": "https://www.britannica.com/place/Earth"
+    },
+    {
+      "label": "Nature — Willbold et al. 2011, the late meteorite bombardment and Earth's gold",
+      "url": "https://www.nature.com/articles/nature10399"
     }
   ],
   "neutron_star": [
@@ -187,6 +191,10 @@
     {
       "label": "Britannica",
       "url": "https://www.britannica.com/science/neutron-star"
+    },
+    {
+      "label": "Wikipedia — Kilonova",
+      "url": "https://en.wikipedia.org/wiki/Kilonova"
     }
   ],
   "sun": [
@@ -995,6 +1003,10 @@
     {
       "label": "USGS — How much water is there on Earth?",
       "url": "https://www.usgs.gov/special-topics/water-science-school/science/how-much-water-there-earth"
+    },
+    {
+      "label": "Wikipedia — Origin of water on Earth",
+      "url": "https://en.wikipedia.org/wiki/Origin_of_water_on_Earth"
     }
   ],
   "pollen_grain": [

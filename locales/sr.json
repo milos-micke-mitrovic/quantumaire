@@ -650,7 +650,8 @@
         "fact1": "Srednji prečnik: 12.742 km (12.756 km na ekvatoru).",
         "fact2": "Starost: oko 4,54 milijarde godina.",
         "fact3": "70,8% površine je voda.",
-        "fact4": "Magnetno polje se, u proseku, preokreće svakih 200 do 300 hiljada godina."
+        "fact4": "Magnetno polje se, u proseku, preokreće svakih 200 do 300 hiljada godina.",
+        "fact5": "Većina zlata koje kopamo verovatno je stigla kasnije, na meteoritima: prvobitno zlato Zemlje potonulo je u njeno gvozdeno jezgro."
       },
       "temperatureNote": "prosek na površini"
     },
@@ -668,7 +669,8 @@
         "fact1": "Prečnik oko 20 km — ali masivnija od Sunca.",
         "fact2": "Površinska gravitacija je oko 10¹¹ × Zemljina.",
         "fact3": "Najbrži poznati pulsar rotira 716 puta u sekundi.",
-        "fact4": "Nastaje kada se zvezda od otprilike 8 do 25 Sunčevih masa uruši u supernovi."
+        "fact4": "Nastaje kada se zvezda od otprilike 8 do 25 Sunčevih masa uruši u supernovi.",
+        "fact5": "Veliki deo zlata u svemiru verovatno je nastao u sudarima dve neutronske zvezde; spajanje GW170817 iz 2017. stvorilo je, po procenama, nekoliko Zemljinih masa zlata i platine."
       },
       "temperatureNote": "površina tipične neutronske zvezde"
     },
@@ -2027,7 +2029,7 @@
     "water_molecule": {
       "name": "Molekul vode",
       "tagline": "Dva atoma vodonika i jedan atom kiseonika, savijeni pod 104,5° — mali, nesimetrični molekul koji omogućava život.",
-      "body": "Molekul vode je jedan atom kiseonika koji drži dva atoma vodonika pod uglom od oko 104,5°, a ceo je širok otprilike 0,28 nanometra. Kiseonik privlači zajedničke elektrone ka sebi, pa molekul ima jedan blago negativan kraj i dva blago pozitivna. Zbog te nesimetričnosti susedni molekuli se drže zajedno vodoničnim vezama — zato je voda tečna na sobnoj temperaturi dok su mnogo teži molekuli gasovi, zato upija toliko toplote i zato se u njoj rastvara toliko supstanci. Zbog toga je i led rastresit: voda se pri smrzavanju širi za oko 9%, pa led pluta.",
+      "body": "Molekul vode je jedan atom kiseonika koji drži dva atoma vodonika pod uglom od oko 104,5°, a ceo je širok otprilike 0,28 nanometra. Kiseonik privlači zajedničke elektrone ka sebi, pa molekul ima jedan blago negativan kraj i dva blago pozitivna. Zbog te nesimetričnosti susedni molekuli se drže zajedno vodoničnim vezama — zato je voda tečna na sobnoj temperaturi dok su mnogo teži molekuli gasovi, zato upija toliko toplote i zato se u njoj rastvara toliko supstanci. Zbog toga je i led rastresit: voda se pri smrzavanju širi za oko 9%, pa led pluta. Njegovi atomi su prastari: vodonik potiče iz Velikog praska, kiseonik je iskovan u zvezdama, a moguće je da je čak polovina vode na Zemlji starija od samog Sunca. Kako je voda stigla na Zemlju još se raspravlja — vodeća ideja je da su veliki deo doneli asteroidi bogati vodom iz spoljašnjeg dela Sunčevog sistema, iako je deo verovatno od početka bio zarobljen u stenama same Zemlje.",
       "narrative": "Potrebno je oko 3,6 miliona molekula vode poređanih jedan do drugog da bi se prekrio jedan milimetar.",
       "funFact": "U jednoj čaši vode ima više molekula vode — oko 8 kvadriliona — nego što ima čaša vode u svim okeanima sveta, i to više od hiljadu puta.",
       "seoTitle": "Koliko je veliki molekul vode? Veličina u poređenju",
@@ -2041,7 +2043,9 @@
         "fact3": "Dužina veze O–H: oko 0,096 nm.",
         "fact4": "Čaša od 250 ml sadrži oko 8 × 10²⁴ molekula vode.",
         "fact5": "Voda se pri smrzavanju širi za oko 9% — zato led pluta.",
-        "fact6": "Jedan molekul ima masu od oko 3 × 10⁻²⁶ kg."
+        "fact6": "Jedan molekul ima masu od oko 3 × 10⁻²⁶ kg.",
+        "fact7": "Vodonik: nastao u Velikom prasku. Kiseonik: iskovan u zvezdama.",
+        "fact8": "Kako je stigla na Zemlju: verovatno delom na asteroidima bogatim vodom (još se raspravlja)."
       }
     },
     "pollen_grain": {

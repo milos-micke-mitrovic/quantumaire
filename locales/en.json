@@ -650,7 +650,8 @@
         "fact1": "Mean diameter: 12,742 km (12,756 km at the equator).",
         "fact2": "Age: about 4.54 billion years.",
         "fact3": "70.8% of the surface is water.",
-        "fact4": "Magnetic field reverses, on average, every 200 to 300 thousand years."
+        "fact4": "Magnetic field reverses, on average, every 200 to 300 thousand years.",
+        "fact5": "Most of the gold we mine probably arrived later, on meteorites: Earth's original gold sank into its iron core."
       },
       "temperatureNote": "average at the surface"
     },
@@ -668,7 +669,8 @@
         "fact1": "Around 20 km across — yet heavier than the Sun.",
         "fact2": "Surface gravity is roughly 10¹¹ × Earth's.",
         "fact3": "The fastest known pulsar spins 716 times every second.",
-        "fact4": "Forms when a star of roughly 8 to 25 solar masses collapses in a supernova."
+        "fact4": "Forms when a star of roughly 8 to 25 solar masses collapses in a supernova.",
+        "fact5": "Much of the universe's gold was probably made when two neutron stars collided; the 2017 merger GW170817 forged an estimated several Earth-masses of gold and platinum."
       },
       "temperatureNote": "surface of a typical one"
     },
@@ -2027,7 +2029,7 @@
     "water_molecule": {
       "name": "Water Molecule",
       "tagline": "Two hydrogen atoms and one oxygen, bent at 104.5° — the small, lopsided molecule that makes life possible.",
-      "body": "A water molecule is one oxygen atom holding two hydrogen atoms at an angle of about 104.5°, and the whole thing is roughly 0.28 nanometres across. Oxygen pulls the shared electrons towards itself, so the molecule has a slightly negative end and two slightly positive ones. That lopsidedness lets neighbouring molecules cling together with hydrogen bonds, which is why water is liquid at room temperature when much heavier molecules are gases, why it soaks up so much heat, and why so many substances dissolve in it. It also makes ice open and airy: water expands by about 9% as it freezes, so ice floats.",
+      "body": "A water molecule is one oxygen atom holding two hydrogen atoms at an angle of about 104.5°, and the whole thing is roughly 0.28 nanometres across. Oxygen pulls the shared electrons towards itself, so the molecule has a slightly negative end and two slightly positive ones. That lopsidedness lets neighbouring molecules cling together with hydrogen bonds, which is why water is liquid at room temperature when much heavier molecules are gases, why it soaks up so much heat, and why so many substances dissolve in it. It also makes ice open and airy: water expands by about 9% as it freezes, so ice floats. Its atoms are ancient: the hydrogen dates from the Big Bang, the oxygen was forged inside stars, and as much as half of Earth's water may be older than the Sun itself. How the water reached Earth is still debated — the leading idea is that water-rich asteroids from the outer Solar System delivered much of it to the young planet, though some was probably locked in Earth's own rocks from the start.",
       "narrative": "It would take about 3.6 million water molecules lined up side by side to span a single millimetre.",
       "funFact": "There are more water molecules in one glass of water — about 8 million billion billion — than there are glasses of water in all the world's oceans, by a factor of more than a thousand.",
       "seoTitle": "How Big Is a Water Molecule? Size Compared",
@@ -2041,7 +2043,9 @@
         "fact3": "O–H bond length: about 0.096 nm.",
         "fact4": "A 250 ml glass holds about 8 × 10²⁴ water molecules.",
         "fact5": "Water expands by about 9% when it freezes — that's why ice floats.",
-        "fact6": "Each molecule weighs about 3 × 10⁻²⁶ kg."
+        "fact6": "Each molecule weighs about 3 × 10⁻²⁶ kg.",
+        "fact7": "Hydrogen: made in the Big Bang. Oxygen: forged inside stars.",
+        "fact8": "How it reached Earth: probably partly on water-rich asteroids (still debated)."
       }
     },
     "pollen_grain": {
