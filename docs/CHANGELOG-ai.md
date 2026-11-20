@@ -208,3 +208,7 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Size neighbours: a near-equal neighbour (<1.15×) needs the same kind of measure, not just a shared tag — Saturn V no longer says the ISS is "1.02 times smaller" (rocket height vs station width); it steps to the Statue of Liberty.
 - Client dictionary was over the 60 KB budget: topic-image alt texts left the base dictionary. Card images are now decorative (`alt=""` — the card's name is right below), topic/guide/pair pages add their images' alts via I18nExtend, and the interactive compare falls back to the topic name.
 - Blue whale alt fixed (described a diver that isn't in the photo); full alt-text audit added to the plan (block 5).
+
+## 2026-11-20 — image alt-text audit (round 4, block 5)
+- All 98 topic images compared with their alt text (agent read every image; spot-checked). 31 alts still described the old AI pictures replaced in 27bc49b ("real public-domain images"): e.g. human (now the Vitruvian Man), time dilation (a GPS satellite), Jupiter ("four Galilean moons" not in the photo), dark matter (Bullet Cluster), big bang (Planck CMB map), Voyager 1 (no Earth in frame). Rewritten in EN and SR; six of them are guide heroes too.
+- Next: only GSC CTR (blocked on indexing data) remains in the round-4 plan.

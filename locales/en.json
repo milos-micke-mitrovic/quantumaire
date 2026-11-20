@@ -574,7 +574,7 @@
       "narrative": "If an atom were a marble in your palm, a single human hair beside it would be more than ten kilometres thick — as wide as a city.",
       "funFact": "Strip away an atom's empty space and pack the nuclei together — and the entire human race would fit into a couple of sugar cubes. The rest of you is mostly nothing.",
       "image": {
-        "alt": "A hydrogen atom: a glowing nucleus inside a probabilistic electron cloud."
+        "alt": "A false-colour microscope image of a single atom: a sharp purple peak rising from a mottled orange surface, with a 1 nm scale bar."
       },
       "facts": {
         "fact1": "More than 99.99% empty space.",
@@ -591,7 +591,7 @@
       "massNarrative": "A single cell's DNA weighs about six trillionths of a gram, yet codes for an entire person. All the DNA in your body together weighs well under half a kilo.",
       "funFact": "You and a chimpanzee share about 98.8% of your DNA — and around 60% of your genes even have a recognisable counterpart in a banana. Any two unrelated humans on the planet — strangers, neighbours, anyone — are 99.9% genetically identical. Everything you call 'different about people' is written in less than a tenth of one percent of your genome.",
       "image": {
-        "alt": "A glowing double-helix DNA strand drifting through cellular space."
+        "alt": "A ball-and-stick model of the DNA double helix on a white background, its two coloured backbones twisting around stacked base pairs, with labels for one turn and the major and minor grooves."
       },
       "facts": {
         "fact1": "Identical twins share virtually all their DNA — but not their fingerprints, which form by chance in the womb.",
@@ -627,7 +627,7 @@
       "narrative": "Roughly the height of a 45-storey building — the Great Pyramid stood as the tallest human structure for nearly four thousand years.",
       "funFact": "The Great Pyramid is the only one of the Seven Wonders of the Ancient World still standing. Every other has fallen, burned, or been lost.",
       "image": {
-        "alt": "The Great Pyramid of Giza at twilight, starlight aligning with its apex."
+        "alt": "The Great Pyramid of Giza in daylight under a pale blue sky, its stepped stone blocks towering over tiny tourists on the sand at its base."
       },
       "facts": {
         "fact1": "Built around 2560 BCE — over 4,500 years old.",
@@ -718,7 +718,7 @@
       "massNarrative": "The visible stars are just a few percent of the Milky Way's total mass. The rest — around 90% — is invisible dark matter.",
       "funFact": "We cannot see the Milky Way's centre with visible light — interstellar dust blocks the view. Infrared and radio telescopes are what proved Sagittarius A* is there.",
       "image": {
-        "alt": "The Milky Way galaxy seen face-on, spiral arms glowing."
+        "alt": "The Milky Way's dusty band of stars arching across the night sky above Paranal Observatory, a thin orange laser beam shooting up from a telescope building."
       },
       "facts": {
         "fact1": "More than 100,000 light-years across.",
@@ -736,7 +736,7 @@
       "narrative": "Dark matter has no shape and no edges that we can see — only its gravity is visible, shaping the rotation of nearly every galaxy ever measured.",
       "funFact": "If dark matter is made of particles, as most physicists suspect, billions of them may be streaming through your body every second. They barely interact with the atoms in you, if at all — so you never notice.",
       "image": {
-        "alt": "Dark matter visualised as a violet cosmic web bending light around galaxies."
+        "alt": "The Bullet Cluster: hundreds of orange galaxies overlaid with a pink glow of hot gas, which ends in a bright bullet-shaped shock front where two clusters collided."
       },
       "facts": {
         "fact1": "About 27% of the universe's total mass-energy.",
@@ -754,7 +754,7 @@
       "narrative": "Dark energy fills every cubic metre of empty space — including the metres around you right now. It has no size of its own, only a direction: outward.",
       "funFact": "The term 'dark energy' was coined in 1998 by cosmologist Michael Turner — chosen specifically because nobody knew what it was. Almost 30 years later, the placeholder name has held up because we still don't.",
       "image": {
-        "alt": "Galaxies stretching apart, pulled by an invisible accelerating force."
+        "alt": "The Hubble Ultra Deep Field: thousands of faint, distant galaxies of many shapes and colours scattered across a patch of black sky."
       },
       "facts": {
         "fact1": "About 68% of the universe's total mass-energy.",
@@ -773,7 +773,7 @@
       "massNarrative": "Most of the universe's mass-energy isn't ordinary matter at all — roughly 68% is dark energy, 27% is dark matter, and only 5% is everything you can see.",
       "funFact": "By most measures, the Milky Way is a fairly large galaxy. Most of the galaxies in the observable universe — hundreds of billions, perhaps as many as 2 trillion — are smaller than ours.",
       "image": {
-        "alt": "The observable universe as a luminous sphere of galaxies and cosmic web."
+        "alt": "A logarithmic illustration of the observable universe as a disc: the Solar System at the centre, then nearby stars, the Milky Way, other galaxies and the cosmic web, out to the glow of the Big Bang at the rim."
       },
       "facts": {
         "fact1": "Roughly 93 billion light-years in diameter.",
@@ -790,7 +790,7 @@
       "narrative": "Magnify a virus to the size of a marble in your palm — at that scale, a typical human cell would stand about as tall as you.",
       "funFact": "There are an estimated 10³¹ virus particles on Earth — about ten million times more than there are stars in the entire observable universe.",
       "image": {
-        "alt": "An icosahedral virus capsid glowing in cyan and violet, RNA visible inside."
+        "alt": "Black-and-white electron micrograph of round coronavirus particles, each ringed by a fuzzy crown of spike proteins."
       },
       "facts": {
         "fact1": "Most are smaller than a wavelength of visible light.",
@@ -807,7 +807,7 @@
       "massNarrative": "Sagittarius A* packs the mass of 4.15 million Suns into that region — and it's a modest example; the largest known supermassive black holes weigh tens of billions of Suns.",
       "funFact": "We weighed Sagittarius A* by watching stars orbit it. One, S2, completes a lap every 16 years and whips past the black hole at about 2.5% of the speed of light — work that earned Reinhard Genzel and Andrea Ghez a share of the 2020 Nobel Prize in Physics.",
       "image": {
-        "alt": "A supermassive black hole — a black sphere ringed by a glowing accretion disk."
+        "alt": "The Event Horizon Telescope image of Sagittarius A*, the black hole at our galaxy's centre: a blurry orange ring with three brighter knots around a dark shadow."
       },
       "facts": {
         "fact1": "Sagittarius A* — about 4.15 million solar masses.",
@@ -823,7 +823,7 @@
       "narrative": "Magnify a bacterium until it sits in your palm like a marble — and a single grain of sand at that same scale would be a boulder nearly four metres high.",
       "funFact": "By count, roughly half of all the cells in your body are bacteria. By mass, they only add up to a couple of hundred grams — but without them you couldn't digest a meal.",
       "image": {
-        "alt": "A single rod-shaped bacterium with flagella trailing through aqueous medium."
+        "alt": "Grey scanning electron micrograph of a crowd of smooth, rod-shaped E. coli bacteria piled on top of one another."
       },
       "facts": {
         "fact1": "Most are about 0.5–5 micrometres long, depending on the species.",
@@ -840,7 +840,7 @@
       "massNarrative": "A big cluster like Virgo weighs about a thousand trillion Suns — and most of that mass, again, is dark matter rather than stars.",
       "funFact": "Galaxy clusters in our neighbourhood are all being pulled toward an unseen mass concentration — the so-called Great Attractor — sitting at the heart of the Laniakea Supercluster.",
       "image": {
-        "alt": "A galaxy cluster — dozens of galaxies around a bright central giant elliptical."
+        "alt": "Hubble image of the giant galaxy M87, which sits at the heart of the Virgo Cluster: a glowing yellow core shooting a thin blue jet of particles across space."
       },
       "facts": {
         "fact1": "Hundreds to thousands of galaxies bound by gravity.",
@@ -874,7 +874,7 @@
       "narrative": "Scale a cell up to the size of a basketball — at that same scale, a single human hair would be a pillar nearly two metres thick.",
       "funFact": "Your body replaces about 330 billion cells every day — nearly four million every second, most of them blood cells.",
       "image": {
-        "alt": "A cross-section of a eukaryotic cell — membrane, nucleus, and organelles glowing."
+        "alt": "Microscope photo of human cells on a grey background, their nuclei stained bright blue, one at left caught mid-division with its chromosomes bunched together."
       },
       "facts": {
         "fact1": "The human body contains about 30 trillion cells.",
@@ -890,7 +890,7 @@
       "narrative": "By mass, you sit almost exactly midway between a proton and a star: the Sun outweighs you by about as many powers of ten as you outweigh a proton.",
       "funFact": "Almost every hydrogen nucleus in your body formed within the first second after the Big Bang. Everything heavier than helium was forged inside stars that lived and died before our Sun was born.",
       "image": {
-        "alt": "A human silhouette against a vertical cosmic gradient suggesting scale."
+        "alt": "Leonardo da Vinci's Vitruvian Man: an ink drawing of a man in two overlapping poses inside a circle and a square, with handwritten notes on aged paper."
       },
       "facts": {
         "fact1": "Average adult height is about 1.7 metres.",
@@ -906,7 +906,7 @@
       "narrative": "The distance light travels in a year. Even Voyager — the farthest space probe humans have ever flown — would need over 17,000 years to cover it.",
       "funFact": "Galaxies hold hundreds of billions of stars, yet typical pairs of stars are several light-years apart. By volume, a galaxy is almost entirely empty space.",
       "image": {
-        "alt": "A beam of light stretching toward a distant binary star system."
+        "alt": "Webb's image of the Pillars of Creation: towering brown and gold columns of gas and dust rising through a blue haze, studded with bright stars."
       },
       "facts": {
         "fact1": "Equal to about 9.46 trillion kilometres.",
@@ -922,7 +922,7 @@
       "narrative": "If our Sun were a marble, TON 618's event horizon at the same scale would be about 2.5 kilometres across — a marble beside a small town.",
       "massNarrative": "TON 618 weighs around 40 billion Suns — ten thousand times the mass of Sagittarius A* at the centre of our galaxy. How black holes this large grew so early in cosmic history is one of the open puzzles of cosmology.",
       "image": {
-        "alt": "TON 618 — a colossal black hole ringed by a vast accretion disk, polar jets shooting out into space."
+        "alt": "A NASA visualisation of an ultramassive black hole: a huge fiery orange accretion disk swirling around a dark centre, with a far smaller black hole beside it for comparison."
       },
       "facts": {
         "fact1": "Estimated mass: ~40 billion solar masses.",
@@ -939,7 +939,7 @@
       "narrative": "If our Sun were a marble, Phoenix-A's event horizon at the same scale would be about 1.6 kilometres across — wide enough to line up more than 100,000 Suns edge to edge.",
       "massNarrative": "Around 25 billion solar masses on our working estimate — roughly 6,000 times the mass of Sagittarius A* at the centre of our galaxy. Mass estimates for objects this distant carry wide error bars; published values run from a few billion to about 100 billion solar masses.",
       "image": {
-        "alt": "Phoenix-A — an enormous black hole inside a luminous galaxy cluster, intracluster gas glowing around it."
+        "alt": "Artist's impression of the black hole at the heart of the Phoenix Cluster: crossed red and violet jets blasting out from a tiny dark centre, carving two dark cavities in the surrounding hot gas."
       },
       "facts": {
         "fact1": "Mass: published estimates range from a few billion to ~100 billion solar masses; we use ~25 billion.",
@@ -957,7 +957,7 @@
       "narrative": "Voyager 1 is so far away that a radio command from Earth takes a full day to reach it. Yet on the scale of the stars it has barely left home: even at 61,000 km/h it needs about 17,600 years to cover a single light-year — and the nearest star is more than four light-years away.",
       "ifDistance": "A radio signal from Earth now takes a full day to reach Voyager 1. If you shrank that gap to the length of a football pitch (105 m), the Earth–Sun distance would be about 60 centimetres — and the nearest star would still be more than 160 kilometres away.",
       "image": {
-        "alt": "Voyager 1 spacecraft against the cosmic void, dish antenna pointing back toward a distant Earth."
+        "alt": "The Voyager spacecraft against a black background: a big white dish antenna on top of its boxy body, with instrument booms and long antennas reaching out to the sides."
       },
       "facts": {
         "fact1": "Launched 5 September 1977.",
@@ -978,7 +978,7 @@
       "body": "Laniakea is the vast supercluster of which our Milky Way is a tiny outer participant. It spans roughly 500 million light-years and contains about 100,000 galaxies organised along filaments that all stream toward a common gravitational basin — the Great Attractor. Astronomers only formally identified Laniakea in 2014. Even larger structures exist out there, such as the contentious Hercules-Corona Borealis Great Wall, but no supercluster is truly bound by gravity — cosmic expansion is gradually pulling them apart.",
       "narrative": "If the Milky Way were a grain of rice, Laniakea would be about the size of a concert hall — a hall scattered with a hundred thousand grains, each one a galaxy, all drifting toward the same hidden pull.",
       "image": {
-        "alt": "Laniakea Supercluster — a sprawling web of galaxies flowing toward a central gravitational basin."
+        "alt": "A map of the Laniakea Supercluster: white flow lines of galaxies converging toward a common point on a blue-and-green density map, enclosed by an orange boundary."
       },
       "facts": {
         "fact1": "Around 500 million light-years across.",
@@ -998,7 +998,7 @@
       "massNarrative": "The Sun holds 99.86% of the Solar System's entire mass. Pile every planet, moon, asteroid, and comet together and you get just 0.14% — and most of that is Jupiter.",
       "funFact": "Pluto isn't the last word: beyond the Kuiper Belt sits the Oort Cloud, a roughly spherical shell of icy bodies that may extend more than a third of the way to the nearest star. Voyager 1, our farthest probe, won't reach its inner edge for another 300 years and won't clear its outer edge for tens of thousands more.",
       "image": {
-        "alt": "Top-down view of the Solar System — Sun centred, planets along orbital ellipses."
+        "alt": "A montage of the giant planets photographed by the Voyager probes: banded Jupiter, ringed Saturn, and the pale tops of Uranus and Neptune, crowded together against black space."
       },
       "facts": {
         "fact1": "Pluto orbits about 5.9 billion km from the Sun.",
@@ -1036,7 +1036,7 @@
       "massNarrative": "Jupiter contains 2.5 times more mass than every other planet in the Solar System combined. The wobble it induces in the Sun is the strongest single planetary signal in our system — and is one of the standard ways astronomers find Jupiter-sized planets around other stars.",
       "funFact": "If Jupiter had grown about 80 times more massive, hydrogen fusion would have ignited in its core and it would have become a small star. We would live in a binary system instead of a planetary one.",
       "image": {
-        "alt": "Jupiter with banded cloud belts and the Great Red Spot, four Galilean moons visible beside it."
+        "alt": "Jupiter as a full disc with cream, tan and brown cloud belts and the Great Red Spot in its southern half."
       },
       "facts": {
         "fact1": "Diameter about 139,820 km — roughly 11 times Earth's.",
@@ -1055,7 +1055,7 @@
       "massNarrative": "Proxima Centauri weighs only about an eighth of the Sun. Red dwarfs that small fuse hydrogen so slowly that, in theory, Proxima will still be shining four trillion years from now — long after every Sun-like star has burned out.",
       "funFact": "Despite being our nearest stellar neighbour, Proxima is too dim to see with the naked eye. You need a telescope — even though, in cosmic terms, it's basically next door.",
       "image": {
-        "alt": "Proxima Centauri — a small red dwarf star with the silhouette of Proxima b crossing its disc."
+        "alt": "Hubble image of Proxima Centauri: a brilliant point of light with long cross-shaped spikes, among faint background stars."
       },
       "facts": {
         "fact1": "About 4.24 light-years away — roughly 40 trillion km.",
@@ -1261,7 +1261,7 @@
       "massNarrative": "All the antimatter ever made at CERN, annihilated at once, would light a single light bulb for only a few minutes.",
       "funFact": "A banana is a tiny antimatter source. Its potassium-40 very occasionally decays by emitting a positron — roughly one every hour or two — which annihilates almost instantly. Hospitals use the same physics on purpose: PET scanners image the body by catching the gamma rays from positron annihilations.",
       "image": {
-        "alt": "A particle and its mirror-image antiparticle meeting in a burst of light."
+        "alt": "Carl Anderson's 1932 cloud-chamber photo: the thin curved track of the first known positron crossing a dark lead plate in a round black-and-white frame."
       },
       "facts": {
         "fact1": "The positron was discovered by Carl Anderson in 1932.",
@@ -1279,7 +1279,7 @@
       "narrative": "Entanglement has no size of its own — it is a relationship between particles, not an object. Distance doesn't weaken it: the correlations are just as strong across a lab bench as across 1,200 km of sky.",
       "funFact": "In a 2018 'cosmic Bell test', physicists let light from two distant quasars — emitted 7.8 and 12.2 billion years ago — decide how to measure pairs of entangled photons. Even with the settings chosen by the universe long before Earth existed, the quantum correlations held.",
       "image": {
-        "alt": "Two glowing particles far apart, linked by a faint luminous thread."
+        "alt": "An entangled-photon source in a NIST lab: red laser light and glowing coils of optical fibre on a dark optics bench, with green light behind."
       },
       "facts": {
         "fact1": "Einstein, Podolsky and Rosen raised the puzzle in 1935.",
@@ -1296,7 +1296,7 @@
       "narrative": "At 0.5 mm, a tardigrade is exactly the size of Quantumaire's reference grain of sand — the size Earth shrinks to on our scale.",
       "funFact": "They aren't indestructible. In 2019, dried tardigrades crash-landed on the Moon aboard Israel's Beresheet lander; lab tests firing them from a gun later showed they die above about 900 m/s, so researchers think they very likely didn't survive. The confirmed revival record isn't a century, either — it is about 30 years, from Antarctic moss kept frozen since 1983.",
       "image": {
-        "alt": "A plump, eight-legged tardigrade clinging to a strand of moss under the microscope."
+        "alt": "Grey scanning electron micrograph of a plump tardigrade on a plain pale background, showing its wrinkled, segmented body and stubby clawed legs."
       },
       "facts": {
         "fact1": "Usually up to about 0.5 mm long; the largest species reach about 1.3 mm.",
@@ -1329,7 +1329,7 @@
       "narrative": "Shrink Earth to a 30 cm desk globe and Everest becomes a bump just 0.2 mm high — about the thickness of two sheets of paper.",
       "funFact": "The rock at the very top of the world is marine limestone, packed with fragments of trilobites, crinoids and other sea creatures that lived on an ocean floor around 450 million years ago.",
       "image": {
-        "alt": "The snow-plumed summit pyramid of Mount Everest against a deep blue high-altitude sky."
+        "alt": "The snowy Everest massif at dusk, the summits of Everest and its neighbour Nuptse glowing orange in the last sunlight under a purple sky."
       },
       "facts": {
         "fact1": "Height: 8,848.86 m (China–Nepal survey, 2020).",
@@ -1347,7 +1347,7 @@
       "narrative": "Gravity has no size of its own: its reach is unlimited, fading with the square of distance but never quite reaching zero. The same pull that keeps your feet on the floor shapes structures hundreds of millions of light-years across.",
       "funFact": "A small fridge magnet can lift a paperclip off the table — out-pulling the gravity of the entire Earth, all 6 × 10²⁴ kg of it. That's how feeble gravity is, until you gather a planet's worth of mass.",
       "image": {
-        "alt": "A grid of spacetime curving into a deep well around a massive glowing sphere."
+        "alt": "NASA artwork of Earth sitting in a deep well in a grid of spacetime, with the Gravity Probe B satellite orbiting above it."
       },
       "facts": {
         "fact1": "About 10³⁶ times weaker than electromagnetism between two protons.",
@@ -1365,7 +1365,7 @@
       "narrative": "Time dilation has no size — it's a difference in the rate of time itself. It is measurable across a whole planet's orbit and, with today's best atomic clocks, across a height difference of a few centimetres.",
       "funFact": "GPS satellites' clocks gain about 38 microseconds a day relative to the ground — losing 7 to their speed but gaining 45 from weaker gravity. Uncorrected, your position fix would drift by roughly 10 km every day.",
       "image": {
-        "alt": "Two clocks ticking at different rates, one near Earth and one in orbit, against curved spacetime."
+        "alt": "Artwork of a GPS satellite with two blue solar panels orbiting high above Earth; its atomic clocks must be corrected for time dilation."
       },
       "facts": {
         "fact1": "GPS clocks: −7 µs/day from speed, +45 µs/day from gravity, net ≈ +38 µs/day.",
@@ -1383,7 +1383,7 @@
       "narrative": "A gravitational wave has no fixed size — its wavelength can range from kilometres to light-years. By the time one reaches Earth, it changes LIGO's 4 km arms by about 1/10,000 the width of a proton.",
       "funFact": "In its final fraction of a second, the 2015 merger turned about three Suns' worth of mass into gravitational waves — briefly radiating more power than all the stars in the observable universe combined. Yet none of it was light.",
       "image": {
-        "alt": "Two black holes spiralling together, sending concentric ripples across a grid of spacetime."
+        "alt": "A simulation of two black holes about to merge, their gravity warping the starry background into rings around them."
       },
       "facts": {
         "fact1": "First detection: GW150914, 14 September 2015, by LIGO.",
@@ -1401,7 +1401,7 @@
       "narrative": "A wormhole has no set size: the equations allow throats of any width, from subatomic to galactic. What they can't supply is the negative energy needed to keep one open.",
       "funFact": "The modern physics of traversable wormholes began with a novelist's question. Carl Sagan asked his friend Kip Thorne for a scientifically plausible way to send his heroine across the galaxy in 'Contact' — and Thorne's answer became the 1988 Morris–Thorne paper. Decades later, Thorne helped shape the wormhole in 'Interstellar'.",
       "image": {
-        "alt": "A spherical gateway in space showing a distorted view of a distant star field."
+        "alt": "NASA concept art of a ring-shaped spacecraft flying into a wormhole, colourful light streaking past and a distant galaxy visible through the tunnel's dark mouth."
       },
       "facts": {
         "fact1": "Einstein–Rosen bridge first described in 1935.",
@@ -1419,7 +1419,7 @@
       "narrative": "The Big Bang has no size because it had no outside — it happened everywhere, including the patch of space you occupy now. Today that same expansion stretches across the observable universe, about 93 billion light-years wide.",
       "funFact": "When Arno Penzias and Robert Wilson found a stubborn hiss in their horn antenna in 1964, they first blamed the pigeons nesting inside it — and cleaned out their droppings. The hiss stayed: it was the afterglow of the Big Bang, and it won them the 1978 Nobel Prize. About 1% of the static on an old analogue TV came from that same glow.",
       "image": {
-        "alt": "A burst of light and matter expanding outward into galaxies as space itself stretches."
+        "alt": "The Planck satellite's map of the cosmic microwave background, the Big Bang's afterglow: an oval of mottled blue, yellow and orange temperature ripples."
       },
       "facts": {
         "fact1": "Age of the universe: about 13.8 billion years.",
@@ -1437,7 +1437,7 @@
       "narrative": "A multiverse has no measurable size — by definition, the other universes lie beyond any horizon we can see. Even our own observable universe, 93 billion light-years across, would be one bubble among many.",
       "funFact": "Some of the multiverse's sharpest critics helped build the theory behind it. Paul Steinhardt, one of the founders of cosmic inflation, now argues that eternal inflation predicts every possible outcome somewhere — and so, he says, predicts nothing.",
       "image": {
-        "alt": "Countless iridescent bubble universes floating in a dark void, a few touching at their edges."
+        "alt": "Webb's First Deep Field: thousands of distant galaxies, some smeared into arcs by gravitational lensing, around a few bright spiky stars."
       },
       "facts": {
         "fact1": "String theory's 'landscape' allows roughly 10⁵⁰⁰ possible vacua.",

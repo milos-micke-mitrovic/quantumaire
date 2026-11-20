@@ -47,8 +47,9 @@ empty in nature too; leave them.)
 The blue whale's alt described "a diver beside it" — the photo is an aerial
 shot with no diver. Older topics' alts were written for earlier images.
 
-- [ ] Look at every `public/images/*.webp` next to its EN alt text (and SR);
+- [x] Look at every `public/images/*.webp` next to its EN alt text (and SR);
       fix any that describe a different picture.
+      2026-11-20: 98 checked, 31 rewritten (EN+SR) — leftovers from the AI-image era.
 
 ## 6. Search Console data (blocked until enough pages are indexed)
 
