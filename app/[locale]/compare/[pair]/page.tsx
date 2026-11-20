@@ -8,7 +8,8 @@ import { JsonLd } from "@/components/JsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 import { COMPARE_PAIRS, getPair, pairSlug } from "@/lib/comparePairs";
 import { describePair } from "@/lib/comparePairText";
-import { tServer } from "@/lib/i18n-server";
+import { I18nExtend } from "@/lib/i18n";
+import { pickDictionary, tServer } from "@/lib/i18n-server";
 import {
   breadcrumbJsonLd,
   buildPageMetadata,
@@ -108,12 +109,16 @@ export default async function ComparePairPage({ params }: PageProps) {
       />
       {/* The tool reads ?a=&b= on the client; the HTML ships the summary. */}
       <Suspense fallback={<main className="mx-auto w-full max-w-5xl px-5 pb-12 pt-12 sm:px-8 sm:pt-16">{header}</main>}>
-        <ComparePage
-          initialA={second.id}
-          initialB={first.id}
-          basePath={`/${typed}/compare`}
-          header={header}
-        />
+        <I18nExtend
+          dictionary={pickDictionary(typed, [`stops.${first.id}.image`, `stops.${second.id}.image`])}
+        >
+          <ComparePage
+            initialA={second.id}
+            initialB={first.id}
+            basePath={`/${typed}/compare`}
+            header={header}
+          />
+        </I18nExtend>
       </Suspense>
       <ComparePairLinks locale={typed} exclude={pair} />
       <SiteFooter locale={typed} />

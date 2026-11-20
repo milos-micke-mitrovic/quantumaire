@@ -4,6 +4,7 @@ import clsx from "clsx";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { useI18n } from "@/lib/i18n";
+import { imageAlt } from "@/lib/imageAlt";
 import type { ImagePlaceholder as ImagePlaceholderType } from "@/lib/types";
 
 interface Props {
@@ -21,6 +22,8 @@ interface Props {
    * on a phone ~30 card images competed with the hero (LCP) for bandwidth.
    */
   defer?: boolean;
+  /** Next to its own caption (a card's name): empty alt, no repetition. */
+  decorative?: boolean;
 }
 
 const ASPECTS: Record<ImagePlaceholderType["aspect"], string> = {
@@ -42,6 +45,7 @@ export function ImagePlaceholder({
   aspect,
   sizes = "(min-width: 1024px) 50vw, 100vw",
   defer = false,
+  decorative = false,
 }: Props) {
   const { t } = useI18n();
   const [missing, setMissing] = useState(false);
@@ -66,7 +70,7 @@ export function ImagePlaceholder({
     io.observe(ref.current);
     return () => io.disconnect();
   }, [near]);
-  const alt = t(image.altKey);
+  const alt = decorative ? "" : imageAlt(t, image.altKey);
   const aspectKey = aspect ?? image.aspect;
 
   return (

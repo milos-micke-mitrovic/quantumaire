@@ -513,7 +513,7 @@
     "galaxy": "Galaksija",
     "galaxy-cluster": "Galaktičke grupe i jata",
     "supercluster": "Superjato",
-    "spacecraft": "Svemirska letelica",
+    "spacecraft": "Letelice i rakete",
     "unit": "Jedinica rastojanja",
     "phenomenon": "Fenomen",
     "cosmos": "Kosmos",
@@ -1313,7 +1313,7 @@
       "massNarrative": "Veliki plavi kit teži koliko tridesetak slonova, a njegovo tek rođeno mladunče već je teško kao mali slon.",
       "funFact": "Srce mu je ogromno, ali nije veličine automobila: ono koje je sačuvao kanadski Kraljevski muzej Ontarija teško je oko 180 kg i visoko otprilike 1,5 m. I ne, dete ne bi moglo da pliva kroz njegove arterije — aorta je široka otprilike kao tanjir.",
       "image": {
-        "alt": "Plavi kit klizi kroz suncem obasjan otvoreni okean, a ronilac pored njega deluje sićušno."
+        "alt": "Plavi kit odozgo: njegova duga plavosiva leđa probijaju površinu tamnog okeana, ostavljajući trag bele pene."
       },
       "facts": {
         "fact1": "Najduži pouzdano izmereni primerak: 29,9 m.",
@@ -2332,6 +2332,114 @@
         "fact5": "Nije gravitaciono vezan: to je lanac nekoliko superjata, a kolabirati možda mogu samo oblasti poluprečnika oko 35 miliona svetlosnih godina u srcima najbogatijih među njima.",
         "fact6": "Masa: najmanje oko 3,5 × 10¹⁶ Sunaca, prema donjoj granici iz 2016."
       }
+    },
+    "saturn_v": {
+      "name": "Saturn V",
+      "seoTitle": "Koliko je bio visok Saturn V? Raketa od 111 m",
+      "tagline": "111 metara rakete i skoro 3.000 tona pri poletanju — mašina koja je odnela astronaute na Mesec.",
+      "body": "Saturn V je raketa koju je NASA napravila da pošalje astronaute na Mesec. Sa letelicom „Apolo“ na vrhu bila je visoka oko 111 m (363 stope) i široka 10 m, a puna goriva težila je otprilike 2.800–2.970 tona — gotovo sve to bilo je pogonsko gorivo. Imala je tri stepena: prvi, sa pet motora F-1, goreo je oko dva i po minuta i gurao potiskom od oko 34,5 meganjutna, a zatim se odvajao da bi lakši gornji stepeni nastavili put. Između 1967. i 1973. poletelo je trinaest raketa Saturn V; devet ih je ka Mesecu ponelo 24 astronauta, od „Apola 8“ do „Apola 17“, uključujući „Apolo 11“, lansiran 16. jula 1969. Tek nekoliko raketa ikada je poletelo sa većim potiskom, među njima NASA-in SLS i SpaceX-ov Starship, koji gura više nego dvostruko jače.",
+      "narrative": "Postavite Saturn V pored Kipa slobode i raketa je viša za oko 18 m — računajući i postolje i baklju. Uspravna je bila visoka kao zgrada od 36 spratova; položena na bok, bila bi dugačka otprilike kao fudbalski teren.",
+      "massNarrative": "Puna goriva, raketa Saturn V težila je oko 2.800 tona — koliko otprilike 450 slonova. Samo njen prvi stepen nosio je više od 2 miliona litara kerozina i tečnog kiseonika i potrošio gotovo sve to za oko dva i po minuta.",
+      "funFact": "Poslednji Saturn V imao je samo dva stepena: 14. maja 1973. lansirao je Skajlab, prvu američku svemirsku stanicu, prepravljenu od trećeg stepena rakete Saturn V. A od „Apola 13“ nadalje istrošeni treći stepeni namerno su obarani na Mesec, da bi seizmometri koje su ostavile ranije posade osetili udare i pomogli da se mapira unutrašnjost Meseca.",
+      "image": {
+        "alt": "Bela raketa Saturn V poleće pored crvenog lansirnog tornja, sa plamenom i kuljajućim oblacima izduvnih gasova u podnožju, pod tamnoplavim nebom."
+      },
+      "facts": {
+        "fact1": "Visina: oko 111 m (363 stope) sa letelicom „Apolo“ na vrhu; prečnik 10 m.",
+        "fact2": "Masa pri poletanju: oko 2.800–2.970 tona, zavisno od misije.",
+        "fact3": "Potisak pri poletanju: oko 34,5 meganjutna (7,6 miliona funti sile), iz pet motora F-1.",
+        "fact4": "13 lansiranja od 1967. do 1973; 24 astronauta poslata ka Mesecu u devet misija.",
+        "fact5": "Mogla je da pošalje oko 43,5 tona do Meseca.",
+        "fact6": "Izložene su tri kompletne rakete Saturn V: u Hantsvilu, Hjustonu i u Svemirskom centru Kenedi."
+      },
+      "metaDescription": "Saturn V je bio visok oko 111 m — 18 m više od Kipa slobode — i težak skoro 3.000 tona. Raketa programa „Apolo“ koja je odnela ljude na Mesec, u brojkama."
+    },
+    "large_hadron_collider": {
+      "name": "Veliki hadronski sudarač",
+      "seoTitle": "Koliki je Veliki hadronski sudarač? Veličina CERN-ovog LHC-a",
+      "tagline": "Prsten magneta dug 27 kilometara ispod Ženeve, napravljen da sudara protone i zaviri u unutrašnjost materije.",
+      "body": "Veliki hadronski sudarač (Large Hadron Collider, LHC) u CERN-u najveći je i najmoćniji akcelerator čestica na svetu: prsten obima oko 26,7 km, ukopan u proseku 100 m pod zemljom, ispod francusko-švajcarske granice kod Ženeve. Kroz njega u suprotnim smerovima jure dva snopa protona, a usmerava ih 1.232 superprovodna magneta ohlađena na 1,9 K (−271,3 °C) — hladnije od svemirskog prostora. Na mestima gde se snopovi ukrštaju, ogromni detektori beleže krhotine sudara energije 13,6 TeV i pomoću njih proveravaju Standardni model. Dva od njih, ATLAS i CMS, tako su 2012. otkrila Higsov bozon. Mašina obima 27 km, napravljena da proučava stvari daleko manje od protona.",
+      "narrative": "Da jednom obiđete prsten LHC-a peške, trebalo bi vam oko pet i po sati. Proton to uradi 11.245 puta u sekundi — za jednu sekundu pređe skoro 300.000 km, otprilike tri četvrtine puta do Meseca.",
+      "funFact": "Prsten je širok oko 8,5 km, a ono što proučava gotovo je nezamislivo sitno: sudarajući protone, eksperiment CMS je pokazao da kvarkovi, ako uopšte imaju delove, moraju biti manji od oko 10⁻²⁰ m — manje od stohiljaditog dela širine protona. Najveći akcelerator čestica ikada napravljen zapravo je mikroskop za najsitnije stvari.",
+      "metaDescription": "CERN-ov Veliki hadronski sudarač je prsten obima 26,7 km, 100 m pod zemljom, gde se protoni sudaraju energijom 13,6 TeV — mašina koja je otkrila Higsov bozon.",
+      "temperatureNote": "superprovodni magneti",
+      "image": {
+        "alt": "Tunel LHC-a u CERN-u: dugačak niz plavih cilindričnih superprovodnih magneta koji se u luku gubi u daljini, ispod nosača kablova i svetala."
+      },
+      "facts": {
+        "fact1": "Obim: oko 26,7 km (26.659 m) — prsten širok oko 8,5 km.",
+        "fact2": "Dubina: 50–175 m pod zemljom, u proseku oko 100 m; prsten prelazi granicu između Francuske i Švajcarske.",
+        "fact3": "1.232 superprovodna dipolna magneta, svaki dug 15 m i težak 35 tona, savijaju snopove duž prstena.",
+        "fact4": "Magneti rade na 1,9 K (−271,3 °C), hladnije od svemirskog prostora; hladi ih oko 96 tona superfluidnog helijuma.",
+        "fact5": "Energija sudara: 13,6 TeV (dva snopa od po 6,8 TeV), od 2022.",
+        "fact6": "Protoni dostižu oko 99,999999% brzine svetlosti — samo oko 3 m/s sporije od svetlosti — i obiđu prsten 11.245 puta u sekundi.",
+        "fact7": "Prvi snop: 10. septembra 2008. Njegovi eksperimenti ATLAS i CMS otkrili su 2012. Higsov bozon.",
+        "fact8": "Od jula 2026. isključen je zbog najveće nadogradnje do sada, High-Luminosity LHC (oko 10 puta više sudara), koja bi trebalo da proradi oko sredine 2030."
+      }
+    },
+    "stonehenge": {
+      "name": "Stounhendž",
+      "tagline": "Prsten od džinovskog kamenja širok oko 30 metara, podignut na Solsberijskoj ravnici pre oko 4.500 godina i okrenut ka izlasku sunca o letnjoj dugodnevici.",
+      "body": "Stounhendž, na Solsberijskoj ravnici u južnoj Engleskoj, gradio se i pregrađivao tokom oko 1.500 godina. Oko 3000. godine p.n.e. ljudi su iskopali kružni jarak i nasip prečnika otprilike 100–110 metara i u njemu sahranjivali spaljene ostatke svojih mrtvih; oko 2500. godine p.n.e. podigli su kamenje u središtu: krug od 30 uspravnih sarsena prečnika oko 30 metara, pokriven prstenom nadvratnika, oko potkovice od pet ogromnih trilita. Sarseni, teški u proseku oko 25 tona, doneti su iz šume Vest Vuds, oko 25 km severnije, dok je manje „plavo kamenje“ dopremljeno sa oko 225 km udaljenih brda Preseli u Velsu. Glavna osa spomenika usmerena je ka izlasku sunca o letnjoj dugodnevici i zalasku o zimskoj kratkodnevici, pa su ti dani graditeljima očigledno bili važni, ali čemu je služio — hram, spomenik mrtvima, mesto okupljanja — i dalje je predmet rasprave, a tvrdnje da je bio precizan astronomski „kalkulator“ su spekulacija.",
+      "narrative": "Krug od sarsena širok je oko 30 metara, pa bi plavi kit dug 25 metara mogao da stane preko njega, uz malo prostora viška. Zemljani prsten oko njega više je nego tri puta širi, a najviši trilit bio je visok oko 7,3 metra, više od dvospratne kuće.",
+      "funFact": "Graditelji su kamen oblikovali onako kako stolar obrađuje drvo: svaki nadvratnik leži na ispupčenjima isklesanim na vrhu uspravnog kamenja (spoj „čep i rupa“), a susedni nadvratnici uklapaju se jedan u drugi spojem na pero i žleb. Čak su i strane nadvratnika blago zakrivljene, da bi prsten izgledao kao jedna neprekinuta kamena traka.",
+      "seoTitle": "Koliko je veliki Stounhendž? Veličina kamenog kruga",
+      "metaDescription": "Krug od sarsena u Stounhendžu širok je oko 30 m, unutar zemljanog prstena širokog 100–110 m, a sarseni su teški oko 25 tona. Veličina u poređenju.",
+      "image": {
+        "alt": "Polurušeni krug od sarsena u Stounhendžu na zelenoj travi pod plavim nebom sa belim oblacima; niz nadvratnika još leži na uspravnom kamenju."
+      },
+      "facts": {
+        "fact1": "Krug od sarsena: prečnik oko 30 m — 30 uspravnih kamenova pokrivenih prstenom nadvratnika.",
+        "fact2": "Okolni jarak i nasip: prečnik oko 100–110 m, iskopani oko 3000. godine p.n.e.",
+        "fact3": "Sarseni: u proseku oko 25 tona; najviši trilit bio je visok oko 7,3 m.",
+        "fact4": "„Plavo kamenje“: 2–5 tona po komadu, doneto sa oko 225 km udaljenih brda Preseli u Velsu.",
+        "fact5": "Oltarski kamen: ploča od peščara teška 6 tona; studija iz 2024. povezala ga je sa severoistočnom Škotskom, ali je studija iz 2026. zaključila da mu tačno poreklo još nije poznato.",
+        "fact6": "Od 1986. deo UNESCO svetske baštine, zajedno sa Ejvberijem."
+      }
+    },
+    "absolute_zero": {
+      "name": "Apsolutna nula",
+      "seoTitle": "Šta je apsolutna nula? −273,15 °C i zašto je nedostižna",
+      "tagline": "Najhladnije što išta uopšte može da bude: −273,15 °C — dno kojem se možemo približiti, ali ga nikada ne dodirnuti.",
+      "body": "Temperatura je mera toga koliko snažno trepere atomi i molekuli u nekom telu: kada ih hladite, usporavaju. Apsolutna nula, 0 kelvina, tačka je u kojoj ne bi imali više nikakve energije da predaju — tačno −273,15 °C, odnosno −459,67 °F. Taj broj je tačan zato što je od 20. maja 2019. sam kelvin definisan fiksiranjem Bolcmanove konstante. Čak i tada kvantna fizika atomima ostavlja sićušno kretanje koje se nikako ne može ukloniti, takozvano kretanje nulte tačke. A treći zakon termodinamike kaže da se to dno zapravo nikada ne može dostići: svaki korak hlađenja oduzima sve manji deo onoga što je preostalo, pa bi za tačnu nulu trebalo beskonačno mnogo koraka.",
+      "narrative": "Svemir nije najhladnije mesto. Odsjaj Velikog praska drži ceo univerzum na oko 2,7 K, a magneti Velikog hadronskog sudarača rade na još nižih 1,9 K. Najhladnije poznato prirodno mesto, maglina Bumerang udaljena oko 5.000 svetlosnih godina, ima otprilike 1 K. Laboratorije ih sve nadmašuju oko sto milijardi puta: 2026. atomi na kineskoj svemirskoj stanici Tiangong dostigli su oko 10 bilionitih delova stepena iznad apsolutne nule.",
+      "funFact": "Helijum odbija da se smrzne. Njegovi atomi su toliko laki i tako slabo se privlače da ih samo treperenje nulte tačke sprečava da se slože u kristal — pri normalnom pritisku helijum ostaje tečan sve do apsolutne nule. Vilem Kesom je prvi napravio čvrsti helijum 1926, i to samo tako što ga je sabio pod pritiskom.",
+      "image": {
+        "alt": "Trodimenzionalni grafikon u lažnim bojama sa tri oblaka atoma: širok crveno-žuti brežuljak levo, zatim oštri plavo-beli vrhovi koji rastu dok gas prelazi u Boze–Ajnštajnov kondenzat."
+      },
+      "facts": {
+        "fact1": "0 K = −273,15 °C = −459,67 °F — tačno po definiciji od 20. maja 2019.",
+        "fact2": "Treći zakon termodinamike (Valter Nernst, 1912): nijedan postupak ne može dostići apsolutnu nulu u konačnom broju koraka.",
+        "fact3": "Kosmičko mikrotalasno pozadinsko zračenje drži prazan svemir na oko 2,7 K (−270,5 °C).",
+        "fact4": "Maglina Bumerang, oko 5.000 svetlosnih godina daleko u sazvežđu Kentaur, ima oko 1 K — najhladnije poznato prirodno mesto.",
+        "fact5": "Magneti Velikog hadronskog sudarača rade na 1,9 K (−271,3 °C), a hladi ih superfluidni helijum.",
+        "fact6": "Prvi Boze–Ajnštajnov kondenzat: 5. jun 1995 — oko 2.000 atoma rubidijuma ispod 170 milijarditih delova kelvina (Erik Kornel i Karl Viman, JILA).",
+        "fact7": "Laboratorijski rekord: ekvivalentna temperatura od oko 10 bilionitih delova kelvina (oko 10 pK) na svemirskoj stanici Tiangong, objavljeno 2026; prethodni rekord, 38 pK, postignut je u tornju za slobodan pad u Bremenu 2021.",
+        "fact8": "Gijom Amonton je 1703. naslutio da postoji najniža temperatura; Vilijam Tomson, kasnije lord Kelvin, 1848. je predložio skalu koja počinje od nje."
+      },
+      "metaDescription": "Apsolutna nula je tačno −273,15 °C, gde bi atomi prestali da trepere. Zašto je nijedna laboratorija ne dostiže, koliko joj se približimo i gde je najhladnije."
+    },
+    "uncertainty_principle": {
+      "name": "Princip neodređenosti",
+      "seoTitle": "Šta je Hajzenbergov princip neodređenosti?",
+      "tagline": "Odredite tačno gde je čestica i njeno kretanje se zamuti — ne zato što smo nespretni, već zato što je ona talas.",
+      "body": "Verner Hajzenberg je 1927. otkrio da položaj i impuls čestice (masa puta brzina) nikada ne mogu oba istovremeno biti oštro određeni: rasipanje jednog pomnoženo rasipanjem drugog nikad nije manje od sićušnog stalnog iznosa, što se piše Δx·Δp ≥ ħ/2. Često se objašnjava nespretnim merenjem — svetlost kojom gledamo elektron gurne ga u stranu — i sam Hajzenberg je isprva tako rezonovao, ali ta slika zavarava: ni savršeni instrumenti ne bi mogli da probiju tu granicu. Ona potiče od toga što se čestice ponašaju kao talasi. Talas sabijen u kratak paket mora biti sastavljen od mnogo različitih talasnih dužina, a talas sa jednom čistom talasnom dužinom mora se prostirati daleko, pa čestica jednostavno nema tačan položaj i tačan impuls u isto vreme. Isto pravilo sprečava atome da se uruše: elektron sabijen bliže jezgru morao bi da se kreće sve divljije, a energija koju to košta drži ga na odstojanju.",
+      "narrative": "Princip neodređenosti nema sopstvenu veličinu — to je pravilo o tome koliko oštro priroda dopušta da stvari budu određene. Njegova granica je stalna i sićušna, pa se oseća samo u mikrosvetu: zatvorite elektron u prostor širine atoma i njegova brzina postaje neodređena za stotine kilometara u sekundi, dok je za fudbalsku loptu ista granica previše mala da bi se ikad primetila.",
+      "funFact": "Odredite položaj fudbalske lopte od 430 grama na hiljaditi deo milimetra i princip neodređenosti nameće neodređenost njene brzine od oko 10⁻²⁸ m/s. Tim tempom lopta bi se za čitavih 13,8 milijardi godina, koliko je svemir star, pomerila manje od širine jednog atoma.",
+      "metaDescription": "Zašto čestica ne može istovremeno imati tačan položaj i brzinu — ne zbog nespretnog merenja, već zbog talasa — i kako to čuva atome od urušavanja.",
+      "image": {
+        "alt": "Čuvena crno-bela fotografija 29 fizičara sa Solvejeve konferencije 1927. u Briselu — Ajnštajn i Marija Kiri sede u prvom redu, a mladi Hajzenberg stoji pozadi, treći zdesna."
+      },
+      "facts": {
+        "fact1": "Δx·Δp ≥ ħ/2, gde je ħ, redukovana Plankova konstanta, oko 1,055 × 10⁻³⁴ džul-sekundi.",
+        "fact2": "Hajzenberg je ideju objavio 1927; Erl Kenard je iste godine dokazao njen tačan matematički oblik.",
+        "fact3": "Važi za svaku vrstu talasa, ne samo za kvantne: ni vrlo kratak zvučni ili radio-impuls ne može imati jednu tačnu visinu tona.",
+        "fact4": "Zatvorenom u atom širok oko 0,1 nm, elektronu je brzina neodređena za nekoliko stotina kilometara u sekundi.",
+        "fact5": "Ništa ne može biti savršeno mirno: čak i na apsolutnoj nuli čestice zadržavaju podrhtavanje „nulte tačke“ — zato helijum ostaje tečan i na apsolutnoj nuli, osim ako se ne stisne pod visokim pritiskom.",
+        "fact6": "Srodna relacija energije i vremena znači da kratkoživeća stanja imaju razmazanu energiju: pobuđeni atomi zrače malo razlivene boje, a čestice koje se brzo raspadaju imaju nejasnu masu.",
+        "fact7": "„Virtuelne čestice“ koje nakratko pozajmljuju energiju slika su iz proračuna kvantne teorije polja, a ne nešto što se vidi kako iskače i nestaje.",
+        "fact8": "Hajzenberg je dobio Nobelovu nagradu za fiziku za 1932. (uručenu 1933) za stvaranje kvantne mehanike."
+      }
     }
   },
   "about": {
@@ -3149,6 +3257,42 @@
     "cosmic_web": {
       "term": "Kosmička mreža",
       "definition": "Najkrupniji obrazac u svemiru: galaksije okupljene u jata, filamente i zidove, razdvojene ogromnim, gotovo praznim oblastima. Nastala je iz sićušnih talasanja gustine ranog svemira, koja je gravitacija polako zgušnjavala."
+    },
+    "rocket_stage": {
+      "term": "Stepen rakete",
+      "definition": "Deo rakete sa sopstvenim motorima i rezervoarima goriva. Kad mu gorivo ponestane, odbacuje se, da ostali stepeni ne bi nosili njegovu praznu težinu."
+    },
+    "thrust": {
+      "term": "Potisak",
+      "definition": "Sila kojom raketni motor gura raketu izbacujući vrele gasove kroz mlaznicu velikom brzinom. Da bi poletela, potisak rakete mora biti veći od njene težine."
+    },
+    "particle_accelerator": {
+      "term": "Akcelerator čestica",
+      "definition": "Mašina koja električnim poljima ubrzava naelektrisane čestice poput protona, a magnetima ih usmerava — često da bi ih sudarila i proučila šta pritom nastaje."
+    },
+    "sarsen": {
+      "term": "Sarsen",
+      "definition": "Veoma tvrd peščar (silkret) koji u vidu velikih blokova leži širom južne Engleske. Velike uspravne stene i nadvratnici Stounhendža su sarseni, uglavnom iz šume Vest Vuds kod Marlboroa."
+    },
+    "trilithon": {
+      "term": "Trilit",
+      "definition": "Dva uspravna kamena sa trećim položenim preko njihovih vrhova, poput vrata. U središtu Stounhendža bilo ih je pet, raspoređenih u potkovicu; najviši je bio visok oko 7,3 m."
+    },
+    "third_law": {
+      "term": "Treći zakon termodinamike",
+      "definition": "Pravilo da se apsolutnoj nuli možemo približavati sve više, ali da se ona ne može dostići u konačnom broju koraka."
+    },
+    "bose_einstein_condensate": {
+      "term": "Boze–Ajnštajnov kondenzat",
+      "definition": "Gas ohlađen nadomak apsolutne nule, u kojem hiljade atoma padnu u isto stanje najniže energije i ponašaju se kao jedan džinovski „superatom“."
+    },
+    "wave_function": {
+      "term": "Talasna funkcija",
+      "definition": "Matematički talas koji opisuje kvantnu česticu. Gde je talas veliki, česticu ćemo najverovatnije zateći."
+    },
+    "zero_point_energy": {
+      "term": "Energija nulte tačke",
+      "definition": "Najniža energija koju kvantni sistem može da ima. Nikada nije nula: čak i na apsolutnoj nuli čestice zadržavaju malo, neizbežno podrhtavanje."
     }
   },
   "faq": {
@@ -3268,7 +3412,10 @@
       "house_cat": "domaća mačka",
       "omega_centauri": "Omega Kentaura",
       "local_group": "Lokalna grupa",
-      "sloan_great_wall": "Veliki zid Sloan"
+      "sloan_great_wall": "Veliki zid Sloan",
+      "saturn_v": "raketa Saturn V",
+      "large_hadron_collider": "Veliki hadronski sudarač",
+      "stonehenge": "Stounhendž"
     },
     "a3smallerTall": "Korak niže: {other} ({otherSize}), oko {ratio} puta niže.",
     "a3largerTall": "Korak više: {other} ({otherSize}), oko {ratio} puta više.",
@@ -3473,9 +3620,9 @@
     },
     "spacecraft": {
       "short": "Letelice",
-      "title": "Svemirske letelice",
-      "seoTitle": "Svemirske letelice: MSS, Džejms Veb i Voyager 1",
-      "intro": "Mašine koje smo poslali iznad neba: Međunarodna svemirska stanica, koja kruži na 400 km visine, teleskop Džejms Veb, 1,5 miliona km daleko, i Voyager 1, sada čitav svetlosni dan daleko, u međuzvezdanom prostoru.",
+      "title": "Svemirske letelice i rakete",
+      "seoTitle": "Letelice i rakete: Saturn V, ISS, Veb i Voyager 1",
+      "intro": "Mašine koje smo poslali iznad neba: raketa Saturn V visoka 111 metara, koja je astronaute poslala na Mesec, Međunarodna svemirska stanica, koja kruži na 400 km visine, teleskop Džejms Veb, 1,5 miliona km daleko, i Voyager 1, sada čitav svetlosni dan daleko, u međuzvezdanom prostoru.",
       "metaDescription": "Od MSS, 400 km iznad Zemlje, preko teleskopa Veb na 1,5 miliona km, do Voyagera 1, udaljenog svetlosni dan: naše letelice, veličine, brzine i udaljenosti."
     },
     "landmark": {
@@ -3502,9 +3649,9 @@
     "ancient": {
       "short": "Drevna čuda",
       "title": "Drevna čuda, po veličini",
-      "seoTitle": "Drevna čuda: piramida, Koloseum i Kineski zid",
-      "intro": "Ono što su ljudi gradili snagom mišića, rampama i strpljenjem: Velika piramida od 139 metara, najviša građevina na Zemlji skoro četiri hiljade godina; Koloseum, arena duga 189 metara za oko 50.000 gledalaca; i Kineski zid, oko 21.000 km zidova podizanih tokom dve hiljade godina.",
-      "metaDescription": "Velika piramida (139 m visine), Koloseum (189 m dužine) i Kineski zid (oko 21.196 km) upoređeni po veličini — najveće građevine drevnog sveta."
+      "seoTitle": "Drevna čuda: Stounhendž, piramida i Koloseum",
+      "intro": "Ono što su ljudi gradili snagom mišića, rampama i strpljenjem: kameni krug Stounhendža širok 30 metara, podignut oko 2500. godine p.n.e. delom od kamenja dovučenog čak iz Velsa, sa oko 225 km udaljenosti; Velika piramida od 139 metara, najviša građevina na Zemlji skoro četiri hiljade godina; Koloseum, arena duga 189 metara za oko 50.000 gledalaca; i Kineski zid, oko 21.000 km zidova podizanih tokom dve hiljade godina.",
+      "metaDescription": "Stounhendž (30 m u prečniku), Velika piramida (139 m visine), Koloseum (189 m dužine) i Kineski zid (oko 21.196 km) upoređeni po veličini."
     },
     "insect": {
       "short": "Insekti",

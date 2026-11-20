@@ -222,10 +222,17 @@ export function formatTemperature(
   const k = kelvin;
 
   // Below 1,000 K — show precise values; the K/°C difference matters here.
+  // Below 10 K one decimal matters: the LHC's magnets run at 1.9 K, not 2.
+  if (k < 10) {
+    const d = { maximumFractionDigits: 1 };
+    const kR = round1(k);
+    const cR = round1((Math.round(k * 100) - 27315) / 100);
+    return `${kR.toLocaleString(loc, d)} K (${cR.toLocaleString(loc, d)} °C)`;
+  }
   if (k < 1000) {
     const kRounded = Math.round(k);
     const cRounded = Math.round(celsius);
-    return `${kRounded.toLocaleString(loc)} K (${cRounded >= 0 ? "" : ""}${cRounded.toLocaleString(loc)} °C)`;
+    return `${kRounded.toLocaleString(loc)} K (${cRounded.toLocaleString(loc)} °C)`;
   }
 
   // Above 1,000 K — show both with rough rounding; at this scale K ≈ °C.
@@ -246,9 +253,14 @@ export function formatTemperature(
   return `${scaled(bK, "common.numberBillion", tr, loc)} K (${tr("common.tempSameInC")})`;
 }
 
+/** One decimal, halves away from zero (−271.25 °C → −271.3, as CERN writes it). */
+function round1(v: number): number {
+  return (Math.sign(v) * Math.round(Math.abs(v) * 10)) / 10;
+}
+
 /**
- * Single-unit temperature in the visitor's preferred scale. Values under
- * 1,000 are exact to the degree; up to a million they round to the nearest
+ * Single-unit temperature in the visitor's preferred scale. Below 10 K one
+ * decimal; values under 1,000 are exact to the degree; up to a million they round to the nearest
  * hundred; beyond that they switch to "million" / "billion" wording.
  */
 function formatTemperatureIn(
@@ -265,6 +277,13 @@ function formatTemperatureIn(
         : (kelvin - 273.15) * 1.8 + 32;
   const symbol = unit === "K" ? "K" : `°${unit}`;
   const abs = Math.abs(value);
+  if (kelvin < 10) {
+    const k100 = Math.round(kelvin * 100);
+    const v = round1(
+      unit === "K" ? k100 / 100 : unit === "C" ? (k100 - 27315) / 100 : ((k100 - 27315) * 1.8) / 100 + 32
+    );
+    return `${v.toLocaleString(loc, { maximumFractionDigits: 1 })} ${symbol}`;
+  }
   if (abs < 1000) return `${Math.round(value).toLocaleString(loc)} ${symbol}`;
   if (abs < 1e6) {
     return `${(Math.round(value / 100) * 100).toLocaleString(loc)} ${symbol}`;

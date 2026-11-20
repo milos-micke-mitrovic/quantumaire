@@ -513,7 +513,7 @@
     "galaxy": "Galaxy",
     "galaxy-cluster": "Galaxy groups and clusters",
     "supercluster": "Supercluster",
-    "spacecraft": "Spacecraft",
+    "spacecraft": "Spacecraft and rockets",
     "unit": "Unit of distance",
     "phenomenon": "Phenomenon",
     "cosmos": "Cosmos",
@@ -1313,7 +1313,7 @@
       "massNarrative": "A large blue whale outweighs about 30 elephants, and its newborn calf already weighs as much as a small elephant.",
       "funFact": "Its heart is huge, but not car-sized: the one preserved by Canada's Royal Ontario Museum weighs about 180 kg and stands roughly 1.5 m tall. And no, a child couldn't swim through its arteries — the aorta is only about as wide as a dinner plate.",
       "image": {
-        "alt": "A blue whale gliding through sunlit open ocean, dwarfing a diver beside it."
+        "alt": "A blue whale seen from above, its long blue-grey back breaking the surface of dark ocean water in a trail of white spray."
       },
       "facts": {
         "fact1": "Longest reliably measured: 29.9 m.",
@@ -2332,6 +2332,114 @@
         "fact5": "Not gravitationally bound: it is a chain of several superclusters, and only regions about 35 million light-years in radius at the hearts of the richest ones may be collapsing.",
         "fact6": "Mass: at least about 3.5 × 10¹⁶ Suns, according to a 2016 lower limit."
       }
+    },
+    "saturn_v": {
+      "name": "Saturn V",
+      "seoTitle": "How Tall Was the Saturn V? The 111 m Moon Rocket",
+      "tagline": "111 metres of rocket, nearly 3,000 tonnes at liftoff — the machine that carried astronauts to the Moon.",
+      "body": "The Saturn V was the rocket NASA built to send astronauts to the Moon. Stacked with the Apollo spacecraft on top, it stood about 111 m (363 ft) tall and 10 m wide, and weighed roughly 2,800–2,970 tonnes fully fuelled — almost all of it propellant. It had three stages: the first, with five F-1 engines, burned for about two and a half minutes and pushed with some 34.5 meganewtons of thrust, then dropped away so the lighter upper stages could carry on. Thirteen Saturn Vs flew between 1967 and 1973; nine of them launched 24 astronauts toward the Moon, from Apollo 8 to Apollo 17, including Apollo 11 on 16 July 1969. Only a handful of rockets have ever lifted off with more thrust, among them NASA's SLS and SpaceX's Starship, which pushes more than twice as hard.",
+      "narrative": "Stand a Saturn V next to the Statue of Liberty and the rocket is about 18 m taller — pedestal and torch included. Stood on end it matched a 36-storey building; laid on its side, it would be about as long as a football pitch.",
+      "massNarrative": "Fully fuelled, a Saturn V weighed about 2,800 tonnes — as much as roughly 450 elephants. Its first stage alone held more than 2 million litres of kerosene and liquid oxygen, and burned through nearly all of it in about two and a half minutes.",
+      "funFact": "The last Saturn V had only two stages: on 14 May 1973 it launched Skylab, America's first space station, which had been converted from a Saturn V third stage. And from Apollo 13 onwards, the spent third stages were deliberately crashed into the Moon so that seismometers left by earlier crews could feel the impacts and help map the Moon's interior.",
+      "image": {
+        "alt": "A white Saturn V rocket lifting off beside its red launch tower, flames and billowing clouds of exhaust at its base, under a deep blue sky."
+      },
+      "facts": {
+        "fact1": "Height: about 111 m (363 ft) with the Apollo spacecraft on top; diameter 10 m.",
+        "fact2": "Mass at liftoff: about 2,800–2,970 tonnes, depending on the mission.",
+        "fact3": "Liftoff thrust: about 34.5 meganewtons (7.6 million pounds-force), from five F-1 engines.",
+        "fact4": "13 launches from 1967 to 1973; 24 astronauts sent toward the Moon on nine missions.",
+        "fact5": "Could send about 43.5 tonnes to the Moon.",
+        "fact6": "Three complete Saturn Vs are on display: in Huntsville, Houston and at the Kennedy Space Center."
+      },
+      "metaDescription": "The Saturn V stood about 111 m tall — 18 m taller than the Statue of Liberty — and weighed nearly 3,000 tonnes. The Apollo Moon rocket in numbers."
+    },
+    "large_hadron_collider": {
+      "name": "Large Hadron Collider",
+      "seoTitle": "How Big Is the Large Hadron Collider? Size of CERN's LHC",
+      "tagline": "A 27-kilometre ring of magnets under Geneva, built to smash protons together and look inside matter.",
+      "body": "The Large Hadron Collider (LHC) at CERN is the world's largest and most powerful particle accelerator: a ring about 26.7 km around, buried on average 100 m underground beneath the French–Swiss border near Geneva. Two beams of protons race around it in opposite directions, steered by 1,232 superconducting magnets chilled to 1.9 K (−271.3 °C) — colder than outer space. Where the beams cross, giant detectors record the debris of collisions at 13.6 TeV and use it to test the Standard Model. In 2012 two of them, ATLAS and CMS, discovered the Higgs boson this way. A machine 27 km around, built to study things far smaller than a proton.",
+      "narrative": "Walking once around the LHC ring would take you about five and a half hours. A proton does it 11,245 times every second — in one second it covers almost 300,000 km, about three-quarters of the way to the Moon.",
+      "funFact": "The ring is about 8.5 km across, yet what it studies is almost unimaginably small: by smashing protons together, the CMS experiment has shown that quarks, if they have any parts at all, must be smaller than about 10⁻²⁰ m — less than a hundred-thousandth of a proton's width. The biggest particle accelerator ever built is a microscope for the smallest things.",
+      "metaDescription": "CERN's Large Hadron Collider is a ring 26.7 km around, 100 m underground, where protons collide at 13.6 TeV — the machine that found the Higgs boson.",
+      "temperatureNote": "superconducting magnets",
+      "image": {
+        "alt": "The LHC tunnel at CERN: a long line of blue cylindrical superconducting magnets curving away into the distance beneath cable trays and lights."
+      },
+      "facts": {
+        "fact1": "Circumference: about 26.7 km (26,659 m) — a ring about 8.5 km across.",
+        "fact2": "Depth: 50–175 m underground, about 100 m on average; the ring crosses the border between France and Switzerland.",
+        "fact3": "1,232 superconducting dipole magnets, each 15 m long and weighing 35 tonnes, bend the beams around the ring.",
+        "fact4": "The magnets run at 1.9 K (−271.3 °C), colder than outer space, cooled by about 96 tonnes of superfluid helium.",
+        "fact5": "Collision energy: 13.6 TeV (two beams of 6.8 TeV each), since 2022.",
+        "fact6": "Protons reach about 99.999999% of the speed of light — only about 3 m/s slower than light — and lap the ring 11,245 times a second.",
+        "fact7": "First beam: 10 September 2008. In 2012 its ATLAS and CMS experiments discovered the Higgs boson.",
+        "fact8": "Switched off since July 2026 for its biggest upgrade, the High-Luminosity LHC (about 10 times more collisions), due to start running around mid-2030."
+      }
+    },
+    "stonehenge": {
+      "name": "Stonehenge",
+      "tagline": "A ring of giant stones about 30 metres across, raised on Salisbury Plain some 4,500 years ago and lined up with the midsummer sunrise.",
+      "body": "Stonehenge, on Salisbury Plain in southern England, was built and rebuilt over some 1,500 years. Around 3000 BC people dug a circular ditch and bank roughly 100–110 metres across and buried the cremated remains of their dead inside it; around 2500 BC they raised the stones at its centre: a circle of 30 sarsen uprights about 30 metres across, capped by a ring of lintels, around a horseshoe of five giant trilithons. The sarsens, about 25 tonnes each on average, came from West Woods some 25 km to the north, while the smaller bluestones were brought about 225 km from the Preseli Hills in Wales. The monument's main axis points to the midsummer sunrise and the midwinter sunset, so those days clearly mattered to its builders, but what it was for — a temple, a monument to the dead, a gathering place — is still debated, and claims that it worked as a precise astronomical calculator are speculation.",
+      "narrative": "The sarsen circle is about 30 metres across, so a 25-metre blue whale would fit across it with a little room to spare. The earthwork ring around it is more than three times wider, and the tallest trilithon once stood about 7.3 metres high, taller than a two-storey house.",
+      "funFact": "The builders shaped the stones the way a carpenter shapes timber: each lintel sits on knobs carved on top of the uprights (mortise and tenon joints), and neighbouring lintels slot together with tongue-and-groove joints. Even the lintels' faces were gently curved so the ring would look like one continuous band of stone.",
+      "seoTitle": "How Big Is Stonehenge? Size of the Stone Circle",
+      "metaDescription": "Stonehenge's sarsen circle is about 30 m across, inside an earthwork ring 100–110 m wide, and its sarsens weigh about 25 tonnes each. Size compared.",
+      "image": {
+        "alt": "The ruined sarsen circle of Stonehenge on green grass under a blue sky with white clouds, a row of lintels still resting on the upright stones."
+      },
+      "facts": {
+        "fact1": "Sarsen circle: about 30 m across — 30 uprights capped by a ring of lintels.",
+        "fact2": "Surrounding ditch and bank: about 100–110 m across, dug around 3000 BC.",
+        "fact3": "Sarsens: about 25 tonnes each on average; the tallest trilithon stood about 7.3 m high.",
+        "fact4": "Bluestones: 2–5 tonnes each, brought about 225 km from the Preseli Hills in Wales.",
+        "fact5": "Altar Stone: a 6-tonne sandstone slab; a 2024 study traced it to north-east Scotland, but a 2026 study concluded its exact source is still unknown.",
+        "fact6": "Part of a UNESCO World Heritage Site, together with Avebury, since 1986."
+      }
+    },
+    "absolute_zero": {
+      "name": "Absolute Zero",
+      "seoTitle": "What Is Absolute Zero? −273.15 °C and Why It's Out of Reach",
+      "tagline": "The coldest anything could ever be: −273.15 °C — a floor we can creep towards but never touch.",
+      "body": "Temperature is a measure of how hard the atoms and molecules in something are jiggling: cool them and they slow down. Absolute zero, 0 kelvin, is the point where they would have no energy left to give — exactly −273.15 °C, or −459.67 °F. The number is exact because since 20 May 2019 the kelvin itself has been defined by fixing the Boltzmann constant. Even there, quantum physics leaves atoms a tiny motion that can never be removed, called zero-point motion. And the third law of thermodynamics says the floor can never actually be reached: each cooling step takes away a smaller share of what is left, so getting to exactly zero would take infinitely many steps.",
+      "narrative": "Space is not the coldest it gets. The afterglow of the Big Bang keeps the whole universe at about 2.7 K, and the magnets of the Large Hadron Collider run colder still, at 1.9 K. The coldest natural place known, the Boomerang Nebula about 5,000 light-years away, sits at roughly 1 K. Laboratories beat all of them about a hundred billion times over: in 2026 atoms on China's Tiangong space station reached about 10 trillionths of a degree above absolute zero.",
+      "funFact": "Helium refuses to freeze. Its atoms are so light and so weakly attracted to each other that their zero-point jiggling alone keeps them from locking into a crystal — at normal pressure helium stays liquid all the way down to absolute zero. Willem Keesom first made solid helium in 1926, and only by squeezing it.",
+      "image": {
+        "alt": "A 3D false-colour graph of three clouds of atoms: a broad red-and-yellow mound on the left, then sharp blue-and-white peaks rising as the gas turns into a Bose–Einstein condensate."
+      },
+      "facts": {
+        "fact1": "0 K = −273.15 °C = −459.67 °F — exact by definition since 20 May 2019.",
+        "fact2": "Third law of thermodynamics (Walther Nernst, 1912): no process can reach absolute zero in a finite number of steps.",
+        "fact3": "The cosmic microwave background keeps empty space at about 2.7 K (−270.5 °C).",
+        "fact4": "The Boomerang Nebula, about 5,000 light-years away in Centaurus, is about 1 K — the coldest natural place known.",
+        "fact5": "The Large Hadron Collider's magnets run at 1.9 K (−271.3 °C), cooled by superfluid helium.",
+        "fact6": "First Bose–Einstein condensate: 5 June 1995 — about 2,000 rubidium atoms below 170 billionths of a kelvin (Eric Cornell and Carl Wieman, JILA).",
+        "fact7": "Lab record: an equivalent temperature of about 10 trillionths of a kelvin (about 10 pK) on the Tiangong space station, published in 2026; the previous record, 38 pK, came from a drop tower in Bremen in 2021.",
+        "fact8": "Guillaume Amontons guessed at a lowest temperature in 1703; in 1848 William Thomson, later Lord Kelvin, proposed a scale that starts from it."
+      },
+      "metaDescription": "Absolute zero is exactly −273.15 °C, where atoms would stop jiggling. Why no lab can reach it, how close we get, and the coldest places in the universe."
+    },
+    "uncertainty_principle": {
+      "name": "Uncertainty Principle",
+      "seoTitle": "What Is the Uncertainty Principle? Heisenberg Explained",
+      "tagline": "Pin down where a particle is and its motion blurs — not because we are clumsy, but because it is a wave.",
+      "body": "In 1927 Werner Heisenberg found that a particle's position and its momentum (mass times velocity) can never both be sharp at once: the spread in one multiplied by the spread in the other is never smaller than a tiny fixed amount, written Δx·Δp ≥ ħ/2. It is often explained as clumsy measuring — the light you use to see an electron knocks it aside — and Heisenberg himself first argued that way, but that picture is misleading: even perfect instruments could not beat the limit. It comes from the fact that particles behave as waves. A wave squeezed into a short blip has to be built from many different wavelengths, and a wave with one clean wavelength has to stretch out far, so a particle simply does not have an exact position and an exact momentum at the same time. The same rule keeps atoms from collapsing: an electron squeezed closer to the nucleus would have to move ever more wildly, and the energy that costs holds it at a distance.",
+      "narrative": "The uncertainty principle has no size of its own — it is a rule about how sharply nature lets things be defined. Its limit is fixed and tiny, so it only bites in the micro world: confine an electron to the width of an atom and its speed becomes uncertain by hundreds of kilometres per second, while for a football the same limit is far too small ever to notice.",
+      "funFact": "Pin a 430-gram football's position down to a thousandth of a millimetre and the uncertainty principle forces its speed to be uncertain by about 10⁻²⁸ m/s. At that rate the ball would drift less than the width of a single atom in the entire 13.8-billion-year age of the universe.",
+      "metaDescription": "Why a particle can't have an exact position and speed at once — not clumsy measurement but waves — and why Heisenberg's principle keeps atoms from collapsing.",
+      "image": {
+        "alt": "The famous black-and-white photo of 29 physicists at the 1927 Solvay Conference in Brussels — Einstein and Marie Curie sit in the front row, and a young Heisenberg stands third from the right at the back."
+      },
+      "facts": {
+        "fact1": "Δx·Δp ≥ ħ/2, where ħ, the reduced Planck constant, is about 1.055 × 10⁻³⁴ joule-seconds.",
+        "fact2": "Heisenberg published the idea in 1927; Earle Kennard proved its exact mathematical form later the same year.",
+        "fact3": "It holds for every kind of wave, not only quantum ones: a very short sound or radio pulse can't have one exact pitch either.",
+        "fact4": "Confined to an atom about 0.1 nm across, an electron's speed is uncertain by several hundred kilometres per second.",
+        "fact5": "Nothing can be perfectly still: even at absolute zero particles keep a 'zero-point' jiggle — which is why helium stays liquid at absolute zero unless squeezed under high pressure.",
+        "fact6": "A matching energy–time relation means short-lived states have blurred energies: excited atoms emit slightly spread-out colours, and fast-decaying particles have fuzzy masses.",
+        "fact7": "'Virtual particles' that briefly borrow energy are a picture used in quantum field theory calculations, not something seen popping in and out.",
+        "fact8": "Heisenberg received the 1932 Nobel Prize in Physics (awarded in 1933) for creating quantum mechanics."
+      }
     }
   },
   "about": {
@@ -3149,6 +3257,42 @@
     "cosmic_web": {
       "term": "Cosmic web",
       "definition": "The universe's largest-scale pattern: galaxies gathered into clusters, filaments and walls, separated by vast, nearly empty voids. It grew from tiny ripples in the density of the early universe, which gravity slowly pulled together."
+    },
+    "rocket_stage": {
+      "term": "Rocket stage",
+      "definition": "A section of a rocket with its own engines and fuel tanks. When its fuel runs out it is dropped, so the remaining stages don't have to carry its empty weight."
+    },
+    "thrust": {
+      "term": "Thrust",
+      "definition": "The push a rocket engine produces by throwing hot gas out of its nozzle at high speed. To lift off, a rocket's thrust must be greater than its weight."
+    },
+    "particle_accelerator": {
+      "term": "Particle accelerator",
+      "definition": "A machine that speeds up charged particles such as protons with electric fields and steers them with magnets — often to smash them together and study what comes out."
+    },
+    "sarsen": {
+      "term": "Sarsen",
+      "definition": "A very hard sandstone (silcrete) that lies in boulders across southern England. Stonehenge's big uprights and lintels are sarsens, most of them from West Woods near Marlborough."
+    },
+    "trilithon": {
+      "term": "Trilithon",
+      "definition": "Two upright stones with a third laid across their tops, like a doorway. Stonehenge's centre had five, arranged in a horseshoe; the tallest stood about 7.3 m high."
+    },
+    "third_law": {
+      "term": "Third law of thermodynamics",
+      "definition": "The rule that absolute zero can be approached ever more closely but never reached in a finite number of steps."
+    },
+    "bose_einstein_condensate": {
+      "term": "Bose–Einstein condensate",
+      "definition": "A gas cooled to within a whisker of absolute zero, where thousands of atoms fall into the same lowest-energy state and behave like one giant 'super-atom'."
+    },
+    "wave_function": {
+      "term": "Wave function",
+      "definition": "The mathematical wave that describes a quantum particle. Where the wave is large, the particle is most likely to be found."
+    },
+    "zero_point_energy": {
+      "term": "Zero-point energy",
+      "definition": "The lowest energy a quantum system can have. It is never zero: even at absolute zero, particles keep a small, unavoidable jiggle."
     }
   },
   "faq": {
@@ -3263,7 +3407,10 @@
       "house_cat": "a house cat",
       "omega_centauri": "Omega Centauri",
       "local_group": "the Local Group",
-      "sloan_great_wall": "the Sloan Great Wall"
+      "sloan_great_wall": "the Sloan Great Wall",
+      "saturn_v": "the Saturn V rocket",
+      "large_hadron_collider": "the Large Hadron Collider",
+      "stonehenge": "Stonehenge"
     },
     "a7where": "The typical temperature of {name} is about {temp} — {note}.",
     "a2taller": "{Name} is roughly {ratio} times taller than a 1.7 m human.",
@@ -3473,9 +3620,9 @@
     },
     "spacecraft": {
       "short": "Spacecraft",
-      "title": "Spacecraft",
-      "seoTitle": "Spacecraft: ISS, James Webb and Voyager 1 Compared",
-      "intro": "The machines we have sent beyond the sky: the International Space Station circling 400 km up, the James Webb Space Telescope 1.5 million km away, and Voyager 1, now a full light-day out in interstellar space.",
+      "title": "Spacecraft and rockets",
+      "seoTitle": "Spacecraft and Rockets: Saturn V, ISS, Webb, Voyager 1",
+      "intro": "The machines we have sent beyond the sky: the 111-metre Saturn V that launched astronauts to the Moon, the International Space Station circling 400 km up, the James Webb Space Telescope 1.5 million km away, and Voyager 1, now a full light-day out in interstellar space.",
       "metaDescription": "From the ISS 400 km above Earth to Webb at 1.5 million km and Voyager 1 a light-day away: our spacecraft, their sizes, speeds and distances."
     },
     "landmark": {
@@ -3502,9 +3649,9 @@
     "ancient": {
       "short": "Ancient wonders",
       "title": "Ancient wonders, by size",
-      "seoTitle": "Ancient Wonders Compared: Pyramid, Colosseum, Great Wall",
-      "intro": "What people built with muscle, ramps and patience: the 139-metre Great Pyramid, tallest building on Earth for nearly four thousand years; the Colosseum, an arena 189 metres long for some 50,000 spectators; and the Great Wall of China, about 21,000 km of walls raised over two thousand years.",
-      "metaDescription": "The Great Pyramid (139 m tall), the Colosseum (189 m long) and the Great Wall of China (about 21,196 km) compared by size — the ancient world's biggest builds."
+      "seoTitle": "Ancient Wonders Compared: Pyramid, Colosseum, Stonehenge",
+      "intro": "What people built with muscle, ramps and patience: the 30-metre stone circle of Stonehenge, raised around 2500 BC with some of its stones hauled about 225 km from Wales; the 139-metre Great Pyramid, tallest building on Earth for nearly four thousand years; the Colosseum, an arena 189 metres long for some 50,000 spectators; and the Great Wall of China, about 21,000 km of walls raised over two thousand years.",
+      "metaDescription": "Stonehenge (30 m across), the Great Pyramid (139 m tall), the Colosseum (189 m long) and the Great Wall of China (about 21,196 km) compared by size."
     },
     "insect": {
       "short": "Insects",

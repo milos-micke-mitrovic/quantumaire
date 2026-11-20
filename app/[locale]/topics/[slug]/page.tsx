@@ -87,6 +87,8 @@ export default async function TopicPage({ params }: PageProps) {
       ? [`${topic.i18nKey}.keyNumber${kn.text}Label`, `${topic.i18nKey}.keyNumber${kn.text}Value`]
       : []
   );
+  // The hero image's alt text (not in the base dictionary).
+  clientKeys.push(`stops.${topic.heroStopId}.image`);
 
   return (
     <>

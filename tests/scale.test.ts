@@ -195,6 +195,9 @@ describe("formatTemperature in a chosen unit", () => {
     expect(formatTemperature(5772, undefined, "F")).toBe("9,900 °F");
     expect(formatTemperature(5772, undefined, "K")).toBe("5,800 K");
     expect(formatTemperature(288, undefined, "C")).toBe("15 °C");
+    expect(formatTemperature(1.9, undefined, "K")).toBe("1.9 K");
+    expect(formatTemperature(1.9, undefined, "C")).toBe("-271.3 °C");
+    expect(formatTemperature(1.9)).toBe("1.9 K (-271.3 °C)");
     expect(formatTemperature(288, undefined, "F")).toBe("59 °F");
     expect(formatTemperature(1.57e7, undefined, "C")).toBe("15.7 million °C");
   });

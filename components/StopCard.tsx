@@ -51,6 +51,7 @@ export function StopCard({ stop, index, sizes = GRID_SIZES, deferImage = false }
             className="mb-4"
             defer={deferImage}
             sizes={sizes}
+            decorative
           />
           {isVisited && (
             <span

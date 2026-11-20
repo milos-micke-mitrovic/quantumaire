@@ -42,6 +42,8 @@ export const COMPARE_PAIRS: Array<[string, string]> = [
   ["pluto", "ceres"],
   ["great_red_spot", "earth"],
   ["milky_way", "large_magellanic_cloud"],
+  ["saturn_v", "statue_of_liberty"],
+  ["local_group", "milky_way"],
 ];
 
 export const idToSlug = (id: string) => id.replace(/_/g, "-");

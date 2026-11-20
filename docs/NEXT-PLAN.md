@@ -24,10 +24,10 @@ empty in nature too; leave them.)
 
 ## 2. Humankind is the thinnest category (8 topics)
 
-- [ ] Saturn V rocket (110.6 m), Large Hadron Collider (27 km ring — links
+- [x] Saturn V rocket (110.6 m), Large Hadron Collider (27 km ring — links
       the Higgs topic), Stonehenge (or another well-known ancient site) —
       pick measures that make honest comparisons (height / ring length / width)
-- [ ] Compare pairs that people search and read well (e.g. saturn-v-vs-
+- [x] Compare pairs that people search and read well (e.g. saturn-v-vs-
       statue-of-liberty?), dumped and read
 
 ## 3. A guide people search for: animals by size
@@ -39,10 +39,18 @@ empty in nature too; leave them.)
 
 ## 4. Physics ideas (7 topics, all abstract)
 
-- [ ] Absolute zero (ties into the temperature scale), the uncertainty
+- [x] Absolute zero (ties into the temperature scale), the uncertainty
       principle — idea topics (sizeMeters null), sourced, both locales
 
-## 5. Search Console data (blocked until enough pages are indexed)
+## 5. Image alt texts (found 2026-11-20)
+
+The blue whale's alt described "a diver beside it" — the photo is an aerial
+shot with no diver. Older topics' alts were written for earlier images.
+
+- [ ] Look at every `public/images/*.webp` next to its EN alt text (and SR);
+      fix any that describe a different picture.
+
+## 6. Search Console data (blocked until enough pages are indexed)
 
 - [ ] Pages with impressions but low CTR → rewrite titles/descriptions.
 

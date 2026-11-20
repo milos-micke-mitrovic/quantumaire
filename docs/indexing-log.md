@@ -95,6 +95,12 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/tag/galaxy-cluster (new 2026-11-20)
 - https://quantumaire.space/en/tag/supercluster (new 2026-11-20)
 - https://quantumaire.space/en/topics/animals-by-size (new 2026-11-20)
+- https://quantumaire.space/en/stop/saturn_v (new 2026-11-20)
+- https://quantumaire.space/en/stop/large_hadron_collider (new 2026-11-20)
+- https://quantumaire.space/en/stop/stonehenge (new 2026-11-20)
+- https://quantumaire.space/en/stop/absolute_zero (new 2026-11-20)
+- https://quantumaire.space/en/stop/uncertainty_principle (new 2026-11-20)
+- https://quantumaire.space/en/compare/saturn-v-vs-statue-of-liberty (new 2026-11-20)
 
 ## Done
 

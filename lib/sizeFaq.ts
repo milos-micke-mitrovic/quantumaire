@@ -93,10 +93,13 @@ function neighbour(rank: number, step: -1 | 1): Stop | null {
     const other = SIZED[i];
     const ratio = ratioTo(other);
     if (ratio > MAX_NEIGHBOUR && i !== rank + step) break;
-    if (!nearest && (ratio >= NEAR_EQUAL || areRelated(self, other))) nearest = other;
     const sameKind = measureKind(self) === measureKind(other);
+    // "1.02 times bigger" only reads well between two of the same measure
+    // (Uranus/Neptune, two heights) — not a rocket's height vs a station's width.
+    const nearOk = ratio >= NEAR_EQUAL || (sameKind && areRelated(self, other));
+    if (!nearest && nearOk) nearest = other;
     const sharedTag = (self.tags ?? []).some((tag) => (other.tags ?? []).includes(tag));
-    if (sharedTag || (sameKind && (ratio >= NEAR_EQUAL || areRelated(self, other)))) {
+    if (nearOk && (sharedTag || sameKind)) {
       preferred = other;
       break;
     }

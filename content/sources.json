@@ -1192,5 +1192,99 @@
       "label": "NASA APOD — The Sloan Great Wall: Largest Known Structure?",
       "url": "https://apod.nasa.gov/apod/ap071107.html"
     }
+  ],
+  "saturn_v": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Saturn_V"
+    },
+    {
+      "label": "NASA",
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-was-the-saturn-v-grades-5-8/"
+    },
+    {
+      "label": "Smithsonian National Air and Space Museum",
+      "url": "https://airandspace.si.edu/stories/editorial/looking-closer-saturn-v"
+    }
+  ],
+  "large_hadron_collider": [
+    {
+      "label": "CERN — The Large Hadron Collider",
+      "url": "https://home.cern/science/accelerators/large-hadron-collider"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Large_Hadron_Collider"
+    },
+    {
+      "label": "CERN — Updated schedule for CERN's accelerators (HL-LHC)",
+      "url": "https://home.cern/updated-schedule-cerns-accelerators"
+    },
+    {
+      "label": "CERN — CMS looks deep inside quarks",
+      "url": "https://home.cern/cms-looks-deep-inside-quarks/"
+    }
+  ],
+  "stonehenge": [
+    {
+      "label": "Wikipedia — Stonehenge",
+      "url": "https://en.wikipedia.org/wiki/Stonehenge"
+    },
+    {
+      "label": "English Heritage — Description of Stonehenge",
+      "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/history/description/"
+    },
+    {
+      "label": "English Heritage — Building Stonehenge",
+      "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/building-stonehenge/"
+    },
+    {
+      "label": "Nature (2024) — A Scottish provenance for the Altar Stone",
+      "url": "https://www.nature.com/articles/s41586-024-07652-1"
+    },
+    {
+      "label": "Journal of the Geological Society (2026) — Searching for the origin of the Altar Stone",
+      "url": "https://doi.org/10.1144/jgs2026-090"
+    }
+  ],
+  "absolute_zero": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Absolute_zero"
+    },
+    {
+      "label": "NIST",
+      "url": "https://www.nist.gov/si-redefinition/kelvin-introduction"
+    },
+    {
+      "label": "CERN",
+      "url": "https://home.cern/science/engineering/cryogenics-low-temperatures-high-performance"
+    },
+    {
+      "label": "ALMA Observatory",
+      "url": "https://www.almaobservatory.org/en/press-releases/alma-reveals-ghostly-shape-of-coldest-place-in-the-universe/"
+    },
+    {
+      "label": "Science News",
+      "url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station"
+    }
+  ],
+  "uncertainty_principle": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Uncertainty_principle"
+    },
+    {
+      "label": "HyperPhysics (Georgia State University)",
+      "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/uncer.html"
+    },
+    {
+      "label": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/qt-uncertainty/"
+    },
+    {
+      "label": "NIST (CODATA ħ)",
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?hbar"
+    }
   ]
 }

@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, m as motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
+import { imageAlt } from "@/lib/imageAlt";
 import { localizeCredit } from "@/lib/text";
 import type { ImagePlaceholder as ImagePlaceholderType } from "@/lib/types";
 import { ImagePlaceholder } from "./ImagePlaceholder";
@@ -44,7 +45,7 @@ export function LightboxImage({
     };
   }, [open, close]);
 
-  const alt = t(image.altKey);
+  const alt = imageAlt(t, image.altKey);
 
   return (
     <>

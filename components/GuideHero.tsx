@@ -3,6 +3,7 @@
 import clsx from "clsx";
 import Image from "next/image";
 import { useI18n } from "@/lib/i18n";
+import { imageAlt } from "@/lib/imageAlt";
 import { localizeCredit } from "@/lib/text";
 import type { Stop } from "@/lib/types";
 
@@ -19,7 +20,7 @@ export function GuideHero({ stop }: GuideHeroProps) {
   const { t, locale } = useI18n();
   const { image } = stop;
   const wide = image.aspect === "wide";
-  const alt = t(image.altKey);
+  const alt = imageAlt(t, image.altKey);
 
   return (
     <figure className="mt-8">

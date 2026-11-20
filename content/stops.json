@@ -2277,6 +2277,123 @@
       "tags": [
         "supercluster"
       ]
+    },
+    {
+      "id": "saturn_v",
+      "i18nKey": "stops.saturn_v",
+      "sizeMeters": 111,
+      "order": 6.025,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/saturn-v.webp",
+        "aspect": "square",
+        "altKey": "stops.saturn_v.image.alt",
+        "credit": "NASA — public domain"
+      },
+      "glossary": [
+        "rocket_stage",
+        "thrust"
+      ],
+      "tags": [
+        "spacecraft"
+      ]
+    },
+    {
+      "id": "large_hadron_collider",
+      "i18nKey": "stops.large_hadron_collider",
+      "sizeMeters": 26700,
+      "temperatureKelvin": 1.9,
+      "order": 6.15,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/large-hadron-collider.webp",
+        "aspect": "wide",
+        "altKey": "stops.large_hadron_collider.image.alt",
+        "credit": "Maximilien Brice (CERN) — CC BY-SA 3.0 (cropped)"
+      },
+      "glossary": [
+        "particle_accelerator",
+        "higgs_field",
+        "standard_model"
+      ],
+      "tags": []
+    },
+    {
+      "id": "stonehenge",
+      "i18nKey": "stops.stonehenge",
+      "sizeMeters": 30,
+      "order": 6.005,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/stonehenge.webp",
+        "aspect": "wide",
+        "altKey": "stops.stonehenge.image.alt",
+        "credit": "garethwiscombe — CC BY 2.0 (cropped)"
+      },
+      "glossary": [
+        "sarsen",
+        "trilithon"
+      ],
+      "tags": [
+        "ancient"
+      ]
+    },
+    {
+      "id": "absolute_zero",
+      "i18nKey": "stops.absolute_zero",
+      "sizeMeters": null,
+      "order": 7.08,
+      "badge": "FACT",
+      "category": "PHYSICS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/absolute-zero.webp",
+        "aspect": "wide",
+        "altKey": "stops.absolute_zero.image.alt",
+        "credit": "NIST/JILA — public domain"
+      },
+      "glossary": [
+        "third_law",
+        "bose_einstein_condensate",
+        "cmb"
+      ],
+      "tags": [
+        "matter"
+      ]
+    },
+    {
+      "id": "uncertainty_principle",
+      "i18nKey": "stops.uncertainty_principle",
+      "sizeMeters": null,
+      "order": 3.6,
+      "badge": "ESTABLISHED_THEORY",
+      "category": "PHYSICS",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/uncertainty-principle.webp",
+        "aspect": "wide",
+        "altKey": "stops.uncertainty_principle.image.alt",
+        "credit": "Benjamin Couprie — 1927 Solvay Conference — public domain"
+      },
+      "glossary": [
+        "quantum",
+        "wave_function",
+        "zero_point_energy"
+      ],
+      "tags": [
+        "phenomenon"
+      ]
     }
   ]
 }
