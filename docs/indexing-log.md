@@ -88,6 +88,12 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/compare/great-red-spot-vs-earth (new 2026-11-19)
 - https://quantumaire.space/en/compare/milky-way-vs-large-magellanic-cloud (new 2026-11-19)
 - remaining /en/stop/* pages, then /sr/* equivalents
+- https://quantumaire.space/en/stop/house_cat (new 2026-11-20)
+- https://quantumaire.space/en/stop/omega_centauri (new 2026-11-20)
+- https://quantumaire.space/en/stop/local_group (new 2026-11-20)
+- https://quantumaire.space/en/stop/sloan_great_wall (new 2026-11-20)
+- https://quantumaire.space/en/tag/galaxy-cluster (new 2026-11-20)
+- https://quantumaire.space/en/tag/supercluster (new 2026-11-20)
 
 ## Done
 

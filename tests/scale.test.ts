@@ -14,6 +14,15 @@ describe("formatMeters", () => {
     expect(formatMeters(null)).toBe("—");
   });
 
+  it("uses centimetres from 10 cm up to a metre", () => {
+    expect(formatMeters(0.46)).toBe("46 cm");
+    expect(formatMeters(0.013)).toBe("13 mm");
+  });
+
+  it("picks the scale word after rounding", () => {
+    expect(formatMeters(9.4607e24)).toBe("1 billion ly");
+  });
+
   it("formats femtometres for ultra-small values", () => {
     expect(formatMeters(1e-15)).toMatch(/fm$/);
   });

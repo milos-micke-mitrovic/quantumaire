@@ -109,6 +109,7 @@ export const FAMILIAR_STOP_IDS = new Set([
   "red_blood_cell",
   "ant",
   "honeybee",
+  "house_cat",
   "human",
   "african_elephant",
   "giraffe",

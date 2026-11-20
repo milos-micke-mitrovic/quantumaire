@@ -19,7 +19,7 @@ export function toGrainScale(meters: number): number {
 /**
  * Format an arbitrary length in meters into a human-readable string.
  *
- * Sub-metre values use SI prefixes (fm, pm, nm, µm, mm).
+ * Sub-metre values use SI prefixes (fm, pm, nm, µm, mm, cm from 10 cm).
  * Earth-and-up uses kilometres with comma grouping, then "million km" /
  * "billion km" once kilometres become unwieldy, then light-years for
  * anything bigger. Scientific notation is avoided in the UI.
@@ -45,8 +45,8 @@ export function sig(n: number, locale = "en-US"): string {
 
 /**
  * "93 billion" / "93 milijarde": a number plus its scale word, which in
- * Serbian agrees with whole numbers (1 milijarda, 2–4 milijarde, 5+
- * milijardi). Optional `<key>One` / `<key>Few` texts hold those forms.
+ * Serbian agrees with the number (1 milijarda, 2–4 and decimals milijarde,
+ * 5+ milijardi). Optional `<key>One` / `<key>Few` texts hold those forms.
  */
 export function scaled(
   n: number,
@@ -56,7 +56,11 @@ export function scaled(
 ): string {
   const num = Number(n.toPrecision(3));
   let word = tr(key);
-  if (Number.isInteger(num)) {
+  if (!Number.isInteger(num)) {
+    // A decimal takes the genitive singular, like 2–4: "1,37 milijarde".
+    const v = tr(`${key}Few`);
+    if (v && v !== `${key}Few`) word = v;
+  } else {
     const d = num % 10;
     const dd = num % 100;
     const form = d === 1 && dd !== 11 ? "One" : d >= 2 && d <= 4 && (dd < 12 || dd > 14) ? "Few" : null;
@@ -98,7 +102,9 @@ export function formatMeters(
   if (abs < 1e-9) return `${sig(meters * 1e12, loc)} pm`;
   if (abs < 1e-6) return `${sig(meters * 1e9, loc)} nm`;
   if (abs < 1e-3) return `${sig(meters * 1e6, loc)} µm`;
-  if (abs < 1) return `${sig(meters * 1e3, loc)} mm`;
+  if (abs < 0.1) return `${sig(meters * 1e3, loc)} mm`;
+  // A cat or a football reads as "46 cm", not "460 mm".
+  if (abs < 1) return `${sig(meters * 1e2, loc)} cm`;
 
   if (units === "imperial") {
     if (abs < 1e3) {
@@ -133,7 +139,10 @@ export function formatMeters(
   }
 
   // Light-year regime — universal across both systems.
-  const ly = meters / 9.4607304725808e15;
+  const lyExact = meters / 9.4607304725808e15;
+  // Choose the scale word after rounding: 999,990,000 ly is "1 billion", not
+  // "1,000 million".
+  const ly = Math.abs(lyExact) >= 1e6 ? Number(lyExact.toPrecision(3)) : lyExact;
   if (Math.abs(ly) < 1e3) return `${sig(ly, loc)} ${tr("common.unitLightYear")}`;
   if (Math.abs(ly) < 1e6) {
     // Four significant figures: "105,700 ly" stays, "26,002 ly" → "26,000 ly".

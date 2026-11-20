@@ -110,6 +110,18 @@ describe("distance answers", () => {
     expect(text("ant")).toMatch(/340 times taller than an ant is long/);
   });
 
+  it("doesn't name a same-kind topic 10¹⁸ times away as a neighbour", () => {
+    expect(text("great_wall")).not.toMatch(/Sloan/);
+    // The directly adjacent topic is always named, however far.
+    expect(text("planck_length")).toMatch(/One step up is a quark/);
+  });
+
+  it("agrees Serbian scale words with decimals", () => {
+    expect(text("betelgeuse", "sr")).toMatch(/1,06 milijarde km/);
+    expect(text("sloan_great_wall", "sr")).toMatch(/1,37 milijarde sg/);
+    expect(text("sloan_great_wall")).toMatch(/about 1 billion ly from Earth/);
+  });
+
   it("uses measure-specific wording for lengths", () => {
     expect(text("great_wall")).toMatch(/1\.7 times longer than Earth is wide/);
     expect(text("amazon_river")).toMatch(/is about 6,400 km long/);

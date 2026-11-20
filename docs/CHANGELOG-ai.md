@@ -183,3 +183,14 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - A depth against a height reads "The Mariana Trench is about 1.2 times deeper than Mount Everest is tall: the Mariana Trench goes down 11 km, Mount Everest rises 8.8 km" (`pairSizeDeepTall` + description/FAQ variants; SR „Dubina — …; visina — …“). The interactive tool's ratio line follows: "1.24× deeper than Mount Everest is tall", "2.49× taller" for two heights (`timesAsTall`, `timesDeeperThanTall`).
 - LMC size stored as exactly 32,000 ly (was shown as 32,130 next to text saying ~32,000); Orion/Crab/LMC distances rounded to the text's 1,300 / 6,500 / 160,000 ly.
 - Remaining plan item: Search Console CTR (blocked on indexing data).
+
+## 2026-11-20 — round 4 plan + block 1 (scale gaps)
+- GSC: only /en/stop/fermi_paradox went through before "Quota Exceeded" — the quota looks like a rolling ~24 h window, so yesterday's late batch counted. Queue resumes with james_webb.
+- New plan (round 4) in `docs/NEXT-PLAN.md`: scale gaps → Humankind topics → animals-by-size guide → physics ideas → GSC CTR.
+- Four topics drafted by research agents (sources fetched, Commons licences from extmetadata), then read and edited: house cat (`house_cat`, 46 cm head-and-body, a `length`; Von.grzanka CC BY-SA 3.0; glossary tapetum_lucidum), Omega Centauri (`omega_centauri`, ~150 ly — the commonly quoted bright-part diameter, NASA's 450 ly in the facts; 17,000 ly; ESO CC BY 4.0; new tag `star-cluster`, glossary globular_cluster + intermediate_mass_black_hole), Local Group (`local_group`, 10 million ly, insideNote instead of a distance; Budassi map CC BY 4.0), Sloan Great Wall (`sloan_great_wall`, 1.37 billion ly long, 1 billion ly away, not gravitationally bound; 2dF map by Willem Schaap CC BY-SA 3.0; glossary cosmic_web).
+- New collections: `/tag/galaxy-cluster` (tag renamed "Galaxy groups and clusters": Local Group + Virgo) and `/tag/supercluster` (Laniakea + Sloan Great Wall). Animals collection intro mentions the cat. Guides: black holes (+Omega Centauri), distances (+Omega Centauri, Local Group), how big is the universe and largest things (+Local Group, Sloan Great Wall).
+- Generated text (full before/after dump of every topic):
+  - 10 cm – 1 m now reads in centimetres ("46 cm", Sagittarius A* as a grain-of-sand model "94.2 cm"), not "460 mm".
+  - Light-year scale words are chosen after rounding: "1 billion ly", not "1,000 million ly".
+  - Serbian decimals take the genitive singular: „1,06 milijarde km“, „6,1 milijarde puta“ (was „milijardi“ in ~20 FAQ answers: planet distances, Betelgeuse, UY Scuti, ratios).
+  - "One step up/down" no longer skips past closer topics to a same-kind one more than 10⁶× away (the Great Wall of China named the Sloan Great Wall, 10¹⁸×); the directly adjacent topic is still always named (Planck length → quark).

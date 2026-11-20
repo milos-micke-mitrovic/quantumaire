@@ -57,6 +57,12 @@ const MEASURE_SUFFIX = { height: "Height", depth: "Depth", length: "Length", siz
 const NEAR_EQUAL = 1.15;
 /** Same-kind neighbours further than this are "far" (see neighbour()). */
 const FAR_NEIGHBOUR = 10;
+/**
+ * Skipping past closer topics to a same-kind one this far away isn't naming a
+ * neighbour (Great Wall of China → Sloan Great Wall, 10¹⁸×). The directly
+ * adjacent topic is always fine (Planck length → quark).
+ */
+const MAX_NEIGHBOUR = 1e6;
 /** Below this size, any two things can be pictured side by side. */
 const HUMAN_SCALE_MAX = 1e3;
 /** Below this, Earth-as-a-grain-of-sand shrinks things to invisible specks. */
@@ -86,6 +92,7 @@ function neighbour(rank: number, step: -1 | 1): Stop | null {
   for (let i = rank + step; i >= 0 && i < SIZED.length; i += step) {
     const other = SIZED[i];
     const ratio = ratioTo(other);
+    if (ratio > MAX_NEIGHBOUR && i !== rank + step) break;
     if (!nearest && (ratio >= NEAR_EQUAL || areRelated(self, other))) nearest = other;
     const sameKind = measureKind(self) === measureKind(other);
     const sharedTag = (self.tags ?? []).some((tag) => (other.tags ?? []).includes(tag));

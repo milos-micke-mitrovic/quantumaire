@@ -511,7 +511,7 @@
     "quasar": "Kvazar",
     "star-system": "Zvezdani sistem",
     "galaxy": "Galaksija",
-    "galaxy-cluster": "Galaktičko jato",
+    "galaxy-cluster": "Galaktičke grupe i jata",
     "supercluster": "Superjato",
     "spacecraft": "Svemirska letelica",
     "unit": "Jedinica rastojanja",
@@ -530,7 +530,8 @@
     "storm": "Oluja",
     "asteroid": "Asteroid",
     "insect": "Insekt",
-    "nebula": "Maglina"
+    "nebula": "Maglina",
+    "star-cluster": "Zvezdano jato"
   },
   "stops": {
     "quark": {
@@ -2248,6 +2249,89 @@
         "fact5": "Vidi se golim okom sa južne polulopte i severno sve do oko 20° severne geografske širine.",
         "fact6": "Očekuje se da za otprilike 2,4 milijarde godina upadne u Mlečni put i stopi se s njim."
       }
+    },
+    "house_cat": {
+      "name": "Domaća mačka",
+      "tagline": "Oko 46 cm pripitomljene divlje mačke — danas stotine miliona njih dele domove sa nama.",
+      "body": "Domaća mačka (Felis catus) je mali mesožder koji potiče od afričke divlje mačke i jedini je član porodice mačaka kog su ljudi zaista pripitomili. Odrasla mačka u proseku je duga oko 46 cm od nosa do korena repa, a rep je dug još oko 30 cm; u ramenima je visoka 23–25 cm i obično teška 4–5 kg, pri čemu su mužjaci krupniji od ženki. Divlje mačke su verovatno u prva zemljoradnička sela Bliskog istoka privukli miševi koji su napadali uskladišteno žito, a seljaci su ih trpeli, pa su ih vremenom pripitomili. Mačka i dalje lovi kao njeni divlji preci: vidi pri šestini svetlosti koja je potrebna čoveku, čuje ultrazvučno cijukanje glodara i brkovima procenjuje širinu otvora. Procene broja mačaka na svetu veoma se razlikuju, od oko 200 do 600 miliona.",
+      "narrative": "Merena od nosa do korena repa, mačka od 46 cm duga je kao oko 35 medonosnih pčela poređanih jedna za drugom. Odrastao čovek je oko 3,7 puta viši od te dužine, a ramena mačke, na 23–25 cm, niža su od vrha školskog lenjira od 30 cm postavljenog uspravno.",
+      "massNarrative": "Odrasla mačka teška je oko 4–5 kg — otprilike koliko 45.000 pčela radilica, cela zajednica jedne košnice usred leta.",
+      "funFact": "Na Kipru su arheolozi pronašli mačku sahranjenu pored čoveka u grobu starom oko 9.500 godina. Na Kipru nema autohtonih divljih mačaka, pa su je ljudi morali doneti čamcem preko mora — to je najstariji poznati trag da su mačke živele sa ljudima, hiljadama godina pre Egipćana koji su ih obožavali.",
+      "seoTitle": "Koliko je velika domaća mačka? Dužina, visina i težina",
+      "metaDescription": "Odrasla domaća mačka duga je oko 46 cm bez repa od 30 cm, visoka 23–25 cm u ramenima i teška 4–5 kg. Veličina mačke u poređenju sa poznatim stvarima.",
+      "image": {
+        "alt": "Sivosmeđa prugasta mačka hoda po blistavom snegu i žutozelenim očima gleda preko ramena, podignutog repa sa prstenovima."
+      },
+      "facts": {
+        "fact1": "Dužina glave i tela: u proseku oko 46 cm; rep dodaje još oko 30 cm (ukupno oko 76 cm).",
+        "fact2": "Visina u ramenima: oko 23–25 cm; težina odrasle mačke: obično 4–5 kg, mužjaci su krupniji od ženki.",
+        "fact3": "Čuje od oko 55 Hz do 79 kHz; čovek čuje samo od 20 Hz do 20 kHz.",
+        "fact4": "Vidi pri šestini svetlosti koja je potrebna čoveku, zahvaljujući reflektujućem sloju tapetum lucidum iza mrežnjače.",
+        "fact5": "Spava 12–16 sati dnevno, u proseku 13–14 sati.",
+        "fact6": "Kućne mačke danas u proseku žive oko 13 godina; najstarija zabeležena, Krem Paf iz Teksasa, doživela je 38 godina i 3 dana."
+      }
+    },
+    "omega_centauri": {
+      "name": "Omega Kentaura",
+      "tagline": "Najveća lopta zvezda Mlečnog puta — oko 10 miliona sunaca, toliko dalekih da su ih vekovima smatrali jednom zvezdom.",
+      "body": "Omega Kentaura (NGC 5139) je najveće i najmasivnije globularno jato Mlečnog puta: lopta od otprilike 10 miliona starih zvezda, široka oko 150 svetlosnih godina, udaljena oko 17.000 svetlosnih godina u južnom sazvežđu Kentaur. Njene zvezde stare su oko 12 milijardi godina, ali nisu sve nastale odjednom — a jato se okreće brže i spljoštenije je od običnog globularnog jata. Zato mnogi astronomi misle da je ona zapravo ogoljeno jezgro male galaksije koju je Mlečni put davno progutao. Sa tamnog mesta na južnoj polulopti vidi se golim okom kao mutna „zvezda“ široka skoro kao pun Mesec.",
+      "narrative": "Kad bi se centar jata Omega Kentaura nalazio u Suncu, jato bi se prostiralo oko 75 svetlosnih godina u svim pravcima. U njenom gustom jezgru zvezde su u proseku udaljene samo oko 0,1 svetlosne godine — oko 40 puta bliže nego što je Proksima Kentaura nama. Svetlosti treba oko 150 godina da pređe celo jato.",
+      "funFact": "Kaptajnova zvezda, bled crveni patuljak udaljen od Zemlje samo 13 svetlosnih godina, verovatno potiče iz jata Omega Kentaura — begunac iz izgubljene galaksije tog jata, koji sada prolazi kroz naše susedstvo.",
+      "seoTitle": "Kolika je Omega Kentaura? Najveće jato Mlečnog puta",
+      "metaDescription": "Omega Kentaura široka je oko 150 svetlosnih godina i udaljena 17.000 svetlosnih godina — najveće globularno jato Mlečnog puta, sa oko 10 miliona zvezda.",
+      "image": {
+        "alt": "Omega Kentaura snimljena sa ESO opservatorije La Sija: ogromna, gusta lopta bezbrojnih belih, žutih i narandžastih zvezda koja najjače sija u središtu, na crnom nebu."
+      },
+      "facts": {
+        "fact1": "Veličina: oko 150 svetlosnih godina — uobičajeno navođen prečnik njenog sjajnog dela; blede spoljne zvezde sežu mnogo dalje, pa NASA navodi oko 450 svetlosnih godina.",
+        "fact2": "Udaljenost: oko 17.000 svetlosnih godina; objavljene procene kreću se od oko 15.800 do 17.700.",
+        "fact3": "Otprilike 10 miliona zvezda ukupne mase oko 4 miliona Sunaca — oko 10 puta masivnija od drugih velikih globularnih jata.",
+        "fact4": "Habl je 2024. pronašao sedam zvezda u središtu koje se kreću prebrzo da bi ostale u jatu, osim ako ih ne drži crna rupa od najmanje 8.200 Sunaca — najjači dokaz do sada za crnu rupu „srednje mase“, ali nije potvrđen i kasniji radovi ga osporavaju.",
+        "fact5": "Njene zvezde stare su oko 12 milijardi godina, ali su nastale u više generacija — nagoveštaj da je nekada bila srce male galaksije.",
+        "fact6": "Ptolemej ju je pre skoro 2.000 godina upisao kao zvezdu, a Johan Bajer joj je 1603. dao ime Omega Kentaura; Edmond Halej je 1677. uočio da to uopšte nije zvezda."
+      }
+    },
+    "local_group": {
+      "name": "Lokalna grupa",
+      "tagline": "Naša porodica galaksija — Mlečni put, Andromeda i roj patuljastih galaksija koje drži gravitacija.",
+      "body": "Lokalna grupa je mala porodica galaksija kojoj pripada Mlečni put. Prostire se na otprilike 10 miliona svetlosnih godina, a u njoj dominiraju dve velike spiralne galaksije, Mlečni put i Andromeda, udaljene oko 2,5 miliona svetlosnih godina; manja galaksija Trougao je treća spirala. Gotovo sve ostalo — više od 100 poznatih članova, uključujući Veliki i Mali Magelanov oblak — patuljaste su galaksije, a i dalje se otkrivaju nove, jedva vidljive. Ime joj je dao Edvin Habl 1936. To je galaktička grupa, a ne jato: Virgo jato, udaljeno oko 54 miliona svetlosnih godina, ima preko hiljadu galaksija, a Lokalna grupa leži na periferiji superjata čije je ono središte.",
+      "narrative": "Kad bi Mlečni put bio tanjir širok 27 cm, cela Lokalna grupa zauzela bi prostor širok oko 25 metara — nešto duži od teniskog terena — sa još jednim velikim tanjirom (Andromeda), jednim tanjirićem (Trougao) i više od stotinu mrvica, uglavnom okupljenih oko dva velika tanjira.",
+      "massNarrative": "Cela grupa teži otprilike 2 biliona Sunaca — i gotovo sve to otpada na Mlečni put i Andromedu, uglavnom na njihove nevidljive haloe od tamne materije.",
+      "funFact": "Kada je Edvin Habl 1936. skovao ime, mogao je da nabroji samo jedanaest članova, plus jednog mogućeg. Danas su poznate 134 galaksije unutar oko 3 miliona svetlosnih godina od središta grupe — uglavnom bledi patuljci koji se ne vide bez velikog teleskopa.",
+      "seoTitle": "Kolika je Lokalna grupa? Naše galaktičko susedstvo",
+      "metaDescription": "Lokalna grupa široka je oko 10 miliona svetlosnih godina: Mlečni put, Andromeda, Trougao i više od 100 manjih galaksija koje drži gravitacija.",
+      "image": {
+        "alt": "Mapa Lokalne grupe odozgo: Mlečni put sa svojim galaksijama pratiocima gore desno, Andromeda i Trougao sa svojima dole levo, sve s natpisima, na crnoj pozadini."
+      },
+      "facts": {
+        "fact1": "Veličina: oko 10 miliona svetlosnih godina — ali granica je nejasna, pa objavljene procene idu i do oko 17 miliona (5,1 megaparseka).",
+        "fact2": "Članovi: 134 poznate galaksije unutar oko 3 miliona svetlosnih godina od središta (popis iz 2025) — gotovo sve patuljaste.",
+        "fact3": "Tri spiralne galaksije: Andromeda, Mlečni put i Trougao (M33); ostale su patuljaste.",
+        "fact4": "Ukupna masa: otprilike 2 biliona Sunaca, gotovo sva u Mlečnom putu i Andromedi.",
+        "fact5": "Središte mase nalazi se između dve velike spirale, oko 1,5 miliona svetlosnih godina od nas — nešto bliže Andromedi.",
+        "fact6": "Budućnost: studija iz 2025, zasnovana na podacima Habla i Gaie, daje Mlečnom putu i Andromedi oko 50% šanse da se stope u narednih 10 milijardi godina."
+      },
+      "insideNote": "Mi smo u njoj — njeno središte je oko 1,5 miliona svetlosnih godina od nas, u pravcu Andromede"
+    },
+    "sloan_great_wall": {
+      "name": "Veliki zid Sloan",
+      "tagline": "Lanac galaksija i superjata dug oko 1,4 milijarde svetlosnih godina — jedan od najvećih obrazaca ikad mapiranih.",
+      "body": "Veliki zid Sloan jedan je od najvećih obrazaca ikad mapiranih u svemiru: traka galaksija, grupa galaksija i nekoliko superjata nalik zidu, duga oko 1,37 milijarde svetlosnih godina i udaljena od nas oko milijardu svetlosnih godina, u pravcu sazvežđa Hidra, Gavran i Kentaur. Otkriće su 2003. objavili Dž. Ričard Got III, Mario Jurić i saradnici sa Prinstona, koji su ga uočili u podacima pregleda neba Sloan (SDSS); po njihovom merenju duži je za oko 80% od Velikog zida otkrivenog 1989, dotadašnjeg rekordera. Uprkos imenu, to nije jedan objekat koji drži gravitacija, već labav lanac superjata koje kosmičko širenje polako razvlači — neki astronomi čak tvrde da je reč o slučajnom poravnanju odvojenih struktura. Na razmerama većim od oko 1,2 milijarde svetlosnih godina svemir bi trebalo da izgleda ujednačeno („kraj veličine“), a i veće prijavljene strukture, poput Džinovskog luka dugog 3,3 milijarde svetlosnih godina, još su sporne.",
+      "narrative": "Kad bi Mlečni put bio tanjir širok 27 cm, Veliki zid Sloan bio bi rastresita, isprekidana traka tanjira duga oko 3,5 km — više nego dvostruko duža od našeg superjata Laniakea u istoj razmeri (oko 1,4 km), a ipak sitna pored vidljivog svemira, sfere prečnika oko 240 km.",
+      "funFact": "Svetlost koju vidimo iz Velikog zida Sloan krenula je pre oko milijardu godina — nekih 400 miliona godina pre nego što su se u Zemljinim morima pojavile prve krupne životinje.",
+      "seoTitle": "Koliki je Veliki zid Sloan? Zid od galaksija",
+      "metaDescription": "Veliki zid Sloan je lanac galaksija dug oko 1,37 milijarde svetlosnih godina, udaljen milijardu svetlosnih godina — otkriven 2003, nije gravitaciono vezan.",
+      "image": {
+        "alt": "Trodimenzionalna mapa galaksija iz pregleda neba 2dF: dva bleda klina grudvastih filamenata na tamnoj pozadini, a Veliki zid Sloan označen je kao duga traka niz levi klin."
+      },
+      "facts": {
+        "fact1": "Dužina: oko 1,37 milijarde svetlosnih godina po merenju otkrivača — bliže 1,5 milijarde u današnjim, raširenim koordinatama.",
+        "fact2": "Udaljenost: oko milijardu svetlosnih godina (crveni pomak 0,073), u pravcu sazvežđa Hidra, Gavran i Kentaur.",
+        "fact3": "Otkrili su ga 2003. Dž. Ričard Got III i Mario Jurić u podacima pregleda neba Sloan — bio je najupadljiviji detalj njihove logaritamske „Mape svemira“.",
+        "fact4": "Duži je za oko 80% od Velikog zida CfA2 iz 1989. (Geler i Hukra), dotadašnjeg rekordera; druga poređenja navode da je 1,8 do 2,7 puta duži.",
+        "fact5": "Nije gravitaciono vezan: to je lanac nekoliko superjata, a kolabirati možda mogu samo oblasti poluprečnika oko 35 miliona svetlosnih godina u srcima najbogatijih među njima.",
+        "fact6": "Masa: najmanje oko 3,5 × 10¹⁶ Sunaca, prema donjoj granici iz 2016."
+      }
     }
   },
   "about": {
@@ -3031,6 +3115,22 @@
     "satellite_galaxy": {
       "term": "Galaksija pratilac",
       "definition": "Manja galaksija koju gravitacija veće galaksije drži u orbiti oko nje, kao što Mesec kruži oko Zemlje."
+    },
+    "tapetum_lucidum": {
+      "term": "Tapetum lucidum",
+      "definition": "Sloj nalik ogledalu iza mrežnjače kod mačaka i mnogih drugih noćnih životinja. Odbija svetlost nazad kroz oko, pa ona dobija još jednu priliku da bude uhvaćena — i zato im oči svetle u snopu baterijske lampe."
+    },
+    "globular_cluster": {
+      "term": "Globularno jato",
+      "definition": "Zbijen roj zvezda u obliku lopte, obično sa do oko milion veoma starih zvezda koje drži na okupu njihova sopstvena gravitacija. Globularna jata nalaze se i na obodima i u središnjim delovima mnogih galaksija, uključujući našu."
+    },
+    "intermediate_mass_black_hole": {
+      "term": "Crna rupa srednje mase",
+      "definition": "Crna rupa teža od onih koje ostaju iza pojedinačnih umrlih zvezda (manje od oko 100 Sunaca), ali mnogo lakša od džinova u središtima galaksija. Poznato je samo nekoliko kandidata — one su karika koja nedostaje u priči o tome kako crne rupe rastu."
+    },
+    "cosmic_web": {
+      "term": "Kosmička mreža",
+      "definition": "Najkrupniji obrazac u svemiru: galaksije okupljene u jata, filamente i zidove, razdvojene ogromnim, gotovo praznim oblastima. Nastala je iz sićušnih talasanja gustine ranog svemira, koja je gravitacija polako zgušnjavala."
     }
   },
   "faq": {
@@ -3146,7 +3246,11 @@
       "europa": "Evropa",
       "orion_nebula": "Orionova maglina",
       "crab_nebula": "Rakova maglina",
-      "large_magellanic_cloud": "Veliki Magelanov oblak"
+      "large_magellanic_cloud": "Veliki Magelanov oblak",
+      "house_cat": "domaća mačka",
+      "omega_centauri": "Omega Kentaura",
+      "local_group": "Lokalna grupa",
+      "sloan_great_wall": "Veliki zid Sloan"
     },
     "a3smallerTall": "Korak niže: {other} ({otherSize}), oko {ratio} puta niže.",
     "a3largerTall": "Korak više: {other} ({otherSize}), oko {ratio} puta više.",
@@ -3346,7 +3450,7 @@
       "short": "Životinje",
       "title": "Životinje od najsitnijih do najvećih",
       "seoTitle": "Veličine životinja: od tardigrada do plavog kita",
-      "intro": "Baštenski mrav od 5 mm i medonosna pčela od 13 mm, vodeni medved od pola milimetra koji može da preživi vakuum svemira, afrički slon, žirafa — najviša živa životinja — i plavi kit, najteža poznata životinja.",
+      "intro": "Baštenski mrav od 5 mm i medonosna pčela od 13 mm, vodeni medved od pola milimetra koji može da preživi vakuum svemira, domaća mačka od 46 cm, afrički slon, žirafa — najviša živa životinja — i plavi kit, najteža poznata životinja.",
       "metaDescription": "Tardigrad, afrički slon, žirafa i plavi kit upoređeni po veličini: od vodenog medveda od pola milimetra do najteže životinje koja je ikada živela."
     },
     "spacecraft": {
@@ -3411,6 +3515,20 @@
       "seoTitle": "Najviše planine: Everest i Olympus Mons",
       "intro": "Najviši vrh Zemlje, Mont Everest sa 8.849 m, pored Olympus Monsa na Marsu — vulkana visokog oko 22 km, dva i po Everesta, sa osnovom širokom kao Italija.",
       "metaDescription": "Mont Everest i Olympus Mons upoređeni po visini: najviši vrh Zemlje i najviši vulkan u Sunčevom sistemu, 2,5 puta viši."
+    },
+    "galaxy-cluster": {
+      "short": "Grupe galaksija",
+      "title": "Galaktičke grupe i jata",
+      "seoTitle": "Lokalna grupa i Virgo jato: kolike su grupe galaksija?",
+      "intro": "Galaksije žive u porodicama. Naša, Lokalna grupa, široka je oko 10 miliona svetlosnih godina i ima dve velike spirale i više od stotinu patuljastih galaksija; Virgo jato, udaljeno 54 miliona svetlosnih godina, tek je nešto šire, ali ima preko hiljadu galaksija.",
+      "metaDescription": "Lokalna grupa i Virgo jato upoređeni: porodica od oko 130 galaksija široka 10 miliona svetlosnih godina i jato od preko hiljadu galaksija."
+    },
+    "supercluster": {
+      "short": "Superjata",
+      "title": "Superjata i veliki zidovi",
+      "seoTitle": "Laniakea i Veliki zid Sloan: najveće strukture",
+      "intro": "Najveći obrasci koje galaksije prave: Laniakea, superjato široko oko 500 miliona svetlosnih godina kom pripada i Mlečni put, i Veliki zid Sloan, lanac superjata dug oko 1,4 milijarde svetlosnih godina. Nijedno od njih kao celinu ne drži gravitacija.",
+      "metaDescription": "Laniakea i Veliki zid Sloan upoređeni: naše superjato od 500 miliona svetlosnih godina i zid galaksija dug 1,4 milijarde svetlosnih godina."
     }
   }
 }

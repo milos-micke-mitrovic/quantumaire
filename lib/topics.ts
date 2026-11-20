@@ -94,7 +94,7 @@ export const TOPICS: Topic[] = [
     tag: "black-hole",
     i18nKey: "topics.blackHoles",
     sectionCount: 5,
-    relatedStopIds: ["neutron_star", "supermassive_black_hole"],
+    relatedStopIds: ["neutron_star", "supermassive_black_hole", "omega_centauri"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Black_hole" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Hawking_radiation" },
@@ -224,7 +224,7 @@ export const TOPICS: Topic[] = [
     slug: "distances",
     i18nKey: "topics.distances",
     sectionCount: 4,
-    relatedStopIds: ["light_year", "moon", "sun", "voyager1", "proxima_centauri", "sirius", "milky_way", "large_magellanic_cloud", "andromeda", "laniakea_supercluster", "observable_universe"],
+    relatedStopIds: ["light_year", "moon", "sun", "voyager1", "proxima_centauri", "sirius", "omega_centauri", "milky_way", "large_magellanic_cloud", "andromeda", "local_group", "laniakea_supercluster", "observable_universe"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Cosmic_distance_ladder" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Proxima_Centauri" },
@@ -245,7 +245,7 @@ export const TOPICS: Topic[] = [
     slug: "how-big-is-the-universe",
     i18nKey: "topics.howBigIsTheUniverse",
     sectionCount: 5,
-    relatedStopIds: ["earth", "sun", "light_year", "milky_way", "andromeda", "laniakea_supercluster", "observable_universe", "dark_energy"],
+    relatedStopIds: ["earth", "sun", "light_year", "milky_way", "andromeda", "local_group", "laniakea_supercluster", "sloan_great_wall", "observable_universe", "dark_energy"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Observable_universe" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Shape_of_the_universe" },
@@ -311,7 +311,7 @@ export const TOPICS: Topic[] = [
     slug: "largest-things-in-the-universe",
     i18nKey: "topics.largestThingsInTheUniverse",
     sectionCount: 6,
-    relatedStopIds: ["uy_scuti", "betelgeuse", "ton_618", "phoenix_a", "supermassive_black_hole", "milky_way", "galaxy_cluster", "laniakea_supercluster", "observable_universe"],
+    relatedStopIds: ["uy_scuti", "betelgeuse", "ton_618", "phoenix_a", "supermassive_black_hole", "milky_way", "local_group", "galaxy_cluster", "laniakea_supercluster", "sloan_great_wall", "observable_universe"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/List_of_largest_stars" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/List_of_most_massive_black_holes" },

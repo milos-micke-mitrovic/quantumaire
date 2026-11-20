@@ -511,7 +511,7 @@
     "quasar": "Quasar",
     "star-system": "Star system",
     "galaxy": "Galaxy",
-    "galaxy-cluster": "Galaxy cluster",
+    "galaxy-cluster": "Galaxy groups and clusters",
     "supercluster": "Supercluster",
     "spacecraft": "Spacecraft",
     "unit": "Unit of distance",
@@ -530,7 +530,8 @@
     "storm": "Storm",
     "asteroid": "Asteroid",
     "insect": "Insect",
-    "nebula": "Nebula"
+    "nebula": "Nebula",
+    "star-cluster": "Star cluster"
   },
   "stops": {
     "quark": {
@@ -2248,6 +2249,89 @@
         "fact5": "Visible to the naked eye from the southern hemisphere and as far north as about 20° N.",
         "fact6": "Expected to fall into the Milky Way and merge with it in roughly 2.4 billion years."
       }
+    },
+    "house_cat": {
+      "name": "House Cat",
+      "tagline": "About 46 cm of tamed wildcat — hundreds of millions of them now share our homes.",
+      "body": "The domestic cat (Felis catus) is a small carnivore descended from the African wildcat, and the only member of the cat family that humans have truly domesticated. An adult averages about 46 cm from nose to the base of the tail, with a tail of about 30 cm more; it stands 23–25 cm at the shoulder and typically weighs 4–5 kg, males being larger than females. Wildcats were probably drawn to the first farming villages of the Near East by mice raiding stored grain, and farmers tolerated, then tamed them. A cat still hunts like its wild ancestors: it sees in one-sixth of the light a person needs, hears the ultrasonic squeaks of rodents and judges gaps with its whiskers. Estimates of the world's cat population range widely, from about 200 to 600 million.",
+      "narrative": "Measured from nose to the base of the tail, a 46 cm cat is as long as about 35 honey bees lined up nose to tail. An adult person is about 3.7 times taller than that, and the cat's shoulder, at 23–25 cm, sits lower than the top of a 30 cm school ruler stood on end.",
+      "massNarrative": "An adult cat weighs about 4–5 kg — roughly as much as 45,000 worker honey bees, the population of a whole hive in midsummer.",
+      "funFact": "On Cyprus, archaeologists found a cat buried beside a person in a grave about 9,500 years old. Cyprus has no native wild cats, so people must have brought it across the sea by boat — the earliest known sign of cats living with humans, thousands of years before the cat-loving Egyptians.",
+      "seoTitle": "How Big Is a House Cat? Length, Height and Weight",
+      "metaDescription": "An adult house cat is about 46 cm long without its 30 cm tail, stands 23–25 cm at the shoulder and weighs 4–5 kg. See a cat's size compared to familiar things.",
+      "image": {
+        "alt": "A grey-brown striped tabby cat walking across bright snow, looking back over its shoulder with yellow-green eyes, its ringed tail raised."
+      },
+      "facts": {
+        "fact1": "Head-and-body length: about 46 cm on average; the tail adds about 30 cm (about 76 cm in total).",
+        "fact2": "Shoulder height: about 23–25 cm; adult weight: typically 4–5 kg, males larger than females.",
+        "fact3": "It hears from about 55 Hz to 79 kHz; humans hear only 20 Hz to 20 kHz.",
+        "fact4": "It can see in one-sixth of the light humans need, thanks to the reflective tapetum lucidum behind the retina.",
+        "fact5": "Sleeps 12–16 hours a day, 13–14 hours on average.",
+        "fact6": "Pet cats now live about 13 years on average; the oldest on record, Creme Puff of Texas, lived 38 years and 3 days."
+      }
+    },
+    "omega_centauri": {
+      "name": "Omega Centauri",
+      "tagline": "The Milky Way's biggest ball of stars — some 10 million suns, so far away that for centuries it was taken for a single star.",
+      "body": "Omega Centauri (NGC 5139) is the largest and most massive globular cluster of the Milky Way: a ball of roughly 10 million old stars about 150 light-years across, lying some 17,000 light-years away in the southern constellation Centaurus. Its stars are about 12 billion years old, yet they were not all born at once — and the cluster spins faster and is more flattened than an ordinary globular cluster. That is why many astronomers think it is really the stripped core of a small galaxy that the Milky Way swallowed long ago. From a dark southern site it is visible to the naked eye as a fuzzy \"star\" almost as wide as the full Moon.",
+      "narrative": "Centre Omega Centauri on the Sun and it would reach about 75 light-years out in every direction. In its crowded core the stars are on average only about 0.1 light-years apart — some 40 times closer than Proxima Centauri is to us. Light needs about 150 years to cross the whole cluster.",
+      "funFact": "Kapteyn's Star, a faint red dwarf only 13 light-years from Earth, is thought to have come from Omega Centauri — a refugee from the cluster's lost galaxy, now passing through our neighbourhood.",
+      "seoTitle": "How Big Is Omega Centauri? The Milky Way's Largest Cluster",
+      "metaDescription": "Omega Centauri is about 150 light-years across and 17,000 light-years away — the Milky Way's largest globular cluster, with some 10 million stars.",
+      "image": {
+        "alt": "Omega Centauri photographed from ESO's La Silla Observatory: a huge, dense ball of countless white, yellow and orange stars that glows brightest at its centre, against a black sky."
+      },
+      "facts": {
+        "fact1": "Size: about 150 light-years across — the commonly quoted diameter of its bright part; its faint outer stars reach much further, and NASA quotes about 450 light-years.",
+        "fact2": "Distance: about 17,000 light-years; published estimates range from about 15,800 to 17,700.",
+        "fact3": "Roughly 10 million stars with about 4 million times the Sun's mass — some 10 times as massive as other big globular clusters.",
+        "fact4": "In 2024 Hubble found seven central stars moving too fast to stay unless a black hole of at least 8,200 Suns holds them — the best case yet for an \"intermediate-mass\" black hole, but not confirmed and questioned by later work.",
+        "fact5": "Its stars are about 12 billion years old but formed in several generations — a hint that it was once the heart of a small galaxy.",
+        "fact6": "Ptolemy listed it as a star nearly 2,000 years ago and Johann Bayer named it Omega Centauri in 1603; in 1677 Edmond Halley saw that it was not a star at all."
+      }
+    },
+    "local_group": {
+      "name": "Local Group",
+      "tagline": "Our home group of galaxies — the Milky Way, Andromeda and a swarm of dwarf galaxies held together by gravity.",
+      "body": "The Local Group is the small family of galaxies the Milky Way belongs to. It spans roughly 10 million light-years and is dominated by two big spirals, the Milky Way and Andromeda, about 2.5 million light-years apart; the smaller Triangulum Galaxy is the third spiral. Almost everything else — more than 100 known members, including the Large and Small Magellanic Clouds — is a dwarf galaxy, and faint new ones keep turning up. Edwin Hubble gave it its name in 1936. It is a galaxy group, not a cluster: the Virgo Cluster, about 54 million light-years away, holds over a thousand galaxies, and the Local Group sits on the outskirts of the supercluster that Virgo anchors.",
+      "narrative": "If the Milky Way were a dinner plate 27 cm wide, the whole Local Group would fill a space about 25 metres across — a little longer than a tennis court — holding one other big plate (Andromeda), one side plate (Triangulum) and more than a hundred crumbs, most of them gathered around the two big plates.",
+      "massNarrative": "The whole group weighs roughly 2 trillion Suns — and nearly all of that is the Milky Way and Andromeda, mostly in their unseen dark-matter halos.",
+      "funFact": "When Edwin Hubble coined the name in 1936, he could list just eleven members, plus one maybe. Today 134 galaxies are known within about 3 million light-years of the group's centre — most of them dim dwarfs you can't see without a big telescope.",
+      "seoTitle": "How Big Is the Local Group? Our Galaxy Neighbourhood",
+      "metaDescription": "The Local Group is about 10 million light-years across: the Milky Way, Andromeda, Triangulum and more than 100 smaller galaxies bound together by gravity.",
+      "image": {
+        "alt": "A top-down map of the Local Group: the Milky Way and its labelled satellite galaxies at upper right, Andromeda and Triangulum with theirs at lower left, on a black background."
+      },
+      "facts": {
+        "fact1": "Size: about 10 million light-years across — but the edge is fuzzy, and published estimates go up to about 17 million (5.1 megaparsecs).",
+        "fact2": "Members: 134 known galaxies within about 3 million light-years of its centre (2025 count) — almost all of them dwarfs.",
+        "fact3": "Three spiral galaxies: Andromeda, the Milky Way and Triangulum (M33); the rest are dwarfs.",
+        "fact4": "Total mass: roughly 2 trillion Suns, nearly all of it in the Milky Way and Andromeda.",
+        "fact5": "Its centre of mass lies between the two big spirals, about 1.5 million light-years from us — a little closer to Andromeda.",
+        "fact6": "Future: a 2025 Hubble + Gaia study gives the Milky Way and Andromeda about a 50:50 chance of merging within the next 10 billion years."
+      },
+      "insideNote": "We're inside it — its centre is about 1.5 million light-years away, toward Andromeda"
+    },
+    "sloan_great_wall": {
+      "name": "Sloan Great Wall",
+      "tagline": "A chain of galaxies and superclusters some 1.4 billion light-years long — one of the largest patterns ever mapped.",
+      "body": "The Sloan Great Wall is one of the largest patterns ever mapped in the universe: a wall-like band of galaxies, galaxy groups and several superclusters about 1.37 billion light-years long, roughly a billion light-years from us in the direction of the constellations Hydra, Corvus and Centaurus. J. Richard Gott III, Mario Jurić and colleagues at Princeton announced it in 2003 after spotting it in data from the Sloan Digital Sky Survey; by their measure it is about 80% longer than the Great Wall found in 1989, the previous record holder. Despite the name, it is not one object held together by gravity but a loose chain of superclusters that cosmic expansion is slowly pulling apart — some astronomers even argue it is a chance alignment of separate structures. Above about 1.2 billion light-years the universe is expected to look smooth (the \"end of greatness\"), and even larger claimed structures, such as the 3.3-billion-light-year Giant Arc, remain debated.",
+      "narrative": "If the Milky Way were a dinner plate 27 cm wide, the Sloan Great Wall would be a loose, patchy ribbon of plates about 3.5 km long — more than twice the length of our own supercluster, Laniakea, at that scale (about 1.4 km), yet still small next to the observable universe, a sphere some 240 km across.",
+      "funFact": "The light we see from the Sloan Great Wall set out about a billion years ago — some 400 million years before the first large animals appeared in Earth's seas.",
+      "seoTitle": "How Big Is the Sloan Great Wall? A Wall of Galaxies",
+      "metaDescription": "The Sloan Great Wall is a chain of galaxies about 1.37 billion light-years long and a billion light-years away — found in 2003, not bound by gravity.",
+      "image": {
+        "alt": "A 3D map of galaxies from the 2dF Galaxy Redshift Survey: two pale wedges of clumpy filaments on a dark background, with the Sloan Great Wall labelled as a long band down the left wedge."
+      },
+      "facts": {
+        "fact1": "Length: about 1.37 billion light-years as measured by its discoverers — closer to 1.5 billion in today's expanded coordinates.",
+        "fact2": "Distance: about 1 billion light-years (redshift 0.073), in the direction of Hydra, Corvus and Centaurus.",
+        "fact3": "Found in 2003 by J. Richard Gott III and Mario Jurić in Sloan Digital Sky Survey data — the most prominent feature of their logarithmic \"Map of the Universe\".",
+        "fact4": "About 80% longer than the CfA2 Great Wall of 1989 (Geller and Huchra), the previous record holder; other comparisons put it at 1.8 to 2.7 times as long.",
+        "fact5": "Not gravitationally bound: it is a chain of several superclusters, and only regions about 35 million light-years in radius at the hearts of the richest ones may be collapsing.",
+        "fact6": "Mass: at least about 3.5 × 10¹⁶ Suns, according to a 2016 lower limit."
+      }
     }
   },
   "about": {
@@ -3031,6 +3115,22 @@
     "satellite_galaxy": {
       "term": "Satellite galaxy",
       "definition": "A smaller galaxy held in orbit around a bigger one by its gravity, the way the Moon orbits Earth."
+    },
+    "tapetum_lucidum": {
+      "term": "Tapetum lucidum",
+      "definition": "A mirror-like layer behind the retina of cats and many other night-active animals. It reflects light back through the eye for a second chance to be detected — and makes their eyes glow in a torch beam."
+    },
+    "globular_cluster": {
+      "term": "Globular cluster",
+      "definition": "A tight, ball-shaped swarm of very old stars — typically up to about a million — held together by their own gravity. Globular clusters are found both in the outskirts and in the central regions of many galaxies, including our own."
+    },
+    "intermediate_mass_black_hole": {
+      "term": "Intermediate-mass black hole",
+      "definition": "A black hole heavier than those left behind by single dead stars (under about 100 Suns) but far lighter than the giants in galaxy centres. Only a few candidates are known — they are a missing link in how black holes grow."
+    },
+    "cosmic_web": {
+      "term": "Cosmic web",
+      "definition": "The universe's largest-scale pattern: galaxies gathered into clusters, filaments and walls, separated by vast, nearly empty voids. It grew from tiny ripples in the density of the early universe, which gravity slowly pulled together."
     }
   },
   "faq": {
@@ -3141,7 +3241,11 @@
       "europa": "Europa",
       "orion_nebula": "the Orion Nebula",
       "crab_nebula": "the Crab Nebula",
-      "large_magellanic_cloud": "the Large Magellanic Cloud"
+      "large_magellanic_cloud": "the Large Magellanic Cloud",
+      "house_cat": "a house cat",
+      "omega_centauri": "Omega Centauri",
+      "local_group": "the Local Group",
+      "sloan_great_wall": "the Sloan Great Wall"
     },
     "a7where": "The typical temperature of {name} is about {temp} — {note}.",
     "a2taller": "{Name} is roughly {ratio} times taller than a 1.7 m human.",
@@ -3346,7 +3450,7 @@
       "short": "Animals",
       "title": "Animals from the tiniest to the biggest",
       "seoTitle": "Animal Sizes Compared: Tardigrade to Blue Whale",
-      "intro": "A 5 mm garden ant and a 13 mm honey bee, a half-millimetre water bear that can survive the vacuum of space, the African elephant, the giraffe — the tallest animal alive — and the blue whale, the heaviest animal ever known.",
+      "intro": "A 5 mm garden ant and a 13 mm honey bee, a half-millimetre water bear that can survive the vacuum of space, a 46 cm house cat, the African elephant, the giraffe — the tallest animal alive — and the blue whale, the heaviest animal ever known.",
       "metaDescription": "Tardigrade, African elephant, giraffe and blue whale compared by size: from a half-millimetre water bear to the heaviest animal that ever lived."
     },
     "spacecraft": {
@@ -3411,6 +3515,20 @@
       "seoTitle": "Tallest Mountains: Everest vs Olympus Mons",
       "intro": "Earth's highest summit, Mount Everest at 8,849 m, next to Olympus Mons on Mars — a volcano about 22 km high, two and a half Everests, with a base as wide as Italy.",
       "metaDescription": "Mount Everest and Olympus Mons compared by height: Earth's tallest peak against the tallest volcano in the Solar System, 2.5 times higher."
+    },
+    "galaxy-cluster": {
+      "short": "Galaxy groups",
+      "title": "Galaxy groups and clusters",
+      "seoTitle": "Local Group vs Virgo Cluster: How Big Are Galaxy Groups?",
+      "intro": "Galaxies live in families. Ours, the Local Group, is about 10 million light-years across and holds two big spirals and more than a hundred dwarfs; the Virgo Cluster, 54 million light-years away, is only somewhat wider but packs over a thousand galaxies.",
+      "metaDescription": "The Local Group and the Virgo Cluster compared: a 10-million-light-year family of about 130 galaxies next to a cluster of more than a thousand."
+    },
+    "supercluster": {
+      "short": "Superclusters",
+      "title": "Superclusters and great walls",
+      "seoTitle": "Laniakea vs Sloan Great Wall: The Largest Structures",
+      "intro": "The largest patterns galaxies make: Laniakea, the roughly 500-million-light-year supercluster that includes the Milky Way, and the Sloan Great Wall, a chain of superclusters about 1.4 billion light-years long. Neither is held together by gravity as a whole.",
+      "metaDescription": "Laniakea and the Sloan Great Wall compared: our 500-million-light-year home supercluster and a 1.4-billion-light-year wall of galaxies."
     }
   }
 }

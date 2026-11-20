@@ -2179,6 +2179,104 @@
       "tags": [
         "galaxy"
       ]
+    },
+    {
+      "id": "house_cat",
+      "i18nKey": "stops.house_cat",
+      "sizeMeters": 0.46,
+      "order": 4.68,
+      "badge": "FACT",
+      "category": "EARTH",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/house-cat.webp",
+        "aspect": "wide",
+        "altKey": "stops.house_cat.image.alt",
+        "credit": "Von.grzanka — CC BY-SA 3.0 (cropped)"
+      },
+      "glossary": [
+        "tapetum_lucidum"
+      ],
+      "tags": [
+        "biology",
+        "animal"
+      ]
+    },
+    {
+      "id": "omega_centauri",
+      "i18nKey": "stops.omega_centauri",
+      "sizeMeters": 1.4191e+18,
+      "distanceFromEarthMeters": 1.6083e+20,
+      "order": 10.85,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-star",
+      "accentGlow": "shadow-[0_0_80px_rgba(224,242,254,0.35)]",
+      "image": {
+        "src": "/images/omega-centauri.webp",
+        "aspect": "square",
+        "altKey": "stops.omega_centauri.image.alt",
+        "credit": "ESO — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "globular_cluster",
+        "intermediate_mass_black_hole",
+        "light_year"
+      ],
+      "tags": [
+        "star-cluster"
+      ]
+    },
+    {
+      "id": "local_group",
+      "i18nKey": "stops.local_group",
+      "sizeMeters": 9.4607e+22,
+      "insideNoteKey": "stops.local_group.insideNote",
+      "order": 11.55,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-aurora",
+      "accentGlow": "shadow-[0_0_100px_rgba(124,92,255,0.45)]",
+      "image": {
+        "src": "/images/local-group.webp",
+        "aspect": "square",
+        "altKey": "stops.local_group.image.alt",
+        "credit": "Pablo Carlos Budassi — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "satellite_galaxy",
+        "halo",
+        "light_year"
+      ],
+      "tags": [
+        "galaxy-cluster"
+      ]
+    },
+    {
+      "id": "sloan_great_wall",
+      "i18nKey": "stops.sloan_great_wall",
+      "sizeMeters": 1.2961e+25,
+      "distanceFromEarthMeters": 9.4607e+24,
+      "order": 11.8,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-plasma",
+      "accentGlow": "shadow-[0_0_100px_rgba(192,132,252,0.4)]",
+      "image": {
+        "src": "/images/sloan-great-wall.webp",
+        "aspect": "wide",
+        "altKey": "stops.sloan_great_wall.image.alt",
+        "credit": "Willem Schaap (Kapteyn Institute), 2dF Galaxy Redshift Survey — CC BY-SA 3.0 (cropped)"
+      },
+      "glossary": [
+        "supercluster",
+        "cosmic_web",
+        "redshift"
+      ],
+      "tags": [
+        "supercluster"
+      ]
     }
   ]
 }

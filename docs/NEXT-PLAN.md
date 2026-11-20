@@ -14,12 +14,13 @@ Orion Nebula 24 ly → LMC 32,000 ly (3), Andromeda → galaxy cluster (2),
 Laniakea → observable universe (2). (Planck → quark and proton → atom are
 empty in nature too; leave them.)
 
-- [ ] Life & Earth: house cat (or dog) — the pet-sized step between bee and human
-- [ ] Cosmos: a globular cluster (Omega Centauri, ~150 ly), the Local Group
+- [x] Life & Earth: house cat (or dog) — the pet-sized step between bee and human
+- [x] Cosmos: a globular cluster (Omega Centauri, ~150 ly), the Local Group
       (~10 million ly), a cosmic "great wall" (Hercules–Corona Borealis or
       Sloan Great Wall) — only if sources agree on a size a layperson can use
-- [ ] Wire into guides/collections/familiar lists; dump FAQ, analogies,
+- [x] Wire into guides/collections/familiar lists; dump FAQ, analogies,
       neighbours, real-scale cards in both locales and read them
+      2026-11-20: house cat, Omega Centauri, Local Group, Sloan Great Wall.
 
 ## 2. Humankind is the thinnest category (8 topics)
 

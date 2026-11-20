@@ -1128,5 +1128,69 @@
       "label": "Wikipedia — SN 1987A",
       "url": "https://en.wikipedia.org/wiki/SN_1987A"
     }
+  ],
+  "house_cat": [
+    {
+      "label": "Wikipedia — Cat",
+      "url": "https://en.wikipedia.org/wiki/Cat"
+    },
+    {
+      "label": "Animal Diversity Web (University of Michigan) — Felis catus",
+      "url": "https://animaldiversity.org/accounts/Felis_catus/"
+    },
+    {
+      "label": "Guinness World Records — Oldest cat ever",
+      "url": "https://www.guinnessworldrecords.com/world-records/oldest-cat-ever"
+    }
+  ],
+  "omega_centauri": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Omega_Centauri"
+    },
+    {
+      "label": "NASA Hubble — Caldwell 80",
+      "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-caldwell-catalog/caldwell-80/"
+    },
+    {
+      "label": "ESA/Hubble — evidence for an intermediate-mass black hole (2024)",
+      "url": "https://esahubble.org/news/heic2409/"
+    }
+  ],
+  "local_group": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Local_Group"
+    },
+    {
+      "label": "NASA — Imagine the Universe: The Local Group",
+      "url": "https://imagine.gsfc.nasa.gov/features/cosmic/local_group_info.html"
+    },
+    {
+      "label": "ESA/Hubble — heic2508 (2025): Milky Way–Andromeda merger odds",
+      "url": "https://esahubble.org/news/heic2508/"
+    }
+  ],
+  "sloan_great_wall": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sloan_Great_Wall"
+    },
+    {
+      "label": "Gott, Jurić et al. 2005, A Map of the Universe (ApJ)",
+      "url": "https://arxiv.org/abs/astro-ph/0310571"
+    },
+    {
+      "label": "Einasto et al. 2016, A&A — Sloan Great Wall as a complex of superclusters",
+      "url": "https://arxiv.org/abs/1608.04988"
+    },
+    {
+      "label": "Yadav, Bagla & Khandai 2010, MNRAS — scale of homogeneity",
+      "url": "https://arxiv.org/abs/1001.0617"
+    },
+    {
+      "label": "NASA APOD — The Sloan Great Wall: Largest Known Structure?",
+      "url": "https://apod.nasa.gov/apod/ap071107.html"
+    }
   ]
 }
