@@ -694,7 +694,7 @@
         "fact1": "Svake sekunde pretvara 600 miliona tona vodonika u helijum.",
         "fact2": "Sunčevoj svetlosti treba 8 minuta 20 sekundi da dođe do Zemlje.",
         "fact3": "Površinska temperatura 5.772 K (≈ 5.500 °C); jezgro oko 15,7 miliona K.",
-        "fact4": "Već oko 4,6 milijardi godina je zvezda glavnog niza."
+        "fact4": "Već oko 4,6 milijarde godina je zvezda glavnog niza."
       },
       "temperatureNote": "vidljiva površina (fotosfera)"
     },
@@ -702,7 +702,7 @@
       "name": "UY Scuti",
       "tagline": "Kada bi zamenila Sunce, njena površina sezala bi dalje od Marsa.",
       "body": "UY Scuti je crveni hiperdžin — zvezda toliko naduvena da njene konvektivne ćelije — pojedinačni mehurovi vrelog gasa koji izbijaju na površinu — mogu biti šire od čitave Zemljine orbite. Njeni spoljni slojevi ređi su od Zemljine atmosfere; mogli biste proleteti kroz njih u termo-otpornom brodu i jedva osetiti otpor. Zvezde ove mase ne traju dugo; UY Scuti će najverovatnije završiti kao blistava supernova.",
-      "narrative": "Zvezde poput UY Scuti žive tek trenutak po kosmičkim merilima — rođene možda dvadeset puta teže od Sunca, izgore za desetak miliona godina. Naše Sunce već je staro 4,6 milijardi godina i tek je otprilike na pola puta.",
+      "narrative": "Zvezde poput UY Scuti žive tek trenutak po kosmičkim merilima — rođene možda dvadeset puta teže od Sunca, izgore za desetak miliona godina. Naše Sunce već je staro 4,6 milijarde godina i tek je otprilike na pola puta.",
       "ifDistance": "Svetlost koju večeras vidimo sa UY Scuti krenula je sa nje pre oko 5.900 godina — kada su u Mesopotamiji tek počinjali da niču prvi gradovi. Svetlost koja danas kreće sa UY Scuti stići će do Zemlje tek kada se smene mnoge generacije naših potomaka.",
       "massNarrative": "Iako je stotinama puta šira od Sunca, UY Scuti verovatno teži tek oko sedam do deset Sunaca. Većina njene zapremine je skoro vakuum — ogroman balon koji drži pritisak, ne gustina.",
       "funFact": "UY Scuti je možda već eksplodirala: njenoj svetlosti treba oko 5.900 godina da stigne do nas, pa to jednostavno još ne bismo znali. Kada se to desi, nakratko će sijati svetlošću stotina miliona Sunaca.",
@@ -776,7 +776,7 @@
       "distanceName": "Ivica vidljivog svemira",
       "tagline": "Sfera od 93 milijarde svetlosnih godina koju, u principu, možemo videti.",
       "body": "Vidljivi svemir je sve što je dovoljno blizu da je svetlost imala vremena da dođe do nas od Velikog praska. To je sfera prečnika oko 93 milijarde svetlosnih godina — i gotovo sigurno sićušan deo nečeg većeg. Iza njegove ivice ostatak je zauvek izvan našeg horizonta.",
-      "narrative": "Svetlost sa ivice vidljivog svemira putovala je čitavih 13,8 milijardi godina kosmičke istorije da bi stigla do nas — a u međuvremenu se između nas i nje stvara još više prostora.",
+      "narrative": "Svetlost sa ivice vidljivog svemira putovala je čitavih 13,8 milijarde godina kosmičke istorije da bi stigla do nas — a u međuvremenu se između nas i nje stvara još više prostora.",
       "massNarrative": "Većina mase-energije svemira uopšte nije obična materija — otprilike 68% čini tamna energija, 27% tamna materija, a svega 5% sve što možete videti.",
       "funFact": "Po većini merila, Mlečni put je relativno velika galaksija. Većina galaksija u vidljivom svemiru — kojih ima stotine milijardi, a možda i do 2 biliona — manja je od naše.",
       "image": {
@@ -785,7 +785,7 @@
       "facts": {
         "fact1": "Prečnik oko 93 milijarde svetlosnih godina.",
         "fact2": "Sadrži stotine milijardi galaksija — procene idu i do 2 biliona.",
-        "fact3": "Svetlost sa ivice putovala je oko 13,8 milijardi godina.",
+        "fact3": "Svetlost sa ivice putovala je oko 13,8 milijarde godina.",
         "fact4": "Sam prostor može da se širi — i zaista se širi — brže od svetlosti.",
         "fact5": "Uzmite najmanju smislenu dužinu u fizici — Plankovu dužinu, oko 10⁻³⁵ m — i prečnik vidljivog svemira. Čovek stoji otprilike na sredini te razmere, malo bliže kosmičkoj strani. Nismo ni veliki ni mali. Razmerom smo podešeni da primetimo oboje."
       }
@@ -925,7 +925,7 @@
     "ton_618": {
       "name": "TON 618",
       "tagline": "Ultramasivni kvazar — jedna od najvećih ikada izmerenih crnih rupa.",
-      "body": "TON 618 je kvazar — supermasivna crna rupa koja se aktivno hrani — u srcu daleke galaksije čija je svetlost putovala oko 10,8 milijardi godina do Zemlje. Njena masa procenjuje se na oko 40 milijardi Sunčevih masa, sa horizontom događaja širokim oko 1.600 astronomskih jedinica. Svetlost koju vidimo od nje krenula je kada naše Sunce još nije ni postojalo; kako TON 618 izgleda sada, niko nikada neće saznati.",
+      "body": "TON 618 je kvazar — supermasivna crna rupa koja se aktivno hrani — u srcu daleke galaksije čija je svetlost putovala oko 10,8 milijarde godina do Zemlje. Njena masa procenjuje se na oko 40 milijardi Sunčevih masa, sa horizontom događaja širokim oko 1.600 astronomskih jedinica. Svetlost koju vidimo od nje krenula je kada naše Sunce još nije ni postojalo; kako TON 618 izgleda sada, niko nikada neće saznati.",
       "narrative": "Da je naše Sunce kliker, horizont događaja TON 618 u istoj razmeri bio bi širok oko 2,5 kilometra — kliker pored malog grada.",
       "massNarrative": "TON 618 teži oko 40 milijardi Sunaca — deset hiljada puta više od Sagittariusa A* u centru naše galaksije. Kako su crne rupe ovako velike narasle tako rano u kosmičkoj istoriji jedna je od otvorenih zagonetki kosmologije.",
       "image": {
@@ -934,7 +934,7 @@
       "facts": {
         "fact1": "Procenjena masa: ~40 milijardi Sunčevih masa.",
         "fact2": "Horizont događaja širok oko 1.600 AJ — oko 20 puta širi od Plutonove orbite.",
-        "fact3": "Udaljenost po vremenu putovanja svetlosti: oko 10,8 milijardi svetlosnih godina. Svemir se od tada proširio, pa je sada udaljen oko 18 milijardi svetlosnih godina.",
+        "fact3": "Udaljenost po vremenu putovanja svetlosti: oko 10,8 milijarde svetlosnih godina. Svemir se od tada proširio, pa je sada udaljen oko 18 milijardi svetlosnih godina.",
         "fact4": "Katalogizovan 1957. kao slaba plava „zvezda“; tokom 1970-ih otkriveno je da je reč o dalekom kvazaru."
       },
       "funFact": "TON 618 je izuzetno sjajan (hiperluminozni) kvazar — njegov akrecioni disk sija sjajem 140 biliona Sunaca, što je razlog što ga uopšte možemo videti kroz veći deo vidljivog svemira."
@@ -942,7 +942,7 @@
     "phoenix_a": {
       "name": "Phoenix-A",
       "tagline": "U srcu jata Phoenix — među najmasivnijim poznatim crnim rupama.",
-      "body": "Phoenix-A je supermasivna crna rupa u centru jata Phoenix, čija je svetlost putovala oko 5,8 milijardi godina do nas. Njena masa je među najvećim ikada procenjenim, ali se procene drastično razlikuju — od nekoliko milijardi do oko 100 milijardi Sunčevih masa. Ovde koristimo srednju vrednost od oko 25 milijardi. Matično jato je čuveno po neobično sjajnoj centralnoj galaksiji i jednoj od najviših stopa formiranja zvezda ikada zabeleženih u najsjajnijoj galaksiji jata.",
+      "body": "Phoenix-A je supermasivna crna rupa u centru jata Phoenix, čija je svetlost putovala oko 5,8 milijarde godina do nas. Njena masa je među najvećim ikada procenjenim, ali se procene drastično razlikuju — od nekoliko milijardi do oko 100 milijardi Sunčevih masa. Ovde koristimo srednju vrednost od oko 25 milijardi. Matično jato je čuveno po neobično sjajnoj centralnoj galaksiji i jednoj od najviših stopa formiranja zvezda ikada zabeleženih u najsjajnijoj galaksiji jata.",
       "narrative": "Da je naše Sunce kliker, horizont događaja Phoenix-A u istoj razmeri bio bi širok oko 1,6 kilometra — dovoljno da se u njega poreda više od 100.000 Sunaca jedno do drugog.",
       "massNarrative": "Oko 25 milijardi Sunčevih masa prema našoj radnoj proceni — otprilike 6.000 puta više od Sagittariusa A* u centru naše galaksije. Procene mase za objekte na ovolikoj udaljenosti nose široke granice greške; objavljene vrednosti kreću se od nekoliko milijardi do oko 100 milijardi Sunčevih masa.",
       "image": {
@@ -950,7 +950,7 @@
       },
       "facts": {
         "fact1": "Masa: objavljene procene kreću se od nekoliko milijardi do ~100 milijardi Sunčevih masa; koristimo ~25 milijardi.",
-        "fact2": "Domaćin: jato Phoenix, čija je svetlost putovala ~5,8 milijardi godina do nas.",
+        "fact2": "Domaćin: jato Phoenix, čija je svetlost putovala ~5,8 milijarde godina do nas.",
         "fact3": "Okružena jednim od najvrelijih, najsjajnijih oblaka gasa unutar jata ikada izmerenih.",
         "fact4": "Centralna galaksija jata Phoenix svake godine stvori nove zvezde ukupne mase oko 500–800 Sunaca — stotinama puta više od Mlečnog puta."
       },
@@ -1008,7 +1008,7 @@
         "alt": "Montaža džinovskih planeta koje su snimile sonde Voyager: Jupiter sa pojasevima, Saturn sa prstenovima i bledi vrhovi Urana i Neptuna, zbijeni na crnoj pozadini svemira."
       },
       "facts": {
-        "fact1": "Pluton kruži na oko 5,9 milijardi km od Sunca.",
+        "fact1": "Pluton kruži na oko 5,9 milijarde km od Sunca.",
         "fact2": "8 planeta, 5 patuljastih planeta, više od 400 poznatih meseci.",
         "fact3": "Voyager 1, lansiran 1977, sada je oko 26 milijardi km daleko — jedan svetlosni dan.",
         "fact4": "Ortov oblak može se protezati do 100.000 AJ od Sunca.",
@@ -1103,7 +1103,7 @@
       },
       "facts": {
         "fact1": "Prečnik 2.377 km — manji od Zemljinog Meseca.",
-        "fact2": "Prosečna udaljenost od Zemlje ~5,9 milijardi km; jedna Plutonova godina = 248 Zemljinih godina.",
+        "fact2": "Prosečna udaljenost od Zemlje ~5,9 milijarde km; jedna Plutonova godina = 248 Zemljinih godina.",
         "fact3": "Površinska temperatura oko 44 K (≈ -229 °C) — dovoljno hladno da se azot zamrzne.",
         "fact4": "Degradiran sa planete na patuljastu planetu 2006. kada su pronađeni slični susedi.",
         "fact5": "Površina je geološki mlada — azotni led koji teče obnavlja je čak i sada."
@@ -1191,7 +1191,7 @@
       "tagline": "Ledeni džin nakrivljen na bok.",
       "body": "Uran je sedma planeta od Sunca i treća po veličini. Za razliku od Jupitera i Saturna, najveći deo njegove unutrašnjosti čine „ledovi“ — voda, metan i amonijak pod ekstremnim pritiskom — a tragovi metana u atmosferi daju mu njegovu bledu plavo-zelenu boju. Najčudnije, osa rotacije nakrivljena mu je 98 stepeni, pa se okreće gotovo na boku. Tokom svake orbite od 84 godine, svaki pol dobija oko 42 godine neprekidne sunčeve svetlosti, a zatim 42 godine tame.",
       "narrative": "Voyager 2 proleteo je pored Urana 1986. i video glatku kuglu — delom zato što je stigao blizu solsticija, kada je jedan pol bio okrenut gotovo pravo ka Suncu, a delom zato što je Uran zaista mirniji od svoje džinovske braće. Nikada nismo poslali drugu sondu.",
-      "ifDistance": "Sunčevoj svetlosti treba 2 sata i 40 minuta da stigne do Urana. Sa Zemlje je oko 2,9 milijardi km — toliko daleko da nije ni prepoznat kao planeta sve do 1781. godine, kada ga je Vilijam Heršel uočio kroz teleskop i u prvi mah pomislio da je kometa.",
+      "ifDistance": "Sunčevoj svetlosti treba 2 sata i 40 minuta da stigne do Urana. Sa Zemlje je oko 2,9 milijarde km — toliko daleko da nije ni prepoznat kao planeta sve do 1781. godine, kada ga je Vilijam Heršel uočio kroz teleskop i u prvi mah pomislio da je kometa.",
       "funFact": "Uran je jedina planeta u Sunčevom sistemu nakrivljena na bok. Neki astronomi misle da se to desilo zbog masivnog sudara u njegovoj ranoj istoriji — a nagib je takav ostao milijardama godina.",
       "image": {
         "alt": "Uran kao bledi plavo-zeleni disk, gotovo bez detalja, nakrivljen skoro vertikalno."
@@ -1422,19 +1422,19 @@
       "name": "Veliki prasak",
       "seoTitle": "Šta je bio Veliki prasak? Dokazi i izvesnost",
       "tagline": "Ne eksplozija u prostoru — početak širenja samog prostora.",
-      "body": "Pre oko 13,8 milijardi godina svemir je bio izuzetno vruć i gust, i od tada se neprestano širi i hladi. Veliki prasak se nije dogodio u jednoj tački prostora; sam prostor se razvlači svuda istovremeno. Za nekoliko minuta nastala su prva laka jezgra, a posle oko 380.000 godina svemir se dovoljno ohladio da se formiraju atomi i da svetlost slobodno putuje. Ta svetlost i danas ispunjava nebo kao kosmičko mikrotalasno pozadinsko zračenje, slučajno otkriveno 1965.",
+      "body": "Pre oko 13,8 milijarde godina svemir je bio izuzetno vruć i gust, i od tada se neprestano širi i hladi. Veliki prasak se nije dogodio u jednoj tački prostora; sam prostor se razvlači svuda istovremeno. Za nekoliko minuta nastala su prva laka jezgra, a posle oko 380.000 godina svemir se dovoljno ohladio da se formiraju atomi i da svetlost slobodno putuje. Ta svetlost i danas ispunjava nebo kao kosmičko mikrotalasno pozadinsko zračenje, slučajno otkriveno 1965.",
       "narrative": "Veliki prasak nema veličinu, jer nije imao „spolja“ — dogodio se svuda, uključujući i deo prostora u kom se sada nalazite. Danas se isto to širenje proteže kroz vidljivi svemir, širok oko 93 milijarde svetlosnih godina.",
       "funFact": "Kada su Arno Penzijas i Robert Vilson 1964. uhvatili uporno šuštanje u svojoj levkastoj anteni, prvo su okrivili golubove koji su se u njoj gnezdili — i očistili njihov izmet. Šum je ostao: bio je to zaostali sjaj Velikog praska, koji im je doneo Nobelovu nagradu 1978. Oko 1% „snega“ na starim analognim televizorima poticalo je upravo od tog sjaja.",
       "image": {
         "alt": "Mapa kosmičkog mikrotalasnog pozadinskog zračenja, naknadnog sjaja Velikog praska, sa satelita Planck: ovalni prikaz išaran plavim, žutim i narandžastim temperaturnim mrljama."
       },
       "facts": {
-        "fact1": "Starost svemira: oko 13,8 milijardi godina.",
+        "fact1": "Starost svemira: oko 13,8 milijarde godina.",
         "fact2": "Kosmičko mikrotalasno pozadinsko zračenje: 2,725 K, otkriveno 1965.",
         "fact3": "Prvi atomi nastali su oko 380.000 godina posle Velikog praska.",
         "fact4": "Naziv je 1949. skovao Fred Hojl — skeptik prema samoj ideji."
       },
-      "metaDescription": "Veliki prasak nije eksplozija u prostoru, već širenje samog prostora iz vrelog, gustog stanja pre 13,8 milijardi godina. Dokazi, objašnjeni."
+      "metaDescription": "Veliki prasak nije eksplozija u prostoru, već širenje samog prostora iz vrelog, gustog stanja pre 13,8 milijarde godina. Dokazi, objašnjeni."
     },
     "multiverse": {
       "name": "Multiverzum",
@@ -1476,15 +1476,15 @@
       "name": "M87*",
       "seoTitle": "M87*: prva crna rupa koju smo ikada snimili",
       "tagline": "Prva crna rupa koju je čovečanstvo ikada videlo — senka šira od celog našeg planetarnog sistema.",
-      "body": "M87* je supermasivna crna rupa u srcu galaksije Messier 87, džinovske eliptične galaksije u Virgo jatu, udaljene oko 55 miliona svetlosnih godina. Teška je oko 6,5 milijardi Sunaca, a njen horizont događaja širok je oko 38 milijardi km — dovoljno da u njega nekoliko puta stanu orbite svih osam planeta. Teleskop horizonta događaja (Event Horizon Telescope), mreža radio-antena širom planete povezanih u jedan virtuelni teleskop veličine Zemlje, objavio je 10. aprila 2019. njen snimak: užareni prsten vrelog gasa oko tamne senke, baš onakav kakav je predvidela opšta teorija relativnosti. Kasniji snimci otkrili su magnetna polja u prstenu (2021) i pokazali da je prsten i dalje tu, samo mu se najsjajniji deo pomerio (2024).",
+      "body": "M87* je supermasivna crna rupa u srcu galaksije Messier 87, džinovske eliptične galaksije u Virgo jatu, udaljene oko 55 miliona svetlosnih godina. Teška je oko 6,5 milijarde Sunaca, a njen horizont događaja širok je oko 38 milijardi km — dovoljno da u njega nekoliko puta stanu orbite svih osam planeta. Teleskop horizonta događaja (Event Horizon Telescope), mreža radio-antena širom planete povezanih u jedan virtuelni teleskop veličine Zemlje, objavio je 10. aprila 2019. njen snimak: užareni prsten vrelog gasa oko tamne senke, baš onakav kakav je predvidela opšta teorija relativnosti. Kasniji snimci otkrili su magnetna polja u prstenu (2021) i pokazali da je prsten i dalje tu, samo mu se najsjajniji deo pomerio (2024).",
       "narrative": "Kada bi se horizont događaja M87* smanjio na dužinu fudbalskog terena, Sunce bi bilo zrnce od 4 mm, Zemlja trunčica tanja od vlasi kose — a cela Neptunova orbita jedva bi izašla iz centralnog kruga.",
-      "massNarrative": "M87* je teška oko 6,5 milijardi Sunaca — više od 1.500 puta više od Sagittariusa A*, crne rupe u centru naše galaksije.",
+      "massNarrative": "M87* je teška oko 6,5 milijarde Sunaca — više od 1.500 puta više od Sagittariusa A*, crne rupe u centru naše galaksije.",
       "funFact": "Videti M87* bilo je kao uočiti narandžu na Mesecu sa Zemlje: prsten je širok svega 42 mikrolučne sekunde. Nijedna antena to ne može sama, pa je Teleskop horizonta događaja atomskim časovnicima uskladio osam opservatorija, od Havaja i Arizone do Meksika, Čilea i Španije — a petabajti podataka putovali su avionom, na hard-diskovima, jer ih je bilo previše za internet.",
       "image": {
         "alt": "Snimak M87* Teleskopa horizonta događaja: nesimetričan narandžast prsten užarenog gasa oko tamne središnje senke."
       },
       "facts": {
-        "fact1": "Masa: oko 6,5 milijardi Sunčevih masa (EHT, 2019).",
+        "fact1": "Masa: oko 6,5 milijarde Sunčevih masa (EHT, 2019).",
         "fact2": "Horizont događaja: oko 38 milijardi km u prečniku — više od 250 rastojanja Zemlja–Sunce.",
         "fact3": "Udaljenost: oko 55 miliona svetlosnih godina, u galaksiji Messier 87 u Virgo jatu.",
         "fact4": "Prvi snimak objavljen je 10. aprila 2019, iz podataka koje je osam radio-opservatorija prikupilo u aprilu 2017.",
@@ -1492,7 +1492,7 @@
         "fact6": "Havajsko ime: Pōwehi — „ukrašeni tamni izvor beskrajnog stvaranja“.",
         "fact7": "Astronomi su 2023. otkrili da se njen mlaz klati u ciklusu od oko 11 godina — dokaz da se crna rupa okreće."
       },
-      "metaDescription": "M87* je prva snimljena crna rupa (2019): 6,5 milijardi Sunaca, horizont događaja širok 38 milijardi km, 55 miliona svetlosnih godina od nas."
+      "metaDescription": "M87* je prva snimljena crna rupa (2019): 6,5 milijarde Sunaca, horizont događaja širok 38 milijardi km, 55 miliona svetlosnih godina od nas."
     },
     "gaia_bh1": {
       "name": "Gaia BH1",
@@ -1634,7 +1634,7 @@
       "name": "Brzina svetlosti",
       "seoTitle": "Kolika je brzina svetlosti? 299.792 km/s, objašnjeno",
       "tagline": "Kosmičko ograničenje brzine: 299.792.458 metara svake sekunde — tačno.",
-      "body": "U vakuumu svetlost putuje tačno 299.792.458 metara u sekundi — oko 300.000 km/s, odnosno 1,08 milijardi km/h. Taj broj je tačan zato što je od 1983. sam metar definisan pomoću njega. Ajnštajnova specijalna teorija relativnosti (1905) učinila ju je više od brzine: ista je za svakog posmatrača, ma koliko se brzo kretao, a ništa što ima masu nikada je ne može dostići — što ste joj bliži, svaki dodatni delić brzine košta sve više energije. Istom brzinom šire se i gravitacija i svi elektromagnetni talasi, od radio-talasa do gama-zraka. Kroz staklo, vodu ili dijamant svetlost usporava, ali to je kolektivni efekat materijala — samo ograničenje brzine nikada se ne menja.",
+      "body": "U vakuumu svetlost putuje tačno 299.792.458 metara u sekundi — oko 300.000 km/s, odnosno 1,08 milijarde km/h. Taj broj je tačan zato što je od 1983. sam metar definisan pomoću njega. Ajnštajnova specijalna teorija relativnosti (1905) učinila ju je više od brzine: ista je za svakog posmatrača, ma koliko se brzo kretao, a ništa što ima masu nikada je ne može dostići — što ste joj bliži, svaki dodatni delić brzine košta sve više energije. Istom brzinom šire se i gravitacija i svi elektromagnetni talasi, od radio-talasa do gama-zraka. Kroz staklo, vodu ili dijamant svetlost usporava, ali to je kolektivni efekat materijala — samo ograničenje brzine nikada se ne menja.",
       "narrative": "Svetlost obiđe Zemlju oko sedam i po puta u sekundi. Pa ipak joj treba 1,3 sekunde do Meseca, 8 minuta i 20 sekundi od Sunca do nas, više od 4 godine od najbliže zvezde i 2,5 miliona godina od galaksije Andromeda.",
       "funFact": "Prva procena stigla je zahvaljujući jednom mesecu. Ole Remer je 1676. primetio da Jupiterov mesec Io izlazi iz pomračenja kasnije kada je Zemlja dalje od Jupitera — svetlost je jednostavno imala duži put. Kristijan Hajgens je iz njegovih podataka izračunao brzinu od oko 220.000 km/s: promašaj za četvrtinu, ali dokaz da je svetlosti potrebno vreme da putuje.",
       "image": {
@@ -1642,7 +1642,7 @@
       },
       "facts": {
         "fact1": "Tačno 299.792.458 m/s u vakuumu — utvrđeno definicijom od 1983.",
-        "fact2": "Oko 1,08 milijardi km/h, odnosno 186.282 milje u sekundi.",
+        "fact2": "Oko 1,08 milijarde km/h, odnosno 186.282 milje u sekundi.",
         "fact3": "U vodi svetlost ide oko 225.000 km/s, a u dijamantu oko 124.000 km/s.",
         "fact4": "Sunčevoj svetlosti treba oko 8 minuta i 20 sekundi da stigne do Zemlje.",
         "fact5": "Prvi put procenjena 1676, iz pomračenja Jupiterovog meseca Io (Ole Remer).",
@@ -1891,12 +1891,12 @@
     },
     "grand_canyon": {
       "name": "Veliki kanjon",
-      "tagline": "Izdubila ga je reka Kolorado: dug 447 km, dubok skoro 1,9 km, sa stenama starim do 1,8 milijardi godina.",
-      "body": "Veliki kanjon u Arizoni vijuga 447 km duž reke Kolorado, širok do 29 km od ivice do ivice i dubok skoro 1,9 km na najdubljem mestu. Njegovi zidovi su naslagani slojevi stena kao stranice knjige: krečnjak i peščar blizu ivice stari su oko 270 miliona godina, a tamni škriljac na dnu oko 1,8 milijardi godina. Reka je počela da useca današnji tok pre oko 5 do 6 miliona godina, uz pomoć sporog izdizanja visoravni Kolorado. Nacionalni park SAD postao je 1919. i danas ga godišnje poseti oko 5 miliona ljudi.",
+      "tagline": "Izdubila ga je reka Kolorado: dug 447 km, dubok skoro 1,9 km, sa stenama starim do 1,8 milijarde godina.",
+      "body": "Veliki kanjon u Arizoni vijuga 447 km duž reke Kolorado, širok do 29 km od ivice do ivice i dubok skoro 1,9 km na najdubljem mestu. Njegovi zidovi su naslagani slojevi stena kao stranice knjige: krečnjak i peščar blizu ivice stari su oko 270 miliona godina, a tamni škriljac na dnu oko 1,8 milijarde godina. Reka je počela da useca današnji tok pre oko 5 do 6 miliona godina, uz pomoć sporog izdizanja visoravni Kolorado. Nacionalni park SAD postao je 1919. i danas ga godišnje poseti oko 5 miliona ljudi.",
       "narrative": "Ni dva Burdž Kalife, jedan na drugom, na najdubljem mestu ne bi stigla od reke do ivice.",
       "funFact": "Kanjon ima sopstvenu klimu: reka na dnu može biti oko 11 °C toplija od ivice iznad, pa ujutru možete ostaviti sneg gore, a popodne se spustiti u pustinjsku vrućinu.",
       "seoTitle": "Koliko je dubok Veliki kanjon? Veličina u poređenju",
-      "metaDescription": "Veliki kanjon dubok je skoro 1,9 km, dug 447 km i širok do 29 km, a stene na dnu stare su 1,8 milijardi godina. Veličina u poređenju sa Everestom i drugim.",
+      "metaDescription": "Veliki kanjon dubok je skoro 1,9 km, dug 447 km i širok do 29 km, a stene na dnu stare su 1,8 milijarde godina. Veličina u poređenju sa Everestom i drugim.",
       "image": {
         "alt": "Večernje svetlo na slojevitim crvenim i narandžastim liticama Velikog kanjona pod oblacima, pogled sa Pauel Pointa."
       },
@@ -1904,7 +1904,7 @@
         "fact1": "Dužina: oko 447 km duž reke Kolorado.",
         "fact2": "Dubina: prosečno oko 1,6 km, najviše oko 1.860 m.",
         "fact3": "Širina: od oko 180 m do 29 km od ivice do ivice.",
-        "fact4": "Najstarije stene na dnu: oko 1,8 milijardi godina.",
+        "fact4": "Najstarije stene na dnu: oko 1,8 milijarde godina.",
         "fact5": "Reka Kolorado usekla je današnji tok pre oko 5–6 miliona godina.",
         "fact6": "Nacionalni park SAD od 1919; oko 5 miliona posetilaca godišnje."
       }
@@ -2242,7 +2242,7 @@
     "large_magellanic_cloud": {
       "name": "Veliki Magelanov oblak",
       "tagline": "Najveća galaksija pratilac Mlečnog puta — oblak od 20 milijardi zvezda na južnom nebu.",
-      "body": "Veliki Magelanov oblak je mala galaksija pratilac Mlečnog puta, udaljena oko 160.000 svetlosnih godina. Širok je otprilike 32.000 svetlosnih godina — oko trećine širine Mlečnog puta — i ima oko 20 milijardi zvezda. Sa južne polulopte izgleda kao otkinuti komad Mlečnog puta, bled oblak dug koliko 20 punih Meseci; ime je dobio po Ferdinandu Magelanu, čije ga je putovanje 1519. učinilo poznatim u Evropi, mada su ga ljudi na jugu oduvek poznavali. U njemu je maglina Tarantula, najveća fabrika zvezda u našem galaktičkom susedstvu, a 1987. u njemu je buknula najbliža supernova viđena za skoro 400 godina.",
+      "body": "Veliki Magelanov oblak je mala galaksija pratilac Mlečnog puta, udaljena oko 160.000 svetlosnih godina. Širok je otprilike 32.000 svetlosnih godina — oko trećine širine Mlečnog puta — i ima oko 20 milijardi zvezda. Sa južne polulopte izgleda kao otkinuti komad Mlečnog puta, bled oblak dug koliko 20 punih Meseci; ime je dobio po Ferdinandu Magelanu, čije je putovanje od 1519. do 1522. godine Oblake proslavilo u Evropi, mada su ga ljudi na jugu oduvek poznavali. U njemu je maglina Tarantula, najveća fabrika zvezda u našem galaktičkom susedstvu, a 1987. u njemu je buknula najbliža supernova viđena za skoro 400 godina.",
       "narrative": "Kad bi Mlečni put bio tanjir širok 27 cm, Veliki Magelanov oblak bio bi keks prečnika oko 9 cm, udaljen oko 40 cm — a Andromeda, sledeća velika galaksija, bila bi udaljena oko 6 metara.",
       "funFact": "Svetlost koju vidimo iz Velikog Magelanovog oblaka krenula je pre oko 160.000 godina, kada je naša vrsta, Homo sapiens, živela gotovo isključivo u Africi.",
       "seoTitle": "Koliki je Veliki Magelanov oblak? Galaksija pratilac",
@@ -2434,7 +2434,7 @@
       "tagline": "Odredite tačno gde je čestica i njeno kretanje se zamuti — ne zato što smo nespretni, već zato što je ona talas.",
       "body": "Verner Hajzenberg je 1927. otkrio da položaj i impuls čestice (masa puta brzina) nikada ne mogu oba istovremeno biti oštro određeni: neodređenost jednog pomnožena neodređenošću drugog nikad nije manje od sićušnog stalnog iznosa, što se piše Δx·Δp ≥ ħ/2. Često se objašnjava nespretnim merenjem — svetlost kojom gledamo elektron gurne ga u stranu — i sam Hajzenberg je isprva tako rezonovao, ali ta slika zavarava: ni savršeni instrumenti ne bi mogli da probiju tu granicu. Ona potiče od toga što se čestice ponašaju kao talasi. Talas sabijen u kratak paket mora biti sastavljen od mnogo različitih talasnih dužina, a talas sa jednom čistom talasnom dužinom mora se prostirati daleko, pa čestica jednostavno nema tačan položaj i tačan impuls u isto vreme. Isto pravilo sprečava atome da se uruše: elektron sabijen bliže jezgru morao bi da se kreće sve brže i nemirnije, a energija koju to košta drži ga na odstojanju.",
       "narrative": "Princip neodređenosti nema sopstvenu veličinu — to je pravilo o tome koliko oštro priroda dopušta da stvari budu određene. Njegova granica je stalna i sićušna, pa se oseća samo u mikrosvetu: zatvorite elektron u prostor širine atoma i njegova brzina postaje neodređena za stotine kilometara u sekundi, dok je za fudbalsku loptu ista granica previše mala da bi se ikad primetila.",
-      "funFact": "Odredite položaj fudbalske lopte od 430 grama na hiljaditi deo milimetra i princip neodređenosti nameće neodređenost njene brzine od oko 10⁻²⁸ m/s. Tim tempom lopta bi se za čitavih 13,8 milijardi godina, koliko je svemir star, pomerila manje od širine jednog atoma.",
+      "funFact": "Odredite položaj fudbalske lopte od 430 grama na hiljaditi deo milimetra i princip neodređenosti nameće neodređenost njene brzine od oko 10⁻²⁸ m/s. Tim tempom lopta bi se za čitavih 13,8 milijarde godina, koliko je svemir star, pomerila manje od širine jednog atoma.",
       "metaDescription": "Zašto čestica ne može istovremeno imati tačan položaj i brzinu — ne zbog nespretnog merenja, već zbog talasa — i kako to čuva atome od urušavanja.",
       "image": {
         "alt": "Čuvena crno-bela fotografija 29 fizičara sa Solvejeve konferencije 1927. u Briselu — Ajnštajn i Marija Kiri sede u prvom redu, a mladi Hajzenberg stoji pozadi, treći zdesna."
@@ -2453,10 +2453,10 @@
     "house_mouse": {
       "name": "Domaći miš",
       "tagline": "Oko 8 cm brkova i krzna koji su pratili ljude od prvih ambara do svih krajeva sveta.",
-      "body": "Domaći miš (Mus musculus) je mali glodar koji živi uz ljude toliko dugo da se danas sreće gotovo svuda gde ima ljudi. Odrastao miš dug je oko 7,5–10 cm od nosa do korena repa, a gotovo goli rep dug je otprilike još toliko; težak je samo 11–30 g. Potiče sa Indijskog potkontinenta, do istočnog Sredozemlja stigao je pre oko 15.000 godina, hraneći se zalihama hrane u prvim stalnim naseljima, i otada je sa ljudima obišao ceo svet. Ženka godišnje može da othrani od 5 do 10 legala sa po 5 ili 6 mladunaca, pa se od nekoliko miševa vrlo brzo napravi mnogo. Odgajan u laboratorijama, isti ovaj miš postao je jedan od glavnih oslonaca medicinskih istraživanja, jer su njegovi geni izuzetno slični našima.",
-      "narrative": "Meren od nosa do korena repa, miš od 8 cm nešto je kraći od platne kartice (8,6 cm) i dug je kao oko šest medonosnih pčela poređanih jedna za drugom. Telo domaće mačke dugo je skoro šest miševa, a oko 21 miš poređan jedan za drugim dostigao bi visinu odraslog čoveka.",
-      "massNarrative": "Odrastao miš srednje veličine, težak oko 20 g, teži koliko oko 200 pčela radilica ili četiri lista običnog papira za štampač. Za jednu domaću mačku trebalo bi otprilike 200–250 miševa.",
-      "funFact": "Mužjaci miševa pevaju. Kada osete miris ženke, ispuštaju pesme od ponovljenih fraza sastavljenih od nekoliko vrsta slogova, na 30–110 kHz — daleko iznad granice ljudskog sluha od 20 kHz. Mačka, koja čuje do oko 79 kHz, može da uhvati veći deo te serenade koju mi nikada ne čujemo.",
+      "body": "Domaći miš (Mus musculus) je mali glodar koji živi uz ljude toliko dugo da se danas sreće gotovo svuda gde ima ljudi. Odrastao miš dug je oko 7,5–10 cm od nosa do korena repa, a gotovo goli rep dug je otprilike još toliko; težak je samo 11–30 g. Potiče sa Indijskog potkontinenta; do istočnog Sredozemlja stigao je pre oko 15.000 godina, hraneći se zalihama hrane u prvim stalnim naseljima, i otada je sa ljudima obišao ceo svet. Ženka godišnje može da othrani od 5 do 10 legala sa po oko šest mladunaca, pa nekoliko miševa vrlo brzo postane mnogo. Odgajan u laboratorijama, isti ovaj miš postao je jedan od glavnih oslonaca medicinskih istraživanja, jer su njegovi geni izuzetno slični našima.",
+      "narrative": "Meren od nosa do korena repa, miš od 8 cm nešto je kraći od platne kartice (8,6 cm) i dug je kao oko šest medonosnih pčela poređanih jedna za drugom. Telo domaće mačke dugo je koliko skoro šest miševa, a oko 21 miš poređan jedan za drugim dostigao bi visinu odraslog čoveka.",
+      "massNarrative": "Odrastao miš srednje veličine, od oko 20 g, težak je koliko oko 200 pčela radilica ili četiri lista običnog papira za štampač. Tek 200–250 miševa bilo bi teško koliko jedna domaća mačka.",
+      "funFact": "Mužjaci miševa pevaju. Kada osete miris ženke, ispuštaju pesme od ponovljenih fraza sastavljenih od nekoliko vrsta slogova, na 30–110 kHz — daleko iznad granice ljudskog sluha od 20 kHz. Mačka, koja čuje do oko 79 kHz, može da čuje veći deo te serenade koju mi nikada ne čujemo.",
       "seoTitle": "Koliko je veliki domaći miš? Dužina, rep i težina",
       "metaDescription": "Odrastao domaći miš dug je oko 7,5–10 cm, uz rep otprilike iste dužine, i težak 11–30 g. Veličina miša u poređenju sa poznatim stvarima.",
       "image": {
@@ -2465,8 +2465,8 @@
       "facts": {
         "fact1": "Dužina glave i tela (od nosa do korena repa): oko 7,5–10 cm; rep dodaje još 5–10 cm.",
         "fact2": "Težina odraslog miša: obično 11–30 g — koliko nekoliko većih kovanica.",
-        "fact3": "Može da se provuče ispod vrata kroz procep visok samo 6 mm — otprilike debljina olovke — i kroz otvore široke oko 1 cm.",
-        "fact4": "U mirovanju mu srce kuca oko 550–725 puta u minuti, otprilike osam puta brže nego ljudsko srce u mirovanju.",
+        "fact3": "Može da se provuče ispod vrata kroz procep visok samo 6 mm — otprilike koliko je debela olovka — i kroz otvore široke oko 1 cm.",
+        "fact4": "U mirovanju mu srce kuca oko 550–725 puta u minutu, otprilike osam puta brže od ljudskog srca u mirovanju.",
         "fact5": "Miševi i ljudi imaju gotovo isti skup gena; delovi dva genoma koji kodiraju proteine u proseku su 85% identični.",
         "fact6": "Divlji domaći miševi obično žive kraće od godinu dana; u zaštićenim uslovima često dožive 2–3 godine."
       }
@@ -2474,9 +2474,9 @@
     "tarantula_nebula": {
       "name": "Maglina Tarantula",
       "tagline": "Najveća i najsjajnija fabrika zvezda u blizini Mlečnog puta — svetleća mreža gasa u susednoj galaksiji, dom najmasivnije poznate zvezde.",
-      "body": "Maglina Tarantula, poznata i kao 30 Doradus, ogroman je svetleći oblak gasa i prašine u Velikom Magelanovom oblaku, udaljen oko 160.000 svetlosnih godina. Široka je skoro 1.000 svetlosnih godina, a njena sjajna vlakna pružaju se na sve strane kao noge pauka — otud i ime. To je najveća i najsjajnija oblast stvaranja zvezda u Lokalnoj grupi, porodici galaksija kojoj pripada i naša. U njenom srcu je jato mladih zvezda starih samo 2 do 3 miliona godina, među kojima je i R136a1, najmasivnija poznata zvezda. Iako je u drugoj galaksiji, sa južne polulopte vidi se golim okom kao mutna mrlja.",
-      "narrative": "Kad bi se centar magline Tarantula nalazio u Suncu, ona bi se prostirala oko 500 svetlosnih godina u svim pravcima — i progutala bi Plejade i milione drugih zvezda. U njenu širinu stalo bi oko 40 Orionovih maglina poređanih jedna do druge, a svetlosti treba oko 1.000 godina da je pređe s kraja na kraj.",
-      "funFact": "Tarantula sija toliko jako da bi, kad bi bila blizu kao Orionova maglina, zauzimala deo neba velik kao 60 punih Meseci — a njena svetlost bi noću bacala senke na tlo.",
+      "body": "Maglina Tarantula, poznata i kao 30 Doradus, ogroman je svetleći oblak gasa i prašine u Velikom Magelanovom oblaku, udaljen oko 160.000 svetlosnih godina. Široka je skoro 1.000 svetlosnih godina, a njena sjajna vlakna pružaju se na sve strane kao noge pauka — otud i ime. To je najveća i najsjajnija oblast stvaranja zvezda u Lokalnoj grupi, porodici galaksija kojoj pripada i naša. U njenom srcu je jato mladih zvezda starih samo 1 do 2 miliona godina, među kojima je i R136a1, najmasivnija poznata zvezda. Iako je u drugoj galaksiji, sa južne polulopte vidi se golim okom kao mutna mrlja.",
+      "narrative": "Kad bi središte magline Tarantula bilo na mestu Sunca, ona bi se prostirala oko 500 svetlosnih godina u svim pravcima — i progutala bi Plejade i milione drugih zvezda. U njenu širinu stalo bi oko 40 Orionovih maglina poređanih jedna do druge, a svetlosti treba oko 1.000 godina da je pređe s kraja na kraj.",
+      "funFact": "Tarantula sija toliko jako da bi se, kad bi nam bila blizu koliko i Orionova maglina, prostirala preko oko 30° neba — širine 60 punih Meseci poređanih jedan do drugog — a njena svetlost bi noću bacala senke na tlo.",
       "seoTitle": "Kolika je maglina Tarantula? Veličina 30 Doradus",
       "metaDescription": "Maglina Tarantula široka je skoro 1.000 svetlosnih godina i udaljena 160.000 svetlosnih godina — najsjajnija fabrika zvezda blizu Mlečnog puta i dom R136a1.",
       "image": {
@@ -2486,72 +2486,72 @@
         "fact1": "Veličina: skoro 1.000 svetlosnih godina — širina njenog svetlećeg gasa na širokim snimcima, izračunata iz njene veličine na nebu i udaljenosti. Pošto njene blede ivice postepeno iščezavaju, objavljene vrednosti kreću se od oko 650 do 1.860 svetlosnih godina.",
         "fact2": "Udaljenost: oko 160.000 svetlosnih godina, u Velikom Magelanovom oblaku, galaksiji pratiocu Mlečnog puta; izvori navode od 160.000 do 170.000.",
         "fact3": "Najveća i najsjajnija oblast stvaranja zvezda u Lokalnoj grupi galaksija.",
-        "fact4": "R136a1, u središnjem jatu R136, najmasivnija je poznata zvezda: procene se kreću od oko 200 do 300 Sunčevih masa, a sija milionima puta jače od Sunca.",
-        "fact5": "Svemirski teleskop Džejms Veb snimio je 2022. njen deo širok 340 svetlosnih godina i otkrio desetine hiljada mladih zvezda koje je prašina skrivala od ranijih teleskopa.",
-        "fact6": "Supernova 1987A, najbliža supernova viđena od izuma teleskopa, eksplodirala je na njenom obodu u februaru 1987."
+        "fact4": "R136a1, u središnjem jatu R136, najmasivnija je poznata zvezda: novije procene daju oko 200 Sunčevih masa (ranije su dostizale i preko 300), a sija milionima puta jače od Sunca.",
+        "fact5": "Svemirski teleskop Džejms Veb je 2022. snimio njen deo širok 340 svetlosnih godina i otkrio desetine hiljada mladih zvezda koje je prašina skrivala od ranijih teleskopa.",
+        "fact6": "Supernova 1987A, najbliža supernova viđena od izuma teleskopa, viđena je kako eksplodira na njenom obodu u februaru 1987."
       }
     },
     "small_magellanic_cloud": {
       "name": "Mali Magelanov oblak",
       "tagline": "Manja galaksija pratilac Mlečnog puta — bledi oblak u kojem su astronomi pronašli lenjir za merenje svemira.",
-      "body": "Mali Magelanov oblak je patuljasta galaksija pratilac Mlečnog puta, udaljena oko 200.000 svetlosnih godina i široka otprilike 18.900 svetlosnih godina — nešto više od polovine širine njenog većeg suseda, Velikog Magelanovog oblaka. Sa južne polulopte izgleda kao bled, otkinuti pramen Mlečnog puta, širok koliko osam punih Meseci; Evropa je za njega saznala sa Magelanovog putovanja 1519–1522, ali su ga australijski Aboridžini i pacifički ostrvljani poznavali mnogo ranije. Godine 1912. Henrijeta Livit je pomoću pulsirajućih zvezda u ovom oblaku otkrila pravilo koje astronomima omogućava da mere udaljenosti do drugih galaksija. Dva oblaka privlače jedan drugog: spaja ih Magelanov most od gasa i mladih zvezda, a za njima se preko više od 100° neba vuče dugačak trag gasa, Magelanova struja. Novija istraživanja ukazuju na to da veći oblak polako razvlači manji — i da je ono što vidimo možda zapravo dve odvojene celine, jedna iza druge.",
+      "body": "Mali Magelanov oblak je patuljasta galaksija pratilac Mlečnog puta, udaljena oko 200.000 svetlosnih godina i široka otprilike 18.900 svetlosnih godina — nešto više od polovine širine svog većeg suseda, Velikog Magelanovog oblaka. Sa južne polulopte izgleda kao bled, otkinuti pramen Mlečnog puta, širok koliko osam punih Meseci; ime je dobio po Magelanu, čije je putovanje od 1519. do 1522. godine Oblake proslavilo u Evropi, ali su ga australijski Aboridžini i pacifički ostrvljani poznavali mnogo ranije. Godine 1912. Henrijeta Livit je pomoću pulsirajućih zvezda u ovom oblaku otkrila pravilo koje astronomima omogućava da mere udaljenosti do drugih galaksija. Dva oblaka se međusobno privlače: spaja ih Magelanov most od gasa i mladih zvezda, a za njima se preko više od 100° neba vuče dugačak trag gasa, Magelanova struja. Novija istraživanja ukazuju na to da veći oblak polako razvlači manji — i da je ono što vidimo možda zapravo dve odvojene celine, jedna iza druge.",
       "narrative": "Kad bi Mlečni put bio tanjir širok 27 cm, Mali Magelanov oblak bio bi magloviti keks prečnika oko 5 cm, udaljen oko 55 cm — malo iza Velikog Magelanovog oblaka od 9 cm, dok bi Andromeda bila udaljena skoro 7 metara.",
-      "funFact": "Lenjir za merenje svemira pronađen je baš ovde. Henrijeta Livit je 1912. primetila da kod 25 pulsirajućih zvezda u Malom Magelanovom oblaku one sjajnije sporije pulsiraju. Pošto su sve otprilike podjednako udaljene, svaka takva zvezda postala je putokaz za merenje udaljenosti — metod kojim je Edvin Habl kasnije pokazao da druge galaksije leže daleko izvan naše.",
+      "funFact": "Lenjir za merenje svemira pronađen je baš ovde. Henrijeta Livit je 1912. primetila da kod 25 pulsirajućih zvezda u Malom Magelanovom oblaku one sjajnije sporije pulsiraju. Pošto su sve otprilike podjednako udaljene, kada je pravilo baždareno, svaka takva zvezda postala je putokaz za merenje udaljenosti — metod kojim je Edvin Habl kasnije pokazao da druge galaksije leže daleko izvan naše.",
       "seoTitle": "Koliki je Mali Magelanov oblak? Veličina i udaljenost",
-      "metaDescription": "Mali Magelanov oblak širok je oko 18.900, a udaljen 200.000 svetlosnih godina — patuljasta galaksija u kojoj je otkriven ključ kosmičkih udaljenosti.",
+      "metaDescription": "Mali Magelanov oblak širok je oko 18.900, a udaljen 200.000 svetlosnih godina — patuljasta galaksija u kojoj je Henrijeta Livit otkrila ključ kosmičkih udaljenosti.",
       "image": {
         "alt": "Mali Magelanov oblak snimljen teleobjektivom sa planine Ćero Pačon u Čileu: bled, plavičastobeo oblak zvezda posut ružičastim oblastima u kojima nastaju zvezde, levo od njega sjajno globularno jato 47 Tukana, na gustoj pozadini zvezda."
       },
       "facts": {
         "fact1": "Veličina: oko 18.900 svetlosnih godina (5,78 kiloparseka), mereno do standardne granice sjaja — nešto više od polovine širine Velikog Magelanovog oblaka.",
-        "fact2": "Udaljenost: oko 200.000 svetlosnih godina (62,4 kiloparseka), izmereno s tačnošću od oko 2% pomoću pomračinskih dvojnih zvezda 2020.",
+        "fact2": "Udaljenost: oko 200.000 svetlosnih godina (62,4 kiloparseka), izmereno 2020. godine s tačnošću od oko 2%, pomoću pomračinskih dvojnih zvezda",
         "fact3": "Ukupna masa oko 7 milijardi Sunčevih masa, računajući zvezde, gas i tamnu materiju.",
         "fact4": "Henrijeta Livit je 1908. popisala 1.777 promenljivih zvezda u Magelanovim oblacima, a 1912. iz 25 njih u ovom oblaku otkrila vezu između perioda i sjaja.",
-        "fact5": "Vidi se golim okom (magnituda 2,7) u sazvežđu Tukan — širok je oko 4°, osam puta više od Meseca — sa svakog mesta južno od oko 15° severne geografske širine.",
-        "fact6": "Studija iz 2024. otkrila je dve celine u kojima nastaju zvezde, udaljene oko 5 kiloparseka (16.000 svetlosnih godina) duž našeg pravca gledanja; studija 7.426 zvezda iz 2025. ukazuje na to da ga Veliki Magelanov oblak razvlači."
+        "fact5": "Vidi se golim okom (magnituda 2,7) u sazvežđu Tukan — širok je oko 4°, osam puta širi od Meseca — sa svakog mesta južno od oko 15° severne geografske širine.",
+        "fact6": "Studija iz 2024. otkrila je dve celine u kojima nastaju zvezde, udaljene oko 5 kiloparseka (16.000 svetlosnih godina) duž našeg pravca gledanja; studija iz 2025. zasnovana na 7.426 zvezda ukazuje na to da ga Veliki Magelanov oblak razvlači."
       }
     },
     "electron": {
       "name": "Elektron",
-      "seoTitle": "Šta je elektron? Čestica iza hemije i struje",
-      "tagline": "Prva otkrivena elementarna čestica — i ona koja pokreće vašu hemiju, sijalice i telefon.",
-      "body": "Elektron je prva elementarna čestica koja je ikada otkrivena: Dž. Dž. Tomson je 1897. pokazao da su svetleći „katodni zraci“ u staklenoj cevi iz koje je izvučen skoro sav vazduh zapravo mlaz negativno naelektrisanih čestica više od hiljadu puta lakših od atoma vodonika. Svaki atom drži svoje elektrone oko sićušnog jezgra, a gotovo sve što atom radi zavisi od njih: hemijske veze su elektroni koje atomi dele ili predaju jedni drugima, električna struja su elektroni koje napon gura kroz žicu, a boje neonske reklame ili natrijumove ulične svetiljke potiču od elektrona koji skaču između energetskih nivoa. Svi elektroni imaju potpuno isto naelektrisanje i istu sićušnu masu — oko 1/1836 mase protona — i ugrađen spin, zbog kog je svaki od njih majušni magnet. Kao i svaka čestica, elektron se ponaša i kao talas, zbog čega se elektroni u atomu razlivaju u oblake umesto da kruže po putanjama. Koliko god eksperimenti mogu da utvrde, elektron nema nikakvu veličinu ni delove.",
-      "narrative": "Nijedan eksperiment nikada nije izmerio veličinu elektrona. Podaci sa sudarača pokazuju da mora biti manji od oko 10⁻¹⁸ m — manje od hiljaditog dela širine protona. Kad biste proton uvećali do veličine Zemlje, elektron bi i dalje morao da stane u gradić širok nekoliko kilometara; koliko znamo, možda je prava tačka, bez ikakve veličine.",
-      "funFact": "Elektron je zapanjujuće okrugao. Da mu je naelektrisanje makar malo iskrivljeno, u jakom električnom polju bi mu se promenila energija — zato je tim iz instituta JILA u Koloradu 2023. tražio upravo takvu promenu kod elektrona u zarobljenim molekulima hafnijum-fluorida, i nije je našao. Po poređenju samog NIST-a: kad bi elektron bio uvećan do veličine Zemlje, svaka izbočina na njemu morala bi da bude manja od jednog atoma.",
-      "metaDescription": "Elektron: prva otkrivena čestica, nosilac struje i hemije — i toliko mali da mu nijedan eksperiment nije našao veličinu. Jednostavno objašnjeno.",
+      "seoTitle": "Šta je elektron? Čestica koja pokreće struju i hemiju",
+      "tagline": "Prva otkrivena elementarna čestica — i ona koja pokreće hemiju, sijalice i vaš telefon.",
+      "body": "Elektron je prva elementarna čestica koja je ikada otkrivena: Dž. Dž. Tomson je 1897. pokazao da su svetleći „katodni zraci“ u staklenoj cevi iz koje je izvučen skoro sav vazduh zapravo mlaz negativno naelektrisanih čestica više od hiljadu puta lakših od atoma vodonika. Svaki atom drži svoje elektrone oko sićušnog jezgra, a gotovo sve što atom radi zavisi od njih: hemijske veze su elektroni koje atomi dele ili predaju jedni drugima, električna struja su elektroni koje napon gura kroz žicu, a boje neonske reklame ili natrijumove ulične svetiljke potiču od elektrona koji skaču između energetskih nivoa. Svi elektroni imaju potpuno isto naelektrisanje i istu sićušnu masu — oko 1/1836 mase protona — i ugrađen spin, zbog kog je svaki od njih majušni magnet. Kao i svaka čestica, elektron se ponaša i kao talas, zbog čega se elektroni u atomu razlivaju u oblake umesto da kruže po putanjama. Prema svim dosadašnjim eksperimentima, elektron nema nikakvu veličinu ni delove.",
+      "narrative": "Nijedan eksperiment nikada nije izmerio veličinu elektrona. Podaci sa sudarača pokazuju da mora biti manji od oko 3 × 10⁻¹⁹ m — manje od hiljaditog dela širine protona. Kad biste proton uvećali do veličine Zemlje, elektron bi i dalje morao da stane u gradić širok nekoliko kilometara; koliko znamo, možda je prava tačka, bez ikakve veličine.",
+      "funFact": "Elektron je zapanjujuće okrugao. Da mu je naelektrisanje makar malo nesimetrično raspoređeno, u jakom električnom polju bi mu se promenila energija — zato je tim iz instituta JILA u Koloradu 2023. tražio upravo takvu promenu kod elektrona u zarobljenim molekulskim jonima hafnijum-fluorida, i nije je našao. Kako to slikovito kaže sam NIST: kad bi elektron bio uvećan do veličine Zemlje, svaka izbočina na njemu morala bi da bude manja od jednog atoma.",
+      "metaDescription": "Elektron: prva otkrivena čestica, nosilac struje i hemije — i toliko mali da nijedan eksperiment nije uspeo da mu izmeri veličinu.",
       "image": {
-        "alt": "Tomsonova katodna cev iz 1897. godine: duga providna staklena cev sa okruglim balonom na jednom kraju, kalemom bakarne žice oko sredine i metalnom elektrodom utopljenom u drugi kraj, na svetlosivoj pozadini."
+        "alt": "Tomsonova katodna cev iz 1897. godine: duga providna staklena cev sa okruglim balonom na jednom kraju, kalemom bakarne žice oko sredine i metalnom elektrodom utaljenom u drugi kraj, na svetlosivoj pozadini."
       },
       "facts": {
         "fact1": "Naelektrisanje: −1,602176634 × 10⁻¹⁹ kulona, tačno po definiciji. Masa: 9,1093837139 × 10⁻³¹ kg (CODATA 2022).",
         "fact2": "Oko 1.836 puta lakši od protona — i izgleda da se nikada ne raspada: eksperimenti pokazuju da živi najmanje 6,6 × 10²⁸ godina.",
-        "fact3": "Dž. Dž. Tomson je otkriće objavio 30. aprila 1897. i dobio Nobelovu nagradu za fiziku 1906. Ime „elektron“ smislio je Džordž Džonston Stoni 1891. godine, pre nego što je sama čestica pronađena.",
-        "fact4": "Nikakva veličina nikada nije otkrivena: podaci sudarača LEP svode mu poluprečnik ispod 2,8 × 10⁻¹⁹ m (sa 95% pouzdanosti). „Klasični poluprečnik elektrona“ od 2,8 femtometra — veći od protona — jeste dužina izračunata iz njegovog naelektrisanja i mase u predkvantnoj fizici, a ne izmerena veličina.",
+        "fact3": "Dž. Dž. Tomson je otkriće objavio 30. aprila 1897. i dobio Nobelovu nagradu za fiziku 1906. Ime „elektron“ skovao je Džordž Džonston Stoni 1891. godine, pre nego što je sama čestica pronađena.",
+        "fact4": "Nikakva veličina nikada nije otkrivena: prema podacima sudarača LEP, poluprečnik mu je manji od 2,8 × 10⁻¹⁹ m (uz pouzdanost od 95%). „Klasični poluprečnik elektrona“ od 2,8 femtometra — veći od protona — jeste dužina izračunata iz njegovog naelektrisanja i mase u predkvantnoj fizici, a ne izmerena veličina.",
         "fact5": "Struja od jednog ampera znači da kroz jednu tačku svake sekunde prođe oko 6,24 × 10¹⁸ elektrona.",
-        "fact6": "Spin ½, koji su predložili Samuel Gudsmit i Džordž Ulenbek 1925. godine, pretvara svaki elektron u majušni magnet — odatle potiče i sila običnog magneta za frižider.",
-        "fact7": "Njegova magnetna jačina (g/2 = 1,00115965218059) izmerena je sa tačnošću od 0,13 delova na bilion, čime je najpreciznije predviđanje Standardnog modela provereno na oko jedan deo na bilion (2023).",
-        "fact8": "Brzi elektroni imaju mnogo kraće talase od vidljive svetlosti, pa elektronski mikroskopi razaznaju detalje manje od atoma — ispod 0,05 nm, naspram oko 200 nm kod najboljeg optičkog mikroskopa."
+        "fact6": "Spin ½, koji su 1925. predložili Samuel Gudsmit i Džordž Ulenbek, pretvara svaki elektron u majušni magnet — odatle potiče i sila običnog magneta za frižider.",
+        "fact7": "Njegov magnetni moment (g/2 = 1,00115965218059) izmerena je sa tačnošću od 0,13 delova na bilion, čime je najpreciznije predviđanje Standardnog modela provereno na oko jedan deo na bilion (2023).",
+        "fact8": "Brzi elektroni imaju mnogo kraće talase od vidljive svetlosti, pa elektronski mikroskopi razaznaju detalje manje od atoma — ispod 0,05 nm, naspram oko 200 nm kod običnog optičkog mikroskopa."
       }
     },
     "wave_particle_duality": {
       "name": "Talasno-čestični dualizam",
       "seoTitle": "Svetlost: talas ili čestica? Talasno-čestični dualizam",
       "tagline": "Svetlost i materija putuju kao talasi, a stižu kao čestice — svaki put.",
-      "body": "Više od jednog veka fizičari su se sporili da li je svetlost talas ili mlaz čestica. Između 1801. i 1803. Tomas Jang je propustio svetlost kroz dva uska otvora i video naizmenične svetle i tamne pruge — talase koji se sabiraju i poništavaju — ali je Albert Ajnštajn 1905. objasnio fotoelektrični efekat posmatrajući svetlost kao pakete energije, kasnije nazvane fotonima: svetlost ispod određene frekvencije ne izbija elektrone iz metala koliko god bila jaka, a svetlost iznad nje ih izbija i kad je slaba. Luj de Brolj je 1924. predložio da i materija ima talase, a tri godine kasnije elektroni rasejani na kristalima dali su upravo šare kakve prave talasi. Najjasniji dokaz šalje čestice ka dvema pukotinama jednu po jednu: svaka stigne kao jedna tačka, a ipak hiljade tačaka polako slože prugastu šaru talasa — kao da je talas koji opisuje svaku česticu prošao kroz obe pukotine. To ne znači da se čestica smenjuje između talasa i sićušne kuglice, niti je potreban svestan posmatrač: bilo koji uređaj koji zabeleži kroz koju je pukotinu čestica prošla briše pruge. Eksperimenti su nesporni; šta oni „znače“ i dalje je predmet spora među tumačenjima kvantne mehanike (u udžbenicima se pojava zove i korpuskularno-talasni dualizam).",
-      "narrative": "Talasno-čestični dualizam nema sopstvenu veličinu, ali određuje gde kvantno ponašanje uopšte može da se vidi. Talas materije je kraći što je predmet teži i brži: za čoveka od 70 kilograma koji hoda brzinom od 1 m/s iznosi oko 10⁻³⁵ m — manje čak i od Plankove dužine — pa se čovek nikad neće raširiti kao talas prolazeći kroz vrata. Eksperimenti su ipak pomerili granicu od elektrona do molekula od 2.000 atoma (2019.) i nakupina od preko 7.000 atoma natrijuma, širokih oko 8 nm (2026.).",
-      "funFact": "Dž. Dž. Tomson, fizičar najzaslužniji za otkriće elektrona kao čestice, imao je sina Džordža Padžeta Tomsona, koji je podelio Nobelovu nagradu za 1937. jer je pokazao da elektroni pokazuju difrakciju kao talasi. Otac i sin su obojica bili u pravu.",
-      "metaDescription": "Svetlost i elektroni putuju kao talasi, a stižu kao čestice. Kako su to pokazali Jang, Ajnštajn, de Brolj i eksperiment sa dve pukotine — i šta to ne znači.",
+      "body": "Više od jednog veka fizičari su se sporili da li je svetlost talas ili mlaz čestica. Između 1801. i 1803. Tomas Jang je podelio snop svetlosti na dva dela i video naizmenične svetle i tamne pruge — talase koji se sabiraju i poništavaju — ali je Albert Ajnštajn 1905. objasnio fotoelektrični efekat posmatrajući svetlost kao pakete energije, kasnije nazvane fotonima: svetlost ispod određene frekvencije ne izbija elektrone iz metala koliko god bila jaka, a svetlost iznad nje ih izbija i kad je slaba. Luj de Brolj je 1924. predložio da i materija ima talase, a tri godine kasnije elektroni rasejani na kristalima dali su upravo šare kakve prave talasi. U najjasnijem ogledu čestice se šalju ka dvema pukotinama jedna po jedna: svaka stigne kao jedna tačka, a ipak hiljade tačaka polako slože prugastu šaru talasa — kao da je talas koji opisuje svaku česticu prošao kroz obe pukotine. To ne znači da je čestica čas talas, čas sićušna kuglica, niti je potreban svestan posmatrač: bilo koji uređaj koji zabeleži kroz koju je pukotinu čestica prošla briše pruge. Eksperimenti su nesporni; šta oni „znače“ i dalje je predmet spora među suprotstavljenim tumačenjima kvantne mehanike (u udžbenicima se pojava zove i korpuskularno-talasni dualizam).",
+      "narrative": "Talasno-čestični dualizam nema sopstvenu veličinu, ali određuje gde kvantno ponašanje uopšte može da se vidi. Talas materije je kraći što je predmet teži i brži: za čoveka od 70 kilograma koji hoda brzinom od 1 m/s iznosi oko 10⁻³⁵ m — kraće čak i od Plankove dužine — pa se čovek nikad neće raširiti kao talas prolazeći kroz vrata. Eksperimenti su ipak pomerili granicu od elektrona do molekula od 2.000 atoma (2019) i nakupina od preko 7.000 atoma natrijuma, širokih oko 8 nm (2026).",
+      "funFact": "Dž. Dž. Tomson, fizičar najzaslužniji za otkriće elektrona kao čestice, imao je sina Džordža Padžeta Tomsona, koji je podelio Nobelovu nagradu za 1937. jer je dokazao da elektroni difraktuju kao talasi. I otac i sin bili su u pravu.",
+      "metaDescription": "Svetlost i materija putuju kao talasi, a stižu kao čestice. Kako su to pokazali Jang, Ajnštajn, de Brolj i eksperiment sa dve pukotine — i šta to ne znači.",
       "image": {
         "alt": "Četiri crno-bela panela iz eksperimenta Akire Tonomure u Hitačiju 1989.: pojedinačni elektroni padaju kao razbacane bele tačke, a kad ih se nakupi na desetine hiljada, slažu se u uspravne svetle i tamne pruge."
       },
       "facts": {
-        "fact1": "Tomas Jang je interferenciju svetlosti opisao pred Kraljevskim društvom 1801., a pokazao ju je sa sunčevom svetlošću 1803.",
-        "fact2": "Ajnštajnova Nobelova nagrada za fiziku za 1921. (uručena 1922.) dodeljena je „posebno za otkriće zakona fotoelektričnog efekta“ — ne za relativnost.",
-        "fact3": "Luj de Brolj je talase elektrona predložio u doktorskoj tezi 1924., a Nobelovu nagradu za 1929. dobio je za „talasnu prirodu elektrona“.",
-        "fact4": "Klinton Dejvison i Lester Džermer, i nezavisno od njih Džordž Padžet Tomson, videli su 1927. difrakciju elektrona kao kod talasa; Dejvison i Tomson su podelili Nobelovu nagradu za 1937.",
+        "fact1": "Tomas Jang je interferenciju svetlosti opisao pred Kraljevskim društvom 1801. godine, a pokazao ju je sa sunčevom svetlošću 1803.",
+        "fact2": "Ajnštajnova Nobelova nagrada za fiziku za 1921. (uručena 1922.) dodeljena je „posebno za otkriće zakona fotoelektričnog efekta“ — a ne za teoriju relativnosti.",
+        "fact3": "Luj de Brolj je talase elektrona predložio u doktorskoj disertaciji 1924. godine, a Nobelovu nagradu za 1929. dobio je za „talasnu prirodu elektrona“.",
+        "fact4": "Klinton Dejvison i Lester Džermer, i nezavisno od njih Džordž Padžet Tomson, uočili su 1927. da elektroni difraktuju kao talasi; Dejvison i Tomson su podelili Nobelovu nagradu za 1937.",
         "fact5": "Dž. I. Tejlor je 1909. dobio interferentne pruge i sa svetlošću slabom kao sveća udaljena nešto više od 1,6 km (jedne milje).",
         "fact6": "U Tonomurinom eksperimentu iz 1989. u aparatu nikad nije bilo više od jednog elektrona u isto vreme; pruge su se slagale više od 20 minuta, od oko 140.000 tačaka.",
-        "fact7": "Isto talasno ponašanje viđeno je kod molekula fulerena C₆₀ (1999.), molekula od do 2.000 atoma (2019.) i nakupina od preko 7.000 atoma natrijuma, težih od 170.000 daltona (2026.).",
+        "fact7": "Isto talasno ponašanje viđeno je kod molekula fulerena C₆₀ (1999), molekula sa čak 2.000 atoma (2019) i nakupina od preko 7.000 atoma natrijuma, težih od 170.000 daltona (2026).",
         "fact8": "Reč „foton“ ušla je u upotrebu tek 1926. — Ajnštajn je 1905. govorio o „kvantima svetlosti“."
       }
     },
@@ -2559,40 +2559,40 @@
       "name": "E = mc²",
       "seoTitle": "Šta zapravo znači E = mc²? Ekvivalencija mase i energije",
       "tagline": "Masa je energija — a kurs razmene je brzina svetlosti na kvadrat.",
-      "body": "U septembru 1905. Albert Ajnštajn poslao je nastavak svog rada o relativnosti, dug svega tri strane, s pitanjem da li inercija tela zavisi od energije koju sadrži. Njegov odgovor, koji danas pišemo kao E = mc², kaže da su masa i energija ista stvar izražena u različitim jedinicama, a faktor pretvaranja c² — brzina svetlosti na kvadrat — ogroman je: jednom kilogramu odgovara oko 9 × 10¹⁶ džula. Ne radi se samo o bombama, a nije reč ni baš o „pretvaranju materije u energiju“: svaka energija koju telo sadrži dodaje mu masu. Šolja čaja od 250 ml zagrejana sa 20 °C do ključanja postane teža za oko milijarditi deo grama — daleko premalo za bilo koju vagu, ali stvarno. U nuklearnim reakcijama efekat postaje velik: proizvodi su malo lakši od onoga što je ušlo u reakciju, a masa koja nedostaje odlazi kao svetlost, toplota i brze čestice.",
-      "narrative": "E = mc² nema veličinu; njena razmera je kurs razmene. Jedan kilogram mase odgovara energiji od oko 21 megatone TNT-a — više od 1.400 bombi kao u Hirošimi, dok je sama ta bomba u energiju pretvorila samo oko 0,7 grama mase. Sunce svake sekunde izgubi oko 4,26 miliona tona mase u vidu svetlosti, a ipak i takvim tempom 4,6 milijardi godina sijanja iznosi tek oko 0,03% njegove mase.",
+      "body": "U septembru 1905. Albert Ajnštajn poslao je nastavak svog rada o relativnosti, dug svega tri strane, s pitanjem da li inercija tela zavisi od energije koju sadrži. Njegov odgovor, koji danas pišemo kao E = mc², kaže da je masa tela mera energije koju ono sadrži, a faktor pretvaranja c² — brzina svetlosti na kvadrat — ogroman je: jednom kilogramu odgovara oko 9 × 10¹⁶ džula. Ne radi se samo o bombama, a nije reč ni baš o „pretvaranju materije u energiju“: svaka energija koju telo sadrži dodaje mu masu. Šolja čaja od 250 ml zagrejana sa 20 °C do ključanja postane teža za oko milijarditi deo grama — daleko premalo za bilo koju vagu, ali stvarna promena. U nuklearnim reakcijama efekat postaje velik: proizvodi su malo lakši od onoga što je ušlo u reakciju, a masa koja nedostaje odlazi kao svetlost, toplota i brze čestice.",
+      "narrative": "E = mc² nema veličinu; njena razmera je kurs razmene. Jedan kilogram mase odgovara energiji od oko 21 megatone TNT-a — više od 1.400 bombi poput one bačene na Hirošimu, dok je sama ta bomba u energiju pretvorila samo oko 0,7 grama mase. Sunce svake sekunde gubi oko 4,26 miliona tona mase u vidu svetlosti, a ipak je za 4,6 milijarde godina sijanja izgubilo tek oko 0,03% svoje mase.",
       "funFact": "Ajnštajn 1905. uopšte nije napisao E = mc². Energiju je označio sa L, a brzinu svetlosti sa V, i zaključio da telo koje izrači energiju L izgubi masu L/V². Predložio je čak i kako da se to proveri: pomoću soli radijuma, čija se energija pri raspadu snažno menja.",
-      "metaDescription": "E = mc² kaže da je masa energija: 1 kg odgovara oko 21 megatone TNT-a. Šta formula zaista znači, zašto je vruća šolja teža i kako Sunce gubi masu.",
+      "metaDescription": "E = mc² kaže da je masa energija: 1 kg odgovara energiji od oko 21 megatone TNT-a. Šta formula zaista znači, zašto je vruća šolja teža i kako Sunce gubi masu.",
       "image": {
         "alt": "Pasus starog nemačkog teksta iz Ajnštajnovog rada iz 1905. godine: ako telo izrači energiju L, njegova masa se smanji za L/V²; masa tela je mera njegovog energetskog sadržaja; soli radijuma bi mogle da posluže za proveru teorije."
       },
       "facts": {
-        "fact1": "Kvarkovi u protonu čine tek oko 1% njegove mase; ostalo je energija kvarkova i gluona u kretanju: proračuni kvarkova i gluona na superkompjuterima (kvantna hromodinamika na rešetki) 2008. dali su masu protona s tačnošću od nekoliko procenata.",
+        "fact1": "Kvarkovi u protonu čine tek oko 1% njegove mase; ostalo je energija kvarkova i gluona u kretanju: godine 2008. proračuni kvantne hromodinamike na rešetki, izvedeni na superkompjuterima, dali su masu protona s tačnošću od nekoliko procenata.",
         "fact2": "c² ≈ 9 × 10¹⁶ džula po kilogramu: 1 kg mase odgovara oko 21,5 megatone TNT-a.",
         "fact3": "Bomba bačena na Hirošimu (oko 15 kilotona) pretvorila je u energiju samo oko 0,7 grama mase.",
         "fact4": "Fisija uranijuma-235 pretvara u energiju oko 0,1% mase, fuzija vodonika u helijum u Suncu oko 0,7%, a anihilacija materije i antimaterije 100%.",
-        "fact5": "Sunce svake sekunde izgubi oko 4,26 miliona tona mase u vidu svetlosti.",
-        "fact6": "Napunjena baterija telefona (oko 15 Wh) teža je od prazne za oko 0,6 nanograma — 0,6 milijarditih delova grama.",
+        "fact5": "Sunce svake sekunde gubi oko 4,26 miliona tona mase u vidu svetlosti.",
+        "fact6": "Napunjena baterija telefona (oko 15 Wh) teža je od prazne za oko 0,6 nanograma — 0,6 milijarditog dela grama.",
         "fact7": "Timovi NIST-a i MIT-a 2005. direktno su proverili E = mc², upoređujući gubitak mase jezgra sa energijom gama zraka koje je izračilo: slaganje je bilo bolje od 0,00004%.",
         "fact8": "Potpuna formula glasi E² = (pc)² + (mc²)², gde je p impuls. E = mc² je slučaj tela koje miruje; svetlost nema masu, pa sva njena energija potiče od impulsa: E = pc."
       }
     },
     "entropy": {
       "name": "Entropija",
-      "seoTitle": "Šta je entropija i zašto vreme teče samo napred?",
+      "seoTitle": "Šta je entropija? Strela vremena, objašnjeno",
       "tagline": "Zašto se led topi, razbijeno jaje se nikada ne sastavi, a vreme teče samo napred: pomešanih rasporeda jednostavno ima mnogo više.",
-      "body": "Entropija broji načine. Atomi u bilo čemu — šoljici čaja, balonu punom vazduha — mogu da se rasporede na ogroman broj načina koji spolja izgledaju potpuno isto, a entropija meri koliko ih ima: formula Ludviga Bolcmana S = k log W kaže da je ona logaritam tog broja, W, pomnožen sićušnom konstantom k. Drugi zakon termodinamike kaže da ukupna entropija izolovanog sistema nikada ne opada, a razlog je obična statistika: stanja koja mogu da nastanu na više načina neuporedivo su verovatnija, pa stvari klize ka njima i tu ostaju. Zato toplota prelazi iz vrelog čaja u hladniju sobu, kap mastila se razliva po vodi, a led u toplom piću se topi — ništa ne zabranjuje obrnuto, ono je samo neverovatno do apsurda. Entropiju često zovu neredom, ali to je labavo pojednostavljenje: kada se voda po hladnom danu zaledi u uredne pahulje, toplota koju pritom oslobodi poveća entropiju okolnog vazduha više nego što kristal smanji sopstvenu. Živa bića rade na isti način — red u sebi grade tako što napolje izbacuju još više entropije, uglavnom u vidu toplote.",
-      "narrative": "Skoro svi zakoni fizike rade jednako dobro i unazad: snimak sudara dve bilijarske kugle izgleda sasvim prirodno i kada se pusti obrnuto. Snimak jajeta koje se razbija ne izgleda — a razlog je drugi zakon, zbog čega ga često zovu strelom vremena. To što ta strela svuda pokazuje u istom smeru svodi se na početak: svemir je pre oko 13,8 milijardi godina krenuo iz stanja izuzetno niske entropije, i sve od tada je polako trošenje te prednosti. Zašto je počeo baš tako — pretpostavka koju je filozof Dejvid Albert nazvao „hipotezom o prošlosti“ — nije objašnjeno i zaista je otvoreno pitanje. Ni kraj nije tako izvestan kao što zvuči: ako tamna energija bude i dalje širila svemir, entropija bi se mogla polako približavati maksimumu, hladnoj, ujednačenoj „toplotnoj smrti“ u kojoj se ništa zanimljivo više ne dešava — ali to je nekih 10¹⁰⁰ godina daleko, otprilike koliko crnoj rupi teškoj kao cela galaksija treba da ispari, i oslanja se na fiziku koju niko nije proverio tako daleko.",
-      "funFact": "Bolcman svoju jednačinu nikada nije zapisao baš onako kako je uklesana na njegovom grobu. Ideju je razvio sedamdesetih godina XIX veka; Maks Plank joj je oko 1900. dao današnji oblik, S = k log W, i konstantu k nazvao po njemu. Bolcman je umro 1906. godine, a formula danas stoji pozlaćenim slovima iznad njegove biste na Centralnom groblju u Beču.",
-      "metaDescription": "Entropija broji načine na koje se atomi mogu rasporediti. Zašto se led topi, jaje se ne sastavlja, život odaje toplotu, a vreme teče samo napred.",
+      "body": "Entropija broji načine. Atomi u bilo čemu — šoljici čaja, balonu punom vazduha — mogu da se rasporede na ogroman broj načina koji spolja izgledaju potpuno isto, a entropija meri koliko ih ima: formula Ludviga Bolcmana S = k log W kaže da je ona logaritam tog broja, W, pomnožen sićušnom konstantom k. Drugi zakon termodinamike kaže da ukupna entropija izolovanog sistema nikada ne opada, a razlog je obična statistika: stanja koja mogu da nastanu na više načina neuporedivo su verovatnija, pa stvari klize ka njima i tu ostaju. Zato toplota prelazi iz vrelog čaja u hladniju sobu, kap mastila se razliva po vodi, a led u toplom piću se topi — ništa ne zabranjuje obrnuto, samo je krajnje, gotovo apsurdno neverovatno. Entropiju često zovu neredom, ali to je labavo pojednostavljenje: kada se voda po hladnom danu zaledi u uredne pahulje, toplota koju pritom oslobodi poveća entropiju okolnog vazduha više nego što kristal smanji sopstvenu. Živa bića rade na isti način — red u sebi grade tako što napolje izbacuju još više entropije, uglavnom u vidu toplote.",
+      "narrative": "Skoro svi zakoni fizike rade jednako dobro i unazad: snimak sudara dve bilijarske kugle izgleda sasvim prirodno i kada se pusti obrnuto. Snimak jajeta koje se razbija ne izgleda tako — a razlog je drugi zakon, zbog čega ga često zovu strelom vremena. To što ta strela svuda pokazuje u istom smeru svodi se na početak: svemir je pre oko 13,8 milijarde godina krenuo iz stanja izuzetno niske entropije, i sve od tada je polako trošenje te početne prednosti. Zašto je počeo baš tako — pretpostavka koju je filozof Dejvid Albert nazvao „hipotezom o prošlosti“ — nije objašnjeno i zaista je otvoreno pitanje. Ni kraj nije tako izvestan kao što zvuči: ako tamna energija bude i dalje širila svemir, entropija bi se mogla polako približavati maksimumu, hladnoj, ujednačenoj „toplotnoj smrti“ u kojoj se ništa zanimljivo više ne dešava — ali tek pošto poslednje crne rupe, teške kao cele galaksije, ispare za nekih 10¹⁰⁰ godina — a cela ta slika oslanja se na fiziku koju niko nije proverio tako daleko.",
+      "funFact": "Bolcman svoju jednačinu nikada nije zapisao baš onako kako je uklesana na njegovom grobu. Ideju je razvio sedamdesetih godina XIX veka; Maks Plank joj je oko 1900. dao današnji oblik, S = k log W, uvevši konstantu k koja danas nosi Bolcmanovo ime. Bolcman je umro 1906. godine, a formula danas stoji pozlaćenim slovima iznad njegove biste na Centralnom groblju u Beču.",
+      "metaDescription": "Entropija broji načine na koje se atomi mogu rasporediti. Zašto se led topi, jaje se ne sastavlja, život odaje toplotu, a vreme izgleda kao da teče samo napred.",
       "image": {
         "alt": "Beli mermerni nadgrobni spomenik između dve žive ograde: bista bradatog Ludviga Bolcmana na stubu s natpisom „Ludwig Boltzmann 1844–1906“, a iznad njegove glave pozlaćenim slovima uklesana formula S = k log W."
       },
       "facts": {
         "fact1": "Bolcmanova formula: S = k log W — entropija je Bolcmanova konstanta k (1,380649 × 10⁻²³ džula po kelvinu) pomnožena logaritmom broja W, broja mikroskopskih rasporeda.",
-        "fact2": "Rudolf Klauzijus je reč „entropija“ skovao 1865. godine, od grčkog tropē, „preobražaj“, i sažeo: „Entropija sveta teži maksimumu.“",
+        "fact2": "Rudolf Klauzijus je reč „entropija“ skovao 1865. godine, od grčkog tropē, „preobražaj“, i sažeo je to rečima: „Entropija sveta teži maksimumu.“",
         "fact3": "Verovatnoća, a ne zabrana: šansa da se 100 molekula gasa u kutiji slučajno svi u istom trenutku nađu u njenoj levoj polovini iznosi 1 prema 2¹⁰⁰ — oko 1 prema 10³⁰. Za bilione biliona molekula u pravoj sobi to se ne bi desilo nijednom za sve vreme postojanja svemira.",
-        "fact4": "Temperatura Sunčeve površine je oko 20 puta viša od 255 K na kojima zrači Zemlja, pa za svaki foton sunčeve svetlosti koji upije Zemlja u svemir vraća oko 20 infracrvenih fotona — i s njima oko 20 puta više entropije.",
+        "fact4": "Temperatura Sunčeve površine je preko 20 puta viša od 255 K na kojima zrači Zemlja, pa za svaki upijeni foton Sunčeve svetlosti Zemlja u svemir vraća oko 20 infracrvenih fotona — i s njima oko 20 puta više entropije.",
         "fact5": "Ervin Šredinger je u knjizi „Šta je život?“ (1944) tvrdio da živa bića opstaju hraneći se „negativnom entropijom“ — svoj red održavaju tako što nered izbacuju u okolinu.",
         "fact6": "I informacija ima entropiju: Rolf Landauer je 1961. pokazao da brisanje jednog bita na sobnoj temperaturi mora da oslobodi najmanje oko 2,9 × 10⁻²¹ džula toplote — granica je u laboratoriji izmerena 2012. godine.",
         "fact7": "Entropija vidljivog svemira procenjuje se na oko 3 × 10¹⁰⁴ k — najveći deo nalazi se u supermasivnim crnim rupama (Čas Igan i Čarls Lajnviver, 2010).",
@@ -2635,7 +2635,7 @@
       "section2Heading": "I veličina je bitna",
       "section2Body": "Druga klasifikacija ide od patuljaka do hiperdžinova. Beli patuljci su zvezdani leševi manji od Zemlje. Smeđi patuljci su između velikih planeta i malih zvezda. Zvezde glavnog niza poput Sunca su u sredini. Crveni džinovi i superdžinovi se naduvavaju starenjem. Hiperdžinovi poput UY Scuti toliko su naduveni da bi njihova površina, postavljena na mesto Sunca, sezala dalje od Marsa — kod najvećih možda i iza Jupitera — ali su i među zvezdama najkraćeg veka u galaksiji.",
       "section3Heading": "Kako se zvezda rađa",
-      "section3Body": "Svaka zvezda počinje kao čvorić hladnog gasa unutar molekularnog oblaka koji kolapsira pod sopstvenom gravitacijom. Kako se centar zgušnjava i greje, vodonik počinje da se spaja u helijum i nova zvezda se priključuje „glavnom nizu“ — fazi stabilnog gorenja u kojoj provede većinu svog života. Sunce je u glavnom nizu oko 4,6 milijardi godina i ostalo mu je još otprilike pet.",
+      "section3Body": "Svaka zvezda počinje kao čvorić hladnog gasa unutar molekularnog oblaka koji kolapsira pod sopstvenom gravitacijom. Kako se centar zgušnjava i greje, vodonik počinje da se spaja u helijum i nova zvezda se priključuje „glavnom nizu“ — fazi stabilnog gorenja u kojoj provede većinu svog života. Sunce je u glavnom nizu oko 4,6 milijarde godina i ostalo mu je još otprilike pet.",
       "section4Heading": "Kako zvezda umire",
       "section4Body": "Šta zvezda postaje kada umre zavisi od toga koliko je bila masivna. Zvezde veličine Sunca naduvaju se u crvene džinove, zbace spoljne slojeve i ostave belog patuljka koji se polako hladi. Veće zvezde — 8 do 25 Sunčevih masa — eksplodiraju kao supernove, dok im jezgra kolapsiraju u neutronske zvezde. Zaista masivne zvezde (iznad oko 25 Sunčevih masa) obično umesto toga ostavljaju crne rupe — ponekad posle slabije eksplozije, ponekad gotovo bez nje. Crne rupe su, u tom smislu, grobnice najmasivnijih zvezda.",
       "section5Heading": "Brojke i ekstremi",
@@ -2667,7 +2667,7 @@
       "section2Heading": "Ne postaje svaka zvezda crna rupa",
       "section2Body": "Šta umiruća zvezda ostavlja za sobom zavisi od njene mase. Zvezde veličine Sunca završe kao beli patuljci koji se hlade. Zvezde 8 do 25 puta masivnije od Sunca kolapsiraju u neutronske zvezde nakon svoje supernove. Najteže zvezde — one iznad otprilike 25 Sunčevih masa — obično kolapsiraju u crne rupe zvezdane mase, ponekad uz samo slabu eksploziju ili bez nje. Crne rupe su, u tom smislu, grobnice najmasivnijih zvezda.",
       "section3Heading": "Imenovane crne rupe koje vredi znati",
-      "section3Body": "Sagittarius A* teži oko 4,15 miliona Sunčevih masa i nalazi se u centru Mlečnog puta; prvi direktni snimak dobili smo 2022. M87* u galaksiji M87 mnogo je teža — oko 6,5 milijardi Sunčevih masa — i bila je prva crna rupa ikada snimljena, 2019. TON 618 i Phoenix-A su kandidati za najmasivnije poznate, svaka po nekoliko desetina milijardi Sunčevih masa. Gaia BH1 je najbliža poznata crna rupa bilo koje vrste — mnogo manja, zvezdane mase, udaljena samo 1.560 svetlosnih godina daleko.",
+      "section3Body": "Sagittarius A* teži oko 4,15 miliona Sunčevih masa i nalazi se u centru Mlečnog puta; prvi direktni snimak dobili smo 2022. M87* u galaksiji M87 mnogo je teža — oko 6,5 milijarde Sunčevih masa — i bila je prva crna rupa ikada snimljena, 2019. TON 618 i Phoenix-A su kandidati za najmasivnije poznate, svaka po nekoliko desetina milijardi Sunčevih masa. Gaia BH1 je najbliža poznata crna rupa bilo koje vrste — mnogo manja, zvezdane mase, udaljena samo 1.560 svetlosnih godina daleko.",
       "section4Heading": "Čudnovata fizika unutra",
       "section4Body": "Iza horizonta događaja, naše trenutne teorije se iscrpljuju. Opšta relativnost predviđa „singularitet“ — tačku beskonačne gustine — u centru svake crne rupe. Ali beskonačnosti u fizici obično su znak da je teorija nepotpuna, ne stvarno predviđanje. Buduća teorija kvantne gravitacije, kada je budemo imali, verovatno će zameniti singularitet nečim manje beskonačnim.",
       "section5Heading": "Hokingovo zračenje i sporo isparavanje",
@@ -2698,20 +2698,20 @@
     },
     "bigBang": {
       "title": "Veliki prasak",
-      "seoTitle": "Veliki prasak: šta se desilo pre 13,8 milijardi godina",
+      "seoTitle": "Veliki prasak: šta se desilo pre 13,8 milijarde godina",
       "tagline": "Vrelo, gusto poreklo vidljivog svemira.",
-      "intro": "Naša najbolja trenutna slika kosmičke istorije kaže da je pre oko 13,8 milijardi godina sve u vidljivom svemiru bilo sabijeno u stanje toliko vrelo i gusto da su se obična materija, svetlost i sam prostor ponašali na načine koje naše teorije više ne mogu u potpunosti opisati. Iz tog stanja — to zovemo Veliki prasak — prostor se širio, hladio i stvorio materiju, zvezde i galaksije koje danas posmatramo. Veliki prasak nije eksplozija *u* prostoru; to je širenje *samog* prostora.",
+      "intro": "Naša najbolja trenutna slika kosmičke istorije kaže da je pre oko 13,8 milijarde godina sve u vidljivom svemiru bilo sabijeno u stanje toliko vrelo i gusto da su se obična materija, svetlost i sam prostor ponašali na načine koje naše teorije više ne mogu u potpunosti opisati. Iz tog stanja — to zovemo Veliki prasak — prostor se širio, hladio i stvorio materiju, zvezde i galaksije koje danas posmatramo. Veliki prasak nije eksplozija *u* prostoru; to je širenje *samog* prostora.",
       "section1Heading": "Širenje: galaksije se razdvajaju",
       "section1Body": "Edvin Habl je 1920-ih pokazao da se udaljene galaksije udaljavaju od nas, i što su dalje, brže se udaljavaju. To je najsnažniji direktni dokaz kosmičkog širenja. Nismo u nekom posebnom centru — iz svake galaksije prizor je isti: sve ostale se udaljavaju od nje. Vratite širenje unazad u vremenu i sve se sažima u jedno vrelo gusto stanje.",
       "section2Heading": "Kosmičko mikrotalasno pozadinsko zračenje — najranija slika svemira",
-      "section2Body": "Oko 380.000 godina posle Velikog praska, prostor se ohladio dovoljno da se formiraju atomi i da svetlost putuje slobodno prvi put. Ta drevna svetlost, pomerena ka mikrotalasnom delu spektra tokom 13,8 milijardi godina širenja, sada kupa celo nebo u slabom, gotovo uniformnom sjaju. Sitne temperaturne varijacije ovog kosmičkog mikrotalasnog pozadinskog zračenja mapiraju seme svake galaksije koja danas postoji. Izmerili smo ga sa izuzetnom preciznošću — to je jedno od najbolje proverenih predviđanja u celoj fizici.",
+      "section2Body": "Oko 380.000 godina posle Velikog praska, prostor se ohladio dovoljno da se formiraju atomi i da svetlost putuje slobodno prvi put. Ta drevna svetlost, pomerena ka mikrotalasnom delu spektra tokom 13,8 milijarde godina širenja, sada kupa celo nebo u slabom, gotovo uniformnom sjaju. Sitne temperaturne varijacije ovog kosmičkog mikrotalasnog pozadinskog zračenja mapiraju seme svake galaksije koja danas postoji. Izmerili smo ga sa izuzetnom preciznošću — to je jedno od najbolje proverenih predviđanja u celoj fizici.",
       "section3Heading": "Ubrzano širenje i tamna energija",
       "section3Body": "Godine 1998, dva nezavisna tima koja su merila udaljene supernove otkrila su da se širenje svemira ne usporava (kao što bi gravitacija sugerisala) — već ubrzava. Tajanstveni oblik energije ugrađen u sam prostor, nazvan *tamna energija*, izgleda da gura prostor sve brže i brže. Tokom narednih sto milijardi godina, ovo ubrzanje će na kraju odneti svaku galaksiju van naše lokalne grupe iza kosmičkog horizonta. Ubrzanje je **utvrđena teorija**; šta tamna energija zapravo *jeste* ostaje duboko otvoreno pitanje.",
       "section4Heading": "Pre Velikog praska? Samo spekulacija",
       "section4Body": "Pitanje „šta se dogodilo pre Velikog praska?“ leži na samoj ivici fizike. Postoji nekoliko ideja — večita inflacija, gde je naš svemir jedan od mnogih mehurova u mnogo većem inflacijskom multiverzumu; ciklični modeli, gde se Veliki praskovi i Veliki krahovi ponavljaju; modeli odskakanja iz petljaste kvantne gravitacije. Nijedna nije posmatračno potvrđena; neke možda ne mogu ni u principu da se potvrde. **Cela ova oblast je spekulativna** — fascinantna, ali još uvek nije nauka kao ostatak ove strane.",
-      "metaDescription": "Šta se desilo pre 13,8 milijardi godina i kako to znamo — širenje, kosmičko mikrotalasno pozadinsko zračenje, laki elementi — i šta je još otvoreno.",
+      "metaDescription": "Šta se desilo pre 13,8 milijarde godina i kako to znamo — širenje, kosmičko mikrotalasno pozadinsko zračenje, laki elementi — i šta je još otvoreno.",
       "keyNumber1Label": "Starost svemira",
-      "keyNumber1Value": "13,8 milijardi godina",
+      "keyNumber1Value": "13,8 milijarde godina",
       "keyNumber2Label": "Oslobađanje prve svetlosti (CMB)",
       "keyNumber2Value": "≈ 380.000 godina posle Velikog praska",
       "keyNumber3Label": "Otkriveno ubrzano širenje",
@@ -2749,7 +2749,7 @@
       "section3Heading": "Paradoks blizanaca",
       "section3Body": "Ako jedan blizanac ostane na Zemlji, a drugi ubrza do blizu brzine svetlosti, putuje do udaljene zvezde i vrati se — blizanac koji je putovao biće mlađi. Ovo nije paradoks: blizanci nisu u simetričnom položaju, jer samo putnik prelazi iz referentnog sistema u kome odlazi u onaj u kome se vraća. Njihove putanje kroz prostor-vreme se razlikuju, a na savijenoj putanji protekne manje vremena. Efekat je izmeren atomskim satovima koji su leteli oko sveta. **Status: stvarna posledica relativnosti, posmatračno potvrđena.**",
       "section4Heading": "Strela vremena",
-      "section4Body": "Zašto se vreme kreće samo unapred? Fizički, skoro svi zakoni fizike rade isto unazad kao i unapred — osim drugog zakona termodinamike, koji kaže da ukupna entropija — grubo rečeno, broj načina na koje se delovi sistema mogu rasporediti — nikada ne opada. Ta asimetrija je ono što daje vremenu njegov pravac. Zašto je svemir započeo u tako niskoentropijskom stanju, međutim, mnogo je teže pitanje — i otvoreno. **Status: sama strela je utvrđena; njeno krajnje poreklo je spekulativno.**",
+      "section4Body": "Zašto se vreme kreće samo unapred? Fizički, skoro svi zakoni fizike rade isto unazad kao i unapred — osim, u praksi, drugog zakona termodinamike, koji kaže da ukupna entropija — grubo rečeno, mera broja načina na koje se delovi sistema mogu rasporediti — nikada ne opada. Ta asimetrija je ono što daje vremenu njegov pravac. Zašto je svemir započeo u tako niskoentropijskom stanju, međutim, mnogo je teže pitanje — i otvoreno. **Status: sama strela je utvrđena; njeno krajnje poreklo je spekulativno.**",
       "keyNumber1Label": "Korekcija GPS satova",
       "keyNumber1Value": "38 µs dnevno",
       "keyNumber2Label": "Odstupanje GPS-a bez nje",
@@ -2771,7 +2771,7 @@
       "section3Heading": "Galaktičko i vangalaktičko",
       "section3Body": "Sagittarius A*, supermasivna crna rupa u centru naše galaksije, udaljena je 26.000 svetlosnih godina od Zemlje. Druga strana Mlečnog puta nalazi se na oko 80.000 svetlosnih godina od nas. Andromeda — naš najbliži veliki galaktički sused — udaljena je 2,5 miliona svetlosnih godina; njena svetlost je krenula kada je naš rod, Homo, bio tek u povoju. Jato Virgo, gusto središte našeg lokalnog kosmičkog komšiluka, nalazi se 54 miliona svetlosnih godina dalje.",
       "section4Heading": "Kosmički horizont",
-      "section4Body": "Možemo videti samo svetlost koja je imala vremena da nas dostigne od Velikog praska, ali se prostor takođe širio sve to vreme dok je svetlost putovala. Najdalja svetlost koju vidimo dolazi od objekata koji su *sada* udaljeni oko 46 milijardi svetlosnih godina — iako je njihova svetlost putovala „samo“ 13,8 milijardi godina. To je naš posmatrački horizont. Iza njega gotovo sigurno leži još svemira; ograničenje se odnosi na ono što možemo znati, a ne na ono što postoji."
+      "section4Body": "Možemo videti samo svetlost koja je imala vremena da nas dostigne od Velikog praska, ali se prostor takođe širio sve to vreme dok je svetlost putovala. Najdalja svetlost koju vidimo dolazi od objekata koji su *sada* udaljeni oko 46 milijardi svetlosnih godina — iako je njihova svetlost putovala „samo“ 13,8 milijarde godina. To je naš posmatrački horizont. Iza njega gotovo sigurno leži još svemira; ograničenje se odnosi na ono što možemo znati, a ne na ono što postoji."
     },
     "moons": {
       "title": "Meseci",
@@ -2779,7 +2779,7 @@
       "tagline": "Prirodni sateliti planeta.",
       "intro": "Prirodni satelit, ili mesec, svako je telo koje kruži oko planete, patuljaste planete ili drugog malog tela u Sunčevom sistemu. Naš Sunčev sistem ima stotine potvrđenih meseci, od objekata veličine stene do svetova većih od Merkura. Neki imaju atmosfere, podzemne okeane ili aktivni vulkanizam. Nekoliko njih je među najverovatnijim mestima za pronalaženje života van Zemlje.",
       "section1Heading": "Zemljin Mesec",
-      "section1Body": "Naš Mesec je veliki za mesec male planete — oko četvrtine prečnika Zemlje. Nastao je pre oko 4,5 milijardi godina, gotovo sigurno kada se telo veličine Marsa sudarilo sa mladom Zemljom, a krš tog sudara se sjedinio. Mesec stabilizuje Zemljinu osu rotacije i pokreće naše plime; polako se udaljava od nas oko 3,8 cm godišnje.",
+      "section1Body": "Naš Mesec je veliki za mesec male planete — oko četvrtine prečnika Zemlje. Nastao je pre oko 4,5 milijarde godina, gotovo sigurno kada se telo veličine Marsa sudarilo sa mladom Zemljom, a krš tog sudara se sjedinio. Mesec stabilizuje Zemljinu osu rotacije i pokreće naše plime; polako se udaljava od nas oko 3,8 cm godišnje.",
       "section2Heading": "Džinovi — Ganimed, Titan, Kalisto, Io, Evropa",
       "section2Body": "Četiri najveća meseca u Sunčevom sistemu — Ganimed, Titan, Kalisto i Io — svi su veći od Zemljinog Meseca, a Ganimed je čak veći od planete Merkura. Ganimed (Jupiterov mesec) je najveći mesec u Sunčevom sistemu. Titan (Saturnov mesec) ima gustu atmosferu azota i reke tečnog metana. Evropa (Jupiter) krije ogroman slan okean ispod ledenog omotača — jedno od najobećavajućih mesta za potragu za životom drugde u Sunčevom sistemu.",
       "section3Heading": "Brojanje: Jupiter i Saturn",
@@ -2792,9 +2792,9 @@
       "title": "Koliko je veliki svemir?",
       "seoTitle": "Koliko je veliki svemir? Vidljivi svemir",
       "tagline": "Vidljivi svemir ima prečnik od oko 93 milijarde svetlosnih godina. Svemir u celini možda uopšte nema ivicu.",
-      "intro": "Kratak odgovor: deo koji možemo da vidimo — vidljivi svemir — jeste sfera prečnika oko 93 milijarde svetlosnih godina, sa nama u središtu. To je otprilike 8,8 × 10²⁶ metara, ili oko 70 milijardi milijardi Zemalja poređanih jedna do druge. Svemir u celini veći je od toga, možda i mnogo veći, a može biti i beskonačan. To niko ne zna, a uz današnju fiziku možda nikada nećemo ni saznati. U nastavku: zašto je taj broj 93 milijarde, a ne 13,8 milijardi, šta je zapravo kosmički horizont, šta bi moglo da se nalazi iza njega i kako zamisliti ovoliku veličinu.",
-      "section1Heading": "Zašto 93 milijarde svetlosnih godina, ako je svemir star samo 13,8 milijardi godina?",
-      "section1Body": "Ovo je najčešća zabuna. Svemir je star oko 13,8 milijardi godina, pa izgleda da nijedna svetlost nije mogla da pređe više od 13,8 milijardi svetlosnih godina — što bi vidljivom svemiru dalo prečnik od 27,6 milijardi svetlosnih godina. Ali prostor se širio sve vreme dok je ta svetlost putovala. Najstariju svetlost koju možemo da registrujemo, kosmičko mikrotalasno pozadinsko zračenje, oslobodio je vreo gas oko 380.000 godina posle Velikog praska, kada je bio udaljen samo oko 42 miliona svetlosnih godina od materije od koje će jednog dana nastati naša galaksija. Od tada je širenje to rastojanje razvuklo otprilike 1.100 puta: gas koji je emitovao svetlost koju danas vidimo sada je udaljen oko 46 milijardi svetlosnih godina. Udvostručite taj poluprečnik i dobijate prečnik od oko 93 milijarde svetlosnih godina. Nijedno ograničenje brzine nije prekršeno. Svetlost se kroz prostor sve vreme kretala brzinom svetlosti; rastao je prostor iza nje.",
+      "intro": "Kratak odgovor: deo koji možemo da vidimo — vidljivi svemir — jeste sfera prečnika oko 93 milijarde svetlosnih godina, sa nama u središtu. To je otprilike 8,8 × 10²⁶ metara, ili oko 70 milijardi milijardi Zemalja poređanih jedna do druge. Svemir u celini veći je od toga, možda i mnogo veći, a može biti i beskonačan. To niko ne zna, a uz današnju fiziku možda nikada nećemo ni saznati. U nastavku: zašto je taj broj 93 milijarde, a ne 13,8 milijarde, šta je zapravo kosmički horizont, šta bi moglo da se nalazi iza njega i kako zamisliti ovoliku veličinu.",
+      "section1Heading": "Zašto 93 milijarde svetlosnih godina, ako je svemir star samo 13,8 milijarde godina?",
+      "section1Body": "Ovo je najčešća zabuna. Svemir je star oko 13,8 milijarde godina, pa izgleda da nijedna svetlost nije mogla da pređe više od 13,8 milijarde svetlosnih godina — što bi vidljivom svemiru dalo prečnik od 27,6 milijarde svetlosnih godina. Ali prostor se širio sve vreme dok je ta svetlost putovala. Najstariju svetlost koju možemo da registrujemo, kosmičko mikrotalasno pozadinsko zračenje, oslobodio je vreo gas oko 380.000 godina posle Velikog praska, kada je bio udaljen samo oko 42 miliona svetlosnih godina od materije od koje će jednog dana nastati naša galaksija. Od tada je širenje to rastojanje razvuklo otprilike 1.100 puta: gas koji je emitovao svetlost koju danas vidimo sada je udaljen oko 46 milijardi svetlosnih godina. Udvostručite taj poluprečnik i dobijate prečnik od oko 93 milijarde svetlosnih godina. Nijedno ograničenje brzine nije prekršeno. Svetlost se kroz prostor sve vreme kretala brzinom svetlosti; rastao je prostor iza nje.",
       "section2Heading": "Ivica je horizont, a ne zid",
       "section2Body": "Vidljivi svemir nema fizičku granicu. Njegova ivica je horizont, kao horizont na moru: granica koju određuje mesto na kom stojite i vreme koje je svetlost imala da putuje. Posmatrač u galaksiji udaljenoj 10 milijardi svetlosnih godina ima sopstveni vidljivi svemir, sa sobom u središtu, koji se samo delimično preklapa sa našim. Zato i izgleda kao da smo mi u centru — svako je. Veliki prasak se nije dogodio na jednom mestu na koje bismo mogli da pokažemo; dogodio se svuda istovremeno, i svaka tačka vidi širenje na isti način. Galaksije udaljene više od oko 14 milijardi svetlosnih godina trenutno se udaljavaju brže od svetlosti, što relativnost dozvoljava, jer se ništa ne kreće kroz prostor brže od svetlosti — raste rastojanje između nas. A pošto se širenje ubrzava, svetlost koju daleke galaksije emituju danas nikada neće stići do nas ako su one sada udaljene više od otprilike 16 milijardi svetlosnih godina. Deo kosmosa sa kojim bismo ikada mogli da stupimo u kontakt, praktično, polako se smanjuje.",
       "section3Heading": "Šta je iza: konačan ili beskonačan?",
@@ -2802,7 +2802,7 @@
       "section4Heading": "Korak po korak uz razmeru",
       "section4Body": "Ovako veliki broj sam po sebi malo govori, pa se do njega popnimo u koracima. Zemlja ima prečnik od 12.742 km. Sunce je široko oko 109 Zemalja i udaljeno 150 miliona km. Svetlosna godina iznosi oko 9,46 biliona km, a najbliža zvezda, Proksima Kentaura, udaljena je 4,24 svetlosne godine. Mlečni put se prostire na oko 100.000 svetlosnih godina i sadrži od 100 do 400 milijardi zvezda. Andromeda, najbliža velika galaksija, udaljena je 2,5 miliona svetlosnih godina. Laniakea, superjato u kom živimo, široka je oko 500 miliona svetlosnih godina. Vidljivi svemir, sa svoje 93 milijarde svetlosnih godina, širok je oko 930.000 Mlečnih puteva, odnosno blizu 190 Laniakea, i sadrži stotine milijardi galaksija — neke procene idu i do 2 biliona. A sada sve smanjite istim faktorom, koristeći referentnu razmeru ovog sajta u kojoj je Zemlja zrno peska od 0,5 mm: Sunce postaje kugla od 5,4 cm na oko 5,9 metra, Mlečni put se proteže na oko 40 miliona kilometara, a ceo vidljivi svemir ima prečnik od otprilike 3,6 svetlosne godine — gotovo koliko iznosi stvarno rastojanje odavde do Proksime Kentaura.",
       "section5Heading": "Česte zablude",
-      "section5Body": "„Svemir je širok 13,8 milijardi svetlosnih godina.“ Nije — 13,8 milijardi je njegova starost u godinama. Zbog širenja, vidljivi deo širok je oko 93 milijarde svetlosnih godina. „Veliki prasak je bila eksplozija iz jednog centra.“ Nije to bila eksplozija u već postojećem prostoru; sam prostor je svuda počeo da se širi, pa ne postoji ni centar ni tačka iz koje se širio. „Svemir se širi u nešto.“ Širenje znači da rastu rastojanja između međusobno udaljenih galaksija; za to nije potreban nikakav spoljašnji prostor u koji bi se širio. „Sve se širi, pa i mi.“ Gravitacijom povezani sistemi — atomi, ljudi, planete, Sunčev sistem, Mlečni put, pa čak i naša Lokalna grupa galaksija — ne šire se. Rastezanje prevladava tek na razmerama između grupa i jata galaksija. „Ništa ne može da se udaljava brže od svetlosti.“ Relativnost ograničava kretanje kroz prostor, a ne rast samog prostora; većina galaksija u vidljivom svemiru danas se od nas udaljava brže od svetlosti. „Vidimo ceo svemir.“ Vidimo samo ono što je svetlost stigla da nam donese. Vidljivi svemir je mehur oko nas, a ne celina."
+      "section5Body": "„Svemir je širok 13,8 milijarde svetlosnih godina.“ Nije — 13,8 milijarde je njegova starost u godinama. Zbog širenja, vidljivi deo širok je oko 93 milijarde svetlosnih godina. „Veliki prasak je bila eksplozija iz jednog centra.“ Nije to bila eksplozija u već postojećem prostoru; sam prostor je svuda počeo da se širi, pa ne postoji ni centar ni tačka iz koje se širio. „Svemir se širi u nešto.“ Širenje znači da rastu rastojanja između međusobno udaljenih galaksija; za to nije potreban nikakav spoljašnji prostor u koji bi se širio. „Sve se širi, pa i mi.“ Gravitacijom povezani sistemi — atomi, ljudi, planete, Sunčev sistem, Mlečni put, pa čak i naša Lokalna grupa galaksija — ne šire se. Rastezanje prevladava tek na razmerama između grupa i jata galaksija. „Ništa ne može da se udaljava brže od svetlosti.“ Relativnost ograničava kretanje kroz prostor, a ne rast samog prostora; većina galaksija u vidljivom svemiru danas se od nas udaljava brže od svetlosti. „Vidimo ceo svemir.“ Vidimo samo ono što je svetlost stigla da nam donese. Vidljivi svemir je mehur oko nas, a ne celina."
     },
     "planetSizesCompared": {
       "title": "Poređenje veličina planeta",
@@ -2844,7 +2844,7 @@
       "section1Heading": "Najveće zvezde",
       "section1Body": "Najveće zvezde su crveni superdžinovi i hiperdžinovi — naduvene, hladne zvezde pri kraju života. Njihove veličine izračunavaju se iz sjaja i temperature, a sjaj zavisi od udaljenosti, pa se procene znatno menjaju. UY Scuti, nekada navođena sa oko 1.700 Sunčevih poluprečnika, smanjena je na otprilike 900 kada je misija Gaia precizirala njenu udaljenost; ona je najveća zvezda na ovom sajtu, ali više nije rekorder. Među trenutnim vodećim kandidatima su Stephenson 2-18, procenjena na oko 1.800 Sunčevih poluprečnika, sa marginom greške od nekoliko stotina i sa sumnjama u njenu udaljenost; WOH G64 u Velikom Magelanovom oblaku, oko 1.500; VY Canis Majoris, oko 1.400; i RW Cephei, oko 1.100. Postavljena na mesto Sunca, VY Canis Majoris progutala bi Jupiterovu orbitu, a čak bi i UY Scuti sezala dalje od Marsa i asteroidnog pojasa, veći deo puta do Jupitera. Veličina nije masa: ovi naduveni džinovi imaju masu od samo oko 7 do 40 Sunaca. Najmasivnija poznata zvezda, R136a1, ima otprilike 200 Sunčevih masa, ali je samo nekoliko desetina puta šira od Sunca.",
       "section2Heading": "Najveće crne rupe",
-      "section2Body": "Veličina crne rupe — širina njenog horizonta događaja — raste srazmerno njenoj masi, pa su najveće crne rupe ujedno i najteže. TON 618, kvazar čija je svetlost putovala oko 10,8 milijardi godina, procenjuje se na oko 40 milijardi Sunčevih masa (starije procene govorile su o 66 milijardi), što daje horizont događaja širok oko 1.600 astronomskih jedinica — dvadesetak puta širi od Plutonove orbite. Ta masa dobija se iz brzine gasa oko crne rupe, metodom koja može da pogreši i dva do tri puta. Crna rupa u Holmberg 15A, centralnoj galaksiji jata Abell 85, izmerena je na oko 40 milijardi Sunčevih masa na osnovu kretanja njenih zvezda, što je direktniji metod. Procene za Phoenix-A kreću se od nekoliko milijardi do oko 100 milijardi Sunčevih masa; ovaj sajt koristi oko 25 milijardi. Poređenja radi, M87*, prva crna rupa koja je ikada snimljena, ima oko 6,5 milijardi Sunčevih masa, a Sagittarius A* u središtu naše galaksije oko 4 miliona. Neki teoretičari smatraju da crne rupe koje se hrane iz sjajnih akrecionih diskova teško rastu preko oko 50 milijardi Sunčevih masa, što bi TON 618 smestilo blizu prirodne gornje granice.",
+      "section2Body": "Veličina crne rupe — širina njenog horizonta događaja — raste srazmerno njenoj masi, pa su najveće crne rupe ujedno i najteže. TON 618, kvazar čija je svetlost putovala oko 10,8 milijarde godina, procenjuje se na oko 40 milijardi Sunčevih masa (starije procene govorile su o 66 milijardi), što daje horizont događaja širok oko 1.600 astronomskih jedinica — dvadesetak puta širi od Plutonove orbite. Ta masa dobija se iz brzine gasa oko crne rupe, metodom koja može da pogreši i dva do tri puta. Crna rupa u Holmberg 15A, centralnoj galaksiji jata Abell 85, izmerena je na oko 40 milijardi Sunčevih masa na osnovu kretanja njenih zvezda, što je direktniji metod. Procene za Phoenix-A kreću se od nekoliko milijardi do oko 100 milijardi Sunčevih masa; ovaj sajt koristi oko 25 milijardi. Poređenja radi, M87*, prva crna rupa koja je ikada snimljena, ima oko 6,5 milijarde Sunčevih masa, a Sagittarius A* u središtu naše galaksije oko 4 miliona. Neki teoretičari smatraju da crne rupe koje se hrane iz sjajnih akrecionih diskova teško rastu preko oko 50 milijardi Sunčevih masa, što bi TON 618 smestilo blizu prirodne gornje granice.",
       "section3Heading": "Najveće galaksije",
       "section3Body": "Galaksije nemaju oštru ivicu — njihova svetlost jednostavno izbledi u tamu — pa njihova veličina zavisi od toga koliko duboko gledate. Zvezdani disk Mlečnog puta širok je oko 100.000 svetlosnih godina. Najveća poznata spiralna galaksija, galaksija Kondor (NGC 6872), proteže se više od 500.000 svetlosnih godina od kraja do kraja, razvučena sudarom sa susedom. Pravi džinovi su eliptične galaksije u srcima jata galaksija. IC 1101 je klasičan primer: njen bledi oreol zvezda praćen je na više od milion svetlosnih godina, mada se objavljene vrednosti znatno razlikuju u zavisnosti od dubine snimaka i korišćene definicije. Ako računate i radio-mlazove, rekordi rastu još više. Porphyrion, opisana 2024, izbacuje iz svoje centralne crne rupe mlazove koji se protežu oko 23 miliona svetlosnih godina s kraja na kraj — najduži poznati — čime je nadmašila Alcyoneus, sa oko 16 miliona svetlosnih godina, otkrivenu 2022. Ti mlazovi su tanki tokovi plazme, a ne zvezde, pa ih većina astronoma ne računa u veličinu same galaksije.",
       "section4Heading": "Jata, superjata i Laniakea",
@@ -2852,7 +2852,7 @@
       "section5Heading": "Zidovi, prstenovi i lukovi: rekordi koji možda nisu stvarni",
       "section5Body": "Iznad superjata, astronomi su prijavili niz džinovskih struktura. Veliki zid Sloan (otkriven 2003) i Zid Južnog pola (2020) protežu se po oko 1,4 milijarde svetlosnih godina. Quipu, opisan 2025, jeste lanac jata galaksija slične veličine i nazvan je najvećom poznatom strukturom u bližem svemiru. Dalje, Veliki prsten (2024) je prsten galaksija prečnika oko 1,3 milijarde svetlosnih godina, a Džinovski luk (2021) srp dug oko 3,3 milijarde svetlosnih godina. Najekstremnija tvrdnja je Veliki zid Herkul–Severna kruna, uočen 2013–2014. na osnovu prividnog grupisanja gama-bljeskova i procenjen na oko 10 milijardi svetlosnih godina dužine. Oslanja se na mali broj bljeskova, a druge analize tvrde da bi mogao biti statistička slučajnost ili posledica toga gde su teleskopi gledali; smatrajte ga spornim. Kosmolozi očekuju da svemir izgleda ujednačeno na razmerama većim od otprilike 1,2 milijarde svetlosnih godina. Neke od ovih struktura dovode to očekivanje u pitanje, ali simulacije standardne kosmologije takođe slučajno proizvode ovoliko velike obrasce, pa nijedna ga još nije oborila.",
       "section6Heading": "Najveće od svega: vidljivi svemir",
-      "section6Body": "Sve navedeno staje u vidljivi svemir, sferu prečnika oko 93 milijarde svetlosnih godina — oblast iz koje je svetlost imala vremena da stigne do nas tokom 13,8 milijardi godina kosmičkog širenja. On sadrži stotine milijardi galaksija, možda i do 2 biliona. Širok je oko 930.000 Mlečnih puteva, blizu 190 Laniakea i otprilike 700 biliona zvezda veličine UY Scuti. Da li je svemir u celini veći — konačan ali ogroman, ili beskonačan — otvoreno je pitanje. Zato je vidljivi svemir najveća stvar koju zaista možemo da izmerimo, a ne nužno najveća stvar koja postoji."
+      "section6Body": "Sve navedeno staje u vidljivi svemir, sferu prečnika oko 93 milijarde svetlosnih godina — oblast iz koje je svetlost imala vremena da stigne do nas tokom 13,8 milijarde godina kosmičkog širenja. On sadrži stotine milijardi galaksija, možda i do 2 biliona. Širok je oko 930.000 Mlečnih puteva, blizu 190 Laniakea i otprilike 700 biliona zvezda veličine UY Scuti. Da li je svemir u celini veći — konačan ali ogroman, ili beskonačan — otvoreno je pitanje. Zato je vidljivi svemir najveća stvar koju zaista možemo da izmerimo, a ne nužno najveća stvar koja postoji."
     },
     "tallestStructures": {
       "title": "Najviše zgrade i građevine",
@@ -3070,7 +3070,7 @@
     },
     "big_bang": {
       "term": "Veliki prasak",
-      "definition": "Vrelo, gusto stanje koje se širilo i iz kog je pre oko 13,8 milijardi godina nastao vidljivi svemir."
+      "definition": "Vrelo, gusto stanje koje se širilo i iz kog je pre oko 13,8 milijarde godina nastao vidljivi svemir."
     },
     "capsid": {
       "term": "Kapsid",
@@ -3454,11 +3454,11 @@
     },
     "commensal": {
       "term": "Komensal",
-      "definition": "Životinja koja živi uz drugu vrstu i hrani se na njen račun — ostacima, zalihama ili otpacima — a da joj pritom ne pomaže niti joj ozbiljno šteti. Domaći miševi, vrapci pokućari i golubovi su komensali čoveka."
+      "definition": "Životinja koja živi uz drugu vrstu i hrani se onim što ona ostavi — ostacima, zalihama ili otpacima — a da joj pritom ništa ne daje zauzvrat. Domaći miševi, vrapci pokućari i golubovi su komensali čoveka."
     },
     "spin": {
       "term": "Spin",
-      "definition": "Ugrađeni ugaoni moment, nalik rotaciji, koji nosi svaka čestica, iako se zapravo ništa ne okreće. Zbog njega se elektroni ponašaju kao majušni magneti."
+      "definition": "Sopstveni moment impulsa, nalik rotaciji, koji nosi većina čestica (kod nekih, poput Higsovog bozona, jednak je nuli), iako se zapravo ništa ne okreće. Zbog njega se elektroni ponašaju kao majušni magneti."
     },
     "photon": {
       "term": "Foton",
@@ -3466,11 +3466,11 @@
     },
     "rest_energy": {
       "term": "Energija mirovanja",
-      "definition": "Energija koju telo ima samim tim što ima masu, čak i kada miruje: E = mc². Daleko je veća od hemijske ili toplotne energije sačuvane u istom predmetu."
+      "definition": "Energija koju telo ima samim tim što ima masu, čak i kada miruje: E = mc². Daleko je veća od hemijske ili toplotne energije sadržane u istom predmetu."
     },
     "second_law": {
       "term": "Drugi zakon termodinamike",
-      "definition": "Pravilo da ukupna entropija izolovanog sistema nikada ne opada: toplota prelazi sa toplijeg na hladnije, a ono što se pomešalo ne razdvaja se samo od sebe."
+      "definition": "Pravilo da ukupna entropija izolovanog sistema nikada ne opada: toplota prelazi s toplijeg tela na hladnije, a ono što se pomešalo ne razdvaja se samo od sebe."
     },
     "microstate": {
       "term": "Mikrostanje",

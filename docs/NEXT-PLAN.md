@@ -12,10 +12,11 @@ Tarantula Nebula, Small Magellanic Cloud, house mouse, electron,
 wave–particle duality, E = mc², entropy — drafted by agents, not yet
 fact/Serbian-audited.
 
-- [ ] Facts: every number vs sources.json; fix or source anything unsupported.
-- [ ] Serbian: terminology table (docs/audit/serbian.md), „…“, decimal comma,
+- [x] Facts: every number vs sources.json; fix or source anything unsupported.
+- [x] Serbian: terminology table (docs/audit/serbian.md), „…“, decimal comma,
       genitive after decimals, vi-forms, count phrases.
-- [ ] Desktop + mobile pass on these pages in both locales.
+- [x] Desktop + mobile pass on these pages in both locales.
+      2026-11-21: see CHANGELOG-ai.md.
 
 ## 2. A guide for the physics ideas (PHYSICS now has 12 topics)
 
