@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Suspense } from "react";
-import { ComparePage } from "@/components/ComparePage";
+import { ComparePairTool } from "@/components/ComparePage";
 import { ComparePairLinks } from "@/components/ComparePairLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -107,19 +106,17 @@ export default async function ComparePairPage({ params }: PageProps) {
           faqJsonLd([{ q: d.faqQ, a: d.lines.join(" ") }]),
         ]}
       />
-      {/* The tool reads ?a=&b= on the client; the HTML ships the summary. */}
-      <Suspense fallback={<main className="mx-auto w-full max-w-5xl px-5 pb-12 pt-12 sm:px-8 sm:pt-16">{header}</main>}>
-        <I18nExtend
-          dictionary={pickDictionary(typed, [`stops.${first.id}.image`, `stops.${second.id}.image`])}
-        >
-          <ComparePage
-            initialA={second.id}
-            initialB={first.id}
-            basePath={`/${typed}/compare`}
-            header={header}
-          />
-        </I18nExtend>
-      </Suspense>
+      {/* The pair is fixed by the path, so the whole tool server-renders. */}
+      <I18nExtend
+        dictionary={pickDictionary(typed, [`stops.${first.id}.image`, `stops.${second.id}.image`])}
+      >
+        <ComparePairTool
+          initialA={second.id}
+          initialB={first.id}
+          basePath={`/${typed}/compare`}
+          header={header}
+        />
+      </I18nExtend>
       <ComparePairLinks locale={typed} exclude={pair} />
       <SiteFooter locale={typed} />
     </>

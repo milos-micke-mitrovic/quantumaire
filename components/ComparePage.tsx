@@ -164,14 +164,31 @@ interface ComparePageProps {
   header?: ReactNode;
 }
 
-export function ComparePage({
+/** The /compare tool: reads the pair from ?a=&b=&mode= (needs Suspense). */
+export function ComparePage(props: ComparePageProps = {}) {
+  const params = useSearchParams();
+  return <CompareTool {...props} params={params} />;
+}
+
+const NO_PARAMS = new URLSearchParams();
+
+/**
+ * Pair pages: the pair is fixed by the URL path, so the tool needs no
+ * search params and renders fully on the server — no Suspense fallback
+ * that the tool later replaces (that shifted the page below it, CLS).
+ */
+export function ComparePairTool(props: ComparePageProps) {
+  return <CompareTool {...props} params={NO_PARAMS} />;
+}
+
+function CompareTool({
   initialA,
   initialB,
   basePath = "",
   header,
-}: ComparePageProps = {}) {
+  params,
+}: ComparePageProps & { params: Pick<URLSearchParams, "get"> }) {
   const router = useRouter();
-  const params = useSearchParams();
   const { t } = useI18n();
 
   const modeParam = params.get("mode");
