@@ -279,3 +279,6 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
   - Pair pages 0.135: the compare tool used useSearchParams, so the static HTML held only the Suspense fallback (the header) and the tool appeared after JS, pushing "Popular comparisons" off-screen. Pair pages now use `ComparePairTool` (no search params; the pair is fixed by the path) and server-render the whole tool; `/compare` keeps `ComparePage` with ?a=&b=. Swap/mode still hand off to /compare (checked).
   - After: CLS 0–0.001 on both.
 - Budgets: base client dictionary 52.2 KB (en) / 52.3 KB (sr) of 60 KB; scripts ~260 KiB own + gtag 179 KiB (lazyOnload).
+
+## 2026-11-21 — pair for round 6 (block 5)
+- virus-vs-ribosome (43 pairs): "A virus is about 4 times bigger than a ribosome: a virus measures 100 nm, a ribosome 25 nm." (SR read too). Round 6 is done except the carried-over blocked items (404 SSR body, GSC CTR).

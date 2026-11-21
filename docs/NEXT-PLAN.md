@@ -54,7 +54,9 @@ nature that has a familiar object. Humankind is the thinnest category (11).
 
 ## 5. Compare pairs for round 6 topics
 
-- [ ] Only real searches that read well; dump EN+SR and read before keeping.
+- [x] Only real searches that read well; dump EN+SR and read before keeping.
+      2026-11-21: virus-vs-ribosome (43 pairs). Round 6's other new page is a
+      guide, which needs no pair.
 
 ## 6. Carried over (blocked)
 

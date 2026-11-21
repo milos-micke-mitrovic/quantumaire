@@ -93,6 +93,7 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/compare/burj-khalifa-vs-saturn-v (new 2026-11-21)
 - https://quantumaire.space/en/topics/quantum-physics (new 2026-11-21)
 - https://quantumaire.space/en/stop/ribosome (new 2026-11-21)
+- https://quantumaire.space/en/compare/virus-vs-ribosome (new 2026-11-21)
 
 ## Done
 
