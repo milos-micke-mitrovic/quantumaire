@@ -54,9 +54,16 @@ Group (1.7), Sloan Great Wall → observable universe (1.8).
 
 ## 5. Compare pairs for the newest topics
 
-- [ ] Candidates that are real searches and read well (stonehenge-vs-
+- [x] Candidates that are real searches and read well (stonehenge-vs-
       colosseum?, saturn-v-vs-burj? tarantula/smc-vs-lmc after block 3);
       dump EN+SR and read before keeping.
+      2026-11-21: +4 (42 total): tarantula-nebula-vs-orion-nebula,
+      titanic-vs-blue-whale (new "longer" wording for two lengths),
+      african-elephant-vs-human, burj-khalifa-vs-saturn-v. Dropped after
+      reading: titanic-vs-eiffel-tower (length vs height), colosseum-vs-
+      stonehenge and omega-centauri-vs-orion (not searched, unrelated),
+      tarantula-vs-lmc (nebula inside the galaxy, same distance), LHC-vs-
+      Great Wall, SMC-vs-Milky Way (LMC pairs cover it).
 
 ## 6. Search Console data (blocked until enough pages are indexed)
 

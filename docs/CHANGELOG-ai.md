@@ -242,3 +242,9 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Guides: smallest things (+electron), time (+entropy, speed of light); the time guide now says entropy "never decreases" instead of "(disorder) always increases".
 - Fixed a live bug: since the Next 16 upgrade every topic's OG image showed the Planck length card, and the Serbian home OG image was in English. `params` is a Promise in metadata image routes; the topic and home routes read it synchronously.
 
+
+## 2026-11-21 — compare pairs for the newest topics (round 5, block 5)
+- 17 candidate pairs dumped in EN + SR and read; 4 kept (42 pairs): tarantula-nebula-vs-orion-nebula, titanic-vs-blue-whale, african-elephant-vs-human, burj-khalifa-vs-saturn-v. Dropped: Titanic vs Eiffel Tower (ship length vs tower height), Colosseum vs Stonehenge, Omega Centauri vs Orion, Tarantula vs LMC (part of it, same distance), LHC vs Great Wall, SMC vs Milky Way.
+- Two lengths now compare as "longer": "The Titanic is about 11 times longer than a blue whale: the Titanic is 269 m long, a blue whale 25 m" (SR „duže … Dužina —“), FAQ "How much longer …?". No existing pair was affected.
+- Mobile check of the 4 pages: no overflow. URLs appended to the GSC queue.
+- Round 5 left: 404 SSR body (Next), Search Console CTR (needs data).

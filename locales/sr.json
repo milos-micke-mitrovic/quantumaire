@@ -204,7 +204,10 @@
       "pairDescriptionDeepTall": "Dubina nasuprot visini — {big} i {small}: dubina je oko {ratio} puta veća. Pogledajte ih jedno pored drugog na pravoj skali.",
       "pairFaqQDeepTall": "{big} i {small} — koliko je dubina veća od visine?",
       "pairDescriptionDistance": "{big}: oko {ratio} puta veće nego {small}. Uporedite veličine i udaljenosti na pravoj skali.",
-      "pairDescriptionTemp": "{big}: oko {ratio} puta veće nego {small}. Uporedite veličine i temperature na pravoj skali."
+      "pairDescriptionTemp": "{big}: oko {ratio} puta veće nego {small}. Uporedite veličine i temperature na pravoj skali.",
+      "pairSizeLong": "{big}: oko {ratio} puta duže nego {small}. Dužina — {a}: {sizeA}; {b}: {sizeB}.",
+      "pairDescriptionLong": "{big}: oko {ratio} puta duže nego {small}. Uporedite dužine na pravoj skali.",
+      "pairFaqQLong": "{big} i {small} — kolika je razlika u dužini?"
     },
     "tempSameInC": "≈ isto u °C",
     "numberLocale": "sr-Latn-RS",

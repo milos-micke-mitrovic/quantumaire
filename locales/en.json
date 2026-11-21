@@ -204,7 +204,10 @@
       "pairDescriptionDeepTall": "{big} is about {ratio} times deeper than {small} is tall. See the depth and the height side by side on a true scale.",
       "pairFaqQDeepTall": "How much deeper is {big} than {small} is tall?",
       "pairDescriptionDistance": "{big} is about {ratio} times bigger than {small}. Compare their sizes and distances on a true scale.",
-      "pairDescriptionTemp": "{big} is about {ratio} times bigger than {small}. Compare their sizes and temperatures on a true scale."
+      "pairDescriptionTemp": "{big} is about {ratio} times bigger than {small}. Compare their sizes and temperatures on a true scale.",
+      "pairSizeLong": "{big} is about {ratio} times longer than {small}: {a} is {sizeA} long, {b} {sizeB}.",
+      "pairDescriptionLong": "{big} is about {ratio} times longer than {small}. Compare their lengths on a true scale.",
+      "pairFaqQLong": "How much longer is {big} than {small}?"
     },
     "tempSameInC": "≈ same in °C",
     "numberLocale": "en-US",

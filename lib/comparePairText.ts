@@ -25,7 +25,9 @@ export function describePair(locale: Locale, a: Stop, b: Stop) {
   const deepTall =
     sizeMeasure(aBiggerSize ? a : b) === "depth" &&
     sizeMeasure(aBiggerSize ? b : a) === "height";
-  const variant = tall ? "Tall" : deepTall ? "DeepTall" : "";
+  // Two lengths (Titanic vs blue whale) compare as "longer".
+  const long = sizeMeasure(a) === "length" && sizeMeasure(b) === "length";
+  const variant = tall ? "Tall" : long ? "Long" : deepTall ? "DeepTall" : "";
   if (a.sizeMeters && b.sizeMeters) {
     const aBigger = a.sizeMeters >= b.sizeMeters;
     big = aBigger ? aName : bName;

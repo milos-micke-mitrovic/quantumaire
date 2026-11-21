@@ -98,6 +98,10 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/stop/electron (new 2026-11-21)
 - https://quantumaire.space/en/stop/wave_particle_duality (new 2026-11-21)
 - https://quantumaire.space/en/stop/entropy (new 2026-11-21)
+- https://quantumaire.space/en/compare/titanic-vs-blue-whale (new 2026-11-21)
+- https://quantumaire.space/en/compare/tarantula-nebula-vs-orion-nebula (new 2026-11-21)
+- https://quantumaire.space/en/compare/african-elephant-vs-human (new 2026-11-21)
+- https://quantumaire.space/en/compare/burj-khalifa-vs-saturn-v (new 2026-11-21)
 
 ## Done
 

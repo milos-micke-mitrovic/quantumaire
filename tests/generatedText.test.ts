@@ -84,6 +84,14 @@ describe("compare pair pages", () => {
     expect(describePair("en", m, e).lines[0]).toMatch(/1\.2 times deeper than Mount Everest is tall: the Mariana Trench goes down 11 km/);
   });
 
+  it("compares two lengths as longer", () => {
+    const [t, w] = getPair("titanic-vs-blue-whale")!;
+    const en = describePair("en", t, w);
+    expect(en.lines[0]).toMatch(/11 times longer than a blue whale: the Titanic is 269 m long/);
+    expect(en.faqQ).toBe("How much longer is the Titanic than a blue whale?");
+    expect(describePair("sr", t, w).lines[0]).toMatch(/duže nego plavi kit\. Dužina/);
+  });
+
   it("does not compare an 'edge of' distance", () => {
     const [ton, ss] = getPair("ton-618-vs-solar-system")!;
     expect(describePair("en", ton, ss).lines.join(" ")).not.toMatch(/From Earth/);
