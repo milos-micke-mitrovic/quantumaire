@@ -48,8 +48,9 @@ nature that has a familiar object. Humankind is the thinnest category (11).
 
 ## 4. Speed re-check (~20 topics since the last Lighthouse run)
 
-- [ ] Lighthouse mobile on home, a topic, a guide, a compare pair; client
+- [x] Lighthouse mobile on home, a topic, a guide, a compare pair; client
       dictionary + first-load JS budgets; fix regressions.
+      2026-11-21: no speed regressions; two layout shifts fixed (CLS → 0).
 
 ## 5. Compare pairs for round 6 topics
 

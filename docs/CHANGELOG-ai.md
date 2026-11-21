@@ -271,3 +271,11 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Golden Gate Bridge and Panama Canal were fully drafted by agents and then dropped (drafts only in the session scratchpad, not committed).
 - Home shelves reordered: Cosmos, Micro-World, Forces & Spacetime, Humankind, Life & Earth (was Micro, Life & Earth, Physics, Cosmos, Humankind); the Life & Earth row opens with Everest/Mariana Trench/Grand Canyon…, animals at the end.
 - Ribosome (`ribosome`, 25 nm, MICRO_WORLD, FACT): fills DNA 2 nm → virus 100 nm. Bacterial ~20 nm, human 25–30 nm, 25 nm per the Nobel 2009 material; ~20 aa/s in E. coli, ~6 in mouse cells; 3–10 million per HeLa cell, 72,000 per fast E. coli; the RNA does the chemistry (ribozyme); Palade 1955, Nobel 2009; antibiotics. Image: E. coli 70S QuteMol render, Dcrjsr CC BY 3.0 (resized, not cropped). Glossary: ribozyme, amino_acid. In the smallest-things and human-body guides.
+
+## 2026-11-21 — speed re-check (round 6, block 4)
+- Lighthouse mobile (live, 2 runs each), all a11y/best-practices/SEO 100: home 84–85 (LCP 4.0–4.4 s, TBT 40–90 ms), quantum-physics guide 82–85, Jupiter 81–82 → 83 after the fix, milky-way-vs-andromeda 78 → 87. No speed regression since 2026-11-19.
+- CLS found with a throttled Playwright layout-shift recorder (Lighthouse names only the moved container):
+  - Topic pages 0.075: ShareBar added a "Share" button after hydration on browsers with the Web Share API (every phone), wrapping the button row and pushing the image down. Now one button: "Copy link" in the HTML, "Share" on such browsers (narrower, never wraps).
+  - Pair pages 0.135: the compare tool used useSearchParams, so the static HTML held only the Suspense fallback (the header) and the tool appeared after JS, pushing "Popular comparisons" off-screen. Pair pages now use `ComparePairTool` (no search params; the pair is fixed by the path) and server-render the whole tool; `/compare` keeps `ComparePage` with ?a=&b=. Swap/mode still hand off to /compare (checked).
+  - After: CLS 0–0.001 on both.
+- Budgets: base client dictionary 52.2 KB (en) / 52.3 KB (sr) of 60 KB; scripts ~260 KiB own + gtag 179 KiB (lazyOnload).
