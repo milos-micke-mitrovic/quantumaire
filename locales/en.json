@@ -2907,6 +2907,27 @@
       "keyNumber1Value": "blue whale, about 190 t (weighed record)",
       "keyNumber2Label": "Largest dinosaurs (estimates)",
       "keyNumber2Value": "about 30–35 m, 65–80 t"
+    },
+    "quantumPhysics": {
+      "title": "Quantum Physics",
+      "seoTitle": "Quantum Physics for Beginners: What Is Known and What Isn't",
+      "tagline": "Energy in lumps, particles that travel as waves, limits on what can be known and links that span any distance — the rules of the very small, and which parts are still open.",
+      "metaDescription": "Quantum physics explained simply: energy in packets, particles that act as waves, uncertainty and entanglement — what is measured, and what is still open.",
+      "intro": "Below the size of an atom, nature stops behaving like a world of tiny marbles. Energy comes in fixed packets, every particle travels as a wave, some pairs of particles stay linked however far apart they are, and certain pairs of values can never both be sharp. Quantum physics describes all of this with astonishing accuracy — some of its predictions match experiment to about one part in a trillion — yet physicists still disagree about what it says reality is like. Here is what has been measured, and what is still open.",
+      "section1Heading": "Energy comes in lumps",
+      "section1Body": "In 1900 Max Planck could explain the colours of light given off by hot objects only by assuming that energy is emitted in small, fixed packets — quanta. The size of a packet is set by a new constant of nature, the Planck constant h, since 2019 fixed at exactly 6.62607015 × 10⁻³⁴ joule-seconds. In 1905 Einstein went further and treated light itself as packets, later called photons. Inside an atom an **electron** can hold only certain energies, like the steps of a staircase; when it drops to a lower step it gives off a photon of one exact colour. That is why a neon sign glows red-orange and a sodium streetlamp yellow-orange.",
+      "section2Heading": "Every particle is also a wave",
+      "section2Body": "Light spreads like a wave and lands like a particle, and in 1924 Louis de Broglie proposed that matter does the same; three years later electrons were seen bouncing off crystals in wave patterns. Sent one at a time towards two slits, electrons arrive as single dots that slowly build up a wave's striped pattern. This is **wave–particle duality**, and it has since been seen with molecules of thousands of atoms. Waves also explain the **uncertainty principle**: a wave cannot sit in one exact place and have one exact wavelength at the same time, so a particle never has a sharp position and a sharp momentum together. That is not clumsy measuring — and it is also what keeps an atom's electrons from falling into its nucleus.",
+      "section3Heading": "Entanglement: linked at any distance",
+      "section3Body": "Two particles can share a single quantum state, so that measuring one tells you what the matching measurement on the other will show, however far apart they are. Einstein called this 'spooky action at a distance' and suspected the particles carried hidden instructions. In 1964 John Bell showed how to test that idea, and experiments since — loophole-free from 2015 — rule such instructions out, as long as nothing travels between the particles faster than light. **Quantum entanglement** still cannot carry a message: each side on its own sees only random results. Alain Aspect, John Clauser and Anton Zeilinger shared the 2022 Nobel Prize in Physics for these tests, and in 2017 a satellite shared entangled photons between ground stations 1,203 km apart.",
+      "section4Heading": "The particles everything is made of",
+      "section4Body": "The Standard Model of particle physics counts 17 kinds of elementary particle: six kinds of **quark**, six leptons (among them the **electron** and three kinds of **neutrino**), four force carriers such as the photon and the gluon, and the **Higgs boson**, found at CERN in 2012 at about 125 GeV. The **proton** is not on the list: it is three quarks held together by gluons, about 0.84 femtometres in radius. Every particle has an **antimatter** twin with the same mass and the opposite charge. As far as any experiment can tell, quarks and electrons have no size at all — if the electron has one, it is smaller than 3 × 10⁻¹⁹ m.",
+      "section5Heading": "What is known, and what is still open",
+      "section5Body": "Quantum physics is among the best-tested theories in science: the electron's magnetic strength matches its prediction to about one part in a trillion, and lasers, LEDs, computer chips and MRI scanners all rely on it. What is open is its meaning and its edges. Interpretations — Copenhagen, many worlds, pilot waves and others — agree on every measured number but tell different stories about what happens when something is measured. Nobody knows why the universe is made of matter rather than equal amounts of matter and antimatter, or exactly how neutrinos get their tiny masses. And quantum physics has never been joined with gravity: at the **Planck length**, about 1.6 × 10⁻³⁵ m, both should matter at once, and no tested theory can handle that. String theory and other candidates remain unconfirmed.",
+      "keyNumber1Label": "Planck constant h",
+      "keyNumber1Value": "6.62607015 × 10⁻³⁴ J·s (exact since 2019)",
+      "keyNumber2Label": "Elementary particles (Standard Model)",
+      "keyNumber2Value": "17 kinds"
     }
   },
   "topicView": {

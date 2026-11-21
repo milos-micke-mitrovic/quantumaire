@@ -402,6 +402,30 @@ export const TOPICS: Topic[] = [
     ],
     accent: "text-badge-fact",
   },
+  {
+    // No tag: /tag/particle is a sizes collection with its own searches.
+    slug: "quantum-physics",
+    i18nKey: "topics.quantumPhysics",
+    sectionCount: 5,
+    relatedStopIds: ["electron", "wave_particle_duality", "uncertainty_principle", "quantum_entanglement", "quark", "proton", "neutrino", "higgs_boson", "antimatter", "atom", "planck_length", "string_theory"],
+    sources: [
+      { label: "Wikipedia — Quantum mechanics", url: "https://en.wikipedia.org/wiki/Quantum_mechanics" },
+      { label: "Wikipedia — Standard Model", url: "https://en.wikipedia.org/wiki/Standard_Model" },
+      { label: "NIST — Planck constant", url: "https://physics.nist.gov/cgi-bin/cuu/Value?h" },
+      { label: "NobelPrize.org — Physics 2022", url: "https://www.nobelprize.org/prizes/physics/2022/press-release/" },
+      { label: "Britannica — Quantum mechanics", url: "https://www.britannica.com/science/quantum-mechanics-physics" },
+    ],
+    heroStopId: "wave_particle_duality",
+    keyNumbers: [
+      { text: 1 },
+      { text: 2 },
+      { stopId: "planck_length", value: "size" },
+      { stopId: "quark", value: "size" },
+      { stopId: "proton", value: "size" },
+      { stopId: "atom", value: "size" },
+    ],
+    accent: "text-cosmos-plasma",
+  },
 ];
 
 export function getTopic(slug: string): Topic | undefined {

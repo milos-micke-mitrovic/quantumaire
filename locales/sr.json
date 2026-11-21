@@ -2907,6 +2907,27 @@
       "keyNumber1Value": "plavi kit, oko 190 t (izmereni rekord)",
       "keyNumber2Label": "Najveći dinosaurusi (procene)",
       "keyNumber2Value": "oko 30–35 m, 65–80 t"
+    },
+    "quantumPhysics": {
+      "title": "Kvantna fizika",
+      "seoTitle": "Kvantna fizika za početnike: šta se zna, a šta ne",
+      "tagline": "Energija u paketićima, čestice koje putuju kao talasi, granice onoga što se može znati i veze koje premošćuju svaku razdaljinu — pravila sveta najmanjih stvari i šta je u njima još otvoreno.",
+      "metaDescription": "Kvantna fizika jednostavno: energija u paketićima, čestice koje se ponašaju kao talasi, neodređenost i spregnutost — šta je izmereno, a šta je još otvoreno.",
+      "intro": "Ispod veličine atoma priroda prestaje da se ponaša kao svet sićušnih kuglica. Energija dolazi u tačno određenim paketićima, svaka čestica putuje kao talas, neki parovi čestica ostaju povezani ma koliko bili udaljeni, a neki parovi veličina nikada ne mogu oba da budu oštro određena. Kvantna fizika sve to opisuje zapanjujuće tačno — neka njena predviđanja slažu se sa eksperimentom do oko jednog dela u bilion — a fizičari se ipak i dalje spore oko toga šta ona kaže o prirodi stvarnosti. Evo šta je izmereno, a šta je još otvoreno.",
+      "section1Heading": "Energija dolazi u paketićima",
+      "section1Body": "Maks Plank je 1900. godine boje svetlosti koju zrače usijana tela mogao da objasni samo pretpostavkom da se energija zrači u malim, tačno određenim paketićima — kvantima. Veličinu paketića određuje nova konstanta prirode, Plankova konstanta h, od 2019. utvrđena na tačno 6,62607015 × 10⁻³⁴ džul-sekunde. Ajnštajn je 1905. otišao dalje i i samu svetlost opisao kao paketiće, kasnije nazvane fotonima. U atomu **elektron** može da ima samo određene energije, kao stepenike na stepeništu; kad siđe na niži stepenik, izrači foton jedne tačno određene boje. Zato neonska reklama svetli crvenonarandžasto, a natrijumova ulična svetiljka žutonarandžasto.",
+      "section2Heading": "Svaka čestica je i talas",
+      "section2Body": "Svetlost se širi kao talas, a pada kao čestica, i Luj de Brolj je 1924. pretpostavio da se materija ponaša isto; tri godine kasnije viđeno je kako se elektroni odbijaju od kristala u talasnim obrascima. Kad se šalju jedan po jedan ka dvema pukotinama, elektroni stižu kao pojedinačne tačke koje polako grade prugasti obrazac talasa. To je **talasno-čestični dualizam**, i od tada je viđen i kod molekula od više hiljada atoma. Talasi objašnjavaju i **princip neodređenosti**: talas ne može istovremeno da bude na jednom tačnom mestu i da ima jednu tačnu talasnu dužinu, pa čestica nikada nema u isto vreme oštar položaj i oštar impuls. To nije nespretno merenje — i upravo to sprečava elektrone u atomu da padnu u jezgro.",
+      "section3Heading": "Spregnutost: povezani na svakoj razdaljini",
+      "section3Body": "Dve čestice mogu da dele jedno kvantno stanje, tako da merenje jedne kaže šta će pokazati odgovarajuće merenje druge, ma koliko bile udaljene. Ajnštajn je to nazvao „sablasnim delovanjem na daljinu“ i sumnjao da čestice nose skrivena uputstva. Džon Bel je 1964. pokazao kako se ta ideja može proveriti, a eksperimenti od tada — od 2015. bez rupa u zaključivanju — isključuju takva uputstva, sve dok ništa ne putuje između čestica brže od svetlosti. **Kvantna spregnutost** ipak ne može da prenese poruku: svaka strana sama za sebe vidi samo nasumične rezultate. Alen Aspe, Džon Klauzer i Anton Cajlinger podelili su za te eksperimente Nobelovu nagradu za fiziku 2022, a satelit je 2017. podelio spregnute fotone između zemaljskih stanica udaljenih 1.203 km.",
+      "section4Heading": "Čestice od kojih je sve sačinjeno",
+      "section4Body": "Standardni model fizike čestica broji 17 vrsta elementarnih čestica: šest vrsta **kvarkova**, šest leptona (među njima **elektron** i tri vrste **neutrina**), četiri prenosioca sila, poput fotona i gluona, i **Higsov bozon**, otkriven u CERN-u 2012. sa masom od oko 125 GeV. **Proton** nije na tom spisku: to su tri kvarka koje drže gluoni, poluprečnika oko 0,84 femtometra. Svaka čestica ima blizanca od **antimaterije**, iste mase i suprotnog naelektrisanja. Koliko bilo koji eksperiment može da pokaže, kvarkovi i elektroni uopšte nemaju veličinu — ako je elektron ima, manja je od 3 × 10⁻¹⁹ m.",
+      "section5Heading": "Šta se zna, a šta je još otvoreno",
+      "section5Body": "Kvantna fizika je jedna od najbolje proverenih teorija u nauci: magnetni moment elektrona slaže se sa predviđanjem do oko jednog dela u bilion, a laseri, LED diode, računarski čipovi i uređaji za magnetnu rezonancu svi se oslanjaju na nju. Otvoreni su njeno značenje i njene granice. Tumačenja — kopenhaško, tumačenje mnogih svetova, pilot-talasi i druga — slažu se u svakom izmerenom broju, ali pričaju različite priče o tome šta se dešava kad se nešto izmeri. Niko ne zna zašto je svemir sačinjen od materije, a ne od jednakih količina materije i antimaterije, niti kako tačno neutrini dobijaju svoje sićušne mase. A kvantna fizika nikada nije spojena sa gravitacijom: na **Plankovoj dužini**, oko 1,6 × 10⁻³⁵ m, obe bi trebalo da budu važne istovremeno, a nijedna proverena teorija to ne ume da opiše. Teorija struna i drugi kandidati i dalje nisu potvrđeni.",
+      "keyNumber1Label": "Plankova konstanta h",
+      "keyNumber1Value": "6,62607015 × 10⁻³⁴ J·s (tačno od 2019)",
+      "keyNumber2Label": "Elementarne čestice (Standardni model)",
+      "keyNumber2Value": "17 vrsta"
     }
   },
   "topicView": {

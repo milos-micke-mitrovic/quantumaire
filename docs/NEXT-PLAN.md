@@ -20,10 +20,11 @@ fact/Serbian-audited.
 
 ## 2. A guide for the physics ideas (PHYSICS now has 12 topics)
 
-- [ ] `/topics/quantum-physics` (or similar searched title): electron,
+- [x] `/topics/quantum-physics` (or similar searched title): electron,
       wave–particle duality, uncertainty principle, entanglement, Planck
       length, quark, Higgs, antimatter — what is known vs open, key numbers,
       both locales. Check which tag it should cover (and its 308).
+      2026-11-21: no tag — /tag/particle stays (a sizes collection).
 
 ## 3. Remaining gaps a layperson notices
 

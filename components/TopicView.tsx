@@ -43,7 +43,7 @@ export function TopicView({ topic, locale }: TopicViewProps) {
   const linked = [intro, ...sections.map((s) => s.body)].map((text) =>
     parseInline(text).map((run) => ({
       ...run,
-      segments: linkTopicNames(run.text, names, seen),
+      segments: linkTopicNames(run.text, names, seen, locale),
     }))
   );
   const renderSegments = (segments: Segment[]) =>

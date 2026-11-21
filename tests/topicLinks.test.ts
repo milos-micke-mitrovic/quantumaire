@@ -26,6 +26,12 @@ describe("linkTopicNames", () => {
     expect(out[1]).toEqual({ id: "jupiter", text: "Jupitera" });
   });
 
+  it("takes only plural endings in English", () => {
+    const ant = [{ id: "ant", name: "Ant" }];
+    expect(linkTopicNames("Anton Zeilinger", ant, new Set(), "en")).toEqual(["Anton Zeilinger"]);
+    expect(linkTopicNames("Ants march", ant, new Set(), "en")[0]).toEqual({ id: "ant", text: "Ants" });
+  });
+
   it("is case-sensitive, so ordinary words stay plain", () => {
     expect(linkTopicNames("every cell divides", NAMES, new Set())).toEqual(["every cell divides"]);
   });

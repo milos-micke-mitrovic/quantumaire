@@ -3,6 +3,7 @@
  * topic pages. Case-sensitive (proper names are capitalised; "cell" in
  * prose stays plain), allows inflected endings ("Jupitera", "Saturnovi"),
  * and links each topic only once per page via the shared `seen` set.
+ * English only takes plural endings: "Ants", but not "Anton".
  */
 export interface TopicName {
   id: string;
@@ -23,8 +24,10 @@ function core(name: string): string {
 export function linkTopicNames(
   text: string,
   names: TopicName[],
-  seen: Set<string>
+  seen: Set<string>,
+  locale: string = "sr"
 ): Segment[] {
+  const ending = locale === "en" ? "(?:s|es)?" : "\\p{L}{0,3}";
   type Hit = { start: number; end: number; id: string };
   const hits: Hit[] = [];
   // Longer names first so "Milky Way" wins over a shorter overlapping name.
@@ -33,7 +36,7 @@ export function linkTopicNames(
     if (seen.has(id)) continue;
     const n = core(name);
     if (n.length < 3) continue;
-    const re = new RegExp(`(?<![\\p{L}\\p{N}])${escapeRegex(n)}\\p{L}{0,3}(?![\\p{L}\\p{N}])`, "u");
+    const re = new RegExp(`(?<![\\p{L}\\p{N}])${escapeRegex(n)}${ending}(?![\\p{L}\\p{N}])`, "u");
     const m = re.exec(text);
     if (!m) continue;
     const start = m.index;
