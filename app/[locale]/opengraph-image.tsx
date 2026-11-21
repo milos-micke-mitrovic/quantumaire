@@ -18,10 +18,11 @@ export function generateImageMetadata() {
 export default async function Image({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  const locale = (LOCALES.includes(params.locale as Locale)
-    ? (params.locale as Locale)
+  const resolved = await params;
+  const locale = (LOCALES.includes(resolved.locale as Locale)
+    ? (resolved.locale as Locale)
     : "en");
   const title = tServer(locale, "common.title");
   const tagline = tServer(locale, "common.tagline");

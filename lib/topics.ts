@@ -205,7 +205,7 @@ export const TOPICS: Topic[] = [
     stopId: "time_dilation",
     i18nKey: "topics.time",
     sectionCount: 4,
-    relatedStopIds: ["supermassive_black_hole", "observable_universe"],
+    relatedStopIds: ["entropy", "speed_of_light", "supermassive_black_hole", "observable_universe"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Time_dilation" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Special_relativity" },
@@ -290,7 +290,7 @@ export const TOPICS: Topic[] = [
     slug: "smallest-things-in-the-universe",
     i18nKey: "topics.smallestThingsInTheUniverse",
     sectionCount: 5,
-    relatedStopIds: ["quark", "proton", "atom", "water_molecule", "dna", "virus", "bacterium", "red_blood_cell", "cell", "pollen_grain", "human"],
+    relatedStopIds: ["quark", "electron", "proton", "atom", "water_molecule", "dna", "virus", "bacterium", "red_blood_cell", "cell", "pollen_grain", "human"],
     sources: [
       { label: "Physics Letters B (ZEUS, 2016)", url: "https://doi.org/10.1016/j.physletb.2016.04.007" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Planck_units" },

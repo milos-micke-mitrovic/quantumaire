@@ -231,3 +231,14 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - The scale now steps Omega Centauri 150 → Tarantula 1,000 → SMC 18,900 → LMC 32,000 ly and honey bee 13 mm → mouse 8 cm → cat 46 cm.
 - Wired: nebulae guide (text + key number), distances and supernova guides, animals guide (text + key number), galaxies collection intro, FAMILIAR_STOP_IDS + LENGTH_STOP_IDS (mouse). Pair large-magellanic-cloud-vs-small-magellanic-cloud (38 pairs). New URLs appended to the GSC queue.
 - Generated text: 5–10 cm now reads in centimetres ("8 cm", was "80 mm"); pair descriptions only promise what the page shows — "sizes and distances" / "sizes and temperatures" (sun/planet pairs without a distance line used to promise distances).
+
+## 2026-11-21 — physics + micro-world ideas (round 5, block 4)
+- Four idea topics drafted by research agents (sources fetched, Commons licences from extmetadata), then read, cross-checked for overlap and edited:
+  - Electron (`electron`, MICRO_WORLD): no measured size, only the LEP upper bound of 2.8 × 10⁻¹⁹ m; the 2.8 fm "classical electron radius" is explained as not a size; JILA 2023 roundness; g/2 to 0.13 ppt; electron microscopes. Image: Thomson's 1897 tube (Science Museum, CC BY-SA 2.0).
+  - Wave–particle duality (`wave_particle_duality`): Young, the photoelectric effect (Einstein's Nobel), de Broglie, Davisson–Germer, Tonomura's 1989 single-electron build-up (the image), molecules of 2,000 atoms (2019) and 7,000-atom sodium clusters (Nature 2026). Myths addressed: no flipping between wave and ball, no conscious observer.
+  - E = mc² (`mass_energy_equivalence`): 1 kg ≈ 21.5 Mt TNT, Hiroshima ≈ 0.7 g, the Sun loses 4.26 Mt/s (0.03% over 4.6 Gyr), a boiled cup of tea is ~0.9 ng heavier, the 2005 NIST/MIT test to 4 × 10⁻⁷. Image: the actual paragraph of the 1905 paper (L/V², PD).
+  - Entropy (`entropy`): S = k log W, the second law as statistics (1 in 2¹⁰⁰), "disorder" as shorthand, Earth sending ~20 infrared photons per sunlight photon, Landauer, the arrow of time; the past hypothesis and heat death are marked open. Image: Boltzmann's grave (CC BY-SA 4.0).
+- Glossary: new `spin`, `photon`, `rest_energy`, `second_law`, `microstate`; the `electron` definition rewritten (no size, carries current).
+- Guides: smallest things (+electron), time (+entropy, speed of light); the time guide now says entropy "never decreases" instead of "(disorder) always increases".
+- Fixed a live bug: since the Next 16 upgrade every topic's OG image showed the Planck length card, and the Serbian home OG image was in English. `params` is a Promise in metadata image routes; the topic and home routes read it synchronously.
+

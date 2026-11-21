@@ -22,12 +22,12 @@ export const alt = "Quantumaire stop";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-export function generateImageMetadata({
+export async function generateImageMetadata({
   params,
 }: {
-  params: { locale: string; id: string };
+  params: Promise<{ locale: string; id: string }>;
 }) {
-  const stop = getStop(params.id);
+  const stop = getStop((await params).id);
   if (!stop) return [{ id: "default", alt, size, contentType }];
   return [{ id: stop.id, alt: stop.id, size, contentType }];
 }
@@ -42,11 +42,14 @@ const BADGE_COLORS: Record<string, string> = {
 export default async function Image({
   params,
 }: {
-  params: { locale: string; id: string };
+  params: Promise<{ locale: string; id: string }>;
 }) {
-  const stop = getStop(params.id) ?? STOPS[0];
-  const locale = (LOCALES.includes(params.locale as Locale)
-    ? (params.locale as Locale)
+  // Next 16 passes params as a Promise; reading .id directly gave every
+  // topic the first topic's card.
+  const resolved = await params;
+  const stop = getStop(resolved.id) ?? STOPS[0];
+  const locale = (LOCALES.includes(resolved.locale as Locale)
+    ? (resolved.locale as Locale)
     : "en");
 
   const name = tServer(locale, `${stop.i18nKey}.name`);

@@ -94,6 +94,10 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/stop/tarantula_nebula
 - https://quantumaire.space/en/stop/small_magellanic_cloud
 - https://quantumaire.space/en/compare/large-magellanic-cloud-vs-small-magellanic-cloud
+- https://quantumaire.space/en/stop/mass_energy_equivalence (new 2026-11-21)
+- https://quantumaire.space/en/stop/electron (new 2026-11-21)
+- https://quantumaire.space/en/stop/wave_particle_duality (new 2026-11-21)
+- https://quantumaire.space/en/stop/entropy (new 2026-11-21)
 
 ## Done
 

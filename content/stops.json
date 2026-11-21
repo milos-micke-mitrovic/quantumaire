@@ -2468,6 +2468,107 @@
       "tags": [
         "phenomenon"
       ]
+    },
+    {
+      "id": "electron",
+      "i18nKey": "stops.electron",
+      "sizeMeters": null,
+      "order": 1.65,
+      "badge": "FACT",
+      "category": "MICRO_WORLD",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/electron.webp",
+        "aspect": "wide",
+        "altKey": "stops.electron.image.alt",
+        "credit": "Science Museum London / Science and Society Picture Library — CC BY-SA 2.0 (cropped)"
+      },
+      "glossary": [
+        "electron",
+        "spin",
+        "standard_model",
+        "positron"
+      ],
+      "tags": [
+        "particle"
+      ]
+    },
+    {
+      "id": "wave_particle_duality",
+      "i18nKey": "stops.wave_particle_duality",
+      "sizeMeters": null,
+      "order": 3.55,
+      "badge": "FACT",
+      "category": "PHYSICS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/wave-particle-duality.webp",
+        "aspect": "wide",
+        "altKey": "stops.wave_particle_duality.image.alt",
+        "credit": "Akira Tonomura / Belsazar — CC BY-SA 3.0 (cropped)"
+      },
+      "glossary": [
+        "photon",
+        "wave_function",
+        "superposition",
+        "quantum"
+      ],
+      "tags": [
+        "phenomenon"
+      ]
+    },
+    {
+      "id": "mass_energy_equivalence",
+      "i18nKey": "stops.mass_energy_equivalence",
+      "sizeMeters": null,
+      "order": 7.06,
+      "badge": "FACT",
+      "category": "PHYSICS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/mass-energy-equivalence.webp",
+        "aspect": "wide",
+        "altKey": "stops.mass_energy_equivalence.image.alt",
+        "credit": "Albert Einstein, Annalen der Physik (1905) — public domain"
+      },
+      "glossary": [
+        "rest_energy",
+        "special_relativity",
+        "fusion",
+        "annihilation"
+      ],
+      "tags": [
+        "spacetime",
+        "matter"
+      ]
+    },
+    {
+      "id": "entropy",
+      "i18nKey": "stops.entropy",
+      "sizeMeters": null,
+      "order": 7.09,
+      "badge": "FACT",
+      "category": "PHYSICS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/entropy.webp",
+        "aspect": "square",
+        "altKey": "stops.entropy.image.alt",
+        "credit": "Feldkurat Katz — CC BY-SA 4.0 (cropped)"
+      },
+      "glossary": [
+        "second_law",
+        "microstate",
+        "third_law",
+        "big_bang"
+      ],
+      "tags": [
+        "phenomenon"
+      ]
     }
   ]
 }

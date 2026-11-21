@@ -45,10 +45,12 @@ Group (1.7), Sloan Great Wall → observable universe (1.8).
 
 ## 4. Physics + micro-world ideas (PHYSICS has 9 topics, MICRO_WORLD 14)
 
-- [ ] Electron (idea or ~point-like — decide honestly), photon / light as
+- [x] Electron (idea or ~point-like — decide honestly), photon / light as
       particle-and-wave, entropy & the arrow of time, E = mc² — sourced,
       both locales, glossary links; only ones that add something the
       existing topics (speed of light, antimatter, Higgs) don't already say.
+      2026-11-21: electron (idea, FACT), wave–particle duality, E = mc²
+      (`mass_energy_equivalence`), entropy — all FACT, open parts labelled.
 
 ## 5. Compare pairs for the newest topics
 

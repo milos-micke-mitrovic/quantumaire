@@ -2507,6 +2507,94 @@
         "fact5": "Vidi se golim okom (magnituda 2,7) u sazvežđu Tukan — širok je oko 4°, osam puta više od Meseca — sa svakog mesta južno od oko 15° severne geografske širine.",
         "fact6": "Studija iz 2024. otkrila je dve celine u kojima nastaju zvezde, udaljene oko 5 kiloparseka (16.000 svetlosnih godina) duž našeg pravca gledanja; studija 7.426 zvezda iz 2025. ukazuje na to da ga Veliki Magelanov oblak razvlači."
       }
+    },
+    "electron": {
+      "name": "Elektron",
+      "seoTitle": "Šta je elektron? Čestica iza hemije i struje",
+      "tagline": "Prva otkrivena elementarna čestica — i ona koja pokreće vašu hemiju, sijalice i telefon.",
+      "body": "Elektron je prva elementarna čestica koja je ikada otkrivena: Dž. Dž. Tomson je 1897. pokazao da su svetleći „katodni zraci“ u staklenoj cevi iz koje je izvučen skoro sav vazduh zapravo mlaz negativno naelektrisanih čestica više od hiljadu puta lakših od atoma vodonika. Svaki atom drži svoje elektrone oko sićušnog jezgra, a gotovo sve što atom radi zavisi od njih: hemijske veze su elektroni koje atomi dele ili predaju jedni drugima, električna struja su elektroni koje napon gura kroz žicu, a boje neonske reklame ili natrijumove ulične svetiljke potiču od elektrona koji skaču između energetskih nivoa. Svi elektroni imaju potpuno isto naelektrisanje i istu sićušnu masu — oko 1/1836 mase protona — i ugrađen spin, zbog kog je svaki od njih majušni magnet. Kao i svaka čestica, elektron se ponaša i kao talas, zbog čega se elektroni u atomu razlivaju u oblake umesto da kruže po putanjama. Koliko god eksperimenti mogu da utvrde, elektron nema nikakvu veličinu ni delove.",
+      "narrative": "Nijedan eksperiment nikada nije izmerio veličinu elektrona. Podaci sa sudarača pokazuju da mora biti manji od oko 10⁻¹⁸ m — manje od hiljaditog dela širine protona. Kad biste proton uvećali do veličine Zemlje, elektron bi i dalje morao da stane u gradić širok nekoliko kilometara; koliko znamo, možda je prava tačka, bez ikakve veličine.",
+      "funFact": "Elektron je zapanjujuće okrugao. Da mu je naelektrisanje makar malo iskrivljeno, u jakom električnom polju bi mu se promenila energija — zato je tim iz instituta JILA u Koloradu 2023. tražio upravo takvu promenu kod elektrona u zarobljenim molekulima hafnijum-fluorida, i nije je našao. Po poređenju samog NIST-a: kad bi elektron bio uvećan do veličine Zemlje, svaka izbočina na njemu morala bi da bude manja od jednog atoma.",
+      "metaDescription": "Elektron: prva otkrivena čestica, nosilac struje i hemije — i toliko mali da mu nijedan eksperiment nije našao veličinu. Jednostavno objašnjeno.",
+      "image": {
+        "alt": "Tomsonova katodna cev iz 1897. godine: duga providna staklena cev sa okruglim balonom na jednom kraju, kalemom bakarne žice oko sredine i metalnom elektrodom utopljenom u drugi kraj, na svetlosivoj pozadini."
+      },
+      "facts": {
+        "fact1": "Naelektrisanje: −1,602176634 × 10⁻¹⁹ kulona, tačno po definiciji. Masa: 9,1093837139 × 10⁻³¹ kg (CODATA 2022).",
+        "fact2": "Oko 1.836 puta lakši od protona — i izgleda da se nikada ne raspada: eksperimenti pokazuju da živi najmanje 6,6 × 10²⁸ godina.",
+        "fact3": "Dž. Dž. Tomson je otkriće objavio 30. aprila 1897. i dobio Nobelovu nagradu za fiziku 1906. Ime „elektron“ smislio je Džordž Džonston Stoni 1891. godine, pre nego što je sama čestica pronađena.",
+        "fact4": "Nikakva veličina nikada nije otkrivena: podaci sudarača LEP svode mu poluprečnik ispod 2,8 × 10⁻¹⁹ m (sa 95% pouzdanosti). „Klasični poluprečnik elektrona“ od 2,8 femtometra — veći od protona — jeste dužina izračunata iz njegovog naelektrisanja i mase u predkvantnoj fizici, a ne izmerena veličina.",
+        "fact5": "Struja od jednog ampera znači da kroz jednu tačku svake sekunde prođe oko 6,24 × 10¹⁸ elektrona.",
+        "fact6": "Spin ½, koji su predložili Samuel Gudsmit i Džordž Ulenbek 1925. godine, pretvara svaki elektron u majušni magnet — odatle potiče i sila običnog magneta za frižider.",
+        "fact7": "Njegova magnetna jačina (g/2 = 1,00115965218059) izmerena je sa tačnošću od 0,13 delova na bilion, čime je najpreciznije predviđanje Standardnog modela provereno na oko jedan deo na bilion (2023).",
+        "fact8": "Brzi elektroni imaju mnogo kraće talase od vidljive svetlosti, pa elektronski mikroskopi razaznaju detalje manje od atoma — ispod 0,05 nm, naspram oko 200 nm kod najboljeg optičkog mikroskopa."
+      }
+    },
+    "wave_particle_duality": {
+      "name": "Talasno-čestični dualizam",
+      "seoTitle": "Svetlost: talas ili čestica? Talasno-čestični dualizam",
+      "tagline": "Svetlost i materija putuju kao talasi, a stižu kao čestice — svaki put.",
+      "body": "Više od jednog veka fizičari su se sporili da li je svetlost talas ili mlaz čestica. Između 1801. i 1803. Tomas Jang je propustio svetlost kroz dva uska otvora i video naizmenične svetle i tamne pruge — talase koji se sabiraju i poništavaju — ali je Albert Ajnštajn 1905. objasnio fotoelektrični efekat posmatrajući svetlost kao pakete energije, kasnije nazvane fotonima: svetlost ispod određene frekvencije ne izbija elektrone iz metala koliko god bila jaka, a svetlost iznad nje ih izbija i kad je slaba. Luj de Brolj je 1924. predložio da i materija ima talase, a tri godine kasnije elektroni rasejani na kristalima dali su upravo šare kakve prave talasi. Najjasniji dokaz šalje čestice ka dvema pukotinama jednu po jednu: svaka stigne kao jedna tačka, a ipak hiljade tačaka polako slože prugastu šaru talasa — kao da je talas koji opisuje svaku česticu prošao kroz obe pukotine. To ne znači da se čestica smenjuje između talasa i sićušne kuglice, niti je potreban svestan posmatrač: bilo koji uređaj koji zabeleži kroz koju je pukotinu čestica prošla briše pruge. Eksperimenti su nesporni; šta oni „znače“ i dalje je predmet spora među tumačenjima kvantne mehanike (u udžbenicima se pojava zove i korpuskularno-talasni dualizam).",
+      "narrative": "Talasno-čestični dualizam nema sopstvenu veličinu, ali određuje gde kvantno ponašanje uopšte može da se vidi. Talas materije je kraći što je predmet teži i brži: za čoveka od 70 kilograma koji hoda brzinom od 1 m/s iznosi oko 10⁻³⁵ m — manje čak i od Plankove dužine — pa se čovek nikad neće raširiti kao talas prolazeći kroz vrata. Eksperimenti su ipak pomerili granicu od elektrona do molekula od 2.000 atoma (2019.) i nakupina od preko 7.000 atoma natrijuma, širokih oko 8 nm (2026.).",
+      "funFact": "Dž. Dž. Tomson, fizičar najzaslužniji za otkriće elektrona kao čestice, imao je sina Džordža Padžeta Tomsona, koji je podelio Nobelovu nagradu za 1937. jer je pokazao da elektroni pokazuju difrakciju kao talasi. Otac i sin su obojica bili u pravu.",
+      "metaDescription": "Svetlost i elektroni putuju kao talasi, a stižu kao čestice. Kako su to pokazali Jang, Ajnštajn, de Brolj i eksperiment sa dve pukotine — i šta to ne znači.",
+      "image": {
+        "alt": "Četiri crno-bela panela iz eksperimenta Akire Tonomure u Hitačiju 1989.: pojedinačni elektroni padaju kao razbacane bele tačke, a kad ih se nakupi na desetine hiljada, slažu se u uspravne svetle i tamne pruge."
+      },
+      "facts": {
+        "fact1": "Tomas Jang je interferenciju svetlosti opisao pred Kraljevskim društvom 1801., a pokazao ju je sa sunčevom svetlošću 1803.",
+        "fact2": "Ajnštajnova Nobelova nagrada za fiziku za 1921. (uručena 1922.) dodeljena je „posebno za otkriće zakona fotoelektričnog efekta“ — ne za relativnost.",
+        "fact3": "Luj de Brolj je talase elektrona predložio u doktorskoj tezi 1924., a Nobelovu nagradu za 1929. dobio je za „talasnu prirodu elektrona“.",
+        "fact4": "Klinton Dejvison i Lester Džermer, i nezavisno od njih Džordž Padžet Tomson, videli su 1927. difrakciju elektrona kao kod talasa; Dejvison i Tomson su podelili Nobelovu nagradu za 1937.",
+        "fact5": "Dž. I. Tejlor je 1909. dobio interferentne pruge i sa svetlošću slabom kao sveća udaljena nešto više od 1,6 km (jedne milje).",
+        "fact6": "U Tonomurinom eksperimentu iz 1989. u aparatu nikad nije bilo više od jednog elektrona u isto vreme; pruge su se slagale više od 20 minuta, od oko 140.000 tačaka.",
+        "fact7": "Isto talasno ponašanje viđeno je kod molekula fulerena C₆₀ (1999.), molekula od do 2.000 atoma (2019.) i nakupina od preko 7.000 atoma natrijuma, težih od 170.000 daltona (2026.).",
+        "fact8": "Reč „foton“ ušla je u upotrebu tek 1926. — Ajnštajn je 1905. govorio o „kvantima svetlosti“."
+      }
+    },
+    "mass_energy_equivalence": {
+      "name": "E = mc²",
+      "seoTitle": "Šta zapravo znači E = mc²? Ekvivalencija mase i energije",
+      "tagline": "Masa je energija — a kurs razmene je brzina svetlosti na kvadrat.",
+      "body": "U septembru 1905. Albert Ajnštajn poslao je nastavak svog rada o relativnosti, dug svega tri strane, s pitanjem da li inercija tela zavisi od energije koju sadrži. Njegov odgovor, koji danas pišemo kao E = mc², kaže da su masa i energija ista stvar izražena u različitim jedinicama, a faktor pretvaranja c² — brzina svetlosti na kvadrat — ogroman je: jednom kilogramu odgovara oko 9 × 10¹⁶ džula. Ne radi se samo o bombama, a nije reč ni baš o „pretvaranju materije u energiju“: svaka energija koju telo sadrži dodaje mu masu. Šolja čaja od 250 ml zagrejana sa 20 °C do ključanja postane teža za oko milijarditi deo grama — daleko premalo za bilo koju vagu, ali stvarno. U nuklearnim reakcijama efekat postaje velik: proizvodi su malo lakši od onoga što je ušlo u reakciju, a masa koja nedostaje odlazi kao svetlost, toplota i brze čestice.",
+      "narrative": "E = mc² nema veličinu; njena razmera je kurs razmene. Jedan kilogram mase odgovara energiji od oko 21 megatone TNT-a — više od 1.400 bombi kao u Hirošimi, dok je sama ta bomba u energiju pretvorila samo oko 0,7 grama mase. Sunce svake sekunde izgubi oko 4,26 miliona tona mase u vidu svetlosti, a ipak i takvim tempom 4,6 milijardi godina sijanja iznosi tek oko 0,03% njegove mase.",
+      "funFact": "Ajnštajn 1905. uopšte nije napisao E = mc². Energiju je označio sa L, a brzinu svetlosti sa V, i zaključio da telo koje izrači energiju L izgubi masu L/V². Predložio je čak i kako da se to proveri: pomoću soli radijuma, čija se energija pri raspadu snažno menja.",
+      "metaDescription": "E = mc² kaže da je masa energija: 1 kg odgovara oko 21 megatone TNT-a. Šta formula zaista znači, zašto je vruća šolja teža i kako Sunce gubi masu.",
+      "image": {
+        "alt": "Pasus starog nemačkog teksta iz Ajnštajnovog rada iz 1905. godine: ako telo izrači energiju L, njegova masa se smanji za L/V²; masa tela je mera njegovog energetskog sadržaja; soli radijuma bi mogle da posluže za proveru teorije."
+      },
+      "facts": {
+        "fact1": "Kvarkovi u protonu čine tek oko 1% njegove mase; ostalo je energija kvarkova i gluona u kretanju: proračuni kvarkova i gluona na superkompjuterima (kvantna hromodinamika na rešetki) 2008. dali su masu protona s tačnošću od nekoliko procenata.",
+        "fact2": "c² ≈ 9 × 10¹⁶ džula po kilogramu: 1 kg mase odgovara oko 21,5 megatone TNT-a.",
+        "fact3": "Bomba bačena na Hirošimu (oko 15 kilotona) pretvorila je u energiju samo oko 0,7 grama mase.",
+        "fact4": "Fisija uranijuma-235 pretvara u energiju oko 0,1% mase, fuzija vodonika u helijum u Suncu oko 0,7%, a anihilacija materije i antimaterije 100%.",
+        "fact5": "Sunce svake sekunde izgubi oko 4,26 miliona tona mase u vidu svetlosti.",
+        "fact6": "Napunjena baterija telefona (oko 15 Wh) teža je od prazne za oko 0,6 nanograma — 0,6 milijarditih delova grama.",
+        "fact7": "Timovi NIST-a i MIT-a 2005. direktno su proverili E = mc², upoređujući gubitak mase jezgra sa energijom gama zraka koje je izračilo: slaganje je bilo bolje od 0,00004%.",
+        "fact8": "Potpuna formula glasi E² = (pc)² + (mc²)², gde je p impuls. E = mc² je slučaj tela koje miruje; svetlost nema masu, pa sva njena energija potiče od impulsa: E = pc."
+      }
+    },
+    "entropy": {
+      "name": "Entropija",
+      "seoTitle": "Šta je entropija i zašto vreme teče samo napred?",
+      "tagline": "Zašto se led topi, razbijeno jaje se nikada ne sastavi, a vreme teče samo napred: pomešanih rasporeda jednostavno ima mnogo više.",
+      "body": "Entropija broji načine. Atomi u bilo čemu — šoljici čaja, balonu punom vazduha — mogu da se rasporede na ogroman broj načina koji spolja izgledaju potpuno isto, a entropija meri koliko ih ima: formula Ludviga Bolcmana S = k log W kaže da je ona logaritam tog broja, W, pomnožen sićušnom konstantom k. Drugi zakon termodinamike kaže da ukupna entropija izolovanog sistema nikada ne opada, a razlog je obična statistika: stanja koja mogu da nastanu na više načina neuporedivo su verovatnija, pa stvari klize ka njima i tu ostaju. Zato toplota prelazi iz vrelog čaja u hladniju sobu, kap mastila se razliva po vodi, a led u toplom piću se topi — ništa ne zabranjuje obrnuto, ono je samo neverovatno do apsurda. Entropiju često zovu neredom, ali to je labavo pojednostavljenje: kada se voda po hladnom danu zaledi u uredne pahulje, toplota koju pritom oslobodi poveća entropiju okolnog vazduha više nego što kristal smanji sopstvenu. Živa bića rade na isti način — red u sebi grade tako što napolje izbacuju još više entropije, uglavnom u vidu toplote.",
+      "narrative": "Skoro svi zakoni fizike rade jednako dobro i unazad: snimak sudara dve bilijarske kugle izgleda sasvim prirodno i kada se pusti obrnuto. Snimak jajeta koje se razbija ne izgleda — a razlog je drugi zakon, zbog čega ga često zovu strelom vremena. To što ta strela svuda pokazuje u istom smeru svodi se na početak: svemir je pre oko 13,8 milijardi godina krenuo iz stanja izuzetno niske entropije, i sve od tada je polako trošenje te prednosti. Zašto je počeo baš tako — pretpostavka koju je filozof Dejvid Albert nazvao „hipotezom o prošlosti“ — nije objašnjeno i zaista je otvoreno pitanje. Ni kraj nije tako izvestan kao što zvuči: ako tamna energija bude i dalje širila svemir, entropija bi se mogla polako približavati maksimumu, hladnoj, ujednačenoj „toplotnoj smrti“ u kojoj se ništa zanimljivo više ne dešava — ali to je nekih 10¹⁰⁰ godina daleko, otprilike koliko crnoj rupi teškoj kao cela galaksija treba da ispari, i oslanja se na fiziku koju niko nije proverio tako daleko.",
+      "funFact": "Bolcman svoju jednačinu nikada nije zapisao baš onako kako je uklesana na njegovom grobu. Ideju je razvio sedamdesetih godina XIX veka; Maks Plank joj je oko 1900. dao današnji oblik, S = k log W, i konstantu k nazvao po njemu. Bolcman je umro 1906. godine, a formula danas stoji pozlaćenim slovima iznad njegove biste na Centralnom groblju u Beču.",
+      "metaDescription": "Entropija broji načine na koje se atomi mogu rasporediti. Zašto se led topi, jaje se ne sastavlja, život odaje toplotu, a vreme teče samo napred.",
+      "image": {
+        "alt": "Beli mermerni nadgrobni spomenik između dve žive ograde: bista bradatog Ludviga Bolcmana na stubu s natpisom „Ludwig Boltzmann 1844–1906“, a iznad njegove glave pozlaćenim slovima uklesana formula S = k log W."
+      },
+      "facts": {
+        "fact1": "Bolcmanova formula: S = k log W — entropija je Bolcmanova konstanta k (1,380649 × 10⁻²³ džula po kelvinu) pomnožena logaritmom broja W, broja mikroskopskih rasporeda.",
+        "fact2": "Rudolf Klauzijus je reč „entropija“ skovao 1865. godine, od grčkog tropē, „preobražaj“, i sažeo: „Entropija sveta teži maksimumu.“",
+        "fact3": "Verovatnoća, a ne zabrana: šansa da se 100 molekula gasa u kutiji slučajno svi u istom trenutku nađu u njenoj levoj polovini iznosi 1 prema 2¹⁰⁰ — oko 1 prema 10³⁰. Za bilione biliona molekula u pravoj sobi to se ne bi desilo nijednom za sve vreme postojanja svemira.",
+        "fact4": "Temperatura Sunčeve površine je oko 20 puta viša od 255 K na kojima zrači Zemlja, pa za svaki foton sunčeve svetlosti koji upije Zemlja u svemir vraća oko 20 infracrvenih fotona — i s njima oko 20 puta više entropije.",
+        "fact5": "Ervin Šredinger je u knjizi „Šta je život?“ (1944) tvrdio da živa bića opstaju hraneći se „negativnom entropijom“ — svoj red održavaju tako što nered izbacuju u okolinu.",
+        "fact6": "I informacija ima entropiju: Rolf Landauer je 1961. pokazao da brisanje jednog bita na sobnoj temperaturi mora da oslobodi najmanje oko 2,9 × 10⁻²¹ džula toplote — granica je u laboratoriji izmerena 2012. godine.",
+        "fact7": "Entropija vidljivog svemira procenjuje se na oko 3 × 10¹⁰⁴ k — najveći deo nalazi se u supermasivnim crnim rupama (Čas Igan i Čarls Lajnviver, 2010).",
+        "fact8": "Otvoreno pitanje: zašto je svemir počeo sa tako niskom entropijom. Filozof Dejvid Albert je tu polaznu pretpostavku 2000. godine nazvao „hipotezom o prošlosti“; predlagana su objašnjenja poput kosmičke inflacije, ali nijedno nije potvrđeno."
+      }
     }
   },
   "about": {
@@ -2658,7 +2746,7 @@
       "section3Heading": "Paradoks blizanaca",
       "section3Body": "Ako jedan blizanac ostane na Zemlji, a drugi ubrza do blizu brzine svetlosti, putuje do udaljene zvezde i vrati se — blizanac koji je putovao biće mlađi. Ovo nije paradoks: blizanci nisu u simetričnom položaju, jer samo putnik prelazi iz referentnog sistema u kome odlazi u onaj u kome se vraća. Njihove putanje kroz prostor-vreme se razlikuju, a na savijenoj putanji protekne manje vremena. Efekat je izmeren atomskim satovima koji su leteli oko sveta. **Status: stvarna posledica relativnosti, posmatračno potvrđena.**",
       "section4Heading": "Strela vremena",
-      "section4Body": "Zašto se vreme kreće samo unapred? Fizički, skoro svi zakoni fizike rade isto unazad kao i unapred — osim drugog zakona termodinamike, koji kaže da ukupna entropija (nered) uvek raste. Ta asimetrija je ono što daje vremenu njegov pravac. Zašto je svemir započeo u tako niskoentropijskom stanju, međutim, mnogo je teže pitanje — i otvoreno. **Status: sama strela je utvrđena; njeno krajnje poreklo je spekulativno.**",
+      "section4Body": "Zašto se vreme kreće samo unapred? Fizički, skoro svi zakoni fizike rade isto unazad kao i unapred — osim drugog zakona termodinamike, koji kaže da ukupna entropija — grubo rečeno, broj načina na koje se delovi sistema mogu rasporediti — nikada ne opada. Ta asimetrija je ono što daje vremenu njegov pravac. Zašto je svemir započeo u tako niskoentropijskom stanju, međutim, mnogo je teže pitanje — i otvoreno. **Status: sama strela je utvrđena; njeno krajnje poreklo je spekulativno.**",
       "keyNumber1Label": "Korekcija GPS satova",
       "keyNumber1Value": "38 µs dnevno",
       "keyNumber2Label": "Odstupanje GPS-a bez nje",
@@ -2847,7 +2935,7 @@
     },
     "electron": {
       "term": "Elektron",
-      "definition": "Negativno naelektrisana elementarna čestica koja okružuje atomsko jezgro u oblaku verovatnoće."
+      "definition": "Laka, negativno naelektrisana elementarna čestica bez poznate veličine i delova. Elektroni okružuju svako atomsko jezgro i prenose električnu struju."
     },
     "orbital": {
       "term": "Orbital",
@@ -3364,6 +3452,26 @@
     "commensal": {
       "term": "Komensal",
       "definition": "Životinja koja živi uz drugu vrstu i hrani se na njen račun — ostacima, zalihama ili otpacima — a da joj pritom ne pomaže niti joj ozbiljno šteti. Domaći miševi, vrapci pokućari i golubovi su komensali čoveka."
+    },
+    "spin": {
+      "term": "Spin",
+      "definition": "Ugrađeni ugaoni moment, nalik rotaciji, koji nosi svaka čestica, iako se zapravo ništa ne okreće. Zbog njega se elektroni ponašaju kao majušni magneti."
+    },
+    "photon": {
+      "term": "Foton",
+      "definition": "Pojedinačni paket (kvant) svetlosti ili drugog elektromagnetnog zračenja. Nema masu, uvek se kreće brzinom svetlosti i nosi utoliko više energije ukoliko je frekvencija svetlosti veća."
+    },
+    "rest_energy": {
+      "term": "Energija mirovanja",
+      "definition": "Energija koju telo ima samim tim što ima masu, čak i kada miruje: E = mc². Daleko je veća od hemijske ili toplotne energije sačuvane u istom predmetu."
+    },
+    "second_law": {
+      "term": "Drugi zakon termodinamike",
+      "definition": "Pravilo da ukupna entropija izolovanog sistema nikada ne opada: toplota prelazi sa toplijeg na hladnije, a ono što se pomešalo ne razdvaja se samo od sebe."
+    },
+    "microstate": {
+      "term": "Mikrostanje",
+      "definition": "Jedan tačan raspored svih atoma u nekom sistemu. Mnoga različita mikrostanja spolja izgledaju potpuno isto; entropija broji koliko ih ima."
     }
   },
   "faq": {

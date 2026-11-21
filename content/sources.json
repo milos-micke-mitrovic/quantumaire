@@ -1352,5 +1352,97 @@
       "label": "EarthSky — Small Magellanic Cloud is being destroyed by its larger neighbor (2025)",
       "url": "https://earthsky.org/space/small-magellanic-cloud-is-being-destroyed-by-larger-neighbor/"
     }
+  ],
+  "electron": [
+    {
+      "label": "NIST CODATA: electron mass",
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?me"
+    },
+    {
+      "label": "Nobel Prize: J. J. Thomson",
+      "url": "https://www.nobelprize.org/prizes/physics/1906/thomson/facts/"
+    },
+    {
+      "label": "Electron size limit (arXiv)",
+      "url": "https://arxiv.org/abs/hep-ph/0002172"
+    },
+    {
+      "label": "Electron magnetic moment (arXiv)",
+      "url": "https://arxiv.org/abs/2209.13084"
+    },
+    {
+      "label": "NIST: electrons are round",
+      "url": "https://www.nist.gov/node/1816781"
+    },
+    {
+      "label": "Wikipedia — Electron microscope",
+      "url": "https://en.wikipedia.org/wiki/Electron_microscope"
+    }
+  ],
+  "wave_particle_duality": [
+    {
+      "label": "Wikipedia — Wave–particle duality",
+      "url": "https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality"
+    },
+    {
+      "label": "Wikipedia — Double-slit experiment",
+      "url": "https://en.wikipedia.org/wiki/Double-slit_experiment"
+    },
+    {
+      "label": "NobelPrize.org — Albert Einstein, 1921",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/facts/"
+    },
+    {
+      "label": "Physics World — The double-slit experiment",
+      "url": "https://physicsworld.com/a/the-double-slit-experiment/"
+    },
+    {
+      "label": "Nature (2026) — Pedalino et al., nanoparticle matter-wave interferometry",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12823444/"
+    }
+  ],
+  "mass_energy_equivalence": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence"
+    },
+    {
+      "label": "MIT News",
+      "url": "https://news.mit.edu/2005/emc2"
+    },
+    {
+      "label": "NASA",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+    },
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/0906.3599"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Little_Boy"
+    }
+  ],
+  "entropy": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Entropy"
+    },
+    {
+      "label": "Wikipedia — Boltzmann's entropy formula",
+      "url": "https://en.wikipedia.org/wiki/Boltzmann%27s_entropy_formula"
+    },
+    {
+      "label": "Discover (Sean Carroll)",
+      "url": "https://www.discovermagazine.com/the-sciences/evolution-and-the-second-law"
+    },
+    {
+      "label": "arXiv (Egan & Lineweaver)",
+      "url": "https://arxiv.org/abs/0909.3983"
+    },
+    {
+      "label": "Wikipedia — Past hypothesis",
+      "url": "https://en.wikipedia.org/wiki/Past_hypothesis"
+    }
   ]
 }
