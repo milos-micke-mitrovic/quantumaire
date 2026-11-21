@@ -2600,6 +2600,26 @@
         "fact7": "The entropy of the observable universe is estimated at about 3 × 10¹⁰⁴ k — most of it locked in supermassive black holes (Chas Egan and Charles Lineweaver, 2010).",
         "fact8": "Open question: why the universe began with such low entropy. Philosopher David Albert named this starting assumption the 'past hypothesis' in 2000; explanations such as cosmic inflation have been proposed, but none is settled."
       }
+    },
+    "ribosome": {
+      "name": "Ribosome",
+      "tagline": "A 25-nanometre machine that reads your genes and builds every protein in your body.",
+      "body": "A ribosome is the machine that builds proteins inside every living cell. It clamps onto a strand of messenger RNA, reads its genetic code three letters at a time and links the matching amino acids into a chain that folds into a protein — about 20 amino acids a second in a fast-growing bacterium, roughly 6 a second in mammalian cells. Ribosomes are about 20–30 nanometres across: the bacterial kind is around 20 nm and the larger kind in human cells 25–30 nm, so we use 25 nm, the figure given in the Nobel Prize materials. Each one has a small and a large subunit built from ribosomal RNA and dozens of proteins — and the key step, joining one amino acid to the next, is carried out by the RNA, not by the proteins. A growing human cell holds millions of ribosomes; a fast-growing E. coli bacterium has about 72,000, more than a third of its dry mass.",
+      "narrative": "A 25 nm ribosome is about 12 times wider than the DNA double helix (2 nm), and four of them side by side would span a 100 nm virus. About 300 would line up across a red blood cell (7.5 µm), and about 3,000 across the width of a human hair. If a ribosome were the size of a tennis ball, DNA would be about as thick as a drinking straw, a virus would be a bit bigger than a football, and a red blood cell would be 20 metres across.",
+      "funFact": "Biologists call the bacterial ribosome '70S' and its two halves '50S' and '30S' — yet 50 + 30 is not 70. The S stands for svedberg, a unit for how fast a particle sinks when spun in a centrifuge. That speed depends on shape as well as mass, so the numbers of the parts don't add up to the whole.",
+      "seoTitle": "How Big Is a Ribosome? Size of the Cell's Protein Factory",
+      "metaDescription": "A ribosome is about 20–30 nm across — 12 times wider than DNA, a quarter of a virus. See how the cell's protein factory compares with familiar things.",
+      "image": {
+        "alt": "A space-filling model of a bacterial (E. coli) ribosome on a white background: a lumpy, roughly oval cluster of thousands of tiny pink, grey and lavender spheres, each one an atom."
+      },
+      "facts": {
+        "fact1": "Size: a bacterial ribosome is about 20 nm across; the larger ribosomes of human and other eukaryotic cells are 25–30 nm.",
+        "fact2": "Speed: about 20 amino acids per second in E. coli, 3–10 in yeast and about 6 in mouse cells — so a 300-amino-acid protein takes roughly 15 seconds in a bacterium and under a minute in a mammalian cell.",
+        "fact3": "Numbers: measurements in human HeLa cells give about 3–10 million ribosomes per cell; a fast-growing E. coli has about 72,000, which make up more than a third of its dry mass.",
+        "fact4": "A ribosome is a ribozyme — an RNA enzyme. No protein sits close to the spot where amino acids are joined; the ribosomal RNA does the chemistry, which hints that ribosomes may date back to an early 'RNA world'.",
+        "fact5": "First spotted in 1955 as tiny grains in electron micrographs by George Palade (Nobel Prize 1974), the ribosome was mapped atom by atom with X-ray crystallography by Venkatraman Ramakrishnan, Thomas Steitz and Ada Yonath — Nobel Prize in Chemistry 2009.",
+        "fact6": "Many antibiotics — tetracyclines, macrolides, aminoglycosides such as gentamicin — work by jamming bacterial ribosomes. Ours are built differently enough that these drugs leave them largely alone."
+      }
     }
   },
   "about": {
@@ -3498,6 +3518,14 @@
     "microstate": {
       "term": "Microstate",
       "definition": "One exact arrangement of all the atoms in a system. Many different microstates look identical from outside; entropy counts how many there are."
+    },
+    "ribozyme": {
+      "term": "Ribozyme",
+      "definition": "An RNA molecule that speeds up a chemical reaction the way a protein enzyme does. The ribosome's core, which joins amino acids into proteins, is a ribozyme."
+    },
+    "amino_acid": {
+      "term": "Amino acid",
+      "definition": "A small molecule that is a building block of proteins. Living things use 20 standard kinds, linked in a chain in the order the genetic code specifies."
     }
   },
   "faq": {
@@ -3618,7 +3646,8 @@
       "stonehenge": "Stonehenge",
       "house_mouse": "a house mouse",
       "tarantula_nebula": "the Tarantula Nebula",
-      "small_magellanic_cloud": "the Small Magellanic Cloud"
+      "small_magellanic_cloud": "the Small Magellanic Cloud",
+      "ribosome": "a ribosome"
     },
     "a7where": "The typical temperature of {name} is about {temp} — {note}.",
     "a2taller": "{Name} is roughly {ratio} times taller than a 1.7 m human.",

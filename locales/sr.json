@@ -2600,6 +2600,26 @@
         "fact7": "Entropija vidljivog svemira procenjuje se na oko 3 × 10¹⁰⁴ k — najveći deo nalazi se u supermasivnim crnim rupama (Čas Igan i Čarls Lajnviver, 2010).",
         "fact8": "Otvoreno pitanje: zašto je svemir počeo sa tako niskom entropijom. Filozof Dejvid Albert je tu polaznu pretpostavku 2000. godine nazvao „hipotezom o prošlosti“; predlagana su objašnjenja poput kosmičke inflacije, ali nijedno nije potvrđeno."
       }
+    },
+    "ribosome": {
+      "name": "Ribozom",
+      "tagline": "Mašina od 25 nanometara koja čita vaše gene i pravi sve proteine u vašem telu.",
+      "body": "Ribozom je mašina koja pravi proteine u svakoj živoj ćeliji. Hvata se za lanac informacione RNK, čita njen genetički kod po tri slova i spaja odgovarajuće aminokiseline u lanac koji se savija u protein — u bakteriji koja brzo raste oko 20 aminokiselina u sekundi, u ćelijama sisara oko 6. Ribozomi su široki oko 20–30 nanometara: bakterijski oko 20 nm, a veći ribozomi ljudskih ćelija 25–30 nm, pa ovde koristimo 25 nm, vrednost iz materijala Nobelove nagrade. Svaki ima malu i veliku podjedinicu, građene od ribozomske RNK i desetina proteina — a ključni korak, spajanje jedne aminokiseline sa sledećom, obavlja RNK, a ne proteini. Ljudska ćelija u rastu sadrži milione ribozoma, a bakterija E. coli u brzom rastu oko 72.000, što je više od trećine njene suve mase.",
+      "narrative": "Ribozom od 25 nm oko 12 puta je širi od dvostruke spirale DNK (2 nm), a četiri ribozoma jedan do drugog prekrila bi virus od 100 nm. Oko 300 bi ih stalo preko crvenog krvnog zrnca (7,5 µm), a oko 3.000 preko debljine ljudske vlasi. Da je ribozom veličine teniske loptice, DNK bi bila debela otprilike kao slamčica, virus bi bio nešto veći od fudbalske lopte, a crveno krvno zrnce bilo bi široko 20 metara.",
+      "funFact": "Biolozi bakterijski ribozom zovu „70S“, a njegove dve polovine „50S“ i „30S“ — iako 50 + 30 nije 70. Slovo S označava svedberg, jedinicu za to koliko brzo čestica tone dok se vrti u centrifugi. Ta brzina zavisi i od oblika, a ne samo od mase, pa se brojevi delova ne sabiraju u celinu.",
+      "seoTitle": "Koliko je veliki ribozom? Veličina ćelijske fabrike proteina",
+      "metaDescription": "Ribozom je širok oko 20–30 nm — 12 puta širi od DNK i četiri puta uži od virusa. Pogledajte kako se ćelijska fabrika proteina poredi sa poznatim stvarima.",
+      "image": {
+        "alt": "Model bakterijskog ribozoma (E. coli) na beloj pozadini, prikazan kao gomila hiljada sićušnih ružičastih, sivih i svetloljubičastih kuglica — svaka kuglica je jedan atom — u kvrgavom, približno ovalnom obliku."
+      },
+      "facts": {
+        "fact1": "Veličina: bakterijski ribozom širok je oko 20 nm; veći ribozomi ljudskih i drugih eukariotskih ćelija široki su 25–30 nm.",
+        "fact2": "Brzina: oko 20 aminokiselina u sekundi kod bakterije E. coli, 3–10 kod kvasca i oko 6 u ćelijama miša — pa protein od 300 aminokiselina u bakteriji nastaje za oko 15 sekundi, a u ćeliji sisara za manje od minuta.",
+        "fact3": "Broj: merenja na ljudskim HeLa ćelijama daju oko 3–10 miliona ribozoma po ćeliji; E. coli u brzom rastu ima oko 72.000 ribozoma, koji čine više od trećine njene suve mase.",
+        "fact4": "Ribozom je ribozim — enzim od RNK. Nijedan protein ne nalazi se blizu mesta na kojem se aminokiseline spajaju; hemiju obavlja ribozomska RNK, što nagoveštava da ribozomi možda potiču još iz ranog „sveta RNK“.",
+        "fact5": "Ribozome je prvi uočio Džordž Palade 1955. godine, kao sitna zrnca na snimcima elektronskog mikroskopa (Nobelova nagrada 1974). Atom po atom mapirali su ih rendgenskom kristalografijom Venkatraman Ramakrišnan, Tomas Stajc i Ada Jonat — Nobelova nagrada za hemiju 2009.",
+        "fact6": "Mnogi antibiotici — tetraciklini, makrolidi i aminoglikozidi poput gentamicina — deluju tako što blokiraju bakterijske ribozome. Naši su građeni dovoljno drugačije da ih ovi lekovi uglavnom ne diraju."
+      }
     }
   },
   "about": {
@@ -3498,6 +3518,14 @@
     "microstate": {
       "term": "Mikrostanje",
       "definition": "Jedan tačan raspored svih atoma u nekom sistemu. Mnoga različita mikrostanja spolja izgledaju potpuno isto; entropija broji koliko ih ima."
+    },
+    "ribozyme": {
+      "term": "Ribozim",
+      "definition": "Molekul RNK koji ubrzava hemijsku reakciju kao što to čini enzim od proteina. Srce ribozoma, koje spaja aminokiseline u proteine, jeste ribozim."
+    },
+    "amino_acid": {
+      "term": "Aminokiselina",
+      "definition": "Mali molekul koji je gradivni element proteina. Živa bića koriste 20 standardnih vrsta, povezanih u lanac redosledom koji određuje genetički kod."
     }
   },
   "faq": {
@@ -3623,7 +3651,8 @@
       "stonehenge": "Stounhendž",
       "house_mouse": "domaći miš",
       "tarantula_nebula": "maglina Tarantula",
-      "small_magellanic_cloud": "Mali Magelanov oblak"
+      "small_magellanic_cloud": "Mali Magelanov oblak",
+      "ribosome": "ribozom"
     },
     "a3smallerTall": "Korak niže: {other} ({otherSize}), oko {ratio} puta niže.",
     "a3largerTall": "Korak više: {other} ({otherSize}), oko {ratio} puta više.",

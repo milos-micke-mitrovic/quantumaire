@@ -116,6 +116,12 @@ IndexNow on deploy. Google Search Console: manual "Request indexing" ~10
 URLs/day via the Chrome extension — see the `gsc-indexing` skill and the
 log in `docs/indexing-log.md`.
 
+## Direction
+
+Core: the cosmos and the micro/quantum world, plus ancient-history stories
+(pyramids & co., best where they meet the sky). Animals and modern
+structures stay as size yardsticks — don't add new ones to fill scale gaps.
+
 ## Current work
 
 The 2026-11-19 audit (`docs/AUDIT-PLAN.md`, reports in `docs/audit/`) is

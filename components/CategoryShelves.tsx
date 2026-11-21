@@ -12,14 +12,26 @@ import { StopCard } from "./StopCard";
 /** Categories with fewer stops than this share one "more" shelf. */
 const MIN_SHELF = 3;
 
-/** Shelf order: follow the journey from small to large, then the extras. */
+/**
+ * Shelf order: the site's core first (cosmos, the micro-world, the physics
+ * that links them), then ancient and human stories, then Earth and life.
+ */
 const SHELF_ORDER: Category[] = [
-  "MICRO_WORLD",
-  "EARTH",
-  "PHYSICS",
   "COSMOS",
+  "MICRO_WORLD",
+  "PHYSICS",
   "HUMANKIND",
+  "EARTH",
 ];
+
+/** Life & Earth opens with the planet (Everest, the Mariana Trench, …);
+ *  animals, kept as size yardsticks, come after. */
+function shelfStops(c: Category): Stop[] {
+  const stops = getStopsByCategory(c);
+  if (c !== "EARTH") return stops;
+  const isAnimal = (s: Stop) => s.tags?.includes("animal") ?? false;
+  return [...stops.filter((s) => !isAnimal(s)), ...stops.filter(isAnimal)];
+}
 
 interface Shelf {
   key: string;
@@ -52,7 +64,7 @@ export function CategoryShelves() {
       description: t(`categories.${c}.description`),
       href: `/${locale}/category/${categorySlug(c)}`,
       categories: [c],
-      stops: getStopsByCategory(c),
+      stops: shelfStops(c),
     }));
     if (small.length > 0) {
       out.push({

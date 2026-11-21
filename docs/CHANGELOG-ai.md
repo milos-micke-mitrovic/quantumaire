@@ -265,3 +265,9 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 
 ## 2026-11-21 — zoom on the size scale (owner request)
 - The home size scale (82 dots) was crowded between 10 m and 10 million km. Rather than dropping topics (the scale is also how you step through them), it gets −/+ zoom: 1×, 2.5×, 6× track width in the existing horizontal scroller, which keeps the selected dot centred; dot rows and tick thinning scale with the zoom, and zoomed-in tracks show a tick every power of ten. Only on scales with ≥ 30 dots (not the distance/temperature views with few dots).
+
+## 2026-11-21 — direction reset; ribosome (round 6, block 3)
+- Owner noticed the site drifting towards animals and modern structures. Agreed direction: cosmos + micro/quantum world + ancient-history stories; existing animals/structures stay as yardsticks, no new ones. Written at the top of NEXT-PLAN.md.
+- Golden Gate Bridge and Panama Canal were fully drafted by agents and then dropped (drafts only in the session scratchpad, not committed).
+- Home shelves reordered: Cosmos, Micro-World, Forces & Spacetime, Humankind, Life & Earth (was Micro, Life & Earth, Physics, Cosmos, Humankind); the Life & Earth row opens with Everest/Mariana Trench/Grand Canyon…, animals at the end.
+- Ribosome (`ribosome`, 25 nm, MICRO_WORLD, FACT): fills DNA 2 nm → virus 100 nm. Bacterial ~20 nm, human 25–30 nm, 25 nm per the Nobel 2009 material; ~20 aa/s in E. coli, ~6 in mouse cells; 3–10 million per HeLa cell, 72,000 per fast E. coli; the RNA does the chemistry (ribozyme); Palade 1955, Nobel 2009; antibiotics. Image: E. coli 70S QuteMol render, Dcrjsr CC BY 3.0 (resized, not cropped). Glossary: ribozyme, amino_acid. In the smallest-things and human-body guides.

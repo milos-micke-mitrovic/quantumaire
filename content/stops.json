@@ -99,6 +99,30 @@
       ]
     },
     {
+      "id": "ribosome",
+      "i18nKey": "stops.ribosome",
+      "sizeMeters": 2.5E-8,
+      "order": 4.2,
+      "badge": "FACT",
+      "category": "MICRO_WORLD",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/ribosome.webp",
+        "aspect": "square",
+        "altKey": "stops.ribosome.image.alt",
+        "credit": "Dcrjsr — CC BY 3.0"
+      },
+      "glossary": [
+        "rna",
+        "ribozyme",
+        "amino_acid"
+      ],
+      "tags": [
+        "biology"
+      ]
+    },
+    {
       "id": "mpd",
       "i18nKey": "stops.mpd",
       "sizeMeters": null,

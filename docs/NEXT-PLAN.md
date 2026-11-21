@@ -1,5 +1,12 @@
 # Next plan (round 6, written 2026-11-21)
 
+**Direction (owner, 2026-11-21):** the site is about the cosmos and the
+micro/quantum world, plus stories from ancient history (the owner likes the
+pyramids). Animals and modern structures already on the site stay as size
+yardsticks, but don't add more of them — "fill a gap on the size scale" is not
+a reason to add a topic. Humankind grows only through ancient stories,
+ideally where they meet the sky (Antikythera mechanism, Nebra sky disc, …).
+
 Round 5 (review, Next 16.4.6, last scale gaps, physics/micro ideas, compare
 pairs) is done — see "Done: round 5" below. Same rules: work top to bottom,
 tick boxes, commit + deploy each block, desktop + mobile check
@@ -31,11 +38,13 @@ fact/Serbian-audited.
 Size scale: DNA 2 nm → virus 100 nm (1.7 orders) is the last empty stretch in
 nature that has a familiar object. Humankind is the thinnest category (11).
 
-- [ ] Micro-world: ribosome (~20–30 nm) — only if sources agree on a size.
-- [ ] Humankind: one or two famous structures with an honest measure (e.g.
-      Golden Gate Bridge main span, Panama Canal length?) — pick what has a
-      free photo and a size people quote; wire into guides/collections.
-- [ ] Dump FAQ, analogies, neighbours, real-scale cards in both locales and read.
+- [x] Micro-world: ribosome (~20–30 nm) — only if sources agree on a size.
+      2026-11-21: 25 nm (Nobel 2009 material; bacterial 20, human 25–30 nm).
+- [x] ~~Humankind: Golden Gate Bridge, Panama Canal~~ — drafted, then dropped
+      by the new direction (no more modern structures).
+- [x] Dump FAQ, analogies, neighbours, real-scale cards in both locales and read.
+- [x] Home: shelves now Cosmos → Micro-World → Forces & Spacetime →
+      Humankind → Life & Earth; Life & Earth opens with the planet, animals last.
 
 ## 4. Speed re-check (~20 topics since the last Lighthouse run)
 
