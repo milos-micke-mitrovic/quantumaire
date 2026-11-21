@@ -2620,6 +2620,88 @@
         "fact5": "First spotted in 1955 as tiny grains in electron micrographs by George Palade (Nobel Prize 1974), the ribosome was mapped atom by atom with X-ray crystallography by Venkatraman Ramakrishnan, Thomas Steitz and Ada Yonath — Nobel Prize in Chemistry 2009.",
         "fact6": "Many antibiotics — tetracyclines, macrolides, aminoglycosides such as gentamicin — work by jamming bacterial ribosomes. Ours are built differently enough that these drugs leave them largely alone."
       }
+    },
+    "el_castillo": {
+      "name": "El Castillo at Chichén Itzá",
+      "tagline": "A 30-metre Maya pyramid in Mexico whose staircases add up to 365 steps — and down which a serpent of sunlight crawls around the equinoxes.",
+      "body": "El Castillo (“the Castle”), also called the Temple of Kukulcán after the Maya feathered-serpent god, rises over the centre of Chichén Itzá on Mexico's Yucatán Peninsula. Nine sloping terraces make a stepped pyramid about 24 metres high with a base about 55.5 metres square, and a temple on top brings it to about 30 metres. A stairway climbs each of the four sides; the balustrades of the north stair end in carved serpent heads at the bottom. The building we see probably dates from around AD 900–1000, when Chichén Itzá was a leading city of the northern Maya and shared feathered-serpent imagery with central Mexico — how strong that “Toltec” link was is still debated. It stands on an older pyramid, found in the 1930s, and 2016 scans detected a third, smaller one inside that.",
+      "narrative": "At about 30 metres, El Castillo is roughly as tall as a 10-storey building — under a quarter of the height of the Great Pyramid. Giza's pyramid, at 139 metres, is about 4.6 times taller and its base is about four times wider (230 m against 55.5 m) — about 17 El Castillos would fit side by side on its footprint. Stonehenge's sarsen circle, 30 metres across, would fit on El Castillo's base almost twice over.",
+      "funFact": "Clap your hands at the foot of the north stair and the echo comes back as a short falling chirp, which some people compare with the call of the quetzal, a sacred bird to the Maya. Acoustic studies explain it: each step reflects the sound a fraction of a second after the one below it, so the regular staircase works like a diffraction grating for sound. Whether the Maya designed it on purpose is unknown — that idea is speculation.",
+      "seoTitle": "How Tall Is El Castillo at Chichén Itzá?",
+      "metaDescription": "El Castillo at Chichén Itzá is about 30 m tall with its temple, on a 55.5 m base: a 365-step Maya pyramid under a quarter the height of Giza's.",
+      "image": {
+        "alt": "El Castillo at Chichén Itzá in bright daylight: a grey stone stepped pyramid with two steep stairways climbing to a square temple on top, under a blue sky with white clouds, a few tourists on the lawn at its base."
+      },
+      "facts": {
+        "fact1": "Height: about 30 m to the top of the summit temple — about 24 m of stepped pyramid plus a temple about 6 m tall.",
+        "fact2": "Base: about 55.5 m on each side, built as nine sloping terraces with a stairway on each of the four sides.",
+        "fact3": "Each stairway is usually counted at 91 steps: 4 × 91 = 364, and with the top platform as the last step, 365 — the days of the Maya solar year (Haabʼ). The south stair is eroded, so the total relies partly on the restored sides.",
+        "fact4": "On afternoons around the equinoxes, the stepped corner casts seven triangles of light on the north stair's balustrade, joining the stone serpent head at its foot; INAH researchers record seven triangles from about 15 to 25 March. The effect is real, but it lasts for weeks and changes all year, so whether the builders planned it is debated.",
+        "fact5": "Inside: 1930s excavations found an older pyramid with a temple holding a Chac Mool statue (1935) and a red-painted jaguar throne (1936). In 2016 electrical-resistivity scans by INAH and UNAM detected a third, about 10 m tall, probably built around AD 500–800.",
+        "fact6": "Part of the UNESCO World Heritage Site of Chichén Itzá since 1988. Visitors have not been allowed to climb it since 2006."
+      }
+    },
+    "antikythera_mechanism": {
+      "name": "Antikythera Mechanism",
+      "tagline": "A shoebox-sized bronze calculator of the sky, more than 2,000 years old, pulled from an ancient shipwreck.",
+      "body": "In 1900 sponge divers from the island of Symi found an ancient shipwreck 45 metres down off the Greek island of Antikythera, and in 1900–1901 they and the Greek navy brought up statues, pottery, coins — and a corroded lump of bronze and wood that turned out to hold gear wheels. The ship sank around 70–60 BC; the mechanism itself is usually dated to the 2nd century BC (the National Archaeological Museum in Athens says probably 150–100 BC), though the exact date is still debated. Today it survives as 82 fragments with 30 bronze gears, 27 of them in the largest piece, Fragment A — only about a third of the original machine. Turned by a hand crank, it showed the positions of the Sun and Moon, the Moon's phase and even the Moon's changing speed across the sky, using a clever pin-and-slot pair of gears; dials on the back followed the 19-year Metonic calendar, predicted eclipses with the 18-year saros cycle and counted the four-year cycle of the Olympic and other Panhellenic games. Inscriptions show that it also displayed the five planets known in antiquity, but those gears are lost: the planetary gearing in every model, including the 2021 University College London reconstruction, is a modern reconstruction.",
+      "narrative": "The wooden case that held the gears is thought to have been about 33–34 cm long, 18 cm wide and 9–10 cm deep — roughly the size of a shoebox and a little longer than a 30 cm school ruler. A house cat's body, at 46 cm, is about 1.4 times longer, and an adult person is about five cases tall. The largest surviving piece, Fragment A, is about 18 cm across, a little more than half the length of the case, and its biggest gear, about 13 cm wide, is one and a half times the length of a bank card.",
+      "funFact": "For about a year after it reached the museum in Athens, nobody noticed it: staff were busy with the shipwreck's bronze and marble statues, and only in 1902 was a gear wheel spotted in the lump of corroded bronze. Nothing of similar mechanical complexity is known again for more than a thousand years, until the astronomical clocks of medieval Europe.",
+      "seoTitle": "How Big Was the Antikythera Mechanism?",
+      "metaDescription": "The Antikythera mechanism, a 2,000-year-old Greek bronze calculator, sat in a case about 33 cm long; 82 fragments and 30 gears survive. Size compared.",
+      "image": {
+        "alt": "Fragment A of the Antikythera mechanism: a flat, roughly square slab of corroded green and dark bronze in a clear display mount, with the outline of a large four-spoked gear wheel visible in its centre."
+      },
+      "facts": {
+        "fact1": "Original case: about 33–34 cm long, 18 cm wide and 9–10 cm deep — an estimate, since only fragments survive.",
+        "fact2": "Surviving today: 82 fragments with 30 bronze gears, 27 of them in Fragment A.",
+        "fact3": "Fragment A, the largest piece: about 18 cm across (180 × 150 mm) and 369.1 g.",
+        "fact4": "Largest gear: about 13 cm across, originally with about 223 teeth.",
+        "fact5": "Made probably around 150–100 BC (proposals range from about 205 BC to 87 BC); the ship sank around 70–60 BC.",
+        "fact6": "Found in 1900–1901 by sponge divers 45 m down; X-ray CT scans in 2005 revealed hidden gears and thousands of text characters."
+      }
+    },
+    "nebra_sky_disc": {
+      "name": "Nebra Sky Disc",
+      "tagline": "A bronze disc about 31 cm across, inlaid with a gold Sun or full Moon, a crescent Moon and a cluster of stars: the oldest known concrete picture of the sky.",
+      "body": "The Nebra Sky Disc is a hammered bronze plate about 31 centimetres across, now green with patina, with gold shapes set into it: a large circle (the Sun or a full Moon), a crescent Moon and 32 small stars, seven of them packed into a tight cluster that most researchers read as the Pleiades. Later someone added two gold arcs on opposite edges; each spans about 82°, which matches how far the setting (or rising) Sun travels along the horizon between midwinter and midsummer at the latitude where it was found. A third arc at the bottom, usually read as a ship carrying the Sun across the sky, was added after that. It was buried around 1600 BC on the Mittelberg hill near Nebra in Germany, together with two swords, axes, a chisel and spiral armbands. It is widely regarded as the oldest known concrete picture of the sky. Some readings go further — for example, that the crescent beside the Pleiades encodes a rule for when to add a 13th month to keep a lunar calendar in step with the seasons — but these are interpretations, not proven.",
+      "narrative": "At about 31 cm across, the disc is almost exactly the size of a 12-inch vinyl record, and it weighs about 2 kg. Four house mice lined up nose to tail would just about span it. The stone circle of Stonehenge, raised some 700–900 years earlier and also aligned with the solstices, is about 30 metres across — roughly a hundred times wider.",
+      "funFact": "The disc was looted before archaeologists ever saw it. Two metal-detectorists dug it up in July 1999, and it passed through dealers until February 2002, when state archaeologist Harald Meller posed as a buyer in a hotel in Basel, Switzerland, and the Swiss police seized it. The sellers had been asking 700,000 Deutsche marks.",
+      "seoTitle": "How Big Is the Nebra Sky Disc? Size, Age and Meaning",
+      "metaDescription": "The Nebra Sky Disc is a bronze and gold plate about 31 cm across, buried around 1600 BC: the oldest known concrete picture of the sky. Size compared.",
+      "image": {
+        "alt": "The Nebra Sky Disc on a black background: a round green-patinated bronze plate with a large gold disc, a gold crescent, scattered gold dots including a tight cluster of seven, a gold arc along the right edge, an empty groove where the left arc was, and a curved gold boat shape at the bottom."
+      },
+      "facts": {
+        "fact1": "Diameter: about 31 cm (published figures range from 30 to 32 cm); weight about 2 kg; 4.5 mm thick at the centre, thinning to 1.7 mm at the rim.",
+        "fact2": "Gold inlays at first: a large disc, a crescent and 32 small stars, seven of them in a cluster usually identified as the Pleiades.",
+        "fact3": "The two horizon arcs each span about 82° — the angle between the midsummer and midwinter sunsets (or sunrises) on the horizon at about 51° north, where it was found. The left arc was already missing when the disc was buried.",
+        "fact4": "Buried around 1600 BC: birch bark from a sword hilt in the same hoard is radiocarbon-dated to about 1600–1560 BC. The disc itself may have been made a century or two earlier.",
+        "fact5": "Looted from the Mittelberg hill near Nebra in July 1999; recovered in a police sting in Basel on 23 February 2002.",
+        "fact6": "The copper matches ore from the Mitterberg in Austria, and the gold matches gold from the River Carnon in Cornwall.",
+        "fact7": "A 2020 paper argued it belongs to the Iron Age, centuries later; a team of 13 researchers rejected this the same year, citing the radiocarbon date, metal isotopes, soil from the find spot and the Bronze Age ship motif.",
+        "fact8": "Added to UNESCO's Memory of the World Register in June 2013; on show at the State Museum of Prehistory in Halle."
+      }
+    },
+    "newgrange": {
+      "name": "Newgrange",
+      "tagline": "An 85-metre mound in Ireland's Boyne Valley, built around 3200 BC so that the midwinter sunrise would shine into its heart.",
+      "body": "Newgrange is a great round mound in Ireland's Boyne Valley, 8 km west of the town of Drogheda, built by Neolithic farmers around 3200 BC — some 600 years before the Great Pyramid and the stone circle at Stonehenge. It is about 85 metres across and 11–13 metres high, ringed at its foot by 97 large kerbstones, many carved with spirals and other patterns. From the entrance a 19-metre stone passage leads to a cross-shaped chamber under a corbelled stone roof about 6 metres high, where the bones of the dead were laid. Above the doorway sits a small opening, the roof-box: on the mornings around the winter solstice the rising Sun shines through it, along the passage and onto the chamber floor for about 17 minutes. So few people fit inside that places are drawn by lottery, with tens of thousands applying each year for a few dozen spots. The gleaming white quartz wall at the front is a modern reconstruction from the 1960s–70s based on Michael O'Kelly's excavation, and archaeologists still argue over whether the quartz originally stood as a wall or lay as a platform on the ground.",
+      "narrative": "At 85 metres across, Newgrange is almost three times the width of Stonehenge's sarsen circle (30 m), though it would still fit inside the ditch-and-bank ring around Stonehenge (100–110 m). General Sherman, the biggest tree on Earth (83.8 m tall), laid on its side would almost span the mound, and three and a half blue whales nose to tail would reach across it. At about 12 metres high it is as tall as a four-storey building — yet the Great Pyramid is more than ten times taller. The passage and chamber together reach only 24 metres in, about a quarter of the way across: most of the mound is solid stone and earth.",
+      "funFact": "Was the sunbeam planned or a lucky accident? In 1989 the astronomer Tom Ray measured the roof-box and passage and calculated the sky of 5,000 years ago, when Earth's axis was tilted slightly more. Today the light enters a few minutes after sunrise; back then it would have arrived with the very first rays of the rising Sun — strong evidence that the builders aimed it on purpose.",
+      "seoTitle": "How Big Is Newgrange? Size of Ireland's Solstice Tomb",
+      "metaDescription": "Newgrange is 85 m across and 11–13 m high, built around 3200 BC — older than Stonehenge's stones and the Great Pyramid. Size and solstice sunbeam explained.",
+      "image": {
+        "alt": "The great round mound of Newgrange seen across a wide green lawn under a blue sky with white clouds: a grassy dome above a long, curving wall of white quartz stones, with the dark entrance in the middle, large standing stones in front and a few visitors walking past."
+      },
+      "facts": {
+        "fact1": "Mound: about 85 m across at its widest (the kerb ring varies from 79 to 85 m) and 11–13 m high, covering about 4,500 m² — roughly half a hectare.",
+        "fact2": "Age: built around 3200 BC (some estimates say about 3100 BC) — about 600 years before Stonehenge's sarsen circle (around 2500 BC) and the Great Pyramid (around 2560 BC).",
+        "fact3": "Inside: a 19-metre passage leads to a cross-shaped chamber with three side recesses under a corbelled roof about 6 m high; passage and chamber together are 24 m long.",
+        "fact4": "Midwinter Sun: on about 19–23 December, sunlight enters through the roof-box above the entrance and lights the chamber floor for about 17 minutes, starting around 9 am. It was first observed in modern times by Michael O'Kelly on 21 December 1967.",
+        "fact5": "Stone: 97 kerbstones, from about 1.7 to 4.5 m long, ring the base; the white quartz came from the Wicklow Mountains about 50 km to the south, and the dark rounded cobbles from the Mourne Mountains about 50 km to the north.",
+        "fact6": "Part of the UNESCO World Heritage Site Brú na Bóinne since 1993, together with the passage tombs of Knowth and Dowth; the Boyne Valley holds the largest collection of megalithic art in Western Europe."
+      }
     }
   },
   "about": {
@@ -2950,6 +3032,27 @@
       "keyNumber1Value": "6.62607015 × 10⁻³⁴ J·s (exact since 2019)",
       "keyNumber2Label": "Elementary particles (Standard Model)",
       "keyNumber2Value": "17 kinds"
+    },
+    "ancientAstronomy": {
+      "title": "Ancient Astronomy",
+      "seoTitle": "Ancient Astronomy: How Old Cultures Read the Sky",
+      "tagline": "Tombs lit by the midwinter Sun, a star that announced the Nile flood, a bronze map of the night sky and a Greek machine that predicted eclipses — what ancient people really measured, and what is myth.",
+      "metaDescription": "How ancient people tracked the Sun, Moon and stars — Stonehenge, Newgrange, the pyramids, the Nebra disc, the Antikythera mechanism — and which claims are myths.",
+      "intro": "Long before telescopes, people watched the sky because their lives depended on it: the Sun's yearly swing told farmers when to sow, the Moon kept the months and a few bright stars marked the seasons. Some of what they learned they built into stone, bronze and gears that still survive. Here is what the evidence shows — and where popular stories go further than the evidence does.",
+      "section1Heading": "Calendars in stone: the solstices",
+      "section1Body": "Over a year the rising and setting Sun creeps along the horizon, stops at its far north and far south points — the solstices — and turns back. Many Neolithic monuments are lined up with those turning points. Around 3200 BC, farmers in Ireland built **Newgrange**, a great mound with a long stone passage and a 'roof-box' above its entrance: for a few mornings around the winter solstice, the rising Sun shines through it all the way to the chamber at the back. Some centuries later the stones of **Stonehenge** were raised so that its main axis points to the midsummer sunrise in one direction and the midwinter sunset in the other. These alignments are measured facts; what the builders believed about them, and claims that Stonehenge was a precise astronomical computer, are not known.",
+      "section2Heading": "Pyramids that point north",
+      "section2Body": "The sides of the **Great Pyramid** of Giza, built around 2560 BC, face the four cardinal directions with an error of only a few arcminutes — about a fifteenth of a degree or less. There was no compass and no pole star exactly at the pole, so the builders must have used the sky: proposals include watching two stars line up vertically above a plumb line, or marking the Sun's shadow. Which method they used is still debated. One popular claim does not hold up: the idea that the three Giza pyramids copy the stars of Orion's Belt. The match only works with the map turned upside down, no Egyptian text describes such a plan, and archaeologists treat it as fringe.",
+      "section3Heading": "Sirius and the Egyptian year",
+      "section3Body": "In ancient Egypt, **Sirius** — the brightest star in the night sky — disappears in the Sun's glare for about 70 days each year, then reappears in the dawn shortly before the Nile used to start flooding. The Egyptians tied the star to the coming flood and the new year. Their civil calendar had 365 days: three seasons of four 30-day months, plus five extra days. With no leap day it slipped a quarter of a day a year against the seasons and the star, coming back into step only after about 1,460 years. How exactly the 365-day year was first fixed — by watching Sirius or by counting days between floods — is still argued over.",
+      "section4Heading": "Bronze, clay and gears",
+      "section4Body": "The **Nebra Sky Disc**, buried in Germany around 1600 BC, is widely regarded as the oldest known concrete picture of the sky: a gold Sun or full Moon, a crescent and a cluster of seven stars usually read as the Pleiades, with arcs that match the Sun's swing along the horizon at that latitude. From the 8th century BC Babylonian scribes logged the sky night after night on clay tablets and found that eclipses repeat after 223 lunar months — about 18 years and 11 days, the saros. Chinese astronomers recorded **Halley's Comet** in 240 BC, and around the same time Eratosthenes estimated the size of the Earth from noon shadows in two Egyptian cities. Greek engineers then packed the saros, the Moon's phases and the 19-year lunar calendar into the gears of the **Antikythera Mechanism**, a hand-cranked calculator of the sky about 33 cm long.",
+      "section5Heading": "Sky and stone in the Americas — and what is myth",
+      "section5Body": "In Mexico the Maya built **El Castillo at Chichén Itzá** around AD 900–1000. Each of its four stairways is usually counted at 91 steps, which with the top platform makes 365, the days of the solar year, and around the equinoxes the afternoon Sun throws a zigzag of light down the north staircase that joins a carved serpent's head at its foot. The light effect is real; whether the builders planned it is debated. Across all these sites the pattern is the same: careful observation of the Sun, Moon and bright stars, built into calendars and monuments. Claims of lost super-civilisations or visitors from space have no supporting evidence — the real achievements are impressive enough.",
+      "keyNumber1Label": "Great Pyramid's sides off true north",
+      "keyNumber1Value": "a few arcminutes (≈ 1/15 of a degree or less)",
+      "keyNumber2Label": "Saros eclipse cycle",
+      "keyNumber2Value": "223 lunar months ≈ 18 years 11 days"
     }
   },
   "topicView": {
@@ -3526,6 +3629,34 @@
     "amino_acid": {
       "term": "Amino acid",
       "definition": "A small molecule that is a building block of proteins. Living things use 20 standard kinds, linked in a chain in the order the genetic code specifies."
+    },
+    "equinox": {
+      "term": "Equinox",
+      "definition": "One of the two days a year, around 20 March and 22–23 September, when the Sun stands over the equator and day and night are roughly equal in length everywhere on Earth."
+    },
+    "saros": {
+      "term": "Saros",
+      "definition": "An eclipse cycle of 223 lunar months, about 18 years and 11 days. After one saros the Sun, Moon and Earth return to almost the same arrangement, so eclipses repeat in a similar pattern."
+    },
+    "metonic_cycle": {
+      "term": "Metonic cycle",
+      "definition": "A 19-year period that contains almost exactly 235 lunar months. Ancient calendars used it to keep their months in step with the solar year."
+    },
+    "solstice": {
+      "term": "Solstice",
+      "definition": "The two days of the year when the Sun reaches its northernmost or southernmost point: midsummer (the longest day) and midwinter (the shortest day). On those days sunrise and sunset sit at the far ends of their yearly swing along the horizon."
+    },
+    "lunisolar_calendar": {
+      "term": "Lunisolar calendar",
+      "definition": "A calendar whose months follow the Moon but whose years stay in step with the Sun. Twelve lunar months are about 11 days shorter than a solar year, so an extra (leap) month has to be added every two or three years."
+    },
+    "passage_tomb": {
+      "term": "Passage tomb",
+      "definition": "A Neolithic tomb in which a long, narrow stone passage leads from the edge of a mound or cairn to one or more burial chambers deep inside. Newgrange, Knowth and Dowth in Ireland and Maeshowe in Orkney are famous examples."
+    },
+    "roof_box": {
+      "term": "Roof-box",
+      "definition": "A small stone-framed opening above the entrance of Newgrange. On the mornings around the winter solstice it lets a beam of sunrise light travel the whole length of the passage and fall on the chamber floor, even though the opening sits above the doorway."
     }
   },
   "faq": {
@@ -3647,7 +3778,11 @@
       "house_mouse": "a house mouse",
       "tarantula_nebula": "the Tarantula Nebula",
       "small_magellanic_cloud": "the Small Magellanic Cloud",
-      "ribosome": "a ribosome"
+      "ribosome": "a ribosome",
+      "el_castillo": "El Castillo at Chichén Itzá",
+      "antikythera_mechanism": "the Antikythera mechanism",
+      "nebra_sky_disc": "the Nebra sky disc",
+      "newgrange": "Newgrange"
     },
     "a7where": "The typical temperature of {name} is about {temp} — {note}.",
     "a2taller": "{Name} is roughly {ratio} times taller than a 1.7 m human.",

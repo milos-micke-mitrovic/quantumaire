@@ -63,6 +63,12 @@ const ZOOM_MIN_ITEMS = 30;
  * top previews the selected stop with its image, value and the step from
  * the previous stop.
  */
+/**
+ * Percent with 6 significant digits — what the browser keeps when it parses
+ * a style attribute, so server HTML and client props hydrate identically.
+ */
+const pct = (f: number) => `${Number((f * 100).toPrecision(6))}%`;
+
 export function ScaleExplorer({
   items,
   valueLabel,
@@ -308,7 +314,7 @@ export function ScaleExplorer({
               key={tk.label}
               aria-hidden
               className="absolute top-[86px] -translate-x-1/2"
-              style={{ left: `${tk.pos * 100}%` }}
+              style={{ left: pct(tk.pos) }}
             >
               <div className="mx-auto -mt-[24px] h-[8px] w-px bg-white/25" />
               <p className="mt-[16px] whitespace-nowrap font-mono text-[9px] text-cosmos-star/55">
@@ -324,7 +330,7 @@ export function ScaleExplorer({
               aria-hidden
               className="absolute top-[56px] h-3"
               style={{
-                left: `calc(${g.from * 100}% + 8px)`,
+                left: `calc(${pct(g.from)} + 8px)`,
                 width: `calc(${(g.to - g.from) * 100}% - 16px)`,
               }}
             >
@@ -349,7 +355,7 @@ export function ScaleExplorer({
                   ? "-translate-x-[calc(100%-12px)]"
                   : "-translate-x-1/2"
             )}
-            style={{ left: `${positions[idx] * 100}%` }}
+            style={{ left: pct(positions[idx]) }}
           >
             {activeName}
           </div>
@@ -373,8 +379,8 @@ export function ScaleExplorer({
                 aria-label={`${name} — ${it.value === null ? originLabel : formatValue(it.value)}`}
                 className="group/dot absolute -translate-x-1/2 -translate-y-1/2 p-2 focus:outline-none"
                 style={{
-                  left: `${positions[i] * 100}%`,
-                  top: 62 + LANE_OFFSET_PX[lanes[i]],
+                  left: pct(positions[i]),
+                  top: `${62 + LANE_OFFSET_PX[lanes[i]]}px`,
                 }}
               >
                 <span

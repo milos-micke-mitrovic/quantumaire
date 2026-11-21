@@ -15,19 +15,22 @@ indexing batch (`gsc-indexing`).
 
 ## 1. Ancient stories that meet the sky (Humankind: only 3 ancient topics)
 
-- [ ] Nebra sky disc (~32 cm, oldest known depiction of the sky), Antikythera
+- [x] Nebra sky disc (~32 cm, oldest known depiction of the sky), Antikythera
       mechanism (~34 cm, the ancient Greek "computer"), Newgrange (~85 m
       mound, winter-solstice light box), El Castillo at Chichén Itzá (~30 m,
       equinox serpent). Only claims sources support; label legends as legends.
-- [ ] Shared tag (`ancient_astronomy` or reuse `ancient`) and wiring into the
+      2026-11-21: all four (31 cm, 33 cm case, 85 m, 30 m height).
+- [x] Shared tag (`ancient_astronomy` or reuse `ancient`) and wiring into the
       existing pyramid / Stonehenge pages.
+      2026-11-21: reuse `ancient`; the guide links them all (StopGuides).
 
 ## 2. A guide: ancient astronomy
 
-- [ ] `/topics/ancient-astronomy`: what old cultures actually measured
+- [x] `/topics/ancient-astronomy`: what old cultures actually measured
       (pyramid cardinal alignment, Stonehenge solstice axis, Sirius and the
       Egyptian calendar, Halley in old records, the Moon and eclipses) vs
       popular myths (Orion correlation etc.). Both locales, sources.
+      2026-11-21: 5 sections, no tag (/tag/ancient also has Colosseum etc.).
 
 ## 3. Cosmos: things people look up that the site lacks
 

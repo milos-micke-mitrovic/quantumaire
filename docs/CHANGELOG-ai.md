@@ -282,3 +282,14 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 
 ## 2026-11-21 — pair for round 6 (block 5)
 - virus-vs-ribosome (43 pairs): "A virus is about 4 times bigger than a ribosome: a virus measures 100 nm, a ribosome 25 nm." (SR read too). Round 6 is done except the carried-over blocked items (404 SSR body, GSC CTR).
+
+## 2026-11-21 — round 7 blocks 1–2: ancient sky stories + guide
+- Round 7 plan written (direction: cosmos, micro/quantum, ancient stories that meet the sky).
+- New HUMANKIND topics (FACT, tag `ancient`), drafted by agents, facts/Serbian reviewed:
+  - Nebra Sky Disc (`nebra_sky_disc`, 31 cm; sources 30–32 cm). Softened "the museum calls it the oldest…" (unsourced) to "widely regarded". Image CC0 (Shonagon). Note: in 2023 the Saxony-Anhalt heritage office sent Commons a DMCA claim over disc photos; Wikimedia DE counter-noticed (EU DSM Art. 14); file still CC0 on Commons.
+  - Antikythera Mechanism (`antikythera_mechanism`, 33 cm estimated case length → LENGTH_STOP_IDS). Fragment A 18 cm, 82 fragments, 30 gears; planetary gearing marked as reconstruction. Image CC BY 4.0 (Logg Tandy, resized only).
+  - Newgrange (`newgrange`, 85 m mound). Fun fact replaced (unsourced axial-tilt claim) with Ray 1989 Nature (beam aligned with first sunrise rays when built). Image CC BY-SA 4.0 (cropped).
+  - El Castillo at Chichén Itzá (`el_castillo`, 30 m height → HEIGHT_STOP_IDS). 365 steps and equinox serpent worded as "usually counted" / intention debated. Image CC BY-SA 4.0 (cropped).
+  - New glossary: equinox, saros, metonic_cycle, solstice, lunisolar_calendar, passage_tomb, roof_box.
+- Guide `/topics/ancient-astronomy` (5 sections: solstice monuments, pyramid north alignment + Orion-correlation myth, Sirius & the 365-day Egyptian calendar, Nebra/Babylonian saros/Halley 240 BC/Eratosthenes/Antikythera, El Castillo + "no aliens"). Names written to match auto-links in both locales (checked).
+- Fix: ScaleExplorer hydration mismatch (dev console error on every topic page): long float `left: %` values and numeric `top` differed from the browser-normalised server HTML; positions now 6 significant digits, `top` in px.

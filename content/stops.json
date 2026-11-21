@@ -2446,6 +2446,101 @@
       ]
     },
     {
+      "id": "el_castillo",
+      "i18nKey": "stops.el_castillo",
+      "sizeMeters": 30,
+      "order": 6.006,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/el-castillo.webp",
+        "aspect": "wide",
+        "altKey": "stops.el_castillo.image.alt",
+        "credit": "Daniel Schwen — CC BY-SA 4.0 (cropped)"
+      },
+      "glossary": [
+        "equinox"
+      ],
+      "tags": [
+        "ancient",
+        "landmark"
+      ]
+    },
+    {
+      "id": "antikythera_mechanism",
+      "i18nKey": "stops.antikythera_mechanism",
+      "sizeMeters": 0.33,
+      "order": 6.004,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/antikythera-mechanism.webp",
+        "aspect": "square",
+        "altKey": "stops.antikythera_mechanism.image.alt",
+        "credit": "Logg Tandy — CC BY 4.0"
+      },
+      "glossary": [
+        "saros",
+        "metonic_cycle",
+        "ecliptic"
+      ],
+      "tags": [
+        "ancient"
+      ]
+    },
+    {
+      "id": "nebra_sky_disc",
+      "i18nKey": "stops.nebra_sky_disc",
+      "sizeMeters": 0.31,
+      "order": 6.003,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/nebra-sky-disc.webp",
+        "aspect": "square",
+        "altKey": "stops.nebra_sky_disc.image.alt",
+        "credit": "Shonagon — CC0"
+      },
+      "glossary": [
+        "solstice",
+        "lunisolar_calendar",
+        "patina"
+      ],
+      "tags": [
+        "ancient"
+      ]
+    },
+    {
+      "id": "newgrange",
+      "i18nKey": "stops.newgrange",
+      "sizeMeters": 85,
+      "order": 6.002,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/newgrange.webp",
+        "aspect": "wide",
+        "altKey": "stops.newgrange.image.alt",
+        "credit": "Tjp finn — CC BY-SA 4.0 (cropped)"
+      },
+      "glossary": [
+        "passage_tomb",
+        "roof_box",
+        "solstice"
+      ],
+      "tags": [
+        "ancient"
+      ]
+    },
+    {
       "id": "absolute_zero",
       "i18nKey": "stops.absolute_zero",
       "sizeMeters": null,

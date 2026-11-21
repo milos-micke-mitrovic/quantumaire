@@ -426,6 +426,35 @@ export const TOPICS: Topic[] = [
     ],
     accent: "text-cosmos-plasma",
   },
+  {
+    // No tag: /tag/ancient also holds the Colosseum and the Great Wall.
+    slug: "ancient-astronomy",
+    i18nKey: "topics.ancientAstronomy",
+    sectionCount: 5,
+    relatedStopIds: ["newgrange", "stonehenge", "pyramid", "sirius", "nebra_sky_disc", "halley", "antikythera_mechanism", "el_castillo", "moon", "sun"],
+    sources: [
+      { label: "Wikipedia — Archaeoastronomy", url: "https://en.wikipedia.org/wiki/Archaeoastronomy" },
+      { label: "Spence (2000), Nature — Ancient Egyptian chronology and the astronomical orientation of pyramids", url: "https://www.nature.com/articles/35042510" },
+      { label: "Wikipedia — Orion correlation theory", url: "https://en.wikipedia.org/wiki/Orion_correlation_theory" },
+      { label: "Wikipedia — Egyptian calendar", url: "https://en.wikipedia.org/wiki/Egyptian_calendar" },
+      { label: "Wikipedia — Sopdet (Sirius in Egypt)", url: "https://en.wikipedia.org/wiki/Sopdet" },
+      { label: "Wikipedia — Babylonian astronomical diaries", url: "https://en.wikipedia.org/wiki/Babylonian_astronomical_diaries" },
+      { label: "Wikipedia — Saros", url: "https://en.wikipedia.org/wiki/Saros_(astronomy)" },
+      { label: "APS News — Eratosthenes measures the Earth", url: "https://www.aps.org/apsnews/2006/06/eratosthenes-measures-earth" },
+      { label: "Ray (1989), Nature — The winter solstice phenomenon at Newgrange", url: "https://ui.adsabs.harvard.edu/abs/1989Natur.337..343R/abstract" },
+    ],
+    heroStopId: "nebra_sky_disc",
+    keyNumbers: [
+      { text: 1 },
+      { text: 2 },
+      { stopId: "pyramid", value: "size" },
+      { stopId: "newgrange", value: "size" },
+      { stopId: "el_castillo", value: "size" },
+      { stopId: "nebra_sky_disc", value: "size" },
+      { stopId: "antikythera_mechanism", value: "size" },
+    ],
+    accent: "text-badge-established",
+  },
 ];
 
 export function getTopic(slug: string): Topic | undefined {
