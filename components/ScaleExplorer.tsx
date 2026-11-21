@@ -33,6 +33,8 @@ interface ScaleExplorerProps {
   /** i18n keys for "{factor}× bigger than {name}" and "about the same as". */
   stepKey: string;
   ticks: ExplorerTick[];
+  /** Denser ticks (e.g. every power of ten) used when zoomed in. */
+  fineTicks?: ExplorerTick[];
   legend: string;
   highlightStopId?: string;
   /** Label for a null-valued origin item. */
@@ -50,6 +52,10 @@ export const CATEGORY_DOT: Record<Category, string> = {
 
 const LANE_OFFSET_PX = [0, -15, 15];
 
+/** Track width multipliers; zoom controls show only on crowded scales. */
+const ZOOM_LEVELS = [1, 2.5, 6];
+const ZOOM_MIN_ITEMS = 30;
+
 /**
  * Interactive log-scale explorer shared by the size, distance and
  * temperature views. Dots sit at their true log position (long empty
@@ -64,6 +70,7 @@ export function ScaleExplorer({
   formatSubValue,
   stepKey,
   ticks,
+  fineTicks,
   legend,
   highlightStopId,
   originLabel,
@@ -92,18 +99,25 @@ export function ScaleExplorer({
     () => (hasOrigin ? [0.015, ...axis.positions] : axis.positions),
     [axis, hasOrigin]
   );
-  const lanes = useMemo(() => assignLanes(positions), [positions]);
+  const [zoomIdx, setZoomIdx] = useState(0);
+  const zoom = ZOOM_LEVELS[zoomIdx];
+  const canZoom = items.length >= ZOOM_MIN_ITEMS;
+  // A wider track needs less room between dots (in track fractions).
+  const lanes = useMemo(
+    () => assignLanes(positions, 0.018 / zoom),
+    [positions, zoom]
+  );
 
   const visibleTicks = useMemo(
     () =>
       thinTicks(
-        ticks
+        (zoom > 1 && fineTicks ? fineTicks : ticks)
           .map((tk) => ({ ...tk, pos: axis.map(tk.value) }))
           .filter((tk): tk is ExplorerTick & { pos: number } => tk.pos !== null)
           .sort((a, b) => a.pos - b.pos),
-        0.075
+        0.075 / zoom
       ),
-    [ticks, axis]
+    [ticks, fineTicks, axis, zoom]
   );
 
   const categories = useMemo(() => {
@@ -130,7 +144,7 @@ export function ScaleExplorer({
       left: x - scroller.clientWidth / 2,
       behavior: prefersReducedMotion() ? "auto" : "smooth",
     });
-  }, [idx, positions]);
+  }, [idx, positions, zoom]);
 
   if (items.length === 0) return null;
   const active = items[idx];
@@ -282,7 +296,8 @@ export function ScaleExplorer({
           aria-label={valueLabel}
           aria-orientation="horizontal"
           onKeyDown={onKeyDown}
-          className="relative h-[124px] min-w-[52rem] lg:min-w-0"
+          className="relative h-[124px] w-[calc(var(--zoom)*100%)] min-w-[calc(var(--zoom)*52rem)] lg:min-w-0"
+          style={{ "--zoom": zoom } as React.CSSProperties}
         >
           {/* baseline */}
           <div className="absolute inset-x-0 top-[62px] h-px bg-gradient-to-r from-cyan-300/30 via-cosmos-plasma/50 to-cosmos-nova/30" />
@@ -384,14 +399,43 @@ export function ScaleExplorer({
         </div>
       </div>
 
-      {/* legend */}
-      <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1.5 text-[10px] uppercase tracking-[0.16em] text-cosmos-star/50">
-        {categories.map((c) => (
-          <span key={c} className="inline-flex items-center gap-1.5">
-            <span aria-hidden className={clsx("h-2 w-2 rounded-full", CATEGORY_DOT[c])} />
-            {t(`categories.${c}`)}
-          </span>
-        ))}
+      {/* legend + zoom */}
+      <div className="mt-2 flex flex-wrap items-center justify-between gap-3">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-[10px] uppercase tracking-[0.16em] text-cosmos-star/50">
+          {categories.map((c) => (
+            <span key={c} className="inline-flex items-center gap-1.5">
+              <span aria-hidden className={clsx("h-2 w-2 rounded-full", CATEGORY_DOT[c])} />
+              {t(`categories.${c}`)}
+            </span>
+          ))}
+        </div>
+        {canZoom && (
+          <div className="flex shrink-0 items-center gap-1">
+            <button
+              type="button"
+              onClick={() => setZoomIdx((z) => Math.max(0, z - 1))}
+              disabled={zoomIdx === 0}
+              aria-label={t("common.explorer.zoomOut")}
+              title={t("common.explorer.zoomOut")}
+              className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 text-lg leading-none text-cosmos-star/75 transition-colors hover:bg-white/[0.06] hover:text-cosmos-star disabled:opacity-30"
+            >
+              <span aria-hidden>−</span>
+            </button>
+            <span className="w-10 text-center font-mono text-[11px] text-cosmos-star/55">
+              {zoom}×
+            </span>
+            <button
+              type="button"
+              onClick={() => setZoomIdx((z) => Math.min(ZOOM_LEVELS.length - 1, z + 1))}
+              disabled={zoomIdx === ZOOM_LEVELS.length - 1}
+              aria-label={t("common.explorer.zoomIn")}
+              title={t("common.explorer.zoomIn")}
+              className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 text-lg leading-none text-cosmos-star/75 transition-colors hover:bg-white/[0.06] hover:text-cosmos-star disabled:opacity-30"
+            >
+              <span aria-hidden>+</span>
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

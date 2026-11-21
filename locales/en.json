@@ -235,7 +235,9 @@
       "lightMinute": "1 light-minute",
       "lightHour": "1 light-hour",
       "lightDay": "1 light-day",
-      "gapHint": "Empty stretch shortened to fit — this many times bigger in reality"
+      "gapHint": "Empty stretch shortened to fit — this many times bigger in reality",
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out"
     },
     "shelves": {
       "moreTitle": "More curiosities",

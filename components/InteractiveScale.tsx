@@ -9,6 +9,11 @@ import { ScaleExplorer, type ExplorerItem } from "./ScaleExplorer";
 
 const LY = 9.4607304725808e15;
 const TICKS = [1e-15, 1e-12, 1e-9, 1e-6, 1e-3, 1, 1e3, 1e6, 1e9, 1e12, LY, LY * 1e3, LY * 1e6, LY * 1e9];
+/** Every power of ten for the zoomed-in track: metres up to 10¹⁵, then light-years. */
+const FINE_TICKS = [
+  ...Array.from({ length: 31 }, (_, i) => 10 ** (i - 15)),
+  ...Array.from({ length: 11 }, (_, i) => LY * 10 ** i),
+];
 
 interface InteractiveScaleProps {
   stops: Stop[];
@@ -37,6 +42,7 @@ export function InteractiveScale({ stops, highlightStopId }: InteractiveScalePro
       formatValue={(v) => formatMeters(v, t, units)}
       stepKey="common.explorer.stepSize"
       ticks={TICKS.map((v) => ({ value: v, label: formatMeters(v, t, units) }))}
+      fineTicks={FINE_TICKS.map((v) => ({ value: v, label: formatMeters(v, t, units) }))}
       legend={t("common.scaleLegend")}
       highlightStopId={highlightStopId}
     />

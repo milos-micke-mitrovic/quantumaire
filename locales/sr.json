@@ -235,7 +235,9 @@
       "lightMinute": "1 svetlosni minut",
       "lightHour": "1 svetlosni sat",
       "lightDay": "1 svetlosni dan",
-      "gapHint": "Prazan deo skraćen da stane — u stvarnosti je ovoliko puta veći"
+      "gapHint": "Prazan deo skraćen da stane — u stvarnosti je ovoliko puta veći",
+      "zoomIn": "Uvećaj",
+      "zoomOut": "Umanji"
     },
     "shelves": {
       "moreTitle": "Još zanimljivosti",
