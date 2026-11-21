@@ -248,3 +248,7 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Two lengths now compare as "longer": "The Titanic is about 11 times longer than a blue whale: the Titanic is 269 m long, a blue whale 25 m" (SR „duže … Dužina —“), FAQ "How much longer …?". No existing pair was affected.
 - Mobile check of the 4 pages: no overflow. URLs appended to the GSC queue.
 - Round 5 left: 404 SSR body (Next), Search Console CTR (needs data).
+
+## 2026-11-21 — indexing; round 6 plan
+- GSC: 11 URLs requested (milky-way-vs-andromeda pair + 10 physics/cosmos topics); quota hit on multiverse — resume there.
+- New plan (round 6) in `docs/NEXT-PLAN.md`: review round 5's topics → quantum-physics guide → ribosome + Humankind structures → Lighthouse re-check → pairs; 404 SSR + GSC CTR carried over.

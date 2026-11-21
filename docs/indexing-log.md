@@ -4,17 +4,6 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 
 ## Queue (next first)
 
-- https://quantumaire.space/en/compare/milky-way-vs-andromeda
-- https://quantumaire.space/en/stop/string_theory
-- https://quantumaire.space/en/stop/gravity
-- https://quantumaire.space/en/stop/wormhole
-- https://quantumaire.space/en/stop/time_dilation
-- https://quantumaire.space/en/stop/gravitational_waves
-- https://quantumaire.space/en/stop/quantum_entanglement
-- https://quantumaire.space/en/stop/planck_length
-- https://quantumaire.space/en/stop/higgs_boson
-- https://quantumaire.space/en/stop/antimatter
-- https://quantumaire.space/en/stop/big_bang
 - https://quantumaire.space/en/stop/multiverse
 - https://quantumaire.space/en/stop/tardigrade
 - https://quantumaire.space/en/stop/blue_whale
@@ -112,3 +101,4 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - 2026-11-20: /en/stop/fermi_paradox — then "Quota Exceeded" on james_webb (quota looks like a rolling ~24 h window, not a calendar day); resume with james_webb.
 - 2026-11-20 (~10:45): /en/stop/{james_webb,iss,mariana_trench,neutrino,gaia_bh1,m87_black_hole}; /en/tag/spacecraft;
   /en/compare/{jupiter-vs-earth,sun-vs-earth,earth-vs-moon,uy-scuti-vs-sun} — then "Quota Exceeded" on milky-way-vs-andromeda (11 accepted); resume with milky-way-vs-andromeda.
+- 2026-11-21 (~16:45): /en/compare/milky-way-vs-andromeda; /en/stop/{string_theory,gravity,wormhole,time_dilation,gravitational_waves,quantum_entanglement,planck_length,higgs_boson,antimatter,big_bang} — then "Quota Exceeded" on multiverse (11 accepted); resume with multiverse.

@@ -1,4 +1,57 @@
-# Next plan (round 5, written 2026-11-20)
+# Next plan (round 6, written 2026-11-21)
+
+Round 5 (review, Next 16.4.6, last scale gaps, physics/micro ideas, compare
+pairs) is done — see "Done: round 5" below. Same rules: work top to bottom,
+tick boxes, commit + deploy each block, desktop + mobile check
+(`pnpm check:mobile`), dump and read every generated sentence for new topics,
+log in `docs/CHANGELOG-ai.md`. Daily: GSC indexing batch (`gsc-indexing`).
+
+## 1. Review round 5's 7 topics (quality before quantity)
+
+Tarantula Nebula, Small Magellanic Cloud, house mouse, electron,
+wave–particle duality, E = mc², entropy — drafted by agents, not yet
+fact/Serbian-audited.
+
+- [ ] Facts: every number vs sources.json; fix or source anything unsupported.
+- [ ] Serbian: terminology table (docs/audit/serbian.md), „…“, decimal comma,
+      genitive after decimals, vi-forms, count phrases.
+- [ ] Desktop + mobile pass on these pages in both locales.
+
+## 2. A guide for the physics ideas (PHYSICS now has 12 topics)
+
+- [ ] `/topics/quantum-physics` (or similar searched title): electron,
+      wave–particle duality, uncertainty principle, entanglement, Planck
+      length, quark, Higgs, antimatter — what is known vs open, key numbers,
+      both locales. Check which tag it should cover (and its 308).
+
+## 3. Remaining gaps a layperson notices
+
+Size scale: DNA 2 nm → virus 100 nm (1.7 orders) is the last empty stretch in
+nature that has a familiar object. Humankind is the thinnest category (11).
+
+- [ ] Micro-world: ribosome (~20–30 nm) — only if sources agree on a size.
+- [ ] Humankind: one or two famous structures with an honest measure (e.g.
+      Golden Gate Bridge main span, Panama Canal length?) — pick what has a
+      free photo and a size people quote; wire into guides/collections.
+- [ ] Dump FAQ, analogies, neighbours, real-scale cards in both locales and read.
+
+## 4. Speed re-check (~20 topics since the last Lighthouse run)
+
+- [ ] Lighthouse mobile on home, a topic, a guide, a compare pair; client
+      dictionary + first-load JS budgets; fix regressions.
+
+## 5. Compare pairs for round 6 topics
+
+- [ ] Only real searches that read well; dump EN+SR and read before keeping.
+
+## 6. Carried over (blocked)
+
+- [ ] 404 body server-rendered (Next 16.4.6: still the `__next_error__` shell).
+- [ ] Search Console: pages with impressions but low CTR → rewrite titles.
+
+---
+
+# Done: round 5 (written 2026-11-20)
 
 Round 4 (scale gaps, Humankind topics, animals guide, physics ideas, alt
 texts) is done — see "Done: round 4" below. Same rules: work top to bottom,
