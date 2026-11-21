@@ -1598,5 +1598,231 @@
       "label": "Ray (1989), Nature 337 — The winter solstice phenomenon at Newgrange, Ireland: accident or design?",
       "url": "https://ui.adsabs.harvard.edu/abs/1989Natur.337..343R/abstract"
     }
+  ],
+  "pillars_of_creation": [
+    {
+      "label": "NASA — Gas Pillars in the Eagle Nebula (M16), 1995 Hubble image: tallest (left) pillar about 4 light-years from base to tip; 6,500 ly in Serpens; taken 1 April 1995; EGGs, photoevaporation",
+      "url": "https://science.nasa.gov/asset/hubble/gas-pillars-in-the-eagle-nebula-m16-pillars-of-creation-in-a-star-forming-region"
+    },
+    {
+      "label": "NASA — Hubble Goes High-Def to Revisit the Iconic Pillars of Creation (Jan 2015; ~5 ly in the wider view, 6,500 ly, gas boiling off under UV, infrared view reveals hidden stars)",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-goes-high-def-to-revisit-the-iconic-pillars-of-creation/"
+    },
+    {
+      "label": "NASA — NASA's Webb Takes Star-Filled Portrait of Pillars of Creation (19 Oct 2022; NIRCam; young stars a few hundred thousand years old; 6,500 ly)",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-takes-star-filled-portrait-of-pillars-of-creation"
+    },
+    {
+      "label": "NASA JPL — Famous Space Pillars Feel the Heat of Star's Explosion (9 Jan 2007; Spitzer; supernova 'may have' toppled them ~6,000 years ago; ~7,000 ly; not visible for ~1,000 years)",
+      "url": "https://www.jpl.nasa.gov/news/famous-space-pillars-feel-the-heat-of-stars-explosion/"
+    },
+    {
+      "label": "Wikipedia — Pillars of Creation (4 ly left pillar, 6,500–7,000 ly, 32 exposures on WFC2's four CCDs, 2014 WFC3 revisit unveiled Jan 2015, Webb Oct 2022, fingertips larger than Solar System, Spurgeon 1857 sermon, supernova claim disputed)",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation"
+    },
+    {
+      "label": "Wikipedia — Eagle Nebula (about 5,700 ly; NGC 6611 cluster 1–2 million years old; discovered by de Chéseaux 1745–46)",
+      "url": "https://en.wikipedia.org/wiki/Eagle_Nebula"
+    },
+    {
+      "label": "PBS NOVA — The Eagle Nebula (left pillar about four light-years top to bottom)",
+      "url": "https://www.pbs.org/wgbh/nova/origins/hubb-16.html"
+    },
+    {
+      "label": "Wikipedia — Proxima Centauri (4.24 ly, used in the narrative; same value as the site's proxima_centauri topic)",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri"
+    }
+  ],
+  "kuiper_belt": [
+    {
+      "label": "NASA Science — Kuiper Belt: Facts (30 AU inner edge, main region ends ~50 AU, scattered disk to nearly 1,000 AU, hundreds of thousands >100 km, mass no more than ~10% of Earth, original 7–10 Earth masses, Edgeworth 1940s, Eris largest scattered-disk object, Jupiter-family comets, Pluto first KBO 1930, Arrokoth flyby 1 Jan 2019)",
+      "url": "https://science.nasa.gov/solar-system/kuiper-belt/facts/"
+    },
+    {
+      "label": "NASA Science — New Horizons (launch 19 Jan 2006, Pluto 14 July 2015, Arrokoth flyby 1 Jan 2019 ~6.4 billion km from Earth, Arrokoth about 35 km long, most distant object explored up close)",
+      "url": "https://science.nasa.gov/mission/new-horizons/"
+    },
+    {
+      "label": "NASA Science — Arrokoth (2014 MU69) overview (discovered 26 June 2014 with Hubble; name means 'sky' in Powhatan/Algonquian)",
+      "url": "https://science.nasa.gov/solar-system/kuiper-belt/arrokoth-2014-mu69/"
+    },
+    {
+      "label": "Wikipedia — Kuiper belt (30–~50 AU; 20x as wide and 20–200x as massive as the asteroid belt; >100,000 KBOs over 100 km; >2,000 discovered by 2018; Jewitt & Luu announced 1992 QB1 on 30 Aug 1992 after five years; 2018 mass estimate 0.0197 ± 0.003 Earth masses; ~50 K; Kuiper 1951 and the Pluto-scattering assumption; Edgeworth 1943; Fernández 1980; Edgeworth–Kuiper name, Jewitt quote; scattered disc as source of periodic comets; Kuiper cliff at ~48–50 AU)",
+      "url": "https://en.wikipedia.org/wiki/Kuiper_belt"
+    },
+    {
+      "label": "Wikipedia — 15760 Albion (discovered 30 Aug 1992 by Jewitt & Luu at UH88, Mauna Kea; ~108–125 km; orbit 40.8–47.0 AU)",
+      "url": "https://en.wikipedia.org/wiki/15760_Albion"
+    },
+    {
+      "label": "Wikipedia — Arrokoth (contact binary 'snowman', best-fit 34.5 x 19.8 x 13.8 km; New Horizons flyby 1 Jan 2019; farthest object visited by a spacecraft)",
+      "url": "https://en.wikipedia.org/wiki/486958_Arrokoth"
+    },
+    {
+      "label": "Wikipedia — Eris (2,326 ± 12 km; 27% more massive than Pluto; orbit 38.1–97.5 AU, scattered disc; discovery prompted the IAU planet definition of 24 Aug 2006)",
+      "url": "https://en.wikipedia.org/wiki/Eris_(dwarf_planet)"
+    },
+    {
+      "label": "Wikipedia — Haumea (about 2,100 x 1,700 x 1,000 km; rotation just under 4 hours; ring found 2017)",
+      "url": "https://en.wikipedia.org/wiki/Haumea"
+    },
+    {
+      "label": "Wikipedia — Makemake (about 1,434 x 1,420 km)",
+      "url": "https://en.wikipedia.org/wiki/Makemake"
+    },
+    {
+      "label": "Wikipedia — Scattered disc (ecliptic / Jupiter-family comets thought to originate there)",
+      "url": "https://en.wikipedia.org/wiki/Scattered_disc"
+    },
+    {
+      "label": "Serbian Wikipedia — Којперов појас (Kenet Edžvort 1943, source of short-period comets; note: the site uses 'Kajperov')",
+      "url": "https://sr.wikipedia.org/wiki/Којперов_појас"
+    }
+  ],
+  "cosmic_microwave_background": [
+    {
+      "label": "Fixsen 2009, \"The Temperature of the Cosmic Microwave Background\", ApJ 707, 916 (arXiv:0911.1955) — T = 2.72548 ± 0.00057 K",
+      "url": "https://arxiv.org/abs/0911.1955"
+    },
+    {
+      "label": "Planck Collaboration 2018, \"Planck 2018 results. VI. Cosmological parameters\" (arXiv:1807.06209) — H0 = 67.4 ± 0.5, Ωb h² = 0.0224, Ωc h² = 0.120, Ωm = 0.315",
+      "url": "https://arxiv.org/abs/1807.06209"
+    },
+    {
+      "label": "ESA — Planck reveals an almost perfect Universe (2013): age 13.82 billion years, 4.9% / 26.8% / 68.3%, cold spot and asymmetry anomalies confirmed",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_reveals_an_almost_perfect_Universe"
+    },
+    {
+      "label": "ESA — History of microwave astronomy (COBE: variations of about one part in 100 000 from 2.73 K)",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck/History_of_microwave_astronomy"
+    },
+    {
+      "label": "ESA — Planck and the cosmic microwave background (anisotropies = seeds of galaxies and clusters)",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_and_the_cosmic_microwave_background"
+    },
+    {
+      "label": "NASA — WMAP overview (example: 2.7251 K vs 2.7249 K; COBE found the differences in 1992)",
+      "url": "https://science.nasa.gov/mission/wmap/wmap-overview/"
+    },
+    {
+      "label": "Nobel Prize in Physics 1978 — Penzias and Wilson \"for their discovery of cosmic microwave background radiation\"",
+      "url": "https://www.nobelprize.org/prizes/physics/1978/summary/"
+    },
+    {
+      "label": "Nobel Prize in Physics 2006 — Mather and Smoot \"for their discovery of the blackbody form and anisotropy of the CMB\"",
+      "url": "https://www.nobelprize.org/prizes/physics/2006/summary/"
+    },
+    {
+      "label": "Wikipedia — Cosmic microwave background (~3,000 K at ~380,000 yr, factor 1,089, ~411 photons/cm³ citing PDG, 369.82 km/s dipole, most perfect black body measured, Alpher & Herman 5 K in 1948, Dicke \"Boys, we've been scooped\", WMAP 2001, BICEP2 dust, anomalies)",
+      "url": "https://en.wikipedia.org/wiki/Cosmic_microwave_background"
+    },
+    {
+      "label": "Wikipedia — Discovery of cosmic microwave background radiation (3.5 K excess at 4080 Mc/s, Penzias & Wilson 1965; pigeons)",
+      "url": "https://en.wikipedia.org/wiki/Discovery_of_cosmic_microwave_background_radiation"
+    },
+    {
+      "label": "Wikipedia — Observable universe (comoving distance to last-scattering matter ~45.7 billion ly; ~42 million ly at decoupling; radius ~46.5 billion ly)",
+      "url": "https://en.wikipedia.org/wiki/Observable_universe"
+    },
+    {
+      "label": "Riess et al. 2022, SH0ES (arXiv:2112.04510) — H0 = 73.04 ± 1.04 km/s/Mpc",
+      "url": "https://arxiv.org/abs/2112.04510"
+    },
+    {
+      "label": "Particle Data Group — Review: Cosmic Microwave Background (photon number density ~411 cm⁻³)",
+      "url": "https://pdg.lbl.gov/2024/reviews/rpp2024-rev-cosmic-microwave-background.pdf"
+    }
+  ],
+  "trappist_1": [
+    {
+      "label": "NASA Science — TRAPPIST-1 system page (most-studied system after our own, ~40 light-years, seven rocky planets, 22 Feb 2017 announcement, all seven could fit inside Mercury's orbit, Webb 2023 first results on b)",
+      "url": "https://science.nasa.gov/exoplanets/trappist1/"
+    },
+    {
+      "label": "Agol et al. 2021, Planetary Science Journal — Refining the transit timing and photometric analysis of TRAPPIST-1: masses, radii, densities (all seven rocky, iron-poorer than Earth)",
+      "url": "https://arxiv.org/abs/2010.01074"
+    },
+    {
+      "label": "NASA Exoplanet Archive (TAP query, Agol et al. 2021 parameter set): stellar radius 0.1192 R☉, Teff 2566 K; semi-major axes 0.01154 (b) to 0.06189 AU (h); periods 1.511 to 18.773 d; radii 0.788–1.129 R⊕",
+      "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,st_rad,st_teff,pl_orbsmax,pl_orbper,pl_rade+from+ps+where+hostname='TRAPPIST-1'+and+pl_refname+like+'%25Agol%25'&format=csv"
+    },
+    {
+      "label": "Wikipedia — TRAPPIST-1 (40.66 ± 0.04 ly / 12.47 pc from Gaia EDR3, mass 0.0898 M☉, 2,566 K, age 7.6 ± 2.2 Gyr, ten trillion years of life, resonance ratios 8:5 5:3 3:2 3:2 4:3 3:2, 3–4 planets in habitable zone (e, f, g or d, e, f), star 4× the Sun's width from e, neighbours can look larger than the Moon, JWST status of b/c/d/e, candidate planet i 2025)",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1"
+    },
+    {
+      "label": "Burgasser & Mamajek 2017, ApJ — On the Age of the TRAPPIST-1 System (7.6 ± 2.2 Gyr; R = 0.121 ± 0.003 R☉)",
+      "url": "https://arxiv.org/abs/1706.02018"
+    },
+    {
+      "label": "NASA Science — Webb measures the temperature of a rocky exoplanet (TRAPPIST-1 b dayside ~500 K, no significant atmosphere; 0.011 AU, 1.51 d; all planets could fit within Mercury's orbit)",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-measures-the-temperature-of-a-rocky-exoplanet/"
+    },
+    {
+      "label": "Greene et al. 2023, Nature — Thermal emission from the Earth-sized exoplanet TRAPPIST-1 b using JWST (little or no atmosphere)",
+      "url": "https://arxiv.org/abs/2303.14849"
+    },
+    {
+      "label": "Zieba et al. 2023, Nature — No thick carbon dioxide atmosphere on the rocky exoplanet TRAPPIST-1 c (dayside 380 ± 31 K; thick CO2-rich and Venus-like atmospheres disfavoured; thin atmosphere or bare rock consistent)",
+      "url": "https://arxiv.org/abs/2306.10150"
+    },
+    {
+      "label": "Ducrot et al. 2025, Nature Astronomy — Combined 12.8 and 15 µm JWST/MIRI eclipses of TRAPPIST-1 b (airless fresh-rock surface OR thick hazy CO2 atmosphere both fit)",
+      "url": "https://arxiv.org/abs/2412.11627"
+    }
+  ],
+  "saturn_rings": [
+    {
+      "label": "Wikipedia — Rings of Saturn (ring table: C 74,658–92,000, B 92,000–117,580, Cassini Division 117,580–122,170 / 4,700 km, A 122,170–136,775 km, F 140,180 km, E 180,000–480,000 km & >2,000 km thick; thickness 10 m–1 km; 99.9% water ice; mass 1.54 ± 0.49 × 10^19 kg = 0.41 ± 0.13 Mimas, ~2/3 of Antarctic ice sheet, area 80× Earth; age 10–100 Myr from Cassini, may disappear in ~300 Myr or <100 Myr; ring-plane crossings 23 March 2025, next 15 Oct 2038, 1 Apr 2039, 9 Jul 2039; Galileo 1610 'ears', rings invisible 1612; Huygens 1655; Cassini 1675; Mimas 2:1 resonance at Cassini Division inner edge; E ring fed by Enceladus plumes; B ring vertical structures up to 2.5 km)",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+    },
+    {
+      "label": "NASA NSSDC — Saturnian Rings Fact Sheet (radii: Saturn equator 60,268 km, C inner edge 74,658 km, A outer edge 136,780 km; thickness C 5 m, B 5–10 m, A 10–30 m)",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/satringfact.html"
+    },
+    {
+      "label": "NASA Science — Saturn: Facts (particles from dust-sized grains to house-sized chunks, a few as large as mountains; vertical height typically ~10 m in the main rings; Cassini Division 4,700 km; each ring orbits at a different speed)",
+      "url": "https://science.nasa.gov/saturn/facts/"
+    },
+    {
+      "label": "NASA (2019) — NASA's Cassini Data Show Saturn's Rings Relatively New (formed 10–100 million years ago; 22 dives between planet and rings in 2017)",
+      "url": "https://science.nasa.gov/missions/cassini/nasas-cassini-data-show-saturns-rings-relatively-new/"
+    },
+    {
+      "label": "Iess et al. (2019), Science 364 — Measurement and implications of Saturn's gravity field and ring mass (1.54 ± 0.49 × 10^19 kg, 0.41 ± 0.13 Mimas masses; age 10^7–10^8 yr) — postprint",
+      "url": "https://www.weizmann.ac.il/EPS/kaspi/sites/EPS.kaspi/files/uploads/Publications/Iess-etal-2019.pdf"
+    },
+    {
+      "label": "IPGP (2025) — A New Perspective on the Age of Saturn's Rings (Hyodo, Genda & Madeira, Nature Geoscience, 16 Dec 2024: micrometeoroids vaporise, rings could be ~4.5 billion years old; previous estimate ~400 million years)",
+      "url": "https://www.ipgp.fr/en/news-and-agenda/news/a-new-perspective-on-the-age-of-saturns-rings"
+    },
+    {
+      "label": "Hyodo, Genda & Madeira (2024), Nature Geoscience — Pollution resistance of Saturn's ring particles during micrometeoroid impact (DOI 10.1038/s41561-024-01598-9)",
+      "url": "https://doi.org/10.1038/s41561-024-01598-9"
+    },
+    {
+      "label": "Space.com (2025) — Saturn's rings will 'disappear' this weekend (Earth crosses the ring plane 23 March 2025, 16:04 UT; every 13–15 years; Saturn close to the Sun in the sky)",
+      "url": "https://www.space.com/stargazing/saturns-iconic-rings-will-disappear-this-weekend-heres-why"
+    },
+    {
+      "label": "NASA APOD (2025-11-16) — Crossing Saturn's Ring Plane (edge-on rings appear to disappear; Galileo 1612)",
+      "url": "https://science.nasa.gov/image-article/apod-2025-november-16-crossing-saturns-ring-plane/"
+    },
+    {
+      "label": "NASA Science — Enceladus (its spray of icy particles forms Saturn's E ring)",
+      "url": "https://science.nasa.gov/saturn/moons/enceladus/"
+    },
+    {
+      "label": "Wikipedia — Mimas (mean diameter 396.4 km, mass 3.75 × 10^19 kg)",
+      "url": "https://en.wikipedia.org/wiki/Mimas_(moon)"
+    },
+    {
+      "label": "Wikipedia — Roche limit (almost all known planetary rings lie within their planet's Roche limit)",
+      "url": "https://en.wikipedia.org/wiki/Roche_limit"
+    },
+    {
+      "label": "Serbian Wikipedia — Сатурнови прстенови / Сатурн (terms: Сатурнови прстенови, Касинијева пукотина, прстен А/Б)",
+      "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%B0%D1%82%D1%83%D1%80%D0%BD%D0%BE%D0%B2%D0%B8_%D0%BF%D1%80%D1%81%D1%82%D0%B5%D0%BD%D0%BE%D0%B2%D0%B8"
+    }
   ]
 }

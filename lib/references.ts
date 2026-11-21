@@ -300,6 +300,7 @@ const HEIGHT_STOP_IDS = new Set([
   "olympus_mons",
   "saturn_v",
   "el_castillo",
+  "pillars_of_creation",
 ]);
 const DEPTH_STOP_IDS = new Set(["mariana_trench", "grand_canyon"]);
 const LENGTH_STOP_IDS = new Set(["tardigrade", "blue_whale", "ant", "honeybee", "house_mouse", "house_cat", "sloan_great_wall", "large_hadron_collider", "amazon_river", "titanic", "colosseum", "great_wall", "antikythera_mechanism"]);

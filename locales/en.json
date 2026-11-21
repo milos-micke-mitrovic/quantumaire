@@ -1002,7 +1002,7 @@
       "name": "The Solar System",
       "distanceName": "Edge of the Solar System",
       "tagline": "One star and everything held in its gravity.",
-      "body": "Eight planets, five dwarf planets, more than 400 moons, and millions of asteroids and comets — all bound to one yellow star. The planetary part is roughly 12 billion km wide. The Sun's gravity, though, reaches out thousands of times further, into a faint shell of icy bodies called the Oort cloud. Voyager 1, our farthest probe, has been travelling since 1977 and hasn't even reached it yet.",
+      "body": "Eight planets, five dwarf planets, more than 400 moons, and millions of asteroids and comets — all bound to one yellow star. The planets' part, out to Neptune's orbit, is about 9 billion km wide (60 AU); the icy Kuiper Belt beyond it reaches about 15 billion km across. The Sun's gravity, though, reaches out thousands of times further, into a faint shell of icy bodies called the Oort cloud. Voyager 1, our farthest probe, has been travelling since 1977 and hasn't even reached it yet.",
       "narrative": "Shrink the Solar System out to Neptune's orbit to fit on a basketball court, and Earth would be smaller than a grain of sand near the centre — completely invisible to the naked eye.",
       "massNarrative": "The Sun holds 99.86% of the Solar System's entire mass. Pile every planet, moon, asteroid, and comet together and you get just 0.14% — and most of that is Jupiter.",
       "funFact": "Pluto isn't the last word: beyond the Kuiper Belt sits the Oort Cloud, a roughly spherical shell of icy bodies that may extend more than a third of the way to the nearest star. Voyager 1, our farthest probe, won't reach its inner edge for another 300 years and won't clear its outer edge for tens of thousands more.",
@@ -1175,14 +1175,14 @@
       "body": "Saturn is the second-largest planet in the Solar System, a ball of hydrogen and helium nine times Earth's diameter. Its rings are the largest and brightest of any planet, made almost entirely of water ice — chunks ranging from grains of sand to icebergs — orbiting in a disc only tens of metres thick. Saturn has 293 known moons, including Titan, which has a thick atmosphere and lakes of liquid methane, and Enceladus, which fires jets of water into space from a buried ocean.",
       "narrative": "Drop Saturn into a big enough bathtub and it would float. Of all the planets, it's the only one less dense than water — a gas giant so puffy that, cubic centimetre for cubic centimetre, you are denser than it is.",
       "ifDistance": "Sunlight takes 80 minutes to reach Saturn — longer than the running time of most movies. From Earth, it's 1.4 billion km on average. Every picture sent home by Cassini, which orbited Saturn for 13 years, spent well over an hour crossing that gap at the speed of light.",
-      "funFact": "Saturn's main rings span about 273,000 km (282,000 km counting the narrow F ring) — about three-quarters of the distance from Earth to the Moon — but they're absurdly thin, often only 10 metres top to bottom. Edge-on, they almost disappear.",
+      "funFact": "Saturn's main rings span about 273,500 km (282,000 km counting the narrow F ring) — about three-quarters of the distance from Earth to the Moon — but they're absurdly thin, often only 10 metres top to bottom. Edge-on, they almost disappear.",
       "image": {
         "alt": "Saturn with its iconic ring system seen at a 25-degree tilt."
       },
       "facts": {
         "fact1": "Mean diameter 116,460 km — about 9× Earth's.",
         "fact2": "Average density 0.69 g/cm³ — less dense than water; would float in a big enough ocean.",
-        "fact3": "Main rings span ~273,000 km (282,000 km with the F ring) but are only tens of metres thick.",
+        "fact3": "Main rings span ~273,500 km (282,000 km with the F ring) but are only tens of metres thick.",
         "fact4": "293 known moons (as of August 2026) — more than any other planet.",
         "fact5": "Cloud-top temperature around -139 °C; powered partly by heat from its own contraction."
       },
@@ -2702,6 +2702,117 @@
         "fact5": "Stone: 97 kerbstones, from about 1.7 to 4.5 m long, ring the base; the white quartz came from the Wicklow Mountains about 50 km to the south, and the dark rounded cobbles from the Mourne Mountains about 50 km to the north.",
         "fact6": "Part of the UNESCO World Heritage Site Brú na Bóinne since 1993, together with the passage tombs of Knowth and Dowth; the Boyne Valley holds the largest collection of megalithic art in Western Europe."
       }
+    },
+    "pillars_of_creation": {
+      "name": "Pillars of Creation",
+      "tagline": "Three towers of cold gas and dust in the Eagle Nebula, slowly worn away by starlight while new stars form inside them.",
+      "body": "The Pillars of Creation are three columns of cold gas and dust inside the Eagle Nebula (M16), about 6,500 light-years away in the constellation Serpens. The tallest, on the left, is about 4 light-years from base to tip. Hubble photographed them on 1 April 1995 in what became one of the most famous space images ever, revisited them in 2014 with a sharper camera, and in 2022 the James Webb Space Telescope looked through the dust in near-infrared light and showed young stars inside and around them. The pillars are being eroded: ultraviolet light from hot, massive stars nearby heats their surface and boils the gas off into space, a process called photoevaporation. Denser knots resist longer, and some of them are collapsing into new stars.",
+      "narrative": "Stand the left pillar on the Sun and its tip would reach about 4 light-years out — almost to Proxima Centauri, our nearest star, 4.24 light-years away. Light needs about four years to climb it from base to tip. Even so it is a small cloud by nebula standards: the Crab Nebula is nearly three times as long, and six such pillars laid end to end would just span the Orion Nebula.",
+      "funFact": "In 2007 a team using the Spitzer Space Telescope suggested that a supernova blast may have already destroyed the pillars about 6,000 years ago — so we would not see them fall for roughly another 1,000 years, because their light takes thousands of years to reach us. It is a popular story, but it was never confirmed: another astronomer argued that a supernova would leave stronger radio and X-ray signals than are seen, and that winds from massive stars could have heated the dust instead.",
+      "seoTitle": "How Big Are the Pillars of Creation? Size and Distance",
+      "metaDescription": "The tallest Pillar of Creation is about 4 light-years high, 6,500 light-years away in the Eagle Nebula — a star nursery shot by Hubble in 1995 and Webb in 2022.",
+      "image": {
+        "alt": "Hubble's 2014 view of the Pillars of Creation: three tall, dark brown columns of gas and dust with glowing golden edges rise against a blue-green haze dotted with bright stars."
+      },
+      "facts": {
+        "fact1": "Height: the tallest (left) pillar is about 4 light-years from base to tip; NASA's wider 2015 image gives about 5 light-years for the whole group.",
+        "fact2": "Distance: about 6,500 light-years (2,000 parsecs) in the constellation Serpens; other estimates range from about 5,700 to 7,000.",
+        "fact3": "Hubble's first image, taken on 1 April 1995 by Jeff Hester and Paul Scowen, was assembled from 32 exposures on the four detectors of its WFPC2 camera.",
+        "fact4": "Hubble revisited them in 2014 with its newer Wide Field Camera 3; the sharper image was released in January 2015 for Hubble's 25th anniversary.",
+        "fact5": "Webb's NIRCam image (October 2022) shows red, newly formed stars at the pillars' edges, estimated to be only a few hundred thousand years old.",
+        "fact6": "The finger-like knots at the pillar tips are each larger than our Solar System; the name comes from a phrase in an 1857 sermon by Charles Spurgeon."
+      }
+    },
+    "kuiper_belt": {
+      "name": "Kuiper Belt",
+      "tagline": "A broad ring of icy worlds beyond Neptune — home of Pluto and of leftovers from the birth of the planets.",
+      "body": "The Kuiper Belt is a wide, doughnut-shaped ring of icy bodies circling the Sun beyond Neptune, from about 30 to 50 astronomical units out (4.5 to 7.5 billion km), so measured across its outer edge it is roughly 15 billion km wide. It holds Pluto and the dwarf planets Haumea and Makemake, more than 100,000 objects larger than 100 km and probably millions of smaller ones — leftovers from the birth of the Solar System, made of rock and frozen water, methane and ammonia at about 50 K (−223 °C). Overlapping its outer edge is the scattered disc: bodies that Neptune flung onto long, tilted orbits reaching hundreds of AU, among them Eris, almost exactly Pluto's size but 27% heavier. After Pluto (1930) and its moon Charon (1978), the next member was found only in 1992, when David Jewitt and Jane Luu spotted 1992 QB1 — now named Albion — from Mauna Kea after five years of searching. In 2019 NASA's New Horizons flew past Arrokoth, a reddish, 35-km 'snowman' 6.4 billion km from Earth and the most distant object ever explored up close.",
+      "narrative": "Measured across its outer edge, the Kuiper Belt is about 100 AU wide — some 16 times the width of the asteroid belt and two-thirds wider than Neptune's orbit. Shrink the Sun–Earth distance to one metre and the belt becomes a ring 30 to 50 metres from the Sun, about 100 metres across — the length of a football pitch — with Pluto a speck a fifth the width of a human hair. On the same scale the Oort cloud would reach 100 km out. Sunlight takes about 4 hours to reach the belt's inner edge and 7 hours to reach its outer edge; New Horizons needed nine and a half years to get to Pluto and 13 to reach Arrokoth.",
+      "massNarrative": "For all its size, the belt is light. The best current estimate (2018, from its pull on the planets) is about 2% of Earth's mass — roughly one and a half Moons — and NASA puts the upper limit at about 10%. That is still around 50 times the mass of the asteroid belt. Models suggest the region once held 7 to 10 Earth masses, and that the shifting orbits of the giant planets scattered nearly all of it away.",
+      "funFact": "The belt is named after Gerard Kuiper, who in 1951 wrote about icy bodies forming 38–50 AU from the Sun — but he assumed that Pluto, then thought to be far more massive, had long since scattered them away, so if he had been right there would be no Kuiper Belt today. Kenneth Edgeworth had suggested a similar reservoir in 1943, which is why some astronomers say 'Edgeworth–Kuiper belt', and David Jewitt, one of its discoverers, gives most credit to Julio Fernández, who in 1980 predicted a belt of comets beyond Neptune.",
+      "seoTitle": "How Big Is the Kuiper Belt? Its Size Beyond Neptune",
+      "metaDescription": "The Kuiper Belt circles the Sun 30–50 AU out, about 15 billion km across — home of Pluto, Haumea and Arrokoth. Its size, mass and discovery explained.",
+      "image": {
+        "alt": "Arrokoth, a reddish Kuiper Belt object made of two joined lobes like a flattened snowman, in a colour composite from NASA's New Horizons flyby on 1 January 2019."
+      },
+      "facts": {
+        "fact1": "Extends from Neptune's orbit at about 30 AU to about 50 AU from the Sun (4.5–7.5 billion km).",
+        "fact2": "Across its outer edge: about 100 AU, or 15 billion km. The scattered disc beyond reaches about 1,000 AU.",
+        "fact3": "More than 100,000 objects larger than 100 km are thought to exist; over 2,000 had been found by 2018.",
+        "fact4": "Total mass: about 2% of Earth's (2018 estimate); NASA gives an upper limit of about 10%.",
+        "fact5": "Dwarf planets: Pluto (2,377 km), Haumea (about 2,100 km long, spinning in under 4 hours) and Makemake (about 1,430 km); Eris (2,326 km) orbits in the scattered disc.",
+        "fact6": "First found after Pluto and Charon: 1992 QB1 (Albion, roughly 100 km across), announced by David Jewitt and Jane Luu on 30 August 1992.",
+        "fact7": "Arrokoth, passed by New Horizons on 1 January 2019, is about 35 km long — the most distant object ever explored up close.",
+        "fact8": "Most short-period (Jupiter-family) comets are thought to come from the scattered disc, the belt's restless outer part."
+      }
+    },
+    "cosmic_microwave_background": {
+      "name": "Cosmic Microwave Background",
+      "tagline": "The oldest light we can see: a faint microwave glow from every direction, 2.7 degrees above absolute zero.",
+      "body": "The cosmic microwave background is a faint glow of microwaves that reaches us from every direction in the sky, day and night. In the Big Bang model it is light set free about 380,000 years after the beginning, when the universe had cooled to roughly 3,000 K and electrons and nuclei joined into the first atoms — before that, light could not get far without bouncing off a free electron, much as it cannot pass through thick fog. Since then the expansion of space has stretched that light about 1,100 times, from near-infrared into microwaves, and cooled it to 2.7255 K. Its spectrum is the most perfect black-body curve ever measured, and its temperature is the same all over the sky to about 1 part in 100,000. Those tiny ripples, mapped in ever finer detail by the COBE, WMAP and Planck satellites, are the imprint of slightly denser and thinner regions that gravity later grew into galaxies and galaxy clusters. Reading them lets cosmologists measure the age of the universe and what it is made of — though a few puzzles in the data are still open.",
+      "narrative": "The cosmic microwave background has no size of its own: it fills all of space, about 411 of its photons in every cubic centimetre around you. What we see comes from a shell around us. The matter that gave off this light is now about 45.7 billion light-years away, almost at the edge of the observable universe — but when the light set out, it was only about 42 million light-years from the matter that would become our galaxy, around 17 times the distance to Andromeda today. At 2.7 K the glow is far colder than Pluto (about 44 K), yet the magnets of the Large Hadron Collider run colder still, at 1.9 K. When the light was released, it was about 3,000 K — roughly as hot as the surface of the red dwarf Proxima Centauri.",
+      "massNarrative": "There are about 1.6 billion of these photons for every proton or neutron in the universe. Each one carries so little energy, though, that all of them together now make up only about 0.005% of the universe's total energy.",
+      "funFact": "Penzias and Wilson found the glow by accident, but others were searching for it on purpose. Not far away, at Princeton University, Robert Dicke's group was building a receiver to hunt for exactly this glow when a phone call came from Bell Labs about an unexplained hiss. After hanging up, Dicke reportedly told his team: \"Boys, we've been scooped.\" Ralph Alpher and Robert Herman had predicted such a background back in 1948, putting it at about 5 K, but for years almost nobody went looking.",
+      "seoTitle": "What Is the Cosmic Microwave Background (CMB)?",
+      "metaDescription": "The cosmic microwave background is the oldest light we can see, released 380,000 years after the Big Bang and now a 2.7 K microwave glow. What it tells us.",
+      "image": {
+        "alt": "WMAP's nine-year all-sky map of the cosmic microwave background: a wide oval on black, mottled with dark and light blue, green, yellow and a few red specks marking tiny temperature differences."
+      },
+      "facts": {
+        "fact1": "Temperature: 2.72548 ± 0.00057 K — about −270.4 °C (Fixsen 2009).",
+        "fact2": "Released about 380,000 years after the Big Bang at roughly 3,000 K; since then its wavelengths have been stretched about 1,100 times (redshift z ≈ 1,090).",
+        "fact3": "Brightest at around 160 GHz — wavelengths of about 1–2 mm. Space holds about 411 of its photons in every cubic centimetre.",
+        "fact4": "Discovered in 1964–65 by Arno Penzias and Robert Wilson at Bell Labs, who measured an unexplained 3.5 K of extra noise; Nobel Prize in Physics 1978.",
+        "fact5": "Its temperature differs across the sky by only about 1 part in 100,000. COBE first detected these ripples in 1992 — Nobel Prize 2006 for John Mather and George Smoot — and WMAP (launched 2001) and Planck (2009) mapped them in finer detail.",
+        "fact6": "From the ripples, Planck (2018) finds an age of about 13.8 billion years and a universe of about 4.9% ordinary matter, 26% dark matter and 69% dark energy (often rounded to 5 / 27 / 68).",
+        "fact7": "The Sun moves at about 370 km/s relative to this glow, so the sky ahead of us looks about 0.1% warmer than the sky behind.",
+        "fact8": "Still open: the Hubble tension — the expansion rate inferred from the CMB (67.4 km/s per megaparsec) is about 8% lower than nearby measurements (about 73) — and large-scale oddities such as an unusually big \"cold spot\", which Planck confirmed but no one has explained."
+      },
+      "temperatureNote": "the glow today"
+    },
+    "trappist_1": {
+      "name": "TRAPPIST-1",
+      "tagline": "A red dwarf barely wider than Jupiter, circled by seven Earth-sized rocky planets — a whole planetary system that would fit well inside Mercury's orbit.",
+      "body": "TRAPPIST-1 is a small, cool red dwarf star about 40.7 light-years away in the constellation Aquarius — only about a fifth wider than Jupiter, but some 94 times heavier. It is famous for its planets: in February 2017 astronomers announced seven Earth-sized worlds passing in front of it, the most Earth-sized planets known around a single star. All seven appear to be rocky, and all orbit closer to their star than Mercury orbits the Sun, taking just 1.5 to 19 days per lap; they are probably tidally locked, with one side always facing the star. Three of them — e, f and g — are usually placed in the habitable zone, where liquid water could exist on the surface if the planet has a suitable atmosphere (some studies count d as well). Whether any of them has an atmosphere at all is still an open question: in 2023 the James Webb Space Telescope found no sign of a thick atmosphere on the two innermost planets, b and c. The star itself is thought to be about 7.6 billion years old — older than the Sun — and will keep shining for trillions of years.",
+      "narrative": "At about 166,000 km across, TRAPPIST-1 is about 13 Earths wide and only about 20% wider than Jupiter; the Sun is more than eight times wider, and even Proxima Centauri (214,000 km) is a bit bigger. Its planets are packed in just as tightly. The outermost, h, orbits about 9.3 million km from the star, while Mercury orbits the Sun at about 58 million km — so Mercury's orbit is more than six times wider than the entire TRAPPIST-1 system. The innermost planet, b, circles only about 4.5 times as far from its star as the Moon is from Earth, and its year lasts about 36 hours.",
+      "massNarrative": "TRAPPIST-1 holds about 9% of the Sun's mass — some 94 Jupiters — in a ball only about 20% wider than Jupiter. On average that is about 75 grams per cubic centimetre: roughly 50 times the Sun's average density and more than six times that of lead. Stars this small use their hydrogen so slowly that TRAPPIST-1 is expected to keep shining for about ten trillion years, some 700 times the present age of the universe.",
+      "funFact": "Standing on TRAPPIST-1e, you would see the star about four times as wide as the Sun looks from Earth, but much dimmer and a deep orange-red. And because the planets are packed so close together, a neighbouring planet would often look bigger in the sky than the full Moon does from Earth.",
+      "seoTitle": "How Big Is TRAPPIST-1? The Star With Seven Planets",
+      "metaDescription": "TRAPPIST-1: a red dwarf about 20% wider than Jupiter, 40.7 light-years away, with seven Earth-sized rocky planets all closer to it than Mercury is to the Sun.",
+      "temperatureNote": "surface",
+      "image": {
+        "alt": "Artist's illustration of the TRAPPIST-1 system, not to scale: a glowing orange star on the left with seven small planets of different colours spread across a dark surface marked with thin orbit lines, water puddles near the middle and frost patterns towards the outer edge."
+      },
+      "facts": {
+        "fact1": "Diameter: about 166,000 km (0.119 of the Sun's radius) — about 13 Earths, or 1.2 Jupiters, across.",
+        "fact2": "Distance: about 40.7 light-years (roughly 385 trillion km), in Aquarius — about 9.6 times farther than Proxima Centauri and far too faint to see without a telescope.",
+        "fact3": "Mass: about 9% of the Sun's; surface temperature about 2,566 K (≈ 2,290 °C), less than half the Sun's 5,772 K.",
+        "fact4": "Seven known planets, b to h: 0.77 to 1.13 times Earth's width and 0.33 to 1.37 times its mass, orbiting 1.7 to 9.3 million km from the star in 1.5 to 18.8 days.",
+        "fact5": "The planets form a resonance chain: for every 8 orbits of b, c makes 5, and each pair further out keeps a simple ratio too (5:3, 3:2, 3:2, 4:3, 3:2). Their tugs on one another shift the timing of their transits slightly, which is how their masses were measured.",
+        "fact6": "Atmospheres: in 2023 JWST measured daysides of about 500 K (≈ 230 °C) on b and 380 K (≈ 110 °C) on c — consistent with bare rock or a thin atmosphere, and ruling out a thick CO₂-rich one on c. A 2025 study of b still allows a hazy CO₂ atmosphere, so the question is not settled.",
+        "fact7": "Age: about 7.6 ± 2.2 billion years — probably older than the Solar System (4.6 billion)."
+      }
+    },
+    "saturn_rings": {
+      "name": "Saturn's Rings",
+      "tagline": "A disc of ice more than 270,000 km across and, in most places, only about 10 metres thick.",
+      "body": "Saturn's main rings — the bright C, B and A rings — form a flat disc that reaches 136,775 km from the planet's centre, so it measures about 273,500 km from edge to edge. Yet the disc is astonishingly thin: typically around 10 metres top to bottom, with estimates for different rings and places ranging from a few metres to about a kilometre. It is made of countless separate pieces, about 99.9% water ice, from dust-sized grains to chunks as big as a house, and each ring circles Saturn at its own speed. The darkest gap visible from Earth, the 4,700-km-wide Cassini Division, was spotted by Giovanni Cassini in 1675; its inner edge is kept clear by the gravity of the small moon Mimas. Farther out lie faint, dusty rings, among them the vast E ring, fed by icy jets from the moon Enceladus. How old the rings are is still debated: Cassini's 2017 measurements suggested they formed only 10–100 million years ago, while a 2024 study argued they could be as old as Saturn itself, about 4.5 billion years.",
+      "narrative": "At about 273,500 km across, the main rings are almost twice as wide as Jupiter (139,820 km) and about 2.3 times as wide as Saturn's own equator; about 21 Earths side by side would span them. Laid between Earth and the Moon, they would cover about seven-tenths of the 384,400 km gap, and light crosses them in under a second (0.91 s). What makes them extraordinary is the ratio of width to thickness: about 27 million to one, if they are 10 metres thick. Shrink the rings until they are as thin as a sheet of paper (0.1 mm) and they would still be almost 3 km wide. The main rings begin about 14,400 km above Saturn's cloud tops — a gap wider than Earth — although the faint D ring fills part of it.",
+      "massNarrative": "For all their size, the rings weigh surprisingly little. Cassini's final dives in 2017 put their mass at about 15 billion billion kilograms (1.54 × 10¹⁹ kg, give or take about a third) — roughly 0.4 times the mass of Mimas, a moon only 396 km across, and about two-thirds the mass of Antarctica's ice sheet. Squeezed into a single ball of ice, it would be only about 320 km wide (280–350 km within the uncertainty); instead it is spread over an area about 80 times Earth's surface.",
+      "funFact": "Every 13 to 15 years Earth passes through the plane of the rings, and for a while they shrink to a thin line that all but vanishes from view. It last happened on 23 March 2025, when Saturn was too close to the Sun in our sky to watch; the next crossings come in 2038–2039. Galileo was caught out by the same thing in 1612: the \"ears\" he had seen beside Saturn two years earlier simply disappeared, and he asked whether Saturn had swallowed his children.",
+      "seoTitle": "How Big Are Saturn's Rings? Width vs. Thickness",
+      "metaDescription": "Saturn's main rings are about 273,500 km across but typically only about 10 m thick, made almost entirely of ice. Their size, mass, age debate and comparisons.",
+      "image": {
+        "alt": "Natural-colour Cassini view of Saturn's main rings curving across black space: the bright, finely banded B ring on the left, the dark Cassini Division arcing through the middle, and the wide grey A ring beyond it, crossed near its outer edge by a thin dark gap."
+      },
+      "facts": {
+        "fact1": "Size: the main rings (C, B and A) stretch from 74,658 km to 136,775 km from Saturn's centre — about 273,500 km from edge to edge and about 62,000 km from inner to outer edge.",
+        "fact2": "Thickness: typically about 10 m in the main rings. Estimates are about 5 m for the C ring, 5–15 m for the B ring and 10–30 m for the A ring, and some sources allow up to 1 km locally; small moonlets raise ridges up to 2.5 km high at the B ring's outer edge.",
+        "fact3": "Material: about 99.9% water ice with traces of rocky dust. Pieces range from dust-sized grains to chunks as big as a house, with a few as large as mountains. The rings lie inside Saturn's Roche limit, where tides stop the ice from clumping into a moon.",
+        "fact4": "Mass: 1.54 ± 0.49 × 10¹⁹ kg, measured from Cassini's 22 dives between Saturn and the rings in 2017 — about 0.41 times the mass of the moon Mimas.",
+        "fact5": "Gaps and faint rings: the Cassini Division between the A and B rings is about 4,700 km wide (some sources say 4,800 km). Beyond the main rings, the faint E ring, fed by the icy jets of Enceladus, reaches from about 180,000 to 480,000 km from Saturn and is more than 2,000 km thick.",
+        "fact6": "Age: an open question. Cassini's mass measurement and the rings' clean ice suggested an age of only 10–100 million years; a 2024 study in Nature Geoscience argued that incoming dust mostly vaporises instead of darkening the ice, so the rings could be billions of years old. Ice slowly raining onto Saturn could make them disappear within roughly 100–300 million years."
+      }
     }
   },
   "about": {
@@ -3657,6 +3768,42 @@
     "roof_box": {
       "term": "Roof-box",
       "definition": "A small stone-framed opening above the entrance of Newgrange. On the mornings around the winter solstice it lets a beam of sunrise light travel the whole length of the passage and fall on the chamber floor, even though the opening sits above the doorway."
+    },
+    "photoevaporation": {
+      "term": "Photoevaporation",
+      "definition": "Gas being driven off a cloud or disc when strong ultraviolet light from nearby hot stars heats it until it escapes into space. It slowly erodes star-forming clouds such as the Pillars of Creation."
+    },
+    "scattered_disc": {
+      "term": "Scattered disc",
+      "definition": "A sparse population of icy bodies overlapping the outer Kuiper Belt, flung by Neptune onto long, tilted orbits that reach hundreds of AU from the Sun. The dwarf planet Eris belongs to it."
+    },
+    "contact_binary": {
+      "term": "Contact binary",
+      "definition": "A small body made of two lobes that once orbited each other and then gently touched and stuck together — like Arrokoth's 'snowman' shape."
+    },
+    "black_body": {
+      "term": "Black body",
+      "definition": "An idealised object that absorbs all light falling on it and glows with a spectrum that depends only on its temperature. Hot stars, glowing embers and the cosmic microwave background all come close to it."
+    },
+    "recombination": {
+      "term": "Recombination",
+      "definition": "The moment, about 380,000 years after the Big Bang, when the universe cooled enough for electrons to join atomic nuclei and form neutral atoms. Light could then travel freely, and that light is the cosmic microwave background."
+    },
+    "orbital_resonance": {
+      "term": "Orbital resonance",
+      "definition": "When bodies orbiting the same object have periods in a simple whole-number ratio, such as 3:2, so their regular gravitational tugs repeat and can lock the pattern in place."
+    },
+    "transit": {
+      "term": "Transit",
+      "definition": "The passage of a planet across the face of its star as seen from Earth. The star dims very slightly, which is how most known exoplanets were found and how their sizes are measured."
+    },
+    "roche_limit": {
+      "term": "Roche limit",
+      "definition": "The distance from a planet inside which its tides pull apart a moon held together only by its own gravity. Almost all planetary rings, including Saturn's main rings, lie inside it, so their pieces cannot gather into a moon."
+    },
+    "orbit": {
+      "term": "Orbit",
+      "definition": "The curved path one body follows around another under gravity, such as a planet around the Sun or the Moon around Earth. Most orbits are slightly stretched circles called ellipses."
     }
   },
   "faq": {
@@ -3782,7 +3929,11 @@
       "el_castillo": "El Castillo at Chichén Itzá",
       "antikythera_mechanism": "the Antikythera mechanism",
       "nebra_sky_disc": "the Nebra sky disc",
-      "newgrange": "Newgrange"
+      "newgrange": "Newgrange",
+      "pillars_of_creation": "the tallest Pillar of Creation",
+      "kuiper_belt": "the Kuiper Belt",
+      "trappist_1": "TRAPPIST-1",
+      "saturn_rings": "Saturn's ring system"
     },
     "a7where": "The typical temperature of {name} is about {temp} — {note}.",
     "a2taller": "{Name} is roughly {ratio} times taller than a 1.7 m human.",
@@ -3801,6 +3952,7 @@
     "a1plainDepth": "{Name} is about {size} deep. On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size.",
     "a1plainLength": "{Name} is about {size} long. On Quantumaire's scale from the Planck length to the observable universe, it ranks {rank} of {total} by size.",
     "a8longer": "{Name} is roughly {ratio} times longer than Earth is wide (12,742 km across).",
+    "a8taller": "{Name} is roughly {ratio} times taller than Earth is wide (12,742 km across).",
     "a6years": "{Name} is about {distance} from Earth — its light takes about {years} years to reach us.",
     "a6edge": "The {place} is about {distance} from Earth."
   },
@@ -4066,6 +4218,20 @@
       "seoTitle": "Laniakea vs Sloan Great Wall: The Largest Structures",
       "intro": "The largest patterns galaxies make: Laniakea, the roughly 500-million-light-year supercluster that includes the Milky Way, and the Sloan Great Wall, a chain of superclusters about 1.4 billion light-years long. Neither is held together by gravity as a whole.",
       "metaDescription": "Laniakea and the Sloan Great Wall compared: our 500-million-light-year home supercluster and a 1.4-billion-light-year wall of galaxies."
+    },
+    "star-system": {
+      "short": "Star systems",
+      "title": "Star systems: ours and TRAPPIST-1",
+      "seoTitle": "Star Systems: the Solar System and TRAPPIST-1 Compared",
+      "intro": "A star and everything its gravity holds. Our Solar System spreads its eight planets across about 9 billion km, out to Neptune; TRAPPIST-1, 40.7 light-years away, packs seven Earth-sized planets so tightly that Mercury's orbit is more than six times wider than the whole system.",
+      "metaDescription": "The Solar System is about 9 billion km wide out to Neptune; TRAPPIST-1's seven Earth-sized planets all orbit closer to their star than Mercury does to the Sun."
+    },
+    "red-dwarf": {
+      "short": "Red dwarfs",
+      "title": "Red dwarfs: the commonest stars",
+      "seoTitle": "Red Dwarfs: Proxima Centauri and TRAPPIST-1 Compared",
+      "intro": "Small, cool and dim, red dwarfs are the most common stars in the Milky Way, and they burn so slowly they may shine for trillions of years. Proxima Centauri, the nearest star to the Sun, is about 214,000 km across; TRAPPIST-1, home to seven Earth-sized planets, is only about a fifth wider than Jupiter.",
+      "metaDescription": "Red dwarfs are the commonest stars: Proxima Centauri, our nearest star, is about 214,000 km wide; TRAPPIST-1, with seven Earth-sized planets, is barely wider than Jupiter."
     }
   }
 }

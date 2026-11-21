@@ -99,6 +99,13 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/stop/nebra_sky_disc (new 2026-11-21)
 - https://quantumaire.space/en/stop/antikythera_mechanism (new 2026-11-21)
 - https://quantumaire.space/en/stop/el_castillo (new 2026-11-21)
+- https://quantumaire.space/en/stop/saturn_rings (new 2026-11-22)
+- https://quantumaire.space/en/stop/kuiper_belt (new 2026-11-22)
+- https://quantumaire.space/en/stop/trappist_1 (new 2026-11-22)
+- https://quantumaire.space/en/stop/pillars_of_creation (new 2026-11-22)
+- https://quantumaire.space/en/stop/cosmic_microwave_background (new 2026-11-22)
+- https://quantumaire.space/en/tag/star-system (new 2026-11-22)
+- https://quantumaire.space/en/tag/red-dwarf (new 2026-11-22)
 
 ## Done
 

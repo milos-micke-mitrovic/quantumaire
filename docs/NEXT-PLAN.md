@@ -34,10 +34,12 @@ indexing batch (`gsc-indexing`).
 
 ## 3. Cosmos: things people look up that the site lacks
 
-- [ ] Candidates: Saturn's rings, the Kuiper Belt, an exoplanet system
+- [x] Candidates: Saturn's rings, the Kuiper Belt, an exoplanet system
       (TRAPPIST-1), the cosmic microwave background (idea), Pillars of
       Creation. Pick only those with clear sourced sizes and that read well
       next to existing neighbours.
+      2026-11-22: all five. Solar System size redefined as Neptune's orbit
+      (9e12 m; was an unexplained 100 AU = the Kuiper Belt's edge).
 
 ## 4. Review round 7 topics (quality before quantity)
 

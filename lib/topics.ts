@@ -51,7 +51,7 @@ export const TOPICS: Topic[] = [
     tag: "star",
     i18nKey: "topics.stars",
     sectionCount: 5,
-    relatedStopIds: ["sun", "proxima_centauri", "sirius", "betelgeuse", "uy_scuti", "neutron_star", "supermassive_black_hole"],
+    relatedStopIds: ["sun", "proxima_centauri", "sirius", "trappist_1", "betelgeuse", "uy_scuti", "neutron_star", "supermassive_black_hole"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Star" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Stellar_classification" },
@@ -72,7 +72,7 @@ export const TOPICS: Topic[] = [
     slug: "planets",
     i18nKey: "topics.planets",
     sectionCount: 4,
-    relatedStopIds: ["earth", "mars", "olympus_mons", "jupiter", "great_red_spot", "asteroid_belt", "ceres", "solar_system"],
+    relatedStopIds: ["earth", "mars", "olympus_mons", "jupiter", "great_red_spot", "saturn_rings", "asteroid_belt", "ceres", "kuiper_belt", "solar_system"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Planet" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Exoplanet" },
@@ -116,7 +116,7 @@ export const TOPICS: Topic[] = [
     tag: "nebula",
     i18nKey: "topics.nebulae",
     sectionCount: 4,
-    relatedStopIds: ["orion_nebula", "tarantula_nebula", "crab_nebula", "sun", "neutron_star"],
+    relatedStopIds: ["orion_nebula", "pillars_of_creation", "tarantula_nebula", "crab_nebula", "sun", "neutron_star"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Nebula" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Planetary_nebula" },
@@ -163,7 +163,7 @@ export const TOPICS: Topic[] = [
     stopId: "big_bang",
     i18nKey: "topics.bigBang",
     sectionCount: 4,
-    relatedStopIds: ["big_bang", "observable_universe", "dark_energy"],
+    relatedStopIds: ["big_bang", "cosmic_microwave_background", "observable_universe", "dark_energy"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Big_Bang" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Cosmic_microwave_background" },

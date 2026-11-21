@@ -293,3 +293,10 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
   - New glossary: equinox, saros, metonic_cycle, solstice, lunisolar_calendar, passage_tomb, roof_box.
 - Guide `/topics/ancient-astronomy` (5 sections: solstice monuments, pyramid north alignment + Orion-correlation myth, Sirius & the 365-day Egyptian calendar, Nebra/Babylonian saros/Halley 240 BC/Eratosthenes/Antikythera, El Castillo + "no aliens"). Names written to match auto-links in both locales (checked).
 - Fix: ScaleExplorer hydration mismatch (dev console error on every topic page): long float `left: %` values and numeric `top` differed from the browser-normalised server HTML; positions now 6 significant digits, `top` in px.
+
+## 2026-11-22 — round 7 block 3: cosmos topics
+- New COSMOS topics (agent drafts, reviewed): Saturn's Rings (`saturn_rings`, 273,550 km main rings, ~10 m thick, age debate both sides; no tag), Kuiper Belt (`kuiper_belt`, 100 AU ≈ 1.5e13 m), TRAPPIST-1 (`trappist_1`, 166,000 km, 40.7 ly, 2,566 K; JWST atmosphere results worded as unsettled), Pillars of Creation (`pillars_of_creation`, 4 ly tall → HEIGHT_STOP_IDS, 6,500 ly; supernova story as unconfirmed), Cosmic Microwave Background (`cosmic_microwave_background`, idea, 2.7255 K, ESTABLISHED_THEORY like big_bang).
+- Solar System `sizeMeters` 1.5e13 → 9e12 (Neptune's orbit, 60 AU): the old value was never explained and equalled the Kuiper Belt; body now says so and mentions the belt.
+- New tag pages: star-system (Solar System + TRAPPIST-1), red-dwarf (Proxima + TRAPPIST-1). New glossary: orbit (was referenced by 8 planet pages but missing), roche_limit, orbital_resonance, transit, scattered_disc, contact_binary, photoevaporation, black_body, recombination.
+- Size FAQ: new `a8taller` ("X is N times taller than Earth is wide") — the Pillars said "wider". Saturn texts 273,000 → 273,500 km to match the rings page.
+- Guides: stars +TRAPPIST-1, planets +rings/Kuiper Belt, nebulae +Pillars, big-bang +CMB.

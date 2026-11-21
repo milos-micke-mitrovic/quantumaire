@@ -1002,7 +1002,7 @@
       "name": "Sunčev sistem",
       "distanceName": "Ivica Sunčevog sistema",
       "tagline": "Jedna zvezda i sve što drži u svojoj gravitaciji.",
-      "body": "Osam planeta, pet patuljastih planeta, više od 400 meseci i milioni asteroida i kometa — sve vezano za jednu žutu zvezdu. Planetarni deo je širok oko 12 milijardi km. Sunčeva gravitacija, međutim, doseže hiljadama puta dalje, do slabe ljuske ledenih tela zvane Ortov oblak. Voyager 1, naša najudaljenija sonda, putuje od 1977. i još uvek nije stigao ni do njega.",
+      "body": "Osam planeta, pet patuljastih planeta, više od 400 meseci i milioni asteroida i kometa — sve vezano za jednu žutu zvezdu. Deo sa planetama, do Neptunove orbite, širok je oko 9 milijardi km (60 AJ); ledeni Kajperov pojas iza njega dostiže oko 15 milijardi km u prečniku. Sunčeva gravitacija, međutim, doseže hiljadama puta dalje, do slabe ljuske ledenih tela zvane Ortov oblak. Voyager 1, naša najudaljenija sonda, putuje od 1977. i još uvek nije stigao ni do njega.",
       "narrative": "Smanjite Sunčev sistem do Neptunove orbite tako da stane na košarkaški teren, i Zemlja bi bila manja od zrna peska blizu centra — potpuno nevidljiva golim okom.",
       "massNarrative": "Sunce drži 99,86% mase celog Sunčevog sistema. Saberite sve planete, mesece, asteroide i komete zajedno — to je samo 0,14%, a najveći deo toga čini Jupiter.",
       "funFact": "Pluton nije poslednja granica: iza Kajperovog pojasa nalazi se Ortov oblak, otprilike sferna ljuska ledenih tela koja se možda proteže više od trećine puta do najbliže zvezde. Voyager 1, naša najdalja sonda, doseći će njegov unutrašnji rub tek za oko 300 godina, a izaći iz spoljašnjeg ruba tek za desetine hiljada godina.",
@@ -1175,14 +1175,14 @@
       "body": "Saturn je druga po veličini planeta Sunčevog sistema, lopta vodonika i helijuma devet puta većeg prečnika od Zemlje. Njegovi prstenovi su najveći i najsjajniji od svih planetarnih, sastavljeni gotovo isključivo od vodenog leda — komada od zrna peska do santi — koji kruže u disku debelom tek desetinama metara. Saturn ima 293 poznata meseca, uključujući Titan sa gustom atmosferom i jezerima tečnog metana, i Enceladus, koji izbacuje mlazove vode u svemir iz zakopanog okeana.",
       "narrative": "Bacite Saturn u dovoljno veliku kadu i plutao bi. Od svih planeta jedino je on manje gust od vode — gasoviti džin toliko naduven da ste vi, kubni centimetar po kubni centimetar, gušći od njega.",
       "ifDistance": "Sunčevoj svetlosti treba 80 minuta da stigne do Saturna — duže od trajanja većine filmova. Sa Zemlje je u proseku 1,4 milijarde km. Svaka slika koju je Cassini, sonda koja je 13 godina kružila oko Saturna, poslao kući putovala je brzinom svetlosti duže od sat vremena.",
-      "funFact": "Saturnovi glavni prstenovi protežu se oko 273.000 km (282.000 km sa uskim F prstenom) — oko tri četvrtine rastojanja od Zemlje do Meseca — ali su neverovatno tanki — često debeli samo 10 metara. Sa boka skoro nestanu.",
+      "funFact": "Saturnovi glavni prstenovi protežu se oko 273.500 km (282.000 km sa uskim F prstenom) — oko tri četvrtine rastojanja od Zemlje do Meseca — ali su neverovatno tanki — često debeli samo 10 metara. Sa boka skoro nestanu.",
       "image": {
         "alt": "Saturn sa svojim ikoničnim sistemom prstenova viđen pod nagibom od 25 stepeni."
       },
       "facts": {
         "fact1": "Srednji prečnik 116.460 km — oko 9× veći od Zemljinog.",
         "fact2": "Prosečna gustina 0,69 g/cm³ — manje od vode; plivao bi u dovoljno velikom okeanu.",
-        "fact3": "Glavni prstenovi protežu se ~273.000 km (282.000 km sa F prstenom), ali su debeli samo desetine metara.",
+        "fact3": "Glavni prstenovi protežu se ~273.500 km (282.000 km sa F prstenom), ali su debeli samo desetine metara.",
         "fact4": "293 poznata meseca (od avgusta 2026) — više od bilo koje druge planete.",
         "fact5": "Temperatura vrha oblaka oko -139 °C; delom se napaja toplotom sopstvene kontrakcije."
       },
@@ -2702,6 +2702,117 @@
         "fact5": "Kamen: 97 ivičnih kamenova, dugih od oko 1,7 do 4,5 m, okružuje podnožje; beli kvarc donet je sa planina Viklou, oko 50 km južno, a tamni obli kamenovi sa planina Morn, oko 50 km severno.",
         "fact6": "Od 1993. deo UNESCO svetske baštine Bru na Bojne, zajedno sa grobnicama s hodnikom u Nautu i Dautu; dolina Bojna čuva najveću zbirku megalitske umetnosti u zapadnoj Evropi."
       }
+    },
+    "pillars_of_creation": {
+      "name": "Stubovi stvaranja",
+      "tagline": "Tri kule od hladnog gasa i prašine u Orlovoj maglini, koje svetlost zvezda polako nagriza dok u njima nastaju nove zvezde.",
+      "body": "Stubovi stvaranja su tri stuba od hladnog gasa i prašine u Orlovoj maglini (M16), udaljenoj oko 6.500 svetlosnih godina u sazvežđu Zmija. Najviši, levi stub dug je oko 4 svetlosne godine od podnožja do vrha. Habl ih je snimio 1. aprila 1995. — taj snimak postao je jedan od najpoznatijih snimaka svemira — pa ponovo 2014. oštrijom kamerom, a 2022. teleskop Džejms Veb je u bliskoj infracrvenoj svetlosti pogledao kroz prašinu i pokazao mlade zvezde u stubovima i oko njih. Stubovi se postepeno troše: ultraljubičasta svetlost obližnjih vrelih, masivnih zvezda greje njihovu površinu i odnosi gas u svemir, što se naziva fotoisparavanje. Gušća zgusnuća duže odolevaju, a neka od njih se urušavaju u nove zvezde.",
+      "narrative": "Kad bi levi stub stajao na Suncu, njegov vrh bi dosezao oko 4 svetlosne godine daleko — skoro do Proksime Kentaura, nama najbliže zvezde, udaljene 4,24 svetlosne godine. Svetlosti treba oko četiri godine da pređe put od njegovog podnožja do vrha. Ipak, za maglinu je to mali oblak: Rakova maglina je skoro tri puta duža, a šest ovakvih stubova poređanih jedan za drugim tek bi premostilo Orionovu maglinu.",
+      "funFact": "Tim koji je radio sa svemirskim teleskopom Spicer izneo je 2007. pretpostavku da je udarni talas supernove možda već uništio stubove pre oko 6.000 godina — pa bismo njihov pad videli tek za otprilike 1.000 godina, jer je njihovoj svetlosti potrebno hiljadama godina da stigne do nas. Priča je popularna, ali nikada nije potvrđena: drugi astronom je istakao da bi supernova ostavila jače radio i rendgensko zračenje od onog koje se vidi i da su prašinu mogli zagrejati i vetrovi masivnih zvezda.",
+      "seoTitle": "Koliki su Stubovi stvaranja? Veličina i udaljenost",
+      "metaDescription": "Najviši od Stubova stvaranja visok je oko 4 svetlosne godine, a udaljen 6.500 u Orlovoj maglini — zvezdane jasle koje su snimili Habl 1995. i Veb 2022.",
+      "image": {
+        "alt": "Hablov snimak Stubova stvaranja iz 2014: tri visoka, tamnosmeđa stuba gasa i prašine sa zlatno osvetljenim ivicama uzdižu se kroz plavozelenu izmaglicu posutu sjajnim zvezdama."
+      },
+      "facts": {
+        "fact1": "Visina: najviši (levi) stub dug je oko 4 svetlosne godine od podnožja do vrha; NASA za celu grupu na širem snimku iz 2015. navodi oko 5 svetlosnih godina.",
+        "fact2": "Udaljenost: oko 6.500 svetlosnih godina (2.000 parseka), u sazvežđu Zmija; druge procene kreću se od oko 5.700 do 7.000.",
+        "fact3": "Prvi Hablov snimak, koji su 1. aprila 1995. napravili Džef Hester i Pol Skouen, sastavljen je od 32 snimka sa četiri detektora kamere WFPC2.",
+        "fact4": "Habl ih je ponovo snimio 2014. novijom kamerom Wide Field Camera 3; oštriji snimak objavljen je u januaru 2015, za 25. godišnjicu Habla.",
+        "fact5": "Vebov snimak kamerom NIRCam (oktobar 2022) pokazuje crvene, tek nastale zvezde na ivicama stubova, stare prema procenama tek nekoliko stotina hiljada godina.",
+        "fact6": "Zgusnuća nalik prstima na vrhovima stubova veća su od našeg Sunčevog sistema; ime potiče iz jedne propovedi Čarlsa Sperdžena iz 1857. godine."
+      }
+    },
+    "kuiper_belt": {
+      "name": "Kajperov pojas",
+      "tagline": "Širok prsten ledenih svetova iza Neptuna — dom Plutona i ostataka iz vremena kada su nastajale planete.",
+      "body": "Kajperov pojas je širok prsten ledenih tela u obliku krofne koji kruži oko Sunca iza Neptuna, na oko 30 do 50 astronomskih jedinica (4,5 do 7,5 milijarde km), pa je meren preko spoljne ivice širok otprilike 15 milijardi km. U njemu su Pluton i patuljaste planete Haumea i Makemake, više od 100.000 tela većih od 100 km i verovatno milioni manjih — ostaci iz rađanja Sunčevog sistema, od stena i zamrznute vode, metana i amonijaka, na temperaturi od oko 50 K (−223 °C). Preko njegove spoljne ivice prostire se rasejani disk: tela koja je Neptun izbacio na izdužene, nagnute putanje što sežu stotinama AJ daleko, među njima i Erida, skoro tačno veličine Plutona, ali 27% masivnija. Posle Plutona (1930) i njegovog meseca Harona (1978), sledeći član pronađen je tek 1992, kada su Dejvid Džuit i Džejn Lu posle pet godina traganja sa Mauna Kee uočili 1992 QB1 — danas nazvan Albion. NASA-ina letelica New Horizons proletela je 2019. pored Arokota, crvenkastog „sneška“ dugog 35 km, udaljenog 6,4 milijarde km od Zemlje — najdaljeg tela koje je ikad izbliza istraženo.",
+      "narrative": "Meren preko spoljne ivice, Kajperov pojas je širok oko 100 AJ — oko 16 puta širi od asteroidnog pojasa i za dve trećine širi od Neptunove orbite. Smanjite udaljenost Sunce–Zemlja na jedan metar i pojas postaje prsten na 30 do 50 metara od Sunca, širok oko 100 metara — koliko je dug fudbalski teren — a Pluton bi bio trunčica široka petinu ljudske vlasi. U istoj razmeri Ortov oblak bi se protezao 100 km daleko. Sunčevoj svetlosti treba oko 4 sata do unutrašnje ivice pojasa i oko 7 sati do spoljne; letelici New Horizons trebalo je devet i po godina do Plutona i 13 godina do Arokota.",
+      "massNarrative": "Uprkos veličini, pojas je lak. Najbolja današnja procena (iz 2018, na osnovu njegovog privlačenja planeta) iznosi oko 2% mase Zemlje — otprilike masa jednog i po Meseca — a NASA kao gornju granicu navodi oko 10%. To je ipak oko 50 puta više od mase asteroidnog pojasa. Modeli pokazuju da je ta oblast nekad imala 7 do 10 masa Zemlje i da su je džinovske planete, pomerajući svoje orbite, skoro sasvim razvejale.",
+      "funFact": "Pojas nosi ime Džerarda Kajpera, koji je 1951. pisao o ledenim telima nastalim na 38–50 AJ od Sunca — ali je pretpostavio da ih je Pluton, za koji se tada mislilo da je mnogo masivniji, odavno rasterao, pa da je bio u pravu, Kajperovog pojasa danas ne bi bilo. Kenet Edžvort je sličan rezervoar predložio još 1943, zato ga neki astronomi zovu Edžvort–Kajperov pojas, a Dejvid Džuit, jedan od onih koji su ga otkrili, najveće zasluge pripisuje Huliju Fernandesu, koji je 1980. predvideo pojas kometa iza Neptuna.",
+      "seoTitle": "Koliki je Kajperov pojas? Veličina iza Neptuna",
+      "metaDescription": "Kajperov pojas kruži na 30–50 AJ od Sunca, širok je oko 15 milijardi km — dom Plutona, Haumee i Arokota. Veličina, masa i otkriće objašnjeni.",
+      "image": {
+        "alt": "Arokot, crvenkasto telo iz Kajperovog pojasa sastavljeno od dva spojena dela poput spljoštenog sneška, na kolor-kompozitu sa preleta NASA-ine letelice New Horizons 1. januara 2019."
+      },
+      "facts": {
+        "fact1": "Proteže se od Neptunove orbite, na oko 30 AJ, do oko 50 AJ od Sunca (4,5–7,5 milijarde km).",
+        "fact2": "Preko spoljne ivice: oko 100 AJ, odnosno 15 milijardi km. Rasejani disk iza njega seže do oko 1.000 AJ.",
+        "fact3": "Smatra se da postoji više od 100.000 tela većih od 100 km; do 2018. pronađeno ih je više od 2.000.",
+        "fact4": "Ukupna masa: oko 2% mase Zemlje (procena iz 2018); NASA navodi gornju granicu od oko 10%.",
+        "fact5": "Patuljaste planete: Pluton (2.377 km), Haumea (duga oko 2.100 km, okrene se za manje od 4 sata) i Makemake (oko 1.430 km); Erida (2.326 km) kruži u rasejanom disku.",
+        "fact6": "Prvo telo pronađeno posle Plutona i Harona: 1992 QB1 (Albion, prečnika otprilike 100 km), o kome su Dejvid Džuit i Džejn Lu objavili 30. avgusta 1992.",
+        "fact7": "Arokot, pored kog je New Horizons proleteo 1. januara 2019, dug je oko 35 km — najdalje telo koje je ikad izbliza istraženo.",
+        "fact8": "Smatra se da većina kratkoperiodičnih kometa (Jupiterove porodice) potiče iz rasejanog diska, nemirnog spoljnog dela pojasa."
+      }
+    },
+    "cosmic_microwave_background": {
+      "name": "Kosmičko mikrotalasno pozadinsko zračenje",
+      "tagline": "Najstarija svetlost koju možemo da vidimo: slab mikrotalasni sjaj iz svih pravaca, 2,7 stepeni iznad apsolutne nule.",
+      "body": "Kosmičko mikrotalasno pozadinsko zračenje je slab sjaj mikrotalasa koji do nas stiže iz svih pravaca na nebu, danju i noću. Prema modelu Velikog praska, to je svetlost oslobođena oko 380.000 godina posle početka, kada se svemir ohladio na približno 3.000 K i kada su se elektroni i jezgra spojili u prve atome — pre toga svetlost nije mogla daleko da stigne a da se ne odbije od nekog slobodnog elektrona, kao što ne može da prođe kroz gustu maglu. Od tada je širenje prostora razvuklo tu svetlost oko 1.100 puta, od bliske infracrvene do mikrotalasa, i ohladilo je na 2,7255 K. Njen spektar je najsavršenija kriva crnog tela ikada izmerena, a temperatura joj je na celom nebu ista sa tačnošću od oko jednog dela u 100.000. Te sićušne razlike, koje su sateliti COBE, WMAP i Planck mapirali sve detaljnije, otisak su malo gušćih i ređih oblasti od kojih je gravitacija kasnije napravila galaksije i jata galaksija. Iz njih kosmolozi očitavaju starost svemira i od čega je sačinjen — mada su neke zagonetke u podacima i dalje otvorene.",
+      "narrative": "Kosmičko mikrotalasno pozadinsko zračenje nema sopstvenu veličinu: ispunjava ceo prostor, oko 411 njegovih fotona u svakom kubnom centimetru oko vas. Ono što vidimo dolazi iz jedne ljuske oko nas. Materija koja je odaslala ovu svetlost sada je udaljena oko 45,7 milijardi svetlosnih godina, gotovo na ivici vidljivog svemira — ali kada je svetlost krenula, bila je udaljena svega oko 42 miliona svetlosnih godina od materije od koje će nastati naša galaksija, oko 17 puta više od današnje udaljenosti do Andromede. Sa 2,7 K ovaj sjaj je mnogo hladniji od Plutona (oko 44 K), a ipak magneti Velikog hadronskog sudarača rade na još nižoj temperaturi, 1,9 K. Kada je svetlost oslobođena, imala je oko 3.000 K — otprilike koliko i površina crvenog patuljka Proksime Kentaura.",
+      "massNarrative": "Na svaki proton ili neutron u svemiru dolazi oko 1,6 milijardi ovih fotona. Ipak, svaki od njih nosi tako malo energije da svi zajedno danas čine samo oko 0,005% ukupne energije svemira.",
+      "funFact": "Penzijas i Vilson su ovaj sjaj pronašli slučajno, ali drugi su ga tražili namerno. Nedaleko odatle, na Univerzitetu Prinston, grupa Roberta Dikea pravila je prijemnik upravo da bi pronašla ovaj sjaj, kada je iz Belovih laboratorija stigao telefonski poziv o neobjašnjivom šumu. Kad je spustio slušalicu, Dike je navodno rekao svom timu: „Momci, neko nas je pretekao.“ Ralf Alfer i Robert Herman predvideli su takvo zračenje još 1948, procenivši ga na oko 5 K, ali ga godinama skoro niko nije ni tražio.",
+      "seoTitle": "Šta je kosmičko mikrotalasno pozadinsko zračenje?",
+      "metaDescription": "Najstarija svetlost koju vidimo, oslobođena 380.000 godina posle Velikog praska, danas je mikrotalasni sjaj od 2,7 K. Šta nam otkriva o svemiru.",
+      "image": {
+        "alt": "Mapa celog neba kosmičkog mikrotalasnog pozadinskog zračenja posle devet godina merenja satelitom WMAP: širok oval na crnoj pozadini, išaran tamnoplavim i svetloplavim, zelenim, žutim i ponekom crvenom mrljom koje označavaju sićušne razlike u temperaturi."
+      },
+      "facts": {
+        "fact1": "Temperatura: 2,72548 ± 0,00057 K — oko −270,4 °C (Fiksen, 2009).",
+        "fact2": "Oslobođeno oko 380.000 godina posle Velikog praska, na približno 3.000 K; od tada su mu talasne dužine razvučene oko 1.100 puta (crveni pomak z ≈ 1.090).",
+        "fact3": "Najjače je na oko 160 GHz — talasne dužine od oko 1–2 mm. U svakom kubnom centimetru prostora ima oko 411 njegovih fotona.",
+        "fact4": "Otkrili su ga 1964–65. Arno Penzijas i Robert Vilson u Belovim laboratorijama, kada su izmerili neobjašnjiv višak šuma od 3,5 K; Nobelova nagrada za fiziku 1978.",
+        "fact5": "Temperatura mu se na nebu razlikuje za svega oko jedan deo u 100.000. Te razlike prvi je otkrio COBE 1992. — Nobelova nagrada 2006. Džonu Maderu i Džordžu Smutu — a WMAP (lansiran 2001) i Planck (2009) mapirali su ih detaljnije.",
+        "fact6": "Na osnovu tih razlika Planck (2018) daje starost od oko 13,8 milijarde godina i svemir od oko 4,9% obične materije, 26% tamne materije i 69% tamne energije (često zaokruženo na 5 / 27 / 68).",
+        "fact7": "Sunce se u odnosu na ovaj sjaj kreće brzinom od oko 370 km/s, pa nebo ispred nas izgleda oko 0,1% toplije od neba iza nas.",
+        "fact8": "I dalje otvoreno: Hablova tenzija — brzina širenja izvedena iz ovog zračenja (67,4 km/s po megaparseku) oko 8% je manja od one izmerene u bliskom svemiru (oko 73) — i neobičnosti na velikim razmerama, poput neočekivano velike „hladne mrlje“, koju je Planck potvrdio, ali je niko još nije objasnio."
+      },
+      "temperatureNote": "današnji sjaj"
+    },
+    "trappist_1": {
+      "name": "TRAPPIST-1",
+      "tagline": "Crveni patuljak jedva širi od Jupitera, oko koga kruži sedam stenovitih planeta veličine Zemlje — ceo planetarni sistem lako bi stao unutar Merkurove orbite.",
+      "body": "TRAPPIST-1 je mala, hladna crvena patuljasta zvezda u sazvežđu Vodolija, na oko 40,7 svetlosne godine od nas — samo oko petinu šira od Jupitera, ali oko 94 puta masivnija. Poznata je po svojim planetama: u februaru 2017. astronomi su objavili da ispred nje prolazi sedam planeta veličine Zemlje, najviše takvih planeta poznatih oko jedne zvezde. Svih sedam su, po svemu sudeći, stenovite i sve kruže bliže svojoj zvezdi nego Merkur Suncu, pa im jedan obilazak traje samo 1,5 do 19 dana; verovatno su plimski zaključane, sa jednom stranom stalno okrenutom ka zvezdi. Tri od njih — e, f i g — obično se svrstavaju u nastanjivu zonu, gde bi na površini mogla postojati tečna voda ako planeta ima odgovarajuću atmosferu (neke studije ubrajaju i d). Da li ijedna od njih uopšte ima atmosferu, i dalje je otvoreno pitanje: teleskop Džejms Veb 2023. nije našao znake guste atmosfere na dvema unutrašnjim planetama, b i c. Sama zvezda stara je oko 7,6 milijarde godina — starija je od Sunca — i sijaće još bilionima godina.",
+      "narrative": "Sa prečnikom od oko 166.000 km, TRAPPIST-1 je široka kao oko 13 Zemalja i samo oko 20% šira od Jupitera; Sunce je više od osam puta šire, a čak je i Proksima Kentaura (214.000 km) nešto veća. Njene planete su zbijene jednako gusto. Najudaljenija, h, kruži na oko 9,3 miliona km od zvezde, dok Merkur kruži na oko 58 miliona km od Sunca — Merkurova orbita je, dakle, više od šest puta šira od celog sistema TRAPPIST-1. Najbliža planeta, b, kruži samo oko 4,5 puta dalje od svoje zvezde nego što je Mesec od Zemlje, a godina joj traje oko 36 sati.",
+      "massNarrative": "TRAPPIST-1 ima oko 9% Sunčeve mase — koliko oko 94 Jupitera — u kugli samo oko 20% široj od Jupitera. To je u proseku oko 75 grama po kubnom centimetru: otprilike 50 puta veća prosečna gustina od Sunčeve i više od šest puta veća od gustine olova. Ovako male zvezde troše vodonik toliko sporo da se očekuje da će TRAPPIST-1 sijati oko deset biliona godina, oko 700 puta duže od sadašnje starosti svemira.",
+      "funFact": "Sa površine planete TRAPPIST-1e zvezda bi izgledala oko četiri puta šira nego Sunce sa Zemlje, ali mnogo prigušenija i tamnonarandžastocrvena. A pošto su planete tako zbijene, susedna planeta bi na nebu često izgledala veća nego pun Mesec sa Zemlje.",
+      "seoTitle": "Koliko je velika TRAPPIST-1? Zvezda sa sedam planeta",
+      "metaDescription": "TRAPPIST-1 je crveni patuljak oko 20% širi od Jupitera, na 40,7 svetlosne godine. Ima sedam stenovitih planeta veličine Zemlje, bližih njemu nego Merkur Suncu.",
+      "temperatureNote": "površina",
+      "image": {
+        "alt": "Umetnička ilustracija sistema TRAPPIST-1, ne u razmeri: užarena narandžasta zvezda levo i sedam malih planeta različitih boja raspoređenih po tamnoj površini sa tankim linijama orbita, sa barama vode pri sredini i šarama inja ka spoljnoj ivici."
+      },
+      "facts": {
+        "fact1": "Prečnik: oko 166.000 km (0,119 Sunčevog poluprečnika) — širina oko 13 Zemalja, odnosno 1,2 Jupitera.",
+        "fact2": "Udaljenost: oko 40,7 svetlosne godine (otprilike 385 biliona km), u sazvežđu Vodolija — oko 9,6 puta dalje od Proksime Kentaura i previše bleda da bi se videla bez teleskopa.",
+        "fact3": "Masa: oko 9% Sunčeve; temperatura površine oko 2.566 K (≈ 2.290 °C), manje od polovine Sunčevih 5.772 K.",
+        "fact4": "Sedam poznatih planeta, od b do h: širine od 0,77 do 1,13 Zemljine i mase od 0,33 do 1,37 Zemljine, na 1,7 do 9,3 miliona km od zvezde, sa obilaskom od 1,5 do 18,8 dana.",
+        "fact5": "Planete čine rezonantni lanac: na svakih 8 obilazaka planete b, c napravi 5, a i svaki dalji par drži jednostavan odnos (5 : 3, 3 : 2, 3 : 2, 4 : 3, 3 : 2). Njihovo međusobno privlačenje malo pomera trenutke tranzita, i upravo su tako izmerene njihove mase.",
+        "fact6": "Atmosfere: JWST je 2023. izmerio da je dnevna strana planete b oko 500 K (≈ 230 °C), a planete c oko 380 K (≈ 110 °C) — što se slaže sa golom stenom ili tankom atmosferom i isključuje gustu atmosferu bogatu CO₂ na c. Studija iz 2025. o planeti b i dalje dopušta maglovitu atmosferu od CO₂, pa pitanje nije rešeno.",
+        "fact7": "Starost: oko 7,6 ± 2,2 milijarde godina — verovatno je starija od Sunčevog sistema (4,6 milijardi)."
+      }
+    },
+    "saturn_rings": {
+      "name": "Saturnovi prstenovi",
+      "tagline": "Ledeni disk širok više od 270.000 km, a na većini mesta debeo tek desetak metara.",
+      "body": "Saturnovi glavni prstenovi — svetli prstenovi C, B i A — čine ravan disk koji se pruža do 136.775 km od središta planete, pa od ivice do ivice meri oko 273.500 km. Ipak, taj disk je zapanjujuće tanak: obično je debeo oko 10 metara, a procene za pojedine prstenove i delove kreću se od nekoliko metara do oko jednog kilometra. Sastoji se od bezbroj zasebnih komada, oko 99,9% vodenog leda, od zrnaca veličine prašine do gromada velikih kao kuća, a svaki prsten kruži oko Saturna sopstvenom brzinom. Najtamniji procep koji se vidi sa Zemlje, Kasinijevu pukotinu široku oko 4.700 km, uočio je Đovani Kasini 1675; njenu unutrašnju ivicu čisti gravitacija malog meseca Mimasa. Dalje od planete su bledi prašnjavi prstenovi, među njima i ogromni prsten E, koji pune ledeni mlazovi sa meseca Enceladusa. Starost prstenova i dalje je sporna: merenja sonde Cassini iz 2017. ukazivala su na to da su nastali pre samo 10–100 miliona godina, dok je studija iz 2024. zaključila da bi mogli biti stari koliko i sam Saturn, oko 4,5 milijarde godina.",
+      "narrative": "Sa oko 273.500 km od ivice do ivice, glavni prstenovi su skoro dvaput širi od Jupitera (139.820 km) i oko 2,3 puta širi od Saturnovog ekvatora; da ih premostite, trebalo bi poređati oko 21 Zemlju jednu do druge. Postavljeni između Zemlje i Meseca, pokrili bi oko sedam desetina razmaka od 384.400 km, a svetlost ih pređe za manje od sekunde (0,91 s). Ono što ih čini izuzetnim jeste odnos širine i debljine: oko 27 miliona prema jedan, ako su debeli 10 metara. Kada biste prstenove smanjili toliko da budu tanki kao list papira (0,1 mm), i dalje bi bili široki skoro 3 km. Glavni prstenovi počinju oko 14.400 km iznad vrhova Saturnovih oblaka — taj razmak je veći od prečnika Zemlje — mada deo njega ispunjava bledi prsten D.",
+      "massNarrative": "Uprkos veličini, prstenovi su iznenađujuće laki. Prema merenjima iz poslednjih zaranjanja sonde Cassini 2017, njihova masa je oko 15 milijardi milijardi kilograma (1,54 × 10¹⁹ kg, uz nesigurnost od oko trećine) — otprilike 0,4 mase Mimasa, meseca prečnika svega 396 km, i oko dve trećine mase antarktičkog ledenog pokrivača. Sabijen u jednu ledenu loptu, sav taj materijal imao bi prečnik od samo oko 320 km (280–350 km u granicama nesigurnosti); umesto toga, razvučen je preko površine oko 80 puta veće od površine Zemlje.",
+      "funFact": "Na svakih 13 do 15 godina Zemlja prolazi kroz ravan prstenova, pa se oni neko vreme vide samo kao tanka linija koja gotovo nestane iz vida. Poslednji put to se desilo 23. marta 2025, kada je Saturn na našem nebu bio preblizu Suncu da bi se posmatrao; sledeći prolasci očekuju se 2038–2039. Isto je 1612. zbunilo i Galilea Galileja: „uši“ koje je dve godine ranije video pored Saturna jednostavno su nestale, pa se pitao da Saturn nije progutao sopstvenu decu.",
+      "seoTitle": "Koliki su Saturnovi prstenovi? Širina i debljina",
+      "metaDescription": "Saturnovi glavni prstenovi široki su oko 273.500 km, a obično debeli samo oko 10 m i gotovo sasvim od leda. Veličina, masa, sporna starost i poređenja.",
+      "image": {
+        "alt": "Snimak sonde Cassini: Saturnovi glavni prstenovi u prirodnim bojama izvijaju se preko crnog svemira: svetli, fino prugasti prsten B levo, tamna Kasinijeva pukotina koja se proteže kroz sredinu i široki sivi prsten A iza nje, blizu spoljne ivice presečen tankim tamnim procepom."
+      },
+      "facts": {
+        "fact1": "Veličina: glavni prstenovi (C, B i A) pružaju se od 74.658 km do 136.775 km od središta Saturna — oko 273.500 km od ivice do ivice i oko 62.000 km od unutrašnje do spoljne ivice.",
+        "fact2": "Debljina: u glavnim prstenovima obično oko 10 m. Procene su oko 5 m za prsten C, 5–15 m za prsten B i 10–30 m za prsten A, a neki izvori navode i do 1 km na pojedinim mestima; mali meseci podižu grebene visoke do 2,5 km na spoljnoj ivici prstena B.",
+        "fact3": "Sastav: oko 99,9% vodenog leda, uz tragove kamene prašine. Komadi su od zrnaca veličine prašine do gromada velikih kao kuća, a poneki su veliki kao planine. Prstenovi su unutar Saturnove Rošove granice, gde plimske sile ne dozvoljavaju da se led sabije u mesec.",
+        "fact4": "Masa: 1,54 ± 0,49 × 10¹⁹ kg, izmerena tokom 22 zaranjanja sonde Cassini između Saturna i prstenova 2017 — oko 0,41 mase meseca Mimasa.",
+        "fact5": "Procepi i bledi prstenovi: Kasinijeva pukotina između prstenova A i B široka je oko 4.700 km (neki izvori navode 4.800 km). Iza glavnih prstenova, bledi prsten E, koji pune ledeni mlazovi Enceladusa, pruža se od oko 180.000 do 480.000 km od Saturna i debeo je više od 2.000 km.",
+        "fact6": "Starost: otvoreno pitanje. Merenje mase koje je izvršila sonda Cassini i čist led ukazivali su na starost od samo 10–100 miliona godina; studija iz 2024. u časopisu Nature Geoscience zaključila je da dolazeća prašina uglavnom ispari umesto da zatamni led, pa bi prstenovi mogli biti stari milijardama godina. Led koji polako pada na Saturn mogao bi ih potpuno istrošiti za otprilike 100–300 miliona godina."
+      }
     }
   },
   "about": {
@@ -3657,6 +3768,42 @@
     "roof_box": {
       "term": "Krovni prozor",
       "definition": "Mali otvor uokviren kamenom iznad ulaza u Njugrejndž. Jutrima oko zimske kratkodnevice kroz njega prolazi snop svetlosti izlazećeg Sunca celom dužinom hodnika i pada na pod odaje, iako je otvor iznad samog ulaza."
+    },
+    "photoevaporation": {
+      "term": "Fotoisparavanje",
+      "definition": "Odnošenje gasa sa oblaka ili diska kada ga jaka ultraljubičasta svetlost obližnjih vrelih zvezda zagreje toliko da pobegne u svemir. Tako se polako troše oblaci u kojima nastaju zvezde, poput Stubova stvaranja."
+    },
+    "scattered_disc": {
+      "term": "Rasejani disk",
+      "definition": "Retka populacija ledenih tela koja se preklapa sa spoljnim delom Kajperovog pojasa; Neptun ih je izbacio na izdužene, nagnute orbite koje sežu stotinama AJ od Sunca. U njemu je i patuljasta planeta Erida."
+    },
+    "contact_binary": {
+      "term": "Kontaktni dvojni objekat",
+      "definition": "Malo telo od dva dela koji su nekad kružili jedan oko drugog, a zatim se lagano dodirnuli i slepili — poput Arokota u obliku sneška."
+    },
+    "black_body": {
+      "term": "Crno telo",
+      "definition": "Idealizovano telo koje upija svu svetlost koja na njega padne i svetli spektrom koji zavisi samo od njegove temperature. Vrele zvezde, užareni žar i kosmičko mikrotalasno pozadinsko zračenje vrlo su blizu tom idealu."
+    },
+    "recombination": {
+      "term": "Rekombinacija",
+      "definition": "Trenutak, oko 380.000 godina posle Velikog praska, kada se svemir dovoljno ohladio da se elektroni vežu za atomska jezgra i obrazuju neutralne atome. Svetlost je tada mogla slobodno da putuje, i upravo je ta svetlost kosmičko mikrotalasno pozadinsko zračenje."
+    },
+    "orbital_resonance": {
+      "term": "Orbitalna rezonanca",
+      "definition": "Kada tela koja kruže oko istog objekta imaju periode u jednostavnom celobrojnom odnosu, npr. 3 : 2, pa se njihova pravilna gravitaciona privlačenja ponavljaju i mogu da učvrste taj raspored."
+    },
+    "transit": {
+      "term": "Tranzit",
+      "definition": "Prolazak planete ispred diska njene zvezde, gledano sa Zemlje. Zvezda tada sasvim malo oslabi, i tako je otkrivena većina poznatih egzoplaneta i izmerena njihova veličina."
+    },
+    "roche_limit": {
+      "term": "Rošova granica",
+      "definition": "Udaljenost od planete unutar koje njene plimske sile razdiru mesec koji na okupu drži samo sopstvena gravitacija. Gotovo svi planetarni prstenovi, uključujući glavne Saturnove, nalaze se unutar nje, pa se njihovi komadi ne mogu skupiti u mesec."
+    },
+    "orbit": {
+      "term": "Orbita",
+      "definition": "Zakrivljena putanja kojom se jedno telo kreće oko drugog pod dejstvom gravitacije, kao planeta oko Sunca ili Mesec oko Zemlje. Većina orbita su blago izduženi krugovi, elipse."
     }
   },
   "faq": {
@@ -3787,7 +3934,11 @@
       "el_castillo": "El Kastiljo",
       "antikythera_mechanism": "antikiterski mehanizam",
       "nebra_sky_disc": "nebeski disk iz Nebre",
-      "newgrange": "Njugrejndž"
+      "newgrange": "Njugrejndž",
+      "pillars_of_creation": "najviši Stub stvaranja",
+      "kuiper_belt": "Kajperov pojas",
+      "trappist_1": "TRAPPIST-1",
+      "saturn_rings": "sistem Saturnovih prstenova"
     },
     "a3smallerTall": "Korak niže: {other} ({otherSize}), oko {ratio} puta niže.",
     "a3largerTall": "Korak više: {other} ({otherSize}), oko {ratio} puta više.",
@@ -3801,6 +3952,7 @@
     "a1plainDepth": "{Name}: dubina je oko {size}. Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
     "a1plainLength": "{Name}: dužina je oko {size}. Na Quantumaire skali od Plankove dužine do vidljivog svemira nalazi se na {rank}. mestu od {total} po veličini.",
     "a8longer": "Dužina je otprilike {ratio} puta veća od prečnika Zemlje (12.742 km).",
+    "a8taller": "Visina je otprilike {ratio} puta veća od prečnika Zemlje (12.742 km).",
     "a6years": "Udaljenost od Zemlje: oko {distance} — svetlosti odande treba oko {years} godina da stigne do nas.",
     "a6edge": "{place}: oko {distance} od Zemlje."
   },
@@ -4066,6 +4218,20 @@
       "seoTitle": "Laniakea i Veliki zid Sloan: najveće strukture",
       "intro": "Najveće strukture koje galaksije grade: Laniakea, superjato široko oko 500 miliona svetlosnih godina kom pripada i Mlečni put, i Veliki zid Sloan, lanac superjata dug oko 1,4 milijarde svetlosnih godina. Nijedno od njih kao celinu ne drži gravitacija.",
       "metaDescription": "Laniakea i Veliki zid Sloan upoređeni: naše superjato od 500 miliona svetlosnih godina i zid galaksija dug 1,4 milijarde svetlosnih godina."
+    },
+    "star-system": {
+      "short": "Zvezdani sistemi",
+      "title": "Zvezdani sistemi: naš i TRAPPIST-1",
+      "seoTitle": "Zvezdani sistemi: Sunčev sistem i TRAPPIST-1",
+      "intro": "Zvezda i sve što njena gravitacija drži. Naš Sunčev sistem raspoređuje osam planeta na oko 9 milijardi km, do Neptuna; TRAPPIST-1, udaljena 40,7 svetlosne godine, svojih sedam planeta veličine Zemlje drži tako zbijeno da je Merkurova orbita više od šest puta šira od celog sistema.",
+      "metaDescription": "Sunčev sistem je do Neptuna širok oko 9 milijardi km; svih sedam planeta veličine Zemlje oko zvezde TRAPPIST-1 kruži bliže njoj nego Merkur Suncu."
+    },
+    "red-dwarf": {
+      "short": "Crveni patuljci",
+      "title": "Crveni patuljci: najčešće zvezde",
+      "seoTitle": "Crveni patuljci: Proksima Kentaura i TRAPPIST-1",
+      "intro": "Mali, hladni i bledi, crveni patuljci su najčešće zvezde u Mlečnom putu, a gore tako sporo da mogu da sijaju bilionima godina. Proksima Kentaura, Suncu najbliža zvezda, široka je oko 214.000 km; TRAPPIST-1, oko koje kruži sedam planeta veličine Zemlje, samo je oko petinu šira od Jupitera.",
+      "metaDescription": "Crveni patuljci su najčešće zvezde: Proksima Kentaura, nama najbliža zvezda, široka je oko 214.000 km; TRAPPIST-1, sa sedam planeta, jedva je šira od Jupitera."
     }
   }
 }

@@ -736,7 +736,7 @@
     {
       "id": "solar_system",
       "i18nKey": "stops.solar_system",
-      "sizeMeters": 15000000000000,
+      "sizeMeters": 9000000000000,
       "distanceFromEarthMeters": 15000000000000000,
       "distanceNameKey": "stops.solar_system.distanceName",
       "order": 10.5,
@@ -943,6 +943,36 @@
       ]
     },
     {
+      "id": "trappist_1",
+      "i18nKey": "stops.trappist_1",
+      "sizeMeters": 166000000,
+      "order": 9.51,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-nova",
+      "accentGlow": "shadow-[0_0_100px_rgba(240,171,252,0.45)]",
+      "distanceFromEarthMeters": 384700000000000000,
+      "temperatureKelvin": 2566,
+      "image": {
+        "src": "/images/trappist-1.webp",
+        "aspect": "square",
+        "altKey": "stops.trappist_1.image.alt",
+        "credit": "NASA/JPL-Caltech — public domain"
+      },
+      "glossary": [
+        "habitable_zone",
+        "tidal_lock",
+        "light_year",
+        "orbital_resonance",
+        "transit"
+      ],
+      "tags": [
+        "star",
+        "red-dwarf",
+        "star-system"
+      ]
+    },
+    {
       "id": "halley",
       "i18nKey": "stops.halley",
       "sizeMeters": 11000,
@@ -1087,6 +1117,28 @@
       ],
       "distanceFromEarthMeters": 1430000000000,
       "temperatureKelvin": 134
+    },
+    {
+      "id": "saturn_rings",
+      "i18nKey": "stops.saturn_rings",
+      "sizeMeters": 273550000,
+      "order": 7.81,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/saturn-rings.webp",
+        "aspect": "wide",
+        "altKey": "stops.saturn_rings.image.alt",
+        "credit": "NASA / JPL / Space Science Institute — public domain"
+      },
+      "glossary": [
+        "roche_limit",
+        "orbital_resonance",
+        "cryovolcano"
+      ],
+      "tags": []
     },
     {
       "id": "uranus",
@@ -1431,6 +1483,33 @@
         "cmb",
         "expansion",
         "inflation"
+      ],
+      "tags": [
+        "phenomenon"
+      ]
+    },
+    {
+      "id": "cosmic_microwave_background",
+      "i18nKey": "stops.cosmic_microwave_background",
+      "sizeMeters": null,
+      "order": 13.51,
+      "badge": "ESTABLISHED_THEORY",
+      "category": "COSMOS",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "temperatureKelvin": 2.7255,
+      "image": {
+        "src": "/images/cosmic-microwave-background.webp",
+        "aspect": "wide",
+        "altKey": "stops.cosmic_microwave_background.image.alt",
+        "credit": "NASA / WMAP Science Team — public domain"
+      },
+      "glossary": [
+        "big_bang",
+        "redshift",
+        "photon",
+        "recombination",
+        "black_body"
       ],
       "tags": [
         "phenomenon"
@@ -1936,6 +2015,32 @@
       ]
     },
     {
+      "id": "kuiper_belt",
+      "i18nKey": "stops.kuiper_belt",
+      "sizeMeters": 15000000000000,
+      "order": 10.41,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/kuiper-belt.webp",
+        "aspect": "wide",
+        "altKey": "stops.kuiper_belt.image.alt",
+        "credit": "NASA / Johns Hopkins APL / SwRI / Roman Tkachenko — public domain"
+      },
+      "glossary": [
+        "dwarf_planet",
+        "scattered_disc",
+        "astronomical_unit",
+        "contact_binary"
+      ],
+      "tags": [
+        "dwarf-planet",
+        "comet"
+      ]
+    },
+    {
       "id": "water_molecule",
       "i18nKey": "stops.water_molecule",
       "sizeMeters": 2.8e-10,
@@ -2172,6 +2277,32 @@
       "glossary": [
         "nebula",
         "molecular_cloud",
+        "light_year"
+      ],
+      "tags": [
+        "nebula"
+      ]
+    },
+    {
+      "id": "pillars_of_creation",
+      "i18nKey": "stops.pillars_of_creation",
+      "sizeMeters": 37840000000000000,
+      "order": 10.81,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-cosmos-plasma",
+      "accentGlow": "shadow-[0_0_80px_rgba(192,132,252,0.45)]",
+      "distanceFromEarthMeters": 61495000000000000000,
+      "image": {
+        "src": "/images/pillars-of-creation.webp",
+        "aspect": "square",
+        "altKey": "stops.pillars_of_creation.image.alt",
+        "credit": "NASA, ESA and the Hubble Heritage Team (STScI/AURA) — public domain"
+      },
+      "glossary": [
+        "nebula",
+        "photoevaporation",
+        "supernova",
         "light_year"
       ],
       "tags": [

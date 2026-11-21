@@ -317,7 +317,9 @@ export function buildSizeFaq(stop: Stop, locale: Locale): SizeFaqItem[] {
     const key = bigger
       ? measure === "length"
         ? "sizeFaq.a8longer"
-        : "sizeFaq.a8bigger"
+        : measure === "height"
+          ? "sizeFaq.a8taller"
+          : "sizeFaq.a8bigger"
       : measure === "height"
         ? "sizeFaq.a8tall"
         : measure === "depth"
