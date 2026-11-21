@@ -84,8 +84,9 @@ export function describePair(locale: Locale, a: Stop, b: Stop) {
     // English titles keep the bare names ("Blue Whale vs Human"); Serbian
     // writes common nouns in lower case after the first ("Plavi kit i čovek").
     title: tServer(locale, "common.comparePage.pairTitle", {
-      a: locale === "en" ? name(a) : capFirst(aName),
-      b: locale === "en" ? name(b) : bName,
+      // …without a leading article: "Sun vs Earth", not "The Sun vs Earth".
+      a: locale === "en" ? name(a).replace(/^The /, "") : capFirst(aName),
+      b: locale === "en" ? name(b).replace(/^The /, "") : bName,
     }),
     description: capFirst(
       tServer(
