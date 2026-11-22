@@ -2967,6 +2967,73 @@
       "tags": [
         "biology"
       ]
+    },
+    {
+      "id": "chankillo",
+      "i18nKey": "stops.chankillo",
+      "sizeMeters": 300,
+      "order": 6.007,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/chankillo.webp",
+        "aspect": "wide",
+        "altKey": "stops.chankillo.image.alt",
+        "credit": "Corrispo — CC BY-SA 4.0 (cropped)"
+      },
+      "glossary": [
+        "solstice",
+        "equinox"
+      ],
+      "tags": [
+        "ancient"
+      ]
+    },
+    {
+      "id": "goseck_circle",
+      "i18nKey": "stops.goseck_circle",
+      "sizeMeters": 75,
+      "order": 6.008,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/goseck-circle.webp",
+        "aspect": "wide",
+        "altKey": "stops.goseck_circle.image.alt",
+        "credit": "Marcus O. Bst — CC BY-SA 2.0 (cropped)"
+      },
+      "glossary": [
+        "solstice"
+      ],
+      "tags": [
+        "ancient"
+      ]
+    },
+    {
+      "id": "abu_simbel",
+      "i18nKey": "stops.abu_simbel",
+      "sizeMeters": 33,
+      "order": 6.009,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/abu-simbel.webp",
+        "aspect": "wide",
+        "altKey": "stops.abu_simbel.image.alt",
+        "credit": "Arian Zwegers — CC BY 2.0 (cropped)"
+      },
+      "glossary": [
+        "rock_cut_temple"
+      ],
+      "tags": [
+        "ancient"
+      ]
     }
   ]
 }

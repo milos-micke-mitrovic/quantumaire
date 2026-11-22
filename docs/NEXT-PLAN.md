@@ -33,10 +33,13 @@ generated sentences, log in `docs/CHANGELOG-ai.md`.
 
 ## 3. Ancient sites that meet the sky (HUMANKIND, tag `ancient`)
 
-- [ ] Chankillo (Peru, 13 towers marking the Sun's yearly path), Goseck
+- [x] Chankillo (Peru, 13 towers marking the Sun's yearly path), Goseck
       circle (Germany, ~75 m, solstice gates), Abu Simbel (Ramesses II's
       temple, sunlight days). Legends labelled as legends; add to the
       ancient-astronomy guide.
+      2026-11-22: chankillo 300 m (line of towers; plain "size" so the Titanic
+      keeps the Eiffel Tower as neighbour), goseck_circle 75 m, abu_simbel
+      33 m facade height (HEIGHT_STOP_IDS). All three in the guide (§1, §2).
 
 ## 4. Review round 8 topics
 

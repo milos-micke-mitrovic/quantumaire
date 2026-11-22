@@ -315,3 +315,10 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Guides: quantum-physics +superposition/tunnelling/Pauli/visible light; smallest-things +nucleus/light/mitochondrion; human-body +mitochondrion.
 - Size FAQ: exact same-size neighbours (ratio < 1.01) are never named — mitochondrion vs bacterium read "about 1 times smaller". Atom's step down is now the nucleus (test updated). Mitochondrion SEO titles shortened (60-char test).
 - Dev check: 12 pages 200, mobile no overflow.
+
+## 2026-11-22 — round 8 block 3: ancient sky sites
+- Chankillo (`chankillo`, 300 m line of the Thirteen Towers; 4th c. BC per Ghezzi & Ruggles 2007, 250–200 BC per UNESCO — both given; southern-hemisphere "June/December solstice"). Kept as plain "size": as a length it became the Titanic's "1.1 times bigger" neighbour.
+- Goseck circle (`goseck_circle`, 75 m ditch ring, ~4900 BC, winter-solstice gates; "often called one of the oldest observatories" kept honest; Nebra 25 km away, 3,000 years later).
+- Abu Simbel (`abu_simbel`, 33 m facade height → HEIGHT_STOP_IDS; sunlight ~22 Feb/22 Oct, Ptah "linked with the realm of the dead" stays dark; birthday/coronation labelled unproven; date shift after the 1964–68 move uncertain). New glossary: rock_cut_temple.
+- Ancient-astronomy guide: Goseck + Chankillo in §1, Abu Simbel in §2 (Serbian sentence opens with **Krug u Gozeku** because auto-links are case-sensitive).
+- Goseck SEO titles shortened (60-char test).

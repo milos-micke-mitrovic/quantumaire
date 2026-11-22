@@ -431,7 +431,7 @@ export const TOPICS: Topic[] = [
     slug: "ancient-astronomy",
     i18nKey: "topics.ancientAstronomy",
     sectionCount: 5,
-    relatedStopIds: ["newgrange", "stonehenge", "pyramid", "sirius", "nebra_sky_disc", "halley", "antikythera_mechanism", "el_castillo", "moon", "sun"],
+    relatedStopIds: ["goseck_circle", "newgrange", "stonehenge", "chankillo", "pyramid", "abu_simbel", "sirius", "nebra_sky_disc", "halley", "antikythera_mechanism", "el_castillo", "moon", "sun"],
     sources: [
       { label: "Wikipedia — Archaeoastronomy", url: "https://en.wikipedia.org/wiki/Archaeoastronomy" },
       { label: "Spence (2000), Nature — Ancient Egyptian chronology and the astronomical orientation of pyramids", url: "https://www.nature.com/articles/35042510" },
