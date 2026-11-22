@@ -106,6 +106,12 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/stop/cosmic_microwave_background (new 2026-11-22)
 - https://quantumaire.space/en/tag/star-system (new 2026-11-22)
 - https://quantumaire.space/en/tag/red-dwarf (new 2026-11-22)
+- https://quantumaire.space/en/compare/kuiper-belt-vs-asteroid-belt (new 2026-11-22)
+- https://quantumaire.space/en/compare/pyramid-vs-el-castillo (new 2026-11-22)
+- https://quantumaire.space/en/compare/trappist-1-vs-jupiter (new 2026-11-22)
+- https://quantumaire.space/en/compare/sun-vs-trappist-1 (new 2026-11-22)
+- https://quantumaire.space/en/compare/pillars-of-creation-vs-solar-system (new 2026-11-22)
+- https://quantumaire.space/en/compare/saturn-rings-vs-earth (new 2026-11-22)
 
 ## Done
 

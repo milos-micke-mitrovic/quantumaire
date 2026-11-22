@@ -1743,7 +1743,7 @@
       "url": "https://arxiv.org/abs/2010.01074"
     },
     {
-      "label": "NASA Exoplanet Archive (TAP query, Agol et al. 2021 parameter set): stellar radius 0.1192 R☉, Teff 2566 K; semi-major axes 0.01154 (b) to 0.06189 AU (h); periods 1.511 to 18.773 d; radii 0.788–1.129 R⊕",
+      "label": "NASA Exoplanet Archive (TAP query, Agol et al. 2021 parameter set): stellar radius 0.1192 R☉, Teff 2566 K; semi-major axes 0.01154 (b) to 0.06189 AU (h); periods 1.511 to 18.773 d; radii 0.755–1.129 R⊕",
       "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,st_rad,st_teff,pl_orbsmax,pl_orbper,pl_rade+from+ps+where+hostname='TRAPPIST-1'+and+pl_refname+like+'%25Agol%25'&format=csv"
     },
     {

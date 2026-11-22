@@ -43,12 +43,15 @@ indexing batch (`gsc-indexing`).
 
 ## 4. Review round 7 topics (quality before quantity)
 
-- [ ] Facts vs sources, Serbian terminology/style, desktop + mobile pass.
+- [x] Facts vs sources, Serbian terminology/style, desktop + mobile pass.
+      2026-11-22: 3 agent reviews; 17 fact fixes, ~30 Serbian fixes; mobile
+      OK on all 20 pages.
 
 ## 5. Compare pairs + speed
 
-- [ ] Pairs that are real searches (stonehenge-vs-newgrange? kuiper-belt-vs-
+- [x] Pairs that are real searches (stonehenge-vs-newgrange? kuiper-belt-vs-
       asteroid-belt?); dump EN+SR and read. Lighthouse spot check.
+      2026-11-22: 8 dumped, 6 kept (49 pairs). Lighthouse: see changelog.
 
 ## 6. Carried over (blocked)
 

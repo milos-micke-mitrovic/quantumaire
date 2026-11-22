@@ -50,6 +50,12 @@ export const COMPARE_PAIRS: Array<[string, string]> = [
   ["african_elephant", "human"],
   ["burj_khalifa", "saturn_v"],
   ["virus", "ribosome"],
+  ["kuiper_belt", "asteroid_belt"],
+  ["pyramid", "el_castillo"],
+  ["trappist_1", "jupiter"],
+  ["sun", "trappist_1"],
+  ["pillars_of_creation", "solar_system"],
+  ["saturn_rings", "earth"],
 ];
 
 export const idToSlug = (id: string) => id.replace(/_/g, "-");
