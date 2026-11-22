@@ -1,4 +1,60 @@
-# Next plan (round 7, written 2026-11-21)
+# Next plan (round 8, written 2026-11-22)
+
+**Direction (owner, 2026-11-21):** cosmos + micro/quantum world + ancient
+stories that meet the sky; animals/modern structures stay as yardsticks, no
+new ones. Round 8 strengthens the thinnest part: the quantum/micro side
+(Cosmos 57 topics, Micro-World 16, Forces & Spacetime 12). Owner approved
+the whole round on 2026-11-22 ("ok do all"). Same rules as before: top to
+bottom, tick boxes, commit + deploy per block, mobile check, dump and read
+generated sentences, log in `docs/CHANGELOG-ai.md`.
+
+## 1. Quantum ideas (PHYSICS, ideas — sizeMeters null)
+
+- [x] Quantum superposition & Schrödinger's cat (what it is, what the cat
+      was meant to show, largest objects put in superposition), quantum
+      tunnelling (fusion in the Sun, alpha decay, scanning tunnelling
+      microscope, flash memory), Pauli exclusion principle (why atoms have
+      shells, why matter is solid, white dwarfs/neutron stars). Honest
+      badges; interpretations labelled as such. Link from the
+      quantum-physics guide.
+      2026-11-22: quantum_superposition (FACT), quantum_tunnelling (FACT,
+      2025 Nobel), pauli_exclusion_principle (ESTABLISHED_THEORY, like the
+      uncertainty principle); all in the quantum-physics guide.
+
+## 2. Micro-world reference sizes (MICRO_WORLD)
+
+- [x] Atomic nucleus (~1e-14 m — the atom is mostly empty), wavelength of
+      visible light (~500 nm — why microscopes can't see viruses),
+      mitochondrion (~1 µm — once a free-living bacterium). Fit into the
+      smallest-things / human-body guides where they belong.
+      2026-11-22: atomic_nucleus 1.4e-14 (gold-197), visible_light 5.5e-7
+      (555 nm eye peak), mitochondrion 2e-6 (length; ties with bacterium —
+      size FAQ now never names an exact tie).
+
+## 3. Ancient sites that meet the sky (HUMANKIND, tag `ancient`)
+
+- [ ] Chankillo (Peru, 13 towers marking the Sun's yearly path), Goseck
+      circle (Germany, ~75 m, solstice gates), Abu Simbel (Ramesses II's
+      temple, sunlight days). Legends labelled as legends; add to the
+      ancient-astronomy guide.
+
+## 4. Review round 8 topics
+
+- [ ] Facts vs sources (agents), Serbian review, desktop + mobile pass.
+
+## 5. Compare pairs + speed
+
+- [ ] Pairs that read well for a layperson (dump EN+SR, read); Lighthouse
+      spot check.
+
+## 6. Carried over (blocked)
+
+- [ ] 404 body server-rendered (Next 16.4.6: still the `__next_error__` shell).
+- [ ] Search Console: pages with impressions but low CTR → rewrite titles.
+
+---
+
+# Done: round 7 (written 2026-11-21)
 
 **Direction (owner, 2026-11-21):** the site is about the cosmos and the
 micro/quantum world, plus stories from ancient history (the owner likes the

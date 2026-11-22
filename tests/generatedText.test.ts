@@ -38,7 +38,7 @@ describe("size FAQ reads sensibly", () => {
 
   it("writes Serbian common nouns in lower case mid-sentence", () => {
     expect(text("atom", "sr")).toMatch(/veći nego atom\./);
-    expect(text("atom", "sr")).toMatch(/Korak niže: proton/);
+    expect(text("atom", "sr")).toMatch(/Korak niže: atomsko jezgro/);
     expect(text("human", "sr")).not.toMatch(/10⁰/);
   });
 

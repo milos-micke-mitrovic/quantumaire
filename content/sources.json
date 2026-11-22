@@ -1824,5 +1824,133 @@
       "label": "Serbian Wikipedia — Сатурнови прстенови / Сатурн (terms: Сатурнови прстенови, Касинијева пукотина, прстен А/Б)",
       "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%B0%D1%82%D1%83%D1%80%D0%BD%D0%BE%D0%B2%D0%B8_%D0%BF%D1%80%D1%81%D1%82%D0%B5%D0%BD%D0%BE%D0%B2%D0%B8"
     }
+  ],
+  "quantum_superposition": [
+    {
+      "label": "Wikipedia — Schrödinger's cat (paper 'Die gegenwärtige Situation in der Quantenmechanik', Naturwissenschaften, November 1935; response to the EPR paper of May 1935; set-up: one atom with a 50:50 chance to decay in an hour, Geiger counter, relay, hammer, flask of hydrocyanic acid; Schrödinger called it 'quite ridiculous' — a reductio ad absurdum; Einstein's gunpowder keg in their correspondence and his 1950 letter of praise; single beryllium ion superposed in 1996; interpretations: Copenhagen, many-worlds (Everett 1957), objective collapse)",
+      "url": "https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat"
+    },
+    {
+      "label": "Wikipedia — Quantum superposition (qubit as a superposition of |0⟩ and |1⟩ with probability amplitudes; double-slit interference with molecules of up to 2,000 atoms)",
+      "url": "https://en.wikipedia.org/wiki/Quantum_superposition"
+    },
+    {
+      "label": "Wikipedia — Quantum decoherence (study began with H. Dieter Zeh's 1970 paper; first quantitative measurement of a superposition fading by decoherence by Serge Haroche's team in Paris, 1996; controversy over whether decoherence solves the measurement problem)",
+      "url": "https://en.wikipedia.org/wiki/Quantum_decoherence"
+    },
+    {
+      "label": "EurekAlert! / ETH Zurich (20 April 2023) — 'Schrödinger cat states of a 16-microgram mechanical oscillator', Science: 16-microgram sapphire crystal, about the mass of a fine grain of sand, several billion times heavier than an atom; states separated by about a billionth of a billionth of a metre",
+      "url": "https://www.eurekalert.org/news-releases/986918"
+    },
+    {
+      "label": "NobelPrize.org — Physics 2012: Serge Haroche and David J. Wineland, 'for ground-breaking experimental methods that enable measuring and manipulation of individual quantum systems'",
+      "url": "https://www.nobelprize.org/prizes/physics/2012/summary/"
+    }
+  ],
+  "quantum_tunnelling": [
+    {
+      "label": "Wikipedia — Quantum tunnelling (Hund 1927; Gamow and, independently, Gurney & Condon explained alpha decay in 1928 — the first application; Frenkel's 1932 textbook introduced 'tunnel effect'; Esaki's tunnel diode 1957; Esaki, Giaever and Josephson Nobel 1973; Binnig & Rohrer STM 1981, Nobel 1986; stellar fusion needs tunnelling; flash memory programs floating gates by tunnelling; leakage in chips below about 1 nm; 2025 Nobel for 1984–85 macroscopic tunnelling)",
+      "url": "https://en.wikipedia.org/wiki/Quantum_tunnelling"
+    },
+    {
+      "label": "NobelPrize.org — Physics 2025, popular information: John Clarke, Michel H. Devoret and John M. Martinis 'for the discovery of macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit'; experiments at UC Berkeley in 1984 and 1985; chip about a centimetre in size; billions of Cooper pairs acting as one",
+      "url": "https://www.nobelprize.org/prizes/physics/2025/popular-information/"
+    },
+    {
+      "label": "HyperPhysics (Georgia State University) — Alpha particle tunnelling: alpha energies only about 4–9 MeV, half-lives range over 20 orders of magnitude (about a tenth of a microsecond to 10 billion years); polonium-212 emits an 8.78 MeV alpha against a barrier of about 26 MeV, half-life 0.3 µs",
+      "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/alptun.html"
+    },
+    {
+      "label": "Physics Special Topics (University of Leicester) — 'Could the Sun fuse without quantum tunnelling?': the 1.44 MeV Coulomb barrier is about 10³ times the average proton energy in the Sun's core; classical fusion would need about 1.1 × 10¹⁰ K",
+      "url": "https://journals.le.ac.uk/index.php/pst/article/download/5063/4995/19868"
+    },
+    {
+      "label": "Wikipedia — Scanning tunneling microscope (built 1981 by Binnig and Rohrer at IBM Zürich, Nobel 1986; resolves features smaller than 0.1 nm with 0.01 nm depth resolution; current drops about tenfold per extra 0.1 nm of gap)",
+      "url": "https://en.wikipedia.org/wiki/Scanning_tunneling_microscope"
+    }
+  ],
+  "pauli_exclusion_principle": [
+    {
+      "label": "Wikipedia — Pauli exclusion principle (formulated 1925 for electrons, extended to all fermions by the 1940 spin–statistics theorem; four quantum numbers; Stoner's 1924 paper as the clue; two-valued quantum number identified as spin by Goudsmit and Uhlenbeck; fermions vs bosons, lasers, Bose–Einstein condensates; Ehrenfest 1931, Dyson & Lenard 1967, Lieb & Thirring 1975 on the stability of matter; degeneracy pressure in white dwarfs and neutron stars)",
+      "url": "https://en.wikipedia.org/wiki/Pauli_exclusion_principle"
+    },
+    {
+      "label": "NobelPrize.org — Physics 1945: Wolfgang Pauli 'for the discovery of the Exclusion Principle, also called the Pauli Principle'",
+      "url": "https://www.nobelprize.org/prizes/physics/1945/summary/"
+    },
+    {
+      "label": "Wikipedia — Electron shell (the nth shell holds up to 2n² electrons: 2, 8, 18, 32; each s, p, d, f subshell orbital holds at most two)",
+      "url": "https://en.wikipedia.org/wiki/Electron_shell"
+    },
+    {
+      "label": "Wikipedia — White dwarf (about the Sun's mass in an Earth-sized volume; R. H. Fowler's 1926 explanation via the exclusion principle; Chandrasekhar limit ~1.44 solar masses, 1983 Nobel; typical density 10⁴–10⁷ g/cm³, roughly a tonne per cubic centimetre; Sirius B nearest white dwarf)",
+      "url": "https://en.wikipedia.org/wiki/White_dwarf"
+    },
+    {
+      "label": "Wikipedia — Helium-3 (helium-3 atoms are fermions and become superfluid at 2.491 mK by pairing up; helium-4 atoms are bosons and turn superfluid at about 2.17 K)",
+      "url": "https://en.wikipedia.org/wiki/Helium-3"
+    }
+  ],
+  "atomic_nucleus": [
+    {
+      "label": "Wikipedia — Atomic nucleus (discovered by Rutherford in 1911 from the 1909 Geiger–Marsden gold-foil experiment; almost all of the atom's mass; diameter 1.70 fm for hydrogen to about 11.7 fm for uranium; atom about 27,000–60,000 times wider; R = r₀A^(1/3), r₀ ≈ 1.25 fm varying by about 0.2 fm; residual strong force reaches a few fm, one or two nucleon diameters; lead-208 is the largest completely stable nucleus; spherical, rugby-ball, discus and pear shapes; Latin nucleus = kernel, used by Rutherford from 1912)",
+      "url": "https://en.wikipedia.org/wiki/Atomic_nucleus"
+    },
+    {
+      "label": "HyperPhysics (Georgia State University) — Nuclear size and density (r = 1.2 fm × A^(1/3); gold nucleus radius 7.3 fm; nuclear density about 2 × 10¹⁷ kg/m³; solid gold 19.32 g/cm³)",
+      "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/nucuni.html"
+    },
+    {
+      "label": "Wikipedia — Rutherford scattering experiments (Geiger and Marsden 1909: alpha particles scattered back by more than 90°, impossible in Thomson's model; Rutherford's 1911 model; 27 fm upper limit versus a true gold radius of about 7.3 fm; gold atom radius 1.44 × 10⁻¹⁰ m; Rutherford's 1936 '15-inch shell at a piece of tissue paper' quote)",
+      "url": "https://en.wikipedia.org/wiki/Geiger%E2%80%93Marsden_experiment"
+    },
+    {
+      "label": "Wikipedia — Proton (about 1,836 times the electron's mass; charge radius about 0.84 fm)",
+      "url": "https://en.wikipedia.org/wiki/Proton"
+    }
+  ],
+  "visible_light": [
+    {
+      "label": "Wikipedia — Visible spectrum (typical eye responds to about 380–750 nm, about 400–790 THz; colour bands: violet 380–450, blue 450–485, cyan 485–500, green 500–565, yellow 565–590, orange 590–625, red 625–750 nm, photon energies 1.65–3.26 eV; Newton first used 'spectrum' in print in 1671 and added indigo because seven was a perfect number)",
+      "url": "https://en.wikipedia.org/wiki/Visible_spectrum"
+    },
+    {
+      "label": "Wikipedia — Luminous efficiency function (daylight eye sensitivity peaks at 555 nm; the lumen is defined at 540 THz, a wavelength of 555.016 nm)",
+      "url": "https://en.wikipedia.org/wiki/Luminous_efficiency_function"
+    },
+    {
+      "label": "Wikipedia — Diffraction-limited system (Abbe 1873, Helmholtz 1874: d = λ / 2NA; NA up to about 1.4–1.6, so d ≈ λ/2.8; enough for cells of 1–100 µm but large compared with viruses)",
+      "url": "https://en.wikipedia.org/wiki/Diffraction-limited_system"
+    },
+    {
+      "label": "NobelPrize.org — Nobel Prize in Chemistry 2014 press release (Abbe's 1873 limit of about 0.2 µm, half the wavelength of light; Betzig, Hell and Moerner bypassed it with fluorescent molecules; STED microscopy, Hell 2000)",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2014/press-release/"
+    },
+    {
+      "label": "Wikipedia — Rayleigh scattering (scattering by particles much smaller than the wavelength goes as 1/λ⁴; blue scatters more, so the daytime sky is blue and the low Sun looks yellow to red)",
+      "url": "https://en.wikipedia.org/wiki/Rayleigh_scattering"
+    }
+  ],
+  "mitochondrion": [
+    {
+      "label": "Wikipedia — Mitochondrion (double membrane, aerobic respiration makes ATP; found by Kölliker in 1857 in insect muscle; named 'thread-like granule' by Benda in 1898; 'powerhouse of the cell' popularised by Siekevitz in 1957; usually 0.75–3 µm² in cross-section; dynamic networks with fission and fusion; liver cells 1,000–2,000 per cell, a fifth of cell volume; 37 genes: 13 respiratory-complex proteins, 22 tRNAs, 2 rRNAs; inherited from the mother with rare exceptions, sperm mitochondria tagged for destruction; bacteria-like 70S ribosomes; endosymbiosis popularised by Margulis; ancestor near the Alphaproteobacteria; partnership probably 1.7–2 billion years ago)",
+      "url": "https://en.wikipedia.org/wiki/Mitochondrion"
+    },
+    {
+      "label": "Cell Biology by the Numbers (Milo & Phillips) — How big are mitochondria? (textbook shape about 2 µm long and 1 µm wide; reticular networks spread over tens of µm; mammalian cells hold about 10³–10⁴)",
+      "url": "https://book.bionumbers.org/how-big-are-mitochondria/"
+    },
+    {
+      "label": "Wikipedia — Human mitochondrial genetics (circular mtDNA of 16,569 base pairs; about 5 copies per mitochondrion; red blood cells 0, lymphocytes 3, mature egg cells about 100,000 mitochondria and 50,000–1,500,000 mtDNA copies, up to 90% of the egg's DNA; about 30 ATP per glucose versus 2 from glycolysis)",
+      "url": "https://en.wikipedia.org/wiki/Human_mitochondrial_genetics"
+    },
+    {
+      "label": "Wikipedia — Lynn Margulis (\"On the Origin of Mitosing Cells\", 1967, rejected by about fifteen journals; idea that mitochondria and chloroplasts were once independent bacteria largely ignored for a decade before wide acceptance)",
+      "url": "https://en.wikipedia.org/wiki/Lynn_Margulis"
+    },
+    {
+      "label": "Wikipedia — Adenosine triphosphate (an adult recycles about 50 kg of ATP a day, roughly body weight; each molecule recycled 1,000–1,500 times daily)",
+      "url": "https://en.wikipedia.org/wiki/Adenosine_triphosphate"
+    }
   ]
 }

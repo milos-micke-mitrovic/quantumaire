@@ -55,6 +55,8 @@ const MEASURE_SUFFIX = { height: "Height", depth: "Depth", length: "Length", siz
 
 /** Neighbours closer than this are only named when they are related. */
 const NEAR_EQUAL = 1.15;
+/** Below this two sizes are the same number: never name one as a neighbour. */
+const MIN_NAMED_RATIO = 1.01;
 /** Same-kind neighbours further than this are "far" (see neighbour()). */
 const FAR_NEIGHBOUR = 10;
 /**
@@ -96,7 +98,10 @@ function neighbour(rank: number, step: -1 | 1): Stop | null {
     const sameKind = measureKind(self) === measureKind(other);
     // "1.02 times bigger" only reads well between two of the same measure
     // (Uranus/Neptune, two heights) — not a rocket's height vs a station's width.
-    const nearOk = ratio >= NEAR_EQUAL || (sameKind && areRelated(self, other));
+    // Exact ties (mitochondrion and bacterium, both 2 µm) would read
+    // "about 1 times bigger" — never name them.
+    const nearOk =
+      ratio >= NEAR_EQUAL || (ratio >= MIN_NAMED_RATIO && sameKind && areRelated(self, other));
     if (!nearest && nearOk) nearest = other;
     const sharedTag = (self.tags ?? []).some((tag) => (other.tags ?? []).includes(tag));
     if (nearOk && (sharedTag || sameKind)) {

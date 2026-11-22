@@ -290,7 +290,7 @@ export const TOPICS: Topic[] = [
     slug: "smallest-things-in-the-universe",
     i18nKey: "topics.smallestThingsInTheUniverse",
     sectionCount: 5,
-    relatedStopIds: ["quark", "electron", "proton", "atom", "water_molecule", "dna", "ribosome", "virus", "bacterium", "red_blood_cell", "cell", "pollen_grain", "human"],
+    relatedStopIds: ["quark", "electron", "proton", "atomic_nucleus", "atom", "water_molecule", "dna", "ribosome", "virus", "visible_light", "mitochondrion", "bacterium", "red_blood_cell", "cell", "pollen_grain", "human"],
     sources: [
       { label: "Physics Letters B (ZEUS, 2016)", url: "https://doi.org/10.1016/j.physletb.2016.04.007" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Planck_units" },
@@ -357,7 +357,7 @@ export const TOPICS: Topic[] = [
     slug: "human-body-by-size",
     i18nKey: "topics.humanBodyBySize",
     sectionCount: 4,
-    relatedStopIds: ["human", "cell", "red_blood_cell", "bacterium", "virus", "ribosome", "dna", "water_molecule", "atom"],
+    relatedStopIds: ["human", "cell", "red_blood_cell", "mitochondrion", "bacterium", "virus", "ribosome", "dna", "water_molecule", "atom"],
     sources: [
       { label: "Sender, Fuchs & Milo (PLOS Biology, 2016)", url: "https://doi.org/10.1371/journal.pbio.1002533" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Human_body" },
@@ -407,7 +407,7 @@ export const TOPICS: Topic[] = [
     slug: "quantum-physics",
     i18nKey: "topics.quantumPhysics",
     sectionCount: 5,
-    relatedStopIds: ["electron", "wave_particle_duality", "uncertainty_principle", "quantum_entanglement", "quark", "proton", "neutrino", "higgs_boson", "antimatter", "atom", "planck_length", "string_theory"],
+    relatedStopIds: ["electron", "wave_particle_duality", "uncertainty_principle", "quantum_superposition", "quantum_entanglement", "quantum_tunnelling", "pauli_exclusion_principle", "visible_light", "quark", "proton", "neutrino", "higgs_boson", "antimatter", "atom", "planck_length", "string_theory"],
     sources: [
       { label: "Wikipedia — Quantum mechanics", url: "https://en.wikipedia.org/wiki/Quantum_mechanics" },
       { label: "Wikipedia — Standard Model", url: "https://en.wikipedia.org/wiki/Standard_Model" },

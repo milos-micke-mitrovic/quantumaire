@@ -14,6 +14,12 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/stop/trappist_1 (new 2026-11-22)
 - https://quantumaire.space/en/stop/pillars_of_creation (new 2026-11-22)
 - https://quantumaire.space/en/stop/cosmic_microwave_background (new 2026-11-22)
+- https://quantumaire.space/en/stop/quantum_superposition (new 2026-11-22)
+- https://quantumaire.space/en/stop/quantum_tunnelling (new 2026-11-22)
+- https://quantumaire.space/en/stop/pauli_exclusion_principle (new 2026-11-22)
+- https://quantumaire.space/en/stop/atomic_nucleus (new 2026-11-22)
+- https://quantumaire.space/en/stop/visible_light (new 2026-11-22)
+- https://quantumaire.space/en/stop/mitochondrion (new 2026-11-22)
 - https://quantumaire.space/en/stop/multiverse
 - https://quantumaire.space/en/stop/tardigrade
 - https://quantumaire.space/en/stop/blue_whale

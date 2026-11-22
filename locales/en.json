@@ -2813,6 +2813,134 @@
         "fact5": "Gaps and faint rings: the Cassini Division between the A and B rings is about 4,700 km wide (some sources say 4,800 km). Beyond the main rings, the faint E ring, fed by the icy jets of Enceladus, reaches from about 180,000 to 480,000 km from Saturn and is more than 2,000 km thick.",
         "fact6": "Age: an open question. Cassini's mass measurement and the rings' clean ice suggested an age of only 10–100 million years; a 2024 study in Nature Geoscience argued that incoming dust mostly vaporises instead of darkening the ice, so the rings could be billions of years old. Ice slowly raining onto Saturn could make them disappear within roughly 100–300 million years."
       }
+    },
+    "quantum_superposition": {
+      "name": "Quantum Superposition",
+      "seoTitle": "Quantum Superposition and Schrödinger's Cat, Explained",
+      "tagline": "Until it is measured, a quantum system can be in a blend of states at once — and Schrödinger invented his cat to show how strange that sounds.",
+      "body": "In quantum mechanics a particle need not be in just one state: an electron can be in a combination, or superposition, of spin 'up' and spin 'down', and an atom in a blend of two places, each possibility with its own chance of showing up when you look. This is not just ignorance about a hidden answer — the possibilities interfere with each other like overlapping waves, which is what makes the stripes in the double-slit experiment and the calculations of quantum computers possible. Yet every measurement gives just one result. In 1935 Erwin Schrödinger imagined the fate of a single atom tied to a cat in a sealed box: if the atom decays, a hammer smashes a flask of poison. Taken literally, the equations leave the cat both alive and dead until someone looks — a case Schrödinger himself called 'quite ridiculous', meant as a criticism of how quantum theory was being interpreted, not as a claim that real cats can be half-dead. Today the usual explanation for why we never see a blurred cat is decoherence: a large object constantly bumps into air molecules and light, which carry its superposition off into the surroundings almost instantly — though what, if anything, then picks the single outcome is still argued over by rival interpretations.",
+      "narrative": "Quantum superposition has no size of its own, but how big a superposition can get is one of the open questions of physics. Experiments have climbed from single electrons and atoms to molecules of 2,000 atoms (2019) and, in 2023, a sapphire crystal of 16 micrograms — about the mass of a fine grain of sand — whose two vibration states were superposed. A 4-kilogram cat is still some 250 million times heavier, and nobody yet knows whether superpositions simply get ever harder to protect as things grow, or whether some still-unknown effect stops them outright.",
+      "funFact": "Before the cat came a keg of gunpowder. In their letters after the Einstein–Podolsky–Rosen paper of 1935, Einstein pointed out that, taken literally, the equations would leave an unstable keg of gunpowder both exploded and not exploded. Schrödinger turned the keg into a cat — and Einstein was still praising the cat in a letter in 1950.",
+      "metaDescription": "What quantum superposition really is, why Schrödinger's cat was meant as a criticism, how decoherence hides it, and the heaviest objects superposed so far.",
+      "image": {
+        "alt": "A diagram of Schrödinger's thought experiment: in a box, a radioactive source is linked through a detector and a lever to a hammer that has smashed a flask of green poison, while two overlapping grey outlines show the cat both walking and lying down."
+      },
+      "facts": {
+        "fact1": "Schrödinger described the cat in 'Die gegenwärtige Situation in der Quantenmechanik' ('The present situation in quantum mechanics'), published in Naturwissenschaften in November 1935 in response to the Einstein–Podolsky–Rosen paper of May 1935.",
+        "fact2": "In his set-up a tiny bit of radioactive material gives one atom a 50:50 chance of decaying within an hour; a Geiger counter, a relay and a hammer link that one atom to a flask of hydrocyanic acid.",
+        "fact3": "A qubit, the building block of a quantum computer, is a superposition of 0 and 1: two numbers called amplitudes set the odds of reading each result.",
+        "fact4": "1996 was a landmark year: at NIST in the United States a single beryllium ion was put into a superposition of two separate positions, and in Paris Serge Haroche's team watched a superposition fade step by step through decoherence for the first time.",
+        "fact5": "Haroche and David Wineland shared the 2012 Nobel Prize in Physics for experimental methods that make it possible to measure and manipulate individual quantum systems.",
+        "fact6": "Decoherence became a field of its own with H. Dieter Zeh's 1970 paper. It explains why superpositions vanish from view, but physicists still disagree on whether it fully solves the 'measurement problem'.",
+        "fact7": "The heaviest 'cat' so far (2023): a 16-microgram sapphire crystal at ETH Zurich, held in a superposition of two vibrations whose positions differed by only about 10⁻¹⁸ m — far less than the width of a proton.",
+        "fact8": "Interpretations, not experiments, differ on what a measurement does: in the Copenhagen view the wave function 'collapses' to one result; in Hugh Everett's many-worlds view (1957) every outcome happens in its own branch; objective-collapse theories predict that big enough superpositions break down by themselves — something no experiment has seen yet."
+      }
+    },
+    "quantum_tunnelling": {
+      "name": "Quantum Tunnelling",
+      "seoTitle": "What Is Quantum Tunnelling? Passing Through Walls, Explained",
+      "tagline": "A particle can turn up on the far side of a barrier it hasn't the energy to climb — and the Sun shines because of it.",
+      "body": "Roll a ball too gently at a hill and it rolls back. A quantum particle is described by a wave, though, and its wave does not stop dead at a barrier: it fades away inside it, and if the barrier is thin enough a little of the wave reaches the far side — so the particle has a small chance of simply turning up there. That chance falls off steeply, exponentially, as the barrier gets higher or thicker, which is why tunnelling matters for electrons and atomic nuclei but will never let a person walk through a wall. In 1928 George Gamow, and independently Ronald Gurney and Edward Condon, used it to explain alpha decay: heavy nuclei throw out alpha particles that lack the energy to climb over the electric barrier holding them in. The same effect keeps the Sun burning: protons in its core, at about 15 million degrees, have on average only about a thousandth of the energy needed to overcome their mutual repulsion, and they fuse only because some of them tunnel through it. Technology relies on it too — scanning tunnelling microscopes that map single atoms, and the flash memory in phones and USB sticks.",
+      "narrative": "Quantum tunnelling has no size of its own, but distance rules it: it works across gaps of a few nanometres or less. In a scanning tunnelling microscope the current drops about tenfold for every extra 0.1 nanometres between tip and surface — about the width of a single atom — which is what lets it feel out individual atoms. Bigger objects are made of countless particles that would all have to tunnel together, so the odds vanish — yet in 1984–85 a superconducting circuit on a chip about a centimetre across, with billions of electron pairs acting as one, did tunnel, earning the 2025 Nobel Prize in Physics.",
+      "funFact": "Tunnelling is exquisitely sensitive to energy. Alpha particles leave heavy nuclei with energies that differ only about twofold, from about 4 to 9 MeV, yet the half-lives range over 20 orders of magnitude — from about a tenth of a microsecond to about 10 billion years. Polonium-212's alpha particle carries 8.78 MeV against a barrier of about 26 MeV that it could never climb, yet half the nuclei in a sample decay within 0.3 microseconds.",
+      "metaDescription": "How particles slip through barriers they can't climb: why the Sun can shine, how alpha decay, tunnelling microscopes and flash memory work, and the 2025 Nobel.",
+      "image": {
+        "alt": "The first scanning tunnelling microscope, built at IBM Zurich in 1981, seen from above in a glass dish at the Deutsches Museum: a gold-coloured round base with tiny metal holders and white ceramic parts, ringed by red wires and crinkled aluminium foil."
+      },
+      "facts": {
+        "fact1": "Friedrich Hund first applied the new wave mechanics to tunnelling in 1927; the English name 'tunnel effect' first appeared in Yakov Frenkel's 1932 textbook.",
+        "fact2": "Alpha decay was the first thing tunnelling explained — by George Gamow and, separately, by Ronald Gurney and Edward Condon in 1928.",
+        "fact3": "Without tunnelling, protons would need a temperature of roughly 10 billion kelvin to fuse — hundreds of times hotter than the Sun's core, at about 15 million K.",
+        "fact4": "Leo Esaki built the tunnel diode in 1957 and shared the 1973 Nobel Prize in Physics with Ivar Giaever and Brian Josephson for tunnelling in semiconductors and superconductors.",
+        "fact5": "Gerd Binnig and Heinrich Rohrer built the scanning tunnelling microscope at IBM Zurich in 1981 and won half of the 1986 Nobel Prize in Physics (the other half went to Ernst Ruska for the electron microscope). It resolves details smaller than 0.1 nm across and 0.01 nm in height.",
+        "fact6": "Flash memory in phones, SSDs and USB sticks writes and erases bits by pushing electrons through a thin insulating layer onto a 'floating gate' — by tunnelling.",
+        "fact7": "2025 Nobel Prize in Physics: John Clarke, Michel Devoret and John Martinis, 'for the discovery of macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit' — experiments at the University of California, Berkeley, in 1984–85.",
+        "fact8": "Tunnelling is also a nuisance: in the tiniest transistors it lets current leak through insulating layers, wasting power as heat, and parts thinner than about 1 nm leak so much that it limits how far chips can shrink."
+      }
+    },
+    "pauli_exclusion_principle": {
+      "name": "Pauli Exclusion Principle",
+      "seoTitle": "Pauli Exclusion Principle: Why Matter Takes Up Space",
+      "tagline": "No two electrons may share the same quantum state — one rule that builds the periodic table and keeps dead stars from collapsing.",
+      "body": "In 1925 Wolfgang Pauli found the rule hidden in the patterns of the periodic table: no two electrons in an atom can have exactly the same four quantum numbers — the same orbital and the same spin. Because spin has only two settings, each orbital holds at most two electrons, so the shells fill up in steps of 2, 8, 18 and 32, and how full an atom's outer shell is decides how it bonds — which is why elements in the same column of the periodic table behave alike. The rule binds all fermions, particles with half-integer spin such as electrons, quarks, protons and neutrons, while bosons such as photons can pile into the same state without limit, which is how a laser works. It is also why ordinary matter takes up room: electrons cannot all sink into the lowest orbital, and in 1967 Freeman Dyson and Andrew Lenard proved that without the principle matter would collapse into a far smaller volume. In burnt-out stars the same resistance, called degeneracy pressure, holds up white dwarfs of up to about 1.44 times the Sun's mass, and at far greater densities helps hold up neutron stars.",
+      "narrative": "The exclusion principle has no size of its own, but it sets the size of things. It is why atoms with dozens of electrons are not crushed smaller than hydrogen: each extra electron must take a place in a higher, wider shell. In a white dwarf it holds about the Sun's mass in a ball roughly the size of Earth, squeezing matter to about a tonne per cubic centimetre. Pile on more than about 1.44 solar masses and the electrons can no longer resist: they merge with protons into neutrons, whose own degeneracy pressure stops the collapse only at the far smaller size of a neutron star.",
+      "funFact": "Helium shows the rule at work. Helium-4 atoms are bosons and turn into a superfluid that flows without friction at about 2.17 K. Helium-3, a fermion with one neutron fewer, can't crowd together that way: it only becomes superfluid at 0.0025 K — almost 900 times colder — once its atoms pair up so that each pair behaves like a boson.",
+      "metaDescription": "Why no two electrons can share a state: how Pauli's 1925 rule builds the periodic table, makes matter take up space and holds up white dwarfs and neutron stars.",
+      "image": {
+        "alt": "An artist's impression comparing the white dwarf Sirius B with Earth against a starry sky: on the left a glowing blue-white ball, on the right Earth, about the same size, with Africa visible under white clouds."
+      },
+      "facts": {
+        "fact1": "Pauli published the principle in 1925 in Zeitschrift für Physik and won the 1945 Nobel Prize in Physics 'for the discovery of the Exclusion Principle, also called the Pauli Principle'.",
+        "fact2": "His key clue was a 1924 paper by Edmund Stoner, who matched the number of electron energy levels to the numbers of electrons in the closed shells of the noble gases.",
+        "fact3": "Pauli needed a fourth quantum number with only two values; Samuel Goudsmit and George Uhlenbeck identified it as the electron's spin.",
+        "fact4": "Each shell holds at most 2n² electrons — 2, 8, 18, 32 — and each orbital at most 2, with opposite spins.",
+        "fact5": "Pauli's spin–statistics theorem of 1940 extended the rule to all fermions (half-integer spin); bosons (whole-number spin) do not obey it.",
+        "fact6": "Paul Ehrenfest suggested in 1931 that the principle is why matter takes up space; Dyson and Lenard proved it in 1967, and Elliott Lieb and Walter Thirring found a much simpler proof in 1975.",
+        "fact7": "R. H. Fowler explained white dwarfs with electron degeneracy pressure in 1926; Subrahmanyan Chandrasekhar's limit of about 1.44 solar masses, worked out from 1930, helped win him the 1983 Nobel Prize in Physics.",
+        "fact8": "White-dwarf matter typically weighs between 10 kg and 10 tonnes per cubic centimetre; in neutron stars electrons have merged with protons into neutrons, whose degeneracy pressure resists even stronger gravity."
+      }
+    },
+    "atomic_nucleus": {
+      "name": "Atomic nucleus",
+      "seoTitle": "How Big Is an Atomic Nucleus? Size of the Atom's Core",
+      "tagline": "A knot of protons and neutrons about 14 femtometres across that holds almost all of an atom's mass.",
+      "body": "The nucleus is the tiny core at the centre of every atom: a tight cluster of protons and neutrons held together by the strong nuclear force. Ernest Rutherford discovered it in 1911, after Hans Geiger and Ernest Marsden fired alpha particles at thin gold foil and saw a few bounce straight back — something only a small, heavy, positively charged centre could do. A nucleus grows with the number of particles in it: its radius is roughly 1.2 femtometres times the cube root of that number, so the 197 protons and neutrons of a gold nucleus make a ball about 14 fm (0.000000000014 mm) across — the size we use here. The whole atom is tens of thousands of times wider: about 20,000 times for gold, and about 60,000 times for hydrogen, whose nucleus is a single proton. Yet the nucleus holds more than 99.9% of the atom's mass, because each proton or neutron weighs about 1,836 times as much as an electron. Packed that tightly, nuclear matter has a density of about 2 × 10¹⁷ kg/m³ — a teaspoonful would weigh around a billion tonnes.",
+      "narrative": "If a gold nucleus were blown up to the size of a 1.4-centimetre marble, the gold atom around it would be a ball about 290 metres across — nearly as tall as the Eiffel Tower (330 m). Each of its 197 protons and neutrons would be a bead about 2 millimetres wide. A proton, about 1.7 fm across, fits roughly eight times across the nucleus, and the nucleus fills only about one ten-trillionth of the atom's volume: everything else belongs to the cloud of electrons.",
+      "funFact": "Rutherford later described his astonishment: \"It was almost as incredible as if you fired a 15-inch shell at a piece of tissue paper and it came back and hit you.\" Under J. J. Thomson's \"plum pudding\" model, accepted at the time, the chance of an alpha particle bouncing back from the foil was so small that none should ever have been seen.",
+      "metaDescription": "A gold nucleus is about 14 femtometres across — 20,000 times narrower than its atom, yet it holds over 99.9% of the mass. Size, density and discovery.",
+      "image": {
+        "alt": "Diagram of a helium atom: a soft grey cloud of electrons, darkest at the centre, with a 1 ångström (100 pm) scale bar below. A tiny dot in the middle is magnified in an inset with a 1 femtometre scale bar, showing the nucleus as two red and two violet blobs — its protons and neutrons."
+      },
+      "facts": {
+        "fact1": "Size: the radius is roughly 1.2 fm × A^(1/3), where A is the number of protons plus neutrons. That gives about 1.7 fm across for hydrogen (a single proton), about 14 fm for gold and roughly 12–15 fm for uranium, depending on how the fuzzy edge is measured.",
+        "fact2": "Mass: more than 99.9% of an atom's mass sits in the nucleus. A proton or neutron is about 1,836 times heavier than an electron, so even gold's 79 electrons add only about 0.02%.",
+        "fact3": "Density: about 2 × 10¹⁷ kg/m³, roughly the same in every nucleus — about 10 trillion times denser than solid gold (19.3 g/cm³). Because the density is constant, a nucleus with 8 times as many particles is only twice as wide.",
+        "fact4": "Discovery: in 1909 Geiger and Marsden found that gold foil scatters some alpha particles by more than 90°. Rutherford's 1911 explanation put all the positive charge in a tiny centre; his alpha particles could only show that the gold nucleus is smaller than about 27 fm in radius — the true value is about 7 fm.",
+        "fact5": "Glue: the residual strong force reaches only a few femtometres, about one or two nucleon widths, but up close it overpowers the electric repulsion between protons. Lead-208 (82 protons, 126 neutrons) is the largest nucleus known to be completely stable.",
+        "fact6": "Not all nuclei are round: some are stretched like a rugby ball, flattened like a discus or even pear-shaped. The word nucleus is Latin for \"kernel\", a little nut; Rutherford gave it its atomic meaning in 1912."
+      }
+    },
+    "visible_light": {
+      "name": "Visible light",
+      "seoTitle": "How Long Is a Wave of Light? Wavelength of Visible Light",
+      "tagline": "Waves about half a micrometre long — the narrow slice of light our eyes can see, and the reason an ordinary microscope can't show you a virus.",
+      "body": "Visible light is the narrow band of electromagnetic waves the human eye can detect, with wavelengths from about 380 nanometres (violet) to about 750 nm (red). Each colour is a different wavelength: blue is about 450–485 nm, green 500–565 nm and red from about 625 nm up. We use 550 nm, close to 555 nm — the yellowish green the eye is most sensitive to in daylight, the wavelength written into the official definition of the lumen. Because light is a wave, no lens can focus it into a spot much smaller than half its wavelength: Ernst Abbe worked this out in 1873, and even the best ordinary light microscopes stop at about 200 nm. Cells, 1–100 µm across, are easy to see, but most viruses are smaller than that blur and need an electron microscope. The size of the waves also explains the blue sky: air molecules are far smaller than a wavelength and scatter short waves much more strongly (in proportion to 1/λ⁴), so blue sunlight at about 450 nm is scattered nearly six times more than red light at 700 nm.",
+      "narrative": "A 550-nanometre wave of green light is about five times longer than a 100 nm virus. A 2 µm bacterium is almost four waves long, a red blood cell (7.5 µm) about 14, and roughly 145 waves fit across a human hair (about 80 µm). Stretch one wave to a metre and, at the same scale, a virus would be 18 centimetres wide — but the hair would be 145 metres thick, a little more than the height of the Great Pyramid (139 m).",
+      "funFact": "For more than a century Abbe's limit looked like a law of nature. Then Eric Betzig, Stefan Hell and William Moerner found a way around it: instead of fighting the blur, they made fluorescent molecules in a sample glow only a few at a time, or switched off all the glow except a nanometre-sized spot. Their \"nanoscopy\" won the 2014 Nobel Prize in Chemistry — the light waves are still just as long, but light microscopes can now follow single molecules inside living cells.",
+      "metaDescription": "Visible light has wavelengths of about 380–750 nm; green is 550 nm, five times a virus. Why light microscopes stop near 200 nm and why the sky is blue.",
+      "image": {
+        "alt": "A clear triangular glass prism on a dark surface. A thin beam of white light passes through it and fans out into a band of colour across the surface, from red and orange through yellow and green to blue and violet."
+      },
+      "facts": {
+        "fact1": "Range: a typical eye sees wavelengths from about 380 to 750 nm, frequencies of roughly 400–790 trillion waves per second (THz). The edges are not sharp and vary from person to person.",
+        "fact2": "Colours by wavelength: violet 380–450 nm, blue 450–485, cyan 485–500, green 500–565, yellow 565–590, orange 590–625 and red 625–750. The spectrum is continuous — the boundaries are only approximate.",
+        "fact3": "In daylight the eye is most sensitive at 555 nm, a yellowish green. The lumen, the SI unit of how bright light looks, is defined at 540 THz, which is that same 555 nm.",
+        "fact4": "Abbe limit: the smallest detail a light microscope can separate is about λ / (2 × NA), where NA, the numerical aperture of the lens, reaches about 1.4–1.6 in the best optics — so about λ/2.8, roughly 200 nm for green light. Hermann von Helmholtz proved the same formula in 1874.",
+        "fact5": "Photon energy: each photon of visible light carries between about 1.65 electronvolts (deep red) and 3.26 eV (violet), so a violet photon has about twice the energy of a red one.",
+        "fact6": "Isaac Newton split white light with a prism and was the first to use the word spectrum this way in print, in 1671. He later added indigo to his list of colours because he believed seven was a perfect number.",
+        "fact7": "Sunsets: when the Sun is low, much of the blue has already been scattered out of its direct light, so the Sun itself looks yellow to red."
+      }
+    },
+    "mitochondrion": {
+      "name": "Mitochondrion",
+      "seoTitle": "Mitochondrion Size: A Cell's Former Bacterium",
+      "tagline": "A capsule about 2 micrometres long inside your cells — the descendant of a bacterium that moved into another cell some 2 billion years ago.",
+      "body": "Mitochondria are organelles — small compartments wrapped in two membranes — found in the cells of animals, plants, fungi and most other complex life. Their folded inner membrane is packed with protein machines that use oxygen to turn the energy in food into ATP, the molecule cells spend to power their work; this releases about 30 ATP per glucose molecule, against just 2 without them, which is why they are nicknamed the \"powerhouse of the cell\". In textbook pictures a mitochondrion is a capsule about 1 µm wide and 2 µm long — the length we use here — but in many living cells they keep splitting and merging into branching networks that stretch over tens of micrometres. They were once free-living bacteria: Lynn Margulis made the case in 1967, and today it is the accepted explanation, because mitochondria still carry their own small DNA, use bacteria-like ribosomes and divide by splitting in two. Their closest relatives are among the alphaproteobacteria, and the partnership probably began 1.7–2 billion years ago. A human liver cell holds about 1,000–2,000 of them, filling a fifth of its volume, while a red blood cell has none at all.",
+      "narrative": "A mitochondrion about 2 µm long is the same size as a typical bacterium — a reminder of where it came from. About 80 ribosomes (25 nm) would line up along it, a red blood cell (7.5 µm) is less than four mitochondria wide, and 40 laid end to end would span a human hair (80 µm). Blow a mitochondrion up to 2 metres, about the length of a bed, and at the same scale a ribosome would be the size of a coin (2.5 cm), a red blood cell would be 7.5 metres across, and a single hair would be a column 80 metres thick.",
+      "funFact": "A mature human egg cell carries about 100,000 mitochondria, with up to one and a half million copies of their DNA — as much as 90% of all the DNA in the egg. The sperm's mitochondria also get in at fertilisation, but they are tagged and destroyed, so with rare exceptions every mitochondrion in your body descends from your mother's.",
+      "metaDescription": "A mitochondrion is about 1 µm wide and 2 µm long — bacterium-sized, because it once was one. Its own DNA, mother-only inheritance and ATP, explained.",
+      "image": {
+        "alt": "Grey transmission electron micrograph of mammalian lung tissue showing two mitochondria, each cut across into a rounded outline with a dark double membrane and thin wavy ridges (cristae) running through a grainy interior."
+      },
+      "facts": {
+        "fact1": "Size: the textbook mitochondrion is a capsule about 1 µm wide and 2 µm long, usually 0.75–3 µm² in cross-section. In many cells they fuse into networks that spread over tens of micrometres.",
+        "fact2": "Numbers: mammalian cells typically hold 1,000–10,000 mitochondria. A liver cell has about 1,000–2,000 (a fifth of its volume), a lymphocyte about 3, a mature egg cell about 100,000 — and a red blood cell none.",
+        "fact3": "Their own DNA: human mitochondrial DNA is a ring of 16,569 base pairs carrying 37 genes — 13 for proteins of the energy-making machinery, 22 for transfer RNAs and 2 for ribosomal RNAs. Each mitochondrion holds about 5 copies.",
+        "fact4": "Inherited from the mother: in humans the mitochondria, and their DNA, normally come only from the egg, with rare exceptions.",
+        "fact5": "Origin: Lynn Margulis's paper \"On the Origin of Mitosing Cells\" was rejected by about fifteen journals before it appeared in 1967, and her idea that mitochondria were once bacteria was largely ignored for a decade. Today it is the textbook explanation; the ancestor was probably related to the alphaproteobacteria.",
+        "fact6": "Energy: with oxygen, mitochondria get about 30 ATP from each glucose molecule, against 2 from glycolysis alone. An adult recycles roughly 50 kg of ATP a day — about their own body weight — reusing each molecule 1,000–1,500 times.",
+        "fact7": "Name: Albert von Kölliker first described them in insect muscle in 1857, and Carl Benda named them mitochondria, \"thread-like granules\", in 1898. \"Powerhouse of the cell\" was popularised by Philip Siekevitz in a 1957 Scientific American article."
+      }
     }
   },
   "about": {
@@ -3804,6 +3932,38 @@
     "orbit": {
       "term": "Orbit",
       "definition": "The curved path one body follows around another under gravity, such as a planet around the Sun or the Moon around Earth. Most orbits are slightly stretched circles called ellipses."
+    },
+    "decoherence": {
+      "term": "Decoherence",
+      "definition": "The process by which a quantum superposition leaks into its surroundings — air molecules, light, heat — so that its parts can no longer interfere and the object behaves like an ordinary, classical thing."
+    },
+    "alpha_decay": {
+      "term": "Alpha decay",
+      "definition": "A kind of radioactivity in which a heavy nucleus throws out an alpha particle — two protons and two neutrons, the nucleus of a helium atom — by tunnelling through the barrier that holds it in."
+    },
+    "josephson_junction": {
+      "term": "Josephson junction",
+      "definition": "Two superconductors separated by a very thin insulating layer that paired electrons can tunnel through. Used in ultra-sensitive magnetic sensors, voltage standards and superconducting quantum computers."
+    },
+    "fermion": {
+      "term": "Fermion",
+      "definition": "A particle with half-integer spin (½, 3⁄2 …), such as an electron, quark, proton or neutron. No two identical fermions can share the same quantum state — the Pauli exclusion principle."
+    },
+    "wavelength": {
+      "term": "Wavelength",
+      "definition": "The distance from one crest of a wave to the next. For light it sets the colour: about 380 nm for violet up to about 750 nm for red."
+    },
+    "diffraction_limit": {
+      "term": "Diffraction limit",
+      "definition": "The finest detail a lens can show, set by the wave nature of light: about half the wavelength in the best microscopes, roughly 200 nm for visible light (the Abbe limit)."
+    },
+    "endosymbiosis": {
+      "term": "Endosymbiosis",
+      "definition": "One organism living inside the cells of another to the benefit of both. Mitochondria and chloroplasts began this way, as bacteria taken in by a larger cell more than a billion years ago."
+    },
+    "atp": {
+      "term": "ATP",
+      "definition": "Adenosine triphosphate, the small molecule every cell uses as its energy currency: breaking off one of its phosphate groups releases energy to drive muscles, nerves and chemical reactions."
     }
   },
   "faq": {
@@ -3933,7 +4093,10 @@
       "pillars_of_creation": "the tallest Pillar of Creation",
       "kuiper_belt": "the Kuiper Belt",
       "trappist_1": "TRAPPIST-1",
-      "saturn_rings": "Saturn's ring system"
+      "saturn_rings": "Saturn's ring system",
+      "atomic_nucleus": "an atomic nucleus",
+      "visible_light": "a wave of visible light",
+      "mitochondrion": "a mitochondrion"
     },
     "a7where": "The typical temperature of {name} is about {temp} — {note}.",
     "a2taller": "{Name} is roughly {ratio} times taller than a 1.7 m human.",

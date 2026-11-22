@@ -2819,6 +2819,154 @@
       "tags": [
         "phenomenon"
       ]
+    },
+    {
+      "id": "quantum_superposition",
+      "i18nKey": "stops.quantum_superposition",
+      "sizeMeters": null,
+      "order": 3.52,
+      "badge": "FACT",
+      "category": "PHYSICS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/quantum-superposition.webp",
+        "aspect": "wide",
+        "altKey": "stops.quantum_superposition.image.alt",
+        "credit": "Dhatfield — CC BY-SA 3.0 (cropped)"
+      },
+      "glossary": [
+        "superposition",
+        "wave_function",
+        "decoherence",
+        "many_worlds"
+      ],
+      "tags": [
+        "phenomenon"
+      ]
+    },
+    {
+      "id": "quantum_tunnelling",
+      "i18nKey": "stops.quantum_tunnelling",
+      "sizeMeters": null,
+      "order": 3.62,
+      "badge": "FACT",
+      "category": "PHYSICS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/quantum-tunnelling.webp",
+        "aspect": "wide",
+        "altKey": "stops.quantum_tunnelling.image.alt",
+        "credit": "J Brew — CC BY-SA 2.0 (cropped)"
+      },
+      "glossary": [
+        "wave_function",
+        "fusion",
+        "alpha_decay",
+        "josephson_junction"
+      ],
+      "tags": [
+        "phenomenon"
+      ]
+    },
+    {
+      "id": "pauli_exclusion_principle",
+      "i18nKey": "stops.pauli_exclusion_principle",
+      "sizeMeters": null,
+      "order": 3.64,
+      "badge": "ESTABLISHED_THEORY",
+      "category": "PHYSICS",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/pauli-exclusion-principle.webp",
+        "aspect": "wide",
+        "altKey": "stops.pauli_exclusion_principle.image.alt",
+        "credit": "ESA and NASA — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "spin",
+        "orbital",
+        "fermion",
+        "degenerate_matter"
+      ],
+      "tags": [
+        "matter"
+      ]
+    },
+    {
+      "id": "atomic_nucleus",
+      "i18nKey": "stops.atomic_nucleus",
+      "sizeMeters": 1.4e-14,
+      "order": 2.7,
+      "badge": "FACT",
+      "category": "MICRO_WORLD",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/atomic-nucleus.webp",
+        "aspect": "square",
+        "altKey": "stops.atomic_nucleus.image.alt",
+        "credit": "Yzmo — CC BY-SA 3.0 (cropped)"
+      },
+      "glossary": [
+        "nucleus",
+        "strong_force",
+        "electron"
+      ],
+      "tags": [
+        "matter"
+      ]
+    },
+    {
+      "id": "visible_light",
+      "i18nKey": "stops.visible_light",
+      "sizeMeters": 5.5e-7,
+      "order": 4.52,
+      "badge": "FACT",
+      "category": "MICRO_WORLD",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/visible-light.webp",
+        "aspect": "wide",
+        "altKey": "stops.visible_light.image.alt",
+        "credit": "Kelvinsong — CC0"
+      },
+      "glossary": [
+        "photon",
+        "wavelength",
+        "diffraction_limit"
+      ],
+      "tags": [
+        "phenomenon"
+      ]
+    },
+    {
+      "id": "mitochondrion",
+      "i18nKey": "stops.mitochondrion",
+      "sizeMeters": 2e-6,
+      "order": 4.56,
+      "badge": "FACT",
+      "category": "MICRO_WORLD",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/mitochondrion.webp",
+        "aspect": "wide",
+        "altKey": "stops.mitochondrion.image.alt",
+        "credit": "Louisa Howard, Dartmouth Electron Microscope Facility — public domain"
+      },
+      "glossary": [
+        "organelle",
+        "genome",
+        "endosymbiosis",
+        "atp"
+      ],
+      "tags": [
+        "biology"
+      ]
     }
   ]
 }

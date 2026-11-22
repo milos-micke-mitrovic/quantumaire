@@ -307,3 +307,11 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Mobile check of all 9 topics + guide in both locales (live): no overflow.
 - Lighthouse mobile (live): trappist_1 91, pyramid-vs-el-castillo 88; a11y/BP/SEO 100, CLS 0.
 - Pairs (49): kuiper-belt-vs-asteroid-belt, pyramid-vs-el-castillo, trappist-1-vs-jupiter, sun-vs-trappist-1, pillars-of-creation-vs-solar-system, saturn-rings-vs-earth. Dropped: Newgrange vs Stonehenge (mound vs circle diameter; people search it for age), Saturn's rings vs Saturn (part of it).
+
+## 2026-11-22 — round 8 plan; blocks 1–2: quantum ideas + micro sizes
+- Round 8 (owner: "ok do all"): strengthen the quantum/micro side (Cosmos 57 topics vs Micro-World 16, Forces & Spacetime 12), plus 3 ancient sky sites.
+- New PHYSICS ideas (agent drafts, 5 sources each): Quantum Superposition (Schrödinger's cat as a 1935 criticism, Einstein's gunpowder keg, decoherence; interpretations as interpretations), Quantum Tunnelling (Gamow/Gurney–Condon 1928, Sun's core protons tunnel, STM, flash memory, 2025 Nobel to Clarke/Devoret/Martinis), Pauli Exclusion Principle (1925, shells 2/8/18/32, Dyson–Lenard 1967 stability of matter, degeneracy pressure, ESTABLISHED_THEORY). New glossary: decoherence, alpha_decay, josephson_junction, fermion.
+- New MICRO_WORLD sizes: Atomic nucleus (1.4e-14 m = gold-197; atom 20,000–60,000× wider), Visible light (wavelength 5.5e-7 m, 555 nm eye peak; Abbe limit ~200 nm, 2014 Nobel nanoscopy, 1/λ⁴ blue sky), Mitochondrion (2e-6 m length; endosymbiosis, 16,569 bp mtDNA). New glossary: wavelength, diffraction_limit, endosymbiosis, atp.
+- Guides: quantum-physics +superposition/tunnelling/Pauli/visible light; smallest-things +nucleus/light/mitochondrion; human-body +mitochondrion.
+- Size FAQ: exact same-size neighbours (ratio < 1.01) are never named — mitochondrion vs bacterium read "about 1 times smaller". Atom's step down is now the nucleus (test updated). Mitochondrion SEO titles shortened (60-char test).
+- Dev check: 12 pages 200, mobile no overflow.

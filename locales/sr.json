@@ -2813,6 +2813,134 @@
         "fact5": "Procepi i bledi prstenovi: Kasinijeva pukotina između prstenova A i B široka je oko 4.700 km (neki izvori navode 4.800 km). Iza glavnih prstenova, bledi prsten E, koji pune ledeni mlazovi Enceladusa, pruža se od oko 180.000 do 480.000 km od Saturna i debeo je više od 2.000 km.",
         "fact6": "Starost: otvoreno pitanje. Merenje mase koje je izvršila sonda Cassini i čist led ukazivali su na starost od samo 10–100 miliona godina; studija iz 2024. u časopisu Nature Geoscience zaključila je da dolazeća prašina uglavnom ispari umesto da zatamni led, pa bi prstenovi mogli biti stari milijardama godina. Led koji polako pada na Saturn mogao bi ih potpuno istrošiti za otprilike 100–300 miliona godina."
       }
+    },
+    "quantum_superposition": {
+      "name": "Kvantna superpozicija",
+      "seoTitle": "Kvantna superpozicija i Šredingerova mačka — objašnjenje",
+      "tagline": "Dok se ne izmeri, kvantni sistem može biti u mešavini više stanja odjednom — a Šredinger je izmislio svoju mačku da pokaže koliko to čudno zvuči.",
+      "body": "U kvantnoj mehanici čestica ne mora biti u samo jednom stanju: elektron može biti u kombinaciji, odnosno superpoziciji, spina „gore“ i spina „dole“, a atom u mešavini dva položaja, pri čemu svaka mogućnost ima svoju verovatnoću da se pokaže kad pogledamo. To nije samo naše neznanje o skrivenom odgovoru — mogućnosti interferiraju jedna s drugom kao talasi koji se preklapaju, i upravo to stvara pruge u eksperimentu sa dve pukotine i omogućava proračune kvantnih računara. Ipak, svako merenje daje samo jedan rezultat. Ervin Šredinger je 1935. zamislio da je sudbina jednog atoma vezana za mačku u zatvorenoj kutiji: ako se atom raspadne, čekić razbija bočicu otrova. Shvaćene doslovno, jednačine ostavljaju mačku i živu i mrtvu dok neko ne pogleda — slučaj koji je sam Šredinger nazvao „sasvim smešnim“, a smislio ga je kao kritiku tadašnjeg tumačenja kvantne teorije, ne kao tvrdnju da prave mačke mogu biti polumrtve. Danas se to što nikad ne vidimo „zamućenu“ mačku obično objašnjava dekoherencijom: veliki predmet se neprestano sudara s molekulima vazduha i svetlošću, koji gotovo trenutno raznesu njegovu superpoziciju u okolinu — a šta, ako išta, potom bira jedan ishod i dalje je predmet spora među suprotstavljenim tumačenjima.",
+      "narrative": "Kvantna superpozicija nema sopstvenu veličinu, ali koliko velika superpozicija može da bude jedno je od otvorenih pitanja fizike. Eksperimenti su se popeli od pojedinačnih elektrona i atoma do molekula od 2.000 atoma (2019) i, 2023. godine, do kristala safira od 16 mikrograma — otprilike mase sitnog zrna peska — čija su dva stanja vibracije bila u superpoziciji. Mačka od 4 kilograma i dalje je oko 250 miliona puta teža, i niko još ne zna da li superpozicije samo postaju sve teže za očuvanje kako stvari rastu ili ih neka još nepoznata pojava potpuno zaustavlja.",
+      "funFact": "Pre mačke postojalo je bure baruta. U pismima koja su razmenili posle rada Ajnštajna, Podolskog i Rozena iz 1935, Ajnštajn je primetio da bi, shvaćene doslovno, jednačine ostavile nestabilno bure baruta u stanju u kom je istovremeno i eksplodiralo i nije. Šredinger je bure pretvorio u mačku — a Ajnštajn je mačku hvalio još u pismu iz 1950.",
+      "metaDescription": "Šta je zaista kvantna superpozicija, zašto je Šredingerova mačka zamišljena kao kritika, kako je dekoherencija skriva i šta je najteže dovedeno u superpoziciju.",
+      "image": {
+        "alt": "Dijagram Šredingerovog misaonog eksperimenta: u kutiji je radioaktivni izvor preko detektora i poluge povezan sa čekićem koji je razbio bočicu zelenog otrova, dok dve preklopljene sive siluete prikazuju mačku istovremeno kako hoda i kako leži."
+      },
+      "facts": {
+        "fact1": "Šredinger je mačku opisao u radu „Die gegenwärtige Situation in der Quantenmechanik“ („Sadašnje stanje u kvantnoj mehanici“), objavljenom u časopisu Naturwissenschaften u novembru 1935, kao odgovor na rad Ajnštajna, Podolskog i Rozena iz maja 1935.",
+        "fact2": "U njegovoj postavci sićušna količina radioaktivne supstance daje jednom atomu šansu 50:50 da se raspadne u roku od sat vremena; Gajgerov brojač, relej i čekić vezuju taj jedan atom za bočicu cijanovodonične kiseline.",
+        "fact3": "Kubit, osnovni gradivni element kvantnog računara, superpozicija je stanja 0 i 1: dva broja, zvana amplitude, određuju verovatnoću da se očita svaki od rezultata.",
+        "fact4": "Godina 1996. bila je prelomna: u NIST-u u SAD jedan jon berilijuma doveden je u superpoziciju dva razdvojena položaja, a u Parizu je tim Serža Aroša prvi put pratio kako superpozicija korak po korak bledi usled dekoherencije.",
+        "fact5": "Aroš i Dejvid Vajnlend podelili su Nobelovu nagradu za fiziku 2012. za eksperimentalne metode koje omogućavaju merenje pojedinačnih kvantnih sistema i upravljanje njima.",
+        "fact6": "Dekoherencija je postala zasebna oblast istraživanja radom H. Ditera Cea iz 1970. Ona objašnjava zašto superpozicije nestaju iz vidokruga, ali fizičari se i dalje ne slažu da li u potpunosti rešava „problem merenja“.",
+        "fact7": "Najteža „mačka“ do sada (2023): kristal safira od 16 mikrograma na ETH u Cirihu, u superpoziciji dve vibracije čiji su se položaji razlikovali za samo oko 10⁻¹⁸ m — daleko manje od širine protona.",
+        "fact8": "Tumačenja, a ne eksperimenti, razilaze se oko toga šta merenje čini: po kopenhaškom tumačenju talasna funkcija se „urušava“ u jedan rezultat; po mnogosvetskoj interpretaciji Hjua Evereta (1957) svaki ishod se ostvaruje u sopstvenoj grani; teorije objektivnog kolapsa predviđaju da se dovoljno velike superpozicije raspadaju same od sebe — što nijedan eksperiment još nije video."
+      }
+    },
+    "quantum_tunnelling": {
+      "name": "Kvantno tunelovanje",
+      "seoTitle": "Šta je kvantno tunelovanje? Prolazak kroz zidove, objašnjen",
+      "tagline": "Čestica se može pojaviti s druge strane prepreke preko koje nema dovoljno energije da pređe — i zbog toga Sunce sija.",
+      "body": "Gurnite loptu preslabo uz brdo i ona će se vratiti. Kvantnu česticu, međutim, opisuje talas, a talas se ne zaustavlja naglo na prepreci: unutar nje slabi, i ako je prepreka dovoljno tanka, deo talasa stigne na drugu stranu — pa čestica ima malu šansu da se jednostavno pojavi tamo. Ta šansa naglo, eksponencijalno opada kako prepreka postaje viša ili deblja, zbog čega je tunelovanje važno za elektrone i atomska jezgra, ali čoveku nikad neće dopustiti da prođe kroz zid. Džordž Gamov je 1928, a nezavisno od njega i Ronald Garni i Edvard Kondon, tunelovanjem objasnio alfa-raspad: teška jezgra izbacuju alfa-čestice koje nemaju dovoljno energije da pređu preko električne barijere koja ih drži unutra. Isti efekat održava Sunce: protoni u njegovom jezgru, na oko 15 miliona stepeni, u proseku imaju tek oko hiljaditi deo energije potrebne da savladaju međusobno odbijanje, i spajaju se samo zato što neki od njih kroz to odbijanje protuneluju. Na njemu počiva i tehnologija — skenirajući tunelski mikroskopi koji mapiraju pojedinačne atome i fleš-memorija u telefonima i USB stikovima.",
+      "narrative": "Kvantno tunelovanje nema sopstvenu veličinu, ali njime vlada rastojanje: deluje preko procepa od nekoliko nanometara ili manje. U skenirajućem tunelskom mikroskopu struja opadne oko deset puta za svakih dodatnih 0,1 nanometar između vrha i površine — otprilike širinu jednog atoma — i upravo mu to omogućava da „opipa“ pojedinačne atome. Veći predmeti sastoje se od bezbroj čestica koje bi sve morale da protuneluju zajedno, pa šanse nestaju — a ipak je 1984–85. superprovodno kolo na čipu veličine oko jednog centimetra, sa milijardama parova elektrona koji se ponašaju kao celina, protunelovalo, što je donelo Nobelovu nagradu za fiziku 2025.",
+      "funFact": "Tunelovanje je izuzetno osetljivo na energiju. Alfa-čestice napuštaju teška jezgra sa energijama koje se razlikuju svega oko dva puta, od oko 4 do 9 MeV, a vremena poluraspada protežu se preko 20 redova veličine — od oko desetog dela mikrosekunde do oko 10 milijardi godina. Alfa-čestica polonijuma-212 nosi 8,78 MeV naspram barijere od oko 26 MeV, preko koje nikad ne bi mogla da se popne, a ipak se polovina jezgara u uzorku raspadne za 0,3 mikrosekunde.",
+      "metaDescription": "Kako čestice prolaze kroz prepreke preko kojih ne mogu da pređu: zašto Sunce sija, kako rade alfa-raspad, tunelski mikroskop i fleš-memorija, i Nobel 2025.",
+      "image": {
+        "alt": "Prvi skenirajući tunelski mikroskop, napravljen u IBM-u u Cirihu 1981, odozgo, u staklenoj posudi u Nemačkom muzeju: okruglo postolje boje zlata sa sitnim metalnim držačima i belim keramičkim delovima, okruženo crvenim žicama i izgužvanom aluminijumskom folijom."
+      },
+      "facts": {
+        "fact1": "Fridrih Hund je prvi primenio novu talasnu mehaniku na tunelovanje 1927; engleski naziv „tunnel effect“ prvi put se pojavio u udžbeniku Jakova Frenkela iz 1932.",
+        "fact2": "Alfa-raspad je prva pojava koju je tunelovanje objasnilo — to su 1928. učinili Džordž Gamov i, odvojeno od njega, Ronald Garni i Edvard Kondon.",
+        "fact3": "Bez tunelovanja protonima bi za fuziju bila potrebna temperatura od oko 10 milijardi kelvina — stotinama puta viša od temperature Sunčevog jezgra, oko 15 miliona K.",
+        "fact4": "Leo Esaki je 1957. napravio tunelsku diodu, a Nobelovu nagradu za fiziku za 1973. podelio je sa Ivarom Đeverom i Brajanom Džozefsonom za tunelovanje u poluprovodnicima i superprovodnicima.",
+        "fact5": "Gerd Binig i Hajnrih Rorer napravili su skenirajući tunelski mikroskop u IBM-ovoj laboratoriji u Cirihu 1981. i dobili polovinu Nobelove nagrade za fiziku za 1986. (drugu polovinu dobio je Ernst Ruska za elektronski mikroskop). Razaznaje detalje manje od 0,1 nm po širini i 0,01 nm po visini.",
+        "fact6": "Fleš-memorija u telefonima, SSD diskovima i USB stikovima upisuje i briše bitove tako što elektrone kroz tanak izolacioni sloj gura na „plutajuću kapiju“ — tunelovanjem.",
+        "fact7": "Nobelova nagrada za fiziku 2025: Džon Klark, Mišel Devore i Džon Martinis, „za otkriće makroskopskog kvantnomehaničkog tunelovanja i kvantizacije energije u električnom kolu“ — eksperimenti na Kalifornijskom univerzitetu u Berkliju 1984–85.",
+        "fact8": "Tunelovanje ume i da smeta: u najsitnijim tranzistorima propušta struju kroz izolacione slojeve, pa se energija gubi kao toplota, a delovi tanji od oko 1 nm propuštaju toliko da to ograničava koliko se čipovi još mogu smanjiti."
+      }
+    },
+    "pauli_exclusion_principle": {
+      "name": "Paulijev princip isključenja",
+      "seoTitle": "Paulijev princip isključenja: zašto materija zauzima prostor",
+      "tagline": "Dva elektrona ne mogu biti u istom kvantnom stanju — jedno pravilo koje gradi periodni sistem i čuva ugašene zvezde od urušavanja.",
+      "body": "Volfgang Pauli je 1925. otkrio pravilo skriveno u obrascima periodnog sistema: nikoja dva elektrona u atomu ne mogu imati potpuno ista četiri kvantna broja — isti orbital i isti spin. Pošto spin ima samo dve vrednosti, svaki orbital prima najviše dva elektrona, pa se ljuske popunjavaju u koracima od 2, 8, 18 i 32, a od toga koliko je popunjena spoljna ljuska zavisi kako se atom vezuje — zato se elementi iz iste kolone periodnog sistema ponašaju slično. Pravilo važi za sve fermione, čestice sa polucelobrojnim spinom, poput elektrona, kvarkova, protona i neutrona, dok bozoni, poput fotona, mogu neograničeno da se gomilaju u istom stanju, i na tome počiva laser. Ono je i razlog što obična materija zauzima prostor: elektroni ne mogu svi da se spuste u najniži orbital, a Frimen Dajson i Endru Lenard dokazali su 1967. da bi se bez ovog principa materija urušila u daleko manju zapreminu. U ugašenim zvezdama isti otpor, nazvan pritisak degeneracije, drži bele patuljke mase do oko 1,44 Sunčeve mase, a pri daleko većim gustinama pomaže da se održe i neutronske zvezde.",
+      "narrative": "Princip isključenja nema sopstvenu veličinu, ali određuje veličinu stvari. Zbog njega atomi sa desetinama elektrona nisu sabijeni u nešto manje od vodonika: svaki dodatni elektron mora da zauzme mesto u višoj, široj ljusci. U belom patuljku on drži otprilike masu Sunca u kugli približne veličine Zemlje, sabijajući materiju na oko tonu po kubnom centimetru. Dodajte više od oko 1,44 Sunčeve mase i elektroni više ne mogu da se odupru: spajaju se sa protonima u neutrone, čiji pritisak degeneracije zaustavlja urušavanje tek na daleko manjoj veličini neutronske zvezde.",
+      "funFact": "Helijum pokazuje kako pravilo deluje. Atomi helijuma-4 su bozoni i na oko 2,17 K prelaze u superfluid koji teče bez trenja. Helijum-3, fermion sa jednim neutronom manje, ne može tako da se zbije: superfluid postaje tek na 0,0025 K — skoro 900 puta hladnije — kada mu se atomi upare tako da se svaki par ponaša kao bozon.",
+      "metaDescription": "Zašto dva elektrona ne mogu biti u istom stanju: kako Paulijevo pravilo iz 1925. gradi periodni sistem, daje materiji zapreminu i drži bele patuljke.",
+      "image": {
+        "alt": "Umetnička predstava koja poredi beli patuljak Sirijus B sa Zemljom na zvezdanom nebu: levo užarena plavobela kugla, desno Zemlja, približno iste veličine, sa Afrikom vidljivom ispod belih oblaka."
+      },
+      "facts": {
+        "fact1": "Pauli je princip objavio 1925. u časopisu Zeitschrift für Physik, a Nobelovu nagradu za fiziku za 1945. dobio je „za otkriće principa isključenja, koji se naziva i Paulijev princip“.",
+        "fact2": "Ključni trag dao mu je rad Edmunda Stonera iz 1924, koji je broj energetskih nivoa elektrona povezao sa brojem elektrona u popunjenim ljuskama plemenitih gasova.",
+        "fact3": "Pauliju je bio potreban četvrti kvantni broj sa samo dve vrednosti; Samjuel Hautsmit i Džordž Ulenbek prepoznali su ga kao spin elektrona.",
+        "fact4": "Svaka ljuska prima najviše 2n² elektrona — 2, 8, 18, 32 — a svaki orbital najviše 2, sa suprotnim spinovima.",
+        "fact5": "Paulijeva teorema o spinu i statistici iz 1940. proširila je pravilo na sve fermione (polucelobrojni spin); bozoni (celobrojni spin) ga ne poštuju.",
+        "fact6": "Paul Erenfest je 1931. predložio da je ovaj princip razlog što materija zauzima prostor; Dajson i Lenard dokazali su to 1967, a Eliot Lib i Valter Tiring našli su mnogo jednostavniji dokaz 1975.",
+        "fact7": "Ralf Fauler je 1926. objasnio bele patuljke pritiskom degenerisanih elektrona; granica Subramanijana Čandrasekara od oko 1,44 Sunčeve mase, koju je počeo da izračunava 1930, donela mu je deo Nobelove nagrade za fiziku za 1983.",
+        "fact8": "Materija belog patuljka obično ima gustinu od 10 kg do 10 tona po kubnom centimetru; u neutronskim zvezdama elektroni su se spojili sa protonima u neutrone, čiji pritisak degeneracije odoleva još jačoj gravitaciji."
+      }
+    },
+    "atomic_nucleus": {
+      "name": "Atomsko jezgro",
+      "seoTitle": "Koliko je veliko atomsko jezgro? Veličina središta atoma",
+      "tagline": "Klupko protona i neutrona široko oko 14 femtometara, u kojem je gotovo sva masa atoma.",
+      "body": "Jezgro je sićušno središte svakog atoma: zbijena grupa protona i neutrona koje na okupu drži jaka nuklearna sila. Otkrio ga je Ernest Raderford 1911. godine, pošto su Hans Gajger i Ernest Marsden gađali tanku zlatnu foliju alfa-česticama i videli da se poneka odbije pravo nazad — a to je moglo da uradi samo malo, teško, pozitivno naelektrisano središte. Jezgro raste sa brojem čestica u njemu: poluprečnik je otprilike 1,2 femtometra pomnoženo kubnim korenom tog broja, pa 197 protona i neutrona jezgra zlata čine kuglicu prečnika oko 14 fm (0,000000000014 mm) — tu vrednost ovde koristimo. Ceo atom je desetine hiljada puta širi: kod zlata oko 20.000 puta, a kod vodonika, čije je jezgro jedan jedini proton, oko 60.000 puta. Ipak, u jezgru je više od 99,9% mase atoma, jer je svaki proton ili neutron oko 1.836 puta masivniji od elektrona. Tako zbijena nuklearna materija ima gustinu od oko 2 × 10¹⁷ kg/m³ — kafena kašičica te materije imala bi masu od oko milijardu tona.",
+      "narrative": "Kad bi se jezgro zlata uvećalo do veličine klikera od 1,4 centimetra, atom zlata oko njega bio bi lopta prečnika oko 290 metara — skoro visine Ajfelove kule (330 m). Svaki od 197 protona i neutrona bio bi zrnce široko oko 2 milimetra. Proton, širok oko 1,7 fm, stao bi otprilike osam puta preko prečnika jezgra, a samo jezgro zauzima tek oko desetbilionitog dela zapremine atoma: sve ostalo pripada oblaku elektrona.",
+      "funFact": "Raderford je kasnije opisao koliko ga je rezultat zapanjio: „Bilo je to gotovo isto toliko neverovatno kao da ste ispalili granatu od 15 inča na list svilenog papira, a ona se vratila i pogodila vas.“ Po tada prihvaćenom Tomsonovom modelu „pudinga sa šljivama“, verovatnoća da se alfa-čestica odbije od folije unazad bila je toliko mala da nijedna nije smela da bude viđena.",
+      "metaDescription": "Jezgro zlata široko je oko 14 femtometara — 20.000 puta uže od svog atoma, a ipak nosi preko 99,9% mase. Veličina, gustina i otkriće atomskog jezgra.",
+      "image": {
+        "alt": "Dijagram atoma helijuma: mekan sivi oblak elektrona, najtamniji u sredini, sa razmernikom od 1 angstrema (100 pm) ispod. Sićušna tačka u središtu uvećana je u umetku sa razmernikom od 1 femtometra i prikazuje jezgro kao dve crvene i dve ljubičaste mrlje — njegove protone i neutrone."
+      },
+      "facts": {
+        "fact1": "Veličina: poluprečnik je otprilike 1,2 fm × A^(1/3), gde je A broj protona i neutrona. To daje prečnik od oko 1,7 fm za vodonik (jedan proton), oko 14 fm za zlato i otprilike 12–15 fm za uranijum, zavisno od toga kako se meri njegova nejasna ivica.",
+        "fact2": "Masa: više od 99,9% mase atoma nalazi se u jezgru. Proton ili neutron oko 1.836 puta je masivniji od elektrona, pa i 79 elektrona zlata dodaje samo oko 0,02%.",
+        "fact3": "Gustina: oko 2 × 10¹⁷ kg/m³, otprilike ista u svakom jezgru — oko 10 biliona puta veća od gustine čvrstog zlata (19,3 g/cm³). Pošto je gustina stalna, jezgro sa 8 puta više čestica samo je dva puta šire.",
+        "fact4": "Otkriće: Gajger i Marsden su 1909. godine otkrili da zlatna folija neke alfa-čestice skreće za više od 90°. Raderfordovo objašnjenje iz 1911. smestilo je sve pozitivno naelektrisanje u sićušno središte; njegove alfa-čestice mogle su da pokažu samo da je poluprečnik jezgra zlata manji od oko 27 fm — stvarna vrednost je oko 7 fm.",
+        "fact5": "Lepak: rezidualna jaka sila deluje samo na nekoliko femtometara, oko jedne do dve širine nukleona, ali izbliza nadjačava električno odbijanje između protona. Olovo-208 (82 protona, 126 neutrona) najveće je jezgro za koje se zna da je potpuno stabilno.",
+        "fact6": "Nisu sva jezgra okrugla: neka su izdužena kao lopta za ragbi, spljoštena kao disk ili čak kruškolika. Reč nucleus na latinskom znači „koštica“, mali orah; atomsko značenje dao joj je Raderford 1912. godine."
+      }
+    },
+    "visible_light": {
+      "name": "Vidljiva svetlost",
+      "seoTitle": "Kolika je talasna dužina vidljive svetlosti?",
+      "tagline": "Talasi dugi oko pola mikrometra — uzan deo svetlosti koji naše oči vide i razlog zašto običan mikroskop ne može da vam pokaže virus.",
+      "body": "Vidljiva svetlost je uzan pojas elektromagnetnih talasa koje ljudsko oko može da opazi, talasnih dužina od oko 380 nanometara (ljubičasta) do oko 750 nm (crvena). Svaka boja je druga talasna dužina: plava je oko 450–485 nm, zelena 500–565 nm, a crvena od oko 625 nm naviše. Ovde koristimo 550 nm, blizu 555 nm — žutozelene boje na koju je oko po danu najosetljivije, talasne dužine upisane u zvaničnu definiciju lumena. Pošto je svetlost talas, nijedno sočivo ne može da je fokusira u tačku mnogo manju od pola talasne dužine: to je 1873. godine pokazao Ernst Abe, pa i najbolji obični svetlosni mikroskopi staju na oko 200 nm. Ćelije, široke 1–100 µm, lako se vide, ali je većina virusa manja od tog zamućenja i za njih je potreban elektronski mikroskop. Veličina talasa objašnjava i plavo nebo: molekuli vazduha mnogo su manji od talasne dužine i mnogo jače rasipaju kratke talase (srazmerno 1/λ⁴), pa se plava sunčeva svetlost od oko 450 nm rasipa skoro šest puta više od crvene od 700 nm.",
+      "narrative": "Talas zelene svetlosti od 550 nanometara oko pet puta je duži od virusa od 100 nm. Bakterija od 2 µm duga je skoro četiri talasa, crveno krvno zrnce (7,5 µm) oko 14, a preko ljudske vlasi (oko 80 µm) stane oko 145 talasa. Kad bi se jedan talas razvukao na metar, virus bi u istoj razmeri bio širok 18 centimetara — ali vlas bi bila debela 145 metara, nešto više od visine Velike piramide (139 m).",
+      "funFact": "Više od jednog veka Abeova granica izgledala je kao zakon prirode. Onda su Erik Becig, Štefan Hel i Vilijam Merner našli način da je zaobiđu: umesto da se bore sa zamućenjem, naterali su fluorescentne molekule u uzorku da svetle samo po nekoliko odjednom, ili su gasili sav sjaj osim u tački veličine nekoliko nanometara. Njihova „nanoskopija“ donela im je Nobelovu nagradu za hemiju 2014. godine — talasi svetlosti i dalje su isto toliko dugi, ali svetlosni mikroskopi sada mogu da prate pojedinačne molekule u živim ćelijama.",
+      "metaDescription": "Vidljiva svetlost ima talasne dužine od oko 380–750 nm; zelena je 550 nm, pet puta više od virusa. Zašto mikroskop staje kod 200 nm i zašto je nebo plavo.",
+      "image": {
+        "alt": "Prozirna trostrana staklena prizma na tamnoj podlozi. Tanak snop bele svetlosti prolazi kroz nju i lepezasto se razlaže u traku boja preko podloge, od crvene i narandžaste preko žute i zelene do plave i ljubičaste."
+      },
+      "facts": {
+        "fact1": "Opseg: tipično oko vidi talasne dužine od oko 380 do 750 nm, odnosno frekvencije od otprilike 400–790 biliona talasa u sekundi (THz). Granice nisu oštre i razlikuju se od osobe do osobe.",
+        "fact2": "Boje po talasnoj dužini: ljubičasta 380–450 nm, plava 450–485, cijan 485–500, zelena 500–565, žuta 565–590, narandžasta 590–625 i crvena 625–750. Spektar je neprekidan — granice su samo približne.",
+        "fact3": "Po danu je oko najosetljivije na 555 nm, žutozelenu svetlost. Lumen, SI jedinica za to koliko nam svetlost izgleda sjajno, definisan je na 540 THz, što je upravo tih 555 nm.",
+        "fact4": "Abeova granica: najmanji detalj koji svetlosni mikroskop može da razdvoji iznosi oko λ / (2 × NA), gde NA, numerička apertura objektiva, u najboljoj optici dostiže oko 1,4–1,6 — dakle oko λ/2,8, otprilike 200 nm za zelenu svetlost. Herman fon Helmholc dokazao je istu formulu 1874. godine.",
+        "fact5": "Energija fotona: svaki foton vidljive svetlosti nosi između oko 1,65 elektronvolta (tamnocrvena) i 3,26 eV (ljubičasta), pa ljubičasti foton ima oko dva puta više energije od crvenog.",
+        "fact6": "Isak Njutn je prizmom razložio belu svetlost i prvi upotrebio reč spektar u tom smislu u štampi, 1671. godine. Kasnije je svom spisku boja dodao indigo, jer je verovao da je sedam savršen broj.",
+        "fact7": "Zalasci Sunca: kad je Sunce nisko, iz njegove direktne svetlosti već je rasut veliki deo plave, pa samo Sunce izgleda žuto do crveno."
+      }
+    },
+    "mitochondrion": {
+      "name": "Mitohondrija",
+      "seoTitle": "Mitohondrija: veličina nekadašnje bakterije",
+      "tagline": "Kapsula duga oko 2 mikrometra u vašim ćelijama — potomak bakterije koja se pre oko 2 milijarde godina uselila u drugu ćeliju.",
+      "body": "Mitohondrije su organele — mali odeljci obavijeni sa dve membrane — koje se nalaze u ćelijama životinja, biljaka, gljiva i većine drugih složenih organizama. Njihova naborana unutrašnja membrana prepuna je proteinskih mašina koje pomoću kiseonika pretvaraju energiju iz hrane u ATP, molekul koji ćelije troše da bi obavljale svoj posao; tako se iz jednog molekula glukoze dobija oko 30 ATP, naspram samo 2 bez njih, pa ih zovu „elektranama ćelije“. Na slikama iz udžbenika mitohondrija je kapsula široka oko 1 µm i duga 2 µm — tu dužinu ovde koristimo — ali se u mnogim živim ćelijama stalno dele i spajaju u razgranate mreže koje se protežu desetinama mikrometara. Nekada su bile bakterije koje su živele samostalno: to je 1967. godine obrazložila Lin Margulis, a danas je to prihvaćeno objašnjenje, jer mitohondrije i dalje nose sopstvenu malu DNK, koriste ribozome nalik bakterijskim i dele se na dva dela. Najbliži srodnici su im među alfaproteobakterijama, a ovo partnerstvo verovatno je počelo pre 1,7–2 milijarde godina. Ćelija ljudske jetre ima ih oko 1.000–2.000 i one zauzimaju petinu njene zapremine, dok crveno krvno zrnce nema nijednu.",
+      "narrative": "Mitohondrija duga oko 2 µm velika je koliko i tipična bakterija — podsetnik na to odakle potiče. Duž nje bi se poređalo oko 80 ribozoma (25 nm), crveno krvno zrnce (7,5 µm) široko je manje od četiri mitohondrije, a 40 njih poređanih jedna za drugom prekrilo bi debljinu ljudske vlasi (80 µm). Uvećajte mitohondriju na 2 metra, otprilike dužinu kreveta, i u istoj razmeri ribozom bi bio veličine novčića (2,5 cm), crveno krvno zrnce bilo bi široko 7,5 metra, a jedna vlas bila bi stub debeo 80 metara.",
+      "funFact": "Zrela ljudska jajna ćelija nosi oko 100.000 mitohondrija, sa do milion i po kopija njihove DNK — čak do 90% sve DNK u jajnoj ćeliji. I mitohondrije spermatozoida uđu u nju pri oplođenju, ali bivaju obeležene i uništene, pa uz retke izuzetke svaka mitohondrija u vašem telu potiče od majčinih.",
+      "metaDescription": "Mitohondrija je široka oko 1 µm i duga 2 µm — veličine bakterije, jer je nekada i bila bakterija. Sopstvena DNK, nasleđivanje od majke i ATP.",
+      "image": {
+        "alt": "Sivi snimak transmisionim elektronskim mikroskopom tkiva pluća sisara: dve mitohondrije, presečene poprečno u zaobljene obrise sa tamnom dvostrukom membranom i tankim talasastim naborima (kristama) kroz zrnastu unutrašnjost."
+      },
+      "facts": {
+        "fact1": "Veličina: mitohondrija iz udžbenika je kapsula široka oko 1 µm i duga 2 µm, poprečnog preseka najčešće 0,75–3 µm². U mnogim ćelijama spajaju se u mreže koje se protežu desetinama mikrometara.",
+        "fact2": "Broj: ćelije sisara obično imaju 1.000–10.000 mitohondrija. Ćelija jetre ima ih oko 1.000–2.000 (petina zapremine), limfocit oko 3, zrela jajna ćelija oko 100.000 — a crveno krvno zrnce nijednu.",
+        "fact3": "Sopstvena DNK: ljudska mitohondrijalna DNK je prsten od 16.569 parova baza sa 37 gena — 13 za proteine mašinerije koja proizvodi energiju, 22 za transportne RNK i 2 za ribozomske RNK. Svaka mitohondrija sadrži oko 5 kopija.",
+        "fact4": "Nasleđuje se od majke: kod ljudi mitohondrije, a sa njima i njihova DNK, po pravilu potiču samo iz jajne ćelije, uz retke izuzetke.",
+        "fact5": "Poreklo: rad Lin Margulis „O poreklu ćelija koje se dele mitozom“ odbilo je oko petnaest časopisa pre nego što je objavljen 1967. godine, a njena ideja da su mitohondrije nekada bile bakterije bila je gotovo deceniju zanemarena. Danas je to udžbeničko objašnjenje; predak je verovatno bio srodnik alfaproteobakterija.",
+        "fact6": "Energija: uz kiseonik, mitohondrije iz svakog molekula glukoze dobijaju oko 30 ATP, naspram 2 samo iz glikolize. Odrasla osoba dnevno obnovi oko 50 kg ATP — otprilike sopstvenu telesnu masu — a svaki molekul iskoristi se 1.000–1.500 puta.",
+        "fact7": "Ime: Albert fon Keliker prvi ih je opisao u mišićima insekata 1857. godine, a Karl Benda ih je 1898. godine nazvao mitohondrijama, „zrncima nalik nitima“. Izraz „elektrana ćelije“ proširio je Filip Sikevic člankom u časopisu Scientific American 1957. godine."
+      }
     }
   },
   "about": {
@@ -3804,6 +3932,38 @@
     "orbit": {
       "term": "Orbita",
       "definition": "Zakrivljena putanja kojom se jedno telo kreće oko drugog pod dejstvom gravitacije, kao planeta oko Sunca ili Mesec oko Zemlje. Većina orbita su blago izduženi krugovi, elipse."
+    },
+    "decoherence": {
+      "term": "Dekoherencija",
+      "definition": "Proces kojim se kvantna superpozicija „razlije“ u okolinu — molekule vazduha, svetlost, toplotu — pa njeni delovi više ne mogu da interferiraju i predmet se ponaša kao običan, klasičan."
+    },
+    "alpha_decay": {
+      "term": "Alfa-raspad",
+      "definition": "Vrsta radioaktivnosti u kojoj teško jezgro izbacuje alfa-česticu — dva protona i dva neutrona, odnosno jezgro atoma helijuma — tunelovanjem kroz barijeru koja je drži unutra."
+    },
+    "josephson_junction": {
+      "term": "Džozefsonov spoj",
+      "definition": "Dva superprovodnika razdvojena veoma tankim izolacionim slojem kroz koji upareni elektroni mogu da tuneluju. Koristi se u izuzetno osetljivim senzorima magnetnog polja, etalonima napona i superprovodnim kvantnim računarima."
+    },
+    "fermion": {
+      "term": "Fermion",
+      "definition": "Čestica sa polucelobrojnim spinom (½, 3⁄2 …), poput elektrona, kvarka, protona ili neutrona. Dva ista fermiona ne mogu biti u istom kvantnom stanju — to je Paulijev princip isključenja."
+    },
+    "wavelength": {
+      "term": "Talasna dužina",
+      "definition": "Rastojanje od jednog vrha talasa do sledećeg. Kod svetlosti određuje boju: od oko 380 nm za ljubičastu do oko 750 nm za crvenu."
+    },
+    "diffraction_limit": {
+      "term": "Difrakciona granica",
+      "definition": "Najsitniji detalj koji sočivo može da pokaže, određen talasnom prirodom svetlosti: u najboljim mikroskopima oko pola talasne dužine, otprilike 200 nm za vidljivu svetlost (Abeova granica)."
+    },
+    "endosymbiosis": {
+      "term": "Endosimbioza",
+      "definition": "Život jednog organizma unutar ćelija drugog, na korist oba. Mitohondrije i hloroplasti nastali su tako, kao bakterije koje je pre više od milijardu godina progutala veća ćelija."
+    },
+    "atp": {
+      "term": "ATP",
+      "definition": "Adenozin-trifosfat, mali molekul koji svaka ćelija koristi kao energetsku valutu: odvajanje jedne njegove fosfatne grupe oslobađa energiju za rad mišića, nerava i hemijske reakcije."
     }
   },
   "faq": {
@@ -3938,7 +4098,10 @@
       "pillars_of_creation": "najviši Stub stvaranja",
       "kuiper_belt": "Kajperov pojas",
       "trappist_1": "TRAPPIST-1",
-      "saturn_rings": "sistem Saturnovih prstenova"
+      "saturn_rings": "sistem Saturnovih prstenova",
+      "atomic_nucleus": "atomsko jezgro",
+      "visible_light": "talas vidljive svetlosti",
+      "mitochondrion": "mitohondrija"
     },
     "a3smallerTall": "Korak niže: {other} ({otherSize}), oko {ratio} puta niže.",
     "a3largerTall": "Korak više: {other} ({otherSize}), oko {ratio} puta više.",
