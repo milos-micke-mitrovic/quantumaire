@@ -43,12 +43,17 @@ generated sentences, log in `docs/CHANGELOG-ai.md`.
 
 ## 4. Review round 8 topics
 
-- [ ] Facts vs sources (agents), Serbian review, desktop + mobile pass.
+- [x] Facts vs sources (agents), Serbian review, desktop + mobile pass.
+      2026-11-22: 23 fact fixes, ~40 Serbian fixes; mobile OK.
 
 ## 5. Compare pairs + speed
 
-- [ ] Pairs that read well for a layperson (dump EN+SR, read); Lighthouse
+- [x] Pairs that read well for a layperson (dump EN+SR, read); Lighthouse
       spot check.
+      2026-11-22: goseck-circle-vs-stonehenge, pyramid-vs-abu-simbel (51).
+      Dropped atom-vs-atomic-nucleus (generic 0.1 nm atom gives 7,100×,
+      the nucleus page says 20,000–60,000×), visible-light-vs-virus,
+      abu-simbel-vs-el-castillo (1.1×).
 
 ## 6. Carried over (blocked)
 

@@ -23,6 +23,8 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/stop/chankillo (new 2026-11-22)
 - https://quantumaire.space/en/stop/goseck_circle (new 2026-11-22)
 - https://quantumaire.space/en/stop/abu_simbel (new 2026-11-22)
+- https://quantumaire.space/en/compare/goseck-circle-vs-stonehenge (new 2026-11-22)
+- https://quantumaire.space/en/compare/pyramid-vs-abu-simbel (new 2026-11-22)
 - https://quantumaire.space/en/stop/multiverse
 - https://quantumaire.space/en/stop/tardigrade
 - https://quantumaire.space/en/stop/blue_whale
