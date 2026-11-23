@@ -329,3 +329,7 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Lighthouse mobile (live): quantum_tunnelling 89, goseck-circle-vs-stonehenge 82 → 90 on a rerun, pyramid-vs-el-castillo 92; a11y/BP/SEO 100, CLS 0.
 - Pairs (51): goseck-circle-vs-stonehenge, pyramid-vs-abu-simbel. Dropped atom-vs-atomic-nucleus (the site's generic 0.1 nm atom gives 7,100×, contradicting the nucleus page), visible-light-vs-virus, abu-simbel-vs-el-castillo (1.1×).
 - Round 8 done except the carried-over blocked items (404 SSR body, GSC CTR).
+
+## 2026-11-23 — indexing + first CTR fix
+- GSC indexing: 10 round 7/8 URLs requested (see docs/indexing-log.md); quota hit, resume with antikythera_mechanism.
+- GSC performance (28 days): 26 impressions, 0 clicks. /en/stop/speed_of_light ranks ~4.8 for "speed of light" (13 impressions, 0 clicks). New seoTitle "Speed of Light: Why Nothing Goes Faster (and What Seems To)" and a metaDescription that no longer repeats the answer-box number. Re-check CTR ~2026-12-07.

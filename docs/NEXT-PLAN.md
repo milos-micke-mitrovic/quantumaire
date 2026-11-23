@@ -59,6 +59,11 @@ generated sentences, log in `docs/CHANGELOG-ai.md`.
 
 - [ ] 404 body server-rendered (Next 16.4.6: still the `__next_error__` shell).
 - [ ] Search Console: pages with impressions but low CTR → rewrite titles.
+      2026-11-23: first data (28 days: 26 impressions, 0 clicks). Only
+      /en/stop/speed_of_light has volume: 13 impressions at position 4.8 for
+      "speed of light", 0 clicks — Google's answer box already shows the
+      number, and our title/description repeated it. Rewrote both to lead
+      with the why/how/history. Re-check its CTR around 2026-12-07.
 
 ---
 
