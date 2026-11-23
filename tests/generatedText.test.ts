@@ -106,7 +106,8 @@ describe("distance answers", () => {
   });
 
   it("names neighbours of the same kind (no moon next to a river)", () => {
-    expect(text("titan")).toMatch(/One step up is Mars/);
+    expect(text("titan")).toMatch(/One step up is Ganymede/);
+    expect(text("io")).not.toMatch(/Sahara/);
     expect(text("olympus_mons")).not.toMatch(/Halley|Gaia/);
     expect(text("great_red_spot")).not.toMatch(/Great Wall/);
     // Human-scale things still compare across kinds.

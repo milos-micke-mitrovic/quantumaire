@@ -333,3 +333,10 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 ## 2026-11-23 — indexing + first CTR fix
 - GSC indexing: 10 round 7/8 URLs requested (see docs/indexing-log.md); quota hit, resume with antikythera_mechanism.
 - GSC performance (28 days): 26 impressions, 0 clicks. /en/stop/speed_of_light ranks ~4.8 for "speed of light" (13 impressions, 0 clicks). New seoTitle "Speed of Light: Why Nothing Goes Faster (and What Seems To)" and a metaDescription that no longer repeats the answer-box number. Re-check CTR ~2026-12-07.
+
+## 2026-11-23 — round 9 plan; block 1: moons
+- Round 9 written in docs/NEXT-PLAN.md (owner approved, minus a quiz idea — no quiz/game features).
+- New COSMOS moons (agent drafts, reviewed): Ganymede (`ganymede`, 5,265 km, only moon with a magnetic field, Hubble 2015 aurora-rocking ocean evidence, Juice arrival July 2031 — orbit-insertion year left out as unverified), Io (`io`, 3,643 km, 400+ volcanoes, Peale/Cassen/Reynolds prediction + Morabito 9 March 1979, Juno flybys; "no impact craters have been spotted"), Enceladus (`enceladus`, 504 km, tiger-stripe jets, ocean 2015, H₂ 2017, phosphates 2023 — "ingredients for life, not life"). New glossary: magnetosphere. Images: Juno/Kevin M. Gill CC BY 2.0, Galileo PD, Cassini PD.
+- Moons guide: related + key numbers now Ganymede/Titan/Enceladus, new Io/Enceladus sentence.
+- Size FAQ: Sahara is now a length (4,800 km east–west); moons no longer get "the Sahara" as a neighbour (test). Titan's step up is Ganymede.
+- Serbian: „Enceladus“ → „Enkelad“ in Saturn, Saturn's rings and the cryovolcano glossary entry.

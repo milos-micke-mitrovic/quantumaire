@@ -1172,7 +1172,7 @@
     "saturn": {
       "name": "Saturn",
       "tagline": "Vizit-karta Sunčevog sistema — gasoviti džin sa prstenovima.",
-      "body": "Saturn je druga po veličini planeta Sunčevog sistema, lopta vodonika i helijuma devet puta većeg prečnika od Zemlje. Njegovi prstenovi su najveći i najsjajniji od svih planetarnih, sastavljeni gotovo isključivo od vodenog leda — komada od zrna peska do santi — koji kruže u disku debelom tek desetinama metara. Saturn ima 293 poznata meseca, uključujući Titan sa gustom atmosferom i jezerima tečnog metana, i Enceladus, koji izbacuje mlazove vode u svemir iz zakopanog okeana.",
+      "body": "Saturn je druga po veličini planeta Sunčevog sistema, lopta vodonika i helijuma devet puta većeg prečnika od Zemlje. Njegovi prstenovi su najveći i najsjajniji od svih planetarnih, sastavljeni gotovo isključivo od vodenog leda — komada od zrna peska do santi — koji kruže u disku debelom tek desetinama metara. Saturn ima 293 poznata meseca, uključujući Titan sa gustom atmosferom i jezerima tečnog metana, i Enkelad, koji izbacuje mlazove vode u svemir iz zakopanog okeana.",
       "narrative": "Bacite Saturn u dovoljno veliku kadu i plutao bi. Od svih planeta jedino je on manje gust od vode — gasoviti džin toliko naduven da ste vi, kubni centimetar po kubni centimetar, gušći od njega.",
       "ifDistance": "Sunčevoj svetlosti treba 80 minuta da stigne do Saturna — duže od trajanja većine filmova. Sa Zemlje je u proseku 1,4 milijarde km. Svaka slika koju je Cassini, sonda koja je 13 godina kružila oko Saturna, poslao kući putovala je brzinom svetlosti duže od sat vremena.",
       "funFact": "Saturnovi glavni prstenovi protežu se oko 273.500 km (282.000 km sa uskim F prstenom) — oko tri četvrtine rastojanja od Zemlje do Meseca — ali su neverovatno tanki — često debeli samo 10 metara. Sa boka skoro nestanu.",
@@ -2201,6 +2201,69 @@
       },
       "temperatureNote": "površina, prosek na ekvatoru"
     },
+    "ganymede": {
+      "name": "Ganimed",
+      "tagline": "Jupiterov džinovski mesec — širi od planete Merkur i jedini mesec sa sopstvenim magnetnim poljem.",
+      "body": "Ganimed je najveći od četiri Galilejeva meseca Jupitera i najveći mesec u Sunčevom sistemu: prečnika oko 5.265 km, upola širi od našeg Meseca i nešto širi od planete Merkur. Otprilike napola od stena, a napola od vodenog leda oko jezgra bogatog gvožđem, Ganimed je jedini poznati mesec sa sopstvenim magnetnim poljem, koje je 1996. otkrila letelica Galileo. Svemirski teleskop Habl video je 2015. da se Ganimedova polarna svetlost njiše manje nego što se očekivalo, što ukazuje na slani okean dubok oko 100 km, verovatno zakopan ispod oko 150 km leda. Letelica Juice Evropske svemirske agencije (ESA), lansirana 14. aprila 2023, trebalo bi da stigne do Jupitera u julu 2031, a kasnije i da uđe u orbitu oko Ganimeda.",
+      "narrative": "Ganimed je oko 8% širi od Merkura, a Merkur je ipak više nego dvaput teži. Merkur je uglavnom od gvožđa i stena, dok je Ganimed otprilike napola od leda — gruda snega veličine planete sa kamenim srcem, pa je veći svet zapravo lakši.",
+      "funFact": "Naučnici su Ganimedov skriveni okean pronašli posmatrajući njegovu polarnu svetlost. Dok Jupiterovo nagnuto magnetno polje prelazi preko njega, Ganimedovi pojasevi polarne svetlosti trebalo bi da se njišu za oko 6°, ali Habl je video njihanje od samo oko 2° — zakopani sloj slane vode odupire se Jupiterovom polju i prigušuje njihanje.",
+      "seoTitle": "Koliki je Ganimed? Najveći mesec u Sunčevom sistemu",
+      "metaDescription": "Ganimed, Jupiterov najveći mesec, širok je 5.265 km — širi od Merkura, ali sa manje od polovine njegove mase — i verovatno krije slani okean.",
+      "image": {
+        "alt": "Ganimed snimljen NASA-inom letelicom Juno 2021: siva kugla sa tamnijim i svetlijim oblastima i sjajnim zracima kratera."
+      },
+      "facts": {
+        "fact1": "Prečnik oko 5.265 km — oko 8% veći od Merkurovog i 1,5 puta veći od Mesečevog.",
+        "fact2": "Masa oko 1,48 × 10²³ kg — oko 45% Merkurove, ali dvostruko više od Mesečeve.",
+        "fact3": "Kruži oko Jupitera na oko 1.070.000 km, jednom u 7,15 dana, i uvek mu je okrenut istom stranom.",
+        "fact4": "Prosečna temperatura površine oko 110 K (−163 °C).",
+        "fact5": "Otkrio ga je Galileo Galilej 7. januara 1610.",
+        "fact6": "Letelica Juice lansirana je 14. aprila 2023; dolazak do Jupitera planiran je za jul 2031, a zatim i ulazak u orbitu oko Ganimeda."
+      },
+      "temperatureNote": "površina, prosek"
+    },
+    "io": {
+      "name": "Io",
+      "tagline": "Jupiterov vulkanski mesec — vulkanski najaktivniji poznati svet, obojen sumporom u žuto, crveno i belo.",
+      "body": "Io je najbliži Jupiteru od njegova četiri velika Galilejeva meseca, prečnika 3.643 km — nešto veći od našeg Meseca. To je najgušći poznati mesec i gotovo potpuno suv: stena oko jezgra bogatog gvožđem, bez vodenog leda vrednog pomena. Sa više od 400 aktivnih vulkana Io je vulkanski najaktivnije telo u Sunčevom sistemu; neki izbacuju perjanice sumpora visoke i do oko 500 km, a Loki Patera je jezero lave široko oko 200 km. Jedinjenja sumpora boje površinu u žuto, crveno, belo i crno, a erupcije je tako brzo prekrivaju da na njoj nisu uočeni udarni krateri. Toplota potiče od plimskog zagrevanja: orbitalna rezonanca sa Evropom i Ganimedom drži putanju Ia blago izduženom, pa ga Jupiterova gravitacija neprestano savija.",
+      "narrative": "Io je gotovo blizanac našeg Meseca — samo 5% širi i takođe od stena. Ali vulkani na našem Mesecu davno su utihnuli, dok Io oslobađa više unutrašnje toplote nego cela Zemlja, i to sa površine oko 12 puta manje.",
+      "funFact": "Vulkani na Iu bili su predviđeni pre nego što ih je iko video. Početkom marta 1979. Stan Pil, Patrik Kasen i Rej Rejnolds objavili su proračun po kome bi plimsko zagrevanje trebalo da topi unutrašnjost Ia. Nekoliko dana kasnije, 9. marta, Linda Morabito, inženjerka navigacije letelice Voyager 1, uočila je na snimku neobičan srp iznad ivice Ia — vulkansku perjanicu visoku oko 270 km, prvi aktivni vulkan ikada pronađen van Zemlje.",
+      "seoTitle": "Koliki je Io? Jupiterov vulkanski mesec",
+      "metaDescription": "Io, Jupiterov vulkanski mesec, širok je 3.643 km — nešto veći od našeg Meseca — a sa više od 400 aktivnih vulkana vulkanski je najaktivniji poznati svet.",
+      "image": {
+        "alt": "Io u pravim bojama, snimak NASA-ine letelice Galileo: žuta kugla prošarana tamnim vulkanskim mrljama i crvenkastim i belim poljima."
+      },
+      "facts": {
+        "fact1": "Prečnik 3.643 km — oko 5% veći od Mesečevog.",
+        "fact2": "Više od 400 aktivnih vulkana; perjanice visoke i do oko 500 km.",
+        "fact3": "Kruži oko Jupitera na oko 422.000 km, jednom u 1,77 dana.",
+        "fact4": "Prosečna temperatura površine oko 110 K (−163 °C), dok sveža lava dostiže oko 1.300–1.600 K.",
+        "fact5": "Otkrio ga je Galileo Galilej u januaru 1610.",
+        "fact6": "Letelica Juno proletela je na oko 1.500 km od Ia 30. decembra 2023. i 3. februara 2024."
+      },
+      "temperatureNote": "površina, prosek"
+    },
+    "enceladus": {
+      "name": "Enkelad",
+      "tagline": "Mali, snežnobeli Saturnov mesec — izbacuje vodu iz skrivenog okeana pravo u svemir.",
+      "body": "Enkelad je mali ledeni Saturnov mesec, prečnika svega oko 504 km, i telo koje najbolje odbija svetlost u Sunčevom sistemu. Letelica Cassini otkrila je 2005. mlazove vodene pare i ledenih zrnaca koji izbijaju iz četiri dugačke pukotine blizu južnog pola, „tigrovih pruga“ — do danas ih je mapirano oko stotinu. Deo tog materijala odlazi u svemir i puni bledi Saturnov prsten E. Merenja blagog klaćenja meseca pokazala su 2015. da mlazove napaja globalni okean slane vode ispod ledene kore debele u proseku oko 20 do 25 km, a na južnom polu možda svega nekoliko kilometara. Tečnim ga održava plimsko zagrevanje, pokretano orbitalnom rezonancom 2 : 1 sa mesecom Dionom. Uzorkujući mlazove i prsten E, Cassini je pronašao više hemijskih sastojaka koji su potrebni životu na Zemlji — ali nijedan znak samog života.",
+      "narrative": "Enkelad je širok samo 504 km — na Zemlji biste to rastojanje autoputem prešli za oko pet sati vožnje. Pa ipak, tako mali svet ispod cele svoje ledene površine krije okean tečne vode i izbacuje tu vodu u svemir dovoljno snažno da stalno dopunjuje jedan Saturnov prsten.",
+      "funFact": "Na Enkeladu pada sneg. Većina ledenih zrnaca iz mlazova je prespora da pobegne od slabe gravitacije meseca, pa pada nazad i prekriva površinu svežim injem. Taj stalno obnavljani beli sloj pomaže da Enkelad bude telo koje najbolje odbija svetlost u Sunčevom sistemu.",
+      "seoTitle": "Koliki je Enkelad? Saturnov mesec sa okeanom",
+      "metaDescription": "Enkelad, Saturnov ledeni mesec, širok je samo 504 km, a ipak krije globalni okean i izbacuje njegovu vodu u svemir kroz oko 100 mlazova na južnom polu.",
+      "image": {
+        "alt": "Enkelad snimljen letelicom Cassini: blistavo bela ledena kugla sa plavičastim pukotinama „tigrovih pruga“ blizu južnog pola."
+      },
+      "facts": {
+        "fact1": "Prečnik oko 504 km — otprilike 1/25 Zemljinog i sedmina Mesečevog.",
+        "fact2": "Kruži oko Saturna na oko 238.000 km, jednom u 32,9 sati.",
+        "fact3": "Prosečna temperatura površine oko 75 K (−198 °C).",
+        "fact4": "Oko 100 mlazova izbija iz četiri „tigrove pruge“, pukotine duge po oko 135 km, brzinom od oko 400 m/s.",
+        "fact5": "Cassini je pronašao soli, zrnca silicijum-dioksida nastala u vreloj vodi, organske molekule, molekularni vodonik (2017) i fosfate (2023) — sastojke za život, ne i život.",
+        "fact6": "Otkrio ga je Vilijam Heršel 28. avgusta 1789."
+      },
+      "temperatureNote": "površina, prosek"
+    },
     "orion_nebula": {
       "name": "Orionova maglina",
       "tagline": "Zvezdane jasle koje se vide golim okom — mutna srednja „zvezda“ Orionovog mača.",
@@ -2796,7 +2859,7 @@
     "saturn_rings": {
       "name": "Saturnovi prstenovi",
       "tagline": "Ledeni disk širok više od 270.000 km, a na većini mesta debeo tek desetak metara.",
-      "body": "Saturnovi glavni prstenovi — svetli prstenovi C, B i A — čine ravan disk koji se pruža do 136.775 km od središta planete, pa od ivice do ivice meri oko 273.500 km. Ipak, taj disk je zapanjujuće tanak: obično je debeo oko 10 metara, a procene za pojedine prstenove i delove kreću se od nekoliko metara do oko jednog kilometra. Sastoji se od bezbroj zasebnih komada, oko 99,9% vodenog leda, od zrnaca veličine prašine do gromada velikih kao kuća, a svaki prsten kruži oko Saturna sopstvenom brzinom. Najtamniji procep koji se vidi sa Zemlje, Kasinijevu pukotinu široku oko 4.700 km, uočio je Đovani Kasini 1675; njenu unutrašnju ivicu čisti gravitacija malog meseca Mimasa. Dalje od planete su bledi prašnjavi prstenovi, među njima i ogromni prsten E, koji pune ledeni mlazovi sa meseca Enceladusa. Starost prstenova i dalje je sporna: merenja sonde Cassini iz 2017. ukazivala su na to da su nastali pre samo 10–100 miliona godina, dok je studija iz 2024. zaključila da bi mogli biti stari koliko i sam Saturn, oko 4,5 milijarde godina.",
+      "body": "Saturnovi glavni prstenovi — svetli prstenovi C, B i A — čine ravan disk koji se pruža do 136.775 km od središta planete, pa od ivice do ivice meri oko 273.500 km. Ipak, taj disk je zapanjujuće tanak: obično je debeo oko 10 metara, a procene za pojedine prstenove i delove kreću se od nekoliko metara do oko jednog kilometra. Sastoji se od bezbroj zasebnih komada, oko 99,9% vodenog leda, od zrnaca veličine prašine do gromada velikih kao kuća, a svaki prsten kruži oko Saturna sopstvenom brzinom. Najtamniji procep koji se vidi sa Zemlje, Kasinijevu pukotinu široku oko 4.700 km, uočio je Đovani Kasini 1675; njenu unutrašnju ivicu čisti gravitacija malog meseca Mimasa. Dalje od planete su bledi prašnjavi prstenovi, među njima i ogromni prsten E, koji pune ledeni mlazovi sa meseca Enkelada. Starost prstenova i dalje je sporna: merenja sonde Cassini iz 2017. ukazivala su na to da su nastali pre samo 10–100 miliona godina, dok je studija iz 2024. zaključila da bi mogli biti stari koliko i sam Saturn, oko 4,5 milijarde godina.",
       "narrative": "Sa oko 273.500 km od ivice do ivice, glavni prstenovi su skoro dvaput širi od Jupitera (139.820 km) i oko 2,3 puta širi od Saturnovog ekvatora; da ih premostite, trebalo bi poređati oko 21 Zemlju jednu do druge. Postavljeni između Zemlje i Meseca, pokrili bi oko sedam desetina razmaka od 384.400 km, a svetlost ih pređe za manje od sekunde (0,91 s). Ono što ih čini izuzetnim jeste odnos širine i debljine: oko 27 miliona prema jedan, ako su debeli 10 metara. Kada biste prstenove smanjili toliko da budu tanki kao list papira (0,1 mm), i dalje bi bili široki skoro 3 km. Glavni prstenovi počinju oko 14.400 km iznad vrhova Saturnovih oblaka — taj razmak je veći od prečnika Zemlje — mada deo njega ispunjava bledi prsten D.",
       "massNarrative": "Uprkos veličini, prstenovi su iznenađujuće laki. Prema merenjima iz poslednjih zaranjanja sonde Cassini 2017, njihova masa je oko 15 milijardi milijardi kilograma (1,54 × 10¹⁹ kg, uz nesigurnost od oko trećine) — otprilike 0,4 mase Mimasa, meseca prečnika svega 396 km, i oko dve trećine mase antarktičkog ledenog pokrivača. Sabijen u jednu ledenu loptu, sav taj materijal imao bi prečnik od samo oko 320 km (280–350 km u granicama nesigurnosti); umesto toga, razvučen je preko površine oko 80 puta veće od površine Zemlje.",
       "funFact": "Na svakih 13 do 15 godina Zemlja prolazi kroz ravan prstenova, pa se oni neko vreme vide samo kao tanka linija koja gotovo nestane iz vida. Poslednji put to se desilo 23. marta 2025, kada je Saturn na našem nebu bio preblizu Suncu da bi se posmatrao; sledeći prolasci očekuju se 2038–2039. Isto je 1612. zbunilo i Galilea Galileja: „uši“ koje je dve godine ranije video pored Saturna jednostavno su nestale, pa se pitao da Saturn nije progutao sopstvenu decu.",
@@ -2810,7 +2873,7 @@
         "fact2": "Debljina: u glavnim prstenovima obično oko 10 m. Procene su oko 5 m za prsten C, 5–10 m za prsten B i 10–30 m za prsten A, a neki izvori navode i do 1 km na pojedinim mestima; na spoljnoj ivici prstena B uzdižu se strukture visoke do 2,5 km, koje verovatno podižu mali, neviđeni meseci.",
         "fact3": "Sastav: oko 99,9% vodenog leda, uz tragove kamene prašine. Komadi su od zrnaca veličine prašine do gromada velikih kao kuća, a poneki su veliki kao planine. Prstenovi su unutar Saturnove Rošove granice, gde plimske sile ne dozvoljavaju da se led sabije u mesec.",
         "fact4": "Masa: 1,54 ± 0,49 × 10¹⁹ kg, izmerena tokom 22 zaranjanja sonde Cassini između Saturna i prstenova 2017 — oko 0,41 mase meseca Mimasa.",
-        "fact5": "Procepi i bledi prstenovi: Kasinijeva pukotina između prstenova A i B široka je oko 4.700 km (neki izvori navode 4.800 km). Iza glavnih prstenova, bledi prsten E, koji pune ledeni mlazovi Enceladusa, pruža se od oko 180.000 do 480.000 km od Saturna i debeo je više od 2.000 km.",
+        "fact5": "Procepi i bledi prstenovi: Kasinijeva pukotina između prstenova A i B široka je oko 4.700 km (neki izvori navode 4.800 km). Iza glavnih prstenova, bledi prsten E, koji pune ledeni mlazovi Enkelada, pruža se od oko 180.000 do 480.000 km od Saturna i debeo je više od 2.000 km.",
         "fact6": "Starost: otvoreno pitanje. Merenje mase koje je izvršila sonda Cassini i čist led ukazivali su na starost od samo 10–100 miliona godina; studija iz 2024. u časopisu Nature Geoscience zaključila je da dolazeća prašina uglavnom ispari umesto da zatamni led, pa bi prstenovi mogli biti stari milijardama godina. Led koji polako pada na Saturn mogao bi ih potpuno istrošiti za otprilike 100–300 miliona godina."
       }
     },
@@ -3184,7 +3247,7 @@
       "section1Heading": "Zemljin Mesec",
       "section1Body": "Naš Mesec je veliki za mesec male planete — oko četvrtine prečnika Zemlje. Nastao je pre oko 4,5 milijarde godina, gotovo sigurno kada se telo veličine Marsa sudarilo sa mladom Zemljom, a krš tog sudara se sjedinio. Mesec stabilizuje Zemljinu osu rotacije i pokreće naše plime; polako se udaljava od nas oko 3,8 cm godišnje.",
       "section2Heading": "Džinovi — Ganimed, Titan, Kalisto, Io, Evropa",
-      "section2Body": "Četiri najveća meseca u Sunčevom sistemu — Ganimed, Titan, Kalisto i Io — svi su veći od Zemljinog Meseca, a Ganimed je čak veći od planete Merkura. Ganimed (Jupiterov mesec) je najveći mesec u Sunčevom sistemu. Titan (Saturnov mesec) ima gustu atmosferu azota i reke tečnog metana. Evropa (Jupiter) krije ogroman slan okean ispod ledenog omotača — jedno od najobećavajućih mesta za potragu za životom drugde u Sunčevom sistemu.",
+      "section2Body": "Četiri najveća meseca u Sunčevom sistemu — Ganimed, Titan, Kalisto i Io — svi su veći od Zemljinog Meseca, a Ganimed je čak veći od planete Merkura. Ganimed (Jupiterov mesec) je najveći mesec u Sunčevom sistemu. Titan (Saturnov mesec) ima gustu atmosferu azota i reke tečnog metana. Evropa (Jupiter) krije ogroman slan okean ispod ledenog omotača — jedno od najobećavajućih mesta za potragu za životom drugde u Sunčevom sistemu. Io, nešto veći od našeg Meseca, vulkanski je najaktivniji poznati svet, a mali Enkelad (Saturn), širok samo 504 km, izbacuje vodu iz skrivenog okeana pravo u svemir.",
       "section3Heading": "Brojanje: Jupiter i Saturn",
       "section3Body": "Jupiter ima 115 poznatih meseci, a Saturn 293 (od avgusta 2026), i brojke se i dalje penju kako veliki teleskopi pronalaze sve manja uhvaćena tela. Većina su tela široka nekoliko kilometara u nepravilnim orbitama — gotovo sigurno krš ranijih sudara, ne meseci koji su nastali zajedno sa planetom.",
       "section4Heading": "Egzomeseci",
@@ -3827,7 +3890,7 @@
     },
     "cryovolcano": {
       "term": "Kriovulkan",
-      "definition": "Ledeni vulkan: umesto rastopljenih stena izbacuje vodu, slanu vodu ili druge isparljive tečnosti koje se smrzavaju na hladnoj površini. Cerera ima jedan, Ahuna Mons; Enceladus izbacuje vodu u svemir, a možda ih imaju i Evropa i Titan."
+      "definition": "Ledeni vulkan: umesto rastopljenih stena izbacuje vodu, slanu vodu ili druge isparljive tečnosti koje se smrzavaju na hladnoj površini. Cerera ima jedan, Ahuna Mons; Enkelad izbacuje vodu u svemir, a možda ih imaju i Evropa i Titan."
     },
     "shield_volcano": {
       "term": "Štitasti vulkan",
@@ -4028,6 +4091,10 @@
     "rock_cut_temple": {
       "term": "Hram isklesan u steni",
       "definition": "Hram izdubljen direktno u prirodnoj litici ili stenskoj masi, umesto da je sazidan od zasebnih blokova."
+    },
+    "magnetosphere": {
+      "term": "Magnetosfera",
+      "definition": "Mehur prostora oko planete ili meseca u kome naelektrisanim česticama upravlja njegovo sopstveno magnetno polje, a ne Sunčev vetar. Deo tih čestica usmerava ka polovima, gde stvaraju polarnu svetlost. Ganimed je jedini poznati mesec koji je ima."
     }
   },
   "faq": {
@@ -4141,6 +4208,9 @@
       "olympus_mons": "Olympus Mons",
       "titan": "Titan",
       "europa": "Evropa",
+      "ganymede": "Ganimed",
+      "io": "Io",
+      "enceladus": "Enkelad",
       "orion_nebula": "Orionova maglina",
       "crab_nebula": "Rakova maglina",
       "large_magellanic_cloud": "Veliki Magelanov oblak",

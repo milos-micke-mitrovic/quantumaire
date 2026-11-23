@@ -2018,5 +2018,47 @@
       "label": "Serbian Wikipedia — Абу Симбел (spelling Abu Simbel, Ramzes II, Nefertari; temples raised 65 m higher; Burkhard found them in 1813)",
       "url": "https://sr.wikipedia.org/wiki/%D0%90%D0%B1%D1%83_%D0%A1%D0%B8%D0%BC%D0%B1%D0%B5%D0%BB"
     }
+  ],
+  "ganymede": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)"
+    },
+    {
+      "label": "NASA — Ganymede: Facts",
+      "url": "https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/"
+    },
+    {
+      "label": "ESA — Juice factsheet",
+      "url": "https://www.esa.int/articles/about-us/directorates/science/juice/juice-factsheet"
+    }
+  ],
+  "io": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Io_(moon)"
+    },
+    {
+      "label": "NASA — Io: Facts",
+      "url": "https://science.nasa.gov/jupiter/jupiter-moons/io/facts/"
+    },
+    {
+      "label": "NASA — Juno",
+      "url": "https://science.nasa.gov/mission/juno/"
+    }
+  ],
+  "enceladus": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Enceladus"
+    },
+    {
+      "label": "NASA — Enceladus",
+      "url": "https://science.nasa.gov/saturn/moons/enceladus/"
+    },
+    {
+      "label": "NASA — Cassini: Enceladus",
+      "url": "https://science.nasa.gov/mission/cassini/science/enceladus/"
+    }
   ]
 }

@@ -304,7 +304,7 @@ const HEIGHT_STOP_IDS = new Set([
   "pillars_of_creation",
 ]);
 const DEPTH_STOP_IDS = new Set(["mariana_trench", "grand_canyon"]);
-const LENGTH_STOP_IDS = new Set(["tardigrade", "blue_whale", "ant", "honeybee", "house_mouse", "house_cat", "sloan_great_wall", "large_hadron_collider", "amazon_river", "titanic", "colosseum", "great_wall", "antikythera_mechanism"]);
+const LENGTH_STOP_IDS = new Set(["tardigrade", "blue_whale", "ant", "honeybee", "house_mouse", "house_cat", "sloan_great_wall", "large_hadron_collider", "amazon_river", "sahara", "titanic", "colosseum", "great_wall", "antikythera_mechanism"]);
 
 export function sizeMeasure(stop: { id: string }): SizeMeasure {
   if (HEIGHT_STOP_IDS.has(stop.id)) return "height";

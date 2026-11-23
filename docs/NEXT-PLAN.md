@@ -1,4 +1,57 @@
-# Next plan (round 8, written 2026-11-22)
+# Next plan (round 9, written 2026-11-23)
+
+**Direction:** same as round 8 (cosmos + micro/quantum + ancient sky
+stories; no new animals/modern structures; no quiz/game features — owner
+2026-11-23). Owner approved the round minus the quiz. Same rules: top to
+bottom, tick boxes, commit + deploy per block, mobile check, dump and read
+generated sentences, log in `docs/CHANGELOG-ai.md`.
+
+## 1. Moons (COSMOS; the Moons guide has only Moon, Titan, Europa)
+
+- [x] Ganymede (largest moon, wider than Mercury; subsurface ocean), Io
+      (most volcanic body known; tidal heating), Enceladus (geysers, ocean
+      under the ice, Cassini). Add to the moons guide; pairs only if they
+      read well (ganymede-vs-mercury?).
+      2026-11-23: ganymede 5,265 km (Wikipedia's newer radius; NASA 5,268),
+      io 3,643 km, enceladus 504 km; moons guide related/key numbers + an
+      Io/Enceladus sentence. Sahara → LENGTH_STOP_IDS (its 4,800 km is an
+      east–west span; Io's step up read "the Sahara"). SR "Enceladus" →
+      „Enkelad“ site-wide.
+
+## 2. Particles (MICRO_WORLD / PHYSICS)
+
+- [ ] Photon (idea or size? decide — no size; link visible_light,
+      wave_particle_duality), neutron (~1.7e-15 m like the proton; free
+      neutron ~15 min half-life; ties to neutron_star), Standard Model
+      (idea: 17 particles, what it leaves out — gravity, dark matter).
+      Add to quantum-physics / smallest-things guides.
+
+## 3. Ancient sky sites (HUMANKIND, tag `ancient`)
+
+- [ ] Göbekli Tepe (~9600 BC; "star map"/comet claims labelled
+      speculative), Nazca Lines (geoglyphs; the astronomical-calendar theory
+      tested and mostly rejected — say so), Angkor Wat (equinox sunrise
+      over the central tower). Add to the ancient-astronomy guide.
+
+## 4. Review round 9 topics
+
+- [ ] Facts vs sources (agents), Serbian review, desktop + mobile pass.
+
+## 5. Pairs, speed, Search Console
+
+- [ ] Pairs that read well (dump EN+SR, read); Lighthouse spot check.
+- [ ] Indexing queue: add the round 9 pages, then start the /sr/ pages of
+      the most important topics after the EN backlog thins.
+- [ ] Re-check speed_of_light CTR (~2026-12-07); rewrite titles of any
+      other page that gets impressions without clicks.
+
+## 6. Carried over (blocked)
+
+- [ ] 404 body server-rendered (Next 16.4.6: still the `__next_error__` shell).
+
+---
+
+# Done: round 8 (written 2026-11-22)
 
 **Direction (owner, 2026-11-21):** cosmos + micro/quantum world + ancient
 stories that meet the sky; animals/modern structures stay as yardsticks, no

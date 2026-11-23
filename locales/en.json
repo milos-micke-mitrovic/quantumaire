@@ -2201,6 +2201,69 @@
       },
       "temperatureNote": "surface, average at the equator"
     },
+    "ganymede": {
+      "name": "Ganymede",
+      "tagline": "Jupiter's giant moon — wider than the planet Mercury, and the only moon with its own magnetic field.",
+      "body": "Ganymede is the largest of Jupiter's four Galilean moons and the largest moon in the Solar System: about 5,265 km across, half again as wide as our Moon and a little wider than the planet Mercury. Roughly half rock and half water ice around an iron-rich core, it is the only moon known to have its own magnetic field, discovered by the Galileo spacecraft in 1996. In 2015 the Hubble Space Telescope saw the moon's auroras sway less than expected, which points to a salty ocean about 100 km deep, probably buried under some 150 km of ice. ESA's Juice spacecraft, launched on 14 April 2023, is due to reach Jupiter in July 2031 and later to orbit Ganymede.",
+      "narrative": "Ganymede is about 8% wider than Mercury, yet Mercury weighs more than twice as much. Mercury is mostly iron and rock, while Ganymede is about half ice — a planet-sized snowball with a rocky heart, which is why the bigger world is the lighter one.",
+      "funFact": "Scientists found Ganymede's hidden ocean by watching its northern and southern lights. As Jupiter's tilted magnetic field swings past, Ganymede's auroras should rock back and forth by about 6°, but Hubble saw them rock by only about 2° — a buried layer of salt water pushes back against Jupiter's field and damps the swing.",
+      "seoTitle": "How Big Is Ganymede? The Largest Moon Compared",
+      "metaDescription": "Ganymede, Jupiter's largest moon, is 5,265 km wide — wider than Mercury but with less than half its mass — and probably hides a salty ocean.",
+      "image": {
+        "alt": "Ganymede seen by NASA's Juno spacecraft in 2021: a grey globe with darker and lighter patches and bright crater rays."
+      },
+      "facts": {
+        "fact1": "Diameter about 5,265 km — about 8% wider than Mercury and 1.5 times our Moon.",
+        "fact2": "Mass about 1.48 × 10²³ kg — about 45% of Mercury's, but twice our Moon's.",
+        "fact3": "Orbits Jupiter about 1,070,000 km out, once every 7.15 days, always showing it the same face.",
+        "fact4": "Average surface temperature about 110 K (−163 °C).",
+        "fact5": "Discovered by Galileo Galilei on 7 January 1610.",
+        "fact6": "Juice launched on 14 April 2023; arrival at Jupiter planned for July 2031, later followed by orbit around Ganymede."
+      },
+      "temperatureNote": "surface, average"
+    },
+    "io": {
+      "name": "Io",
+      "tagline": "Jupiter's volcanic moon — the most volcanically active world known, painted yellow, red and white by sulphur.",
+      "body": "Io is the innermost of Jupiter's four large Galilean moons, 3,643 km across — slightly larger than our Moon. It is the densest moon known and almost bone-dry: rock around an iron-rich core, with no water ice to speak of. More than 400 active volcanoes make it the most volcanically active body in the Solar System; some throw sulphur plumes up to about 500 km high, and Loki Patera is a lava lake about 200 km wide. Sulphur compounds paint the surface yellow, red, white and black, and eruptions resurface it so fast that no impact craters have been spotted. The heat comes from tidal heating: an orbital resonance with Europa and Ganymede keeps Io's orbit slightly stretched, so Jupiter's gravity keeps flexing it.",
+      "narrative": "Io is almost a twin of our Moon — just 5% wider and also made of rock. But our Moon's volcanoes fell silent long ago, while Io pours out more internal heat than the whole Earth does, from a surface about 12 times smaller.",
+      "funFact": "Io's volcanoes were predicted before anyone saw them. In early March 1979 Stan Peale, Patrick Cassen and Ray Reynolds published a calculation that tidal heating should melt Io's interior. Days later, on 9 March, Voyager 1 navigation engineer Linda Morabito spotted a strange crescent above Io's edge in an image — a volcanic plume about 270 km high, the first active volcano ever found beyond Earth.",
+      "seoTitle": "How Big Is Io? Jupiter's Volcanic Moon Compared",
+      "metaDescription": "Io, Jupiter's volcanic moon, is 3,643 km wide — slightly larger than our Moon — yet its 400+ active volcanoes make it the most volcanic world known.",
+      "image": {
+        "alt": "Io in true colour from NASA's Galileo spacecraft: a yellow globe speckled with dark volcanic spots and reddish and white patches."
+      },
+      "facts": {
+        "fact1": "Diameter 3,643 km — about 5% wider than our Moon.",
+        "fact2": "More than 400 active volcanoes; plumes up to about 500 km high.",
+        "fact3": "Orbits Jupiter about 422,000 km out, once every 1.77 days.",
+        "fact4": "Average surface temperature about 110 K (−163 °C), while fresh lava reaches about 1,300–1,600 K.",
+        "fact5": "Discovered by Galileo Galilei in January 1610.",
+        "fact6": "Juno flew within about 1,500 km of Io on 30 December 2023 and 3 February 2024."
+      },
+      "temperatureNote": "surface, average"
+    },
+    "enceladus": {
+      "name": "Enceladus",
+      "tagline": "Saturn's small, snow-white moon — it sprays water from a hidden ocean out into space.",
+      "body": "Enceladus is a small icy moon of Saturn, only about 504 km across, and the most reflective body in the Solar System. In 2005 NASA's Cassini spacecraft discovered jets of water vapour and ice grains erupting from four long cracks near its south pole, the \"tiger stripes\" — about a hundred have since been mapped. Some of the spray escapes and feeds Saturn's faint E ring. In 2015 measurements of the moon's slight wobble showed that the jets are fed by a global ocean of salty water under an ice shell about 20 to 25 km thick on average, and perhaps only a few kilometres at the south pole. Tidal heating, driven by a 2:1 orbital resonance with the moon Dione, keeps it liquid. By sampling the plume and the E ring, Cassini found several of the chemical ingredients that life on Earth needs — but no sign of life itself.",
+      "narrative": "Enceladus is only 504 km across — on Earth you could drive that distance in about five hours at motorway speed. Yet a world that small holds a liquid-water ocean under its entire icy surface, and it sprays that water into space hard enough to keep one of Saturn's rings supplied.",
+      "funFact": "It snows on Enceladus. Most of the ice grains shot out of the jets are too slow to escape the moon's weak gravity, so they fall back and coat the surface with fresh frost. That constant fresh coat helps make Enceladus the most reflective body in the Solar System.",
+      "seoTitle": "How Big Is Enceladus? Saturn's Ocean Moon Compared",
+      "metaDescription": "Enceladus, Saturn's icy moon, is only 504 km wide, yet it hides a global ocean and sprays its water into space from about 100 jets at its south pole.",
+      "image": {
+        "alt": "Enceladus from NASA's Cassini spacecraft: a brilliant white icy globe with bluish 'tiger stripe' cracks near its south pole."
+      },
+      "facts": {
+        "fact1": "Diameter about 504 km — roughly 1/25 of Earth's and a seventh of our Moon's.",
+        "fact2": "Orbits Saturn about 238,000 km out, once every 32.9 hours.",
+        "fact3": "Average surface temperature about 75 K (−198 °C).",
+        "fact4": "About 100 jets erupt from four \"tiger stripe\" cracks, each about 135 km long, at around 400 m/s.",
+        "fact5": "Cassini found salts, silica grains formed in hot water, organic molecules, molecular hydrogen (2017) and phosphates (2023) — ingredients for life, not life.",
+        "fact6": "Discovered by William Herschel on 28 August 1789."
+      },
+      "temperatureNote": "surface, average"
+    },
     "orion_nebula": {
       "name": "Orion Nebula",
       "tagline": "A star nursery you can see with your own eyes — the fuzzy middle \"star\" of Orion's sword.",
@@ -3184,7 +3247,7 @@
       "section1Heading": "Earth's Moon",
       "section1Body": "Our Moon is large for a moon orbiting a small planet — about a quarter of Earth's diameter. It formed about 4.5 billion years ago, almost certainly when a Mars-sized body collided with the young Earth, and the debris from that impact coalesced. The Moon stabilises Earth's axial tilt and drives our tides; it's slowly drifting away from us at about 3.8 cm per year.",
       "section2Heading": "The giants — Ganymede, Titan, Callisto, Io, Europa",
-      "section2Body": "The four largest moons in the Solar System — Ganymede, Titan, Callisto and Io — are all bigger than Earth's Moon, and Ganymede is even larger than the planet Mercury. Ganymede (a moon of Jupiter) is the biggest moon in the Solar System. Titan (a moon of Saturn) has a thick nitrogen atmosphere and rivers of liquid methane. Europa (Jupiter) hides a vast salty ocean beneath an icy shell — one of the most promising places to search for life elsewhere in the Solar System.",
+      "section2Body": "The four largest moons in the Solar System — Ganymede, Titan, Callisto and Io — are all bigger than Earth's Moon, and Ganymede is even larger than the planet Mercury. Ganymede (a moon of Jupiter) is the biggest moon in the Solar System. Titan (a moon of Saturn) has a thick nitrogen atmosphere and rivers of liquid methane. Europa (Jupiter) hides a vast salty ocean beneath an icy shell — one of the most promising places to search for life elsewhere in the Solar System. Io, slightly larger than our Moon, is the most volcanically active world known, and little Enceladus (Saturn), only 504 km across, sprays water from its hidden ocean out into space.",
       "section3Heading": "Counting them: Jupiter and Saturn",
       "section3Body": "Jupiter has 115 known moons and Saturn 293 (as of August 2026), and the numbers keep climbing as large telescopes pick out ever-smaller captured objects. Most of these are bodies a few kilometres across in irregular orbits — almost certainly debris from earlier collisions, not moons that formed alongside the planet.",
       "section4Heading": "Exomoons",
@@ -4028,6 +4091,10 @@
     "rock_cut_temple": {
       "term": "Rock-cut temple",
       "definition": "A temple carved straight out of a natural cliff or rock mass rather than built from separate blocks."
+    },
+    "magnetosphere": {
+      "term": "Magnetosphere",
+      "definition": "The bubble of space around a planet or moon where its own magnetic field, not the solar wind, steers charged particles. It funnels some of them toward the poles, where they make auroras. Ganymede is the only moon known to have one."
     }
   },
   "faq": {
@@ -4136,6 +4203,9 @@
       "olympus_mons": "Olympus Mons",
       "titan": "Titan",
       "europa": "Europa",
+      "ganymede": "Ganymede",
+      "io": "Io",
+      "enceladus": "Enceladus",
       "orion_nebula": "the Orion Nebula",
       "crab_nebula": "the Crab Nebula",
       "large_magellanic_cloud": "the Large Magellanic Cloud",

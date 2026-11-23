@@ -2259,6 +2259,83 @@
       ]
     },
     {
+      "id": "ganymede",
+      "i18nKey": "stops.ganymede",
+      "sizeMeters": 5264500,
+      "distanceFromEarthMeters": 778500000000,
+      "temperatureKelvin": 110,
+      "order": 7.73,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/ganymede.webp",
+        "aspect": "square",
+        "altKey": "stops.ganymede.image.alt",
+        "credit": "NASA / JPL-Caltech / SwRI / MSSS / Kevin M. Gill — CC BY 2.0"
+      },
+      "glossary": [
+        "magnetosphere",
+        "orbital_resonance",
+        "tidal_lock"
+      ],
+      "tags": [
+        "satellite"
+      ]
+    },
+    {
+      "id": "io",
+      "i18nKey": "stops.io",
+      "sizeMeters": 3643200,
+      "distanceFromEarthMeters": 778500000000,
+      "temperatureKelvin": 110,
+      "order": 7.71,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/io.webp",
+        "aspect": "square",
+        "altKey": "stops.io.image.alt",
+        "credit": "NASA / JPL / University of Arizona — public domain"
+      },
+      "glossary": [
+        "tidal_heating",
+        "orbital_resonance"
+      ],
+      "tags": [
+        "satellite"
+      ]
+    },
+    {
+      "id": "enceladus",
+      "i18nKey": "stops.enceladus",
+      "sizeMeters": 504080,
+      "distanceFromEarthMeters": 1430000000000,
+      "temperatureKelvin": 75,
+      "order": 7.77,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/enceladus.webp",
+        "aspect": "square",
+        "altKey": "stops.enceladus.image.alt",
+        "credit": "NASA / JPL / Space Science Institute — public domain"
+      },
+      "glossary": [
+        "cryovolcano",
+        "tidal_heating",
+        "orbital_resonance"
+      ],
+      "tags": [
+        "satellite"
+      ]
+    },
+    {
       "id": "orion_nebula",
       "i18nKey": "stops.orion_nebula",
       "sizeMeters": 2.27e+17,
