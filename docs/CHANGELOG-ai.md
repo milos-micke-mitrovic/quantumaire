@@ -340,3 +340,14 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Moons guide: related + key numbers now Ganymede/Titan/Enceladus, new Io/Enceladus sentence.
 - Size FAQ: Sahara is now a length (4,800 km east–west); moons no longer get "the Sahara" as a neighbour (test). Titan's step up is Ganymede.
 - Serbian: „Enceladus“ → „Enkelad“ in Saturn, Saturn's rings and the cryovolcano glossary entry.
+
+## 2026-11-23 — round 9 block 2: particles
+- New topics (agent drafts, reviewed; arithmetic rechecked):
+  - Photon (`photon`, idea, MICRO_WORLD, FACT): Planck 1900 / Einstein 1905 / Compton 1923 / Lewis 1926 ("popularised", his photon was "not light"); E = hf numbers (green 2.25 eV, 100 MHz radio 4 × 10⁻⁷ eV, 1 mW pointer 3.3 × 10¹⁵/s); Sun random walk only as NASA's 10,000–170,000-year model range; 2016 single-photon vision study called "small and statistically borderline"; no "most numerous particle" claim (relic neutrinos are comparable). Image: Super-Kamiokande-type photomultiplier, CC BY-SA 4.0.
+  - Neutron (`neutron`, 1.7e-15 m, FACT): Chadwick 1932, udd, 0.14% heavier, lifetime 878.4 s / half-life ~609 s, bottle-vs-beam 9 s puzzle (UCNτ 877.75 s), Chicago Pile-1, neutron-star sugar cube (NASA). Image: 1942 exponential pile at Stagg Field, PD (square).
+  - Standard Model (`standard_model`, idea, PHYSICS, ESTABLISHED_THEORY): 17 vs 61 particles by counting convention, 19 free parameters (+7–8 for neutrino masses), muon g-2 final 2025 (newest lattice prediction close, older method disagrees), W mass CDF 2022 vs CMS 2024. Image: Gargamelle bubble chamber, CC BY 4.0.
+- Proton `sizeMeters` 1e-15 → 1.7e-15 (diameter from its 0.84 fm radius; the nucleus page already said 1.7 fm). Atom vs proton now ~59,000×.
+- New glossary: lepton, boson, weak_force, beta_decay, isotope, chain_reaction.
+- Guides: quantum-physics related +standard_model/photon/neutron (photon bolded in §4), smallest-things +neutron.
+- Serbian: troje dobrovoljaca, Kavendiševa laboratorija, Chicago Pile-1 kept in the original, Eksperiment Muon g-2.
+

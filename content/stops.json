@@ -30,7 +30,7 @@
     {
       "id": "proton",
       "i18nKey": "stops.proton",
-      "sizeMeters": 1E-15,
+      "sizeMeters": 1.7E-15,
       "order": 2,
       "badge": "FACT",
       "category": "MICRO_WORLD",
@@ -1636,6 +1636,84 @@
         "neutrino_oscillation",
         "standard_model",
         "supernova"
+      ],
+      "tags": [
+        "particle"
+      ]
+    },
+    {
+      "id": "photon",
+      "i18nKey": "stops.photon",
+      "sizeMeters": null,
+      "order": 1.62,
+      "badge": "FACT",
+      "category": "MICRO_WORLD",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/photon.webp",
+        "aspect": "wide",
+        "altKey": "stops.photon.image.alt",
+        "credit": "Motokoka — CC BY-SA 4.0 (cropped)"
+      },
+      "glossary": [
+        "photon",
+        "quantum",
+        "wavelength",
+        "cmb"
+      ],
+      "tags": [
+        "particle"
+      ]
+    },
+    {
+      "id": "neutron",
+      "i18nKey": "stops.neutron",
+      "sizeMeters": 1.7E-15,
+      "order": 2.1,
+      "badge": "FACT",
+      "category": "MICRO_WORLD",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/neutron.webp",
+        "aspect": "square",
+        "altKey": "stops.neutron.image.alt",
+        "credit": "U.S. Department of Energy — public domain"
+      },
+      "glossary": [
+        "quark",
+        "strong_force",
+        "beta_decay",
+        "isotope",
+        "chain_reaction"
+      ],
+      "tags": [
+        "particle"
+      ]
+    },
+    {
+      "id": "standard_model",
+      "i18nKey": "stops.standard_model",
+      "sizeMeters": null,
+      "order": 1.4,
+      "badge": "ESTABLISHED_THEORY",
+      "category": "PHYSICS",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/standard-model.webp",
+        "aspect": "wide",
+        "altKey": "stops.standard_model.image.alt",
+        "credit": "F. J. Etzkorn / CERN — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "quark",
+        "lepton",
+        "fermion",
+        "boson",
+        "weak_force",
+        "higgs_field"
       ],
       "tags": [
         "particle"

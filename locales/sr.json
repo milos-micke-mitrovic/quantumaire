@@ -3064,6 +3064,73 @@
         "fact5": "Spasavanje: od 1964. do 1968. dva hrama isečena su na 1.036 blokova; Veliki hram je podignut za 65 m i pomeren oko 210 m unazad na veštačko brdo, uz trošak od oko 41,7 miliona dolara, koji su podelili Egipat i još 48 zemalja; premešteni hramovi svečano su otvoreni 22. septembra 1968.",
         "fact6": "Ponovno otkriće: gotovo zatrpan peskom, hram je u martu 1813. pronašao Johan Ludvig Burkhart, a Đovani Batista Belconi prokopao je put do unutrašnjosti 1. avgusta 1817. Od 1979. deo je Uneskove svetske baštine „Nubijski spomenici od Abu Simbela do File“."
       }
+    },
+    "photon": {
+      "name": "Foton",
+      "seoTitle": "Šta je foton? Najmanja porcija svetlosti",
+      "metaDescription": "Foton je jedna čestica svetlosti: nema masu ni naelektrisanje i uvek se kreće brzinom svetlosti. Boja mu određuje energiju, a oko možda oseti i jedan.",
+      "tagline": "Čestica svetlosti — bez mase, bez naelektrisanja, uvek u pokretu, i glasnik koji prenosi svako električno i magnetno privlačenje.",
+      "body": "Foton je najmanja moguća količina svetlosti: jedan paket, ili kvant, elektromagnetne energije. Maks Plank je 1900. mogao da objasni boje užarenih tela samo uz pretpostavku da se energija oslobađa u malim, tačno određenim porcijama, a Albert Ajnštajn je 1905. otišao korak dalje i predložio da se i sama svetlost sastoji od takvih paketa — čime je objasnio fotoelektrični efekat i kasnije dobio Nobelovu nagradu. Foton nema ni masu ni naelektrisanje, a u praznom prostoru uvek se kreće brzinom svetlosti; nikada ne miruje. Energija mu zavisi samo od frekvencije (E = hf), pa su od iste vrste čestica sačinjeni i radio-talasi, i boje vidljive svetlosti, i rendgenski i gama-zraci: plavi foton jednostavno nosi više energije od crvenog, a radio-foton daleko manje. Fotoni su i način na koji se naelektrisane čestice međusobno privlače i odbijaju, pa su nosioci elektromagnetne sile. Kao i svaka kvantna čestica, foton putuje kao talas, a ipak se uvek detektuje kao jedan „klik“ ili jedna tačka — u tome je zagonetka talasno-čestičnog dualizma.",
+      "narrative": "Sunčeva svetlost koja vam greje lice napustila je površinu Sunca pre svega nekoliko minuta, ali je energija koju nosi mnogo starija. Fotone gama-zračenja nastale fuzijom u Sunčevom jezgru gotovo odmah upija gust, vreo gas oko njih i ponovo ih izbacuje u nasumičnom pravcu, iznova i iznova, pa se energija probija ka površini „nasumičnim hodom“, teturajući se umesto da leti pravo. Modeli unutrašnjosti Sunca za taj put uglavnom daju između 10.000 i 170.000 godina — raspon potiče od različitih pretpostavki, a milioni godina koji se navode u nekim starijim udžbenicima smatraju se greškom u računu. Strogo uzev, nijedan foton ne pređe ceo put: svaki se upije, a dalje krene novi, bezbroj puta.",
+      "funFact": "Vaše oko je skoro detektor pojedinačnih fotona. Selig Heht i saradnici su 1940-ih ustanovili da ljudi čije su se oči privikle na mrak mogu da primete bljesak od svega 5–7 fotona. Tim iz Beča je 2016. slao pojedinačne fotone u oči troje dobrovoljaca koji su sedeli u potpunom mraku i pitao ih u kom je od dva trenutka foton stigao: pogađali su u 51,6% slučajeva umesto 50% koliko bi dalo nagađanje, a u 60% kad su bili najsigurniji. Efekat je mali i statistički na granici, ali ukazuje na to da se i jedan jedini foton ponekad može primetiti.",
+      "image": {
+        "alt": "Velika fotomultiplikatorska cev, poput onih kojima je obložen japanski detektor Super-Kamiokande, u muzejskoj vitrini: velika okrugla staklena kugla sa ogledalskim slojem u kom se ogleda sala oko nje, koja se pozadi sužava u providan stakleni vrat sa crnim priključkom na kraju."
+      },
+      "facts": {
+        "fact1": "Nema ni masu ni naelektrisanje, koliko merenja mogu da pokažu: prema granicama grupe Particle Data Group, masa mu je manja od 10⁻¹⁸ eV — manje od 2 × 10⁻²⁴ mase elektrona — a naelektrisanje manje od 10⁻³⁵ naelektrisanja elektrona.",
+        "fact2": "Energija = Plankova konstanta × frekvencija (E = hf), gde je h = 6,62607015 × 10⁻³⁴ džul-sekundi, tačno po definiciji. Zeleni foton (550 nm) nosi oko 3,6 × 10⁻¹⁹ džula, odnosno 2,25 elektronvolta.",
+        "fact3": "Foton FM radio-stanice koja emituje na 100 MHz nosi svega oko 4 × 10⁻⁷ elektronvolta — više od 5 miliona puta manje od zelenog. Ista čestica, samo niža frekvencija.",
+        "fact4": "Crveni laserski pokazivač snage 1 milivat (650 nm) svake sekunde izbaci oko 3,3 × 10¹⁵ fotona — više od tri hiljade biliona — zato nam obična svetlost izgleda glatko, a ne zrnasto.",
+        "fact5": "Maks Plank je 1900. uveo kvante energije da bi objasnio zračenje užarenih tela. Ajnštajn je 1905. predložio da se i sama svetlost sastoji od kvanata i za objašnjenje fotoelektričnog efekta dobio Nobelovu nagradu za fiziku za 1921. godinu.",
+        "fact6": "Artur Kompton je 1923. pokazao da se fotoni rendgenskih zraka odbijaju od elektrona kao sićušne bilijarske kugle i posle sudara imaju manju energiju i veću talasnu dužinu — dokaz da fotoni nose impuls. Za to je 1927. podelio Nobelovu nagradu za fiziku.",
+        "fact7": "Reč „foton“ proširio je hemičar Gilbert N. Luis u pismu časopisu Nature objavljenom 18. decembra 1926. Njegov „foton“ bio je zamišljena čestica za koju je sam rekao da „nije svetlost“; ta ideja je napuštena, ali je ime ostalo. Ajnštajn ga sam nikada nije koristio.",
+        "fact8": "Svemir je pun fotona: u svakom kubnom centimetru ima ih oko 411 zaostalih iz ranog svemira, u vidu kosmičkog mikrotalasnog pozadinskog zračenja — otprilike 1,6 milijardi na svaki proton ili neutron."
+      }
+    },
+    "neutron": {
+      "name": "Neutron",
+      "seoTitle": "Šta je neutron? Veličina, masa i zagonetka od 15 minuta",
+      "metaDescription": "Neutron: bez naelektrisanja, širok otprilike kao proton i 0,14% teži. Drži jezgra na okupu i pokreće reaktore — a sam se raspadne za petnaestak minuta.",
+      "tagline": "Neutralni partner protona: drži atomska jezgra na okupu, a kad ostane sam, raspadne se za petnaestak minuta.",
+      "body": "Neutron je električno neutralni partner protona i nalazi se u jezgru svakog atoma osim običnog vodonika. Otkrio ga je Džejms Čedvik 1932. godine u Kavendiševoj laboratoriji u Kembridžu, a za to otkriće dobio je Nobelovu nagradu za fiziku 1935. Sastoji se od tri kvarka — jednog gornjeg i dva donja — čija se naelektrisanja tačno poništavaju; širok je otprilike koliko i proton, oko 1,7 femtometra, a teži je od njega za svega 0,14%. U jezgru neutroni čuvaju mir: na njih deluje jaka nuklearna sila koja privlači protone i neutrone, ali ne doprinose električnom odbijanju, pa bez njih nijedno jezgro sa više od jednog protona ne bi opstalo — a atomi istog elementa koji se razlikuju samo po broju neutrona zovu se izotopi. Pošto nema naelektrisanje, neutron može da priđe jezgru a da ga ono ne odbije, i zato neutroni cepaju uranijum u nuklearnim reaktorima, a naučnici pomoću snopova neutrona zaviruju u unutrašnjost materijala. Sam, van jezgra, neutron je ipak nestabilan: u proseku posle oko 15 minuta pretvara se u proton, elektron i antineutrino.",
+      "narrative": "Neutron je širok oko 1,7 femtometra — praktično koliko i proton. Kad biste ga uvećali do klikera prečnika 1,7 centimetra, jezgro zlata postalo bi lopta široka oko 14 centimetara, a atom zlata oko njega imao bi prečnik od skoro 3 kilometra. Od 197 čestica u tom jezgru zlata, 118 su neutroni.",
+      "massNarrative": "Neutron ima masu od 1,675 × 10⁻²⁷ kg, pa je za jedan jedini gram potrebno oko 6 × 10²³ neutrona — šeststo hiljada milijardi milijardi. Ali u neutronskoj zvezdi, gde su zbijeni jedan uz drugi, komad te materije veličine kocke šećera težio bi na Zemlji oko hiljadu milijardi kilograma — koliko cela planina, prema proceni NASA-e.",
+      "funFact": "Niko ne zna tačno koliko dugo živi slobodan neutron. Eksperimenti sa „bocom“ zarobljavaju veoma hladne neutrone i broje koliko ih je preostalo kako vreme prolazi; eksperimenti sa „snopom“ šalju neutrone kroz cev i broje protone u koje se pretvaraju. Dve metode se već decenijama razilaze za oko 9 sekundi — velika razlika za česticu koja živi samo petnaestak minuta. Najprecizniji rezultat metodom boce, koji je eksperiment UCNτ u Los Alamosu objavio 2021, iznosi 877,75 sekundi. Ili jedna od metoda krije grešku koju još niko nije pronašao, ili se tu krije nešto novo u fizici.",
+      "image": {
+        "alt": "Crno-bela fotografija iz 1942. godine: muškarac u radnom kombinezonu i kačketu stoji pored visokog, četvrtastog stuba od tamnih blokova čiji je gornji deo umotan u izgužvanu sjajnu foliju. To je jedan od probnih reaktorskih stubova sagrađenih ispod tribina stadiona Stag Fild u Čikagu na putu ka prvom nuklearnom reaktoru."
+      },
+      "facts": {
+        "fact1": "Masa: 1,67492750056 × 10⁻²⁷ kg (CODATA 2022) — oko 1.838,7 puta više od elektrona i 0,14% više od protona. Razlika iznosi oko 2,5 mase elektrona, što je dovoljno da „plati“ elektron koji neutron izbaci kad se raspadne.",
+        "fact2": "Bez električnog naelektrisanja: jedan gornji kvark (+2/3) i dva donja (po −1/3) daju ukupno nulu, a eksperimenti pokazuju da je eventualni ostatak naelektrisanja manji od oko 10⁻²¹ naelektrisanja protona. Ipak je majušni magnet — Luis Alvares i Feliks Bloh izmerili su njegov magnetni moment 1940. — što odaje naelektrisane kvarkove u njegovoj unutrašnjosti.",
+        "fact3": "Veličina: poluprečnik oko 0,8 femtometra (0,8 × 10⁻¹⁵ m), dakle prečnik oko 1,6–1,7 fm — u granicama nepreciznosti merenja isto koliko i proton. Kao ni proton, nema oštru površinu.",
+        "fact4": "Slobodan neutron u proseku živi 878,4 sekunde (oko 14,6 minuta), pa mu je vreme poluraspada oko 609 sekundi — nešto više od 10 minuta. Posle sat vremena ostane ih manje od 2 od 100. U stabilnom jezgru neutron se uopšte ne raspada.",
+        "fact5": "Ernest Raderford je 1920. pretpostavio da u jezgru postoji neutralna čestica. Džejms Čedvik je 1932. pokazao da je zagonetno prodorno zračenje koje alfa-čestice izbijaju iz berilijuma zapravo mlaz nenaelektrisanih čestica otprilike teških kao proton. Njegov rad u časopisu Nature nosio je naslov „Moguće postojanje neutrona“.",
+        "fact6": "Izotopi: jezgro vodonika je jedan jedini proton; deuterijum ima još jedan neutron, a tricijum dva. Ugljenik-14 (6 protona, 8 neutrona) ima jedan neutron previše da bi bio stabilan i polako se raspada u azot-14, sa vremenom poluraspada od oko 5.730 godina.",
+        "fact7": "Kad se jezgro uranijuma-235 rascepi, oslobodi dva ili tri nova neutrona, a oni mogu da rascepe nova jezgra — to je lančana reakcija. Tim Enrika Fermija pokrenuo je prvu 2. decembra 1942. u reaktoru Chicago Pile-1, gomili od grafitnih cigli i uranijuma u sali za skvoš ispod stadiona Stag Fild; radio je oko 4,5 minuta snagom od otprilike pola vata.",
+        "fact8": "Istraživački reaktori i spalacioni izvori proizvode snopove neutrona koji služe kao mikroskop za materijale. Pošto nemaju naelektrisanje, spori neutroni prodiru duboko u materiju, osećaju magnetizam i vide atome drugačije nego rendgenski zraci, pa se te dve metode dopunjuju."
+      }
+    },
+    "standard_model": {
+      "name": "Standardni model",
+      "seoTitle": "Šta je Standardni model? 17 čestica i tri sile",
+      "metaDescription": "Standardni model opisuje 17 elementarnih čestica i tri od četiri osnovne sile — najbolje proverena teorija fizike, i ono što još ne objašnjava.",
+      "tagline": "Sedamnaest čestica, tri sile, jedna izuzetno precizna teorija — i kratak spisak stvari koje ne ume da objasni.",
+      "body": "Standardni model je pravilnik fizike za najsitnije stvari koje postoje. On nabraja elementarne čestice — šest kvarkova, šest leptona (elektron, njegova dva teža rođaka, mion i tau, i tri vrste neutrina), četiri bozona koji prenose sile i Higsov bozon — i opisuje kako one deluju jedna na drugu preko tri od četiri sile prirode: elektromagnetne sile, slabe sile koja stoji iza nekih vrsta radioaktivnog raspada i jake sile koja vezuje kvarkove u protone i neutrone. Obično se kaže da čestica ima 17, ali to zavisi od načina brojanja: ako se svaka antičestica i svaka „boja“ kvarkova i gluona računaju posebno, dobija se 61. Teorija je sklopljena tokom šezdesetih i sedamdesetih godina 20. veka i od tada je prošla svaku proveru na sudaračima čestica, često do mnogo decimala. Ipak, to nije poslednja reč: izostavlja gravitaciju, nema česticu koja bi mogla da bude tamna materija, ne govori ništa o tamnoj energiji i ne objašnjava zašto je svemir sačinjen od materije, a ne od antimaterije.",
+      "narrative": "Standardni model nema veličinu — to je teorija, a ne predmet. Ali gotovo sve što ste ikada dodirnuli sačinjeno je od samo tri njegove čestice: gornjih kvarkova, donjih kvarkova i elektrona, koje na okupu drže fotoni i gluoni. Teži kvarkovi i leptoni pripadaju drugoj i trećoj „generaciji“: nastaju u visokoenergetskim sudarima i brzo se raspadaju na lakše čestice — a niko ne zna zašto su prirodi uopšte potrebne tri generacije.",
+      "funFact": "Ogromni narandžasti valjak na slici je Gargamel, mehurasta komora koja je radila u CERN-u od 1970. do 1979. godine. Napunjena sa 12 kubnih metara teškog tečnog freona, fotografisala je tragove mehurića koje ostavljaju čestice — a u julu 1973. njen tim je objavio otkriće „neutralnih struja“: neutrina koja udare u materiju i nastave dalje kao neutrina, baš kako je predviđala nova elektroslaba teorija. Bio je to prvi znak Z bozona, deset godina pre nego što je sama čestica pronađena.",
+      "image": {
+        "alt": "Mehurasta komora Gargamel izložena u parku CERN-a: veliki narandžastocrveni čelični valjak pun zavrtnjeva, otvoren na jednom kraju, nagnut na tamnoplavim nosačima iznad dva siva betonska postolja, a iza njega travnjak, drveće, klupe i poslovna zgrada."
+      },
+      "facts": {
+        "fact1": "Uobičajeno se broji 17 elementarnih čestica: 6 kvarkova + 6 leptona + 4 prenosioca sila (gluon, foton, W i Z) + Higsov bozon. Ako se antičestice, tri boje kvarkova, 8 gluona i W⁺ i W⁻ broje posebno, dobija se 61.",
+        "fact2": "Obuhvata 3 od 4 osnovne sile — elektromagnetnu, slabu i jaku. Gravitacija je izostavljena: ne postoji proverena kvantna teorija gravitacije koja bi se s njim spojila, mada je između pojedinačnih čestica gravitacija preslaba da bi bila važna.",
+        "fact3": "Građen je korak po korak: Glešou je 1961. povezao elektromagnetizam i slabu silu; Gel-Man i Cvajg su 1964. predložili kvarkove; Vajnberg (1967) i Salam (1968) dovršili su tu elektroslabu teoriju uz pomoć Higsovog mehanizma; 1973. Gros, Vilček i Policer otkrili su ključno svojstvo teorije jake sile (kvantne hromodinamike). Naziv „Standardni model“ potiče iz 1975. godine.",
+        "fact4": "Predviđanja koja su kasnije potvrđena: neutralne struje (1973), bozoni W i Z (1983), top kvark (1995), tau neutrino (2000) i Higsov bozon (2012). Glešou, Salam i Vajnberg podelili su Nobelovu nagradu za fiziku 1979. godine.",
+        "fact5": "Najoštrija provera je magnetni moment elektrona, g/2 = 1,00115965218059, izmeren 2023. sa tačnošću od 0,13 delova na bilion — time je najpreciznije predviđanje teorije provereno na oko jedan deo na bilion.",
+        "fact6": "Ima 19 slobodnih brojeva — poput masa čestica i jačina sila — koji se moraju izmeriti, a ne mogu se izvesti. U prvobitnoj teoriji neutrina nemaju masu; danas znamo da je imaju, a za opis njihovih masa potrebno je još oko 7 ili 8 brojeva.",
+        "fact7": "Eksperiment Muon g-2: konačni rezultat Fermilaba (2025) izmerio je magnetnu anomaliju miona sa tačnošću od 127 delova na milijardu. Godinama se nije slagao sa teorijom, ali najnovije predviđanje, izračunato na superračunarima, sasvim mu se približilo; starija metoda računanja i dalje daje drugačiji rezultat, a teoretičari pokušavaju da otkriju zašto.",
+        "fact8": "Masa W bozona: eksperiment CDF je 2022. objavio vrednost veću nego što Standardni model dozvoljava. CMS u CERN-u je 2024. izmerio 80.360,2 ± 9,9 MeV, sa sličnom preciznošću — u punom skladu sa predviđanjem."
+      }
     }
   },
   "about": {
@@ -3290,7 +3357,7 @@
       "title": "Najmanje stvari u svemiru",
       "seoTitle": "Najmanje stvari u svemiru",
       "tagline": "Od ćelija do kvarkova i Plankove dužine — šta je zaista malo, šta je tačkasto i kako to uopšte možemo da znamo.",
-      "intro": "Pitajte šta je najmanja stvar u svemiru i odgovor zavisi od toga šta tačno mislite. Najmanje žive ćelije su bakterije široke nekoliko stotina nanometara. Najmanji objekti sa izmerenom veličinom su protoni i neutroni, široki manje od dva femtometra. Zaista fundamentalne čestice — kvarkovi i elektroni — uopšte nemaju izmerenu veličinu: svaki dosadašnji eksperiment pokazuje da su tačkaste, i postoje samo gornje granice. Ispod svega nalazi se Plankova dužina, teorijska razmera na kojoj današnja fizika prestaje da važi. Evo lestvice od vrha do dna, sa poštenom oznakom na svakoj prečki.",
+      "intro": "Pitajte šta je najmanja stvar u svemiru i odgovor zavisi od toga šta tačno mislite. Najmanje žive ćelije su bakterije široke nekoliko stotina nanometara. Najmanji objekti sa izmerenom veličinom su protoni i **neutroni**, široki manje od dva femtometra. Zaista fundamentalne čestice — kvarkovi i elektroni — uopšte nemaju izmerenu veličinu: svaki dosadašnji eksperiment pokazuje da su tačkaste, i postoje samo gornje granice. Ispod svega nalazi se Plankova dužina, teorijska razmera na kojoj današnja fizika prestaje da važi. Evo lestvice od vrha do dna, sa poštenom oznakom na svakoj prečki.",
       "section1Heading": "Živi svet: ćelije, bakterije i virusi",
       "section1Body": "Ljudska vlas debela je oko 70 mikrometara (µm), što je blizu najsitnijeg detalja koji oko može da razazna na razdaljini čitanja, oko 0,1 mm. Ispod te granice sve je nevidljivo bez pomagala. Većina polenovih zrna ima od 10 do 100 µm, tipično oko trećine debljine vlasi. Ljudsko crveno krvno zrnce ima prečnik od oko 8 µm, a tipična životinjska ćelija od 10 do 30 µm. Većina bakterija duga je od 0,5 do 5 µm, a najmanje imaju svega oko 0,2 do 0,3 µm — od 200 do 300 nanometara (nm). Virusi su još manji: većina meri od 20 do 300 nm, a najmanji poznati, poput cirkovirusa, imaju manje od 20 nm. Izuzeci postoje u oba smera. Džinovski virusi poput Pithovirusa dostižu oko 1,5 µm, više od mnogih bakterija, dok bakterija Thiomargarita magnifica naraste i do oko 2 cm u dužinu — vidljiva je golim okom. Manja od bilo kog virusa, dvostruka spirala DNK u vašim ćelijama široka je oko 2 nm.",
       "section2Heading": "Atomi i njihova jezgra",
@@ -3387,7 +3454,7 @@
       "section3Heading": "Spregnutost: povezani na svakoj razdaljini",
       "section3Body": "Dve čestice mogu da dele jedno kvantno stanje, tako da merenje jedne kaže šta će pokazati odgovarajuće merenje druge, ma koliko bile udaljene. Ajnštajn je to nazvao „sablasnim delovanjem na daljinu“ i sumnjao da čestice nose skrivena uputstva. Džon Bel je 1964. pokazao kako se ta ideja može proveriti, a eksperimenti od tada — od 2015. bez rupa u zaključivanju — isključuju takva uputstva, sve dok ništa ne putuje između čestica brže od svetlosti. **Kvantna spregnutost** ipak ne može da prenese poruku: svaka strana sama za sebe vidi samo nasumične rezultate. Alen Aspe, Džon Klauzer i Anton Cajlinger podelili su za te eksperimente Nobelovu nagradu za fiziku 2022, a satelit je 2017. podelio spregnute fotone između zemaljskih stanica udaljenih 1.203 km.",
       "section4Heading": "Čestice od kojih je sve sačinjeno",
-      "section4Body": "Standardni model fizike čestica broji 17 vrsta elementarnih čestica: šest vrsta **kvarkova**, šest leptona (među njima **elektron** i tri vrste **neutrina**), četiri prenosioca sila, poput fotona i gluona, i **Higsov bozon**, otkriven u CERN-u 2012. sa masom od oko 125 GeV. **Proton** nije na tom spisku: to su tri kvarka koje drže gluoni, poluprečnika oko 0,84 femtometra. Svaka čestica ima blizanca od **antimaterije**, iste mase i suprotnog naelektrisanja. Koliko bilo koji eksperiment može da pokaže, kvarkovi i elektroni uopšte nemaju veličinu — ako je elektron ima, manja je od 3 × 10⁻¹⁹ m.",
+      "section4Body": "Standardni model fizike čestica broji 17 vrsta elementarnih čestica: šest vrsta **kvarkova**, šest leptona (među njima **elektron** i tri vrste **neutrina**), četiri prenosioca sila, poput **fotona** i gluona, i **Higsov bozon**, otkriven u CERN-u 2012. sa masom od oko 125 GeV. **Proton** nije na tom spisku: to su tri kvarka koje drže gluoni, poluprečnika oko 0,84 femtometra. Svaka čestica ima blizanca od **antimaterije**, iste mase i suprotnog naelektrisanja. Koliko bilo koji eksperiment može da pokaže, kvarkovi i elektroni uopšte nemaju veličinu — ako je elektron ima, manja je od 3 × 10⁻¹⁹ m.",
       "section5Heading": "Šta se zna, a šta je još otvoreno",
       "section5Body": "Kvantna fizika je jedna od najbolje proverenih teorija u nauci: magnetni moment elektrona slaže se sa predviđanjem do oko jednog dela u bilion, a laseri, LED diode, računarski čipovi i uređaji za magnetnu rezonancu svi se oslanjaju na nju. Otvoreni su njeno značenje i njene granice. Tumačenja — kopenhaško, tumačenje mnogih svetova, pilot-talasi i druga — slažu se u svakom izmerenom broju, ali pričaju različite priče o tome šta se dešava kad se nešto izmeri. Niko ne zna zašto je svemir sačinjen od materije, a ne od jednakih količina materije i antimaterije, niti kako tačno neutrini dobijaju svoje sićušne mase. A kvantna fizika nikada nije spojena sa gravitacijom: na **Plankovoj dužini**, oko 1,6 × 10⁻³⁵ m, obe bi trebalo da budu važne istovremeno, a nijedna proverena teorija to ne ume da opiše. Teorija struna i drugi kandidati i dalje nisu potvrđeni.",
       "keyNumber1Label": "Plankova konstanta h",
@@ -4095,6 +4162,30 @@
     "magnetosphere": {
       "term": "Magnetosfera",
       "definition": "Mehur prostora oko planete ili meseca u kome naelektrisanim česticama upravlja njegovo sopstveno magnetno polje, a ne Sunčev vetar. Deo tih čestica usmerava ka polovima, gde stvaraju polarnu svetlost. Ganimed je jedini poznati mesec koji je ima."
+    },
+    "beta_decay": {
+      "term": "Beta-raspad",
+      "definition": "Vrsta radioaktivnosti koju pokreće slaba sila: neutron se pretvara u proton i izbacuje elektron i antineutrino (u obrnutom slučaju proton u jezgru postaje neutron i izbacuje pozitron i neutrino)."
+    },
+    "isotope": {
+      "term": "Izotop",
+      "definition": "Jedan od oblika istog hemijskog elementa čija jezgra imaju isti broj protona, ali različit broj neutrona, kao što su ugljenik-12 i ugljenik-14."
+    },
+    "chain_reaction": {
+      "term": "Lančana reakcija",
+      "definition": "Niz nuklearnih fisija koji sam sebe održava: svako rascepljeno jezgro oslobađa neutrone koji zatim cepaju nova jezgra."
+    },
+    "lepton": {
+      "term": "Lepton",
+      "definition": "Čestica materije na koju ne deluje jaka sila. Ima ih šest: elektron, mion, tau i tri vrste neutrina."
+    },
+    "boson": {
+      "term": "Bozon",
+      "definition": "Čestica sa celobrojnim spinom (0, 1, 2 …). Za razliku od fermiona, proizvoljno mnogo identičnih bozona može biti u istom stanju. Prenosioci sila — foton, gluoni, W i Z — kao i Higsov bozon jesu bozoni."
+    },
+    "weak_force": {
+      "term": "Slaba sila",
+      "definition": "Jedna od četiri osnovne sile, koju prenose bozoni W i Z. Deluje samo na rastojanjima mnogo manjim od protona i može da pretvori jednu vrstu čestice u drugu — zbog nje postoji beta-radioaktivnost."
     }
   },
   "faq": {
@@ -4238,7 +4329,8 @@
       "mitochondrion": "mitohondrija",
       "chankillo": "niz Trinaest kula Čankilja",
       "goseck_circle": "krug u Gozeku",
-      "abu_simbel": "Veliki hram u Abu Simbelu"
+      "abu_simbel": "Veliki hram u Abu Simbelu",
+      "neutron": "neutron"
     },
     "a3smallerTall": "Korak niže: {other} ({otherSize}), oko {ratio} puta niže.",
     "a3largerTall": "Korak više: {other} ({otherSize}), oko {ratio} puta više.",

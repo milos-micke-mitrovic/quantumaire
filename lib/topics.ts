@@ -290,7 +290,7 @@ export const TOPICS: Topic[] = [
     slug: "smallest-things-in-the-universe",
     i18nKey: "topics.smallestThingsInTheUniverse",
     sectionCount: 5,
-    relatedStopIds: ["quark", "electron", "proton", "atomic_nucleus", "atom", "water_molecule", "dna", "ribosome", "virus", "visible_light", "mitochondrion", "bacterium", "red_blood_cell", "cell", "pollen_grain", "human"],
+    relatedStopIds: ["quark", "electron", "proton", "neutron", "atomic_nucleus", "atom", "water_molecule", "dna", "ribosome", "virus", "visible_light", "mitochondrion", "bacterium", "red_blood_cell", "cell", "pollen_grain", "human"],
     sources: [
       { label: "Physics Letters B (ZEUS, 2016)", url: "https://doi.org/10.1016/j.physletb.2016.04.007" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Planck_units" },
@@ -407,7 +407,7 @@ export const TOPICS: Topic[] = [
     slug: "quantum-physics",
     i18nKey: "topics.quantumPhysics",
     sectionCount: 5,
-    relatedStopIds: ["electron", "wave_particle_duality", "uncertainty_principle", "quantum_superposition", "quantum_entanglement", "quantum_tunnelling", "pauli_exclusion_principle", "visible_light", "quark", "proton", "neutrino", "higgs_boson", "antimatter", "atom", "planck_length", "string_theory"],
+    relatedStopIds: ["standard_model", "electron", "photon", "wave_particle_duality", "uncertainty_principle", "quantum_superposition", "quantum_entanglement", "quantum_tunnelling", "pauli_exclusion_principle", "visible_light", "quark", "proton", "neutron", "neutrino", "higgs_boson", "antimatter", "atom", "planck_length", "string_theory"],
     sources: [
       { label: "Wikipedia — Quantum mechanics", url: "https://en.wikipedia.org/wiki/Quantum_mechanics" },
       { label: "Wikipedia — Standard Model", url: "https://en.wikipedia.org/wiki/Standard_Model" },

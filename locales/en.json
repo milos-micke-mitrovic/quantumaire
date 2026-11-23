@@ -3064,6 +3064,73 @@
         "fact5": "Rescue: in 1964–68 the two temples were cut into 1,036 blocks; the Great Temple was raised 65 m and moved about 210 m back onto an artificial hill, at a cost of about US$41.7 million shared between Egypt and 48 other countries; the relocated temples were inaugurated on 22 September 1968.",
         "fact6": "Rediscovery: almost buried in sand, the temple was found by Johann Ludwig Burckhardt in March 1813, and Giovanni Belzoni dug his way in on 1 August 1817. Part of the UNESCO World Heritage Site 'Nubian Monuments from Abu Simbel to Philae' since 1979."
       }
+    },
+    "photon": {
+      "name": "Photon",
+      "seoTitle": "What Is a Photon? The Particle of Light, Simply Explained",
+      "metaDescription": "A photon is a single particle of light: no mass, no charge, always moving at light speed. Its colour sets its energy — and your eye may sense just one.",
+      "tagline": "The particle of light — no mass, no charge, never at rest, and the messenger behind every electric and magnetic pull.",
+      "body": "A photon is the smallest possible amount of light: a single packet, or quantum, of electromagnetic energy. In 1900 Max Planck could explain the colours of glowing hot objects only by assuming that energy is given off in small fixed portions, and in 1905 Albert Einstein went further, proposing that light itself comes in such packets — which explained the photoelectric effect and later won him the Nobel Prize. A photon has no mass and no electric charge, and in empty space it always moves at the speed of light; it is never at rest. Its energy depends only on its frequency (E = hf), so the same kind of particle makes up radio waves, the colours of visible light, X-rays and gamma rays: a blue photon simply carries more energy than a red one, and a radio photon far less. Photons are also how charged particles push and pull on each other, which makes them the carriers of the electromagnetic force. Like every quantum particle, a photon travels as a wave yet is always detected as a single click or dot — the puzzle behind wave–particle duality.",
+      "narrative": "The sunlight warming your face left the Sun's surface only minutes ago, but the energy it carries is far older. Gamma-ray photons made by fusion in the Sun's core are absorbed almost at once by the dense, hot gas around them and sent off again in a random direction, over and over, so the energy staggers outwards in a 'random walk' instead of flying straight. Models of the solar interior mostly put that trip at somewhere between 10,000 and 170,000 years — the spread comes from different assumptions, and the millions of years quoted in some older textbooks are considered a miscalculation. Strictly, no single photon makes the whole journey: each one is swallowed and a new one is sent on, countless times.",
+      "funFact": "Your eye comes close to being a single-photon detector. In the 1940s Selig Hecht and his colleagues found that people whose eyes had adjusted to the dark could report flashes of only about 5–7 photons. In 2016 a team in Vienna sent single photons into the eyes of three volunteers sitting in total darkness and asked in which of two moments the photon had come: they were right 51.6% of the time instead of the 50% expected from guessing, and 60% when they felt most sure. The overall effect is small and statistically borderline, but it suggests that a single photon can sometimes be noticed.",
+      "image": {
+        "alt": "A large photomultiplier tube of the kind that lines Japan's Super-Kamiokande detector, in a museum display case: a big round glass bulb with a mirror-like coating that reflects the hall around it, narrowing at the back into a clear glass neck that ends in a black connector."
+      },
+      "facts": {
+        "fact1": "No mass and no charge, as far as any measurement can tell: the Particle Data Group's limits put its mass below 10⁻¹⁸ eV — less than 2 × 10⁻²⁴ of an electron's mass — and its charge below 10⁻³⁵ of an electron's.",
+        "fact2": "Energy = Planck constant × frequency (E = hf), with h = 6.62607015 × 10⁻³⁴ joule-seconds, exact by definition. A green photon (550 nm) carries about 3.6 × 10⁻¹⁹ joules, or 2.25 electronvolts.",
+        "fact3": "A photon from an FM radio station broadcasting at 100 MHz carries only about 4 × 10⁻⁷ electronvolts — more than 5 million times less than a green one. Same particle, lower frequency.",
+        "fact4": "A 1-milliwatt red laser pointer (650 nm) sends out about 3.3 × 10¹⁵ photons every second — more than three million billion — which is why ordinary light looks smooth rather than grainy.",
+        "fact5": "Max Planck introduced energy quanta in 1900 to explain the glow of hot objects. Einstein proposed in 1905 that light itself is made of quanta and received the 1921 Nobel Prize in Physics for explaining the photoelectric effect.",
+        "fact6": "In 1923 Arthur Compton showed that X-ray photons bounce off electrons like tiny billiard balls, coming away with less energy and a longer wavelength — proof that photons carry momentum. He shared the 1927 Nobel Prize in Physics.",
+        "fact7": "The word 'photon' was popularised by the chemist Gilbert N. Lewis in a letter to Nature published on 18 December 1926. His own 'photon' was a hypothetical particle that he said was 'not light'; the idea was dropped, but the name stuck. Einstein himself never used it.",
+        "fact8": "Space is full of photons: about 411 in every cubic centimetre are left over from the early universe as the cosmic microwave background — roughly 1.6 billion of them for every proton or neutron."
+      }
+    },
+    "neutron": {
+      "name": "Neutron",
+      "seoTitle": "What Is a Neutron? Size, Mass and the 15-Minute Puzzle",
+      "metaDescription": "The neutron: no charge, about as wide as a proton and 0.14% heavier. It holds nuclei together and drives reactors — yet alone it decays in about 15 minutes.",
+      "tagline": "The proton's neutral partner: it holds atomic nuclei together, yet left on its own it falls apart in about 15 minutes.",
+      "body": "The neutron is the uncharged partner of the proton, found in the nucleus of every atom except ordinary hydrogen. James Chadwick discovered it in 1932 at the Cavendish Laboratory in Cambridge and won the 1935 Nobel Prize in Physics for it. It is made of three quarks — one up and two down — whose electric charges cancel exactly; it is about as wide as a proton, roughly 1.7 femtometres, and only 0.14% heavier. Inside a nucleus, neutrons are the peacekeepers: they feel the strong nuclear force that pulls protons and neutrons together but add no electric repulsion, so without them no nucleus with more than one proton would hold together — and atoms of one element that differ only in their number of neutrons are called isotopes. Having no charge, a neutron can reach a nucleus without being pushed away, which is why neutrons split uranium in nuclear reactors and why scientists use beams of them to look inside materials. On its own, though, a neutron is unstable: after about 15 minutes on average it turns into a proton, an electron and an antineutrino.",
+      "narrative": "A neutron is about 1.7 femtometres across — practically the same as a proton. Blow it up to a marble 1.7 centimetres wide and a gold nucleus would become a ball about 14 centimetres across, while the gold atom around it would be nearly 3 kilometres wide. Of the 197 particles in that gold nucleus, 118 are neutrons.",
+      "massNarrative": "A neutron weighs 1.675 × 10⁻²⁷ kg, so it takes about 6 × 10²³ of them — six hundred thousand billion billion — to make a single gram. Squeezed together in a neutron star, though, a sugar-cube-sized piece of that matter would weigh about a trillion kilograms on Earth: as much as a mountain, according to NASA.",
+      "funFact": "Nobody knows exactly how long a free neutron lives. 'Bottle' experiments trap very cold neutrons and count how many are left as time passes; 'beam' experiments send neutrons down a tube and count the protons they turn into. For decades the two methods have disagreed by about 9 seconds — a big gap for a particle that lives only about 15 minutes. The most precise bottle result, published in 2021 by the UCNτ experiment at Los Alamos, is 877.75 seconds. Either one method hides a mistake nobody has found yet, or something new in physics is going on.",
+      "image": {
+        "alt": "Black-and-white photo from 1942: a man in overalls and a cap stands beside a tall, square stack of dark blocks whose top section is wrapped in crinkled, shiny sheeting. It is one of the test piles built under the stands of Stagg Field in Chicago on the way to the first nuclear reactor."
+      },
+      "facts": {
+        "fact1": "Mass: 1.67492750056 × 10⁻²⁷ kg (CODATA 2022) — about 1,838.7 times an electron, and 0.14% more than a proton. The difference is about 2.5 electron masses, enough to pay for the electron it gives off when it decays.",
+        "fact2": "No electric charge: one up quark (+2/3) and two down quarks (−1/3 each) add up to zero, and experiments put any leftover charge below about 10⁻²¹ of a proton's. Yet it is a tiny magnet — Luis Alvarez and Felix Bloch measured its magnetism in 1940 — a sign of the charged quarks inside.",
+        "fact3": "Size: a radius of about 0.8 femtometres (0.8 × 10⁻¹⁵ m), so roughly 1.6–1.7 fm across — the same as a proton within the fuzziness of the measurement. Like a proton, it has no sharp surface.",
+        "fact4": "A free neutron lives 878.4 seconds on average (about 14.6 minutes), which makes its half-life about 609 seconds — just over 10 minutes. After an hour, fewer than 2 in 100 are left. Inside a stable nucleus a neutron does not decay at all.",
+        "fact5": "Ernest Rutherford proposed a neutral particle in the nucleus in 1920. In 1932 James Chadwick showed that a puzzling, penetrating radiation knocked out of beryllium by alpha particles was really a stream of uncharged particles about as heavy as a proton. His Nature paper was titled 'Possible Existence of a Neutron'.",
+        "fact6": "Isotopes: a hydrogen nucleus is a lone proton; deuterium adds one neutron, tritium two. Carbon-14 (6 protons, 8 neutrons) has one neutron too many to be stable and slowly decays into nitrogen-14, with a half-life of about 5,730 years.",
+        "fact7": "Splitting a uranium-235 nucleus releases two or three new neutrons, and they can split more nuclei — a chain reaction. Enrico Fermi's team started the first one on 2 December 1942 in Chicago Pile-1, a stack of graphite bricks and uranium in a squash court under Stagg Field; it ran for about 4.5 minutes at roughly half a watt.",
+        "fact8": "Research reactors and spallation sources make neutron beams that work as a microscope for materials. Having no charge, slow neutrons travel deep into matter, notice magnetism and see atoms differently from X-rays, so the two methods complement each other."
+      }
+    },
+    "standard_model": {
+      "name": "Standard Model",
+      "seoTitle": "What Is the Standard Model? 17 Particles, 3 Forces",
+      "metaDescription": "The Standard Model explains 17 elementary particles and three of the four forces — physics' best-tested theory, and what it still leaves out.",
+      "tagline": "Seventeen particles, three forces, one remarkably exact theory — and a short list of things it cannot explain.",
+      "body": "The Standard Model is physics' rulebook for the smallest things there are. It lists the elementary particles — six quarks, six leptons (the electron, its two heavier cousins the muon and the tau, and three kinds of neutrino), four force-carrying bosons and the Higgs boson — and describes how they act on each other through three of nature's four forces: electromagnetism, the weak force behind some kinds of radioactive decay, and the strong force that binds quarks into protons and neutrons. The usual count is 17, but that depends on the bookkeeping: count every antiparticle and every 'colour' of quark and gluon separately and you get 61. The theory was pieced together in the 1960s and 70s, and it has passed every test at particle colliders since, often to many decimal places. It is not the final word, though: it leaves out gravity, has no particle that could be dark matter, says nothing about dark energy, and cannot explain why the universe is made of matter rather than antimatter.",
+      "narrative": "The Standard Model has no size — it is a theory, not a thing. But almost everything you have ever touched is built from just three of its particles: up quarks, down quarks and electrons, held together by photons and gluons. The heavier quarks and leptons belong to a second and third 'generation' that appear in high-energy collisions and quickly decay back into the lighter ones — and nobody knows why nature needs three generations at all.",
+      "funFact": "The giant orange cylinder in the picture is Gargamelle, a bubble chamber that ran at CERN from 1970 to 1979. Filled with 12 cubic metres of heavy liquid freon, it photographed the trails of bubbles left by particles — and in July 1973 its team announced 'neutral currents': neutrinos hitting matter and flying on as neutrinos, exactly as the new electroweak theory predicted. It was the first sign of the Z boson, ten years before the particle itself was found.",
+      "image": {
+        "alt": "The Gargamelle bubble chamber on display in a park at CERN: a big orange-red steel cylinder studded with bolts, open at one end, tilted on dark blue stands above two grey concrete plinths, with a lawn, trees, benches and an office building behind it."
+      },
+      "facts": {
+        "fact1": "17 elementary particles in the usual count: 6 quarks + 6 leptons + 4 force carriers (gluon, photon, W, Z) + the Higgs boson. Counting antiparticles, the three quark colours, the 8 gluons and W⁺/W⁻ separately gives 61.",
+        "fact2": "It covers 3 of the 4 fundamental forces — electromagnetic, weak and strong. Gravity is left out: there is no tested quantum theory of gravity to join it with, though between single particles gravity is far too weak to matter.",
+        "fact3": "Built step by step: Glashow joined electromagnetism and the weak force in 1961; Gell-Mann and Zweig proposed quarks in 1964; Weinberg (1967) and Salam (1968) completed that electroweak theory using the Higgs mechanism; in 1973 Gross, Wilczek and Politzer found the key property of the strong-force theory (quantum chromodynamics). The name 'Standard Model' dates from 1975.",
+        "fact4": "Predictions later confirmed: neutral currents (1973), the W and Z bosons (1983), the top quark (1995), the tau neutrino (2000) and the Higgs boson (2012). Glashow, Salam and Weinberg shared the 1979 Nobel Prize in Physics.",
+        "fact5": "Its sharpest test is the electron's magnetic strength, g/2 = 1.00115965218059, measured to 0.13 parts per trillion in 2023 — checking the theory's most precise prediction to about one part in a trillion.",
+        "fact6": "It has 19 free numbers — such as particle masses and the strengths of the forces — that must be measured rather than derived. In the original theory neutrinos have no mass; we now know they do, and describing their masses takes about 7 or 8 more numbers.",
+        "fact7": "The Muon g-2 experiment: Fermilab's final result (2025) measured the muon's magnetic anomaly to 127 parts per billion. For years it disagreed with the theory, but the newest prediction, computed on supercomputers, lands close to it; an older calculation method still disagrees, and theorists are working out why.",
+        "fact8": "W boson mass: in 2022 the CDF experiment reported a value heavier than the Standard Model allows. In 2024 CMS at CERN measured 80,360.2 ± 9.9 MeV with similar precision — in strong agreement with the prediction."
+      }
     }
   },
   "about": {
@@ -3290,7 +3357,7 @@
       "title": "The Smallest Things in the Universe",
       "seoTitle": "The Smallest Things in the Universe",
       "tagline": "From cells to quarks to the Planck length — what is really small, what is point-like, and how we can possibly know.",
-      "intro": "Ask what the smallest thing in the universe is and the answer depends on what you mean. The smallest living cells are bacteria a few hundred nanometres across. The smallest objects with a measured size are protons and neutrons, under two femtometres wide. The truly fundamental particles — quarks and electrons — have no measured size at all: every experiment so far finds them point-like, and only upper limits exist. Below everything sits the Planck length, a theoretical scale where today's physics stops working. Here is the ladder from top to bottom, with an honest label on each rung.",
+      "intro": "Ask what the smallest thing in the universe is and the answer depends on what you mean. The smallest living cells are bacteria a few hundred nanometres across. The smallest objects with a measured size are protons and **neutrons**, under two femtometres wide. The truly fundamental particles — quarks and electrons — have no measured size at all: every experiment so far finds them point-like, and only upper limits exist. Below everything sits the Planck length, a theoretical scale where today's physics stops working. Here is the ladder from top to bottom, with an honest label on each rung.",
       "section1Heading": "The living world: cells, bacteria and viruses",
       "section1Body": "A human hair is roughly 70 micrometres (µm) thick, close to the smallest detail your eye can make out at reading distance, about 0.1 mm. Below that limit everything is invisible without help. Most pollen grains are 10 to 100 µm, typically about a third of a hair's width. A human red blood cell is about 8 µm across, and a typical animal cell 10 to 30 µm. Most bacteria are 0.5 to 5 µm long, and the smallest are only about 0.2 to 0.3 µm — 200 to 300 nanometres (nm). Viruses are smaller still: most measure 20 to 300 nm, and the smallest known, such as circoviruses, are under 20 nm. There are exceptions in both directions. Giant viruses like Pithovirus reach about 1.5 µm, bigger than many bacteria, while the bacterium Thiomargarita magnifica grows up to about 2 cm long — visible to the naked eye. Smaller than any virus, the DNA double helix inside your cells is about 2 nm wide.",
       "section2Heading": "Atoms and their nuclei",
@@ -3387,7 +3454,7 @@
       "section3Heading": "Entanglement: linked at any distance",
       "section3Body": "Two particles can share a single quantum state, so that measuring one tells you what the matching measurement on the other will show, however far apart they are. Einstein called this 'spooky action at a distance' and suspected the particles carried hidden instructions. In 1964 John Bell showed how to test that idea, and experiments since — loophole-free from 2015 — rule such instructions out, as long as nothing travels between the particles faster than light. **Quantum entanglement** still cannot carry a message: each side on its own sees only random results. Alain Aspect, John Clauser and Anton Zeilinger shared the 2022 Nobel Prize in Physics for these tests, and in 2017 a satellite shared entangled photons between ground stations 1,203 km apart.",
       "section4Heading": "The particles everything is made of",
-      "section4Body": "The Standard Model of particle physics counts 17 kinds of elementary particle: six kinds of **quark**, six leptons (among them the **electron** and three kinds of **neutrino**), four force carriers such as the photon and the gluon, and the **Higgs boson**, found at CERN in 2012 at about 125 GeV. The **proton** is not on the list: it is three quarks held together by gluons, about 0.84 femtometres in radius. Every particle has an **antimatter** twin with the same mass and the opposite charge. As far as any experiment can tell, quarks and electrons have no size at all — if the electron has one, it is smaller than 3 × 10⁻¹⁹ m.",
+      "section4Body": "The Standard Model of particle physics counts 17 kinds of elementary particle: six kinds of **quark**, six leptons (among them the **electron** and three kinds of **neutrino**), four force carriers such as the **photon** and the gluon, and the **Higgs boson**, found at CERN in 2012 at about 125 GeV. The **proton** is not on the list: it is three quarks held together by gluons, about 0.84 femtometres in radius. Every particle has an **antimatter** twin with the same mass and the opposite charge. As far as any experiment can tell, quarks and electrons have no size at all — if the electron has one, it is smaller than 3 × 10⁻¹⁹ m.",
       "section5Heading": "What is known, and what is still open",
       "section5Body": "Quantum physics is among the best-tested theories in science: the electron's magnetic strength matches its prediction to about one part in a trillion, and lasers, LEDs, computer chips and MRI scanners all rely on it. What is open is its meaning and its edges. Interpretations — Copenhagen, many worlds, pilot waves and others — agree on every measured number but tell different stories about what happens when something is measured. Nobody knows why the universe is made of matter rather than equal amounts of matter and antimatter, or exactly how neutrinos get their tiny masses. And quantum physics has never been joined with gravity: at the **Planck length**, about 1.6 × 10⁻³⁵ m, both should matter at once, and no tested theory can handle that. String theory and other candidates remain unconfirmed.",
       "keyNumber1Label": "Planck constant h",
@@ -4095,6 +4162,30 @@
     "magnetosphere": {
       "term": "Magnetosphere",
       "definition": "The bubble of space around a planet or moon where its own magnetic field, not the solar wind, steers charged particles. It funnels some of them toward the poles, where they make auroras. Ganymede is the only moon known to have one."
+    },
+    "beta_decay": {
+      "term": "Beta decay",
+      "definition": "A kind of radioactivity driven by the weak force: a neutron turns into a proton and gives off an electron and an antineutrino (in the mirror version, a proton in a nucleus turns into a neutron and gives off a positron and a neutrino)."
+    },
+    "isotope": {
+      "term": "Isotope",
+      "definition": "One of several forms of the same chemical element whose nuclei have the same number of protons but different numbers of neutrons, such as carbon-12 and carbon-14."
+    },
+    "chain_reaction": {
+      "term": "Chain reaction",
+      "definition": "A self-sustaining run of nuclear fissions: each split nucleus releases neutrons that go on to split further nuclei."
+    },
+    "lepton": {
+      "term": "Lepton",
+      "definition": "A matter particle that does not feel the strong force. There are six: the electron, the muon, the tau and three kinds of neutrino."
+    },
+    "boson": {
+      "term": "Boson",
+      "definition": "A particle with whole-number spin (0, 1, 2 …). Unlike fermions, any number of identical bosons can share the same state. The force carriers — photon, gluons, W and Z — and the Higgs boson are bosons."
+    },
+    "weak_force": {
+      "term": "Weak force",
+      "definition": "One of the four fundamental forces, carried by the W and Z bosons. It acts only over distances far smaller than a proton and can turn one kind of particle into another — the cause of beta radioactivity."
     }
   },
   "faq": {
@@ -4233,7 +4324,8 @@
       "mitochondrion": "a mitochondrion",
       "chankillo": "the line of Chankillo's Thirteen Towers",
       "goseck_circle": "the Goseck circle",
-      "abu_simbel": "the Great Temple of Abu Simbel"
+      "abu_simbel": "the Great Temple of Abu Simbel",
+      "neutron": "a neutron"
     },
     "a7where": "The typical temperature of {name} is about {temp} — {note}.",
     "a2taller": "{Name} is roughly {ratio} times taller than a 1.7 m human.",

@@ -2060,5 +2060,83 @@
       "label": "NASA — Cassini: Enceladus",
       "url": "https://science.nasa.gov/mission/cassini/science/enceladus/"
     }
+  ],
+  "photon": [
+    {
+      "label": "Wikipedia — Photon",
+      "url": "https://en.wikipedia.org/wiki/Photon"
+    },
+    {
+      "label": "APS News — Gilbert Lewis coins 'photon' (1926)",
+      "url": "https://www.aps.org/apsnews/2012/12/gilbert-lewis-coins-photon-letter"
+    },
+    {
+      "label": "Particle Data Group 2024 — photon listing",
+      "url": "https://pdg.lbl.gov/2024/listings/rpp2024-list-photon.pdf"
+    },
+    {
+      "label": "Particle Data Group 2024 — Astrophysical constants",
+      "url": "https://pdg.lbl.gov/2024/reviews/rpp2024-rev-astrophysical-constants.pdf"
+    },
+    {
+      "label": "Tinsley et al. 2016, \"Direct detection of a single photon by humans\", Nature Communications 7, 12172",
+      "url": "https://doi.org/10.1038/ncomms12172"
+    },
+    {
+      "label": "NASA Sun-Earth Day 2007 — Ancient sunlight",
+      "url": "https://web.archive.org/web/20090515085541/http://sunearthday.nasa.gov/2007/locations/ttt_sunlight.php"
+    },
+    {
+      "label": "NIST CODATA — Planck constant h = 6.62607015 × 10⁻³⁴ J Hz⁻¹",
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?h"
+    }
+  ],
+  "neutron": [
+    {
+      "label": "Wikipedia — Neutron",
+      "url": "https://en.wikipedia.org/wiki/Neutron"
+    },
+    {
+      "label": "NIST CODATA — neutron-electron mass ratio",
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?mnsme"
+    },
+    {
+      "label": "Caltech — How long does a neutron live?",
+      "url": "https://www.caltech.edu/about/news/how-long-does-a-neutron-live"
+    },
+    {
+      "label": "Wikipedia — Chicago Pile-1",
+      "url": "https://en.wikipedia.org/wiki/Chicago_Pile-1"
+    },
+    {
+      "label": "NASA — Neutron stars",
+      "url": "https://imagine.gsfc.nasa.gov/science/objects/neutron_stars1.html"
+    }
+  ],
+  "standard_model": [
+    {
+      "label": "CERN — The Standard Model",
+      "url": "https://home.cern/science/physics/standard-model"
+    },
+    {
+      "label": "Wikipedia — Standard Model",
+      "url": "https://en.wikipedia.org/wiki/Standard_Model"
+    },
+    {
+      "label": "Fermilab — Muon g-2 final result (2025)",
+      "url": "https://news.fnal.gov/2025/06/muon-g-2-most-precise-measurement-of-muon-magnetic-anomaly/"
+    },
+    {
+      "label": "CMS — W boson mass measurement (2024)",
+      "url": "https://cms.cern/news/cms-delivers-best-precision-measurement-w-boson-mass-lhc"
+    },
+    {
+      "label": "Electron magnetic moment (arXiv)",
+      "url": "https://arxiv.org/abs/2209.13084"
+    },
+    {
+      "label": "Wikipedia — Gargamelle",
+      "url": "https://en.wikipedia.org/wiki/Gargamelle"
+    }
   ]
 }

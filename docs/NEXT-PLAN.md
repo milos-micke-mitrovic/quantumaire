@@ -20,11 +20,16 @@ generated sentences, log in `docs/CHANGELOG-ai.md`.
 
 ## 2. Particles (MICRO_WORLD / PHYSICS)
 
-- [ ] Photon (idea or size? decide — no size; link visible_light,
+- [x] Photon (idea or size? decide — no size; link visible_light,
       wave_particle_duality), neutron (~1.7e-15 m like the proton; free
       neutron ~15 min half-life; ties to neutron_star), Standard Model
       (idea: 17 particles, what it leaves out — gravity, dark matter).
       Add to quantum-physics / smallest-things guides.
+      2026-11-23: photon (idea, FACT), neutron 1.7e-15 (ties with the
+      proton, now also 1.7e-15 — was a round 1e-15 that contradicted its
+      own 0.84 fm radius and the nucleus page), standard_model (idea,
+      PHYSICS, ESTABLISHED_THEORY). Guides: quantum-physics (+all three),
+      smallest-things (+neutron). No pairs (neutron–proton is a tie).
 
 ## 3. Ancient sky sites (HUMANKIND, tag `ancient`)
 
