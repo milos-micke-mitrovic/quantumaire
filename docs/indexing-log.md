@@ -4,17 +4,7 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 
 ## Queue (next first)
 
-- https://quantumaire.space/en/topics/ancient-astronomy (new 2026-11-21)
-- https://quantumaire.space/en/stop/nebra_sky_disc (new 2026-11-21)
 - https://quantumaire.space/en/stop/antikythera_mechanism (new 2026-11-21)
-- https://quantumaire.space/en/stop/newgrange (new 2026-11-21)
-- https://quantumaire.space/en/stop/el_castillo (new 2026-11-21)
-- https://quantumaire.space/en/stop/saturn_rings (new 2026-11-22)
-- https://quantumaire.space/en/stop/kuiper_belt (new 2026-11-22)
-- https://quantumaire.space/en/stop/trappist_1 (new 2026-11-22)
-- https://quantumaire.space/en/stop/pillars_of_creation (new 2026-11-22)
-- https://quantumaire.space/en/stop/cosmic_microwave_background (new 2026-11-22)
-- https://quantumaire.space/en/stop/quantum_superposition (new 2026-11-22)
 - https://quantumaire.space/en/stop/quantum_tunnelling (new 2026-11-22)
 - https://quantumaire.space/en/stop/pauli_exclusion_principle (new 2026-11-22)
 - https://quantumaire.space/en/stop/atomic_nucleus (new 2026-11-22)
@@ -135,3 +125,4 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
   /en/compare/{jupiter-vs-earth,sun-vs-earth,earth-vs-moon,uy-scuti-vs-sun} — then "Quota Exceeded" on milky-way-vs-andromeda (11 accepted); resume with milky-way-vs-andromeda.
 - 2026-11-21 (~16:45): /en/compare/milky-way-vs-andromeda; /en/stop/{string_theory,gravity,wormhole,time_dilation,gravitational_waves,quantum_entanglement,planck_length,higgs_boson,antimatter,big_bang} — then "Quota Exceeded" on multiverse (11 accepted); resume with multiverse.
 - 2026-11-22 (~13:00): "Quota Exceeded" on the first URL (ancient-astronomy) — yesterday's 16:45 batch still blocks (rolling 24 h). Round 7 pages moved to the front; next batch after ~17:00.
+- 2026-11-23 (~11:20): /en/topics/ancient-astronomy; /en/stop/{nebra_sky_disc,newgrange,el_castillo,saturn_rings,kuiper_belt,trappist_1,pillars_of_creation,cosmic_microwave_background,quantum_superposition} (kuiper_belt + trappist_1 sent but confirmation not seen) — antikythera_mechanism got "Something went wrong", retry hit "Quota Exceeded" (counts toward the 10); resume with antikythera_mechanism.
