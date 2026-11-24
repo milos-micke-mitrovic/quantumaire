@@ -58,6 +58,9 @@ export const COMPARE_PAIRS: Array<[string, string]> = [
   ["saturn_rings", "earth"],
   ["goseck_circle", "stonehenge"],
   ["pyramid", "abu_simbel"],
+  ["ganymede", "mercury"],
+  ["ganymede", "moon"],
+  ["pyramid", "angkor_wat"],
 ];
 
 export const idToSlug = (id: string) => id.replace(/_/g, "-");
