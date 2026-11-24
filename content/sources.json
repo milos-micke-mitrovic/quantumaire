@@ -2212,5 +2212,149 @@
       "label": "Serbian Wikipedia — Гобекли Тепе (spelling Gobekli Tepe, Klaus Šmit, Nevali Čori; monumental Neolithic site in south-eastern Anatolia, about 9600–8200 BC; Šmit's research from 1994; T-shaped limestone pillars in rings with two taller pillars in the middle; UNESCO World Heritage; still gives the older 'temple without a settlement' view)",
       "url": "https://sr.wikipedia.org/wiki/%D0%93%D0%BE%D0%B1%D0%B5%D0%BA%D0%BB%D0%B8_%D0%A2%D0%B5%D0%BF%D0%B5"
     }
+  ],
+  "oumuamua": [
+    {
+      "label": "Meech et al. (2017), Nature 552:378 — 'A brief visit from a red and extremely elongated interstellar asteroid' (discovery paper: found by Pan-STARRS1 on 19 October 2017; hyperbolic orbit; brightness varies about tenfold, implying an axis ratio of at least 10:1; reddish surface like outer-Solar-System bodies; no dust coma detected)",
+      "url": "https://www.nature.com/articles/nature25020"
+    },
+    {
+      "label": "ESO press release eso1737 (20 November 2017) — 'ESO Observations Show First Interstellar Asteroid is Like Nothing Seen Before' (brightness varies by a factor of ten every 7.3 hours; about ten times as long as wide; dark red colour; completely inert, no dust; estimated at least 400 m long; came from the direction of Vega, which was not there 300,000 years ago; Hawaiian name, 1I designation)",
+      "url": "https://www.eso.org/public/news/eso1737/"
+    },
+    {
+      "label": "NASA Science — 'Oumuamua (discovered 19 October 2017; up to 400 m long and perhaps 10 times as long as wide; reddish; perihelion on 9 September 2017 at 87.3 km/s; about 26.4 km/s incoming speed; first classed as a comet, then an asteroid, then found to be accelerating slightly like a comet; name means 'a messenger from afar arriving first')",
+      "url": "https://science.nasa.gov/solar-system/comets/oumuamua/"
+    },
+    {
+      "label": "Micheli et al. (2018), Nature 559:223 — 'Non-gravitational acceleration in the trajectory of 1I/2017 U1 (ʻOumuamua)' (acceleration detected at 30 sigma, radial and falling off roughly as 1/r²; consistent with comet-like outgassing although no activity was seen; tumbling rotation, cometary-like surface)",
+      "url": "https://www.nature.com/articles/s41586-018-0254-4"
+    },
+    {
+      "label": "Bergner & Seligman (2023), Nature 615:610 — 'Acceleration of 1I/ʻOumuamua from radiolytically produced H₂ in H₂O ice' (cosmic rays turn water ice into trapped molecular hydrogen during the interstellar journey; warming near the Sun releases it, which can explain the push without a visible coma)",
+      "url": "https://www.nature.com/articles/s41586-022-05687-w"
+    },
+    {
+      "label": "ʻOumuamua ISSI Team (2019), Nature Astronomy 3:594 — 'The natural history of ʻOumuamua' (review: in all cases the observations are consistent with a purely natural origin)",
+      "url": "https://www.nature.com/articles/s41550-019-0816-x"
+    },
+    {
+      "label": "Bialy & Loeb (2018), ApJ Letters 868:L1 — 'Could Solar Radiation Pressure Explain ʻOumuamua's Peculiar Acceleration?' (the light-sail proposal: would need a sheet about 0.3–0.9 mm thick; raises an artificial probe as an 'exotic' possibility)",
+      "url": "https://iopscience.iop.org/article/10.3847/2041-8213/aaeda8"
+    },
+    {
+      "label": "Wikipedia — 1I/ʻOumuamua (discovered by Robert Weryk with Pan-STARRS1, Haleakalā; eccentricity 1.20; 26.33 km/s interstellar speed; perihelion 0.255 AU; observed for 80 days; tumbling; size estimates from 100 m to 1,000 m long, or a 115 × 111 × 19 m disc (Mashchenko 2019); Allen Telescope Array and Breakthrough Listen found no radio signals; hydrogen-ice, nitrogen-ice and H₂-from-water-ice explanations)",
+      "url": "https://en.wikipedia.org/wiki/1I/%CA%BBOumuamua"
+    }
+  ],
+  "atlas_3i": [
+    {
+      "label": "Wikipedia — 3I/ATLAS (C/2025 N1; discovered 1 July 2025 by ATLAS at Río Hurtado, Chile; third interstellar object after 1I/ʻOumuamua and 2I/Borisov; hyperbolic excess speed ~58 km/s vs 26 km/s for ʻOumuamua and 32 km/s for Borisov; perihelion 29 October 2025 at 1.356 AU; passed Mars 3 October 2025, Earth at 1.80 AU on 19 December 2025, Jupiter at 0.358 AU on 16 March 2026; age estimates 7.6–14 Gyr (Hopkins et al.) and 3–11 Gyr (Taylor & Seligman); JWST CO2-dominated coma; Ni detected, Fe initially not; Loeb's alien-technology paper and the criticism by Lintott, Lawler, Seligman and others; observed by ExoMars TGO, Psyche and Juice)",
+      "url": "https://en.wikipedia.org/wiki/3I/ATLAS"
+    },
+    {
+      "label": "NASA — Comet 3I/ATLAS (discovered 1 July 2025 by the NASA-funded ATLAS telescope in Río Hurtado, Chile; pre-discovery images back to 14 June 2025; nucleus upper limit 5.6 km, possibly as small as 440 m (Aug 2025); perihelion around 30 October 2025 at ~1.4 AU, just inside Mars' orbit; closest to Earth ~1.8 AU (~270 million km), no threat; observed by Hubble, Webb, TESS, Swift, SPHEREx, Perseverance, MRO, MAVEN, Europa Clipper, Lucy, Psyche, Parker Solar Probe, PUNCH and SOHO)",
+      "url": "https://science.nasa.gov/solar-system/comets/3i-atlas/"
+    },
+    {
+      "label": "ESA — Comet 3I/ATLAS frequently asked questions (about 250,000 km/h at perihelion; size from a few hundred metres to a few kilometres; billions of years old; perihelion 203 million km on 29 October 2025; ~29 million km from Mars on 3 October 2025; closest to Earth ~270 million km on 19 December 2025; observed by ExoMars TGO, Mars Express, Juice and SOHO)",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Comet_3I_ATLAS_frequently_asked_questions"
+    },
+    {
+      "label": "Hui, Jewitt, Mutchler et al. (2026, ApJ Letters) — Nucleus and Postperihelion Activity of Interstellar Object 3I/ATLAS Observed by Hubble Space Telescope (first detection of the nucleus in HST images of December 2025–January 2026: effective radius 1.3 ± 0.2 km assuming a comet-like albedo of 0.04; agrees with the estimate from its non-gravitational acceleration)",
+      "url": "https://arxiv.org/abs/2601.21569"
+    },
+    {
+      "label": "Cordiner et al. (2025) — JWST detection of a carbon dioxide dominated gas coma surrounding interstellar object 3I/ATLAS (NIRSpec at 3.32 AU; CO2/H2O ratio 7.6 ± 0.3, among the highest ever seen in a comet; H2O, CO, OCS, water ice and dust also present)",
+      "url": "https://arxiv.org/abs/2508.18209"
+    },
+    {
+      "label": "Hutsemékers, Manfroid, Jehin & Opitom (2026, A&A) — Pre-perihelion evolution of the NiI/FeI abundance ratio in the coma of 3I/ATLAS: from extreme to normal (VLT: nickel at all epochs, iron only inside 2.64 AU; the ratio fell to normal comet values; explained by sublimation of nickel and iron carbonyls)",
+      "url": "https://arxiv.org/abs/2509.26053"
+    },
+    {
+      "label": "Hopkins, Dorsey, Forbes & Bannister (2025) — From a Different Star: 3I/ATLAS in the context of the Ōtautahi-Oxford interstellar object population model (its velocity predicts an age of over 7.6 billion years)",
+      "url": "https://arxiv.org/abs/2507.05318"
+    },
+    {
+      "label": "Hibberd, Crowl & Loeb (2025, arXiv preprint) — Is the Interstellar Object 3I/ATLAS Alien Technology? (the speculation itself, described by the authors as 'largely a pedagogical exercise')",
+      "url": "https://arxiv.org/abs/2507.12213"
+    },
+    {
+      "label": "PBS NewsHour / AP (20 November 2025) — NASA releases close-up pictures of interstellar comet 3I/ATLAS (NASA associate administrator Amit Kshatriya: '3I/Atlas is a comet'; officials dismissed alien-spacecraft rumours; closest to Mars ~29 million km, to Earth ~269 million km in mid-December)",
+      "url": "https://www.pbs.org/newshour/science/nasa-releases-close-up-pictures-of-interstellar-comet-3i-atlas"
+    }
+  ],
+  "borisov": [
+    {
+      "label": "Jewitt et al. (2020), ApJ Letters 888:L23 — 'The Nucleus of Interstellar Comet 2I/Borisov' (Hubble imaging; the coma is dominated by ~0.1 mm dust; nucleus radius below 0.5 km from the brightness profile, assuming albedo 0.04, and above 0.2 km from the non-gravitational acceleration, assuming density 500 kg/m³)",
+      "url": "https://iopscience.iop.org/article/10.3847/2041-8213/ab621b"
+    },
+    {
+      "label": "Cordiner et al. (2020), Nature Astronomy 4:861 — 'Unusually high CO abundance of the first active interstellar comet' (ALMA, 15–16 December 2019: carbon monoxide 35–105% relative to water, among the highest of any comet within 2 AU of the Sun; HCN normal; formed in a CO-rich, very cold outer disc, like a proto-Kuiper belt)",
+      "url": "https://www.nature.com/articles/s41550-020-1087-2"
+    },
+    {
+      "label": "Bodewits et al. (2020), Nature Astronomy 4:867 — 'The carbon monoxide-rich interstellar comet 2I/Borisov' (Hubble ultraviolet spectra: CO at least 173% of water, more than three times higher than any comet previously measured in the inner Solar System)",
+      "url": "https://www.nature.com/articles/s41550-020-1095-2"
+    },
+    {
+      "label": "Jewitt et al. (2020), ApJ Letters 896:L39 — 'Outburst and Splitting of Interstellar Comet 2I/Borisov' (arXiv preprint; March 2020 outburst outbound at 2.8 AU ejected about 2 × 10⁷ kg of dust, about 1/10,000 of the nucleus mass; short-lived 'double nucleus' on 30 March 2020, explained by metre-sized boulders breaking up; the comet survives largely unscathed)",
+      "url": "https://arxiv.org/abs/2006.01242"
+    },
+    {
+      "label": "NASA Science — Comet 2I/Borisov (first confirmed interstellar comet, found by Crimean amateur Gennady Borisov on 30 August 2019; Hubble images in October and December 2019, nucleus too small to be seen; about 177,000 km/h; fragment broke off in March 2020; estimated up to about 975 m across)",
+      "url": "https://science.nasa.gov/solar-system/comets/2i-borisov/"
+    },
+    {
+      "label": "Wikipedia — 2I/Borisov (discovered with a self-built 0.65 m telescope at MARGO, Nauchnij, Crimea; eccentricity 3.36; 32 km/s hyperbolic excess speed; perihelion 2.0 AU on 8 December 2019; closest to Earth 28 December 2019; tail about 14 times the size of Earth (Yale, November 2019); CO-rich, water- and C₂-poor; nucleus upper limits 0.4–0.5 km)",
+      "url": "https://en.wikipedia.org/wiki/2I/Borisov"
+    }
+  ],
+  "planet_nine": [
+    {
+      "label": "Wikipedia — Planet Nine (hypothetical; Trujillo & Sheppard 2014 noticed clustered orbits; Batygin & Brown 2016: ~10 Earth masses, chance alignment 0.007%; early estimates 5–10 Earth masses, 2–4 Earth radii, 400–800 AU, 10,000–20,000-year orbit; Siraj et al. 2025 fit 4.4 ± 1.1 Earth masses at 290 ± 30 AU; Shankman et al. 2017 (OSSOS), Bernardinelli et al. 2020 and Napier et al. 2021 found no clustering after correcting for bias; alternatives: self-gravitating disc (Madigan & McCourt 2016, Sefilian & Touma 2019), primordial black hole (Scholtz & Unwin 2019); WISE and Pan-STARRS found nothing; 2017 OF201 and 2023 KQ14 orbits misaligned)",
+      "url": "https://en.wikipedia.org/wiki/Planet_Nine"
+    },
+    {
+      "label": "Caltech news (20 January 2016) — Caltech Researchers Find Evidence of a Real Ninth Planet (about 10 Earth masses, ~20 times Neptune's average distance, 10,000–20,000-year orbit; six distant Kuiper Belt objects point the same way; 0.007% chance; Sedna; both researchers started out sceptical; Brown and Pluto's demotion)",
+      "url": "https://www.caltech.edu/about/news/caltech-researchers-find-evidence-real-ninth-planet-49523"
+    },
+    {
+      "label": "NASA — Hypothetical Planet X (Batygin and Brown, January 2016, did not observe a planet; 5–10 Earth masses, 20–30 times farther than Neptune on average, 10,000–20,000 years per orbit; 'remains theoretical'; debate over whether it exists; Percival Lowell's 1915 Planet X)",
+      "url": "https://science.nasa.gov/solar-system/planet-x/"
+    },
+    {
+      "label": "Batygin & Brown (2016, Astronomical Journal 151:22) — Evidence for a Distant Giant Planet in the Solar System (perihelia and orbital planes of distant Kuiper Belt objects tightly confined, 0.007% chance; explained by a distant eccentric planet of more than ~10 Earth masses)",
+      "url": "https://arxiv.org/abs/1601.05438"
+    },
+    {
+      "label": "Shankman et al. (2017) — OSSOS VI. Striking biases in the detection of large semimajor axis trans-Neptunian objects (OSSOS's eight distant objects are consistent with a uniform, unclustered distribution once survey bias is modelled)",
+      "url": "https://arxiv.org/abs/1706.05348"
+    },
+    {
+      "label": "Napier et al. (2021, Planetary Science Journal) — No Evidence for Orbital Clustering in the Extreme Trans-Neptunian Objects (14 objects from DES, OSSOS and Sheppard & Trujillo; consistent with a uniform population at the 17–94% level)",
+      "url": "https://arxiv.org/abs/2102.05601"
+    },
+    {
+      "label": "Siraj, Chyba & Tremaine (2025, ApJ 978) — Orbit of a Possible Planet X (clustering at ~3σ in longitude of perihelion for objects beyond 170 AU; best fit 4.4 ± 1.1 Earth masses, 290 ± 30 AU, inclination ~7°)",
+      "url": "https://arxiv.org/abs/2410.18170"
+    },
+    {
+      "label": "Siraj, Chyba & Tremaine (2025, MNRAS) — Measuring the Mean Plane of the Distant Kuiper Belt (a warp at 80–400 AU at 98% confidence; most likely cause an unseen planet between Mercury and Earth in mass at roughly 100–200 AU — 'Planet Y'; LSST should confirm or refute it)",
+      "url": "https://arxiv.org/abs/2508.14156"
+    },
+    {
+      "label": "Cheng, Li & Yang (2025) — Discovery of a dwarf planet candidate in an extremely wide orbit: 2017 OF201 (about 700 km, semi-major axis 830 AU; its longitude of perihelion lies outside the clustering attributed to Planet Nine)",
+      "url": "https://arxiv.org/abs/2505.15806"
+    },
+    {
+      "label": "LSST:UK (30 June 2026) — the Vera C. Rubin Observatory's 10-year Legacy Survey of Space and Time began on the night of 29 June 2026",
+      "url": "https://www.lsst.ac.uk/news/2026-06-30-lsst-begins"
+    },
+    {
+      "label": "Serbian Wikipedia — Планета девет (spelling Planeta devet; Konstantin Batigin, Majkl Braun; ekstremni transneptunski objekti; 5–10 Zemljinih masa; 400–800 AJ, later 290 ± 30 AJ; 2017 OF201 and 2023 KQ14 challenge the hypothesis)",
+      "url": "https://sr.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0_%D0%B4%D0%B5%D0%B2%D0%B5%D1%82"
+    }
   ]
 }

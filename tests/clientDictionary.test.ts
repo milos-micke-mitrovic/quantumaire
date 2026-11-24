@@ -50,7 +50,8 @@ describe("client dictionary", () => {
         expect(has(base, `${stop.i18nKey}.name`), stop.id).toBe(true);
         expect(has(base, `${stop.i18nKey}.body`), stop.id).toBe(false);
       }
-      expect(JSON.stringify(base).length).toBeLessThan(60_000);
+      // ~200 chars per topic (name + tagline); raised from 60,000 at 107 topics.
+      expect(JSON.stringify(base).length).toBeLessThan(64_000);
     });
   }
 

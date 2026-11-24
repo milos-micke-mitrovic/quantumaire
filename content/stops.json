@@ -3259,6 +3259,107 @@
       "tags": [
         "ancient"
       ]
+    },
+    {
+      "id": "oumuamua",
+      "i18nKey": "stops.oumuamua",
+      "sizeMeters": 400,
+      "order": 6.4,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/oumuamua.webp",
+        "aspect": "wide",
+        "altKey": "stops.oumuamua.image.alt",
+        "credit": "ESO / M. Kornmesser (artist's impression) — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "interstellar_object",
+        "hyperbolic_orbit",
+        "coma"
+      ],
+      "tags": [
+        "interstellar"
+      ]
+    },
+    {
+      "id": "atlas_3i",
+      "i18nKey": "stops.atlas_3i",
+      "sizeMeters": 2600,
+      "order": 6.53,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/atlas-3i.webp",
+        "aspect": "wide",
+        "altKey": "stops.atlas_3i.image.alt",
+        "credit": "International Gemini Observatory / NOIRLab / NSF / AURA / K. Meech — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "hyperbolic_orbit",
+        "interstellar_object",
+        "perihelion",
+        "orbit"
+      ],
+      "tags": [
+        "interstellar",
+        "comet"
+      ]
+    },
+    {
+      "id": "borisov",
+      "i18nKey": "stops.borisov",
+      "sizeMeters": 700,
+      "order": 6.42,
+      "badge": "FACT",
+      "category": "COSMOS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/borisov.webp",
+        "aspect": "square",
+        "altKey": "stops.borisov.image.alt",
+        "credit": "NASA, ESA and D. Jewitt (UCLA) — public domain"
+      },
+      "glossary": [
+        "interstellar_object",
+        "hyperbolic_orbit",
+        "coma",
+        "kuiper_belt"
+      ],
+      "tags": [
+        "interstellar",
+        "comet"
+      ]
+    },
+    {
+      "id": "planet_nine",
+      "i18nKey": "stops.planet_nine",
+      "sizeMeters": null,
+      "order": 10.51,
+      "badge": "SPECULATIVE",
+      "category": "COSMOS",
+      "accent": "text-badge-speculative",
+      "accentGlow": "shadow-[0_0_80px_rgba(251,113,133,0.4)]",
+      "image": {
+        "src": "/images/planet-nine.webp",
+        "aspect": "wide",
+        "altKey": "stops.planet_nine.image.alt",
+        "credit": "Artist's impression: nagualdesign / Tom Ruen; Milky Way: ESO / S. Brunier — CC BY-SA 4.0 (cropped)"
+      },
+      "glossary": [
+        "perihelion",
+        "scattered_disc",
+        "kuiper_belt",
+        "astronomical_unit"
+      ],
+      "tags": [
+        "hypothetical"
+      ]
     }
   ]
 }

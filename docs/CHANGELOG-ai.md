@@ -373,3 +373,15 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Lighthouse spot check skipped: `npx -y lighthouse` was blocked by the session's permission classifier.
 - Indexing queue: +3 new topics, +3 pairs.
 
+## 2026-11-24 — round 10 plan; block 1: interstellar visitors + Planet Nine
+- Round 10 written in docs/NEXT-PLAN.md (owner approved all four blocks; keep SR „Io“, not „Ija“).
+- New COSMOS topics (agent drafts, reviewed):
+  - ʻOumuamua (`oumuamua`, 400 m — the length NASA/ESO gave, an estimate from brightness; range and the 115 × 111 × 19 m disc model in the text): no coma but non-gravitational push; hydrogen outgassing (Bergner & Seligman 2023) as "a leading explanation"; Loeb's light sail as a rejected minority view with reasons. Image: ESO/M. Kornmesser artist's impression, CC BY 4.0.
+  - 2I/Borisov (`borisov`, 700 m nucleus, middle of Hubble's 0.4–1 km): CO-rich (Cordiner, Bodewits 2020), 2020 outburst/fragment minor. Image: Hubble, PD.
+  - 3I/ATLAS (`atlas_3i`, 2.6 km nucleus, Hubble 2026 2.2–3.0 km): 58 km/s, perihelion 29 Oct 2025, CO₂/H₂O ≈ 8 (JWST), nickel-without-iron resolved as iron appeared closer in; age 3–14 Gyr as an estimate; Loeb vs NASA "it is a comet". Image: Gemini North/NOIRLab, CC BY 4.0.
+  - Planet Nine (`planet_nine`, idea, SPECULATIVE, tag `hypothetical` — not `planet`, so it doesn't sit with real planets): Trujillo & Sheppard 2014, Batygin & Brown 2016, Siraj/Chyba/Tremaine 2025 fit 4.4 Earth masses at 290 AU, OSSOS/Napier bias counter-evidence, 2017 OF201, alternatives, Rubin LSST. Light time fixed to "two to five days" (290–800 AU).
+- New tag `interstellar` with /tag/interstellar texts (EN+SR). New glossary: interstellar_object, hyperbolic_orbit, coma, perihelion.
+- Size FAQ: subjects "the nucleus of comet 2I/Borisov", "the nucleus of 3I/ATLAS"; neighbour chain ʻOumuamua → Borisov → 3I/ATLAS → Halley.
+- Planets guide: §1 sentence on Planet Nine (hedged), related +planet_nine; SR §4 case fix („potrebni su … značajna atmosfera … tektonika ploča“).
+- Client dictionary budget 60,000 → 64,000 chars (EN 60,515 / SR 60,831 with 107 topics; ~200 chars per topic of names + taglines).
+

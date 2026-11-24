@@ -9,10 +9,16 @@ block, mobile check, dump and read generated sentences, log in
 
 ## 1. Interstellar visitors + Planet Nine (COSMOS)
 
-- [ ] 'Oumuamua (2017), 2I/Borisov (2019), 3I/ATLAS (2025) — sizes only
+- [x] 'Oumuamua (2017), 2I/Borisov (2019), 3I/ATLAS (2025) — sizes only
       where sources agree (ranges otherwise); alien-probe claims labelled
       honestly. Planet Nine (idea, SPECULATIVE): the clustering evidence and
       the counter-arguments. Wire into guides (comets / solar system).
+      2026-11-24: oumuamua 400 m (NASA/ESO estimate; plain "size" — as a
+      length it became the Titanic's neighbour), borisov 700 m nucleus
+      (Hubble 0.4–1 km), atlas_3i 2.6 km nucleus (Hubble 2026),
+      planet_nine idea, SPECULATIVE (tag hypothetical only). New tag page
+      /tag/interstellar (the three visitors). Planets guide §1 + related.
+      Client dictionary budget 60,000 → 64,000 (~200 chars per topic).
 
 ## 2. Quantum ideas people search (MICRO_WORLD / PHYSICS)
 

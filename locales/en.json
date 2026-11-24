@@ -539,7 +539,8 @@
     "asteroid": "Asteroid",
     "insect": "Insect",
     "nebula": "Nebula",
-    "star-cluster": "Star cluster"
+    "star-cluster": "Star cluster",
+    "interstellar": "Interstellar object"
   },
   "stops": {
     "quark": {
@@ -3192,6 +3193,86 @@
         "fact5": "Temple or village: Schmidt saw a sanctuary built by mobile hunter-gatherers, with nobody living there. Later finds — houses, rock-cut cisterns holding at least 150 m³ of rainwater, more than 7,000 grinding stones, hearths, food remains and burials — show people did live there; the team now calls it a settlement with a strong ritual side. Karahan Tepe, about 46 km east, has similar T-pillar buildings.",
         "fact6": "Sky claims (speculative): in 2017 Martin Sweatman and Dimitrios Tsikritsis of the University of Edinburgh read Pillar 43, the 'Vulture Stone', as a star map dating a comet strike to 10,950 BC ± 250 and linked it to the Younger Dryas cold spell; in 2024 Sweatman added a 'lunisolar calendar'. The excavators replied that the date is 700–1,000 years older than Enclosure D, that pillars were moved and reused and the buildings probably roofed, and that modern constellations can't be assumed. Graham Hancock's 'lost Ice Age civilisation' has no archaeological evidence."
       }
+    },
+    "oumuamua": {
+      "name": "ʻOumuamua",
+      "tagline": "The first visitor seen coming from interstellar space — small, oddly shaped and still argued over.",
+      "body": "ʻOumuamua is the first object known to have passed through the Solar System from interstellar space. The Pan-STARRS1 telescope in Hawaii spotted it on 19 October 2017, already on its way out: on 9 September it had swung past the Sun closer than Mercury ever gets, on a hyperbolic path that no object bound to the Sun can follow. Even the largest telescopes saw only a faint reddish dot, but its brightness changed about tenfold as it tumbled, so its shape must be extreme — a cigar perhaps ten times longer than wide or, as later models prefer, a thin pancake. Its size is an estimate from that brightness and an assumed reflectivity: from about 100 m to a few hundred metres on its longest side. In 2018 came the real puzzle: ʻOumuamua was speeding up slightly as it left, the way comets do when escaping gas pushes them, yet it showed no coma of dust or gas. A leading explanation (Bergner and Seligman, 2023) is hydrogen: over its long journey cosmic rays turned some of its water ice into trapped hydrogen gas, and the Sun's warmth let it seep out — too little to see, enough to push. Harvard astronomer Avi Loeb has argued that it could be an alien light sail; that is a minority view, and most astronomers reject it because natural explanations fit and nothing artificial was ever seen or heard.",
+      "narrative": "This page uses 400 m, the length NASA and ESO gave in 2017. At that size ʻOumuamua is a little longer than the Eiffel Tower is tall (330 m) and about one and a half times the length of the Titanic (269 m). If it is really a pancake, it is about 115 m across and only 19 m thick — a disc a bit wider than a football pitch is long, and about as thick as a six-storey building is tall. Either way it is tiny next to Halley's Comet, whose 11 km nucleus is more than 25 times longer. Small as it is, it is fast: at its interstellar cruising speed of about 26 km/s it would cover the 340 km from London to Paris in about 13 seconds.",
+      "funFact": "ʻOumuamua is a Hawaiian name, roughly 'a messenger from afar arriving first', and the object needed a new kind of label too: the 'I' in 1I/ʻOumuamua stands for interstellar, and it was number one. The comet 2I/Borisov followed in 2019, and 3I/ATLAS in 2025.",
+      "seoTitle": "ʻOumuamua: How Big Is the First Interstellar Object?",
+      "metaDescription": "ʻOumuamua, the first known visitor from another star system (2017), is roughly 400 m long, strangely elongated or flat, and it sped up with no visible gas.",
+      "image": {
+        "alt": "Artist's impression of ʻOumuamua by ESO: a long, dark-grey, cigar-shaped rock with sunlit edges, drifting past stars and the reddish band of the Milky Way. No real image shows its shape — telescopes saw only a dot."
+      },
+      "facts": {
+        "fact1": "Size: an estimate, not a measurement — from about 100 m to a few hundred metres long, depending on the assumed reflectivity and shape. NASA and ESO gave about 400 m and 10 times longer than wide; a 2019 light-curve model prefers a 115 × 111 × 19 m disc.",
+        "fact2": "Found on 19 October 2017 by Robert Weryk with the Pan-STARRS1 telescope on Haleakalā, Hawaii — about 40 days after its closest pass to the Sun (9 September 2017, about 38 million km, inside Mercury's orbit).",
+        "fact3": "It arrived at about 26.3 km/s relative to the Sun and reached 87.7 km/s at its closest pass. Orbital eccentricity 1.20: the Sun could not hold it.",
+        "fact4": "Its brightness changed about tenfold as it tumbled, roughly every 7 to 8 hours. Its reddish colour is like that of icy bodies in the outer Solar System.",
+        "fact5": "In 2018 astronomers found a small extra push away from the Sun, weakening with distance as comet outgassing does — but no dust or gas was seen, and NASA's Spitzer telescope detected no carbon monoxide or carbon dioxide.",
+        "fact6": "The light-sail idea (Bialy and Loeb, 2018) needs a sheet less than a millimetre thick. Radio searches with the Allen Telescope Array and Breakthrough Listen found no signals, and a 2019 review by an international team found every observation consistent with a natural object."
+      }
+    },
+    "atlas_3i": {
+      "name": "3I/ATLAS",
+      "seoTitle": "3I/ATLAS: The Third Interstellar Comet, Explained",
+      "metaDescription": "3I/ATLAS, the third known visitor from another star, raced past the Sun in 2025. How big its nucleus is, how old it may be — and why it is a comet.",
+      "tagline": "A comet from another star — the fastest of three known interstellar visitors, maybe older than the Sun.",
+      "body": "3I/ATLAS is a comet that formed around another star and is only passing through. The ATLAS survey telescope at Río Hurtado, Chile, spotted it on 1 July 2025 on a path not bound to the Sun, making it the third interstellar object ever found, after ʻOumuamua (2017) and 2I/Borisov (2019) — and the fastest of the three. It swept inside the orbit of Mars, rounded the Sun on 29 October 2025 and is now heading back into interstellar space for good. Hubble, Webb, spacecraft orbiting Mars, ESA's Juice and NASA's Psyche and Europa Clipper all watched it grow a coma of gas and dust unusually rich in carbon dioxide. Harvard astrophysicist Avi Loeb publicly floated the idea that it might be alien technology; other astronomers pointed out that everything it does — jets, outgassing, a dusty tail — is what comets do, and in November 2025 NASA stated plainly that it is a comet.",
+      "narrative": "Hubble's best measurement makes the solid nucleus about 2.6 km across — about a quarter the width of Halley's Comet's 11 km nucleus, and about as tall as three Burj Khalifas stacked on top of each other. Around that small core, sunlight raised a coma and tail of gas and dust thousands of times bigger than the nucleus itself, which is why the comet looked so much larger in telescopes than it really is.",
+      "funFact": "Early spectra of 3I/ATLAS showed a puzzle: glowing nickel vapour but no iron, a ratio far outside what comets usually show. As it came closer to the Sun, iron appeared too and the ratio became normal for a comet. The likely answer is ordinary chemistry: both metals can be locked in carbonyls (compounds with carbon monoxide), and the nickel one evaporates at lower temperatures.",
+      "image": {
+        "alt": "Comet 3I/ATLAS seen by the Gemini North telescope in early July 2025: on the left a dense field of orange and white stars with the comet's path as a short row of blue, green and red dots, one per colour filter; on the right a zoomed view of its small, fuzzy yellowish-white coma."
+      },
+      "facts": {
+        "fact1": "Nucleus about 2.6 km across (Hubble, 2026: 2.2–3.0 km, assuming a dark comet-like surface). Earlier estimates ranged from a few hundred metres to a 5.6 km upper limit.",
+        "fact2": "Speed far from the Sun about 58 km/s (≈ 210,000 km/h) — ʻOumuamua had 26 km/s, 2I/Borisov 32 km/s.",
+        "fact3": "Perihelion on 29 October 2025 at 1.36 AU (about 203 million km) — just inside Mars' orbit. It passed about 29 million km from Mars on 3 October 2025.",
+        "fact4": "Closest to Earth on 19 December 2025, about 270 million km away — never a threat. It passed Jupiter at about 54 million km on 16 March 2026.",
+        "fact5": "Age estimate, not a measurement: its speed suggests 3 to 14 billion years, most likely over 7 billion — older than the Solar System's 4.6 billion.",
+        "fact6": "Webb found about 8 times more carbon dioxide than water in its coma (August 2025) — among the highest ratios ever seen in a comet."
+      }
+    },
+    "borisov": {
+      "name": "2I/Borisov",
+      "tagline": "The first comet known to come from another star — found by an amateur, rich in carbon monoxide.",
+      "body": "2I/Borisov is the first comet known to have come from another star. Gennadiy Borisov, an amateur astronomer, found it on 30 August 2019 from his private observatory in Crimea, with a 0.65 m telescope he had built himself. Unlike ʻOumuamua two years earlier, it was plainly a comet: a fuzzy coma of dust and a tail surrounded its small icy nucleus. Its path is strongly hyperbolic and it came in at about 32 km/s, far too fast to belong to the Sun, so it is passing through once and will never return. It made its closest pass on 8 December 2019, about 2 AU from the Sun — beyond the orbit of Mars. Its gas held unusually much carbon monoxide, as much as or more than water, so it most likely formed in the very cold outer disc around its home star, in a region like our Kuiper belt. In March 2020 it flared up and shed a small fragment, but the nucleus came through almost intact.",
+      "narrative": "Hubble could not see the nucleus itself, hidden inside the glowing coma, so its size is worked out indirectly: somewhere between about 400 m and 1 km across (NASA quotes up to 975 m). This page uses 700 m, the middle of that range. That is about twice the height of the Eiffel Tower (330 m) and a bit less than the height of the Burj Khalifa (828 m). Halley's Comet, about 11 km across, is some 16 times bigger. Yet from a nucleus the size of a large hill, Borisov's tail stretched nearly 180,000 km — about 14 times the width of Earth.",
+      "funFact": "The first comet from another star was not found by a big professional survey but by one amateur working at night in Crimea, with a telescope he had designed and built himself. It was the eighth comet Gennadiy Borisov had discovered.",
+      "seoTitle": "2I/Borisov: How Big Is the First Interstellar Comet?",
+      "metaDescription": "2I/Borisov, the first comet known to come from another star, has a nucleus only about 0.4 to 1 km wide and carries unusually much carbon monoxide.",
+      "image": {
+        "alt": "Hubble image of comet 2I/Borisov, October 2019: a bright point inside a fuzzy blue glow of dust, with a faint tail fanning out towards the upper right on a dark background. The colours are not natural."
+      },
+      "facts": {
+        "fact1": "Nucleus radius 0.2–0.5 km (about 0.4–1 km across), from Hubble: too small to see directly, so it was worked out from the brightness of the coma and from how hard the escaping gas pushed it.",
+        "fact2": "Discovered on 30 August 2019 (local time; 29 August UTC) by Gennadiy Borisov at his MARGO observatory in Nauchnij, Crimea, with a 0.65 m telescope he built himself.",
+        "fact3": "Orbital eccentricity 3.36 and an incoming speed of about 32 km/s — compared with 1.20 and 26 km/s for ʻOumuamua.",
+        "fact4": "Closest to the Sun on 8 December 2019, about 2 AU (300 million km) away; closest to Earth on 28 December 2019, about 290 million km away.",
+        "fact5": "Carbon monoxide: 35–105% of the water (ALMA, December 2019) and at least 173% (Hubble ultraviolet) — comets measured in the inner Solar System usually have a few per cent.",
+        "fact6": "In March 2020 it had an outburst, and for a few days Hubble saw a second 'nucleus' — boulders breaking up. The material lost was only about a ten-thousandth of the nucleus's mass."
+      }
+    },
+    "planet_nine": {
+      "name": "Planet Nine",
+      "seoTitle": "Planet Nine: Is There a Hidden Planet Beyond Neptune?",
+      "metaDescription": "Planet Nine is a proposed world of about 5–10 Earth masses far beyond Neptune, inferred from clustered orbits. The evidence, the doubts and the search.",
+      "tagline": "A planet nobody has seen, proposed because the most distant icy bodies seem to swing out the same way.",
+      "body": "Planet Nine is a hypothetical planet far beyond Neptune. In 2014 Chad Trujillo and Scott Sheppard noticed that the most distant known bodies of the Kuiper Belt have oddly similar orbits, and in January 2016 Konstantin Batygin and Mike Brown of Caltech argued that the alignment of six of them is best explained by an unseen planet of about 10 Earth masses on a stretched orbit some 20 times farther out than Neptune, taking 10,000 to 20,000 years to go round the Sun. Later fits make it lighter and closer — a 2025 analysis by Amir Siraj, Christopher Chyba and Scott Tremaine suggests about 4 to 5 Earth masses at roughly 290 AU. Sceptics answer that the clustering may be an illusion: telescopes find faint, distant objects only where and when they look, and bias-corrected samples from the OSSOS survey (2017) and from Napier and colleagues (2021) look consistent with no clustering at all. No telescope has seen the planet. Until 2006, 'the ninth planet' meant Pluto, now a dwarf planet — Planet Nine would be a different, far bigger world.",
+      "narrative": "Picture standing on Planet Nine, if it exists: a dark, frozen world several times Earth's mass, hundreds of times farther from the Sun than we are. The Sun would be no disc at all, just a dazzling point of light about as bright as our full Moon or brighter, and its light would take about two to five days to arrive. A world that faint could have been crossing photographs of the sky for decades without anyone noticing.",
+      "funFact": "Mike Brown, one of Planet Nine's two proposers, discovered the dwarf planet Eris in 2005 — the find that led to Pluto losing its planet status in 2006 — and later wrote the book How I Killed Pluto and Why It Had It Coming. If Planet Nine turns up, the astronomer who helped take away the ninth planet will have given one back.",
+      "image": {
+        "alt": "Artist's impression of Planet Nine: a dark, unlit planet in the foreground against the Milky Way, with the distant Sun a small glowing star at upper right, circled by a tiny ellipse marking Neptune's orbit."
+      },
+      "facts": {
+        "fact1": "Proposed mass: about 5–10 Earth masses (2016 estimates); a 2025 fit gives 4.4 ± 1.1. No size can be measured until it is seen — models suggest roughly 2 to 4 times Earth's width.",
+        "fact2": "Proposed orbit: average distance 400–800 AU in early estimates, 290 ± 30 AU in the 2025 fit — about 10 to 27 times as far as Neptune.",
+        "fact3": "Batygin and Brown put the chance of the six original orbits lining up by accident at 0.007%.",
+        "fact4": "Doubts: OSSOS (2017) and Napier et al. (2021, 14 objects) found the clustering consistent with survey bias; 2017 OF201, announced in 2025, swings out in a direction outside the cluster.",
+        "fact5": "Other proposals, all speculative too: the combined gravity of a massive disc of small icy bodies; a primordial black hole only about the size of a grapefruit; a smaller 'Planet Y' (between Mercury and Earth in mass, at 100–200 AU) to explain a slight warp in the distant Kuiper Belt (2025).",
+        "fact6": "Searches with WISE, Pan-STARRS and others found nothing. The Vera C. Rubin Observatory's 10-year LSST survey began on 29 June 2026 and should either find the planet or show whether the clustering is real."
+      }
     }
   },
   "about": {
@@ -3242,7 +3323,7 @@
       "tagline": "Worlds bound to a star.",
       "intro": "A planet is a body massive enough to be rounded by its own gravity, orbiting a star, and clearing the neighbourhood around its orbit. The third clause — added by the International Astronomical Union in 2006 — is what reclassified Pluto. By that definition our Solar System has eight planets; by older definitions it had more.",
       "section1Heading": "Two flavours, with variations",
-      "section1Body": "Our Solar System has four small rocky \"terrestrial\" planets close to the Sun — Mercury, Venus, Earth, Mars — and four large gaseous outer ones: Jupiter and Saturn (gas giants), Uranus and Neptune (ice giants, with proportionally more water, ammonia and methane). Between the two groups circles the Asteroid Belt, rubble that Jupiter's gravity never let grow into a planet. Beyond Neptune lies the Kuiper Belt and a population of icy bodies, including five recognised dwarf planets.",
+      "section1Body": "Our Solar System has four small rocky \"terrestrial\" planets close to the Sun — Mercury, Venus, Earth, Mars — and four large gaseous outer ones: Jupiter and Saturn (gas giants), Uranus and Neptune (ice giants, with proportionally more water, ammonia and methane). Between the two groups circles the Asteroid Belt, rubble that Jupiter's gravity never let grow into a planet. Beyond Neptune lies the Kuiper Belt and a population of icy bodies, including five recognised dwarf planets. Some astronomers suspect that a ninth planet several times Earth's mass hides far beyond them, but **Planet Nine** has never been seen and the evidence for it is disputed.",
       "section2Heading": "Exoplanets — worlds around other stars",
       "section2Body": "Since the first confirmed exoplanet around a Sun-like star in 1995, more than 6,000 have been catalogued. Many do not resemble anything in our system: \"hot Jupiters\" that orbit closer than Mercury, \"super-Earths\" between Earth and Neptune in size with no equivalent here, \"rogue planets\" wandering free without a star at all. Most stars in the galaxy probably have planets.",
       "section3Heading": "Where planet ends and star begins",
@@ -4267,6 +4348,22 @@
     "younger_dryas": {
       "term": "Younger Dryas",
       "definition": "A sudden return to almost Ice Age cold in the Northern Hemisphere from about 12,900 to 11,700 years ago, just before the climate warmed for good. The usual explanation is a slowdown of Atlantic ocean currents after meltwater from North American ice sheets poured into the sea; the idea that a comet impact set it off is a minority view that most researchers reject."
+    },
+    "hyperbolic_orbit": {
+      "term": "Hyperbolic orbit",
+      "definition": "An open path past the Sun that never closes into a loop: the object moves too fast to be captured, so it comes in once and leaves for good. An orbital eccentricity above 1 is the sign."
+    },
+    "coma": {
+      "term": "Coma",
+      "definition": "The cloud of gas and dust that forms around a comet's icy nucleus when sunlight warms it. It can grow larger than a planet, while the nucleus inside is usually only a few kilometres across or less."
+    },
+    "interstellar_object": {
+      "term": "Interstellar object",
+      "definition": "A body that formed around another star and is only passing through the Solar System. Its speed is too high for the Sun to hold it, so it follows an open, hyperbolic path and leaves for good."
+    },
+    "perihelion": {
+      "term": "Perihelion",
+      "definition": "The point of an orbit closest to the Sun. Its opposite, the farthest point, is called aphelion."
     }
   },
   "faq": {
@@ -4409,7 +4506,10 @@
       "neutron": "a neutron",
       "angkor_wat": "Angkor Wat",
       "nazca_lines": "the Nazca spider",
-      "gobekli_tepe": "Enclosure D at Göbekli Tepe"
+      "gobekli_tepe": "Enclosure D at Göbekli Tepe",
+      "oumuamua": "ʻOumuamua",
+      "atlas_3i": "the nucleus of 3I/ATLAS",
+      "borisov": "the nucleus of comet 2I/Borisov"
     },
     "a7where": "The typical temperature of {name} is about {temp} — {note}.",
     "a2taller": "{Name} is roughly {ratio} times taller than a 1.7 m human.",
@@ -4708,6 +4808,13 @@
       "seoTitle": "Red Dwarfs: Proxima Centauri and TRAPPIST-1 Compared",
       "intro": "Small, cool and dim, red dwarfs are the most common stars in the Milky Way, and they burn so slowly they may shine for trillions of years. Proxima Centauri, the nearest star to the Sun, is about 214,000 km across; TRAPPIST-1, home to seven Earth-sized planets, is only about a fifth wider than Jupiter.",
       "metaDescription": "Red dwarfs are the commonest stars: Proxima Centauri, our nearest star, is about 214,000 km wide; TRAPPIST-1, with seven Earth-sized planets, is barely wider than Jupiter."
+    },
+    "interstellar": {
+      "short": "Interstellar objects",
+      "title": "Interstellar objects: visitors from other stars",
+      "seoTitle": "Interstellar Objects: ʻOumuamua, 2I/Borisov and 3I/ATLAS",
+      "intro": "Only three objects are known for certain to have come from another star and passed through the Solar System too fast for the Sun to keep them. ʻOumuamua (2017) was a dark, elongated body perhaps 400 metres long with no visible tail; 2I/Borisov (2019) was a true comet with a nucleus well under a kilometre wide; 3I/ATLAS (2025), the fastest of the three, has a nucleus about 2.6 km across and may be older than the Sun.",
+      "metaDescription": "The three known visitors from other stars compared: ʻOumuamua (about 400 m), comet 2I/Borisov (under 1 km) and 3I/ATLAS (about 2.6 km), the fastest and oldest."
     }
   }
 }

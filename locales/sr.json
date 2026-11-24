@@ -539,7 +539,8 @@
     "asteroid": "Asteroid",
     "insect": "Insekt",
     "nebula": "Maglina",
-    "star-cluster": "Zvezdano jato"
+    "star-cluster": "Zvezdano jato",
+    "interstellar": "Međuzvezdani objekat"
   },
   "stops": {
     "quark": {
@@ -3192,6 +3193,86 @@
         "fact5": "Hram ili selo: Šmit je video svetilište koje su podigli pokretni lovci-sakupljači, u kome niko nije živeo. Kasniji nalazi — kuće, cisterne usečene u stenu koje primaju najmanje 150 m³ kišnice, više od 7.000 žrvnjeva, ognjišta, ostaci hrane i grobovi — pokazuju da su ljudi tu ipak živeli; ekipa ga danas naziva naseljem sa izraženom obrednom ulogom. Karahan Tepe, oko 46 km istočno, ima slične građevine sa T-stubovima.",
         "fact6": "Tvrdnje o nebu (spekulativno): 2017. Martin Svitman i Dimitrios Cikricis sa Univerziteta u Edinburgu protumačili su stub 43, „Kamen lešinara“, kao zvezdanu kartu koja udar komete datuje u 10.950. godinu p.n.e. ± 250 i povezali ga sa hladnim periodom mlađeg drijasa; 2024. Svitman je dodao i „lunisolarni kalendar“. Arheolozi su odgovorili da je taj datum 700–1.000 godina stariji od ograđenog prostora D, da su stubovi premeštani i ponovo korišćeni, a građevine verovatno imale krov, i da se ne može pretpostaviti da su tadašnji ljudi videli današnja sazvežđa. Za „izgubljenu civilizaciju iz ledenog doba“ Grejema Henkoka nema arheoloških dokaza."
       }
+    },
+    "oumuamua": {
+      "name": "Oumuamua",
+      "tagline": "Prvi posetilac iz međuzvezdanog prostora — mali, neobičnog oblika i još uvek predmet rasprave.",
+      "body": "Oumuamua je prvi objekat za koji znamo da je kroz Sunčev sistem prošao dolazeći iz međuzvezdanog prostora. Teleskop Pan-STARRS1 na Havajima uočio ga je 19. oktobra 2017, kada je već odlazio: Sunce je obišao 9. septembra, bliže nego što mu se Merkur ikada primakne, po hiperboličnoj putanji kojom ne može da se kreće nijedno telo vezano za Sunce. Čak su i najveći teleskopi videli samo slabašnu crvenkastu tačku, ali mu se sjaj menjao oko deset puta dok se prevrtao, pa mu oblik mora biti krajnje neobičan — „cigara“ možda deset puta duža nego šira ili, kako kasniji modeli radije pokazuju, tanka „palačinka“. Njegova veličina je procena na osnovu tog sjaja i pretpostavljene refleksivnosti: od oko 100 m do nekoliko stotina metara po najdužoj strani. Prava zagonetka stigla je 2018: Oumuamua je pri odlasku blago ubrzavao, kao kometa koju gura gas koji iz nje izlazi, a ipak nije imao nikakvu komu od prašine ili gasa. Jedno od vodećih objašnjenja (Bergner i Seligman, 2023) jeste vodonik: tokom dugog putovanja kosmički zraci su deo njegovog vodenog leda pretvorili u zarobljeni gasoviti vodonik, a Sunčeva toplota ga je oslobodila — premalo da bi se video, dovoljno da ga gurne. Astronom sa Harvarda Avi Leb tvrdi da bi to mogao biti vanzemaljski solarni jedrenjak; to je mišljenje manjine, a većina astronoma ga odbacuje jer prirodna objašnjenja odgovaraju podacima, a ništa veštačko nije ni viđeno ni čuto.",
+      "narrative": "Ova stranica koristi 400 m, dužinu koju su NASA i ESO naveli 2017. Tolik, Oumuamua je nešto duži nego što je Ajfelova kula visoka (330 m) i oko jedan i po put duži od Titanika (269 m). Ako je zapravo „palačinka“, širok je oko 115 m, a debeo samo 19 m — disk nešto širi nego što je fudbalski teren dug i debeo otprilike koliko je visoka zgrada od šest spratova. U svakom slučaju, sićušan je pored Halejeve komete, čije je jezgro od 11 km više od 25 puta duže. Iako mali, veoma je brz: međuzvezdanom brzinom od oko 26 km/s prešao bi 340 km od Londona do Pariza za oko 13 sekundi.",
+      "funFact": "Oumuamua je havajsko ime koje otprilike znači „glasnik izdaleka koji stiže prvi“, a objektu je bila potrebna i nova vrsta oznake: „I“ u 1I/Oumuamua znači „interstelarni“ (međuzvezdani), a on je bio prvi. Kometa 2I/Borisov usledila je 2019, a 3I/ATLAS 2025.",
+      "seoTitle": "Oumuamua: koliki je prvi međuzvezdani objekat?",
+      "metaDescription": "Oumuamua, prvi poznati posetilac iz drugog zvezdanog sistema (2017), dug je oko 400 m, neobično izdužen ili pljosnat, i ubrzavao je bez vidljivog gasa.",
+      "image": {
+        "alt": "Umetnička predstava Oumuamue (ESO): dugačka, tamnosiva stena u obliku cigare sa obasjanim ivicama, na pozadini zvezda i crvenkaste trake Mlečnog puta. Nijedan pravi snimak ne pokazuje njegov oblik — teleskopi su videli samo tačku."
+      },
+      "facts": {
+        "fact1": "Veličina: procena, ne merenje — od oko 100 m do nekoliko stotina metara dužine, zavisno od pretpostavljene refleksivnosti i oblika. NASA i ESO naveli su oko 400 m i deset puta veću dužinu od širine; model svetlosne krive iz 2019. daje prednost disku od 115 × 111 × 19 m.",
+        "fact2": "Otkrio ga je Robert Verik 19. oktobra 2017. teleskopom Pan-STARRS1 na Haleakali, na Havajima — oko 40 dana posle najbližeg prolaska pored Sunca (9. septembra 2017, na oko 38 miliona km, unutar Merkurove orbite).",
+        "fact3": "Stigao je brzinom od oko 26,3 km/s u odnosu na Sunce, a pri najbližem prolasku dostigao 87,7 km/s. Ekscentricitet orbite 1,20: Sunce nije moglo da ga zadrži.",
+        "fact4": "Sjaj mu se menjao oko deset puta dok se prevrtao, otprilike na svakih 7 do 8 sati. Crvenkasta boja podseća na ledena tela u spoljnom delu Sunčevog sistema.",
+        "fact5": "Astronomi su 2018. otkrili mali dodatni potisak od Sunca, koji slabi sa udaljenošću kao kod izbacivanja gasa iz kometa — ali nisu videli ni prašinu ni gas, a NASA-in teleskop Spitzer nije detektovao ni ugljen-monoksid ni ugljen-dioksid.",
+        "fact6": "Ideja o solarnom jedru (Bialy i Leb, 2018) zahteva list tanji od milimetra. Radio-pretrage teleskopima Allen Telescope Array i Breakthrough Listen nisu našle nikakve signale, a pregled međunarodnog tima iz 2019. zaključio je da se svako posmatranje slaže sa prirodnim objektom."
+      }
+    },
+    "atlas_3i": {
+      "name": "3I/ATLAS",
+      "seoTitle": "3I/ATLAS: treća kometa iz drugog zvezdanog sistema",
+      "metaDescription": "3I/ATLAS, treći poznati posetilac iz drugog zvezdanog sistema, projurio je pored Sunca 2025. Koliko mu je jezgro, koliko je star i zašto je to kometa.",
+      "tagline": "Kometa iz drugog zvezdanog sistema — najbrža od tri poznata međuzvezdana posetioca, možda starija od Sunca.",
+      "body": "3I/ATLAS je kometa nastala oko neke druge zvezde, koja kroz Sunčev sistem samo prolazi. Teleskop pregleda neba ATLAS u Čileu uočio ju je 1. jula 2025. na putanji koja nije vezana za Sunce, pa je to treći međuzvezdani objekat ikada otkriven, posle Oumuamue (2017) i komete 2I/Borisov (2019) — i najbrži od sva tri. Prošla je unutar Marsove orbite, obišla Sunce 29. oktobra 2025. i sada se zauvek vraća u međuzvezdani prostor. Habl, Džejms Veb, letelice u orbiti oko Marsa, ESA-ina letelica Juice i NASA-ine letelice Psyche i Europa Clipper posmatrali su kako oko nje raste koma od gasa i prašine, neobično bogata ugljen-dioksidom. Astrofizičar sa Harvarda Avi Leb javno je izneo ideju da bi to mogla biti vanzemaljska tehnologija; drugi astronomi su ukazali na to da je sve što ona radi — mlazevi, izbacivanje gasa, prašnjavi rep — upravo ono što komete rade, a NASA je u novembru 2025. jasno saopštila da je to kometa.",
+      "narrative": "Prema najboljem Hablovom merenju, čvrsto jezgro je široko oko 2,6 km — otprilike četvrtina širine jezgra Halejeve komete od 11 km i otprilike visina tri Burdž Kalife postavljene jedna na drugu. Oko tog malog jezgra Sunčeva svetlost podigla je komu i rep od gasa i prašine hiljadama puta veće od samog jezgra, pa je kometa u teleskopima izgledala mnogo veća nego što zaista jeste.",
+      "funFact": "Prvi spektri komete 3I/ATLAS doneli su zagonetku: užarenu paru nikla, ali bez gvožđa — odnos daleko izvan onoga što komete obično pokazuju. Kako se približavala Suncu, pojavilo se i gvožđe, a odnos je postao uobičajen za kometu. Verovatno objašnjenje je obična hemija: oba metala mogu biti vezana u karbonile (jedinjenja sa ugljen-monoksidom), a niklov karbonil isparava na nižim temperaturama.",
+      "image": {
+        "alt": "Kometa 3I/ATLAS snimljena teleskopom Gemini North početkom jula 2025: levo gusto polje narandžastih i belih zvezda sa putanjom komete kao kratkim nizom plavih, zelenih i crvenih tačaka, po jedna za svaki filter boje; desno uvećan prikaz njene male, maglovite, žućkastobele kome."
+      },
+      "facts": {
+        "fact1": "Jezgro široko oko 2,6 km (Habl, 2026: 2,2–3,0 km, uz pretpostavku tamne površine kakvu imaju komete). Ranije procene kretale su se od nekoliko stotina metara do gornje granice od 5,6 km.",
+        "fact2": "Brzina daleko od Sunca oko 58 km/s (≈ 210.000 km/h) — Oumuamua je imala 26 km/s, 2I/Borisov 32 km/s.",
+        "fact3": "Perihel 29. oktobra 2025. na 1,36 AJ (oko 203 miliona km) — tik unutar Marsove orbite. Pored Marsa je prošla na oko 29 miliona km 3. oktobra 2025.",
+        "fact4": "Najbliže Zemlji 19. decembra 2025, na oko 270 miliona km — nikada nije bila pretnja. Pored Jupitera je prošla na oko 54 miliona km 16. marta 2026.",
+        "fact5": "Procena, a ne merenje: njena brzina ukazuje na starost od 3 do 14 milijardi godina, najverovatnije preko 7 milijardi — više od 4,6 milijardi godina Sunčevog sistema.",
+        "fact6": "Džejms Veb je u njenoj komi našao oko 8 puta više ugljen-dioksida nego vode (avgust 2025) — jedan od najvećih odnosa ikada viđenih kod neke komete."
+      }
+    },
+    "borisov": {
+      "name": "2I/Borisov",
+      "tagline": "Prva poznata kometa iz drugog zvezdanog sistema — otkrio ju je amater, bogata je ugljen-monoksidom.",
+      "body": "2I/Borisov je prva kometa za koju znamo da je došla od druge zvezde. Otkrio ju je astronom amater Genadij Borisov 30. avgusta 2019. u svojoj privatnoj opservatoriji na Krimu, teleskopom od 0,65 m koji je sam napravio. Za razliku od Oumuamue dve godine ranije, bila je očigledno kometa: njeno malo ledeno jezgro okruživali su maglovita koma od prašine i rep. Putanja joj je izrazito hiperbolična, a stigla je brzinom od oko 32 km/s, mnogo prebrzo da bi pripadala Suncu, pa samo jednom prolazi i nikada se neće vratiti. Najbliže Suncu bila je 8. decembra 2019, na oko 2 AJ — iza Marsove orbite. Njen gas sadržao je neobično mnogo ugljen-monoksida, koliko i vode ili više, pa je najverovatnije nastala u veoma hladnom spoljnom disku oko svoje matične zvezde, u oblasti nalik našem Kajperovom pojasu. U martu 2020. naglo je zasijala i odbacila mali odlomak, ali je jezgro ostalo gotovo netaknuto.",
+      "narrative": "Habl nije mogao da vidi samo jezgro, skriveno u blistavoj komi, pa se njegova veličina računa posredno: negde između oko 400 m i 1 km u prečniku (NASA navodi do 975 m). Ova stranica koristi 700 m, sredinu tog raspona. To je oko dva puta više od visine Ajfelove kule (330 m) i nešto manje od visine Burdž Kalife (828 m). Halejeva kometa, prečnika oko 11 km, oko 16 puta je veća. Pa ipak, iz jezgra veličine povećeg brda Borisovljev rep protezao se skoro 180.000 km — oko 14 Zemljinih prečnika.",
+      "funFact": "Prvu kometu iz drugog zvezdanog sistema nije pronašao veliki profesionalni pregled neba, već jedan amater koji je noću radio na Krimu, teleskopom koji je sam projektovao i napravio. Bila je to osma kometa koju je Genadij Borisov otkrio.",
+      "seoTitle": "2I/Borisov: kolika je prva međuzvezdana kometa?",
+      "metaDescription": "2I/Borisov, prva poznata kometa iz drugog zvezdanog sistema, ima jezgro široko samo oko 0,4 do 1 km i nosi neobično mnogo ugljen-monoksida.",
+      "image": {
+        "alt": "Hablov snimak komete 2I/Borisov, oktobar 2019: svetla tačka u maglovitom plavom sjaju prašine, sa bledim repom koji se širi ka gornjem desnom uglu na tamnoj pozadini. Boje nisu prirodne."
+      },
+      "facts": {
+        "fact1": "Poluprečnik jezgra 0,2–0,5 km (prečnik oko 0,4–1 km), prema Hablu: premalo je da bi se videlo direktno, pa je izračunato iz sjaja kome i iz toga koliko ga je snažno gurao gas koji izlazi.",
+        "fact2": "Otkrio ju je Genadij Borisov 30. avgusta 2019. (po lokalnom vremenu; 29. avgusta po UTC) u svojoj opservatoriji MARGO u Naučnom na Krimu, teleskopom od 0,65 m koji je sam napravio.",
+        "fact3": "Ekscentricitet orbite 3,36 i dolazna brzina od oko 32 km/s — prema 1,20 i 26 km/s kod Oumuamue.",
+        "fact4": "Najbliže Suncu 8. decembra 2019, na oko 2 AJ (300 miliona km); najbliže Zemlji 28. decembra 2019, na oko 290 miliona km.",
+        "fact5": "Ugljen-monoksid: 35–105% u odnosu na vodu (ALMA, decembar 2019) i najmanje 173% (Hablova ultraljubičasta merenja) — komete merene u unutrašnjem Sunčevom sistemu obično imaju svega nekoliko procenata.",
+        "fact6": "U martu 2020. kometa je naglo zasijala, a Habl je nekoliko dana video drugo „jezgro“ — gromade koje su se raspadale. Izgubljeni materijal bio je samo oko desetohiljaditi deo mase jezgra."
+      }
+    },
+    "planet_nine": {
+      "name": "Planeta devet",
+      "seoTitle": "Planeta devet: krije li se planeta iza Neptuna?",
+      "metaDescription": "Planeta devet je pretpostavljeni svet od oko 5–10 Zemljinih masa daleko iza Neptuna, izveden iz grupisanih orbita. Dokazi, sumnje i potraga.",
+      "tagline": "Planeta koju niko nije video, predložena jer se najudaljenija ledena tela kao da udaljavaju na istu stranu.",
+      "body": "Planeta devet je hipotetička planeta daleko iza Neptuna. Čed Truhiljo i Skot Šepard primetili su 2014. da najudaljenija poznata tela Kajperovog pojasa imaju neobično slične orbite, a u januaru 2016. Konstantin Batigin i Majkl Braun sa Kalteka tvrdili su da poravnanje šest takvih tela najbolje objašnjava neviđena planeta od oko 10 Zemljinih masa, na izduženoj orbiti oko 20 puta daljoj od Neptunove, kojoj za jedan obilazak oko Sunca treba 10.000 do 20.000 godina. Kasniji proračuni daju lakšu i bližu planetu — analiza Amira Siradža, Kristofera Čajbe i Skota Tremejna iz 2025. ukazuje na oko 4 do 5 Zemljinih masa na oko 290 AJ. Skeptici odgovaraju da je grupisanje možda privid: teleskopi slaba, daleka tela nalaze samo tamo gde i kada gledaju, a uzorci očišćeni od te pristrasnosti — iz pregleda OSSOS (2017) i od Napijera i saradnika (2021) — slažu se sa potpunim odsustvom grupisanja. Nijedan teleskop tu planetu nije video. Do 2006. „deveta planeta“ bio je Pluton, danas patuljasta planeta — Planeta devet bila bi drugi, mnogo veći svet.",
+      "narrative": "Zamislite da stojite na Planeti devet, ako postoji: na tamnom, zaleđenom svetu nekoliko puta masivnijem od Zemlje, stotinama puta dalje od Sunca nego mi. Sunce ne bi bilo disk, već samo blistava tačka sjajna otprilike kao naš pun Mesec ili sjajnija, a njegovoj svetlosti trebalo bi otprilike dva do pet dana da stigne. Toliko slab svet mogao je decenijama da prelazi preko snimaka neba, a da ga niko ne primeti.",
+      "funFact": "Majkl Braun, jedan od dvojice autora ideje o Planeti devet, otkrio je 2005. patuljastu planetu Eridu — otkriće zbog kojeg je Pluton 2006. izgubio status planete — a kasnije je napisao knjigu „How I Killed Pluto and Why It Had It Coming“ (Kako sam ubio Plutona i zašto je to zaslužio). Ako se Planeta devet pojavi, astronom koji je pomogao da nam se oduzme deveta planeta vratiće nam jednu.",
+      "image": {
+        "alt": "Umetnička vizija Planete devet: tamna, neosvetljena planeta u prvom planu naspram Mlečnog puta, a daleko Sunce kao mala blistava zvezda gore desno, okruženo sićušnom elipsom koja označava Neptunovu orbitu."
+      },
+      "facts": {
+        "fact1": "Pretpostavljena masa: oko 5–10 Zemljinih masa (procene iz 2016); proračun iz 2025. daje 4,4 ± 1,1. Veličina se ne može izmeriti dok se planeta ne vidi — modeli ukazuju na otprilike 2 do 4 Zemljina prečnika.",
+        "fact2": "Pretpostavljena orbita: srednja udaljenost 400–800 AJ po ranim procenama, 290 ± 30 AJ po proračunu iz 2025 — oko 10 do 27 puta dalje od Neptuna.",
+        "fact3": "Batigin i Braun procenili su da je verovatnoća da se šest prvobitnih orbita slučajno poravna 0,007%.",
+        "fact4": "Sumnje: OSSOS (2017) i Napijer i saradnici (2021, 14 tela) zaključili su da se grupisanje može objasniti pristrasnošću pregleda; 2017 OF201, objavljen 2025, udaljava se u pravcu izvan te grupe.",
+        "fact5": "Druge ideje, takođe spekulativne: zajednička gravitacija masivnog diska malih ledenih tela; prvobitna crna rupa veličine grejpfruta; manja „Planeta Y“ (masom između Merkura i Zemlje, na 100–200 AJ) koja bi objasnila blago iskrivljenje udaljenog Kajperovog pojasa (2025).",
+        "fact6": "Pretrage pomoću WISE, Pan-STARRS i drugih nisu ništa našle. Desetogodišnji pregled LSST opservatorije Vera C. Rubin počeo je 29. juna 2026. i trebalo bi ili da pronađe planetu ili da pokaže da li je grupisanje stvarno."
+      }
     }
   },
   "about": {
@@ -3242,13 +3323,13 @@
       "tagline": "Svetovi vezani za zvezdu.",
       "intro": "Planeta je telo dovoljno masivno da ga sopstvena gravitacija učini okruglim, koje kruži oko zvezde i koje je očistilo susedstvo svoje orbite. Upravo zbog trećeg uslova — koji je Međunarodna astronomska unija dodala 2006. — Pluton je prekvalifikovan. Po toj definiciji naš Sunčev sistem ima osam planeta; po starijim definicijama imao je više.",
       "section1Heading": "Dve vrste, sa varijacijama",
-      "section1Body": "Naš Sunčev sistem ima četiri male stenovite „terestrične“ planete blizu Sunca — Merkur, Venera, Zemlja, Mars — i četiri velike gasovite spoljne: Jupiter i Saturn (gasoviti džinovi), Uran i Neptun (ledeni džinovi, sa proporcionalno više vode, amonijaka i metana). Asteroidni pojas, između te dve grupe, čine ostaci koje Jupiterova gravitacija nikad nije pustila da izrastu u planetu. Iza Neptuna leži Kajperov pojas i populacija ledenih tela, uključujući pet priznatih patuljastih planeta.",
+      "section1Body": "Naš Sunčev sistem ima četiri male stenovite „terestrične“ planete blizu Sunca — Merkur, Venera, Zemlja, Mars — i četiri velike gasovite spoljne: Jupiter i Saturn (gasoviti džinovi), Uran i Neptun (ledeni džinovi, sa proporcionalno više vode, amonijaka i metana). Asteroidni pojas, između te dve grupe, čine ostaci koje Jupiterova gravitacija nikad nije pustila da izrastu u planetu. Iza Neptuna leži Kajperov pojas i populacija ledenih tela, uključujući pet priznatih patuljastih planeta. Neki astronomi sumnjaju da se daleko iza njih krije i deveta planeta, nekoliko puta masivnija od Zemlje, ali **Planeta devet** nikada nije viđena, a dokazi za nju su sporni.",
       "section2Heading": "Egzoplanete — svetovi oko drugih zvezda",
       "section2Body": "Od prve potvrđene egzoplanete oko zvezde nalik Suncu 1995. godine, katalogizovano ih je više od 6.000. Mnoge ne liče ni na šta u našem sistemu: „vrući Jupiteri“ koji kruže bliže od Merkura, „super-Zemlje“ između Zemlje i Neptuna po veličini bez ekvivalenta ovde, „lutajuće planete“ koje lutaju slobodno bez zvezde. Većina zvezda u galaksiji verovatno ima planete.",
       "section3Heading": "Gde se planeta završava, a zvezda počinje",
       "section3Body": "Granica između velike planete i male zvezde je mutna. Smeđi patuljci — neuspele zvezde dovoljno masivne da spajaju deuterijum, ali ne i vodonik — zauzimaju tu sivu zonu. Jupiter bi morao da postane oko 80 puta masivniji da bi zapalio fuziju vodonika i postao prava zvezda — pa uprkos nadimku „neuspela zvezda“, nikada nije bio ni blizu toga.",
       "section4Heading": "Uslovi za život",
-      "section4Body": "Planeti sposobnoj da ima tečnu vodu na površini potrebna je stabilna orbita u „nastanjivoj zoni“ oko svoje zvezde, značajnu atmosferu, magnetno polje koje odbija zvezdano zračenje i verovatno tektoniku ploča za recikliranje hranljivih materija. Zemlja ima sve četiri. Do sada nismo našli drugi svet za koji je dokazano da ih ima — iako nekoliko izgleda intrigantno.",
+      "section4Body": "Planeti sposobnoj da ima tečnu vodu na površini potrebni su stabilna orbita u „nastanjivoj zoni“ oko svoje zvezde, značajna atmosfera, magnetno polje koje odbija zvezdano zračenje i verovatno tektonika ploča za recikliranje hranljivih materija. Zemlja ima sve četiri. Do sada nismo našli drugi svet za koji je dokazano da ih ima — iako nekoliko izgleda intrigantno.",
       "metaDescription": "Šta planetu čini planetom, zašto je Pluton prekvalifikovan, osam planeta upoređenih po veličini i udaljenosti i hiljade otkrivenih izvan."
     },
     "blackHoles": {
@@ -4267,6 +4348,22 @@
     "younger_dryas": {
       "term": "Mlađi drijas",
       "definition": "Nagli povratak gotovo ledenodobne hladnoće na severnoj polulopti, otprilike pre 12.900 do 11.700 godina, neposredno pre nego što je klima trajno otoplila. Uobičajeno objašnjenje je usporavanje okeanskih struja u Atlantiku pošto se otopljena voda sa severnoameričkih ledenih pokrivača izlila u more; ideja da ga je pokrenuo udar komete manjinsko je mišljenje koje većina istraživača odbacuje."
+    },
+    "hyperbolic_orbit": {
+      "term": "Hiperbolična putanja",
+      "definition": "Otvorena putanja pored Sunca koja se nikada ne zatvara u petlju: telo je prebrzo da bi ga Sunce zarobilo, pa dolazi jednom i zauvek odlazi. Znak je ekscentricitet orbite veći od 1."
+    },
+    "coma": {
+      "term": "Koma",
+      "definition": "Oblak gasa i prašine koji se stvara oko ledenog jezgra komete kada ga Sunce zagreje. Može da naraste veći od planete, dok je jezgro u njemu obično široko tek nekoliko kilometara ili manje."
+    },
+    "interstellar_object": {
+      "term": "Međuzvezdani objekat",
+      "definition": "Telo koje je nastalo oko neke druge zvezde i kroz Sunčev sistem samo prolazi. Brzina mu je prevelika da bi ga Sunce zadržalo, pa ide otvorenom, hiperboličnom putanjom i odlazi zauvek."
+    },
+    "perihelion": {
+      "term": "Perihel",
+      "definition": "Tačka orbite najbliža Suncu. Njena suprotnost, najudaljenija tačka, zove se afel."
     }
   },
   "faq": {
@@ -4414,7 +4511,10 @@
       "neutron": "neutron",
       "angkor_wat": "Angkor Vat",
       "nazca_lines": "pauk iz Naske",
-      "gobekli_tepe": "ograđeni prostor D u Gobekli Tepeu"
+      "gobekli_tepe": "ograđeni prostor D u Gobekli Tepeu",
+      "oumuamua": "Oumuamua",
+      "atlas_3i": "jezgro komete 3I/ATLAS",
+      "borisov": "jezgro komete 2I/Borisov"
     },
     "a3smallerTall": "Korak niže: {other} ({otherSize}), oko {ratio} puta niže.",
     "a3largerTall": "Korak više: {other} ({otherSize}), oko {ratio} puta više.",
@@ -4708,6 +4808,13 @@
       "seoTitle": "Crveni patuljci: Proksima Kentaura i TRAPPIST-1",
       "intro": "Mali, hladni i bledi, crveni patuljci su najčešće zvezde u Mlečnom putu, a gore tako sporo da mogu da sijaju bilionima godina. Proksima Kentaura, Suncu najbliža zvezda, široka je oko 214.000 km; TRAPPIST-1, oko koje kruži sedam planeta veličine Zemlje, samo je oko petinu šira od Jupitera.",
       "metaDescription": "Crveni patuljci su najčešće zvezde: Proksima Kentaura, nama najbliža zvezda, široka je oko 214.000 km; TRAPPIST-1, sa sedam planeta, jedva je šira od Jupitera."
+    },
+    "interstellar": {
+      "short": "Međuzvezdani objekti",
+      "title": "Međuzvezdani objekti: posetioci sa drugih zvezda",
+      "seoTitle": "Međuzvezdani objekti: Oumuamua, 2I/Borisov i 3I/ATLAS",
+      "intro": "Poznata su samo tri objekta za koja se pouzdano zna da su došla od neke druge zvezde i prošla kroz Sunčev sistem prebrzo da bi ih Sunce zadržalo. Oumuamua (2017) bila je tamno, izduženo telo, dugo možda 400 metara, bez vidljivog repa; 2I/Borisov (2019) bila je prava kometa sa jezgrom širokim znatno manje od kilometra; 3I/ATLAS (2025), najbrži od tri, ima jezgro široko oko 2,6 km i možda je stariji od Sunca.",
+      "metaDescription": "Tri poznata posetioca sa drugih zvezda: Oumuamua (oko 400 m), kometa 2I/Borisov (manje od 1 km) i 3I/ATLAS (oko 2,6 km), najbrži i najstariji od njih."
     }
   }
 }

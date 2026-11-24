@@ -72,7 +72,7 @@ export const TOPICS: Topic[] = [
     slug: "planets",
     i18nKey: "topics.planets",
     sectionCount: 4,
-    relatedStopIds: ["earth", "mars", "olympus_mons", "jupiter", "great_red_spot", "saturn_rings", "asteroid_belt", "ceres", "kuiper_belt", "solar_system"],
+    relatedStopIds: ["earth", "mars", "olympus_mons", "jupiter", "great_red_spot", "saturn_rings", "asteroid_belt", "ceres", "kuiper_belt", "planet_nine", "solar_system"],
     sources: [
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Planet" },
       { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Exoplanet" },

@@ -16,6 +16,11 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/compare/ganymede-vs-mercury (new 2026-11-24)
 - https://quantumaire.space/en/compare/pyramid-vs-angkor-wat (new 2026-11-24)
 - https://quantumaire.space/en/compare/ganymede-vs-moon (new 2026-11-24)
+- https://quantumaire.space/en/stop/atlas_3i (new 2026-11-24)
+- https://quantumaire.space/en/stop/oumuamua (new 2026-11-24)
+- https://quantumaire.space/en/stop/planet_nine (new 2026-11-24)
+- https://quantumaire.space/en/stop/borisov (new 2026-11-24)
+- https://quantumaire.space/en/tag/interstellar (new 2026-11-24)
 - https://quantumaire.space/en/stop/multiverse
 - https://quantumaire.space/en/stop/tardigrade
 - https://quantumaire.space/en/stop/blue_whale
