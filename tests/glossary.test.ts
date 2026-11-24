@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { GLOSSARY_KEYS } from "@/lib/glossary";
 import { tServer } from "@/lib/i18n-server";
+import { STOPS } from "@/lib/content";
 
 describe("glossary registry", () => {
   it("contains at least 40 entries", () => {
@@ -14,6 +15,14 @@ describe("glossary registry", () => {
       expect(term).not.toBe(`glossary.${key}.term`);
       expect(definition).not.toBe(`glossary.${key}.definition`);
       expect(definition.length).toBeGreaterThan(8);
+    }
+  });
+
+  it("every glossary key a topic lists has text in both locales", () => {
+    for (const stop of STOPS) {
+      for (const key of stop.glossary ?? []) {
+        expect(GLOSSARY_KEYS, `${stop.id}: ${key}`).toContain(key);
+      }
     }
   });
 

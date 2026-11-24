@@ -47,7 +47,10 @@ block, mobile check, dump and read generated sentences, log in
 
 ## 4. Review round 10 topics
 
-- [ ] Facts vs sources (agents), Serbian review, desktop + mobile pass.
+- [x] Facts vs sources (agents), Serbian review, desktop + mobile pass.
+      2026-11-24: 3 agent reviews, ~50 fixes; 5 glossary terms of block 3
+      had been dropped by the merge script (draft format) — added, plus a
+      test that every topic's glossary keys exist. Mobile checked per block.
 
 ## 5. Pairs, speed, Search Console
 
