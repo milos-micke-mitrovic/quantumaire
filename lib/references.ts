@@ -302,10 +302,11 @@ const HEIGHT_STOP_IDS = new Set([
   "el_castillo",
   "abu_simbel",
   "angkor_wat",
+  "pyramid_of_the_sun",
   "pillars_of_creation",
 ]);
 const DEPTH_STOP_IDS = new Set(["mariana_trench", "grand_canyon"]);
-const LENGTH_STOP_IDS = new Set(["tardigrade", "blue_whale", "ant", "honeybee", "house_mouse", "house_cat", "sloan_great_wall", "large_hadron_collider", "amazon_river", "sahara", "titanic", "colosseum", "great_wall", "antikythera_mechanism", "nazca_lines"]);
+const LENGTH_STOP_IDS = new Set(["tardigrade", "blue_whale", "ant", "honeybee", "house_mouse", "house_cat", "sloan_great_wall", "large_hadron_collider", "amazon_river", "sahara", "titanic", "colosseum", "great_wall", "antikythera_mechanism", "nazca_lines", "dresden_codex"]);
 
 export function sizeMeasure(stop: { id: string }): SizeMeasure {
   if (HEIGHT_STOP_IDS.has(stop.id)) return "height";
@@ -320,6 +321,7 @@ export function sizeMeasure(stop: { id: string }): SizeMeasure {
  */
 const SIZE_LABEL_OVERRIDES: Record<string, string> = {
   nazca_lines: "common.spiderLength",
+  dresden_codex: "common.unfoldedLength",
 };
 
 /** Label for a topic's size value: "Height" for the Eiffel Tower, "Depth" for the trench. */

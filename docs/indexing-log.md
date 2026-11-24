@@ -24,6 +24,9 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/stop/quantum_computing (new 2026-11-24)
 - https://quantumaire.space/en/stop/superconductivity (new 2026-11-24)
 - https://quantumaire.space/en/stop/muon (new 2026-11-24)
+- https://quantumaire.space/en/stop/pyramid_of_the_sun (new 2026-11-24)
+- https://quantumaire.space/en/stop/dendera_zodiac (new 2026-11-24)
+- https://quantumaire.space/en/stop/dresden_codex (new 2026-11-24)
 - https://quantumaire.space/en/stop/multiverse
 - https://quantumaire.space/en/stop/tardigrade
 - https://quantumaire.space/en/stop/blue_whale

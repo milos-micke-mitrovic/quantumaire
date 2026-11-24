@@ -117,7 +117,13 @@ function neighbour(rank: number, step: -1 | 1): Stop | null {
     nearest &&
     humanScale(self) &&
     humanScale(nearest) &&
-    (!preferred || ratioTo(preferred) > FAR_NEIGHBOUR)
+    (!preferred ||
+      ratioTo(preferred) > FAR_NEIGHBOUR ||
+      // Two plain "sizes" (the Webb telescope and a carved slab) are no
+      // reason to skip a nearer familiar thing (a giraffe); two heights or
+      // two lengths are (Statue of Liberty → Saturn V).
+      (measureKind(self) === "shape" &&
+        !(self.tags ?? []).some((tag) => (preferred!.tags ?? []).includes(tag))))
   ) {
     return nearest;
   }

@@ -35,10 +35,15 @@ block, mobile check, dump and read generated sentences, log in
 
 ## 3. More ancient sky stories (HUMANKIND, tag `ancient`)
 
-- [ ] Teotihuacan's Pyramid of the Sun (size; the alignment claims as
+- [x] Teotihuacan's Pyramid of the Sun (size; the alignment claims as
       claims), Dendera zodiac (the sky map on a temple ceiling; the
       "ancient electricity" myth), Maya Dresden Codex (Venus table, eclipse
       table). Add to the ancient-astronomy guide.
+      2026-11-24: pyramid_of_the_sun 65 m height (exact tie with Angkor Wat
+      — never named as neighbours), dendera_zodiac 2.55 m slab (Louvre),
+      dresden_codex 3.56 m unfolded ("Unfolded length" label). Guide §4/§5.
+      Size FAQ: at human scale two plain "sizes" no longer beat a nearer
+      familiar thing (JWST → giraffe, not the Dendera slab).
 
 ## 4. Review round 10 topics
 

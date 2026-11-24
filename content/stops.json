@@ -3436,6 +3436,77 @@
       "tags": [
         "phenomenon"
       ]
+    },
+    {
+      "id": "pyramid_of_the_sun",
+      "i18nKey": "stops.pyramid_of_the_sun",
+      "sizeMeters": 65,
+      "order": 6.0065,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/pyramid-of-the-sun.webp",
+        "aspect": "wide",
+        "altKey": "stops.pyramid_of_the_sun.image.alt",
+        "credit": "Mario Roberto Durán Ortiz — CC BY-SA 4.0 (cropped)"
+      },
+      "glossary": [
+        "tzolkin"
+      ],
+      "tags": [
+        "ancient",
+        "landmark"
+      ]
+    },
+    {
+      "id": "dendera_zodiac",
+      "i18nKey": "stops.dendera_zodiac",
+      "sizeMeters": 2.55,
+      "order": 6.0046,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/dendera-zodiac.webp",
+        "aspect": "square",
+        "altKey": "stops.dendera_zodiac.image.alt",
+        "credit": "Shonagon — CC0"
+      },
+      "glossary": [
+        "zodiac",
+        "decan",
+        "ecliptic"
+      ],
+      "tags": [
+        "ancient"
+      ]
+    },
+    {
+      "id": "dresden_codex",
+      "i18nKey": "stops.dresden_codex",
+      "sizeMeters": 3.56,
+      "order": 6.0045,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/dresden-codex.webp",
+        "aspect": "wide",
+        "altKey": "stops.dresden_codex.image.alt",
+        "credit": "SLUB Dresden — public domain"
+      },
+      "glossary": [
+        "synodic_period",
+        "long_count",
+        "ecliptic"
+      ],
+      "tags": [
+        "ancient"
+      ]
     }
   ]
 }
