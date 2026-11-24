@@ -54,7 +54,10 @@ block, mobile check, dump and read generated sentences, log in
 
 ## 5. Pairs, speed, Search Console
 
-- [ ] Pairs that read well (dump EN+SR, read).
+- [x] Pairs that read well (dump EN+SR, read).
+      2026-11-24: pyramid-vs-pyramid-of-the-sun, pyramid-of-the-sun-vs-
+      el-castillo (56). Dropped atlas-3i-vs-oumuamua and halley-vs-atlas-3i
+      (nucleus vs whole body; awkward SR titles; not searched).
 - [ ] Lighthouse spot check (round 9 skipped it: `npx -y lighthouse` was
       blocked by the session permission classifier — ask the owner to allow
       it, or use an installed copy).

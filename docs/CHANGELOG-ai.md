@@ -408,3 +408,6 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Ancient (12): Dresden "reused four times" unsupported → "could stay in use for centuries"; eclipse table off by under three hours (0.111 days); Dendera slabs "upright end to end"; Alvarez's detector ran in the late 1960s; SR Pyramid tagline/meta keep the "may" hedge; „Dijego de Landa“. Confirmed: Champollion's empty cartouche (Nature 2010 review), Louvre arrival 1919, 69 eclipse groups.
 - Bug: the 5 glossary terms of block 3 (tzolkin, zodiac, decan, synodic_period, long_count) were missing — those drafts keyed glossary by term, and the merge script silently skipped them. Added from the drafts; new test: every glossary key a topic lists exists in the locales.
 
+## 2026-11-24 — round 10 block 5: pairs
+- Pairs (56): pyramid-vs-pyramid-of-the-sun (139 vs 65 m, 2.1× taller), pyramid-of-the-sun-vs-el-castillo (2.2×). Dropped atlas-3i-vs-oumuamua, halley-vs-atlas-3i.
+
