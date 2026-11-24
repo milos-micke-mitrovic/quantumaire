@@ -351,3 +351,12 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Guides: quantum-physics related +standard_model/photon/neutron (photon bolded in §4), smallest-things +neutron.
 - Serbian: troje dobrovoljaca, Kavendiševa laboratorija, Chicago Pile-1 kept in the original, Eksperiment Muon g-2.
 
+## 2026-11-24 — round 9 block 3: ancient sky sites
+- New HUMANKIND topics (tag `ancient`, FACT; agent drafts, reviewed):
+  - Göbekli Tepe (`gobekli_tepe`, 20 m = Enclosure D's widest inner diameter; mound 300 m/15 m in the text): PPN ~9500–8000 BC, Schmidt 1994/95, settlement not "temple only" (houses, cisterns, 7,000+ grinding stones), Taş Tepeler, UNESCO 2018. Vulture Stone comet/star-map claim (Sweatman & Tsikritsis 2017) labelled speculative with the excavators' rebuttal; Hancock "no archaeological evidence". Unfinished 7 m / ~50 t quarry pillar as fun fact. Image: Teomancimit CC BY-SA 3.0. SR name „Gobekli Tepe“ (sr.wiki).
+  - Nazca Lines (`nazca_lines`, 47 m = the spider; LENGTH_STOP_IDS): Kosok 1941/Reiche calendar idea, Hawkins 1968 (186 lines, 39 matches, about half expected by chance), Aveni/Urton walking paths and water rituals, von Däniken unsupported; 2024 Sakai et al. PNAS 303 new figures. New `SIZE_LABEL_OVERRIDES` in lib/references.ts: the value reads "Spider length" / „Dužina pauka“. Image: Diego Delso CC BY-SA 4.0 (square, re-encoded q68 to 385 KB).
+  - Angkor Wat (`angkor_wat`, 65 m central tower above ground; HEIGHT_STOP_IDS): Suryavarman II, Vishnu, west-facing, equinox sunrise over the tower from the west entrance; Stencel/Gifford/Morón 1976 yuga distances and Mannikka 1996 as debated readings; Mouhot "made it famous", not discovered. Image: Satdeep Gill CC BY-SA 4.0.
+- New glossary: tell, younger_dryas, geoglyph, mount_meru, yuga.
+- Ancient-astronomy guide: §5 "Equinox suns, desert lines — and what is myth" adds Angkor Wat, Nazca (the tested-and-rejected case) and Göbekli Tepe; related list +3.
+- Client dictionary: SR base was 60,329 > 60,000 chars; taglines of Göbekli/Nazca/Angkor/Abu Simbel cut to ~110 chars.
+- Generated FAQ read in both locales: neighbours Abu Simbel → Nazca spider → Angkor Wat → Goseck; Göbekli sits between giraffe and Stonehenge (JWST 21 m skipped as unrelated near-equal). Dev: 8 pages 200, mobile no overflow.

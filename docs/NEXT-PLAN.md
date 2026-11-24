@@ -33,10 +33,17 @@ generated sentences, log in `docs/CHANGELOG-ai.md`.
 
 ## 3. Ancient sky sites (HUMANKIND, tag `ancient`)
 
-- [ ] Göbekli Tepe (~9600 BC; "star map"/comet claims labelled
+- [x] Göbekli Tepe (~9600 BC; "star map"/comet claims labelled
       speculative), Nazca Lines (geoglyphs; the astronomical-calendar theory
       tested and mostly rejected — say so), Angkor Wat (equinox sunrise
       over the central tower). Add to the ancient-astronomy guide.
+      2026-11-24: gobekli_tepe 20 m (Enclosure D inside; mound 300 m ties
+      Chankillo, pillars 5.5 m tie the giraffe), nazca_lines 47 m (the
+      spider — value label "Spider length" via SIZE_LABEL_OVERRIDES, FAQ
+      subject "the Nazca spider"), angkor_wat 65 m central tower height.
+      Guide §5 now "Equinox suns, desert lines — and what is myth".
+      Taglines of the four newest ancient sites shortened (SR client
+      dictionary hit its 60,000-char budget).
 
 ## 4. Review round 9 topics
 

@@ -301,10 +301,11 @@ const HEIGHT_STOP_IDS = new Set([
   "saturn_v",
   "el_castillo",
   "abu_simbel",
+  "angkor_wat",
   "pillars_of_creation",
 ]);
 const DEPTH_STOP_IDS = new Set(["mariana_trench", "grand_canyon"]);
-const LENGTH_STOP_IDS = new Set(["tardigrade", "blue_whale", "ant", "honeybee", "house_mouse", "house_cat", "sloan_great_wall", "large_hadron_collider", "amazon_river", "sahara", "titanic", "colosseum", "great_wall", "antikythera_mechanism"]);
+const LENGTH_STOP_IDS = new Set(["tardigrade", "blue_whale", "ant", "honeybee", "house_mouse", "house_cat", "sloan_great_wall", "large_hadron_collider", "amazon_river", "sahara", "titanic", "colosseum", "great_wall", "antikythera_mechanism", "nazca_lines"]);
 
 export function sizeMeasure(stop: { id: string }): SizeMeasure {
   if (HEIGHT_STOP_IDS.has(stop.id)) return "height";
@@ -313,8 +314,18 @@ export function sizeMeasure(stop: { id: string }): SizeMeasure {
   return "size";
 }
 
+/**
+ * Topics whose size is one part of them, so "Length 47 m" next to "Nazca
+ * Lines" doesn't read as the whole site's length.
+ */
+const SIZE_LABEL_OVERRIDES: Record<string, string> = {
+  nazca_lines: "common.spiderLength",
+};
+
 /** Label for a topic's size value: "Height" for the Eiffel Tower, "Depth" for the trench. */
 export function sizeLabelKey(stop: { id: string }): string {
+  const override = SIZE_LABEL_OVERRIDES[stop.id];
+  if (override) return override;
   const m = sizeMeasure(stop);
   return m === "size" ? "common.size" : `common.${m}`;
 }

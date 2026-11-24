@@ -3189,6 +3189,76 @@
       "tags": [
         "ancient"
       ]
+    },
+    {
+      "id": "angkor_wat",
+      "i18nKey": "stops.angkor_wat",
+      "sizeMeters": 65,
+      "order": 6.0095,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/angkor-wat.webp",
+        "aspect": "wide",
+        "altKey": "stops.angkor_wat.image.alt",
+        "credit": "Satdeep Gill — CC BY-SA 4.0 (cropped)"
+      },
+      "glossary": [
+        "equinox",
+        "mount_meru",
+        "yuga"
+      ],
+      "tags": [
+        "ancient"
+      ]
+    },
+    {
+      "id": "nazca_lines",
+      "i18nKey": "stops.nazca_lines",
+      "sizeMeters": 47,
+      "order": 6.0091,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/nazca-lines.webp",
+        "aspect": "square",
+        "altKey": "stops.nazca_lines.image.alt",
+        "credit": "Diego Delso — CC BY-SA 4.0 (cropped)"
+      },
+      "glossary": [
+        "geoglyph",
+        "solstice"
+      ],
+      "tags": [
+        "ancient"
+      ]
+    },
+    {
+      "id": "gobekli_tepe",
+      "i18nKey": "stops.gobekli_tepe",
+      "sizeMeters": 20,
+      "order": 6.001,
+      "badge": "FACT",
+      "category": "HUMANKIND",
+      "accent": "text-badge-established",
+      "accentGlow": "shadow-[0_0_60px_rgba(167,139,250,0.4)]",
+      "image": {
+        "src": "/images/gobekli-tepe.webp",
+        "aspect": "wide",
+        "altKey": "stops.gobekli_tepe.image.alt",
+        "credit": "Teomancimit — CC BY-SA 3.0 (cropped)"
+      },
+      "glossary": [
+        "tell",
+        "younger_dryas"
+      ],
+      "tags": [
+        "ancient"
+      ]
     }
   ]
 }

@@ -10,6 +10,9 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - https://quantumaire.space/en/stop/standard_model (new 2026-11-23)
 - https://quantumaire.space/en/stop/photon (new 2026-11-23)
 - https://quantumaire.space/en/stop/neutron (new 2026-11-23)
+- https://quantumaire.space/en/stop/gobekli_tepe (new 2026-11-24)
+- https://quantumaire.space/en/stop/nazca_lines (new 2026-11-24)
+- https://quantumaire.space/en/stop/angkor_wat (new 2026-11-24)
 - https://quantumaire.space/en/stop/multiverse
 - https://quantumaire.space/en/stop/tardigrade
 - https://quantumaire.space/en/stop/blue_whale
