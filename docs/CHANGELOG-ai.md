@@ -360,3 +360,10 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Ancient-astronomy guide: §5 "Equinox suns, desert lines — and what is myth" adds Angkor Wat, Nazca (the tested-and-rejected case) and Göbekli Tepe; related list +3.
 - Client dictionary: SR base was 60,329 > 60,000 chars; taglines of Göbekli/Nazca/Angkor/Abu Simbel cut to ~110 chars.
 - Generated FAQ read in both locales: neighbours Abu Simbel → Nazca spider → Angkor Wat → Goseck; Göbekli sits between giraffe and Stonehenge (JWST 21 m skipped as unrelated near-equal). Dev: 8 pages 200, mobile no overflow.
+
+## 2026-11-24 — round 9 block 4: review of the 9 new topics
+- Moons (11 fixes): Enceladus tiger stripes ~130 km (was 135), drive "four to five hours"; SR Io no longer declined as „Ia/Iu“ (→ „meseca Io“; sr.wiki uses „Ija“ — renaming left to the owner), Ganymede body sentence given a verb, „dvostruko veća“.
+- Particles (18): photon narrative now gives both views of sunlight's escape (10,000–170,000-year random walk vs energy taking ~10⁷ years, Stix) instead of calling the long figure a miscalculation; Hecht: 5–7 photons *absorbed* of ~50–150 reaching the eye; Einstein kept "light quanta"; neutron UCNτ 2025 combined 877.83 s, beam ~887 s; Standard Model neutrino masses need 7 more parameters (9 if Majorana) and the original model's massless neutrinos are named as a failure; proton fact3 "about 1.7 fm across"; glossary beta decay "reverse" (not "mirror"); SR „Strogo uzevši“, „1,6 milijarde“.
+- Ancient (16): Göbekli quarry pillar "50 t and more than a metre taller" (was a weight/height mix-up and 1.4×), Karul leads since 2020; Nazca dating by pottery along the lines and figure likeness (unsourced "AD 50–300 at the monkey" dropped), Aveni: "not mainly sightlines"; Angkor: Morón of the 1976 Science paper later published as Eleanor Mannikka (Angkor Database: Mannikka co-authored the 1976 Science article), "three Michigan researchers" dropped, 162.6 ha is the whole site; SR „Sama Marija Rajhe“.
+- Mobile check (dev): 9 topics + 3 guides, no overflow.
+

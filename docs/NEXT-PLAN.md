@@ -47,7 +47,10 @@ generated sentences, log in `docs/CHANGELOG-ai.md`.
 
 ## 4. Review round 9 topics
 
-- [ ] Facts vs sources (agents), Serbian review, desktop + mobile pass.
+- [x] Facts vs sources (agents), Serbian review, desktop + mobile pass.
+      2026-11-24: 3 agent reviews, 45 fixes (see changelog); mobile OK on
+      all 9 topics + moons/quantum/ancient guides (dev). Desktop not
+      re-screenshotted (no new components).
 
 ## 5. Pairs, speed, Search Console
 
