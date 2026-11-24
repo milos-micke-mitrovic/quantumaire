@@ -369,7 +369,7 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 
 ## 2026-11-24 — round 9 block 5: pairs
 - Pairs (54): ganymede-vs-mercury ("1.08 times bigger": the moon wider than a planet), ganymede-vs-moon, pyramid-vs-angkor-wat (two heights: 139 vs 65 m). Dropped io-vs-moon (1.05×), enceladus-vs-moon, stonehenge-vs-gobekli-tepe (people search it for age; Enclosure D vs the sarsen circle says little).
-- Noticed, not changed: pair pages say "From Earth, Ganymede is about 779 million km away" — that is Jupiter's distance from the Sun (site-wide convention for outer-planet topics).
+- Checked: "From Earth, Ganymede is about 779 million km away" uses Jupiter's distance from the Sun, but the time-averaged Earth–Jupiter distance is ~5.3 AU ≈ 790 million km, so it is within 2% (inner planets use their average distance from Earth). No change.
 - Lighthouse spot check skipped: `npx -y lighthouse` was blocked by the session's permission classifier.
 - Indexing queue: +3 new topics, +3 pairs.
 
