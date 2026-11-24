@@ -4,17 +4,6 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 
 ## Queue (next first)
 
-- https://quantumaire.space/en/stop/antikythera_mechanism (new 2026-11-21)
-- https://quantumaire.space/en/stop/quantum_tunnelling (new 2026-11-22)
-- https://quantumaire.space/en/stop/pauli_exclusion_principle (new 2026-11-22)
-- https://quantumaire.space/en/stop/atomic_nucleus (new 2026-11-22)
-- https://quantumaire.space/en/stop/visible_light (new 2026-11-22)
-- https://quantumaire.space/en/stop/mitochondrion (new 2026-11-22)
-- https://quantumaire.space/en/stop/chankillo (new 2026-11-22)
-- https://quantumaire.space/en/stop/goseck_circle (new 2026-11-22)
-- https://quantumaire.space/en/stop/abu_simbel (new 2026-11-22)
-- https://quantumaire.space/en/compare/goseck-circle-vs-stonehenge (new 2026-11-22)
-- https://quantumaire.space/en/compare/pyramid-vs-abu-simbel (new 2026-11-22)
 - https://quantumaire.space/en/stop/ganymede (new 2026-11-23)
 - https://quantumaire.space/en/stop/io (new 2026-11-23)
 - https://quantumaire.space/en/stop/enceladus (new 2026-11-23)
@@ -132,3 +121,5 @@ Quota ≈ 10 "Request indexing" per day. Sitemap: https://quantumaire.space/site
 - 2026-11-21 (~16:45): /en/compare/milky-way-vs-andromeda; /en/stop/{string_theory,gravity,wormhole,time_dilation,gravitational_waves,quantum_entanglement,planck_length,higgs_boson,antimatter,big_bang} — then "Quota Exceeded" on multiverse (11 accepted); resume with multiverse.
 - 2026-11-22 (~13:00): "Quota Exceeded" on the first URL (ancient-astronomy) — yesterday's 16:45 batch still blocks (rolling 24 h). Round 7 pages moved to the front; next batch after ~17:00.
 - 2026-11-23 (~11:20): /en/topics/ancient-astronomy; /en/stop/{nebra_sky_disc,newgrange,el_castillo,saturn_rings,kuiper_belt,trappist_1,pillars_of_creation,cosmic_microwave_background,quantum_superposition} (kuiper_belt + trappist_1 sent but confirmation not seen) — antikythera_mechanism got "Something went wrong", retry hit "Quota Exceeded" (10 accepted); resume with antikythera_mechanism.
+- 2026-11-24: /en/stop/{antikythera_mechanism,quantum_tunnelling,pauli_exclusion_principle,atomic_nucleus,visible_light,mitochondrion,chankillo,goseck_circle,abu_simbel};
+  /en/compare/{goseck-circle-vs-stonehenge,pyramid-vs-abu-simbel} (mitochondrion needed one retry after "Something went wrong") — then "Quota Exceeded" on ganymede (11 accepted); resume with ganymede.
