@@ -2356,5 +2356,119 @@
       "label": "Serbian Wikipedia — Планета девет (spelling Planeta devet; Konstantin Batigin, Majkl Braun; ekstremni transneptunski objekti; 5–10 Zemljinih masa; 400–800 AJ, later 290 ± 30 AJ; 2017 OF201 and 2023 KQ14 challenge the hypothesis)",
       "url": "https://sr.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0_%D0%B4%D0%B5%D0%B2%D0%B5%D1%82"
     }
+  ],
+  "muon": [
+    {
+      "label": "Wikipedia — Muon (mass 105.66 MeV/c², about 206.77 electron masses; mean lifetime 2.1969811 µs; discovered by Anderson and Neddermeyer at Caltech in 1936 in cosmic rays, confirmed by Street and Stevenson in 1937; Rabi's 'Who ordered that?'; about 10,000 muons per square metre per minute at sea level; time dilation lets them reach the ground; muonic hydrogen; muon-catalysed fusion; muon tomography from Alvarez's Khafre search to the 2017 void in Khufu's pyramid)",
+      "url": "https://en.wikipedia.org/wiki/Muon"
+    },
+    {
+      "label": "NIST CODATA 2022 — muon-to-electron mass ratio 206.7682827",
+      "url": "https://physics.nist.gov/cgi-bin/cuu/Value?mmusme"
+    },
+    {
+      "label": "Particle Data Group (2022) — Review of cosmic rays, §30.3 Muons at the surface (most muons are produced typically 15 km up and lose about 2 GeV before reaching the ground; mean energy at the ground about 4 GeV; integral vertical intensity about 70 m⁻² s⁻¹ sr⁻¹, i.e. about 1 cm⁻² min⁻¹ for horizontal detectors)",
+      "url": "https://pdg.lbl.gov/2022/reviews/rpp2022-rev-cosmic-rays.pdf"
+    },
+    {
+      "label": "Wikipedia — Experimental testing of time dilation (Rossi–Hall: Echo Lake 3,240 m vs Denver 1,616 m, muons above 0.99c; Frisch–Smith 1962 film / 1963 paper: about 563 muons per hour on Mount Washington (1,917 m), about 412 per hour at sea level in Cambridge against about 27 expected without time dilation, dilation factor 8.8 ± 0.8; Bailey et al. 1977 CERN muon storage ring)",
+      "url": "https://en.wikipedia.org/wiki/Experimental_testing_of_time_dilation"
+    },
+    {
+      "label": "Morishima et al. (2017, Nature) — Discovery of a big void in Khufu's Pyramid by observation of cosmic-ray muons (void above the Grand Gallery with a similar cross-section and at least 30 m long; seen with nuclear emulsion films (Nagoya), scintillator hodoscopes (KEK) and gas detectors (CEA))",
+      "url": "https://arxiv.org/abs/1711.01576"
+    },
+    {
+      "label": "Fermilab (3 June 2025) — Muon g-2 announces most precise measurement of the magnetic anomaly of the muon (final value 0.001 165 920 705, precision 127 parts per billion; data 2018–2023; the Theory Initiative's new prediction lies close to it, the gap between data-driven and lattice methods remains unresolved; ring moved from Brookhaven in 2013; J-PARC follow-up in the 2030s)",
+      "url": "https://news.fnal.gov/2025/06/muon-g-2-most-precise-measurement-of-muon-magnetic-anomaly/"
+    },
+    {
+      "label": "CERN — Muon collider (muons are about 200 times heavier than electrons and emit about two billion times less synchrotron radiation; a 10 TeV muon collider could rival a 100 TeV proton collider; the 2.2 µs lifetime is the main technical hurdle; International Muon Collider Collaboration design study)",
+      "url": "https://home.cern/science/accelerators/muon-collider"
+    },
+    {
+      "label": "Wikipedia — Muon-catalyzed fusion (predicted by Frank and Sakharov; observed by Alvarez's team in a Berkeley hydrogen bubble chamber in 1956; the muon pulls the nuclei about 200 times closer than in an ordinary molecule; best result about 150 d–t fusions per muon at Los Alamos, short of break-even)",
+      "url": "https://en.wikipedia.org/wiki/Muon-catalyzed_fusion"
+    },
+    {
+      "label": "Wikipedia (sr) — Mion (Serbian spelling: mion, mioni)",
+      "url": "https://sr.wikipedia.org/wiki/Мион"
+    }
+  ],
+  "superconductivity": [
+    {
+      "label": "Wikipedia — Superconductivity (Kamerlingh Onnes, 8 April 1911: mercury's resistance vanished at 4.2 K; persistent currents with an experimental lifetime of at least 100,000 years, a superconducting gravimeter coil current in Belgium kept from 4 August 1995 to 31 March 2024; Meissner and Ochsenfeld 1933; BCS theory 1957, Nobel 1972; Bednorz and Müller's cuprates 1986, Nobel 1987; YBCO about 92–93 K above liquid nitrogen's 77 K; mercury cuprates above 130 K; MgB₂ 39 K; MRI magnets and SQUIDs)",
+      "url": "https://en.wikipedia.org/wiki/Superconductivity"
+    },
+    {
+      "label": "NobelPrize.org — Physics 1987: J. Georg Bednorz and K. Alexander Müller 'for their important break-through in the discovery of superconductivity in ceramic materials'",
+      "url": "https://www.nobelprize.org/prizes/physics/1987/summary/"
+    },
+    {
+      "label": "Drozdov, Eremets et al. (2015, Nature) — Conventional superconductivity at 203 K at high pressures in the sulfur hydride system (H₃S formed from H₂S under pressure; isotope effect consistent with BCS; notes the cuprate record of 133 K at ambient and 164 K at high pressure, whose mechanism 'has still not been explained')",
+      "url": "https://arxiv.org/abs/1506.08190"
+    },
+    {
+      "label": "Drozdov, Eremets et al. (2019, Nature) — Superconductivity at 250 K in lanthanum hydride under high pressures (LaH₁₀, about 170 GPa; zero resistance, isotope effect and the drop of Tc in a magnetic field)",
+      "url": "https://arxiv.org/abs/1812.01561"
+    },
+    {
+      "label": "Deng, Chu et al. (2026, PNAS) — Ambient-pressure 151-K superconductivity in HgBa₂Ca₂Cu₃O₈₊δ via pressure quench (Hg-1223: about 133 K as made, 164 K under pressure; 139–151 K kept at ambient pressure after pressure quenching; the ambient-pressure record had been unchanged since 1993)",
+      "url": "https://arxiv.org/abs/2603.12437"
+    },
+    {
+      "label": "Nature news (7 November 2023) — Nature retracts controversial superconductivity paper by embattled physicist (Ranga Dias's March 2023 claim of near-room-temperature superconductivity in nitrogen-doped lutetium hydride; his 2020 carbonaceous sulfur hydride paper had been retracted in 2022)",
+      "url": "https://www.nature.com/articles/d41586-023-03398-4"
+    },
+    {
+      "label": "Nature news (16 August 2023) — LK-99 isn't a superconductor: how science sleuths solved the mystery (copper sulfide impurities explain the resistance drop near 104 °C and the partial levitation; pure crystals are insulators)",
+      "url": "https://www.nature.com/articles/d41586-023-02585-7"
+    },
+    {
+      "label": "CERN — Pulling together: superconducting electromagnets (1,232 main dipoles, each 15 m long, 8.3 tesla, 11,080 amperes)",
+      "url": "https://home.cern/science/engineering/pulling-together-superconducting-electromagnets"
+    },
+    {
+      "label": "Wikipedia (sr) — Superprovodnost (Serbian term: superprovodnost, superprovodnik; Majsnerov efekat, Kuperovi parovi)",
+      "url": "https://sr.wikipedia.org/wiki/Суперпроводност"
+    }
+  ],
+  "quantum_computing": [
+    {
+      "label": "Wikipedia — Quantum computing (qubits in superposition and entanglement; algorithms rely on interference, a measurement gives one outcome; Feynman's 1981 proposal and Deutsch's 1985 universal quantum computer; Shor's algorithm 1994 and Grover's quadratic speed-up; platforms: superconducting circuits, trapped ions, neutral atoms, photons; decoherence and the need for error correction; no exponential speed-up known for most everyday problems)",
+      "url": "https://en.wikipedia.org/wiki/Quantum_computing"
+    },
+    {
+      "label": "Wikipedia — Quantum supremacy (Google's 53-qubit Sycamore, October 2019: about 200 seconds versus Google's estimate of 10,000 years; IBM's counter-estimate of 2.5 days; later tensor-network simulations — 15 hours on 512 GPUs, 2022 — closed the gap; photonic boson-sampling claims from China)",
+      "url": "https://en.wikipedia.org/wiki/Quantum_supremacy"
+    },
+    {
+      "label": "Arute et al. (2019), Nature 574:505 — 'Quantum supremacy using a programmable superconducting processor' (Sycamore, 53 working qubits; random circuit sampling in about 200 seconds)",
+      "url": "https://www.nature.com/articles/s41586-019-1666-5"
+    },
+    {
+      "label": "Google Quantum AI (2025), Nature 638:920 — 'Quantum error correction below the surface code threshold' (Willow, 105 qubits; surface-code logical qubits of distance 3, 5 and 7; logical error rate roughly halves with each step up; the distance-7 logical qubit outlives its best physical qubit) — with Google's Willow announcement of 9 December 2024 (random circuit sampling in under 5 minutes versus an estimated 10²⁵ years on the Frontier supercomputer; qubit lifetimes near 100 µs)",
+      "url": "https://www.nature.com/articles/s41586-024-08449-y"
+    },
+    {
+      "label": "Google Research blog (22 October 2025) — 'A verifiable quantum advantage' (Quantum Echoes / out-of-time-order correlator on 65 of Willow's 105 qubits, published in Nature; Google estimates each data point would take about 3.2 years on Frontier, about 13,000 times longer; result can be checked by another quantum computer of similar quality; separate proof-of-principle molecule experiment matched NMR)",
+      "url": "https://research.google/blog/a-verifiable-quantum-advantage/"
+    },
+    {
+      "label": "Gidney (May 2025), arXiv:2505.15917 — 'How to factor 2048 bit RSA integers with less than a million noisy qubits' (under a week of run time; assumes 0.1% gate error, 1 µs surface-code cycle; 20 times fewer qubits than the 2019 estimate of 20 million)",
+      "url": "https://arxiv.org/abs/2505.15917"
+    },
+    {
+      "label": "Gutmann & Neuhaus (2025), IACR ePrint 2025/1237 — 'Replication of Quantum Factorisation Records with an 8-bit Home Computer, an Abacus, and a Dog' (published quantum factoring records such as 15 and 21 rely on preprocessing that already uses the answer; matched with a 1981 VIC-20, an abacus and a dog)",
+      "url": "https://eprint.iacr.org/2025/1237"
+    },
+    {
+      "label": "NIST (13 August 2024) — 'NIST Releases First 3 Finalized Post-Quantum Encryption Standards' (FIPS 203 ML-KEM, FIPS 204 ML-DSA, FIPS 205 SLH-DSA; designed to resist attacks by future quantum computers; organisations urged to start migrating now)",
+      "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards"
+    },
+    {
+      "label": "Serbian Wikipedia — Квантни рачунар (kvantni računar; kubiti, superpozicija, Šorov algoritam)",
+      "url": "https://sr.wikipedia.org/wiki/Квантни_рачунар"
+    }
   ]
 }

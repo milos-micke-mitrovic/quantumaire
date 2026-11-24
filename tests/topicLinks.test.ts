@@ -35,4 +35,12 @@ describe("linkTopicNames", () => {
   it("is case-sensitive, so ordinary words stay plain", () => {
     expect(linkTopicNames("every cell divides", NAMES, new Set())).toEqual(["every cell divides"]);
   });
+
+  it("ignores case inside bold text (a deliberate mention)", () => {
+    const qe = [{ id: "quantum_entanglement", name: "Quantum Entanglement" }];
+    expect(linkTopicNames("Quantum entanglement", qe, new Set(), "en", true)).toEqual([
+      { id: "quantum_entanglement", text: "Quantum entanglement" },
+    ]);
+    expect(linkTopicNames("Quantum entanglement", qe, new Set(), "en")).toEqual(["Quantum entanglement"]);
+  });
 });

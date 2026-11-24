@@ -3360,6 +3360,82 @@
       "tags": [
         "hypothetical"
       ]
+    },
+    {
+      "id": "muon",
+      "i18nKey": "stops.muon",
+      "sizeMeters": null,
+      "order": 1.66,
+      "badge": "FACT",
+      "category": "MICRO_WORLD",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/muon.webp",
+        "aspect": "wide",
+        "altKey": "stops.muon.image.alt",
+        "credit": "Reidar Hahn / Fermilab — CC BY-SA 4.0 (cropped)"
+      },
+      "glossary": [
+        "lepton",
+        "cosmic_ray",
+        "special_relativity",
+        "weak_force"
+      ],
+      "tags": [
+        "particle"
+      ]
+    },
+    {
+      "id": "superconductivity",
+      "i18nKey": "stops.superconductivity",
+      "sizeMeters": null,
+      "order": 7.085,
+      "badge": "FACT",
+      "category": "PHYSICS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/superconductivity.webp",
+        "aspect": "wide",
+        "altKey": "stops.superconductivity.image.alt",
+        "credit": "Julien Bobroff, Frédéric Bouquet, Jeffrey Quilliam (LPS Orsay) — CC BY-SA 3.0 (cropped)"
+      },
+      "glossary": [
+        "cooper_pair",
+        "meissner_effect",
+        "josephson_junction",
+        "boson"
+      ],
+      "tags": [
+        "phenomenon"
+      ]
+    },
+    {
+      "id": "quantum_computing",
+      "i18nKey": "stops.quantum_computing",
+      "sizeMeters": null,
+      "order": 3.63,
+      "badge": "FACT",
+      "category": "PHYSICS",
+      "accent": "text-badge-fact",
+      "accentGlow": "shadow-[0_0_60px_rgba(34,211,238,0.35)]",
+      "image": {
+        "src": "/images/quantum-computing.webp",
+        "aspect": "square",
+        "altKey": "stops.quantum_computing.image.alt",
+        "credit": "OJB Quantum — CC BY 4.0 (cropped)"
+      },
+      "glossary": [
+        "qubit",
+        "superposition",
+        "decoherence",
+        "josephson_junction",
+        "quantum_error_correction"
+      ],
+      "tags": [
+        "phenomenon"
+      ]
     }
   ]
 }

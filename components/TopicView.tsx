@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import Link from "next/link";
 import { Fragment } from "react";
-import { tServer } from "@/lib/i18n-server";
+import { tServer, tServerOptional } from "@/lib/i18n-server";
 import type { Topic } from "@/lib/topics";
 import type { Locale } from "@/lib/types";
 import { STOPS } from "@/lib/content";
@@ -38,12 +38,18 @@ export function TopicView({ topic, locale }: TopicViewProps) {
 
   // **bold** / *italic* runs first, then topic names inside each run link
   // to their topic pages, each name once per guide.
-  const names = STOPS.map((s) => ({ id: s.id, name: t(`${s.i18nKey}.name`) }));
+  // Optional `linkName`: how prose names a topic when its title differs
+  // ("General Sherman" for "General Sherman Tree").
+  const names = STOPS.flatMap((s) => {
+    const alias = tServerOptional(locale, `${s.i18nKey}.linkName`);
+    const name = { id: s.id, name: t(`${s.i18nKey}.name`) };
+    return alias ? [name, { id: s.id, name: alias }] : [name];
+  });
   const seen = new Set<string>();
   const linked = [intro, ...sections.map((s) => s.body)].map((text) =>
     parseInline(text).map((run) => ({
       ...run,
-      segments: linkTopicNames(run.text, names, seen, locale),
+      segments: linkTopicNames(run.text, names, seen, locale, run.bold),
     }))
   );
   const renderSegments = (segments: Segment[]) =>

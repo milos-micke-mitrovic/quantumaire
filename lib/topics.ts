@@ -407,7 +407,7 @@ export const TOPICS: Topic[] = [
     slug: "quantum-physics",
     i18nKey: "topics.quantumPhysics",
     sectionCount: 5,
-    relatedStopIds: ["standard_model", "electron", "photon", "wave_particle_duality", "uncertainty_principle", "quantum_superposition", "quantum_entanglement", "quantum_tunnelling", "pauli_exclusion_principle", "visible_light", "quark", "proton", "neutron", "neutrino", "higgs_boson", "antimatter", "atom", "planck_length", "string_theory"],
+    relatedStopIds: ["standard_model", "electron", "muon", "photon", "wave_particle_duality", "uncertainty_principle", "quantum_superposition", "quantum_entanglement", "quantum_tunnelling", "quantum_computing", "superconductivity", "pauli_exclusion_principle", "visible_light", "quark", "proton", "neutron", "neutrino", "higgs_boson", "antimatter", "atom", "planck_length", "string_theory"],
     sources: [
       { label: "Wikipedia — Quantum mechanics", url: "https://en.wikipedia.org/wiki/Quantum_mechanics" },
       { label: "Wikipedia — Standard Model", url: "https://en.wikipedia.org/wiki/Standard_Model" },

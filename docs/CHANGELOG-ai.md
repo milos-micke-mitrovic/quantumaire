@@ -385,3 +385,12 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Planets guide: §1 sentence on Planet Nine (hedged), related +planet_nine; SR §4 case fix („potrebni su … značajna atmosfera … tektonika ploča“).
 - Client dictionary budget 60,000 → 64,000 chars (EN 60,515 / SR 60,831 with 107 topics; ~200 chars per topic of names + taglines).
 
+## 2026-11-24 — round 10 block 2: muon, superconductivity, quantum computing
+- New idea topics (agent drafts, reviewed; relativity/flux numbers recomputed):
+  - Muon (`muon`, MICRO_WORLD, FACT): 207× electron, 2.2 µs; cosmic-ray muons at 0.994c go ~660 m without relativity, ~6 km with γ ≈ 9.1; ~10,000 per m² per minute; Rossi–Hall 1941, Frisch–Smith 1963 (563 vs 412/h, 27 expected), CERN 1977 (γ ≈ 29, 64 µs); muography (Alvarez/Khafre 1960s, Big Void 2017, north-face corridor 2023); g-2 final 2025 worded like standard_model; muon-catalysed fusion as a curiosity. Image: Fermilab g-2 ring, Reidar Hahn CC BY-SA 4.0.
+  - Superconductivity (`superconductivity`, PHYSICS, FACT): Onnes 1911, Meissner 1933, BCS 1957 (established for conventional), cuprates unexplained, 133 K record + 2026 Houston 151 K report "not yet confirmed", hydrides 203 K/250 K at megabar pressure, Dias retractions and LK-99 as failed claims; MRI/LHC/SCMaglev (Shanghai maglev is not superconducting). Image: YBCO levitation, LPS Orsay CC BY-SA 3.0.
+  - Quantum computing (`quantum_computing`, PHYSICS, FACT): demonstrated vs promised vs myths; Sycamore 2019 + classical rebuttals, Willow 2024 below-threshold error correction, Quantum Echoes 2025 as Google's own estimate; Gidney 2025 (<1 million noisy qubits for RSA-2048, "estimates keep falling"); NIST PQC 2024; factoring records matched by a VIC-20, an abacus and a dog. Image: IBM Quantum System One, OJB Quantum CC BY 4.0.
+- New glossary: cosmic_ray, cooper_pair, meissner_effect, qubit, quantum_error_correction.
+- Quantum-physics guide: §3 + quantum computing/superconductivity sentence, §4 + muon; related list +3.
+- Fix (all EN guides): bold mentions like "**electron**" or "**Quantum entanglement**" never linked because EN names are Title Case and matching is case-sensitive. Inside bold runs the match now ignores case (test added); plain prose stays case-sensitive. New optional `stops.<id>.linkName` alias for prose names that differ from the title (general_sherman: "General Sherman" / „General Šerman“).
+

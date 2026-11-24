@@ -22,11 +22,16 @@ block, mobile check, dump and read generated sentences, log in
 
 ## 2. Quantum ideas people search (MICRO_WORLD / PHYSICS)
 
-- [ ] Muon (cosmic-ray muons reaching the ground = time dilation; g-2 link
+- [x] Muon (cosmic-ray muons reaching the ground = time dilation; g-2 link
       to standard_model), superconductivity (zero resistance, Meissner
       effect, MRI magnets; room-temperature claims like LK-99 labelled),
       quantum computing (qubits; what works today vs hype). Add to the
       quantum-physics guide.
+      2026-11-24: muon (MICRO_WORLD idea), superconductivity and
+      quantum_computing (PHYSICS ideas, tag phenomenon), all FACT; in the
+      quantum-physics guide (§3, §4). Fixed: bold mentions in EN guides
+      never auto-linked (Title Case names) — bold runs now match without
+      case; optional `stops.<id>.linkName` alias (General Sherman).
 
 ## 3. More ancient sky stories (HUMANKIND, tag `ancient`)
 
