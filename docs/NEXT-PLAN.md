@@ -1,4 +1,57 @@
-# Next plan (round 9, written 2026-11-23)
+# Next plan (round 10, written 2026-11-24)
+
+**Direction:** same as rounds 8–9 (cosmos + micro/quantum + ancient sky
+stories; no new animals/modern structures; no quiz/game features). Owner
+approved all four blocks on 2026-11-24 and chose to keep the Serbian name
+„Io“ (not „Ija“). Same rules: top to bottom, tick boxes, commit + deploy per
+block, mobile check, dump and read generated sentences, log in
+`docs/CHANGELOG-ai.md`.
+
+## 1. Interstellar visitors + Planet Nine (COSMOS)
+
+- [ ] 'Oumuamua (2017), 2I/Borisov (2019), 3I/ATLAS (2025) — sizes only
+      where sources agree (ranges otherwise); alien-probe claims labelled
+      honestly. Planet Nine (idea, SPECULATIVE): the clustering evidence and
+      the counter-arguments. Wire into guides (comets / solar system).
+
+## 2. Quantum ideas people search (MICRO_WORLD / PHYSICS)
+
+- [ ] Muon (cosmic-ray muons reaching the ground = time dilation; g-2 link
+      to standard_model), superconductivity (zero resistance, Meissner
+      effect, MRI magnets; room-temperature claims like LK-99 labelled),
+      quantum computing (qubits; what works today vs hype). Add to the
+      quantum-physics guide.
+
+## 3. More ancient sky stories (HUMANKIND, tag `ancient`)
+
+- [ ] Teotihuacan's Pyramid of the Sun (size; the alignment claims as
+      claims), Dendera zodiac (the sky map on a temple ceiling; the
+      "ancient electricity" myth), Maya Dresden Codex (Venus table, eclipse
+      table). Add to the ancient-astronomy guide.
+
+## 4. Review round 10 topics
+
+- [ ] Facts vs sources (agents), Serbian review, desktop + mobile pass.
+
+## 5. Pairs, speed, Search Console
+
+- [ ] Pairs that read well (dump EN+SR, read).
+- [ ] Lighthouse spot check (round 9 skipped it: `npx -y lighthouse` was
+      blocked by the session permission classifier — ask the owner to allow
+      it, or use an installed copy).
+- [ ] Indexing: finish the EN queue, then start /sr/ pages of the most
+      important topics.
+- [ ] Re-check speed_of_light CTR (~2026-12-07); rewrite titles of any
+      other page that gets impressions without clicks.
+
+## 6. Carried over (blocked)
+
+- [ ] 404 body server-rendered (Next 16.4.6 is still the latest on
+      2026-11-24: still the `__next_error__` shell).
+
+---
+
+# Done: round 9 (written 2026-11-23; time-gated items carried to round 10)
 
 **Direction:** same as round 8 (cosmos + micro/quantum + ancient sky
 stories; no new animals/modern structures; no quiz/game features — owner
