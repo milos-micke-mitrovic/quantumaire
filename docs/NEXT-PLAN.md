@@ -54,9 +54,15 @@ generated sentences, log in `docs/CHANGELOG-ai.md`.
 
 ## 5. Pairs, speed, Search Console
 
-- [ ] Pairs that read well (dump EN+SR, read); Lighthouse spot check.
+- [x] Pairs that read well (dump EN+SR, read); Lighthouse spot check.
+      2026-11-24: ganymede-vs-mercury, ganymede-vs-moon, pyramid-vs-angkor-wat
+      (54). Dropped io-vs-moon (1.05×), enceladus-vs-moon (not searched),
+      stonehenge-vs-gobekli-tepe (searched for age, not size). Lighthouse
+      not run this time: `npx -y lighthouse` was blocked by the session's
+      permission classifier — rerun when allowed.
 - [ ] Indexing queue: add the round 9 pages, then start the /sr/ pages of
       the most important topics after the EN backlog thins.
+      2026-11-24: all 9 round-9 topics + 3 new pairs are in the queue.
 - [ ] Re-check speed_of_light CTR (~2026-12-07); rewrite titles of any
       other page that gets impressions without clicks.
 

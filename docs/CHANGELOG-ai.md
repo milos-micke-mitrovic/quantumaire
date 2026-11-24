@@ -367,3 +367,9 @@ Dumped every generated sentence (size FAQ ×2 locales, 25 compare pairs, distanc
 - Ancient (16): Göbekli quarry pillar "50 t and more than a metre taller" (was a weight/height mix-up and 1.4×), Karul leads since 2020; Nazca dating by pottery along the lines and figure likeness (unsourced "AD 50–300 at the monkey" dropped), Aveni: "not mainly sightlines"; Angkor: Morón of the 1976 Science paper later published as Eleanor Mannikka (Angkor Database: Mannikka co-authored the 1976 Science article), "three Michigan researchers" dropped, 162.6 ha is the whole site; SR „Sama Marija Rajhe“.
 - Mobile check (dev): 9 topics + 3 guides, no overflow.
 
+## 2026-11-24 — round 9 block 5: pairs
+- Pairs (54): ganymede-vs-mercury ("1.08 times bigger": the moon wider than a planet), ganymede-vs-moon, pyramid-vs-angkor-wat (two heights: 139 vs 65 m). Dropped io-vs-moon (1.05×), enceladus-vs-moon, stonehenge-vs-gobekli-tepe (people search it for age; Enclosure D vs the sarsen circle says little).
+- Noticed, not changed: pair pages say "From Earth, Ganymede is about 779 million km away" — that is Jupiter's distance from the Sun (site-wide convention for outer-planet topics).
+- Lighthouse spot check skipped: `npx -y lighthouse` was blocked by the session's permission classifier.
+- Indexing queue: +3 new topics, +3 pairs.
+
